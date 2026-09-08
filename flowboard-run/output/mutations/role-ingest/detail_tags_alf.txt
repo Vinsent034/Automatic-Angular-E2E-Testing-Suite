@@ -1,0 +1,15 @@
+######### START 1 - a #########
+<ul class="tag-list detail-tags dense" x-test-detail-tags>@for (tag of store.selectedCard()?.tags; track tag) {<li class="tag" [attr.data-tag]="tag">{{ tag }}</li>} @empty {<li class="tag tag-empty" x-test-detail-no-tags>no tags</li>}</ul>
+######### END 1 - a #########
+######### START 2 - b #########
+<ul x-test-detail-tags>@for (tag of store.selectedCard()?.tags; track tag) {<li class="tag" [attr.data-tag]="tag">{{ tag }}</li>} @empty {<li class="tag tag-empty" x-test-detail-no-tags>no tags</li>}</ul>
+######### END 2 - b #########
+######### START 3 - c #########
+<ul data-cls="tag-list detail-tags" x-test-detail-tags>@for (tag of store.selectedCard()?.tags; track tag) {<li class="tag" [attr.data-tag]="tag">{{ tag }}</li>} @empty {<li class="tag tag-empty" x-test-detail-no-tags>no tags</li>}</ul>
+######### END 3 - c #########
+######### START 6 - j #########
+<div class="tag-list detail-tags" x-test-detail-tags>@for (tag of store.selectedCard()?.tags; track tag) {<li class="tag" [attr.data-tag]="tag">{{ tag }}</li>} @empty {<li class="tag tag-empty" x-test-detail-no-tags>no tags</li>}</div>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="dtags-wrap"><ul class="tag-list detail-tags" x-test-detail-tags>@for (tag of store.selectedCard()?.tags; track tag) {<li class="tag" [attr.data-tag]="tag">{{ tag }}</li>} @empty {<li class="tag tag-empty" x-test-detail-no-tags>no tags</li>}</ul></div>
+######### END 7 - k #########

@@ -1,0 +1,571 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.sqlite.SQLiteJDBCLoader in an unnamed module (file:/C:/Users/vince/OneDrive/Desktop/Tirocinio/progetto/Automatic-Angular-E2E-Testing-Suite/mutation-tester/target/mutation-tester-1.0.0-jar-with-dependencies.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+Loaded class: AbsoluteXPathTest
+Loaded abstract class: BaseTest
+Loaded class: KatalonXPathTest
+Loaded class: RelativeXPathTest
+Loaded class: RobulaPlusXPathTest
+Loaded class: RobulaXPathTest
+Loaded class: SeleniumXPathTest
+Loaded factory class: WebDriverFactory
+Found 6 classes to execute.
+Found 20 mutations to apply.
+Starting TypeScript application (npm start)...
+TypeScript application started.
+
+20 out of 20 remaining.
+Mutation mutation_g_tag_mov_html_mut_alpha applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Jun 12, 2026 10:54:01 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+AVVERTENZA: Unable to find CDP implementation matching 148
+Jun 12, 2026 10:54:01 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+AVVERTENZA: Unable to find version of CDP to use for 148.0.7778.218. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[WebDriverFactory] DevTools/sentry-block saltato: You are using a no-op implementation of the CDP. The most likely reason for this is that Selenium was unable to find an implementation of the CDP protocol that matches your browser. Please be sure to include an implementation on the classpath, possibly by adding a new (maven) dependency of `org.seleniumhq.selenium:selenium-devtools-vNN:4.27.0` where `NN` matches the major version of the browser you're using.
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: DevTools Connection
+Test ended: AbsoluteXPathTest [FAILED] Expected condition failed: waiting for presence of element located by: By.xpath: //*[@ng-reflect-router-link='/search'] (tried for 25 second(s) with 500 milliseconds interval)
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [FAILED] Expected condition failed: waiting for element to be clickable: By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::a[1] (tried for 5 second(s) with 500 milliseconds interval)
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [FAILED] Expected condition failed: waiting for element to be clickable: By.xpath: //a[normalize-space()='Search'] (tried for 5 second(s) with 500 milliseconds interval)
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [FAILED] Expected condition failed: waiting for element to be clickable: By.xpath: //*[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [FAILED] Expected condition failed: waiting for element to be clickable: By.xpath: //a[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [FAILED] Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text() 'Search')] (tried for 5 second(s) with 500 milliseconds interval)
+---------------------------------------------
+
+19 out of 20 remaining.
+Mutation mutation_d_text_cont_mod_mut_gamma applied. Waiting for recompile...
+Timeout: typescript application did not recompile in time.
+Application did not recompile.
+Skipping test AbsoluteXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test KatalonXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RelativeXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaPlusXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test SeleniumXPathTest: Application did not recompile.
+---------------------------------------------
+
+18 out of 20 remaining.
+Mutation mutation_d_text_cont_mod_mut_beta applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+17 out of 20 remaining.
+Mutation mutation_a_attr_val_mod_mut_alpha applied. Waiting for recompile...
+Application did not recompile.
+Skipping test AbsoluteXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test KatalonXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RelativeXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaPlusXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test SeleniumXPathTest: Application did not recompile.
+---------------------------------------------
+
+16 out of 20 remaining.
+Mutation mutation_f_tag_mov_container_mut_beta applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+15 out of 20 remaining.
+Mutation mutation_g_tag_mov_html_mut_beta applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [FAILED] element click intercepted: Element <a _ngcontent-ng-c1659590612="" routerlinkactive="active" class="flex gap-4 items-center px-6 nav-link link-subtle transition-all" ng-reflect-router-link-active="active" ng-reflect-router-link="/search" ng-reflect-router-link-active-options="[object Object]" href="/search">...</a> is not clickable at point (148  140). Other element would receive the click: <iframe id="webpack-dev-server-client-overlay" src="about:blank" style="position: fixed; inset: 0px; width: 100vw; height: 100vh; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: 2147483647;"></iframe>
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [FAILED] element click intercepted: Element <a _ngcontent-ng-c1659590612="" routerlinkactive="active" class="flex gap-4 items-center px-6 nav-link link-subtle transition-all" ng-reflect-router-link-active="active" ng-reflect-router-link="/search" ng-reflect-router-link-active-options="[object Object]" href="/search">...</a> is not clickable at point (148  140). Other element would receive the click: <iframe id="webpack-dev-server-client-overlay" src="about:blank" style="position: fixed; inset: 0px; width: 100vw; height: 100vh; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: 2147483647;"></iframe>
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [FAILED] element click intercepted: Element <a _ngcontent-ng-c1659590612="" routerlinkactive="active" class="flex gap-4 items-center px-6 nav-link link-subtle transition-all" ng-reflect-router-link-active="active" ng-reflect-router-link="/search" ng-reflect-router-link-active-options="[object Object]" href="/search">...</a> is not clickable at point (148  140). Other element would receive the click: <iframe id="webpack-dev-server-client-overlay" src="about:blank" style="position: fixed; inset: 0px; width: 100vw; height: 100vh; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: 2147483647;"></iframe>
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [FAILED] element click intercepted: Element <a _ngcontent-ng-c1659590612="" routerlinkactive="active" class="flex gap-4 items-center px-6 nav-link link-subtle transition-all" ng-reflect-router-link-active="active" ng-reflect-router-link="/search" ng-reflect-router-link-active-options="[object Object]" href="/search">...</a> is not clickable at point (148  140). Other element would receive the click: <iframe id="webpack-dev-server-client-overlay" src="about:blank" style="position: fixed; inset: 0px; width: 100vw; height: 100vh; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: 2147483647;"></iframe>
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [FAILED] element click intercepted: Element <a _ngcontent-ng-c1659590612="" routerlinkactive="active" class="flex gap-4 items-center px-6 nav-link link-subtle transition-all" ng-reflect-router-link-active="active" ng-reflect-router-link="/search" ng-reflect-router-link-active-options="[object Object]" href="/search">...</a> is not clickable at point (148  140). Other element would receive the click: <iframe id="webpack-dev-server-client-overlay" src="about:blank" style="position: fixed; inset: 0px; width: 100vw; height: 100vh; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: 2147483647;"></iframe>
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [FAILED] element click intercepted: Element <a _ngcontent-ng-c1659590612="" routerlinkactive="active" class="flex gap-4 items-center px-6 nav-link link-subtle transition-all" ng-reflect-router-link-active="active" ng-reflect-router-link="/search" ng-reflect-router-link-active-options="[object Object]" href="/search">...</a> is not clickable at point (148  140). Other element would receive the click: <iframe id="webpack-dev-server-client-overlay" src="about:blank" style="position: fixed; inset: 0px; width: 100vw; height: 100vh; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: 2147483647;"></iframe>
+---------------------------------------------
+
+14 out of 20 remaining.
+Mutation mutation_a_attr_val_mod_mut_alpha applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [FAILED] element click intercepted: Element <a _ngcontent-ng-c1659590612="" routerlinkactive="active" class="flex gap-4 items-center px-6 nav-link link-subtle transition-all" ng-reflect-router-link-active="active" ng-reflect-router-link="/search" ng-reflect-router-link-active-options="[object Object]" href="/search">...</a> is not clickable at point (148  140). Other element would receive the click: <iframe id="webpack-dev-server-client-overlay" src="about:blank" style="position: fixed; inset: 0px; width: 100vw; height: 100vh; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: 2147483647;"></iframe>
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [FAILED] element click intercepted: Element <a _ngcontent-ng-c1659590612="" routerlinkactive="active" class="flex gap-4 items-center px-6 nav-link link-subtle transition-all" ng-reflect-router-link-active="active" ng-reflect-router-link="/search" ng-reflect-router-link-active-options="[object Object]" href="/search">...</a> is not clickable at point (148  140). Other element would receive the click: <iframe id="webpack-dev-server-client-overlay" src="about:blank" style="position: fixed; inset: 0px; width: 100vw; height: 100vh; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: 2147483647;"></iframe>
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [FAILED] element click intercepted: Element <a _ngcontent-ng-c1659590612="" routerlinkactive="active" class="flex gap-4 items-center px-6 nav-link link-subtle transition-all" ng-reflect-router-link-active="active" ng-reflect-router-link="/search" ng-reflect-router-link-active-options="[object Object]" href="/search">...</a> is not clickable at point (148  140). Other element would receive the click: <iframe id="webpack-dev-server-client-overlay" src="about:blank" style="position: fixed; inset: 0px; width: 100vw; height: 100vh; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: 2147483647;"></iframe>
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [FAILED] element click intercepted: Element <a _ngcontent-ng-c1659590612="" routerlinkactive="active" class="flex gap-4 items-center px-6 nav-link link-subtle transition-all" ng-reflect-router-link-active="active" ng-reflect-router-link="/search" ng-reflect-router-link-active-options="[object Object]" href="/search">...</a> is not clickable at point (148  140). Other element would receive the click: <iframe id="webpack-dev-server-client-overlay" src="about:blank" style="position: fixed; inset: 0px; width: 100vw; height: 100vh; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: 2147483647;"></iframe>
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [FAILED] element click intercepted: Element <a _ngcontent-ng-c1659590612="" routerlinkactive="active" class="flex gap-4 items-center px-6 nav-link link-subtle transition-all" ng-reflect-router-link-active="active" ng-reflect-router-link="/search" ng-reflect-router-link-active-options="[object Object]" href="/search">...</a> is not clickable at point (148  140). Other element would receive the click: <iframe id="webpack-dev-server-client-overlay" src="about:blank" style="position: fixed; inset: 0px; width: 100vw; height: 100vh; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: 2147483647;"></iframe>
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [FAILED] element click intercepted: Element <a _ngcontent-ng-c1659590612="" routerlinkactive="active" class="flex gap-4 items-center px-6 nav-link link-subtle transition-all" ng-reflect-router-link-active="active" ng-reflect-router-link="/search" ng-reflect-router-link-active-options="[object Object]" href="/search">...</a> is not clickable at point (148  140). Other element would receive the click: <iframe id="webpack-dev-server-client-overlay" src="about:blank" style="position: fixed; inset: 0px; width: 100vw; height: 100vh; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: 2147483647;"></iframe>
+---------------------------------------------
+
+13 out of 20 remaining.
+Mutation mutation_b_attr_rem_mut_alpha applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+12 out of 20 remaining.
+Mutation mutation_a_attr_val_mod_mut_beta applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [FAILED] element click intercepted: Element <a _ngcontent-ng-c1659590612="" routerlinkactive="active" class="flex gap-4 items-center px-6 nav-link link-subtle transition-all" ng-reflect-router-link-active="active" ng-reflect-router-link="/search" ng-reflect-router-link-active-options="[object Object]" href="/search">...</a> is not clickable at point (148  140). Other element would receive the click: <iframe id="webpack-dev-server-client-overlay" src="about:blank" style="position: fixed; inset: 0px; width: 100vw; height: 100vh; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: 2147483647;"></iframe>
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [FAILED] element click intercepted: Element <a _ngcontent-ng-c1659590612="" routerlinkactive="active" class="flex gap-4 items-center px-6 nav-link link-subtle transition-all" ng-reflect-router-link-active="active" ng-reflect-router-link="/search" ng-reflect-router-link-active-options="[object Object]" href="/search">...</a> is not clickable at point (148  140). Other element would receive the click: <iframe id="webpack-dev-server-client-overlay" src="about:blank" style="position: fixed; inset: 0px; width: 100vw; height: 100vh; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: 2147483647;"></iframe>
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [FAILED] element click intercepted: Element <a _ngcontent-ng-c1659590612="" routerlinkactive="active" class="flex gap-4 items-center px-6 nav-link link-subtle transition-all" ng-reflect-router-link-active="active" ng-reflect-router-link="/search" ng-reflect-router-link-active-options="[object Object]" href="/search">...</a> is not clickable at point (148  140). Other element would receive the click: <iframe id="webpack-dev-server-client-overlay" src="about:blank" style="position: fixed; inset: 0px; width: 100vw; height: 100vh; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: 2147483647;"></iframe>
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [FAILED] element click intercepted: Element <a _ngcontent-ng-c1659590612="" routerlinkactive="active" class="flex gap-4 items-center px-6 nav-link link-subtle transition-all" ng-reflect-router-link-active="active" ng-reflect-router-link="/search" ng-reflect-router-link-active-options="[object Object]" href="/search">...</a> is not clickable at point (148  140). Other element would receive the click: <iframe id="webpack-dev-server-client-overlay" src="about:blank" style="position: fixed; inset: 0px; width: 100vw; height: 100vh; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: 2147483647;"></iframe>
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [FAILED] element click intercepted: Element <a _ngcontent-ng-c1659590612="" routerlinkactive="active" class="flex gap-4 items-center px-6 nav-link link-subtle transition-all" ng-reflect-router-link-active="active" ng-reflect-router-link="/search" ng-reflect-router-link-active-options="[object Object]" href="/search">...</a> is not clickable at point (148  140). Other element would receive the click: <iframe id="webpack-dev-server-client-overlay" src="about:blank" style="position: fixed; inset: 0px; width: 100vw; height: 100vh; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: 2147483647;"></iframe>
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [FAILED] element click intercepted: Element <a _ngcontent-ng-c1659590612="" routerlinkactive="active" class="flex gap-4 items-center px-6 nav-link link-subtle transition-all" ng-reflect-router-link-active="active" ng-reflect-router-link="/search" ng-reflect-router-link-active-options="[object Object]" href="/search">...</a> is not clickable at point (148  140). Other element would receive the click: <iframe id="webpack-dev-server-client-overlay" src="about:blank" style="position: fixed; inset: 0px; width: 100vw; height: 100vh; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: 2147483647;"></iframe>
+---------------------------------------------
+
+11 out of 20 remaining.
+Mutation mutation_f_tag_mov_container_mut_delta applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+10 out of 20 remaining.
+Mutation mutation_g_tag_mov_html_mut_beta applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [FAILED] Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[2]/a (tried for 5 second(s) with 500 milliseconds interval)
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [FAILED] Expected condition failed: waiting for element to be clickable: By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::a[1] (tried for 5 second(s) with 500 milliseconds interval)
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [FAILED] Expected condition failed: waiting for element to be clickable: By.xpath: //a[normalize-space()='Search'] (tried for 5 second(s) with 500 milliseconds interval)
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [FAILED] Expected condition failed: waiting for element to be clickable: By.xpath: //*[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [FAILED] Expected condition failed: waiting for element to be clickable: By.xpath: //a[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [FAILED] Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text() 'Search')] (tried for 5 second(s) with 500 milliseconds interval)
+---------------------------------------------
+
+9 out of 20 remaining.
+Mutation mutation_a_attr_val_mod_mut_gamma applied. Waiting for recompile...
+Application did not recompile.
+Skipping test AbsoluteXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test KatalonXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RelativeXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaPlusXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test SeleniumXPathTest: Application did not recompile.
+---------------------------------------------
+
+8 out of 20 remaining.
+Mutation mutation_e_text_cont_rem_mut_gamma applied. Waiting for recompile...
+Application did not recompile.
+Skipping test AbsoluteXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test KatalonXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RelativeXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaPlusXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test SeleniumXPathTest: Application did not recompile.
+---------------------------------------------
+
+7 out of 20 remaining.
+Mutation mutation_b_attr_rem_mut_beta applied. Waiting for recompile...
+Application did not recompile.
+Skipping test AbsoluteXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test KatalonXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RelativeXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaPlusXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test SeleniumXPathTest: Application did not recompile.
+---------------------------------------------
+
+6 out of 20 remaining.
+Mutation mutation_a_attr_val_mod_mut_delta applied. Waiting for recompile...
+Application did not recompile.
+Skipping test AbsoluteXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test KatalonXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RelativeXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaPlusXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test SeleniumXPathTest: Application did not recompile.
+---------------------------------------------
+
+5 out of 20 remaining.
+Mutation mutation_b_attr_rem_mut_delta applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+4 out of 20 remaining.
+Mutation mutation_e_text_cont_rem_mut_beta applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [FAILED] element click intercepted: Element <a _ngcontent-ng-c1659590612="" routerlinkactive="active" class="flex gap-4 items-center px-6 nav-link link-subtle transition-all" ng-reflect-router-link-active="active" ng-reflect-router-link="/search" ng-reflect-router-link-active-options="[object Object]" href="/search">...</a> is not clickable at point (148  140). Other element would receive the click: <iframe id="webpack-dev-server-client-overlay" src="about:blank" style="position: fixed; inset: 0px; width: 100vw; height: 100vh; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: 2147483647;"></iframe>
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [FAILED] element click intercepted: Element <a _ngcontent-ng-c1659590612="" routerlinkactive="active" class="flex gap-4 items-center px-6 nav-link link-subtle transition-all" ng-reflect-router-link-active="active" ng-reflect-router-link="/search" ng-reflect-router-link-active-options="[object Object]" href="/search">...</a> is not clickable at point (148  140). Other element would receive the click: <iframe id="webpack-dev-server-client-overlay" src="about:blank" style="position: fixed; inset: 0px; width: 100vw; height: 100vh; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: 2147483647;"></iframe>
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [FAILED] element click intercepted: Element <a _ngcontent-ng-c1659590612="" routerlinkactive="active" class="flex gap-4 items-center px-6 nav-link link-subtle transition-all" ng-reflect-router-link-active="active" ng-reflect-router-link="/search" ng-reflect-router-link-active-options="[object Object]" href="/search">...</a> is not clickable at point (148  140). Other element would receive the click: <iframe id="webpack-dev-server-client-overlay" src="about:blank" style="position: fixed; inset: 0px; width: 100vw; height: 100vh; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: 2147483647;"></iframe>
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [FAILED] element click intercepted: Element <a _ngcontent-ng-c1659590612="" routerlinkactive="active" class="flex gap-4 items-center px-6 nav-link link-subtle transition-all" ng-reflect-router-link-active="active" ng-reflect-router-link="/search" ng-reflect-router-link-active-options="[object Object]" href="/search">...</a> is not clickable at point (148  140). Other element would receive the click: <iframe id="webpack-dev-server-client-overlay" src="about:blank" style="position: fixed; inset: 0px; width: 100vw; height: 100vh; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: 2147483647;"></iframe>
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [FAILED] element click intercepted: Element <a _ngcontent-ng-c1659590612="" routerlinkactive="active" class="flex gap-4 items-center px-6 nav-link link-subtle transition-all" ng-reflect-router-link-active="active" ng-reflect-router-link="/search" ng-reflect-router-link-active-options="[object Object]" href="/search">...</a> is not clickable at point (148  140). Other element would receive the click: <iframe id="webpack-dev-server-client-overlay" src="about:blank" style="position: fixed; inset: 0px; width: 100vw; height: 100vh; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: 2147483647;"></iframe>
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [FAILED] element click intercepted: Element <a _ngcontent-ng-c1659590612="" routerlinkactive="active" class="flex gap-4 items-center px-6 nav-link link-subtle transition-all" ng-reflect-router-link-active="active" ng-reflect-router-link="/search" ng-reflect-router-link-active-options="[object Object]" href="/search">...</a> is not clickable at point (148  140). Other element would receive the click: <iframe id="webpack-dev-server-client-overlay" src="about:blank" style="position: fixed; inset: 0px; width: 100vw; height: 100vh; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: 2147483647;"></iframe>
+---------------------------------------------
+
+3 out of 20 remaining.
+Mutation mutation_b_attr_rem_mut_alpha applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+2 out of 20 remaining.
+Mutation mutation_b_attr_rem_mut_gamma applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+1 out of 20 remaining.
+Mutation mutation_g_tag_mov_html_mut_alpha applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [FAILED] Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[1]/as-input/div/input (tried for 5 second(s) with 500 milliseconds interval)
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [FAILED] Expected condition failed: waiting for visibility of element located by By.xpath: //input (tried for 5 second(s) with 500 milliseconds interval)
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [FAILED] Expected condition failed: waiting for visibility of element located by By.xpath: //input[@placeholder='Artists  songs  albums  or playlists'] (tried for 5 second(s) with 500 milliseconds interval)
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [FAILED] Expected condition failed: waiting for visibility of element located by By.xpath: //input (tried for 5 second(s) with 500 milliseconds interval)
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [FAILED] Expected condition failed: waiting for visibility of element located by By.xpath: //input (tried for 5 second(s) with 500 milliseconds interval)
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [FAILED] Expected condition failed: waiting for visibility of element located by By.cssSelector: .input-container > .ng-untouched (tried for 5 second(s) with 500 milliseconds interval)
+---------------------------------------------
+Executed batches:
+Name,Id,Locator,Tag,Status,Error
+NavbarLinkLi,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,FAILED,Expected condition failed: waiting for presence of element located by: By.xpath: //*[@ng-reflect-router-link='/search'] (tried for 25 second(s) with 500 milliseconds interval)
+NavbarLinkLi,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,FAILED,Expected condition failed: waiting for element to be clickable: By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::a[1] (tried for 5 second(s) with 500 milliseconds interval)
+NavbarLinkLi,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,FAILED,Expected condition failed: waiting for element to be clickable: By.xpath: //a[normalize-space()='Search'] (tried for 5 second(s) with 500 milliseconds interval)
+NavbarLinkLi,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
+NavbarLinkLi,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,FAILED,Expected condition failed: waiting for element to be clickable: By.xpath: //a[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
+NavbarLinkLi,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,FAILED,Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text() 'Search')] (tried for 5 second(s) with 500 milliseconds interval)
+InputField,mutation_d_text_cont_mod_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_d_text_cont_mod_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_d_text_cont_mod_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_d_text_cont_mod_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_d_text_cont_mod_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_d_text_cont_mod_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+NavbarLinkLi,mutation_d_text_cont_mod_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+NavbarLinkLi,mutation_d_text_cont_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
+NavbarLinkLi,mutation_d_text_cont_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
+NavbarLinkLi,mutation_d_text_cont_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+NavbarLinkLi,mutation_d_text_cont_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
+NavbarLinkLi,mutation_d_text_cont_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
+InputField,mutation_a_attr_val_mod_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_a_attr_val_mod_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_a_attr_val_mod_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_a_attr_val_mod_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_a_attr_val_mod_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_a_attr_val_mod_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_f_tag_mov_container_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+InputField,mutation_f_tag_mov_container_mut_beta,KatalonXPathTest,beta,PASSED,null
+InputField,mutation_f_tag_mov_container_mut_beta,RelativeXPathTest,beta,PASSED,null
+InputField,mutation_f_tag_mov_container_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+InputField,mutation_f_tag_mov_container_mut_beta,RobulaXPathTest,beta,PASSED,null
+InputField,mutation_f_tag_mov_container_mut_beta,SeleniumXPathTest,beta,PASSED,null
+InputField,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,FAILED,element click intercepted: Element <a _ngcontent-ng-c1659590612="" routerlinkactive="active" class="flex gap-4 items-center px-6 nav-link link-subtle transition-all" ng-reflect-router-link-active="active" ng-reflect-router-link="/search" ng-reflect-router-link-active-options="[object Object]" href="/search">...</a> is not clickable at point (148  140). Other element would receive the click: <iframe id="webpack-dev-server-client-overlay" src="about:blank" style="position: fixed; inset: 0px; width: 100vw; height: 100vh; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: 2147483647;"></iframe>
+InputField,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,FAILED,element click intercepted: Element <a _ngcontent-ng-c1659590612="" routerlinkactive="active" class="flex gap-4 items-center px-6 nav-link link-subtle transition-all" ng-reflect-router-link-active="active" ng-reflect-router-link="/search" ng-reflect-router-link-active-options="[object Object]" href="/search">...</a> is not clickable at point (148  140). Other element would receive the click: <iframe id="webpack-dev-server-client-overlay" src="about:blank" style="position: fixed; inset: 0px; width: 100vw; height: 100vh; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: 2147483647;"></iframe>
+InputField,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,FAILED,element click intercepted: Element <a _ngcontent-ng-c1659590612="" routerlinkactive="active" class="flex gap-4 items-center px-6 nav-link link-subtle transition-all" ng-reflect-router-link-active="active" ng-reflect-router-link="/search" ng-reflect-router-link-active-options="[object Object]" href="/search">...</a> is not clickable at point (148  140). Other element would receive the click: <iframe id="webpack-dev-server-client-overlay" src="about:blank" style="position: fixed; inset: 0px; width: 100vw; height: 100vh; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: 2147483647;"></iframe>
+InputField,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,FAILED,element click intercepted: Element <a _ngcontent-ng-c1659590612="" routerlinkactive="active" class="flex gap-4 items-center px-6 nav-link link-subtle transition-all" ng-reflect-router-link-active="active" ng-reflect-router-link="/search" ng-reflect-router-link-active-options="[object Object]" href="/search">...</a> is not clickable at point (148  140). Other element would receive the click: <iframe id="webpack-dev-server-client-overlay" src="about:blank" style="position: fixed; inset: 0px; width: 100vw; height: 100vh; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: 2147483647;"></iframe>
+InputField,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,FAILED,element click intercepted: Element <a _ngcontent-ng-c1659590612="" routerlinkactive="active" class="flex gap-4 items-center px-6 nav-link link-subtle transition-all" ng-reflect-router-link-active="active" ng-reflect-router-link="/search" ng-reflect-router-link-active-options="[object Object]" href="/search">...</a> is not clickable at point (148  140). Other element would receive the click: <iframe id="webpack-dev-server-client-overlay" src="about:blank" style="position: fixed; inset: 0px; width: 100vw; height: 100vh; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: 2147483647;"></iframe>
+InputField,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,FAILED,element click intercepted: Element <a _ngcontent-ng-c1659590612="" routerlinkactive="active" class="flex gap-4 items-center px-6 nav-link link-subtle transition-all" ng-reflect-router-link-active="active" ng-reflect-router-link="/search" ng-reflect-router-link-active-options="[object Object]" href="/search">...</a> is not clickable at point (148  140). Other element would receive the click: <iframe id="webpack-dev-server-client-overlay" src="about:blank" style="position: fixed; inset: 0px; width: 100vw; height: 100vh; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: 2147483647;"></iframe>
+SongCard,mutation_a_attr_val_mod_mut_alpha,AbsoluteXPathTest,alpha,FAILED,element click intercepted: Element <a _ngcontent-ng-c1659590612="" routerlinkactive="active" class="flex gap-4 items-center px-6 nav-link link-subtle transition-all" ng-reflect-router-link-active="active" ng-reflect-router-link="/search" ng-reflect-router-link-active-options="[object Object]" href="/search">...</a> is not clickable at point (148  140). Other element would receive the click: <iframe id="webpack-dev-server-client-overlay" src="about:blank" style="position: fixed; inset: 0px; width: 100vw; height: 100vh; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: 2147483647;"></iframe>
+SongCard,mutation_a_attr_val_mod_mut_alpha,KatalonXPathTest,alpha,FAILED,element click intercepted: Element <a _ngcontent-ng-c1659590612="" routerlinkactive="active" class="flex gap-4 items-center px-6 nav-link link-subtle transition-all" ng-reflect-router-link-active="active" ng-reflect-router-link="/search" ng-reflect-router-link-active-options="[object Object]" href="/search">...</a> is not clickable at point (148  140). Other element would receive the click: <iframe id="webpack-dev-server-client-overlay" src="about:blank" style="position: fixed; inset: 0px; width: 100vw; height: 100vh; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: 2147483647;"></iframe>
+SongCard,mutation_a_attr_val_mod_mut_alpha,RelativeXPathTest,alpha,FAILED,element click intercepted: Element <a _ngcontent-ng-c1659590612="" routerlinkactive="active" class="flex gap-4 items-center px-6 nav-link link-subtle transition-all" ng-reflect-router-link-active="active" ng-reflect-router-link="/search" ng-reflect-router-link-active-options="[object Object]" href="/search">...</a> is not clickable at point (148  140). Other element would receive the click: <iframe id="webpack-dev-server-client-overlay" src="about:blank" style="position: fixed; inset: 0px; width: 100vw; height: 100vh; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: 2147483647;"></iframe>
+SongCard,mutation_a_attr_val_mod_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,element click intercepted: Element <a _ngcontent-ng-c1659590612="" routerlinkactive="active" class="flex gap-4 items-center px-6 nav-link link-subtle transition-all" ng-reflect-router-link-active="active" ng-reflect-router-link="/search" ng-reflect-router-link-active-options="[object Object]" href="/search">...</a> is not clickable at point (148  140). Other element would receive the click: <iframe id="webpack-dev-server-client-overlay" src="about:blank" style="position: fixed; inset: 0px; width: 100vw; height: 100vh; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: 2147483647;"></iframe>
+SongCard,mutation_a_attr_val_mod_mut_alpha,RobulaXPathTest,alpha,FAILED,element click intercepted: Element <a _ngcontent-ng-c1659590612="" routerlinkactive="active" class="flex gap-4 items-center px-6 nav-link link-subtle transition-all" ng-reflect-router-link-active="active" ng-reflect-router-link="/search" ng-reflect-router-link-active-options="[object Object]" href="/search">...</a> is not clickable at point (148  140). Other element would receive the click: <iframe id="webpack-dev-server-client-overlay" src="about:blank" style="position: fixed; inset: 0px; width: 100vw; height: 100vh; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: 2147483647;"></iframe>
+SongCard,mutation_a_attr_val_mod_mut_alpha,SeleniumXPathTest,alpha,FAILED,element click intercepted: Element <a _ngcontent-ng-c1659590612="" routerlinkactive="active" class="flex gap-4 items-center px-6 nav-link link-subtle transition-all" ng-reflect-router-link-active="active" ng-reflect-router-link="/search" ng-reflect-router-link-active-options="[object Object]" href="/search">...</a> is not clickable at point (148  140). Other element would receive the click: <iframe id="webpack-dev-server-client-overlay" src="about:blank" style="position: fixed; inset: 0px; width: 100vw; height: 100vh; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: 2147483647;"></iframe>
+InputField,mutation_b_attr_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+InputField,mutation_b_attr_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+InputField,mutation_b_attr_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+InputField,mutation_b_attr_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+InputField,mutation_b_attr_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+InputField,mutation_b_attr_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+SongCard,mutation_a_attr_val_mod_mut_beta,AbsoluteXPathTest,beta,FAILED,element click intercepted: Element <a _ngcontent-ng-c1659590612="" routerlinkactive="active" class="flex gap-4 items-center px-6 nav-link link-subtle transition-all" ng-reflect-router-link-active="active" ng-reflect-router-link="/search" ng-reflect-router-link-active-options="[object Object]" href="/search">...</a> is not clickable at point (148  140). Other element would receive the click: <iframe id="webpack-dev-server-client-overlay" src="about:blank" style="position: fixed; inset: 0px; width: 100vw; height: 100vh; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: 2147483647;"></iframe>
+SongCard,mutation_a_attr_val_mod_mut_beta,KatalonXPathTest,beta,FAILED,element click intercepted: Element <a _ngcontent-ng-c1659590612="" routerlinkactive="active" class="flex gap-4 items-center px-6 nav-link link-subtle transition-all" ng-reflect-router-link-active="active" ng-reflect-router-link="/search" ng-reflect-router-link-active-options="[object Object]" href="/search">...</a> is not clickable at point (148  140). Other element would receive the click: <iframe id="webpack-dev-server-client-overlay" src="about:blank" style="position: fixed; inset: 0px; width: 100vw; height: 100vh; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: 2147483647;"></iframe>
+SongCard,mutation_a_attr_val_mod_mut_beta,RelativeXPathTest,beta,FAILED,element click intercepted: Element <a _ngcontent-ng-c1659590612="" routerlinkactive="active" class="flex gap-4 items-center px-6 nav-link link-subtle transition-all" ng-reflect-router-link-active="active" ng-reflect-router-link="/search" ng-reflect-router-link-active-options="[object Object]" href="/search">...</a> is not clickable at point (148  140). Other element would receive the click: <iframe id="webpack-dev-server-client-overlay" src="about:blank" style="position: fixed; inset: 0px; width: 100vw; height: 100vh; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: 2147483647;"></iframe>
+SongCard,mutation_a_attr_val_mod_mut_beta,RobulaPlusXPathTest,beta,FAILED,element click intercepted: Element <a _ngcontent-ng-c1659590612="" routerlinkactive="active" class="flex gap-4 items-center px-6 nav-link link-subtle transition-all" ng-reflect-router-link-active="active" ng-reflect-router-link="/search" ng-reflect-router-link-active-options="[object Object]" href="/search">...</a> is not clickable at point (148  140). Other element would receive the click: <iframe id="webpack-dev-server-client-overlay" src="about:blank" style="position: fixed; inset: 0px; width: 100vw; height: 100vh; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: 2147483647;"></iframe>
+SongCard,mutation_a_attr_val_mod_mut_beta,RobulaXPathTest,beta,FAILED,element click intercepted: Element <a _ngcontent-ng-c1659590612="" routerlinkactive="active" class="flex gap-4 items-center px-6 nav-link link-subtle transition-all" ng-reflect-router-link-active="active" ng-reflect-router-link="/search" ng-reflect-router-link-active-options="[object Object]" href="/search">...</a> is not clickable at point (148  140). Other element would receive the click: <iframe id="webpack-dev-server-client-overlay" src="about:blank" style="position: fixed; inset: 0px; width: 100vw; height: 100vh; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: 2147483647;"></iframe>
+SongCard,mutation_a_attr_val_mod_mut_beta,SeleniumXPathTest,beta,FAILED,element click intercepted: Element <a _ngcontent-ng-c1659590612="" routerlinkactive="active" class="flex gap-4 items-center px-6 nav-link link-subtle transition-all" ng-reflect-router-link-active="active" ng-reflect-router-link="/search" ng-reflect-router-link-active-options="[object Object]" href="/search">...</a> is not clickable at point (148  140). Other element would receive the click: <iframe id="webpack-dev-server-client-overlay" src="about:blank" style="position: fixed; inset: 0px; width: 100vw; height: 100vh; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: 2147483647;"></iframe>
+SongCard,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+SongCard,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,PASSED,null
+SongCard,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,PASSED,null
+SongCard,mutation_f_tag_mov_container_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+SongCard,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,PASSED,null
+SongCard,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,PASSED,null
+NavbarLinkLi,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,FAILED,Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/angular-spotify-root/as-layout/as-nav-bar/ul/li[2]/a (tried for 5 second(s) with 500 milliseconds interval)
+NavbarLinkLi,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,FAILED,Expected condition failed: waiting for element to be clickable: By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::a[1] (tried for 5 second(s) with 500 milliseconds interval)
+NavbarLinkLi,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,FAILED,Expected condition failed: waiting for element to be clickable: By.xpath: //a[normalize-space()='Search'] (tried for 5 second(s) with 500 milliseconds interval)
+NavbarLinkLi,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,FAILED,Expected condition failed: waiting for element to be clickable: By.xpath: //*[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
+NavbarLinkLi,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,FAILED,Expected condition failed: waiting for element to be clickable: By.xpath: //a[@ng-reflect-router-link='/search'] (tried for 5 second(s) with 500 milliseconds interval)
+NavbarLinkLi,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,FAILED,Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(text() 'Search')] (tried for 5 second(s) with 500 milliseconds interval)
+SongCard,mutation_a_attr_val_mod_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_a_attr_val_mod_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_a_attr_val_mod_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_a_attr_val_mod_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_a_attr_val_mod_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_a_attr_val_mod_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_e_text_cont_rem_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_e_text_cont_rem_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_e_text_cont_rem_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_e_text_cont_rem_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_e_text_cont_rem_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_e_text_cont_rem_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_b_attr_rem_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_b_attr_rem_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_b_attr_rem_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_b_attr_rem_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_b_attr_rem_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_b_attr_rem_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_a_attr_val_mod_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_a_attr_val_mod_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_a_attr_val_mod_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_a_attr_val_mod_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_a_attr_val_mod_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_a_attr_val_mod_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+SongCard,mutation_b_attr_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+SongCard,mutation_b_attr_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+SongCard,mutation_b_attr_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+SongCard,mutation_b_attr_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+SongCard,mutation_b_attr_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+SongCard,mutation_b_attr_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+NavbarLinkLi,mutation_e_text_cont_rem_mut_beta,AbsoluteXPathTest,beta,FAILED,element click intercepted: Element <a _ngcontent-ng-c1659590612="" routerlinkactive="active" class="flex gap-4 items-center px-6 nav-link link-subtle transition-all" ng-reflect-router-link-active="active" ng-reflect-router-link="/search" ng-reflect-router-link-active-options="[object Object]" href="/search">...</a> is not clickable at point (148  140). Other element would receive the click: <iframe id="webpack-dev-server-client-overlay" src="about:blank" style="position: fixed; inset: 0px; width: 100vw; height: 100vh; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: 2147483647;"></iframe>
+NavbarLinkLi,mutation_e_text_cont_rem_mut_beta,KatalonXPathTest,beta,FAILED,element click intercepted: Element <a _ngcontent-ng-c1659590612="" routerlinkactive="active" class="flex gap-4 items-center px-6 nav-link link-subtle transition-all" ng-reflect-router-link-active="active" ng-reflect-router-link="/search" ng-reflect-router-link-active-options="[object Object]" href="/search">...</a> is not clickable at point (148  140). Other element would receive the click: <iframe id="webpack-dev-server-client-overlay" src="about:blank" style="position: fixed; inset: 0px; width: 100vw; height: 100vh; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: 2147483647;"></iframe>
+NavbarLinkLi,mutation_e_text_cont_rem_mut_beta,RelativeXPathTest,beta,FAILED,element click intercepted: Element <a _ngcontent-ng-c1659590612="" routerlinkactive="active" class="flex gap-4 items-center px-6 nav-link link-subtle transition-all" ng-reflect-router-link-active="active" ng-reflect-router-link="/search" ng-reflect-router-link-active-options="[object Object]" href="/search">...</a> is not clickable at point (148  140). Other element would receive the click: <iframe id="webpack-dev-server-client-overlay" src="about:blank" style="position: fixed; inset: 0px; width: 100vw; height: 100vh; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: 2147483647;"></iframe>
+NavbarLinkLi,mutation_e_text_cont_rem_mut_beta,RobulaPlusXPathTest,beta,FAILED,element click intercepted: Element <a _ngcontent-ng-c1659590612="" routerlinkactive="active" class="flex gap-4 items-center px-6 nav-link link-subtle transition-all" ng-reflect-router-link-active="active" ng-reflect-router-link="/search" ng-reflect-router-link-active-options="[object Object]" href="/search">...</a> is not clickable at point (148  140). Other element would receive the click: <iframe id="webpack-dev-server-client-overlay" src="about:blank" style="position: fixed; inset: 0px; width: 100vw; height: 100vh; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: 2147483647;"></iframe>
+NavbarLinkLi,mutation_e_text_cont_rem_mut_beta,RobulaXPathTest,beta,FAILED,element click intercepted: Element <a _ngcontent-ng-c1659590612="" routerlinkactive="active" class="flex gap-4 items-center px-6 nav-link link-subtle transition-all" ng-reflect-router-link-active="active" ng-reflect-router-link="/search" ng-reflect-router-link-active-options="[object Object]" href="/search">...</a> is not clickable at point (148  140). Other element would receive the click: <iframe id="webpack-dev-server-client-overlay" src="about:blank" style="position: fixed; inset: 0px; width: 100vw; height: 100vh; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: 2147483647;"></iframe>
+NavbarLinkLi,mutation_e_text_cont_rem_mut_beta,SeleniumXPathTest,beta,FAILED,element click intercepted: Element <a _ngcontent-ng-c1659590612="" routerlinkactive="active" class="flex gap-4 items-center px-6 nav-link link-subtle transition-all" ng-reflect-router-link-active="active" ng-reflect-router-link="/search" ng-reflect-router-link-active-options="[object Object]" href="/search">...</a> is not clickable at point (148  140). Other element would receive the click: <iframe id="webpack-dev-server-client-overlay" src="about:blank" style="position: fixed; inset: 0px; width: 100vw; height: 100vh; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; z-index: 2147483647;"></iframe>
+SongCard,mutation_b_attr_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+SongCard,mutation_b_attr_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+SongCard,mutation_b_attr_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+SongCard,mutation_b_attr_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+SongCard,mutation_b_attr_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+SongCard,mutation_b_attr_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+SongCard,mutation_b_attr_rem_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+SongCard,mutation_b_attr_rem_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+SongCard,mutation_b_attr_rem_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+SongCard,mutation_b_attr_rem_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+SongCard,mutation_b_attr_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+SongCard,mutation_b_attr_rem_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+InputField,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[1]/as-input/div/input (tried for 5 second(s) with 500 milliseconds interval)
+InputField,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //input (tried for 5 second(s) with 500 milliseconds interval)
+InputField,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //input[@placeholder='Artists  songs  albums  or playlists'] (tried for 5 second(s) with 500 milliseconds interval)
+InputField,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //input (tried for 5 second(s) with 500 milliseconds interval)
+InputField,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //input (tried for 5 second(s) with 500 milliseconds interval)
+InputField,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.cssSelector: .input-container > .ng-untouched (tried for 5 second(s) with 500 milliseconds interval)
+
+
+Test results:
+Locator,Total,Success,Fragility,Obsolescence,Not Compiled
+RelativeXPathTest,20,7,0,7,6
+AbsoluteXPathTest,20,7,0,7,6
+RobulaXPathTest,20,7,0,7,6
+KatalonXPathTest,20,7,0,7,6
+SeleniumXPathTest,20,7,0,7,6
+RobulaPlusXPathTest,20,7,0,7,6
+
+File saved: output\tests\batches.csv
+File saved: output\tests\stats.csv
+
+Tests completed.
+Execution time: 579 seconds.

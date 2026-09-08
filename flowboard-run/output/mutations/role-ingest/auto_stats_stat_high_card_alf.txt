@@ -1,0 +1,15 @@
+######### START 1 - a #########
+<div class="stat-card active" data-stat="high" data-priority="high" x-test-stat-high-card><span class="stat-label" x-test-stat-high-label>High priority</span><span class="stat-value" x-test-stat-high>{{ store.highCount() }}</span></div>
+######### END 1 - a #########
+######### START 2 - b #########
+<div class="stat-card" data-priority="high" x-test-stat-high-card><span class="stat-label" x-test-stat-high-label>High priority</span><span class="stat-value" x-test-stat-high>{{ store.highCount() }}</span></div>
+######### END 2 - b #########
+######### START 3 - c #########
+<div class="stat-card" data-metric="high" data-priority="high" x-test-stat-high-card><span class="stat-label" x-test-stat-high-label>High priority</span><span class="stat-value" x-test-stat-high>{{ store.highCount() }}</span></div>
+######### END 3 - c #########
+######### START 6 - j #########
+<section class="stat-card" data-stat="high" data-priority="high" x-test-stat-high-card><span class="stat-label" x-test-stat-high-label>High priority</span><span class="stat-value" x-test-stat-high>{{ store.highCount() }}</span></section>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="sc-wrap"><div class="stat-card" data-stat="high" data-priority="high" x-test-stat-high-card><span class="stat-label" x-test-stat-high-label>High priority</span><span class="stat-value" x-test-stat-high>{{ store.highCount() }}</span></div></div>
+######### END 7 - k #########

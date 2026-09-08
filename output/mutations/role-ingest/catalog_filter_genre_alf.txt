@@ -1,0 +1,56 @@
+######### START 1 - a #########
+<select class="field-input genre-filter" [value]="genre()" (change)="onGenre($any($event.target).value)" x-test-filter-genre>
+      <option value="">All genres</option>
+      @for (g of genres(); track g) {
+        <option [value]="g">{{ g }}</option>
+      }
+    </select>
+######### END 1 - a #########
+######### START 2 - b #########
+<select [value]="genre()" (change)="onGenre($any($event.target).value)" x-test-filter-genre>
+      <option value="">All genres</option>
+      @for (g of genres(); track g) {
+        <option [value]="g">{{ g }}</option>
+      }
+    </select>
+######### END 2 - b #########
+######### START 3 - c #########
+<select selclass="field-input filter-select" [value]="genre()" (change)="onGenre($any($event.target).value)" x-test-filter-genre>
+      <option value="">All genres</option>
+      @for (g of genres(); track g) {
+        <option [value]="g">{{ g }}</option>
+      }
+    </select>
+######### END 3 - c #########
+######### START 4 - d #########
+<select class="field-input filter-select" [value]="genre()" (change)="onGenre($any($event.target).value)" x-test-filter-genre>
+      <option value="">Any genre</option>
+      @for (g of genres(); track g) {
+        <option [value]="g">{{ g }}</option>
+      }
+    </select>
+######### END 4 - d #########
+######### START 5 - e #########
+<select class="field-input filter-select" [value]="genre()" (change)="onGenre($any($event.target).value)" x-test-filter-genre>
+      <option value=""> </option>
+      @for (g of genres(); track g) {
+        <option [value]="g">{{ g }}</option>
+      }
+    </select>
+######### END 5 - e #########
+######### START 6 - j #########
+<div class="field-input filter-select" [value]="genre()" (change)="onGenre($any($event.target).value)" x-test-filter-genre>
+      <option value="">All genres</option>
+      @for (g of genres(); track g) {
+        <option [value]="g">{{ g }}</option>
+      }
+    </div>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="genre-select-wrap"><select class="field-input filter-select" [value]="genre()" (change)="onGenre($any($event.target).value)" x-test-filter-genre>
+      <option value="">All genres</option>
+      @for (g of genres(); track g) {
+        <option [value]="g">{{ g }}</option>
+      }
+    </select></div>
+######### END 7 - k #########

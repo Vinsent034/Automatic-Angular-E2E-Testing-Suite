@@ -1,0 +1,85 @@
+npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm warn deprecated rimraf@2.7.1: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated har-validator@5.1.5: this library is no longer supported
+npm warn deprecated whatwg-encoding@1.0.5: Use @exodus/bytes instead for a more spec-conformant and faster implementation
+npm warn deprecated request-promise-native@1.0.9: request-promise-native has been deprecated because it extends the now deprecated request package, see https://github.com/request/request/issues/3142
+npm warn deprecated abab@2.0.6: Use your platform's native atob() and btoa() methods instead
+npm warn deprecated w3c-hr-time@1.0.2: Use your platform's native performance.now() and performance.timeOrigin.
+npm warn deprecated domexception@1.0.1: Use your platform's native DOMException instead
+npm warn deprecated left-pad@1.3.0: use String.prototype.padStart()
+npm warn deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm warn deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm warn deprecated coffee-script@1.12.7: CoffeeScript on NPM has moved to "coffeescript" (no hyphen)
+npm warn cleanup Failed to remove some directories [
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Users\\vince\\OneDrive\\Desktop\\Tirocinio\\progetto\\Automatic-Angular-E2E-Testing-Suite\\hook-injector\\test-hooks\\test-guard\\node_modules\\data-urls',
+npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\vince\OneDrive\Desktop\Tirocinio\progetto\Automatic-Angular-E2E-Testing-Suite\hook-injector\test-hooks\test-guard\node_modules\data-urls\node_modules\whatwg-url\lib'] {
+npm warn cleanup       errno: -4048,
+npm warn cleanup       code: 'EPERM',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\vince\\OneDrive\\Desktop\\Tirocinio\\progetto\\Automatic-Angular-E2E-Testing-Suite\\hook-injector\\test-hooks\\test-guard\\node_modules\\data-urls\\node_modules\\whatwg-url\\lib'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Users\\vince\\OneDrive\\Desktop\\Tirocinio\\progetto\\Automatic-Angular-E2E-Testing-Suite\\hook-injector\\test-hooks\\test-guard\\node_modules',
+npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\vince\OneDrive\Desktop\Tirocinio\progetto\Automatic-Angular-E2E-Testing-Suite\hook-injector\test-hooks\test-guard\node_modules\es5-ext\node_modules\es6-iterator\test'] {
+npm warn cleanup       errno: -4048,
+npm warn cleanup       code: 'EPERM',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\vince\\OneDrive\\Desktop\\Tirocinio\\progetto\\Automatic-Angular-E2E-Testing-Suite\\hook-injector\\test-hooks\\test-guard\\node_modules\\es5-ext\\node_modules\\es6-iterator\\test'
+npm warn cleanup     }
+npm warn cleanup   ]
+npm warn cleanup ]
+npm error code 1
+npm error path C:\Users\vince\OneDrive\Desktop\Tirocinio\progetto\Automatic-Angular-E2E-Testing-Suite\hook-injector\test-hooks\test-guard\node_modules\oniguruma
+npm error command failed
+npm error command C:\Windows\system32\cmd.exe /d /s /c node-gyp rebuild
+npm error gyp info it worked if it ends with ok
+npm error gyp info using node-gyp@12.2.0
+npm error gyp info using node@22.19.0 | win32 | x64
+npm error gyp info find Python using Python version 3.13.7 found at "C:\Users\vince\AppData\Local\Programs\Python\Python313\python.exe"
+npm error gyp http GET https://nodejs.org/download/release/v22.19.0/node-v22.19.0-headers.tar.gz
+npm error gyp http 200 https://nodejs.org/download/release/v22.19.0/node-v22.19.0-headers.tar.gz
+npm error gyp http GET https://nodejs.org/download/release/v22.19.0/SHASUMS256.txt
+npm error gyp http GET https://nodejs.org/download/release/v22.19.0/win-x64/node.lib
+npm error gyp http 200 https://nodejs.org/download/release/v22.19.0/SHASUMS256.txt
+npm error gyp http 200 https://nodejs.org/download/release/v22.19.0/win-x64/node.lib
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS --msvs_version was not set on the command line
+npm error gyp ERR! find VS VCINSTALLDIR not set, not running in VS Command Prompt
+npm error gyp ERR! find VS could not use PowerShell to find Visual Studio 2017 or newer, try re-running with '--loglevel silly' for more details.
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS Failure details: undefined
+npm error gyp ERR! find VS could not use PowerShell to find Visual Studio 2017 or newer, try re-running with '--loglevel silly' for more details.
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS Failure details: undefined
+npm error gyp ERR! find VS not looking for VS2017 as it is only supported up to Node.js 21
+npm error gyp ERR! find VS not looking for VS2017 as it is only supported up to Node.js 21
+npm error gyp ERR! find VS not looking for VS2017 as it is only supported up to Node.js 21
+npm error gyp ERR! find VS not looking for VS2015 as it is only supported up to Node.js 18
+npm error gyp ERR! find VS not looking for VS2013 as it is only supported up to Node.js 8
+npm error gyp ERR! find VS 
+npm error gyp ERR! find VS **************************************************************
+npm error gyp ERR! find VS You need to install the latest version of Visual Studio
+npm error gyp ERR! find VS including the "Desktop development with C++" workload.
+npm error gyp ERR! find VS For more information consult the documentation at:
+npm error gyp ERR! find VS https://github.com/nodejs/node-gyp#on-windows
+npm error gyp ERR! find VS **************************************************************
+npm error gyp ERR! find VS 
+npm error gyp ERR! configure error 
+npm error gyp ERR! stack Error: Could not find any Visual Studio installation to use
+npm error gyp ERR! stack at VisualStudioFinder.fail (C:\Users\vince\AppData\Roaming\npm\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:118:11)
+npm error gyp ERR! stack at VisualStudioFinder.findVisualStudio (C:\Users\vince\AppData\Roaming\npm\node_modules\npm\node_modules\node-gyp\lib\find-visualstudio.js:74:17)
+npm error gyp ERR! stack at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+npm error gyp ERR! stack at async createBuildDir (C:\Users\vince\AppData\Roaming\npm\node_modules\npm\node_modules\node-gyp\lib\configure.js:112:18)
+npm error gyp ERR! stack at async run (C:\Users\vince\AppData\Roaming\npm\node_modules\npm\node_modules\node-gyp\bin\node-gyp.js:81:18)
+npm error gyp ERR! System Windows_NT 10.0.26200
+npm error gyp ERR! command "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\vince\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js" "rebuild"
+npm error gyp ERR! cwd C:\Users\vince\OneDrive\Desktop\Tirocinio\progetto\Automatic-Angular-E2E-Testing-Suite\hook-injector\test-hooks\test-guard\node_modules\oniguruma
+npm error gyp ERR! node -v v22.19.0
+npm error gyp ERR! node-gyp -v v12.2.0
+npm error gyp ERR! $npm_package_name oniguruma
+npm error gyp ERR! $npm_package_version 7.2.3
+npm error gyp ERR! not ok
+npm error A complete log of this run can be found in: C:\Users\vince\AppData\Local\npm-cache\_logs\2026-06-11T08_49_45_229Z-debug-0.log

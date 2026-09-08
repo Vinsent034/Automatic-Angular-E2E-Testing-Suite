@@ -1,0 +1,21 @@
+######### START 1 - a #########
+<span class="brand-icon lg" aria-hidden="true" x-test-brand-icon>▤</span>
+######### END 1 - a #########
+######### START 2 - b #########
+<span class="brand-icon" x-test-brand-icon>▤</span>
+######### END 2 - b #########
+######### START 3 - c #########
+<span class="brand-icon" data-hidden="true" x-test-brand-icon>▤</span>
+######### END 3 - c #########
+######### START 4 - d #########
+<span class="brand-icon" aria-hidden="true" x-test-brand-icon>◫</span>
+######### END 4 - d #########
+######### START 5 - e #########
+<span class="brand-icon" aria-hidden="true" x-test-brand-icon></span>
+######### END 5 - e #########
+######### START 6 - j #########
+<i class="brand-icon" aria-hidden="true" x-test-brand-icon>▤</i>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="bi-wrap"><span class="brand-icon" aria-hidden="true" x-test-brand-icon>▤</span></div>
+######### END 7 - k #########

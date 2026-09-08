@@ -1,0 +1,594 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.sqlite.SQLiteJDBCLoader in an unnamed module (file:/C:/Users/vince/OneDrive/Desktop/Tirocinio/progetto/Automatic-Angular-E2E-Testing-Suite/mutation-tester/target/mutation-tester-1.0.0-jar-with-dependencies.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+Loaded class: AbsoluteXPathTest
+Loaded abstract class: BaseTest
+Loaded class: KatalonXPathTest
+Loaded class: RelativeXPathTest
+Loaded class: RobulaPlusXPathTest
+Loaded class: RobulaXPathTest
+Loaded class: SeleniumXPathTest
+Loaded factory class: WebDriverFactory
+Found 6 classes to execute.
+Found 20 mutations to apply.
+Starting TypeScript application (npm start)...
+TypeScript application started.
+
+20 out of 20 remaining.
+Mutation mutation_j_tag_type_mod_mut_beta applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Jun 12, 2026 7:16:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+AVVERTENZA: Unable to find CDP implementation matching 148
+Jun 12, 2026 7:16:02 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+AVVERTENZA: Unable to find version of CDP to use for 148.0.7778.218. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[WebDriverFactory] DevTools/sentry-block saltato: You are using a no-op implementation of the CDP. The most likely reason for this is that Selenium was unable to find an implementation of the CDP protocol that matches your browser. Please be sure to include an implementation on the classpath, possibly by adding a new (maven) dependency of `org.seleniumhq.selenium:selenium-devtools-vNN:4.27.0` where `NN` matches the major version of the browser you're using.
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: DevTools Connection
+Test ended: AbsoluteXPathTest [FAILED] Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[1]/as-input/div/input (tried for 5 second(s) with 500 milliseconds interval)
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+19 out of 20 remaining.
+Mutation mutation_i_tag_rem_mut_alpha applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [FAILED] java.lang.AssertionError
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [FAILED] java.lang.AssertionError
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [FAILED] java.lang.AssertionError
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [FAILED] java.lang.AssertionError
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [FAILED] java.lang.AssertionError
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [FAILED] java.lang.AssertionError
+---------------------------------------------
+
+18 out of 20 remaining.
+Mutation mutation_i_tag_rem_mut_gamma applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [FAILED] Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[1]/as-input/div/input (tried for 5 second(s) with 500 milliseconds interval)
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[3]/div[1]"}
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+17 out of 20 remaining.
+Mutation mutation_k_tag_ins_mut_alpha applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+16 out of 20 remaining.
+Mutation mutation_i_tag_rem_mut_gamma applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[3]/div"}
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[3]/div[1]"}
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//*[3]/*[@class='common-grid']"}
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//div[3]/div"}
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [FAILED] no such element: Unable to locate element: {"method":"css selector" "selector":".ng-star-inserted:nth-child(3) > .common-grid"}
+---------------------------------------------
+
+15 out of 20 remaining.
+Mutation mutation_j_tag_type_mod_mut_beta applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[3]/div"}
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [FAILED] java.lang.AssertionError
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[3]/div[1]"}
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//div[3]/div"}
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+14 out of 20 remaining.
+Mutation mutation_j_tag_type_mod_mut_gamma applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [FAILED] java.lang.AssertionError
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+13 out of 20 remaining.
+Mutation mutation_k_tag_ins_mut_beta applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [FAILED] java.lang.AssertionError
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//*[3]/*[@class='common-grid']"}
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [FAILED] no such element: Unable to locate element: {"method":"css selector" "selector":".ng-star-inserted:nth-child(3) > .common-grid"}
+---------------------------------------------
+
+12 out of 20 remaining.
+Mutation mutation_i_tag_rem_mut_delta applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+11 out of 20 remaining.
+Mutation mutation_j_tag_type_mod_mut_gamma applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+10 out of 20 remaining.
+Mutation mutation_j_tag_type_mod_mut_gamma applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [FAILED] Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[1]/as-input/div/input (tried for 5 second(s) with 500 milliseconds interval)
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[3]/div[1]"}
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+9 out of 20 remaining.
+Mutation mutation_i_tag_rem_mut_beta applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+8 out of 20 remaining.
+Mutation mutation_i_tag_rem_mut_beta applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[3]/div"}
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [FAILED] java.lang.AssertionError
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[3]/div[1]"}
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//*[3]/*[@class='common-grid']"}
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//div[3]/div"}
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [FAILED] no such element: Unable to locate element: {"method":"css selector" "selector":".ng-star-inserted:nth-child(3) > .common-grid"}
+---------------------------------------------
+
+7 out of 20 remaining.
+Mutation mutation_j_tag_type_mod_mut_delta applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+6 out of 20 remaining.
+Mutation mutation_i_tag_rem_mut_alpha applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [FAILED] java.lang.AssertionError
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [FAILED] java.lang.AssertionError
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [FAILED] java.lang.AssertionError
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [FAILED] java.lang.AssertionError
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [FAILED] java.lang.AssertionError
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [FAILED] java.lang.AssertionError
+---------------------------------------------
+
+5 out of 20 remaining.
+Mutation mutation_j_tag_type_mod_mut_alpha applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [FAILED] java.lang.AssertionError
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+4 out of 20 remaining.
+Mutation mutation_j_tag_type_mod_mut_alpha applied. Waiting for recompile...
+Application did not recompile.
+Skipping test AbsoluteXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test KatalonXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RelativeXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaPlusXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test SeleniumXPathTest: Application did not recompile.
+---------------------------------------------
+
+3 out of 20 remaining.
+Mutation mutation_i_tag_rem_mut_gamma applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+2 out of 20 remaining.
+Mutation mutation_j_tag_type_mod_mut_beta applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+1 out of 20 remaining.
+Mutation mutation_j_tag_type_mod_mut_alpha applied. Waiting for recompile...
+Application did not recompile.
+Skipping test AbsoluteXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test KatalonXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RelativeXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaPlusXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test SeleniumXPathTest: Application did not recompile.
+---------------------------------------------
+Executed batches:
+Name,Id,Locator,Tag,Status,Error
+InputField,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[1]/as-input/div/input (tried for 5 second(s) with 500 milliseconds interval)
+InputField,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
+InputField,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
+InputField,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+InputField,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
+InputField,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
+ArtistCard,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,FAILED,java.lang.AssertionError
+ArtistCard,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,java.lang.AssertionError
+ArtistCard,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,FAILED,java.lang.AssertionError
+ArtistCard,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,java.lang.AssertionError
+ArtistCard,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,FAILED,java.lang.AssertionError
+ArtistCard,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,FAILED,java.lang.AssertionError
+InputField,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[1]/as-input/div/input (tried for 5 second(s) with 500 milliseconds interval)
+InputField,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+InputField,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[3]/div[1]"}
+InputField,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+InputField,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+InputField,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+InputField,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+InputField,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+InputField,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+InputField,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+InputField,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+InputField,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+ArtistCard,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[3]/div"}
+ArtistCard,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+ArtistCard,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[3]/div[1]"}
+ArtistCard,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[3]/*[@class='common-grid']"}
+ArtistCard,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[3]/div"}
+ArtistCard,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".ng-star-inserted:nth-child(3) > .common-grid"}
+ArtistCard,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[3]/div"}
+ArtistCard,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,FAILED,java.lang.AssertionError
+ArtistCard,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[3]/div[1]"}
+ArtistCard,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+ArtistCard,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[3]/div"}
+ArtistCard,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
+ArtistCard,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,FAILED,java.lang.AssertionError
+ArtistCard,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+ArtistCard,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+ArtistCard,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+ArtistCard,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+ArtistCard,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+InputField,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,FAILED,java.lang.AssertionError
+InputField,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
+InputField,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
+InputField,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[3]/*[@class='common-grid']"}
+InputField,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
+InputField,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".ng-star-inserted:nth-child(3) > .common-grid"}
+CardTitle,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+CardTitle,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+CardTitle,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+CardTitle,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+CardTitle,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+CardTitle,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+CardTitle,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+CardTitle,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+CardTitle,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+CardTitle,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+CardTitle,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+CardTitle,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+InputField,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[1]/as-input/div/input (tried for 5 second(s) with 500 milliseconds interval)
+InputField,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+InputField,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[3]/div[1]"}
+InputField,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+InputField,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+InputField,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+CardTitle,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+CardTitle,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
+CardTitle,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
+CardTitle,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+CardTitle,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
+CardTitle,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,PASSED,null
+ArtistCard,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[3]/div"}
+ArtistCard,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,FAILED,java.lang.AssertionError
+ArtistCard,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[3]/div[1]"}
+ArtistCard,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[3]/*[@class='common-grid']"}
+ArtistCard,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[3]/div"}
+ArtistCard,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".ng-star-inserted:nth-child(3) > .common-grid"}
+CardTitle,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+CardTitle,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
+CardTitle,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
+CardTitle,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+CardTitle,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
+CardTitle,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+CardTitle,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,FAILED,java.lang.AssertionError
+CardTitle,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,java.lang.AssertionError
+CardTitle,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,FAILED,java.lang.AssertionError
+CardTitle,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,java.lang.AssertionError
+CardTitle,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,FAILED,java.lang.AssertionError
+CardTitle,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,FAILED,java.lang.AssertionError
+CardTitle,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,FAILED,java.lang.AssertionError
+CardTitle,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+CardTitle,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+CardTitle,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+CardTitle,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+CardTitle,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+InputField,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+CardTitle,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+CardTitle,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+CardTitle,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+CardTitle,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+CardTitle,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+CardTitle,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+CardTitle,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+CardTitle,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
+CardTitle,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
+CardTitle,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+CardTitle,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
+CardTitle,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
+ArtistCard,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+
+
+Test results:
+Locator,Total,Success,Fragility,Obsolescence,Not Compiled
+RelativeXPathTest,20,11,4,3,2
+AbsoluteXPathTest,20,7,8,3,2
+RobulaXPathTest,20,13,2,3,2
+KatalonXPathTest,20,14,1,3,2
+SeleniumXPathTest,20,13,2,3,2
+RobulaPlusXPathTest,20,13,2,3,2
+
+File saved: output\tests\batches.csv
+File saved: output\tests\stats.csv
+
+Tests completed.
+Execution time: 433 seconds.

@@ -1,0 +1,21 @@
+######### START 1 - a #########
+<label class="field-label strong" for="field-description" x-test-form-description-label>Description</label>
+######### END 1 - a #########
+######### START 2 - b #########
+<label class="field-label" x-test-form-description-label>Description</label>
+######### END 2 - b #########
+######### START 3 - c #########
+<label class="field-label" data-for="field-description" x-test-form-description-label>Description</label>
+######### END 3 - c #########
+######### START 4 - d #########
+<label class="field-label" for="field-description" x-test-form-description-label>Details</label>
+######### END 4 - d #########
+######### START 5 - e #########
+<label class="field-label" for="field-description" x-test-form-description-label></label>
+######### END 5 - e #########
+######### START 6 - j #########
+<span class="field-label" for="field-description" x-test-form-description-label>Description</span>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="fl-wrap"><label class="field-label" for="field-description" x-test-form-description-label>Description</label></div>
+######### END 7 - k #########

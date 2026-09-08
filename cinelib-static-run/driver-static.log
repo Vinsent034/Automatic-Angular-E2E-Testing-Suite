@@ -1,0 +1,4 @@
+[19:58:38] assegnazione gruppi: catalog=412, moviedetail=244, movieform=166, reviews=185, stats=135
+[19:58:38] GROUP catalog: PENDING=412 | template ripristinati=10
+[22:55:14] GROUP catalog: done in 10588s -> batches-catalog.csv
+[22:55:28] GROUP moviedetail: PENDING=244 | template ripristinati=10

@@ -1,0 +1,28 @@
+######### START 1 - a #########
+<div class="detail-buttons">
+          <button type="button" class="btn btn-favorite" [class.active]="m.favorite" [attr.aria-pressed]="m.favorite" (click)="toggleFavorite()" x-test-detail-favorite>{{ m.favorite ? '♥ In favorites' : '♡ Add to favorites' }}</button>
+          <a [routerLink]="['/movie', m.id, 'edit']" class="btn" x-test-edit-button>Edit</a>
+          <button type="button" class="btn btn-danger" (click)="openDelete()" x-test-delete-button>Delete</button>
+        </div>
+######### END 1 - a #########
+######### START 2 - c #########
+<div data-actions="detail-actions">
+          <button type="button" class="btn btn-favorite" [class.active]="m.favorite" [attr.aria-pressed]="m.favorite" (click)="toggleFavorite()" x-test-detail-favorite>{{ m.favorite ? '♥ In favorites' : '♡ Add to favorites' }}</button>
+          <a [routerLink]="['/movie', m.id, 'edit']" class="btn" x-test-edit-button>Edit</a>
+          <button type="button" class="btn btn-danger" (click)="openDelete()" x-test-delete-button>Delete</button>
+        </div>
+######### END 2 - c #########
+######### START 3 - j #########
+<nav class="detail-actions">
+          <button type="button" class="btn btn-favorite" [class.active]="m.favorite" [attr.aria-pressed]="m.favorite" (click)="toggleFavorite()" x-test-detail-favorite>{{ m.favorite ? '♥ In favorites' : '♡ Add to favorites' }}</button>
+          <a [routerLink]="['/movie', m.id, 'edit']" class="btn" x-test-edit-button>Edit</a>
+          <button type="button" class="btn btn-danger" (click)="openDelete()" x-test-delete-button>Delete</button>
+        </nav>
+######### END 3 - j #########
+######### START 4 - k #########
+<div class="actions-box"><div class="detail-actions">
+          <button type="button" class="btn btn-favorite" [class.active]="m.favorite" [attr.aria-pressed]="m.favorite" (click)="toggleFavorite()" x-test-detail-favorite>{{ m.favorite ? '♥ In favorites' : '♡ Add to favorites' }}</button>
+          <a [routerLink]="['/movie', m.id, 'edit']" class="btn" x-test-edit-button>Edit</a>
+          <button type="button" class="btn btn-danger" (click)="openDelete()" x-test-delete-button>Delete</button>
+        </div></div>
+######### END 4 - k #########

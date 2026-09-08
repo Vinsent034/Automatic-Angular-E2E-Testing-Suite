@@ -1,0 +1,21 @@
+######### START 1 - a #########
+<p class="comment" x-test-review-comment>{{ review.comment }}</p>
+######### END 1 - a #########
+######### START 2 - b #########
+<p x-test-review-comment>{{ review.comment }}</p>
+######### END 2 - b #########
+######### START 3 - c #########
+<p commentclass="review-comment" x-test-review-comment>{{ review.comment }}</p>
+######### END 3 - c #########
+######### START 4 - d #########
+<p class="review-comment" x-test-review-comment>{{ review.comment }}.</p>
+######### END 4 - d #########
+######### START 5 - e #########
+<p class="review-comment" x-test-review-comment> </p>
+######### END 5 - e #########
+######### START 6 - j #########
+<div class="review-comment" x-test-review-comment>{{ review.comment }}</div>
+######### END 6 - j #########
+######### START 7 - k #########
+<span class="comment-wrap"><p class="review-comment" x-test-review-comment>{{ review.comment }}</p></span>
+######### END 7 - k #########

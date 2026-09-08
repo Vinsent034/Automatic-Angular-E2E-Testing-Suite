@@ -1,0 +1,15 @@
+######### START 1 - a #########
+<span class="card-id detail-id big" x-test-detail-id>#{{ store.selectedCard()?.id }}</span>
+######### END 1 - a #########
+######### START 2 - b #########
+<span x-test-detail-id>#{{ store.selectedCard()?.id }}</span>
+######### END 2 - b #########
+######### START 3 - c #########
+<span data-cls="card-id detail-id" x-test-detail-id>#{{ store.selectedCard()?.id }}</span>
+######### END 3 - c #########
+######### START 6 - j #########
+<div class="card-id detail-id" x-test-detail-id>#{{ store.selectedCard()?.id }}</div>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="did-wrap"><span class="card-id detail-id" x-test-detail-id>#{{ store.selectedCard()?.id }}</span></div>
+######### END 7 - k #########

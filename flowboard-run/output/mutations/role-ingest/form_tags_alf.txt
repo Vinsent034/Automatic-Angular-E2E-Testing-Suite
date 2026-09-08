@@ -1,0 +1,15 @@
+######### START 1 - a #########
+<input id="field-tags" name="tags" class="input form-tags" type="text" placeholder="comma separated tags" [(ngModel)]="tagsText" x-test-form-tags>
+######### END 1 - a #########
+######### START 2 - b #########
+<input id="field-tags" name="tags" class="input form-tags" type="text" [(ngModel)]="tagsText" x-test-form-tags>
+######### END 2 - b #########
+######### START 3 - c #########
+<input id="field-tags" name="tags" class="input form-tags" type="text" data-placeholder="e.g. bug, ui" [(ngModel)]="tagsText" x-test-form-tags>
+######### END 3 - c #########
+######### START 6 - j #########
+<textarea id="field-tags" name="tags" class="input form-tags" type="text" placeholder="e.g. bug, ui" [(ngModel)]="tagsText" x-test-form-tags></textarea>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="field-wrap"><input id="field-tags" name="tags" class="input form-tags" type="text" placeholder="e.g. bug, ui" [(ngModel)]="tagsText" x-test-form-tags></div>
+######### END 7 - k #########

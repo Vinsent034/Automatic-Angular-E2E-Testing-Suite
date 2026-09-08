@@ -1,0 +1,21 @@
+######### START 1 - a #########
+<p class="results-line" x-test-result-count>{{ movies().length }} {{ movies().length === 1 ? 'movie' : 'movies' }}</p>
+######### END 1 - a #########
+######### START 2 - b #########
+<p x-test-result-count>{{ movies().length }} {{ movies().length === 1 ? 'movie' : 'movies' }}</p>
+######### END 2 - b #########
+######### START 3 - c #########
+<p pclass="result-count" x-test-result-count>{{ movies().length }} {{ movies().length === 1 ? 'movie' : 'movies' }}</p>
+######### END 3 - c #########
+######### START 4 - d #########
+<p class="result-count" x-test-result-count>{{ movies().length }} results found</p>
+######### END 4 - d #########
+######### START 5 - e #########
+<p class="result-count" x-test-result-count> </p>
+######### END 5 - e #########
+######### START 6 - j #########
+<div class="result-count" x-test-result-count>{{ movies().length }} {{ movies().length === 1 ? 'movie' : 'movies' }}</div>
+######### END 6 - j #########
+######### START 7 - k #########
+<span class="result-count-wrap"><p class="result-count" x-test-result-count>{{ movies().length }} {{ movies().length === 1 ? 'movie' : 'movies' }}</p></span>
+######### END 7 - k #########

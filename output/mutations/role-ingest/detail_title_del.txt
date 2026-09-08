@@ -1,0 +1,9 @@
+######### START 1 - a #########
+<p class="detail-metaline" x-test-detail-meta>{{ m.year }} · {{ m.genre }} · {{ m.runtime }} min · ★ {{ m.rating }}</p>
+######### END 1 - a #########
+######### START 2 - c #########
+<p data-detailmeta="detail-meta" x-test-detail-meta>{{ m.year }} · {{ m.genre }} · {{ m.runtime }} min · ★ {{ m.rating }}</p>
+######### END 2 - c #########
+######### START 3 - d #########
+<p class="detail-meta" x-test-detail-meta>{{ m.year }} · {{ m.genre }} · ★ {{ m.rating }}</p>
+######### END 3 - d #########

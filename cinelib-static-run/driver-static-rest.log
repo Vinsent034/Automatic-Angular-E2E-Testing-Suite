@@ -1,0 +1,3 @@
+[00:37:51] assegnazione gruppi: moviedetail=244, movieform=166, reviews=185, stats=135
+[00:37:52] GROUP moviedetail: PENDING=244 | template ripristinati=10
+[00:42:52] GROUP moviedetail: *** NO batches.csv (app non partita?) ***

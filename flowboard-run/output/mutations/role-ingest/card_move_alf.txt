@@ -1,0 +1,15 @@
+######### START 1 - a #########
+<select class="input select move-select sm" [value]="card().columnId" (change)="onMove($event)" [attr.x-test-card-move]="card().id"><option value="backlog">Backlog</option><option value="inprogress">In Progress</option><option value="review">Review</option><option value="done">Done</option></select>
+######### END 1 - a #########
+######### START 2 - b #########
+<select [value]="card().columnId" (change)="onMove($event)" [attr.x-test-card-move]="card().id"><option value="backlog">Backlog</option><option value="inprogress">In Progress</option><option value="review">Review</option><option value="done">Done</option></select>
+######### END 2 - b #########
+######### START 3 - c #########
+<select data-cls="input select move-select" [value]="card().columnId" (change)="onMove($event)" [attr.x-test-card-move]="card().id"><option value="backlog">Backlog</option><option value="inprogress">In Progress</option><option value="review">Review</option><option value="done">Done</option></select>
+######### END 3 - c #########
+######### START 6 - j #########
+<div class="input select move-select" [value]="card().columnId" (change)="onMove($event)" [attr.x-test-card-move]="card().id"><option value="backlog">Backlog</option><option value="inprogress">In Progress</option><option value="review">Review</option><option value="done">Done</option></div>
+######### END 6 - j #########
+######### START 7 - k #########
+<label class="move-wrap"><select class="input select move-select" [value]="card().columnId" (change)="onMove($event)" [attr.x-test-card-move]="card().id"><option value="backlog">Backlog</option><option value="inprogress">In Progress</option><option value="review">Review</option><option value="done">Done</option></select></label>
+######### END 7 - k #########

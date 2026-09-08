@@ -32,15 +32,39 @@ public class Mutation {
             Path filePath = Paths.get(file.filePath);
             Path tempFile = Files.createTempFile(filePath.getParent(), "java_edit_", ".tmp");
             try {
-
                 file.originalCode = Files.readString(filePath, StandardCharsets.UTF_8);
                 Files.writeString(tempFile, file.mutatedCode, StandardCharsets.UTF_8);
-                Files.move(tempFile, filePath,
-                        StandardCopyOption.REPLACE_EXISTING,
-                        StandardCopyOption.ATOMIC_MOVE);
+                moveWithRetry(tempFile, filePath);
             } catch (IOException e) {
                 Files.deleteIfExists(tempFile);
                 throw e;
+            }
+        }
+    }
+
+    /**
+     * Su Windows, un file appena scritto in una cartella sincronizzata (es. OneDrive) o sotto
+     * osservazione di un watcher (Angular dev server / antivirus) puo' risultare brevemente
+     * bloccato, facendo fallire lo spostamento atomico. Si ritenta poche volte con una breve
+     * attesa prima di rinunciare: se il file resta bloccato, la destinazione NON viene toccata
+     * (garanzia di Files.move), quindi non c'e' rischio di corruzione, solo di fallimento.
+     */
+    private static void moveWithRetry(Path source, Path destination) throws IOException {
+        final int maxAttempts = 5;
+        for (int attempt = 1; attempt <= maxAttempts; attempt++) {
+            try {
+                Files.move(source, destination,
+                        StandardCopyOption.REPLACE_EXISTING,
+                        StandardCopyOption.ATOMIC_MOVE);
+                return;
+            } catch (IOException e) {
+                if (attempt == maxAttempts) throw e;
+                try {
+                    Thread.sleep(300L * attempt);
+                } catch (InterruptedException ie) {
+                    Thread.currentThread().interrupt();
+                    throw e;
+                }
             }
         }
     }

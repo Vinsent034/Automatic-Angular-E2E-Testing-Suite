@@ -1,0 +1,18 @@
+{
+  "types": [
+    {
+      "id": "a",
+      "name": "Attribute Value Modification",
+      "description": "Change the VALUE of an existing attribute on an element, keeping the same attribute name.",
+      "before": "<tag attr=\"value\">text</tag>",
+      "after": "<tag attr=\"newValue\">text</tag>"
+    },
+    {
+      "id": "j",
+      "name": "HTML Tag Type Modification",
+      "description": "Change the tag name of an element (e.g. div -> section), keeping attributes and content.",
+      "before": "<tag attr=\"value\">text</tag>",
+      "after": "<newTag attr=\"value\">text</newTag>"
+    }
+  ]
+}

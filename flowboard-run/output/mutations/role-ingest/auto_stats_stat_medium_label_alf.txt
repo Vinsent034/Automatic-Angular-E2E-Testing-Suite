@@ -1,0 +1,21 @@
+######### START 1 - a #########
+<span class="stat-label muted" x-test-stat-medium-label>Medium priority</span>
+######### END 1 - a #########
+######### START 2 - b #########
+<span x-test-stat-medium-label>Medium priority</span>
+######### END 2 - b #########
+######### START 3 - c #########
+<span data-cls="stat-label" x-test-stat-medium-label>Medium priority</span>
+######### END 3 - c #########
+######### START 4 - d #########
+<span class="stat-label" x-test-stat-medium-label>Normal</span>
+######### END 4 - d #########
+######### START 5 - e #########
+<span class="stat-label" x-test-stat-medium-label></span>
+######### END 5 - e #########
+######### START 6 - j #########
+<div class="stat-label" x-test-stat-medium-label>Medium priority</div>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="sl-wrap"><span class="stat-label" x-test-stat-medium-label>Medium priority</span></div>
+######### END 7 - k #########

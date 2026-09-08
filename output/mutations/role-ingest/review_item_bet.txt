@@ -1,0 +1,30 @@
+######### START 1 - a #########
+<ul class="reviews-list" x-test-review-list>
+    @for (review of reviews(); track review.id) {
+      <li class="review-item" x-test-review-item>
+        <div class="review-head">
+          <span class="review-author" x-test-review-author>{{ review.author }}</span>
+          <span class="review-stars" x-test-review-stars [attr.data-rating]="review.rating">{{ stars(review.rating) }}</span>
+          <span class="review-date" x-test-review-date>{{ review.date }}</span>
+          <button type="button" class="review-remove" (click)="remove(review.id)" aria-label="Remove review" x-test-review-remove>×</button>
+        </div>
+        <p class="review-comment" x-test-review-comment>{{ review.comment }}</p>
+      </li>
+    }
+  </ul>
+######### END 1 - a #########
+######### START 2 - j #########
+<ol class="review-list" x-test-review-list>
+    @for (review of reviews(); track review.id) {
+      <li class="review-item" x-test-review-item>
+        <div class="review-head">
+          <span class="review-author" x-test-review-author>{{ review.author }}</span>
+          <span class="review-stars" x-test-review-stars [attr.data-rating]="review.rating">{{ stars(review.rating) }}</span>
+          <span class="review-date" x-test-review-date>{{ review.date }}</span>
+          <button type="button" class="review-remove" (click)="remove(review.id)" aria-label="Remove review" x-test-review-remove>×</button>
+        </div>
+        <p class="review-comment" x-test-review-comment>{{ review.comment }}</p>
+      </li>
+    }
+  </ol>
+######### END 2 - j #########

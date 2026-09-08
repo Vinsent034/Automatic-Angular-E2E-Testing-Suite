@@ -1,0 +1,138 @@
+# Prompt — Independent Realistic Angular Mutation (LLM strategy)
+
+## Role
+You are a front-end developer working on an Angular 19 template. You make the kind of
+small, plausible changes a real developer or designer makes during everyday UI work and
+redesigns. You decide entirely on your own what to change and where — there are NO
+instructions telling you which element to touch or which kind of edit to apply.
+
+## Task
+You receive the complete source of one Angular template. Produce N variants of it. In each
+variant you autonomously introduce ONE realistic change of your own choosing, somewhere in
+the template. The change should be the sort of thing a developer would actually commit: it
+keeps the page working, but it may reshape how the markup is organised, so test locators may
+or may not react.
+
+## Spread and depth (variety, not direction)
+You decide everything; this only asks for a varied set, NOT where or how to act:
+- Across the N variants, vary BOTH where in the template you act and HOW MUCH you change —
+  from a minor touch up to a single, more substantial restructuring of a piece of markup.
+- Do NOT restrict the set to the smallest cosmetic edits, and do NOT concentrate every
+  variant on the same spot. Cover the template broadly.
+- No two variants may make essentially the same edit.
+
+## Application independence (CRITICAL)
+Operate ONLY on the markup you are given. Do NOT assume anything about which application
+this is, its domain, its features, or its data. Do not invent app-specific names. Use
+exclusively the tags, classes and attributes already present in the provided HTML. The same
+strategy must work unchanged on any Angular application.
+
+## Validity constraints (correctness rules — NOT instructions on what to change)
+1. The result MUST still be valid Angular 19 and compile.
+2. Do NOT alter the syntax of control flow or bindings: `@if`, `@for`, `*ngrxLet`, `[prop]`,
+   `(event)`, `[(two-way)]`, and `{{ }}` interpolations must stay valid.
+3. Do NOT touch attributes starting with `x-test` (they are test ground truth).
+4. Keep the feature usable: do not delete or disable the interactive elements a user needs.
+5. Exactly ONE self-contained change per variant: it may be small or a single larger
+   restructuring, but it must be one coherent edit, not several unrelated ones.
+6. Each variant must genuinely differ from the original (no no-ops) and from every other variant.
+
+## Output format
+For EACH variant output exactly one block and nothing else:
+
+######### START {n} - {label} #########
+{full mutated template}
+######### END {n} - {label} #########
+
+- {n} = progressive number (1..N).
+- {label} = a short free-text word YOU choose to describe the change you made (your own words).
+- The block body is the COMPLETE mutated template.
+- No comments, no explanations, no Markdown code fences.
+
+
+========================================
+
+Here is the complete source of one Angular template.
+Produce exactly 20 variants of it, numbered 1..20, each in its own delimited block exactly as specified above. Decide entirely on your own what to change in each variant. Output ONLY the blocks, nothing else.
+
+----- ORIGINAL TEMPLATE -----
+<div class="mb-6 content-spacing">
+  <!-- Search Input -->
+  <div class="search-input-container">
+    <as-input class="search-control" [control]="searchControl" icon="search" [iconSize]="'lg'" placeholder="Artists, songs, albums, or playlists" [autoFocus]="true" [rounded]="true" [enableClearButton]="true">
+    </as-input>
+    @if (isLoading$ | async) {
+      
+    }
+  </div>
+
+  <!-- Tracks -->
+  @if (tracks$ | async; as tracks) {
+    @if (tracks.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Songs</h2>
+        <as-media-table-header>
+          <div class="album-tracks-grid">
+            <div>#</div>
+            <div class="text-xs uppercase ellipsis-one-line">Title</div>
+            <svg-icon [key]="'clock'" title="Duration"></svg-icon>
+          </div>
+        </as-media-table-header>
+        <div class="mb-8">
+          @for (item of tracks; track item; let idx = $index) {
+            <as-album-track [track]="item" [contextUri]="item.album.uri" [index]="idx + 1">
+            </as-album-track>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Artists -->
+  @if (artists$ | async; as artists) {
+    @if (artists.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Artists</h2>
+        <div class="common-grid">
+          @for (item of artists; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/artist/' + item.id" [description]="item.type | titlecase" [roundedImage]="true" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Albums -->
+  @if (albums$ | async; as albums) {
+    @if (albums.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Albums</h2>
+        <div class="common-grid">
+          @for (item of albums; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [description]="item.artists[0].name" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/albums/' + item.id" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Playlists -->
+  @if (playlists$ | async; as playlists) {
+    @if (playlists.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Playlists</h2>
+        <div class="common-grid">
+          @for (item of playlists; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [description]="item.description" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/playlist/' + item.id" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+
+  <!-- Infinite scroll sentinel -->
+  <div asInfiniteScroll [enabled]="(hasMore$ | async) === true &amp;&amp; (isLoading$ | async) === false" (scrolledToBottom)="loadMore()">
+  </div>
+</div>
+
+----- END ORIGINAL TEMPLATE -----

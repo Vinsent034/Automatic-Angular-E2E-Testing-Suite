@@ -1,0 +1,35 @@
+######### START 1 - a #########
+<select class="field-input sort-select" [value]="sort()" (change)="onSort($any($event.target).value)" x-test-sort>
+      <option value="title">Title (A–Z)</option>
+      <option value="rating">Top rated</option>
+      <option value="year">Newest</option>
+    </select>
+######### END 1 - a #########
+######### START 2 - b #########
+<select [value]="sort()" (change)="onSort($any($event.target).value)" x-test-sort>
+      <option value="title">Title (A–Z)</option>
+      <option value="rating">Top rated</option>
+      <option value="year">Newest</option>
+    </select>
+######### END 2 - b #########
+######### START 3 - c #########
+<select selclass="field-input filter-select" [value]="sort()" (change)="onSort($any($event.target).value)" x-test-sort>
+      <option value="title">Title (A–Z)</option>
+      <option value="rating">Top rated</option>
+      <option value="year">Newest</option>
+    </select>
+######### END 3 - c #########
+######### START 4 - j #########
+<div class="field-input filter-select" [value]="sort()" (change)="onSort($any($event.target).value)" x-test-sort>
+      <option value="title">Title (A–Z)</option>
+      <option value="rating">Top rated</option>
+      <option value="year">Newest</option>
+    </div>
+######### END 4 - j #########
+######### START 5 - k #########
+<div class="sort-select-wrap"><select class="field-input filter-select" [value]="sort()" (change)="onSort($any($event.target).value)" x-test-sort>
+      <option value="title">Title (A–Z)</option>
+      <option value="rating">Top rated</option>
+      <option value="year">Newest</option>
+    </select></div>
+######### END 5 - k #########

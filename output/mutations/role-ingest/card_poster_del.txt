@@ -1,0 +1,15 @@
+######### START 1 - a #########
+<button type="button" class="fav-btn" [class.active]="movie().favorite" (click)="toggleFavorite()" [attr.aria-pressed]="movie().favorite" [attr.aria-label]="movie().favorite ? 'Remove from favorites' : 'Add to favorites'" x-test-favorite-toggle>{{ movie().favorite ? '♥' : '♡' }}</button>
+######### END 1 - a #########
+######### START 2 - c #########
+<button type="button" btnclass="favorite-toggle" [class.active]="movie().favorite" (click)="toggleFavorite()" [attr.aria-pressed]="movie().favorite" [attr.aria-label]="movie().favorite ? 'Remove from favorites' : 'Add to favorites'" x-test-favorite-toggle>{{ movie().favorite ? '♥' : '♡' }}</button>
+######### END 2 - c #########
+######### START 3 - d #########
+<button type="button" class="favorite-toggle" [class.active]="movie().favorite" (click)="toggleFavorite()" [attr.aria-pressed]="movie().favorite" [attr.aria-label]="movie().favorite ? 'Remove from favorites' : 'Add to favorites'" x-test-favorite-toggle>{{ movie().favorite ? '❤' : '🤍' }}</button>
+######### END 3 - d #########
+######### START 4 - j #########
+<div type="button" class="favorite-toggle" [class.active]="movie().favorite" (click)="toggleFavorite()" [attr.aria-pressed]="movie().favorite" [attr.aria-label]="movie().favorite ? 'Remove from favorites' : 'Add to favorites'" x-test-favorite-toggle>{{ movie().favorite ? '♥' : '♡' }}</div>
+######### END 4 - j #########
+######### START 5 - k #########
+<div class="favbtn-wrap"><button type="button" class="favorite-toggle" [class.active]="movie().favorite" (click)="toggleFavorite()" [attr.aria-pressed]="movie().favorite" [attr.aria-label]="movie().favorite ? 'Remove from favorites' : 'Add to favorites'" x-test-favorite-toggle>{{ movie().favorite ? '♥' : '♡' }}</button></div>
+######### END 5 - k #########

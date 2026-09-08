@@ -1,24 +1,33 @@
 {
   "seed": "1234",
-  "repositoryRootPath": "/home/simon/Documents/Projects/angular-spotify",
+  "repositoryRootPath": "C:/Users/vince/OneDrive/Desktop/Tirocinio/angular-spotify",
   "npmRunCommand": "npm start",
   "mutations": [
     {
-      "name": "NowPlaying",
-      "file_path": "/home/simon/Documents/Projects/angular-spotify/libs/web/shared/ui/track-current-info/src/lib/track-current-info.component.html",
+      "name": "InputField",
+      "file_path": "C:/Users/vince/OneDrive/Desktop/Tirocinio/angular-spotify/libs/web/search/feature/src/lib/search.component.html",
       "target_matcher": {
         "type": "class",
         "key": "",
-        "value": "text-white"
+        "value": "search-control"
       }
     },
     {
-      "name": "NextBtn",
-      "file_path": "/home/simon/Documents/Projects/angular-spotify/libs/web/shell/ui/player-controls/src/lib/player-controls.component.html",
+      "name": "ArtistCard",
+      "file_path": "C:/Users/vince/OneDrive/Desktop/Tirocinio/angular-spotify/libs/web/search/feature/src/lib/search.component.html",
       "target_matcher": {
         "type": "attribute",
-        "key": "(click)",
-        "value": "next()"
+        "key": "[roundedImage]",
+        "value": "true"
+      }
+    },
+    {
+      "name": "CardTitle",
+      "file_path": "C:/Users/vince/OneDrive/Desktop/Tirocinio/angular-spotify/libs/web/shared/ui/media/src/lib/card.component.html",
+      "target_matcher": {
+        "type": "class",
+        "key": "",
+        "value": "card-title"
       }
     }
   ]

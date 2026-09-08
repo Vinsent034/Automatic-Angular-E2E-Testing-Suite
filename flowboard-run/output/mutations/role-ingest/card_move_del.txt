@@ -1,0 +1,21 @@
+######### START 1 - a #########
+<span class="move-caption strong">Move</span>
+######### END 1 - a #########
+######### START 2 - b #########
+<span>Move</span>
+######### END 2 - b #########
+######### START 3 - c #########
+<span data-cls="move-caption">Move</span>
+######### END 3 - c #########
+######### START 4 - d #########
+<span class="move-caption">Change column</span>
+######### END 4 - d #########
+######### START 5 - e #########
+<span class="move-caption"></span>
+######### END 5 - e #########
+######### START 6 - j #########
+<label class="move-caption">Move</label>
+######### END 6 - j #########
+######### START 7 - k #########
+<span class="mc-wrap"><span class="move-caption">Move</span></span>
+######### END 7 - k #########

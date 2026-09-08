@@ -1,0 +1,12 @@
+######### START 1 - a #########
+<div class="form-field highlight" x-test-form-field-tags><label class="field-label" for="field-tags" x-test-form-tags-label>Tags (comma separated)</label><input id="field-tags" name="tags" class="input form-tags" type="text" placeholder="e.g. bug, ui" [(ngModel)]="tagsText" x-test-form-tags></div>
+######### END 1 - a #########
+######### START 3 - c #########
+<div data-cls="form-field" x-test-form-field-tags><label class="field-label" for="field-tags" x-test-form-tags-label>Tags (comma separated)</label><input id="field-tags" name="tags" class="input form-tags" type="text" placeholder="e.g. bug, ui" [(ngModel)]="tagsText" x-test-form-tags></div>
+######### END 3 - c #########
+######### START 6 - j #########
+<section class="form-field" x-test-form-field-tags><label class="field-label" for="field-tags" x-test-form-tags-label>Tags (comma separated)</label><input id="field-tags" name="tags" class="input form-tags" type="text" placeholder="e.g. bug, ui" [(ngModel)]="tagsText" x-test-form-tags></section>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="ff-wrap"><div class="form-field" x-test-form-field-tags><label class="field-label" for="field-tags" x-test-form-tags-label>Tags (comma separated)</label><input id="field-tags" name="tags" class="input form-tags" type="text" placeholder="e.g. bug, ui" [(ngModel)]="tagsText" x-test-form-tags></div></div>
+######### END 7 - k #########

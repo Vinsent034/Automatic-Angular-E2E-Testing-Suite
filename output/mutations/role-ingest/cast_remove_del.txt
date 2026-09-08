@@ -1,0 +1,15 @@
+######### START 1 - a #########
+<input type="text" formControlName="role" placeholder="Role" class="field-control" x-test-cast-role>
+######### END 1 - a #########
+######### START 2 - b #########
+<input type="text" formControlName="role" class="field-input" x-test-cast-role>
+######### END 2 - b #########
+######### START 3 - c #########
+<input type="text" formControlName="role" placeholder="Role" data-class="field-input" x-test-cast-role>
+######### END 3 - c #########
+######### START 4 - j #########
+<textarea type="text" formControlName="role" placeholder="Role" class="field-input" x-test-cast-role></textarea>
+######### END 4 - j #########
+######### START 5 - k #########
+<div class="cast-role-field-wrap"><input type="text" formControlName="role" placeholder="Role" class="field-input" x-test-cast-role></div>
+######### END 5 - k #########

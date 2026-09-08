@@ -1,0 +1,16 @@
+#mutation-id: h
+#element: beta
+#name: cast-role
+#type: tag_mov_temp_mut
+#status: COMPLETE
+######### FILE C:\Users\vince\OneDrive\Desktop\App tirocinio\cinelib\src\app\cast-row\cast-row.component.html #########
+
+######### END FILE #########
+######### FILE C:\Users\vince\OneDrive\Desktop\App tirocinio\cinelib\src\app\header\header.component.html #########
+<header class="app-header" x-test-header>
+ <a class="brand" routerLink="/" x-test-brand> <span class="brand-mark">C</span> <span class="brand-name">CineLib</span> </a>
+ <nav class="app-nav">
+  <a routerLink="/" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" x-test-nav-catalog>Catalog</a> <a routerLink="/stats" class="nav-link" routerLinkActive="active" x-test-nav-stats>Statistics</a> <a routerLink="/movie/new" class="nav-link" routerLinkActive="active" x-test-nav-add>Add movie</a>
+ </nav>
+</header>
+######### END FILE #########

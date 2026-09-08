@@ -1,0 +1,52 @@
+######### START 1 - a #########
+<div class="form-field">
+      <label for="title" class="field-label">Title</label>
+      <input id="title" type="text" formControlName="title" class="field-input" x-test-field-title>
+      @if (showError('title')) {
+        <p class="field-error" x-test-error-title>Title is required.</p>
+      }
+    </div>
+######### END 1 - a #########
+######### START 2 - b #########
+<div>
+      <label for="title" class="field-label">Title</label>
+      <input id="title" type="text" formControlName="title" class="field-input" x-test-field-title>
+      @if (showError('title')) {
+        <p class="field-error" x-test-error-title>Title is required.</p>
+      }
+    </div>
+######### END 2 - b #########
+######### START 3 - c #########
+<div fieldclass="field">
+      <label for="title" class="field-label">Title</label>
+      <input id="title" type="text" formControlName="title" class="field-input" x-test-field-title>
+      @if (showError('title')) {
+        <p class="field-error" x-test-error-title>Title is required.</p>
+      }
+    </div>
+######### END 3 - c #########
+######### START 4 - i #########
+<label for="title" class="field-label">Title</label>
+      <input id="title" type="text" formControlName="title" class="field-input" x-test-field-title>
+      @if (showError('title')) {
+        <p class="field-error" x-test-error-title>Title is required.</p>
+      }
+######### END 4 - i #########
+######### START 5 - j #########
+<section class="field">
+      <label for="title" class="field-label">Title</label>
+      <input id="title" type="text" formControlName="title" class="field-input" x-test-field-title>
+      @if (showError('title')) {
+        <p class="field-error" x-test-error-title>Title is required.</p>
+      }
+    </section>
+######### END 5 - j #########
+######### START 6 - k #########
+<div class="field-wrap"><div class="field">
+      <label for="title" class="field-label">Title</label>
+      <input id="title" type="text" formControlName="title" class="field-input" x-test-field-title>
+      @if (showError('title')) {
+        <p class="field-error" x-test-error-title>Title is required.</p>
+      }
+    </div></div>
+######### END 6 - k #########

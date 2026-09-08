@@ -1,0 +1,77 @@
+<!doctype html><meta charset="utf-8">
+<style>
+@page{size:A4;margin:14mm}
+body{font-family:'Segoe UI',Arial,sans-serif;color:#1a1a1a;font-size:11px;line-height:1.35}
+h1{font-size:19px;margin:0 0 2px} h2{font-size:13.5px;margin:15px 0 5px;border-bottom:2px solid #444;padding-bottom:2px}
+.sub{color:#666;font-size:10px;margin-bottom:8px}
+table{border-collapse:collapse;width:100%;margin:5px 0 3px;font-size:10px}
+th,td{border:1px solid #bbb;padding:3px 6px;text-align:center}
+th{background:#2c3e50;color:#fff;font-weight:600}
+td.l{text-align:left} tr:nth-child(even) td{background:#f4f6f8}
+.tot td{font-weight:700;background:#e8ecf0 !important}
+.note{font-size:9.5px;color:#555;margin:2px 0 8px}
+.op{font-weight:700;background:#eef2f6} .big{font-weight:700;color:#0a7a4b}
+</style>
+<h1>CineLib &mdash; Risultati mutation testing dei locatori</h1>
+<div class="sub">Applicazione Angular 19 &middot; 807 mutanti LLM &middot; 5 scenari (catalog, dettaglio, form, reviews, stats) &middot; 6 strategie di locatori &middot; 2026-07-10</div>
+<h2>Legenda &mdash; tipi di mutazione (operatori a&ndash;k)</h2>
+<table><tr><th>ID</th><th>Nome</th><th>Descrizione</th></tr>
+<tr><td class="op">a</td><td class="l"><b>Attribute Value Modification</b></td><td class="l">Change the VALUE of an existing attribute on an element, keeping the same attribute name.</td></tr>
+<tr><td class="op">b</td><td class="l"><b>Attribute Removal</b></td><td class="l">Remove an existing (non-essential) attribute from an element.</td></tr>
+<tr><td class="op">c</td><td class="l"><b>Attribute Identifier Modification</b></td><td class="l">Rename an existing attribute (change the attribute name, keep its value).</td></tr>
+<tr><td class="op">d</td><td class="l"><b>Text Content Modification</b></td><td class="l">Change the visible text content of an element.</td></tr>
+<tr><td class="op">e</td><td class="l"><b>Text Content Removal</b></td><td class="l">Remove/empty the visible text content of an element.</td></tr>
+<tr><td class="op">f</td><td class="l"><b>HTML Tag Movement (within a container)</b></td><td class="l">Reorder an element among its siblings inside the same parent container.</td></tr>
+<tr><td class="op">g</td><td class="l"><b>HTML Tag Movement (any point of the HTML tree)</b></td><td class="l">Move an element to a different position elsewhere in the template tree (different parent).</td></tr>
+<tr><td class="op">h</td><td class="l"><b>HTML Tag Movement (between two templates)</b></td><td class="l">Move an element out of this template into another component template.</td></tr>
+<tr><td class="op">i</td><td class="l"><b>HTML Tag Removal</b></td><td class="l">Remove an element's tag but keep its text/children (unwrap).</td></tr>
+<tr><td class="op">j</td><td class="l"><b>HTML Tag Type Modification</b></td><td class="l">Change the tag name of an element (e.g. div -> section), keeping attributes and content.</td></tr>
+<tr><td class="op">k</td><td class="l"><b>HTML Tag Insertion</b></td><td class="l">Insert a new wrapper/container tag around an existing element (add a hierarchy level).</td></tr>
+</table>
+<h2>Legenda &mdash; ruoli relazionali (target della mutazione)</h2>
+<table><tr><th>Simbolo</th><th>Ruolo</th><th>Descrizione</th></tr><tr><td class="op">α</td><td class="l">target</td><td class="l">l'elemento bersaglio del test</td></tr><tr><td class="op">β</td><td class="l">parent</td><td class="l">il genitore diretto del target</td></tr><tr><td class="op">γ</td><td class="l">ancestor</td><td class="l">un antenato (nonno) del target</td></tr><tr><td class="op">δ</td><td class="l">sibling</td><td class="l">un fratello del target</td></tr><tr><td class="op">ε</td><td class="l">containing component</td><td class="l">antenato con tag app-* (0 mutanti per-file)</td></tr></table>
+<h2>RQ1 &mdash; Validità dei mutanti generati (validi / totali)</h2>
+<div class="note">Frazione di mutanti che compilano, per combinazione operatore &times; ruolo.</div>
+<table><tr><th>Op</th><th>α</th><th>β</th><th>γ</th><th>δ</th><th>TOTALE</th></tr>
+<tr><td class="op">a</td><td>43/44</td><td>39/39</td><td>14/14</td><td>36/36</td><td><b>132/133</b></td></tr>
+<tr><td class="op">b</td><td>43/43</td><td>18/18</td><td>2/2</td><td>17/17</td><td><b>80/80</b></td></tr>
+<tr><td class="op">c</td><td>43/44</td><td>33/35</td><td>3/5</td><td>33/35</td><td><b>112/119</b></td></tr>
+<tr><td class="op">d</td><td>34/34</td><td>&ndash;</td><td>&ndash;</td><td>25/25</td><td><b>59/59</b></td></tr>
+<tr><td class="op">e</td><td>33/34</td><td>&ndash;</td><td>&ndash;</td><td>14/15</td><td><b>47/49</b></td></tr>
+<tr><td class="op">f</td><td>5/5</td><td>1/1</td><td>1/1</td><td>3/3</td><td><b>10/10</b></td></tr>
+<tr><td class="op">g</td><td>7/7</td><td>1/1</td><td>1/1</td><td>3/3</td><td><b>12/12</b></td></tr>
+<tr><td class="op">h</td><td>11/39</td><td>2/26</td><td>0/16</td><td>11/23</td><td><b>24/104</b></td></tr>
+<tr><td class="op">i</td><td>&ndash;</td><td>11/11</td><td>2/2</td><td>7/7</td><td><b>20/20</b></td></tr>
+<tr><td class="op">j</td><td>43/45</td><td>34/34</td><td>9/9</td><td>31/32</td><td><b>117/120</b></td></tr>
+<tr><td class="op">k</td><td>44/44</td><td>26/26</td><td>4/4</td><td>27/27</td><td><b>101/101</b></td></tr>
+<tr class="tot"><td>TOT</td><td>306/339</td><td>165/191</td><td>36/54</td><td>207/223</td><td>714/807</td></tr></table>
+<div class="note"><span class="big">Validità complessiva: 714/807.</span> Escludendo l'operatore h (cross-template, not-compilable per costruzione): <b>690/703 = 98.2%</b>.</div>
+<h2>RQ1 &mdash; Cause di non-validità</h2>
+<table><tr><th>Operatore</th><th>Mutanti non validi</th><th>Causa</th></tr>
+<tr><td class="op">a</td><td>1</td><td class="l">rompe binding/struttura del template Angular</td></tr>
+<tr><td class="op">c</td><td>7</td><td class="l">rompe binding/struttura del template Angular</td></tr>
+<tr><td class="op">e</td><td>2</td><td class="l">rompe binding/struttura del template Angular</td></tr>
+<tr><td class="op">h</td><td>80</td><td class="l">spostamento cross-template: not-compilable per costruzione</td></tr>
+<tr><td class="op">j</td><td>3</td><td class="l">rompe binding/struttura del template Angular</td></tr>
+<tr class="tot"><td>TOT</td><td>93/807</td><td class="l">di cui 80 da h (attesi)</td></tr></table>
+<h2>RQ2 &mdash; Dettaglio robustezza: passed / compilati, per strategia &times; operatore</h2>
+<div class="note">Per ogni strategia: quanti mutanti (validi) di quel tipo il locatore continua a trovare (Success).</div>
+<table><tr><th>Strategia</th><th>a</th><th>b</th><th>c</th><th>d</th><th>e</th><th>f</th><th>g</th><th>h</th><th>i</th><th>j</th><th>k</th></tr>
+<tr><td class="l op">Absolute</td><td>131/132</td><td>80/80</td><td>112/112</td><td>49/59</td><td>36/47</td><td>7/10</td><td>5/12</td><td>22/24</td><td>10/20</td><td>59/117</td><td>63/101</td></tr>
+<tr><td class="l op">Relative</td><td>126/132</td><td>76/80</td><td>109/112</td><td>49/59</td><td>37/47</td><td>10/10</td><td>11/12</td><td>24/24</td><td>19/20</td><td>94/117</td><td>100/101</td></tr>
+<tr><td class="l op">Selenium</td><td>109/132</td><td>71/80</td><td>97/112</td><td>49/59</td><td>37/47</td><td>10/10</td><td>11/12</td><td>24/24</td><td>20/20</td><td>116/117</td><td>96/101</td></tr>
+<tr><td class="l op">Katalon</td><td>132/132</td><td>78/80</td><td>109/112</td><td>42/59</td><td>32/47</td><td>5/10</td><td>8/12</td><td>24/24</td><td>20/20</td><td>104/117</td><td>100/101</td></tr>
+<tr><td class="l op">Robula</td><td>123/132</td><td>73/80</td><td>104/112</td><td>49/59</td><td>37/47</td><td>10/10</td><td>9/12</td><td>22/24</td><td>19/20</td><td>96/117</td><td>93/101</td></tr>
+<tr><td class="l op">Robula+</td><td>125/132</td><td>78/80</td><td>109/112</td><td>48/59</td><td>37/47</td><td>10/10</td><td>11/12</td><td>24/24</td><td>20/20</td><td>113/117</td><td>97/101</td></tr>
+</table>
+<h2>Tabella riassuntiva &mdash; robustezza per strategia (su 807 mutanti)</h2>
+<div class="note">Obsolescence e Not Compiled dipendono dalla mutazione (uguali per tutte le strategie). <b>I not_compiled includono i mutanti h.</b></div>
+<table><tr><th>Strategia</th><th>Success</th><th>Fragility</th><th>Obsolescence</th><th>Not Compiled</th></tr>
+<tr><td class="l op">Absolute</td><td class="big">574/807</td><td>119/807</td><td>21/807</td><td>93/807</td></tr>
+<tr><td class="l op">Relative</td><td class="big">655/807</td><td>38/807</td><td>21/807</td><td>93/807</td></tr>
+<tr><td class="l op">Selenium</td><td class="big">640/807</td><td>53/807</td><td>21/807</td><td>93/807</td></tr>
+<tr><td class="l op">Katalon</td><td class="big">654/807</td><td>39/807</td><td>21/807</td><td>93/807</td></tr>
+<tr><td class="l op">Robula</td><td class="big">635/807</td><td>58/807</td><td>21/807</td><td>93/807</td></tr>
+<tr><td class="l op">Robula+</td><td class="big">672/807</td><td>21/807</td><td>21/807</td><td>93/807</td></tr>
+</table>
+<div class="note">Ogni riga somma a 807 = Success + Fragility + Obsolescence (21) + Not Compiled (93).</div>

@@ -1,0 +1,55 @@
+######### START 1 - a #########
+<a class="poster-thumb" [routerLink]="['/movie', movie().id]" aria-hidden="true" tabindex="-1" x-test-card-poster>
+    <span class="poster-letter">{{ movie().title.charAt(0) }}</span>
+  </a>
+######### END 1 - a #########
+######### START 2 - b #########
+<a class="poster" [routerLink]="['/movie', movie().id]" tabindex="-1" x-test-card-poster>
+    <span class="poster-letter">{{ movie().title.charAt(0) }}</span>
+  </a>
+######### END 2 - b #########
+######### START 3 - c #########
+<a class="poster" [routerLink]="['/movie', movie().id]" aria-hidden="true" data-tabindex="-1" x-test-card-poster>
+    <span class="poster-letter">{{ movie().title.charAt(0) }}</span>
+  </a>
+######### END 3 - c #########
+######### START 4 - f #########
+<div class="movie-card movie-card-{{ view() }}" [attr.data-genre]="movie().genre" [class.is-favorite]="movie().favorite" x-test-card>
+  <button type="button" class="favorite-toggle" [class.active]="movie().favorite" (click)="toggleFavorite()" [attr.aria-pressed]="movie().favorite" [attr.aria-label]="movie().favorite ? 'Remove from favorites' : 'Add to favorites'" x-test-favorite-toggle>{{ movie().favorite ? '♥' : '♡' }}</button>
+  <a class="poster" [routerLink]="['/movie', movie().id]" aria-hidden="true" tabindex="-1" x-test-card-poster>
+    <span class="poster-letter">{{ movie().title.charAt(0) }}</span>
+  </a>
+  <div class="card-body">
+    <a class="card-title-link" [routerLink]="['/movie', movie().id]" x-test-card-link>
+      <h2 class="card-title" x-test-card-title>{{ movie().title }}</h2>
+    </a>
+    <p class="card-meta" x-test-card-meta>{{ movie().year }} · {{ movie().genre }}</p>
+    <p class="card-rating" x-test-card-rating>★ {{ movie().rating }}</p>
+  </div>
+</div>
+######### END 4 - f #########
+######### START 5 - g #########
+<div class="movie-card movie-card-{{ view() }}" [attr.data-genre]="movie().genre" [class.is-favorite]="movie().favorite" x-test-card>
+  <button type="button" class="favorite-toggle" [class.active]="movie().favorite" (click)="toggleFavorite()" [attr.aria-pressed]="movie().favorite" [attr.aria-label]="movie().favorite ? 'Remove from favorites' : 'Add to favorites'" x-test-favorite-toggle>{{ movie().favorite ? '♥' : '♡' }}</button>
+  <div class="card-body">
+    <a class="poster" [routerLink]="['/movie', movie().id]" aria-hidden="true" tabindex="-1" x-test-card-poster>
+      <span class="poster-letter">{{ movie().title.charAt(0) }}</span>
+    </a>
+    <a class="card-title-link" [routerLink]="['/movie', movie().id]" x-test-card-link>
+      <h2 class="card-title" x-test-card-title>{{ movie().title }}</h2>
+    </a>
+    <p class="card-meta" x-test-card-meta>{{ movie().year }} · {{ movie().genre }}</p>
+    <p class="card-rating" x-test-card-rating>★ {{ movie().rating }}</p>
+  </div>
+</div>
+######### END 5 - g #########
+######### START 6 - j #########
+<div class="poster" [routerLink]="['/movie', movie().id]" aria-hidden="true" tabindex="-1" x-test-card-poster>
+    <span class="poster-letter">{{ movie().title.charAt(0) }}</span>
+  </div>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="poster-wrap"><a class="poster" [routerLink]="['/movie', movie().id]" aria-hidden="true" tabindex="-1" x-test-card-poster>
+    <span class="poster-letter">{{ movie().title.charAt(0) }}</span>
+  </a></div>
+######### END 7 - k #########

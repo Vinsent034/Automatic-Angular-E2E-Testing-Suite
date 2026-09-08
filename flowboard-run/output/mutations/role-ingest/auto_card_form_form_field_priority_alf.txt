@@ -1,0 +1,12 @@
+######### START 1 - a #########
+<div class="form-field highlight" x-test-form-field-priority><label class="field-label" for="field-priority" x-test-form-priority-label>Priority</label><select id="field-priority" name="priority" class="input select form-priority" [(ngModel)]="priority" x-test-form-priority><option value="low">Low</option><option value="medium">Medium</option><option value="high">High</option></select></div>
+######### END 1 - a #########
+######### START 3 - c #########
+<div data-cls="form-field" x-test-form-field-priority><label class="field-label" for="field-priority" x-test-form-priority-label>Priority</label><select id="field-priority" name="priority" class="input select form-priority" [(ngModel)]="priority" x-test-form-priority><option value="low">Low</option><option value="medium">Medium</option><option value="high">High</option></select></div>
+######### END 3 - c #########
+######### START 6 - j #########
+<section class="form-field" x-test-form-field-priority><label class="field-label" for="field-priority" x-test-form-priority-label>Priority</label><select id="field-priority" name="priority" class="input select form-priority" [(ngModel)]="priority" x-test-form-priority><option value="low">Low</option><option value="medium">Medium</option><option value="high">High</option></select></section>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="ff-wrap"><div class="form-field" x-test-form-field-priority><label class="field-label" for="field-priority" x-test-form-priority-label>Priority</label><select id="field-priority" name="priority" class="input select form-priority" [(ngModel)]="priority" x-test-form-priority><option value="low">Low</option><option value="medium">Medium</option><option value="high">High</option></select></div></div>
+######### END 7 - k #########

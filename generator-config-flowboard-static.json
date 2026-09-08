@@ -1,0 +1,1375 @@
+{
+ "seed": "1234",
+ "repositoryRootPath": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board",
+ "npmRunCommand": "npm start -- --port 4400",
+ "mutations": [
+  {
+   "name": "board-title",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/board/board.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-board-title",
+    "value": ""
+   }
+  },
+  {
+   "name": "board-demo-badge",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/board/board.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-demo-badge",
+    "value": ""
+   }
+  },
+  {
+   "name": "board-hint-banner",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/board/board.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-hint-banner",
+    "value": ""
+   }
+  },
+  {
+   "name": "board-search",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/board/board.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-search",
+    "value": ""
+   }
+  },
+  {
+   "name": "board-search-label",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/board/board.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-search-label",
+    "value": ""
+   }
+  },
+  {
+   "name": "board-filter-priority",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/board/board.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-filter-priority",
+    "value": ""
+   }
+  },
+  {
+   "name": "board-priority-label",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/board/board.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-priority-label",
+    "value": ""
+   }
+  },
+  {
+   "name": "board-filter-assignee",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/board/board.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-filter-assignee",
+    "value": ""
+   }
+  },
+  {
+   "name": "board-assignee-label",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/board/board.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-assignee-label",
+    "value": ""
+   }
+  },
+  {
+   "name": "board-filtered-count",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/board/board.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-filtered-count",
+    "value": ""
+   }
+  },
+  {
+   "name": "board-matching-label",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/board/board.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-matching-label",
+    "value": ""
+   }
+  },
+  {
+   "name": "board-add-card",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/board/board.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-add-card",
+    "value": ""
+   }
+  },
+  {
+   "name": "board-reset",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/board/board.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-reset",
+    "value": ""
+   }
+  },
+  {
+   "name": "board-columns",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/board/board.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-columns",
+    "value": ""
+   }
+  },
+  {
+   "name": "board-column-title",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/board/board.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-column-title",
+    "value": ""
+   }
+  },
+  {
+   "name": "board-column-count",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/board/board.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-column-count",
+    "value": ""
+   }
+  },
+  {
+   "name": "header-total-badge",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/header/header.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-total-badge",
+    "value": ""
+   }
+  },
+  {
+   "name": "header-app-title",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/header/header.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-app-title",
+    "value": ""
+   }
+  },
+  {
+   "name": "header-app-tagline",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/header/header.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-app-tagline",
+    "value": ""
+   }
+  },
+  {
+   "name": "header-brand-icon",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/header/header.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-brand-icon",
+    "value": ""
+   }
+  },
+  {
+   "name": "header-nav-board",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/header/header.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-nav-board",
+    "value": ""
+   }
+  },
+  {
+   "name": "header-nav-stats",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/header/header.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-nav-stats",
+    "value": ""
+   }
+  },
+  {
+   "name": "header-new-card",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/header/header.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-new-card",
+    "value": ""
+   }
+  },
+  {
+   "name": "card-root",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card/card.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "[attr.x-test-card]",
+    "value": ""
+   }
+  },
+  {
+   "name": "card-id",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card/card.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "[attr.x-test-card-id]",
+    "value": ""
+   }
+  },
+  {
+   "name": "card-title",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card/card.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "[attr.x-test-card-title]",
+    "value": ""
+   }
+  },
+  {
+   "name": "card-priority",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card/card.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "[attr.x-test-card-priority]",
+    "value": ""
+   }
+  },
+  {
+   "name": "card-assignee",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card/card.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "[attr.x-test-card-assignee]",
+    "value": ""
+   }
+  },
+  {
+   "name": "card-tags",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card/card.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "[attr.x-test-card-tags]",
+    "value": ""
+   }
+  },
+  {
+   "name": "card-move",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card/card.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "[attr.x-test-card-move]",
+    "value": ""
+   }
+  },
+  {
+   "name": "card-open",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card/card.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "[attr.x-test-card-open]",
+    "value": ""
+   }
+  },
+  {
+   "name": "card-edit",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card/card.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "[attr.x-test-card-edit]",
+    "value": ""
+   }
+  },
+  {
+   "name": "card-delete",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card/card.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "[attr.x-test-card-delete]",
+    "value": ""
+   }
+  },
+  {
+   "name": "column-card-list",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/column/column.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-card-list",
+    "value": ""
+   }
+  },
+  {
+   "name": "column-empty-message",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/column/column.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-empty-message",
+    "value": ""
+   }
+  },
+  {
+   "name": "form-root",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-form",
+    "value": ""
+   }
+  },
+  {
+   "name": "form-title",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-form-title",
+    "value": ""
+   }
+  },
+  {
+   "name": "form-title-label",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-form-title-label",
+    "value": ""
+   }
+  },
+  {
+   "name": "form-description",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-form-description",
+    "value": ""
+   }
+  },
+  {
+   "name": "form-priority",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-form-priority",
+    "value": ""
+   }
+  },
+  {
+   "name": "form-assignee",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-form-assignee",
+    "value": ""
+   }
+  },
+  {
+   "name": "form-column",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-form-column",
+    "value": ""
+   }
+  },
+  {
+   "name": "form-tags",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-form-tags",
+    "value": ""
+   }
+  },
+  {
+   "name": "form-submit",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-form-submit",
+    "value": ""
+   }
+  },
+  {
+   "name": "form-cancel",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-form-cancel",
+    "value": ""
+   }
+  },
+  {
+   "name": "form-back",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-form-back",
+    "value": ""
+   }
+  },
+  {
+   "name": "form-actions",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-form-actions",
+    "value": ""
+   }
+  },
+  {
+   "name": "detail-title",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-detail-title",
+    "value": ""
+   }
+  },
+  {
+   "name": "detail-id",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-detail-id",
+    "value": ""
+   }
+  },
+  {
+   "name": "detail-priority",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-detail-priority",
+    "value": ""
+   }
+  },
+  {
+   "name": "detail-description",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-detail-description",
+    "value": ""
+   }
+  },
+  {
+   "name": "detail-assignee",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-detail-assignee",
+    "value": ""
+   }
+  },
+  {
+   "name": "detail-column",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-detail-column",
+    "value": ""
+   }
+  },
+  {
+   "name": "detail-tags",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-detail-tags",
+    "value": ""
+   }
+  },
+  {
+   "name": "detail-edit",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-detail-edit",
+    "value": ""
+   }
+  },
+  {
+   "name": "detail-delete",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-detail-delete",
+    "value": ""
+   }
+  },
+  {
+   "name": "detail-back",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-detail-back",
+    "value": ""
+   }
+  },
+  {
+   "name": "detail-page-title",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-detail-page-title",
+    "value": ""
+   }
+  },
+  {
+   "name": "stat-total",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-stat-total",
+    "value": ""
+   }
+  },
+  {
+   "name": "stat-backlog",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-stat-backlog",
+    "value": ""
+   }
+  },
+  {
+   "name": "stat-inprogress",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-stat-inprogress",
+    "value": ""
+   }
+  },
+  {
+   "name": "stat-review",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-stat-review",
+    "value": ""
+   }
+  },
+  {
+   "name": "stat-done",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-stat-done",
+    "value": ""
+   }
+  },
+  {
+   "name": "stat-high",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-stat-high",
+    "value": ""
+   }
+  },
+  {
+   "name": "stat-medium",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-stat-medium",
+    "value": ""
+   }
+  },
+  {
+   "name": "stat-low",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-stat-low",
+    "value": ""
+   }
+  },
+  {
+   "name": "stats-title",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-stats-title",
+    "value": ""
+   }
+  },
+  {
+   "name": "stats-table",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-stats-table",
+    "value": ""
+   }
+  },
+  {
+   "name": "stats-th-title",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-stats-th-title",
+    "value": ""
+   }
+  },
+  {
+   "name": "stat-row",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "[attr.x-test-stat-row]",
+    "value": ""
+   }
+  },
+  {
+   "name": "footer-brand",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/app.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-footer-brand",
+    "value": ""
+   }
+  },
+  {
+   "name": "footer-note",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/app.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-footer-note",
+    "value": ""
+   }
+  },
+  {
+   "name": "footer-version",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/app.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-footer-version",
+    "value": ""
+   }
+  },
+  {
+   "name": "app-main",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/app.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-main",
+    "value": ""
+   }
+  },
+  {
+   "name": "toast-message",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/toast/toast.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-toast",
+    "value": ""
+   }
+  },
+  {
+   "name": "toast-label",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/toast/toast.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-toast-label",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-board-board",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/board/board.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-board",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-board-board-intro",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/board/board.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-board-intro",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-board-toolbar",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/board/board.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-toolbar",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-board-toolbar-search",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/board/board.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-toolbar-search",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-board-toolbar-priority",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/board/board.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-toolbar-priority",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-board-toolbar-assignee",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/board/board.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-toolbar-assignee",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-board-toolbar-info",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/board/board.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-toolbar-info",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-board-toolbar-actions",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/board/board.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-toolbar-actions",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-board-column",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/board/board.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-column",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-header-header",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/header/header.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-header",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-header-brand",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/header/header.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-brand",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-header-header-stats",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/header/header.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-header-stats",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-header-total-label",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/header/header.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-total-label",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-header-nav",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/header/header.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-nav",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-card-form-card-form",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-card-form",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-card-form-form-heading",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-form-heading",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-card-form-form-title-edit",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-form-title-edit",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-card-form-form-title-new",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-form-title-new",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-card-form-form-field-title",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-form-field-title",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-card-form-form-field-description",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-form-field-description",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-card-form-form-description-label",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-form-description-label",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-card-form-form-field-priority",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-form-field-priority",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-card-form-form-priority-label",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-form-priority-label",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-card-form-form-field-assignee",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-form-field-assignee",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-card-form-form-assignee-label",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-form-assignee-label",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-card-form-form-field-column",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-form-field-column",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-card-form-form-column-label",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-form-column-label",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-card-form-form-field-tags",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-form-field-tags",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-card-form-form-tags-label",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-form-tags-label",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-card-detail-card-detail",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-card-detail",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-card-detail-detail-heading",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-detail-heading",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-card-detail-detail-card",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-detail-card",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-card-detail-detail-description-row",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-detail-description-row",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-card-detail-detail-description-label",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-detail-description-label",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-card-detail-detail-assignee-row",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-detail-assignee-row",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-card-detail-detail-assignee-label",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-detail-assignee-label",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-card-detail-detail-column-row",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-detail-column-row",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-card-detail-detail-column-label",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-detail-column-label",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-card-detail-detail-tags-row",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-detail-tags-row",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-card-detail-detail-tags-label",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-detail-tags-label",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-card-detail-detail-no-tags",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-detail-no-tags",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-card-detail-detail-actions",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-detail-actions",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-card-detail-detail-not-found",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-detail-not-found",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-card-detail-detail-not-found-message",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-detail-not-found-message",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-card-detail-detail-not-found-back",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-detail-not-found-back",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-stats-stats",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-stats",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-stats-stats-heading",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-stats-heading",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-stats-stats-back",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-stats-back",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-stats-stats-cards",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-stats-cards",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-stats-stat-total-card",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-stat-total-card",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-stats-stat-total-label",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-stat-total-label",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-stats-stat-backlog-card",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-stat-backlog-card",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-stats-stat-backlog-label",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-stat-backlog-label",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-stats-stat-inprogress-card",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-stat-inprogress-card",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-stats-stat-inprogress-label",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-stat-inprogress-label",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-stats-stat-review-card",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-stat-review-card",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-stats-stat-review-label",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-stat-review-label",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-stats-stat-done-card",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-stat-done-card",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-stats-stat-done-label",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-stat-done-label",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-stats-stat-high-card",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-stat-high-card",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-stats-stat-high-label",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-stat-high-label",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-stats-stat-medium-card",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-stat-medium-card",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-stats-stat-medium-label",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-stat-medium-label",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-stats-stat-low-card",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-stat-low-card",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-stats-stat-low-label",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-stat-low-label",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-stats-stats-table-section",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-stats-table-section",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-stats-stats-table-title",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-stats-table-title",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-stats-stats-th-id",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-stats-th-id",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-stats-stats-th-priority",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-stats-th-priority",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-stats-stats-th-assignee",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-stats-th-assignee",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-stats-stats-th-column",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-stats-th-column",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-stats-stats-empty",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-stats-empty",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-app-app",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/app.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-app",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-app-footer",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/app.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-footer",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-toast-toast-bar",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/toast/toast.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-toast-bar",
+    "value": ""
+   }
+  },
+  {
+   "name": "auto-toast-toast-icon",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/toast/toast.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-toast-icon",
+    "value": ""
+   }
+  }
+ ]
+}

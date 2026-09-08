@@ -1,0 +1,36 @@
+######### START 1 - a #########
+<div class="summary" x-test-reviews-summary>
+    @if (reviews().length > 0) {
+      <span class="reviews-average" x-test-reviews-average>★ {{ averageUserRating() }}</span>
+      <span class="reviews-count" x-test-reviews-count>
+        {{ reviews().length }} {{ reviews().length === 1 ? 'review' : 'reviews' }}
+      </span>
+    } @else {
+      <span class="reviews-count" x-test-reviews-empty>No reviews yet — be the first.</span>
+    }
+  </div>
+######### END 1 - a #########
+######### START 2 - c #########
+<div sumclass="reviews-summary" x-test-reviews-summary>
+    @if (reviews().length > 0) {
+      <span class="reviews-average" x-test-reviews-average>★ {{ averageUserRating() }}</span>
+      <span class="reviews-count" x-test-reviews-count>
+        {{ reviews().length }} {{ reviews().length === 1 ? 'review' : 'reviews' }}
+      </span>
+    } @else {
+      <span class="reviews-count" x-test-reviews-empty>No reviews yet — be the first.</span>
+    }
+  </div>
+######### END 2 - c #########
+######### START 3 - j #########
+<header class="reviews-summary" x-test-reviews-summary>
+    @if (reviews().length > 0) {
+      <span class="reviews-average" x-test-reviews-average>★ {{ averageUserRating() }}</span>
+      <span class="reviews-count" x-test-reviews-count>
+        {{ reviews().length }} {{ reviews().length === 1 ? 'review' : 'reviews' }}
+      </span>
+    } @else {
+      <span class="reviews-count" x-test-reviews-empty>No reviews yet — be the first.</span>
+    }
+  </header>
+######### END 3 - j #########

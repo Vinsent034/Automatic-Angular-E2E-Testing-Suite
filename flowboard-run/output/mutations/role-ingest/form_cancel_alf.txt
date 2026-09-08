@@ -1,0 +1,21 @@
+######### START 1 - a #########
+<a class="btn btn-ghost cancel-btn wide" routerLink="/" x-test-form-cancel>Cancel</a>
+######### END 1 - a #########
+######### START 2 - b #########
+<a class="btn btn-ghost cancel-btn" x-test-form-cancel>Cancel</a>
+######### END 2 - b #########
+######### START 3 - c #########
+<a class="btn btn-ghost cancel-btn" data-link="/" x-test-form-cancel>Cancel</a>
+######### END 3 - c #########
+######### START 4 - d #########
+<a class="btn btn-ghost cancel-btn" routerLink="/" x-test-form-cancel>Discard</a>
+######### END 4 - d #########
+######### START 5 - e #########
+<a class="btn btn-ghost cancel-btn" routerLink="/" x-test-form-cancel></a>
+######### END 5 - e #########
+######### START 6 - j #########
+<span class="btn btn-ghost cancel-btn" routerLink="/" x-test-form-cancel>Cancel</span>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="cancel-wrap"><a class="btn btn-ghost cancel-btn" routerLink="/" x-test-form-cancel>Cancel</a></div>
+######### END 7 - k #########

@@ -41,8 +41,12 @@ public class Transformations {
             String key = attr.getKey();
             String value = attr.getValue();
 
-            // Skip extremely long attributes (heuristic) or style attributes often not unique/stable
-            if (key.equals("style") || value.length() > 50) continue;
+            // Skip extremely long attributes (heuristic) or style attributes often not unique/stable.
+            // Also skip x-test* attributes: they are the researcher's own ground-truth markers for the
+            // mutation-testing experiment (guaranteed preserved by every generated mutant), not a locator
+            // a real engineer would target — using them would make this strategy trivially 100% robust
+            // by construction rather than by genuine algorithmic merit.
+            if (key.equals("style") || key.startsWith("x-test") || value.length() > 50) continue;
 
             String predicate = String.format("[@%s='%s']", key, value);
 

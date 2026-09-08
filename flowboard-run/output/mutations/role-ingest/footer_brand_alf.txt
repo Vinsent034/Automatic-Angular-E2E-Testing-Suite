@@ -1,0 +1,21 @@
+######### START 1 - a #########
+<span class="footer-brand accent" x-test-footer-brand>FlowBoard</span>
+######### END 1 - a #########
+######### START 2 - b #########
+<span x-test-footer-brand>FlowBoard</span>
+######### END 2 - b #########
+######### START 3 - c #########
+<span data-cls="footer-brand" x-test-footer-brand>FlowBoard</span>
+######### END 3 - c #########
+######### START 4 - d #########
+<span class="footer-brand" x-test-footer-brand>FlowBoard demo</span>
+######### END 4 - d #########
+######### START 5 - e #########
+<span class="footer-brand" x-test-footer-brand></span>
+######### END 5 - e #########
+######### START 6 - j #########
+<div class="footer-brand" x-test-footer-brand>FlowBoard</div>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="fb-wrap"><span class="footer-brand" x-test-footer-brand>FlowBoard</span></div>
+######### END 7 - k #########

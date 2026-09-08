@@ -1,0 +1,14 @@
+[16:04:08] da eseguire: moviedetail=244, movieform=166, reviews=185, stats=135
+[16:04:09] GROUP moviedetail: PENDING=244 | template ripristinati=10
+[17:23:05] GROUP moviedetail: CHECK OK — 1464 righe (attese ~1464)
+[17:23:05] GROUP moviedetail: done in 4723s -> batches-moviedetail.csv
+[17:23:05] GROUP movieform: PENDING=166 | template ripristinati=10
+[18:04:57] GROUP movieform: CHECK OK — 996 righe (attese ~996)
+[18:04:57] GROUP movieform: done in 2503s -> batches-movieform.csv
+[18:04:58] GROUP reviews: PENDING=185 | template ripristinati=10
+[18:49:47] GROUP reviews: CHECK OK — 1110 righe (attese ~1110)
+[18:49:47] GROUP reviews: done in 2678s -> batches-reviews.csv
+[18:49:47] GROUP stats: PENDING=135 | template ripristinati=10
+[19:24:10] GROUP stats: CHECK OK — 810 righe (attese ~810)
+[19:24:10] GROUP stats: done in 2056s -> batches-stats.csv
+[19:24:10] ALL STATIC GROUPS DONE in 12001s | template ripristinati a fine run

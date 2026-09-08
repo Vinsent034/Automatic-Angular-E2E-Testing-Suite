@@ -1,0 +1,44 @@
+######### START 1 - a #########
+<h2 class="movie-title" x-test-card-title>{{ movie().title }}</h2>
+######### END 1 - a #########
+######### START 2 - b #########
+<h2 x-test-card-title>{{ movie().title }}</h2>
+######### END 2 - b #########
+######### START 3 - c #########
+<h2 headline="card-title" x-test-card-title>{{ movie().title }}</h2>
+######### END 3 - c #########
+######### START 4 - d #########
+<h2 class="card-title" x-test-card-title>Untitled movie</h2>
+######### END 4 - d #########
+######### START 5 - e #########
+<h2 class="card-title" x-test-card-title> </h2>
+######### END 5 - e #########
+######### START 6 - g #########
+<div class="movie-card movie-card-{{ view() }}" [attr.data-genre]="movie().genre" [class.is-favorite]="movie().favorite" x-test-card>
+  <a class="poster" [routerLink]="['/movie', movie().id]" aria-hidden="true" tabindex="-1" x-test-card-poster>
+    <span class="poster-letter">{{ movie().title.charAt(0) }}</span>
+  </a>
+  <button
+    type="button"
+    class="favorite-toggle"
+    [class.active]="movie().favorite"
+    (click)="toggleFavorite()"
+    [attr.aria-pressed]="movie().favorite"
+    [attr.aria-label]="movie().favorite ? 'Remove from favorites' : 'Add to favorites'"
+    x-test-favorite-toggle
+  >{{ movie().favorite ? '♥' : '♡' }}</button>
+  <div class="card-body">
+    <h2 class="card-title" x-test-card-title>{{ movie().title }}</h2>
+    <a class="card-title-link" [routerLink]="['/movie', movie().id]" x-test-card-link>
+    </a>
+    <p class="card-meta" x-test-card-meta>{{ movie().year }} · {{ movie().genre }}</p>
+    <p class="card-rating" x-test-card-rating>★ {{ movie().rating }}</p>
+  </div>
+</div>
+######### END 6 - g #########
+######### START 7 - j #########
+<h3 class="card-title" x-test-card-title>{{ movie().title }}</h3>
+######### END 7 - j #########
+######### START 8 - k #########
+<span class="card-title-wrap"><h2 class="card-title" x-test-card-title>{{ movie().title }}</h2></span>
+######### END 8 - k #########

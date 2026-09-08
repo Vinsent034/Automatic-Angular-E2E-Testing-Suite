@@ -1,0 +1,12 @@
+#mutation-id: j
+#element: alpha
+#name: cast-row
+#type: tag_type_mod_mut
+#status: COMPLETE
+######### FILE C:\Users\vince\OneDrive\Desktop\App tirocinio\cinelib\src\app\cast-row\cast-row.component.html #########
+<span class="cast-row" x-test-cast-row>
+  <span class="cast-avatar" aria-hidden="true">{{ member().name.charAt(0) }}</span>
+  <span class="cast-name" x-test-cast-name>{{ member().name }}</span>
+  <span class="cast-role" x-test-cast-role>{{ member().role }}</span>
+</span>
+######### END FILE #########

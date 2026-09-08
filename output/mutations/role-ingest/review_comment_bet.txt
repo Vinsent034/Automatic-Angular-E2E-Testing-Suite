@@ -1,0 +1,22 @@
+######### START 1 - a #########
+<li class="feedback-item" x-test-review-item>
+        <div class="review-head">
+          <span class="review-author" x-test-review-author>{{ review.author }}</span>
+          <span class="review-stars" x-test-review-stars [attr.data-rating]="review.rating">{{ stars(review.rating) }}</span>
+          <span class="review-date" x-test-review-date>{{ review.date }}</span>
+          <button type="button" class="review-remove" (click)="remove(review.id)" aria-label="Remove review" x-test-review-remove>×</button>
+        </div>
+        <p class="review-comment" x-test-review-comment>{{ review.comment }}</p>
+      </li>
+######### END 1 - a #########
+######### START 2 - c #########
+<li data-reviewitem="review-item" x-test-review-item>
+        <div class="review-head">
+          <span class="review-author" x-test-review-author>{{ review.author }}</span>
+          <span class="review-stars" x-test-review-stars [attr.data-rating]="review.rating">{{ stars(review.rating) }}</span>
+          <span class="review-date" x-test-review-date>{{ review.date }}</span>
+          <button type="button" class="review-remove" (click)="remove(review.id)" aria-label="Remove review" x-test-review-remove>×</button>
+        </div>
+        <p class="review-comment" x-test-review-comment>{{ review.comment }}</p>
+      </li>
+######### END 2 - c #########

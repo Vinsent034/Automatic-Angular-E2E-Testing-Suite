@@ -118,7 +118,10 @@ public class Transformations {
             String key = attr.getKey();
             String val = attr.getValue();
             if (key.equals("id")) continue;
-            if (key.startsWith("style") || val.length() > 50) continue;
+            // x-test*: the researcher's own ground-truth markers (guaranteed preserved by every generated
+            // mutant), not a locator a real engineer would target — see robula/Transformations.java for the
+            // full rationale.
+            if (key.startsWith("style") || key.startsWith("x-test") || val.length() > 50) continue;
 
             XPath newXp = new XPath(xp);
             newXp.replaceHead(newXp.getHead() + "[@" + key + "='" + val.replace("'", "\\'") + "']");
@@ -153,7 +156,7 @@ public class Transformations {
         List<Attribute> validAttrs = new ArrayList<>();
         for (Attribute attr : e.attributes()) {
             String key = attr.getKey();
-            if (key.equals("id") || key.startsWith("style")) continue;
+            if (key.equals("id") || key.startsWith("style") || key.startsWith("x-test")) continue;
             validAttrs.add(attr);
         }
 

@@ -1,0 +1,26 @@
+JUnit version 4.13.2
+.Jun 11, 2026 10:47:21 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+AVVERTENZA: Unable to find CDP implementation matching 148
+Jun 11, 2026 10:47:21 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+AVVERTENZA: Unable to find version of CDP to use for 148.0.7778.218. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[WebDriverFactory] DevTools/sentry-block saltato: You are using a no-op implementation of the CDP. The most likely reason for this is that Selenium was unable to find an implementation of the CDP protocol that matches your browser. Please be sure to include an implementation on the classpath, possibly by adding a new (maven) dependency of `org.seleniumhq.selenium:selenium-devtools-vNN:4.27.0` where `NN` matches the major version of the browser you're using.
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.19'
+Driver info: DevTools Connection
+......E
+Time: 60.262
+There was 1 failure:
+1) testHookXPath(org.ext.HookXPathTest)
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //*[@x-test-tpl-html-1]//*[@x-test-hook-angular-spotify-root-29]//*[@x-test-tpl-as-nav-bar-1]//*[@x-test-tpl-ul-3]//*[@x-test-hook-li-4][2]//*[@x-test-hook-a-5] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 148.0.7778.218, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\vince\selenium-spo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54163}, goog:processID: 16096, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54163/devtoo..., se:cdpVersion: 148.0.7778.218, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 94652df597f29ff90b2fdfa56c501328
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at org.ext.HookXPathTest.testHookXPath(HookXPathTest.java:22)
+
+FAILURES!!!
+Tests run: 7,  Failures: 1
+

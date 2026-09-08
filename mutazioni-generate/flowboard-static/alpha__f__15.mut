@@ -1,0 +1,27 @@
+#mutation-id: f
+#element: alpha
+#name: header-new-card
+#type: tag_mov_container_mut
+#status: COMPLETE
+######### FILE C:\Users\vince\OneDrive\Desktop\App tirocinio\Kanban board\src\app\header\header.component.html #########
+<header class="app-header" role="banner" x-test-header>
+  <div class="header-inner">
+    <div class="brand" x-test-brand>
+      <span class="brand-icon" aria-hidden="true" x-test-brand-icon>▤</span>
+      <h1 class="brand-name" x-test-app-title>FlowBoard</h1>
+      <span class="brand-tagline" x-test-app-tagline>Kanban demo board</span>
+    </div>
+
+    <div class="header-stats" x-test-header-stats>
+      <span class="total-label" x-test-total-label>Total cards</span>
+      <span class="badge badge-total" data-kind="total" x-test-total-badge>{{ store.totalCards() }}</span>
+    </div>
+
+    <nav class="main-nav" role="navigation" aria-label="Main navigation" x-test-nav><a class="btn btn-primary nav-new-card" routerLink="/card/new" role="button" x-test-new-card>New card</a>
+      <a class="nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" x-test-nav-board>Board</a>
+      <a class="nav-link" routerLink="/stats" routerLinkActive="active" x-test-nav-stats>Stats</a>
+      
+    </nav>
+  </div>
+</header>
+######### END FILE #########

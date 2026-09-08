@@ -1,0 +1,29 @@
+LLM generator | GROQ mode | model=llama-3.3-70b-versatile | 70 variants/file x 2 files | 3 API key(s)
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.sqlite.SQLiteJDBCLoader in an unnamed module (file:/C:/Users/vince/OneDrive/Desktop/Tirocinio/progetto/Automatic-Angular-E2E-Testing-Suite/mutation-generator/llm-generator/target/llm-generator-1.0.0-jar-with-dependencies.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+LLM generator | PARAMETRIC mode | 2 types x 2 files x 2 variants/type | model=llama-3.3-70b-versatile
+
+============= search.component.html (parametric) =============
+  type a (Attribute Value Modification): 2/2 (2 new this run)
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 51s before retry...
+  type j (HTML Tag Type Modification): 2/2 (2 new this run)
+  File done (parametric): 4 new mutants this run.
+
+============= card.component.html (parametric) =============
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 13s before retry...
+  [Groq] HTTP 429 per-minute (attempt 2/6). Pausing 36s before retry...
+  type a (Attribute Value Modification): 2/2 (2 new this run)
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 5s before retry...
+  type j (HTML Tag Type Modification): 2/2 (2 new this run)
+  File done (parametric): 4 new mutants this run.
+
+==============================================
+DONE (parametric). LLM mutants saved to mutations.db: 8
+CSV: output/mutations/llm-mutations.csv
+Checkpoint: NOT running the mutation-tester. Stop for review.

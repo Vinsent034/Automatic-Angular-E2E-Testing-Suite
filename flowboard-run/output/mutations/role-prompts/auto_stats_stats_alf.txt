@@ -1,0 +1,99 @@
+# TARGET: auto-stats-stats  (x-test-stats)
+# ROLE: alpha-target   FILE: C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html
+# Mutate ONLY this element. For each operator below, output the element's MUTATED outerHTML.
+# Rules: result valid Angular 19; NEVER add/remove/rename/alter any x-test* attribute;
+#        apply ONLY the requested operator; the element must really differ from the original.
+
+ROLE ELEMENT (original):
+<section class="stats-page" x-test-stats>
+  <div class="page-heading" x-test-stats-heading>
+    <h2 class="page-title" x-test-stats-title>Board statistics</h2>
+    <a class="btn btn-ghost back-btn" routerLink="/" x-test-stats-back>Back to board</a>
+  </div>
+
+  <div class="stats-grid" x-test-stats-cards>
+    <div class="stat-card" data-stat="total" x-test-stat-total-card>
+      <span class="stat-label" x-test-stat-total-label>Total cards</span>
+      <span class="stat-value" x-test-stat-total>{{ store.totalCards() }}</span>
+    </div>
+
+    <div class="stat-card" data-stat="backlog" x-test-stat-backlog-card>
+      <span class="stat-label" x-test-stat-backlog-label>Backlog</span>
+      <span class="stat-value" x-test-stat-backlog>{{ store.backlogCount() }}</span>
+    </div>
+
+    <div class="stat-card" data-stat="inprogress" x-test-stat-inprogress-card>
+      <span class="stat-label" x-test-stat-inprogress-label>In Progress</span>
+      <span class="stat-value" x-test-stat-inprogress>{{ store.inProgressCount() }}</span>
+    </div>
+
+    <div class="stat-card" data-stat="review" x-test-stat-review-card>
+      <span class="stat-label" x-test-stat-review-label>Review</span>
+      <span class="stat-value" x-test-stat-review>{{ store.reviewCount() }}</span>
+    </div>
+
+    <div class="stat-card" data-stat="done" x-test-stat-done-card>
+      <span class="stat-label" x-test-stat-done-label>Done</span>
+      <span class="stat-value" x-test-stat-done>{{ store.doneCount() }}</span>
+    </div>
+
+    <div class="stat-card" data-stat="high" data-priority="high" x-test-stat-high-card>
+      <span class="stat-label" x-test-stat-high-label>High priority</span>
+      <span class="stat-value" x-test-stat-high>{{ store.highCount() }}</span>
+    </div>
+
+    <div class="stat-card" data-stat="medium" data-priority="medium" x-test-stat-medium-card>
+      <span class="stat-label" x-test-stat-medium-label>Medium priority</span>
+      <span class="stat-value" x-test-stat-medium>{{ store.mediumCount() }}</span>
+    </div>
+
+    <div class="stat-card" data-stat="low" data-priority="low" x-test-stat-low-card>
+      <span class="stat-label" x-test-stat-low-label>Low priority</span>
+      <span class="stat-value" x-test-stat-low>{{ store.lowCount() }}</span>
+    </div>
+  </div>
+
+  <div class="stats-table-wrap" x-test-stats-table-section>
+    <h3 class="section-title" x-test-stats-table-title>All cards</h3>
+    <table class="stats-table" x-test-stats-table>
+      <thead>
+        <tr>
+          <th class="col-id" x-test-stats-th-id>Id</th>
+          <th class="col-title" x-test-stats-th-title>Title</th>
+          <th class="col-priority" x-test-stats-th-priority>Priority</th>
+          <th class="col-assignee" x-test-stats-th-assignee>Assignee</th>
+          <th class="col-column" x-test-stats-th-column>Column</th>
+        </tr>
+      </thead>
+      <tbody>
+        @for (card of store.cards(); track card.id) {
+          <tr class="stats-row" [attr.data-card-id]="card.id" [attr.data-priority]="card.priority" [attr.x-test-stat-row]="card.id">
+            <td class="cell-id">#{{ card.id }}</td>
+            <td class="cell-title">{{ card.title }}</td>
+            <td class="cell-priority">{{ card.priority }}</td>
+            <td class="cell-assignee">{{ card.assignee }}</td>
+            <td class="cell-column">{{ card.columnId }}</td>
+          </tr>
+        } @empty {
+          <tr class="stats-row-empty">
+            <td colspan="5" class="cell-empty" x-test-stats-empty>No cards on the board</td>
+          </tr>
+        }
+      </tbody>
+    </table>
+  </div>
+</section>
+
+OPERATORS TO APPLY (one block each, body = mutated element outerHTML):
+- a (Attribute Value Modification): Change the VALUE of an existing attribute on an element, keeping the same attribute name.  [before: <tag attr="value">text</tag> -> after: <tag attr="newValue">text</tag>]
+- b (Attribute Removal): Remove an existing (non-essential) attribute from an element.  [before: <tag attr="value">text</tag> -> after: <tag>text</tag>]
+- c (Attribute Identifier Modification): Rename an existing attribute (change the attribute name, keep its value).  [before: <tag attr="value">text</tag> -> after: <tag newAttr="value">text</tag>]
+- j (HTML Tag Type Modification): Change the tag name of an element (e.g. div -> section), keeping attributes and content.  [before: <tag attr="value">text</tag> -> after: <newTag attr="value">text</newTag>]
+- k (HTML Tag Insertion): Insert a new wrapper/container tag around an existing element (add a hierarchy level).  [before: <tag attr="value">text</tag> -> after: <wrapper>
+  <tag attr="value">text</tag>
+</wrapper>]
+
+OUTPUT FORMAT (only these blocks, {op} = operator id):
+######### START 1 - {op} #########
+<mutated element>
+######### END 1 - {op} #########

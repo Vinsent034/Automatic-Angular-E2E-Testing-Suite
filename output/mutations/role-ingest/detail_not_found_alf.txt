@@ -1,0 +1,33 @@
+######### START 1 - a #########
+<p class="not-found" x-test-not-found>
+    Movie not found. <a routerLink="/">Back to catalog</a>
+  </p>
+######### END 1 - a #########
+######### START 2 - b #########
+<p x-test-not-found>
+    Movie not found. <a routerLink="/">Back to catalog</a>
+  </p>
+######### END 2 - b #########
+######### START 3 - c #########
+<p pclass="empty-state" x-test-not-found>
+    Movie not found. <a routerLink="/">Back to catalog</a>
+  </p>
+######### END 3 - c #########
+######### START 4 - d #########
+<p class="empty-state" x-test-not-found>
+    Movie missing. <a routerLink="/">Back to catalog</a>
+  </p>
+######### END 4 - d #########
+######### START 5 - e #########
+<p class="empty-state" x-test-not-found><a routerLink="/">Back to catalog</a></p>
+######### END 5 - e #########
+######### START 6 - j #########
+<div class="empty-state" x-test-not-found>
+    Movie not found. <a routerLink="/">Back to catalog</a>
+  </div>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="not-found-wrap"><p class="empty-state" x-test-not-found>
+    Movie not found. <a routerLink="/">Back to catalog</a>
+  </p></div>
+######### END 7 - k #########

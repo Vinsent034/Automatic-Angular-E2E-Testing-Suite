@@ -1,0 +1,21 @@
+######### START 1 - a #########
+<a [routerLink]="['/movie', movie.id]" class="stats-anchor" x-test-top-title>{{ movie.title }}</a>
+######### END 1 - a #########
+######### START 2 - b #########
+<a [routerLink]="['/movie', movie.id]" x-test-top-title>{{ movie.title }}</a>
+######### END 2 - b #########
+######### START 3 - c #########
+<a [routerLink]="['/movie', movie.id]" linkclass="stats-link" x-test-top-title>{{ movie.title }}</a>
+######### END 3 - c #########
+######### START 4 - d #########
+<a [routerLink]="['/movie', movie.id]" class="stats-link" x-test-top-title>View movie</a>
+######### END 4 - d #########
+######### START 5 - e #########
+<a [routerLink]="['/movie', movie.id]" class="stats-link" x-test-top-title> </a>
+######### END 5 - e #########
+######### START 6 - j #########
+<span [routerLink]="['/movie', movie.id]" class="stats-link" x-test-top-title>{{ movie.title }}</span>
+######### END 6 - j #########
+######### START 7 - k #########
+<span class="top-title-wrap"><a [routerLink]="['/movie', movie.id]" class="stats-link" x-test-top-title>{{ movie.title }}</a></span>
+######### END 7 - k #########

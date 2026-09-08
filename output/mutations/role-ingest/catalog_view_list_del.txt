@@ -1,0 +1,21 @@
+######### START 1 - a #########
+<button type="button" class="view-button" [class.active]="view() === 'grid'" [attr.aria-pressed]="view() === 'grid'" (click)="setView('grid')" x-test-view-grid>Grid</button>
+######### END 1 - a #########
+######### START 2 - b #########
+<button class="view-btn" [class.active]="view() === 'grid'" [attr.aria-pressed]="view() === 'grid'" (click)="setView('grid')" x-test-view-grid>Grid</button>
+######### END 2 - b #########
+######### START 3 - c #########
+<button data-type="button" class="view-btn" [class.active]="view() === 'grid'" [attr.aria-pressed]="view() === 'grid'" (click)="setView('grid')" x-test-view-grid>Grid</button>
+######### END 3 - c #########
+######### START 4 - d #########
+<button type="button" class="view-btn" [class.active]="view() === 'grid'" [attr.aria-pressed]="view() === 'grid'" (click)="setView('grid')" x-test-view-grid>Cards</button>
+######### END 4 - d #########
+######### START 5 - e #########
+<button type="button" class="view-btn" [class.active]="view() === 'grid'" [attr.aria-pressed]="view() === 'grid'" (click)="setView('grid')" x-test-view-grid> </button>
+######### END 5 - e #########
+######### START 6 - j #########
+<a type="button" class="view-btn" [class.active]="view() === 'grid'" [attr.aria-pressed]="view() === 'grid'" (click)="setView('grid')" x-test-view-grid>Grid</a>
+######### END 6 - j #########
+######### START 7 - k #########
+<span class="view-grid-wrap"><button type="button" class="view-btn" [class.active]="view() === 'grid'" [attr.aria-pressed]="view() === 'grid'" (click)="setView('grid')" x-test-view-grid>Grid</button></span>
+######### END 7 - k #########

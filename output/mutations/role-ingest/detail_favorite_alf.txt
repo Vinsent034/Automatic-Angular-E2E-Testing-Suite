@@ -1,0 +1,21 @@
+######### START 1 - a #########
+<button type="button" class="btn btn-fav" [class.active]="m.favorite" [attr.aria-pressed]="m.favorite" (click)="toggleFavorite()" x-test-detail-favorite>{{ m.favorite ? '♥ In favorites' : '♡ Add to favorites' }}</button>
+######### END 1 - a #########
+######### START 2 - b #########
+<button class="btn btn-favorite" [class.active]="m.favorite" [attr.aria-pressed]="m.favorite" (click)="toggleFavorite()" x-test-detail-favorite>{{ m.favorite ? '♥ In favorites' : '♡ Add to favorites' }}</button>
+######### END 2 - b #########
+######### START 3 - c #########
+<button data-type="button" class="btn btn-favorite" [class.active]="m.favorite" [attr.aria-pressed]="m.favorite" (click)="toggleFavorite()" x-test-detail-favorite>{{ m.favorite ? '♥ In favorites' : '♡ Add to favorites' }}</button>
+######### END 3 - c #########
+######### START 4 - d #########
+<button type="button" class="btn btn-favorite" [class.active]="m.favorite" [attr.aria-pressed]="m.favorite" (click)="toggleFavorite()" x-test-detail-favorite>{{ m.favorite ? '♥ Saved' : '♡ Save' }}</button>
+######### END 4 - d #########
+######### START 5 - e #########
+<button type="button" class="btn btn-favorite" [class.active]="m.favorite" [attr.aria-pressed]="m.favorite" (click)="toggleFavorite()" x-test-detail-favorite> </button>
+######### END 5 - e #########
+######### START 6 - j #########
+<a type="button" class="btn btn-favorite" [class.active]="m.favorite" [attr.aria-pressed]="m.favorite" (click)="toggleFavorite()" x-test-detail-favorite>{{ m.favorite ? '♥ In favorites' : '♡ Add to favorites' }}</a>
+######### END 6 - j #########
+######### START 7 - k #########
+<span class="detail-fav-wrap"><button type="button" class="btn btn-favorite" [class.active]="m.favorite" [attr.aria-pressed]="m.favorite" (click)="toggleFavorite()" x-test-detail-favorite>{{ m.favorite ? '♥ In favorites' : '♡ Add to favorites' }}</button></span>
+######### END 7 - k #########

@@ -1,0 +1,1 @@
+C:\Users\vince\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\vince\.m2\repository\org\jsoup\jsoup\1.21.2\jsoup-1.21.2.jar;C:\Users\vince\.m2\repository\org\jdom\jdom2\2.0.6.1\jdom2-2.0.6.1.jar

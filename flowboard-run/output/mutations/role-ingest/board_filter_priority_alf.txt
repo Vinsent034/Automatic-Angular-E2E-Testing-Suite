@@ -1,0 +1,15 @@
+######### START 1 - a #########
+<select id="priority-filter" class="input select priority-filter compact" [value]="store.priorityFilter()" (change)="onPriorityFilter($event)" x-test-filter-priority><option value="all">All</option><option value="low">Low</option><option value="medium">Medium</option><option value="high">High</option></select>
+######### END 1 - a #########
+######### START 2 - b #########
+<select id="priority-filter" [value]="store.priorityFilter()" (change)="onPriorityFilter($event)" x-test-filter-priority><option value="all">All</option><option value="low">Low</option><option value="medium">Medium</option><option value="high">High</option></select>
+######### END 2 - b #########
+######### START 3 - c #########
+<select id="priority-filter" data-cls="input select priority-filter" [value]="store.priorityFilter()" (change)="onPriorityFilter($event)" x-test-filter-priority><option value="all">All</option><option value="low">Low</option><option value="medium">Medium</option><option value="high">High</option></select>
+######### END 3 - c #########
+######### START 6 - j #########
+<div id="priority-filter" class="input select priority-filter" [value]="store.priorityFilter()" (change)="onPriorityFilter($event)" x-test-filter-priority><option value="all">All</option><option value="low">Low</option><option value="medium">Medium</option><option value="high">High</option></div>
+######### END 6 - j #########
+######### START 7 - k #########
+<label class="pf-wrap"><select id="priority-filter" class="input select priority-filter" [value]="store.priorityFilter()" (change)="onPriorityFilter($event)" x-test-filter-priority><option value="all">All</option><option value="low">Low</option><option value="medium">Medium</option><option value="high">High</option></select></label>
+######### END 7 - k #########

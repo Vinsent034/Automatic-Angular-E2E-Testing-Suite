@@ -1,0 +1,15 @@
+######### START 1 - a #########
+<div class="toolbar-group toolbar-search active" role="search" x-test-toolbar-search><label class="field-label" for="search-input" x-test-search-label>Search</label><input id="search-input" class="input search-input" type="text" placeholder="Filter by title…" [value]="store.searchText()" (input)="onSearch($event)" x-test-search></div>
+######### END 1 - a #########
+######### START 2 - b #########
+<div class="toolbar-group toolbar-search" x-test-toolbar-search><label class="field-label" for="search-input" x-test-search-label>Search</label><input id="search-input" class="input search-input" type="text" placeholder="Filter by title…" [value]="store.searchText()" (input)="onSearch($event)" x-test-search></div>
+######### END 2 - b #########
+######### START 3 - c #########
+<div class="toolbar-group toolbar-search" data-role="search" x-test-toolbar-search><label class="field-label" for="search-input" x-test-search-label>Search</label><input id="search-input" class="input search-input" type="text" placeholder="Filter by title…" [value]="store.searchText()" (input)="onSearch($event)" x-test-search></div>
+######### END 3 - c #########
+######### START 6 - j #########
+<section class="toolbar-group toolbar-search" role="search" x-test-toolbar-search><label class="field-label" for="search-input" x-test-search-label>Search</label><input id="search-input" class="input search-input" type="text" placeholder="Filter by title…" [value]="store.searchText()" (input)="onSearch($event)" x-test-search></section>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="tg-wrap"><div class="toolbar-group toolbar-search" role="search" x-test-toolbar-search><label class="field-label" for="search-input" x-test-search-label>Search</label><input id="search-input" class="input search-input" type="text" placeholder="Filter by title…" [value]="store.searchText()" (input)="onSearch($event)" x-test-search></div></div>
+######### END 7 - k #########

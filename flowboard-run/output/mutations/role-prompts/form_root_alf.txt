@@ -1,0 +1,82 @@
+# TARGET: form-root  (x-test-form)
+# ROLE: alpha-target   FILE: C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html
+# Mutate ONLY this element. For each operator below, output the element's MUTATED outerHTML.
+# Rules: result valid Angular 19; NEVER add/remove/rename/alter any x-test* attribute;
+#        apply ONLY the requested operator; the element must really differ from the original.
+
+ROLE ELEMENT (original):
+<form class="card-form" (ngSubmit)="submit()" x-test-form>
+    <div class="form-field" x-test-form-field-title>
+      <label class="field-label" for="field-title" x-test-form-title-label>Title</label>
+      <input id="field-title" name="title" class="input form-title" type="text" required placeholder="Card title" [(ngModel)]="title" x-test-form-title>
+    </div>
+
+    <div class="form-field" x-test-form-field-description>
+      <label class="field-label" for="field-description" x-test-form-description-label>Description</label>
+      <textarea id="field-description" name="description" class="input form-description" rows="4" placeholder="What is this card about?" [(ngModel)]="description" x-test-form-description></textarea>
+    </div>
+
+    <div class="form-row">
+      <div class="form-field" x-test-form-field-priority>
+        <label class="field-label" for="field-priority" x-test-form-priority-label>Priority</label>
+        <select id="field-priority" name="priority" class="input select form-priority" [(ngModel)]="priority" x-test-form-priority>
+          <option value="low">Low</option>
+          <option value="medium">Medium</option>
+          <option value="high">High</option>
+        </select>
+      </div>
+
+      <div class="form-field" x-test-form-field-assignee>
+        <label class="field-label" for="field-assignee" x-test-form-assignee-label>Assignee</label>
+        <input id="field-assignee" name="assignee" class="input form-assignee" type="text" placeholder="Who works on it" [(ngModel)]="assignee" x-test-form-assignee>
+      </div>
+
+      <div class="form-field" x-test-form-field-column>
+        <label class="field-label" for="field-column" x-test-form-column-label>Column</label>
+        <select id="field-column" name="columnId" class="input select form-column" [(ngModel)]="columnId" x-test-form-column>
+          <option value="backlog">Backlog</option>
+          <option value="inprogress">In Progress</option>
+          <option value="review">Review</option>
+          <option value="done">Done</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="form-field" x-test-form-field-tags>
+      <label class="field-label" for="field-tags" x-test-form-tags-label>Tags (comma separated)</label>
+      <input id="field-tags" name="tags" class="input form-tags" type="text" placeholder="e.g. bug, ui" [(ngModel)]="tagsText" x-test-form-tags>
+    </div>
+
+    <div class="form-actions" x-test-form-actions>
+      <button class="btn btn-primary submit-btn" type="submit" x-test-form-submit>Save card</button>
+      <a class="btn btn-ghost cancel-btn" routerLink="/" x-test-form-cancel>Cancel</a>
+    </div>
+  </form>
+
+OPERATORS TO APPLY (one block each, body = mutated element outerHTML):
+- a (Attribute Value Modification): Change the VALUE of an existing attribute on an element, keeping the same attribute name.  [before: <tag attr="value">text</tag> -> after: <tag attr="newValue">text</tag>]
+- b (Attribute Removal): Remove an existing (non-essential) attribute from an element.  [before: <tag attr="value">text</tag> -> after: <tag>text</tag>]
+- c (Attribute Identifier Modification): Rename an existing attribute (change the attribute name, keep its value).  [before: <tag attr="value">text</tag> -> after: <tag newAttr="value">text</tag>]
+- f (HTML Tag Movement (within a container)): Reorder an element among its siblings inside the same parent container.  [before: <div>
+  <tagX></tagX>
+  <tagY>text</tagY>
+</div> -> after: <div>
+  <tagY>text</tagY>
+  <tagX></tagX>
+</div>]
+- g (HTML Tag Movement (any point of the HTML tree)): Move an element to a different position elsewhere in the template tree (different parent).  [before: <div>
+  <tag>text</tag>
+  <other></other>
+</div> -> after: <tag>text</tag>
+<div>
+  <other></other>
+</div>]
+- j (HTML Tag Type Modification): Change the tag name of an element (e.g. div -> section), keeping attributes and content.  [before: <tag attr="value">text</tag> -> after: <newTag attr="value">text</newTag>]
+- k (HTML Tag Insertion): Insert a new wrapper/container tag around an existing element (add a hierarchy level).  [before: <tag attr="value">text</tag> -> after: <wrapper>
+  <tag attr="value">text</tag>
+</wrapper>]
+
+OUTPUT FORMAT (only these blocks, {op} = operator id):
+######### START 1 - {op} #########
+<mutated element>
+######### END 1 - {op} #########

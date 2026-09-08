@@ -1,0 +1,15 @@
+######### START 1 - a #########
+<span class="detail-assignee muted" [attr.data-assignee]="store.selectedCard()?.assignee" x-test-detail-assignee>{{ store.selectedCard()?.assignee }}</span>
+######### END 1 - a #########
+######### START 2 - b #########
+<span [attr.data-assignee]="store.selectedCard()?.assignee" x-test-detail-assignee>{{ store.selectedCard()?.assignee }}</span>
+######### END 2 - b #########
+######### START 3 - c #########
+<span data-cls="detail-assignee" [attr.data-assignee]="store.selectedCard()?.assignee" x-test-detail-assignee>{{ store.selectedCard()?.assignee }}</span>
+######### END 3 - c #########
+######### START 6 - j #########
+<div class="detail-assignee" [attr.data-assignee]="store.selectedCard()?.assignee" x-test-detail-assignee>{{ store.selectedCard()?.assignee }}</div>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="dassignee-wrap"><span class="detail-assignee" [attr.data-assignee]="store.selectedCard()?.assignee" x-test-detail-assignee>{{ store.selectedCard()?.assignee }}</span></div>
+######### END 7 - k #########

@@ -1,0 +1,77 @@
+Test,Target,Applicable,Saved,Rejected,NA
+S6: shell shows board title,board-title,30,0,0,25
+S1: board intro,board-demo-badge,30,0,0,25
+S1: board intro,board-hint-banner,30,0,0,25
+S1: search filters by title,board-search,30,0,0,25
+S1: search,board-search-label,30,0,0,25
+S1: priority filter,board-filter-priority,30,0,0,25
+S1: priority filter,board-priority-label,30,0,0,25
+S1: assignee filter,board-filter-assignee,32,0,0,23
+S1: assignee filter,board-assignee-label,32,0,0,23
+S1: matching count,board-filtered-count,32,0,0,23
+S1: matching,board-matching-label,32,0,0,23
+S1: add card,board-add-card,32,0,0,23
+S6: reset board,board-reset,32,0,0,23
+S2: columns grid,board-columns,19,0,0,36
+S2: column header,board-column-title,33,0,0,22
+S2: column count updates on move,board-column-count,33,0,0,22
+S1: total badge,header-total-badge,32,0,0,23
+S6: brand,header-app-title,32,0,0,23
+S6: brand,header-app-tagline,32,0,0,23
+S6: brand,header-brand-icon,32,0,0,23
+S6: nav to board,header-nav-board,32,0,0,23
+S5: nav to stats,header-nav-stats,32,0,0,23
+S3: new card,header-new-card,32,0,0,23
+S2: card element,card-root,5,0,0,50
+S2: card id,card-id,33,0,0,22
+S1: card title,card-title,22,0,0,33
+S1: card priority,card-priority,33,0,0,22
+S1: card assignee,card-assignee,33,0,0,22
+S1: card tags,card-tags,33,0,0,22
+S2: move menu,card-move,34,0,0,21
+S4: open detail,card-open,21,0,0,34
+S4: edit link,card-edit,33,0,0,22
+S4: delete button,card-delete,33,0,0,22
+S2: column card list,column-card-list,7,0,0,48
+S2: empty column,column-empty-message,23,0,0,32
+S3: create card,form-root,21,0,0,34
+S3: title field,form-title,30,0,0,25
+S3: title label,form-title-label,30,0,0,25
+S3: description field,form-description,30,0,0,25
+S3: priority select,form-priority,31,0,0,24
+S3: assignee field,form-assignee,31,0,0,24
+S3: column select,form-column,31,0,0,24
+S3: tags field,form-tags,30,0,0,25
+S3: submit,form-submit,32,0,0,23
+S3: cancel,form-cancel,32,0,0,23
+S3: back,form-back,32,0,0,23
+S3: actions,form-actions,26,0,0,29
+S4: detail title,detail-title,33,0,0,22
+S4: detail id,detail-id,33,0,0,22
+S4: detail priority,detail-priority,33,0,0,22
+S4: detail description,detail-description,33,0,0,22
+S4: detail assignee,detail-assignee,33,0,0,22
+S4: detail column,detail-column,33,0,0,22
+S4: detail tags,detail-tags,33,0,0,22
+S4: detail edit,detail-edit,32,0,0,23
+S4: detail delete,detail-delete,32,0,0,23
+S4: detail back,detail-back,32,0,0,23
+S4: detail page title,detail-page-title,32,0,0,23
+S5: total,stat-total,32,0,0,23
+S5: backlog count,stat-backlog,32,0,0,23
+S5: inprogress count,stat-inprogress,32,0,0,23
+S5: review count,stat-review,32,0,0,23
+S5: done count,stat-done,32,0,0,23
+S5: high count,stat-high,32,0,0,23
+S5: medium count,stat-medium,32,0,0,23
+S5: low count,stat-low,32,0,0,23
+S5: stats title,stats-title,30,0,0,25
+S5: table,stats-table,28,0,0,27
+S5: table header,stats-th-title,27,0,0,28
+S5: table row,stat-row,30,0,0,25
+S6: footer brand,footer-brand,33,0,0,22
+S6: footer note,footer-note,33,0,0,22
+S6: footer version,footer-version,33,0,0,22
+S6: main region,app-main,17,0,0,38
+S4/S6: toast message,toast-message,23,0,0,32
+S4/S6: toast label,toast-label,23,0,0,32

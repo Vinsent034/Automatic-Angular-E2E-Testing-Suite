@@ -1,0 +1,28 @@
+######### START 1 - a #########
+<div class="bar-track">
+            <div class="genre-bar-fill" [style.width.%]="g.share"></div>
+          </div>
+######### END 1 - a #########
+######### START 2 - b #########
+<div>
+            <div class="genre-bar-fill" [style.width.%]="g.share"></div>
+          </div>
+######### END 2 - b #########
+######### START 3 - c #########
+<div trackclass="genre-bar-track">
+            <div class="genre-bar-fill" [style.width.%]="g.share"></div>
+          </div>
+######### END 3 - c #########
+######### START 4 - i #########
+<div class="genre-bar-fill" [style.width.%]="g.share"></div>
+######### END 4 - i #########
+######### START 5 - j #########
+<span class="genre-bar-track">
+            <div class="genre-bar-fill" [style.width.%]="g.share"></div>
+          </span>
+######### END 5 - j #########
+######### START 6 - k #########
+<div class="track-wrap"><div class="genre-bar-track">
+            <div class="genre-bar-fill" [style.width.%]="g.share"></div>
+          </div></div>
+######### END 6 - k #########

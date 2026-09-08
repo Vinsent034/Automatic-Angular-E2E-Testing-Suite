@@ -1,0 +1,51 @@
+######### START 1 - a #########
+<button type="button" class="fav-toggle" [class.active]="movie().favorite" (click)="toggleFavorite()" [attr.aria-pressed]="movie().favorite" [attr.aria-label]="movie().favorite ? 'Remove from favorites' : 'Add to favorites'" x-test-favorite-toggle>{{ movie().favorite ? '♥' : '♡' }}</button>
+######### END 1 - a #########
+######### START 2 - b #########
+<button class="favorite-toggle" [class.active]="movie().favorite" (click)="toggleFavorite()" [attr.aria-pressed]="movie().favorite" [attr.aria-label]="movie().favorite ? 'Remove from favorites' : 'Add to favorites'" x-test-favorite-toggle>{{ movie().favorite ? '♥' : '♡' }}</button>
+######### END 2 - b #########
+######### START 3 - c #########
+<button data-type="button" class="favorite-toggle" [class.active]="movie().favorite" (click)="toggleFavorite()" [attr.aria-pressed]="movie().favorite" [attr.aria-label]="movie().favorite ? 'Remove from favorites' : 'Add to favorites'" x-test-favorite-toggle>{{ movie().favorite ? '♥' : '♡' }}</button>
+######### END 3 - c #########
+######### START 4 - d #########
+<button type="button" class="favorite-toggle" [class.active]="movie().favorite" (click)="toggleFavorite()" [attr.aria-pressed]="movie().favorite" [attr.aria-label]="movie().favorite ? 'Remove from favorites' : 'Add to favorites'" x-test-favorite-toggle>{{ movie().favorite ? '★' : '☆' }}</button>
+######### END 4 - d #########
+######### START 5 - e #########
+<button type="button" class="favorite-toggle" [class.active]="movie().favorite" (click)="toggleFavorite()" [attr.aria-pressed]="movie().favorite" [attr.aria-label]="movie().favorite ? 'Remove from favorites' : 'Add to favorites'" x-test-favorite-toggle> </button>
+######### END 5 - e #########
+######### START 6 - f #########
+<div class="movie-card movie-card-{{ view() }}" [attr.data-genre]="movie().genre" [class.is-favorite]="movie().favorite" x-test-card>
+  <a class="poster" [routerLink]="['/movie', movie().id]" aria-hidden="true" tabindex="-1" x-test-card-poster>
+    <span class="poster-letter">{{ movie().title.charAt(0) }}</span>
+  </a>
+  <div class="card-body">
+    <a class="card-title-link" [routerLink]="['/movie', movie().id]" x-test-card-link>
+      <h2 class="card-title" x-test-card-title>{{ movie().title }}</h2>
+    </a>
+    <p class="card-meta" x-test-card-meta>{{ movie().year }} · {{ movie().genre }}</p>
+    <p class="card-rating" x-test-card-rating>★ {{ movie().rating }}</p>
+  </div>
+  <button type="button" class="favorite-toggle" [class.active]="movie().favorite" (click)="toggleFavorite()" [attr.aria-pressed]="movie().favorite" [attr.aria-label]="movie().favorite ? 'Remove from favorites' : 'Add to favorites'" x-test-favorite-toggle>{{ movie().favorite ? '♥' : '♡' }}</button>
+</div>
+######### END 6 - f #########
+######### START 7 - g #########
+<div class="movie-card movie-card-{{ view() }}" [attr.data-genre]="movie().genre" [class.is-favorite]="movie().favorite" x-test-card>
+  <a class="poster" [routerLink]="['/movie', movie().id]" aria-hidden="true" tabindex="-1" x-test-card-poster>
+    <span class="poster-letter">{{ movie().title.charAt(0) }}</span>
+  </a>
+  <div class="card-body">
+    <button type="button" class="favorite-toggle" [class.active]="movie().favorite" (click)="toggleFavorite()" [attr.aria-pressed]="movie().favorite" [attr.aria-label]="movie().favorite ? 'Remove from favorites' : 'Add to favorites'" x-test-favorite-toggle>{{ movie().favorite ? '♥' : '♡' }}</button>
+    <a class="card-title-link" [routerLink]="['/movie', movie().id]" x-test-card-link>
+      <h2 class="card-title" x-test-card-title>{{ movie().title }}</h2>
+    </a>
+    <p class="card-meta" x-test-card-meta>{{ movie().year }} · {{ movie().genre }}</p>
+    <p class="card-rating" x-test-card-rating>★ {{ movie().rating }}</p>
+  </div>
+</div>
+######### END 7 - g #########
+######### START 8 - j #########
+<span type="button" class="favorite-toggle" [class.active]="movie().favorite" (click)="toggleFavorite()" [attr.aria-pressed]="movie().favorite" [attr.aria-label]="movie().favorite ? 'Remove from favorites' : 'Add to favorites'" x-test-favorite-toggle>{{ movie().favorite ? '♥' : '♡' }}</span>
+######### END 8 - j #########
+######### START 9 - k #########
+<span class="fav-wrap"><button type="button" class="favorite-toggle" [class.active]="movie().favorite" (click)="toggleFavorite()" [attr.aria-pressed]="movie().favorite" [attr.aria-label]="movie().favorite ? 'Remove from favorites' : 'Add to favorites'" x-test-favorite-toggle>{{ movie().favorite ? '♥' : '♡' }}</button></span>
+######### END 9 - k #########

@@ -1,0 +1,12 @@
+######### START 1 - a #########
+<div class="detail-row highlight" x-test-detail-tags-row><span class="detail-label" x-test-detail-tags-label>Tags</span><ul class="tag-list detail-tags" x-test-detail-tags>@for (tag of store.selectedCard()?.tags; track tag) {<li class="tag" [attr.data-tag]="tag">{{ tag }}</li>} @empty {<li class="tag tag-empty" x-test-detail-no-tags>no tags</li>}</ul></div>
+######### END 1 - a #########
+######### START 3 - c #########
+<div data-cls="detail-row" x-test-detail-tags-row><span class="detail-label" x-test-detail-tags-label>Tags</span><ul class="tag-list detail-tags" x-test-detail-tags>@for (tag of store.selectedCard()?.tags; track tag) {<li class="tag" [attr.data-tag]="tag">{{ tag }}</li>} @empty {<li class="tag tag-empty" x-test-detail-no-tags>no tags</li>}</ul></div>
+######### END 3 - c #########
+######### START 6 - j #########
+<section class="detail-row" x-test-detail-tags-row><span class="detail-label" x-test-detail-tags-label>Tags</span><ul class="tag-list detail-tags" x-test-detail-tags>@for (tag of store.selectedCard()?.tags; track tag) {<li class="tag" [attr.data-tag]="tag">{{ tag }}</li>} @empty {<li class="tag tag-empty" x-test-detail-no-tags>no tags</li>}</ul></section>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="dr-wrap"><div class="detail-row" x-test-detail-tags-row><span class="detail-label" x-test-detail-tags-label>Tags</span><ul class="tag-list detail-tags" x-test-detail-tags>@for (tag of store.selectedCard()?.tags; track tag) {<li class="tag" [attr.data-tag]="tag">{{ tag }}</li>} @empty {<li class="tag tag-empty" x-test-detail-no-tags>no tags</li>}</ul></div></div>
+######### END 7 - k #########

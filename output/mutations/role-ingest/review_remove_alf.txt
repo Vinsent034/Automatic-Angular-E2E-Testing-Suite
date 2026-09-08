@@ -1,0 +1,21 @@
+######### START 1 - a #########
+<button type="button" class="review-del" (click)="remove(review.id)" aria-label="Remove review" x-test-review-remove>×</button>
+######### END 1 - a #########
+######### START 2 - b #########
+<button class="review-remove" (click)="remove(review.id)" aria-label="Remove review" x-test-review-remove>×</button>
+######### END 2 - b #########
+######### START 3 - c #########
+<button data-type="button" class="review-remove" (click)="remove(review.id)" aria-label="Remove review" x-test-review-remove>×</button>
+######### END 3 - c #########
+######### START 4 - d #########
+<button type="button" class="review-remove" (click)="remove(review.id)" aria-label="Remove review" x-test-review-remove>Delete</button>
+######### END 4 - d #########
+######### START 5 - e #########
+<button type="button" class="review-remove" (click)="remove(review.id)" aria-label="Remove review" x-test-review-remove> </button>
+######### END 5 - e #########
+######### START 6 - j #########
+<a type="button" class="review-remove" (click)="remove(review.id)" aria-label="Remove review" x-test-review-remove>×</a>
+######### END 6 - j #########
+######### START 7 - k #########
+<span class="review-remove-wrap"><button type="button" class="review-remove" (click)="remove(review.id)" aria-label="Remove review" x-test-review-remove>×</button></span>
+######### END 7 - k #########

@@ -1,0 +1,15 @@
+######### START 1 - a #########
+<div class="toolbar-group toolbar-actions active" x-test-toolbar-actions><a class="btn btn-primary add-card-btn" routerLink="/card/new" role="button" x-test-add-card>Add card</a><button class="btn btn-ghost reset-btn" type="button" (click)="store.reset()" x-test-reset>Reset board</button></div>
+######### END 1 - a #########
+######### START 2 - b #########
+<div class="toolbar-group" x-test-toolbar-actions><a class="btn btn-primary add-card-btn" routerLink="/card/new" role="button" x-test-add-card>Add card</a><button class="btn btn-ghost reset-btn" type="button" (click)="store.reset()" x-test-reset>Reset board</button></div>
+######### END 2 - b #########
+######### START 3 - c #########
+<div data-cls="toolbar-group toolbar-actions" x-test-toolbar-actions><a class="btn btn-primary add-card-btn" routerLink="/card/new" role="button" x-test-add-card>Add card</a><button class="btn btn-ghost reset-btn" type="button" (click)="store.reset()" x-test-reset>Reset board</button></div>
+######### END 3 - c #########
+######### START 6 - j #########
+<section class="toolbar-group toolbar-actions" x-test-toolbar-actions><a class="btn btn-primary add-card-btn" routerLink="/card/new" role="button" x-test-add-card>Add card</a><button class="btn btn-ghost reset-btn" type="button" (click)="store.reset()" x-test-reset>Reset board</button></section>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="tg-wrap"><div class="toolbar-group toolbar-actions" x-test-toolbar-actions><a class="btn btn-primary add-card-btn" routerLink="/card/new" role="button" x-test-add-card>Add card</a><button class="btn btn-ghost reset-btn" type="button" (click)="store.reset()" x-test-reset>Reset board</button></div></div>
+######### END 7 - k #########

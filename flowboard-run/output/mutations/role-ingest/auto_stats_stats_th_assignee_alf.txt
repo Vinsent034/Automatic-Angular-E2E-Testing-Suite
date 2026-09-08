@@ -1,0 +1,21 @@
+######### START 1 - a #########
+<th class="col-assignee narrow" x-test-stats-th-assignee>Assignee</th>
+######### END 1 - a #########
+######### START 2 - b #########
+<th x-test-stats-th-assignee>Assignee</th>
+######### END 2 - b #########
+######### START 3 - c #########
+<th data-cls="col-assignee" x-test-stats-th-assignee>Assignee</th>
+######### END 3 - c #########
+######### START 4 - d #########
+<th class="col-assignee" x-test-stats-th-assignee>Owner</th>
+######### END 4 - d #########
+######### START 5 - e #########
+<th class="col-assignee" x-test-stats-th-assignee></th>
+######### END 5 - e #########
+######### START 6 - j #########
+<td class="col-assignee" x-test-stats-th-assignee>Assignee</td>
+######### END 6 - j #########
+######### START 7 - k #########
+<th class="col-assignee" x-test-stats-th-assignee><span>Assignee</span></th>
+######### END 7 - k #########

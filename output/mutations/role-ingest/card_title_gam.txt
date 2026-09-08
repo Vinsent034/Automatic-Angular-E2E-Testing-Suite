@@ -1,0 +1,98 @@
+######### START 1 - a #########
+<div class="card-content">
+    <a class="card-title-link" [routerLink]="['/movie', movie().id]" x-test-card-link>
+      <h2 class="card-title" x-test-card-title>{{ movie().title }}</h2>
+    </a>
+    <p class="card-meta" x-test-card-meta>{{ movie().year }} · {{ movie().genre }}</p>
+    <p class="card-rating" x-test-card-rating>★ {{ movie().rating }}</p>
+  </div>
+######### END 1 - a #########
+######### START 2 - b #########
+<div>
+    <a class="card-title-link" [routerLink]="['/movie', movie().id]" x-test-card-link>
+      <h2 class="card-title" x-test-card-title>{{ movie().title }}</h2>
+    </a>
+    <p class="card-meta" x-test-card-meta>{{ movie().year }} · {{ movie().genre }}</p>
+    <p class="card-rating" x-test-card-rating>★ {{ movie().rating }}</p>
+  </div>
+######### END 2 - b #########
+######### START 3 - c #########
+<div bodyclass="card-body">
+    <a class="card-title-link" [routerLink]="['/movie', movie().id]" x-test-card-link>
+      <h2 class="card-title" x-test-card-title>{{ movie().title }}</h2>
+    </a>
+    <p class="card-meta" x-test-card-meta>{{ movie().year }} · {{ movie().genre }}</p>
+    <p class="card-rating" x-test-card-rating>★ {{ movie().rating }}</p>
+  </div>
+######### END 3 - c #########
+######### START 4 - f #########
+<div class="movie-card movie-card-{{ view() }}" [attr.data-genre]="movie().genre" [class.is-favorite]="movie().favorite" x-test-card>
+  <div class="card-body">
+    <a class="card-title-link" [routerLink]="['/movie', movie().id]" x-test-card-link>
+      <h2 class="card-title" x-test-card-title>{{ movie().title }}</h2>
+    </a>
+    <p class="card-meta" x-test-card-meta>{{ movie().year }} · {{ movie().genre }}</p>
+    <p class="card-rating" x-test-card-rating>★ {{ movie().rating }}</p>
+  </div>
+  <a class="poster" [routerLink]="['/movie', movie().id]" aria-hidden="true" tabindex="-1" x-test-card-poster>
+    <span class="poster-letter">{{ movie().title.charAt(0) }}</span>
+  </a>
+  <button
+    type="button"
+    class="favorite-toggle"
+    [class.active]="movie().favorite"
+    (click)="toggleFavorite()"
+    [attr.aria-pressed]="movie().favorite"
+    [attr.aria-label]="movie().favorite ? 'Remove from favorites' : 'Add to favorites'"
+    x-test-favorite-toggle
+  >{{ movie().favorite ? '♥' : '♡' }}</button>
+</div>
+######### END 4 - f #########
+######### START 5 - g #########
+<div class="movie-card movie-card-{{ view() }}" [attr.data-genre]="movie().genre" [class.is-favorite]="movie().favorite" x-test-card>
+  <a class="poster" [routerLink]="['/movie', movie().id]" aria-hidden="true" tabindex="-1" x-test-card-poster>
+    <span class="poster-letter">{{ movie().title.charAt(0) }}</span>
+    <div class="card-body">
+      <a class="card-title-link" [routerLink]="['/movie', movie().id]" x-test-card-link>
+        <h2 class="card-title" x-test-card-title>{{ movie().title }}</h2>
+      </a>
+      <p class="card-meta" x-test-card-meta>{{ movie().year }} · {{ movie().genre }}</p>
+      <p class="card-rating" x-test-card-rating>★ {{ movie().rating }}</p>
+    </div>
+  </a>
+  <button
+    type="button"
+    class="favorite-toggle"
+    [class.active]="movie().favorite"
+    (click)="toggleFavorite()"
+    [attr.aria-pressed]="movie().favorite"
+    [attr.aria-label]="movie().favorite ? 'Remove from favorites' : 'Add to favorites'"
+    x-test-favorite-toggle
+  >{{ movie().favorite ? '♥' : '♡' }}</button>
+</div>
+######### END 5 - g #########
+######### START 6 - i #########
+<a class="card-title-link" [routerLink]="['/movie', movie().id]" x-test-card-link>
+      <h2 class="card-title" x-test-card-title>{{ movie().title }}</h2>
+    </a>
+    <p class="card-meta" x-test-card-meta>{{ movie().year }} · {{ movie().genre }}</p>
+    <p class="card-rating" x-test-card-rating>★ {{ movie().rating }}</p>
+######### END 6 - i #########
+######### START 7 - j #########
+<section class="card-body">
+    <a class="card-title-link" [routerLink]="['/movie', movie().id]" x-test-card-link>
+      <h2 class="card-title" x-test-card-title>{{ movie().title }}</h2>
+    </a>
+    <p class="card-meta" x-test-card-meta>{{ movie().year }} · {{ movie().genre }}</p>
+    <p class="card-rating" x-test-card-rating>★ {{ movie().rating }}</p>
+  </section>
+######### END 7 - j #########
+######### START 8 - k #########
+<div class="card-body-wrap"><div class="card-body">
+    <a class="card-title-link" [routerLink]="['/movie', movie().id]" x-test-card-link>
+      <h2 class="card-title" x-test-card-title>{{ movie().title }}</h2>
+    </a>
+    <p class="card-meta" x-test-card-meta>{{ movie().year }} · {{ movie().genre }}</p>
+    <p class="card-rating" x-test-card-rating>★ {{ movie().rating }}</p>
+  </div></div>
+######### END 8 - k #########

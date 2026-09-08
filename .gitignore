@@ -46,3 +46,6 @@ hookInjection.bat
 mutations.db
 *.jar
 completed-tests/PlaySong/play_song.db
+### Backup delle basi di dati (non versionati) ###
+mutations.db*
+*.db.bak*

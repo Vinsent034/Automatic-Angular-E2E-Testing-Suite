@@ -1,0 +1,14 @@
+######### START 1 - a #########
+<select class="sort-field" [value]="sort()" (change)="onSort($any($event.target).value)" x-test-sort>
+      <option value="title">Title (A–Z)</option>
+      <option value="rating">Top rated</option>
+      <option value="year">Newest</option>
+    </select>
+######### END 1 - a #########
+######### START 2 - c #########
+<select data-sort="field-input filter-select" [value]="sort()" (change)="onSort($any($event.target).value)" x-test-sort>
+      <option value="title">Title (A–Z)</option>
+      <option value="rating">Top rated</option>
+      <option value="year">Newest</option>
+    </select>
+######### END 2 - c #########

@@ -1,0 +1,21 @@
+######### START 1 - a #########
+<span class="brand-tagline muted" x-test-app-tagline>Kanban demo board</span>
+######### END 1 - a #########
+######### START 2 - b #########
+<span x-test-app-tagline>Kanban demo board</span>
+######### END 2 - b #########
+######### START 3 - c #########
+<span data-cls="brand-tagline" x-test-app-tagline>Kanban demo board</span>
+######### END 3 - c #########
+######### START 4 - d #########
+<span class="brand-tagline" x-test-app-tagline>Task board demo</span>
+######### END 4 - d #########
+######### START 5 - e #########
+<span class="brand-tagline" x-test-app-tagline></span>
+######### END 5 - e #########
+######### START 6 - j #########
+<div class="brand-tagline" x-test-app-tagline>Kanban demo board</div>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="bt-wrap"><span class="brand-tagline" x-test-app-tagline>Kanban demo board</span></div>
+######### END 7 - k #########

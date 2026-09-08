@@ -1,0 +1,21 @@
+######### START 1 - a #########
+<th class="col-title wide" x-test-stats-th-title>Title</th>
+######### END 1 - a #########
+######### START 2 - b #########
+<th x-test-stats-th-title>Title</th>
+######### END 2 - b #########
+######### START 3 - c #########
+<th data-cls="col-title" x-test-stats-th-title>Title</th>
+######### END 3 - c #########
+######### START 4 - d #########
+<th class="col-title" x-test-stats-th-title>Card title</th>
+######### END 4 - d #########
+######### START 5 - e #########
+<th class="col-title" x-test-stats-th-title></th>
+######### END 5 - e #########
+######### START 6 - j #########
+<td class="col-title" x-test-stats-th-title>Title</td>
+######### END 6 - j #########
+######### START 7 - k #########
+<th class="col-title" x-test-stats-th-title><span>Title</span></th>
+######### END 7 - k #########

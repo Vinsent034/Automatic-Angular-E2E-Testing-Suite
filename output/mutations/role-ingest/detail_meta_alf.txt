@@ -1,0 +1,21 @@
+######### START 1 - a #########
+<p class="meta-line" x-test-detail-meta>{{ m.year }} · {{ m.genre }} · {{ m.runtime }} min · ★ {{ m.rating }}</p>
+######### END 1 - a #########
+######### START 2 - b #########
+<p x-test-detail-meta>{{ m.year }} · {{ m.genre }} · {{ m.runtime }} min · ★ {{ m.rating }}</p>
+######### END 2 - b #########
+######### START 3 - c #########
+<p pclass="detail-meta" x-test-detail-meta>{{ m.year }} · {{ m.genre }} · {{ m.runtime }} min · ★ {{ m.rating }}</p>
+######### END 3 - c #########
+######### START 4 - d #########
+<p class="detail-meta" x-test-detail-meta>{{ m.year }} · {{ m.genre }}</p>
+######### END 4 - d #########
+######### START 5 - e #########
+<p class="detail-meta" x-test-detail-meta> </p>
+######### END 5 - e #########
+######### START 6 - j #########
+<div class="detail-meta" x-test-detail-meta>{{ m.year }} · {{ m.genre }} · {{ m.runtime }} min · ★ {{ m.rating }}</div>
+######### END 6 - j #########
+######### START 7 - k #########
+<span class="detail-meta-wrap"><p class="detail-meta" x-test-detail-meta>{{ m.year }} · {{ m.genre }} · {{ m.runtime }} min · ★ {{ m.rating }}</p></span>
+######### END 7 - k #########

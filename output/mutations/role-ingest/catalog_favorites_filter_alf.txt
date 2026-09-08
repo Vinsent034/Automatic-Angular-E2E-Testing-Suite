@@ -1,0 +1,21 @@
+######### START 1 - a #########
+<button type="button" class="btn btn-fav-toggle" [class.active]="favoritesOnly()" [attr.aria-pressed]="favoritesOnly()" (click)="toggleFavoritesOnly()" x-test-favorites-filter>♥ Favorites ({{ favoriteCount() }})</button>
+######### END 1 - a #########
+######### START 2 - b #########
+<button class="btn btn-toggle" [class.active]="favoritesOnly()" [attr.aria-pressed]="favoritesOnly()" (click)="toggleFavoritesOnly()" x-test-favorites-filter>♥ Favorites ({{ favoriteCount() }})</button>
+######### END 2 - b #########
+######### START 3 - c #########
+<button data-type="button" class="btn btn-toggle" [class.active]="favoritesOnly()" [attr.aria-pressed]="favoritesOnly()" (click)="toggleFavoritesOnly()" x-test-favorites-filter>♥ Favorites ({{ favoriteCount() }})</button>
+######### END 3 - c #########
+######### START 4 - d #########
+<button type="button" class="btn btn-toggle" [class.active]="favoritesOnly()" [attr.aria-pressed]="favoritesOnly()" (click)="toggleFavoritesOnly()" x-test-favorites-filter>♥ Liked ({{ favoriteCount() }})</button>
+######### END 4 - d #########
+######### START 5 - e #########
+<button type="button" class="btn btn-toggle" [class.active]="favoritesOnly()" [attr.aria-pressed]="favoritesOnly()" (click)="toggleFavoritesOnly()" x-test-favorites-filter> </button>
+######### END 5 - e #########
+######### START 6 - j #########
+<a type="button" class="btn btn-toggle" [class.active]="favoritesOnly()" [attr.aria-pressed]="favoritesOnly()" (click)="toggleFavoritesOnly()" x-test-favorites-filter>♥ Favorites ({{ favoriteCount() }})</a>
+######### END 6 - j #########
+######### START 7 - k #########
+<span class="fav-filter-wrap"><button type="button" class="btn btn-toggle" [class.active]="favoritesOnly()" [attr.aria-pressed]="favoritesOnly()" (click)="toggleFavoritesOnly()" x-test-favorites-filter>♥ Favorites ({{ favoriteCount() }})</button></span>
+######### END 7 - k #########

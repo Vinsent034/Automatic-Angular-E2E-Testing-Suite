@@ -1,0 +1,21 @@
+######### START 1 - a #########
+<a class="btn btn-primary add-card-btn" routerLink="/card/new" role="link" x-test-add-card>Add card</a>
+######### END 1 - a #########
+######### START 2 - b #########
+<a class="btn btn-primary add-card-btn" routerLink="/card/new" x-test-add-card>Add card</a>
+######### END 2 - b #########
+######### START 3 - c #########
+<a class="btn btn-primary add-card-btn" routerLink="/card/new" data-role="button" x-test-add-card>Add card</a>
+######### END 3 - c #########
+######### START 4 - d #########
+<a class="btn btn-primary add-card-btn" routerLink="/card/new" role="button" x-test-add-card>Create card</a>
+######### END 4 - d #########
+######### START 5 - e #########
+<a class="btn btn-primary add-card-btn" routerLink="/card/new" role="button" x-test-add-card></a>
+######### END 5 - e #########
+######### START 6 - j #########
+<button class="btn btn-primary add-card-btn" routerLink="/card/new" role="button" x-test-add-card>Add card</button>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="add-wrap"><a class="btn btn-primary add-card-btn" routerLink="/card/new" role="button" x-test-add-card>Add card</a></div>
+######### END 7 - k #########

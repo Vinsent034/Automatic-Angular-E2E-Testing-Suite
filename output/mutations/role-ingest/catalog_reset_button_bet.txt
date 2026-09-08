@@ -1,0 +1,30 @@
+######### START 1 - a #########
+<div class="secondary-toolbar">
+    <button type="button" class="btn btn-toggle" [class.active]="favoritesOnly()" [attr.aria-pressed]="favoritesOnly()" (click)="toggleFavoritesOnly()" x-test-favorites-filter>♥ Favorites ({{ favoriteCount() }})</button>
+    <div class="view-switch" role="group" aria-label="View mode" x-test-view-switch>
+      <button type="button" class="view-btn" [class.active]="view() === 'grid'" [attr.aria-pressed]="view() === 'grid'" (click)="setView('grid')" x-test-view-grid>Grid</button>
+      <button type="button" class="view-btn" [class.active]="view() === 'list'" [attr.aria-pressed]="view() === 'list'" (click)="setView('list')" x-test-view-list>List</button>
+    </div>
+    <button type="button" class="btn btn-ghost" (click)="openReset()" x-test-reset-button>Reset catalog</button>
+  </div>
+######### END 1 - a #########
+######### START 2 - c #########
+<div data-toolbar2="toolbar toolbar-secondary">
+    <button type="button" class="btn btn-toggle" [class.active]="favoritesOnly()" [attr.aria-pressed]="favoritesOnly()" (click)="toggleFavoritesOnly()" x-test-favorites-filter>♥ Favorites ({{ favoriteCount() }})</button>
+    <div class="view-switch" role="group" aria-label="View mode" x-test-view-switch>
+      <button type="button" class="view-btn" [class.active]="view() === 'grid'" [attr.aria-pressed]="view() === 'grid'" (click)="setView('grid')" x-test-view-grid>Grid</button>
+      <button type="button" class="view-btn" [class.active]="view() === 'list'" [attr.aria-pressed]="view() === 'list'" (click)="setView('list')" x-test-view-list>List</button>
+    </div>
+    <button type="button" class="btn btn-ghost" (click)="openReset()" x-test-reset-button>Reset catalog</button>
+  </div>
+######### END 2 - c #########
+######### START 3 - j #########
+<header class="toolbar toolbar-secondary">
+    <button type="button" class="btn btn-toggle" [class.active]="favoritesOnly()" [attr.aria-pressed]="favoritesOnly()" (click)="toggleFavoritesOnly()" x-test-favorites-filter>♥ Favorites ({{ favoriteCount() }})</button>
+    <div class="view-switch" role="group" aria-label="View mode" x-test-view-switch>
+      <button type="button" class="view-btn" [class.active]="view() === 'grid'" [attr.aria-pressed]="view() === 'grid'" (click)="setView('grid')" x-test-view-grid>Grid</button>
+      <button type="button" class="view-btn" [class.active]="view() === 'list'" [attr.aria-pressed]="view() === 'list'" (click)="setView('list')" x-test-view-list>List</button>
+    </div>
+    <button type="button" class="btn btn-ghost" (click)="openReset()" x-test-reset-button>Reset catalog</button>
+  </header>
+######### END 3 - j #########

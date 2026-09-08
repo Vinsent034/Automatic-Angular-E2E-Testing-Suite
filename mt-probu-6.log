@@ -1,0 +1,589 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.sqlite.SQLiteJDBCLoader in an unnamed module (file:/C:/Users/vince/OneDrive/Desktop/Tirocinio/progetto/Automatic-Angular-E2E-Testing-Suite/mutation-tester/target/mutation-tester-1.0.0-jar-with-dependencies.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+Loaded class: AbsoluteXPathTest
+Loaded abstract class: BaseTest
+Loaded class: KatalonXPathTest
+Loaded class: RelativeXPathTest
+Loaded class: RobulaPlusXPathTest
+Loaded class: RobulaXPathTest
+Loaded class: SeleniumXPathTest
+Loaded factory class: WebDriverFactory
+Found 6 classes to execute.
+Found 20 mutations to apply.
+Starting TypeScript application (npm start)...
+TypeScript application started.
+
+20 out of 20 remaining.
+Mutation mutation_LLMP_search_component_html_h_2_LLM_PARAMETRIC_search_component_html applied. Waiting for recompile...
+Timeout: typescript application did not recompile in time.
+Application did not recompile.
+Skipping test AbsoluteXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test KatalonXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RelativeXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaPlusXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test SeleniumXPathTest: Application did not recompile.
+---------------------------------------------
+
+19 out of 20 remaining.
+Mutation mutation_LLMP_search_component_html_h_6_LLM_PARAMETRIC_search_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Jun 19, 2026 12:18:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+AVVERTENZA: Unable to find CDP implementation matching 149
+Jun 19, 2026 12:18:34 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+AVVERTENZA: Unable to find version of CDP to use for 149.0.7827.115. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[WebDriverFactory] DevTools/sentry-block saltato: You are using a no-op implementation of the CDP. The most likely reason for this is that Selenium was unable to find an implementation of the CDP protocol that matches your browser. Please be sure to include an implementation on the classpath, possibly by adding a new (maven) dependency of `org.seleniumhq.selenium:selenium-devtools-vNN:4.27.0` where `NN` matches the major version of the browser you're using.
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: DevTools Connection
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+18 out of 20 remaining.
+Mutation mutation_LLMP_search_component_html_g_9_LLM_PARAMETRIC_search_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [FAILED] java.lang.AssertionError
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//*[3]/*[@class='common-grid']"}
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [FAILED] no such element: Unable to locate element: {"method":"css selector" "selector":".ng-star-inserted:nth-child(3) > .common-grid"}
+---------------------------------------------
+
+17 out of 20 remaining.
+Mutation mutation_LLMP_search_component_html_h_4_LLM_PARAMETRIC_search_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+16 out of 20 remaining.
+Mutation mutation_LLMP_search_component_html_h_8_LLM_PARAMETRIC_search_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+15 out of 20 remaining.
+Mutation mutation_LLMP_search_component_html_h_10_LLM_PARAMETRIC_search_component_html applied. Waiting for recompile...
+Application did not recompile.
+Skipping test AbsoluteXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test KatalonXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RelativeXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaPlusXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test SeleniumXPathTest: Application did not recompile.
+---------------------------------------------
+
+14 out of 20 remaining.
+Mutation mutation_LLMP_search_component_html_i_1_LLM_PARAMETRIC_search_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [FAILED] Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[1]/as-input/div/input (tried for 5 second(s) with 500 milliseconds interval)
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [FAILED] Expected condition failed: waiting for visibility of element located by By.xpath: //input (tried for 5 second(s) with 500 milliseconds interval)
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [FAILED] Expected condition failed: waiting for visibility of element located by By.xpath: //input[@placeholder='Artists  songs  albums  or playlists'] (tried for 5 second(s) with 500 milliseconds interval)
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [FAILED] Expected condition failed: waiting for visibility of element located by By.xpath: //input (tried for 5 second(s) with 500 milliseconds interval)
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [FAILED] Expected condition failed: waiting for visibility of element located by By.xpath: //input (tried for 5 second(s) with 500 milliseconds interval)
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [FAILED] Expected condition failed: waiting for visibility of element located by By.cssSelector: .input-container > .ng-untouched (tried for 5 second(s) with 500 milliseconds interval)
+---------------------------------------------
+
+13 out of 20 remaining.
+Mutation mutation_LLMP_search_component_html_h_5_LLM_PARAMETRIC_search_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+12 out of 20 remaining.
+Mutation mutation_LLMP_search_component_html_i_3_LLM_PARAMETRIC_search_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+11 out of 20 remaining.
+Mutation mutation_LLMP_search_component_html_i_10_LLM_PARAMETRIC_search_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [FAILED] Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[1]/as-input/div/input (tried for 5 second(s) with 500 milliseconds interval)
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [FAILED] Expected condition failed: waiting for visibility of element located by By.xpath: //input (tried for 5 second(s) with 500 milliseconds interval)
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [FAILED] Expected condition failed: waiting for visibility of element located by By.xpath: //input[@placeholder='Artists  songs  albums  or playlists'] (tried for 5 second(s) with 500 milliseconds interval)
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [FAILED] Expected condition failed: waiting for visibility of element located by By.xpath: //input (tried for 5 second(s) with 500 milliseconds interval)
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [FAILED] Expected condition failed: waiting for visibility of element located by By.xpath: //input (tried for 5 second(s) with 500 milliseconds interval)
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [FAILED] Expected condition failed: waiting for visibility of element located by By.cssSelector: .input-container > .ng-untouched (tried for 5 second(s) with 500 milliseconds interval)
+---------------------------------------------
+
+10 out of 20 remaining.
+Mutation mutation_LLMP_search_component_html_h_3_LLM_PARAMETRIC_search_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+9 out of 20 remaining.
+Mutation mutation_LLMP_search_component_html_i_4_LLM_PARAMETRIC_search_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [FAILED] java.lang.AssertionError
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [FAILED] java.lang.AssertionError
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [FAILED] java.lang.AssertionError
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [FAILED] java.lang.AssertionError
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [FAILED] java.lang.AssertionError
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [FAILED] java.lang.AssertionError
+---------------------------------------------
+
+8 out of 20 remaining.
+Mutation mutation_LLMP_search_component_html_h_7_LLM_PARAMETRIC_search_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+7 out of 20 remaining.
+Mutation mutation_LLMP_search_component_html_i_7_LLM_PARAMETRIC_search_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+6 out of 20 remaining.
+Mutation mutation_LLMP_search_component_html_i_2_LLM_PARAMETRIC_search_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+5 out of 20 remaining.
+Mutation mutation_LLMP_search_component_html_i_6_LLM_PARAMETRIC_search_component_html applied. Waiting for recompile...
+Application did not recompile.
+Skipping test AbsoluteXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test KatalonXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RelativeXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaPlusXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test SeleniumXPathTest: Application did not recompile.
+---------------------------------------------
+
+4 out of 20 remaining.
+Mutation mutation_LLMP_search_component_html_h_1_LLM_PARAMETRIC_search_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+3 out of 20 remaining.
+Mutation mutation_LLMP_search_component_html_i_5_LLM_PARAMETRIC_search_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+2 out of 20 remaining.
+Mutation mutation_LLMP_search_component_html_i_8_LLM_PARAMETRIC_search_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+1 out of 20 remaining.
+Mutation mutation_LLMP_search_component_html_h_9_LLM_PARAMETRIC_search_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+Executed batches:
+Name,Id,Locator,Tag,Status,Error
+h,mutation_LLMP_search_component_html_h_2_LLM_PARAMETRIC_search_component_html,AbsoluteXPathTest,search_component_html,NOT_APPLICABLE,Application did not recompile.
+h,mutation_LLMP_search_component_html_h_2_LLM_PARAMETRIC_search_component_html,KatalonXPathTest,search_component_html,NOT_APPLICABLE,Application did not recompile.
+h,mutation_LLMP_search_component_html_h_2_LLM_PARAMETRIC_search_component_html,RelativeXPathTest,search_component_html,NOT_APPLICABLE,Application did not recompile.
+h,mutation_LLMP_search_component_html_h_2_LLM_PARAMETRIC_search_component_html,RobulaPlusXPathTest,search_component_html,NOT_APPLICABLE,Application did not recompile.
+h,mutation_LLMP_search_component_html_h_2_LLM_PARAMETRIC_search_component_html,RobulaXPathTest,search_component_html,NOT_APPLICABLE,Application did not recompile.
+h,mutation_LLMP_search_component_html_h_2_LLM_PARAMETRIC_search_component_html,SeleniumXPathTest,search_component_html,NOT_APPLICABLE,Application did not recompile.
+h,mutation_LLMP_search_component_html_h_6_LLM_PARAMETRIC_search_component_html,AbsoluteXPathTest,search_component_html,PASSED,null
+h,mutation_LLMP_search_component_html_h_6_LLM_PARAMETRIC_search_component_html,KatalonXPathTest,search_component_html,PASSED,null
+h,mutation_LLMP_search_component_html_h_6_LLM_PARAMETRIC_search_component_html,RelativeXPathTest,search_component_html,PASSED,null
+h,mutation_LLMP_search_component_html_h_6_LLM_PARAMETRIC_search_component_html,RobulaPlusXPathTest,search_component_html,PASSED,null
+h,mutation_LLMP_search_component_html_h_6_LLM_PARAMETRIC_search_component_html,RobulaXPathTest,search_component_html,PASSED,null
+h,mutation_LLMP_search_component_html_h_6_LLM_PARAMETRIC_search_component_html,SeleniumXPathTest,search_component_html,PASSED,null
+g,mutation_LLMP_search_component_html_g_9_LLM_PARAMETRIC_search_component_html,AbsoluteXPathTest,search_component_html,FAILED,java.lang.AssertionError
+g,mutation_LLMP_search_component_html_g_9_LLM_PARAMETRIC_search_component_html,KatalonXPathTest,search_component_html,PASSED,null
+g,mutation_LLMP_search_component_html_g_9_LLM_PARAMETRIC_search_component_html,RelativeXPathTest,search_component_html,PASSED,null
+g,mutation_LLMP_search_component_html_g_9_LLM_PARAMETRIC_search_component_html,RobulaPlusXPathTest,search_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[3]/*[@class='common-grid']"}
+g,mutation_LLMP_search_component_html_g_9_LLM_PARAMETRIC_search_component_html,RobulaXPathTest,search_component_html,PASSED,null
+g,mutation_LLMP_search_component_html_g_9_LLM_PARAMETRIC_search_component_html,SeleniumXPathTest,search_component_html,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".ng-star-inserted:nth-child(3) > .common-grid"}
+h,mutation_LLMP_search_component_html_h_4_LLM_PARAMETRIC_search_component_html,AbsoluteXPathTest,search_component_html,PASSED,null
+h,mutation_LLMP_search_component_html_h_4_LLM_PARAMETRIC_search_component_html,KatalonXPathTest,search_component_html,PASSED,null
+h,mutation_LLMP_search_component_html_h_4_LLM_PARAMETRIC_search_component_html,RelativeXPathTest,search_component_html,PASSED,null
+h,mutation_LLMP_search_component_html_h_4_LLM_PARAMETRIC_search_component_html,RobulaPlusXPathTest,search_component_html,PASSED,null
+h,mutation_LLMP_search_component_html_h_4_LLM_PARAMETRIC_search_component_html,RobulaXPathTest,search_component_html,PASSED,null
+h,mutation_LLMP_search_component_html_h_4_LLM_PARAMETRIC_search_component_html,SeleniumXPathTest,search_component_html,PASSED,null
+h,mutation_LLMP_search_component_html_h_8_LLM_PARAMETRIC_search_component_html,AbsoluteXPathTest,search_component_html,PASSED,null
+h,mutation_LLMP_search_component_html_h_8_LLM_PARAMETRIC_search_component_html,KatalonXPathTest,search_component_html,PASSED,null
+h,mutation_LLMP_search_component_html_h_8_LLM_PARAMETRIC_search_component_html,RelativeXPathTest,search_component_html,PASSED,null
+h,mutation_LLMP_search_component_html_h_8_LLM_PARAMETRIC_search_component_html,RobulaPlusXPathTest,search_component_html,PASSED,null
+h,mutation_LLMP_search_component_html_h_8_LLM_PARAMETRIC_search_component_html,RobulaXPathTest,search_component_html,PASSED,null
+h,mutation_LLMP_search_component_html_h_8_LLM_PARAMETRIC_search_component_html,SeleniumXPathTest,search_component_html,PASSED,null
+h,mutation_LLMP_search_component_html_h_10_LLM_PARAMETRIC_search_component_html,AbsoluteXPathTest,search_component_html,NOT_APPLICABLE,Application did not recompile.
+h,mutation_LLMP_search_component_html_h_10_LLM_PARAMETRIC_search_component_html,KatalonXPathTest,search_component_html,NOT_APPLICABLE,Application did not recompile.
+h,mutation_LLMP_search_component_html_h_10_LLM_PARAMETRIC_search_component_html,RelativeXPathTest,search_component_html,NOT_APPLICABLE,Application did not recompile.
+h,mutation_LLMP_search_component_html_h_10_LLM_PARAMETRIC_search_component_html,RobulaPlusXPathTest,search_component_html,NOT_APPLICABLE,Application did not recompile.
+h,mutation_LLMP_search_component_html_h_10_LLM_PARAMETRIC_search_component_html,RobulaXPathTest,search_component_html,NOT_APPLICABLE,Application did not recompile.
+h,mutation_LLMP_search_component_html_h_10_LLM_PARAMETRIC_search_component_html,SeleniumXPathTest,search_component_html,NOT_APPLICABLE,Application did not recompile.
+i,mutation_LLMP_search_component_html_i_1_LLM_PARAMETRIC_search_component_html,AbsoluteXPathTest,search_component_html,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[1]/as-input/div/input (tried for 5 second(s) with 500 milliseconds interval)
+i,mutation_LLMP_search_component_html_i_1_LLM_PARAMETRIC_search_component_html,KatalonXPathTest,search_component_html,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //input (tried for 5 second(s) with 500 milliseconds interval)
+i,mutation_LLMP_search_component_html_i_1_LLM_PARAMETRIC_search_component_html,RelativeXPathTest,search_component_html,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //input[@placeholder='Artists  songs  albums  or playlists'] (tried for 5 second(s) with 500 milliseconds interval)
+i,mutation_LLMP_search_component_html_i_1_LLM_PARAMETRIC_search_component_html,RobulaPlusXPathTest,search_component_html,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //input (tried for 5 second(s) with 500 milliseconds interval)
+i,mutation_LLMP_search_component_html_i_1_LLM_PARAMETRIC_search_component_html,RobulaXPathTest,search_component_html,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //input (tried for 5 second(s) with 500 milliseconds interval)
+i,mutation_LLMP_search_component_html_i_1_LLM_PARAMETRIC_search_component_html,SeleniumXPathTest,search_component_html,FAILED,Expected condition failed: waiting for visibility of element located by By.cssSelector: .input-container > .ng-untouched (tried for 5 second(s) with 500 milliseconds interval)
+h,mutation_LLMP_search_component_html_h_5_LLM_PARAMETRIC_search_component_html,AbsoluteXPathTest,search_component_html,PASSED,null
+h,mutation_LLMP_search_component_html_h_5_LLM_PARAMETRIC_search_component_html,KatalonXPathTest,search_component_html,PASSED,null
+h,mutation_LLMP_search_component_html_h_5_LLM_PARAMETRIC_search_component_html,RelativeXPathTest,search_component_html,PASSED,null
+h,mutation_LLMP_search_component_html_h_5_LLM_PARAMETRIC_search_component_html,RobulaPlusXPathTest,search_component_html,PASSED,null
+h,mutation_LLMP_search_component_html_h_5_LLM_PARAMETRIC_search_component_html,RobulaXPathTest,search_component_html,PASSED,null
+h,mutation_LLMP_search_component_html_h_5_LLM_PARAMETRIC_search_component_html,SeleniumXPathTest,search_component_html,PASSED,null
+i,mutation_LLMP_search_component_html_i_3_LLM_PARAMETRIC_search_component_html,AbsoluteXPathTest,search_component_html,PASSED,null
+i,mutation_LLMP_search_component_html_i_3_LLM_PARAMETRIC_search_component_html,KatalonXPathTest,search_component_html,PASSED,null
+i,mutation_LLMP_search_component_html_i_3_LLM_PARAMETRIC_search_component_html,RelativeXPathTest,search_component_html,PASSED,null
+i,mutation_LLMP_search_component_html_i_3_LLM_PARAMETRIC_search_component_html,RobulaPlusXPathTest,search_component_html,PASSED,null
+i,mutation_LLMP_search_component_html_i_3_LLM_PARAMETRIC_search_component_html,RobulaXPathTest,search_component_html,PASSED,null
+i,mutation_LLMP_search_component_html_i_3_LLM_PARAMETRIC_search_component_html,SeleniumXPathTest,search_component_html,PASSED,null
+i,mutation_LLMP_search_component_html_i_10_LLM_PARAMETRIC_search_component_html,AbsoluteXPathTest,search_component_html,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[1]/as-input/div/input (tried for 5 second(s) with 500 milliseconds interval)
+i,mutation_LLMP_search_component_html_i_10_LLM_PARAMETRIC_search_component_html,KatalonXPathTest,search_component_html,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //input (tried for 5 second(s) with 500 milliseconds interval)
+i,mutation_LLMP_search_component_html_i_10_LLM_PARAMETRIC_search_component_html,RelativeXPathTest,search_component_html,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //input[@placeholder='Artists  songs  albums  or playlists'] (tried for 5 second(s) with 500 milliseconds interval)
+i,mutation_LLMP_search_component_html_i_10_LLM_PARAMETRIC_search_component_html,RobulaPlusXPathTest,search_component_html,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //input (tried for 5 second(s) with 500 milliseconds interval)
+i,mutation_LLMP_search_component_html_i_10_LLM_PARAMETRIC_search_component_html,RobulaXPathTest,search_component_html,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //input (tried for 5 second(s) with 500 milliseconds interval)
+i,mutation_LLMP_search_component_html_i_10_LLM_PARAMETRIC_search_component_html,SeleniumXPathTest,search_component_html,FAILED,Expected condition failed: waiting for visibility of element located by By.cssSelector: .input-container > .ng-untouched (tried for 5 second(s) with 500 milliseconds interval)
+h,mutation_LLMP_search_component_html_h_3_LLM_PARAMETRIC_search_component_html,AbsoluteXPathTest,search_component_html,PASSED,null
+h,mutation_LLMP_search_component_html_h_3_LLM_PARAMETRIC_search_component_html,KatalonXPathTest,search_component_html,PASSED,null
+h,mutation_LLMP_search_component_html_h_3_LLM_PARAMETRIC_search_component_html,RelativeXPathTest,search_component_html,PASSED,null
+h,mutation_LLMP_search_component_html_h_3_LLM_PARAMETRIC_search_component_html,RobulaPlusXPathTest,search_component_html,PASSED,null
+h,mutation_LLMP_search_component_html_h_3_LLM_PARAMETRIC_search_component_html,RobulaXPathTest,search_component_html,PASSED,null
+h,mutation_LLMP_search_component_html_h_3_LLM_PARAMETRIC_search_component_html,SeleniumXPathTest,search_component_html,PASSED,null
+i,mutation_LLMP_search_component_html_i_4_LLM_PARAMETRIC_search_component_html,AbsoluteXPathTest,search_component_html,FAILED,java.lang.AssertionError
+i,mutation_LLMP_search_component_html_i_4_LLM_PARAMETRIC_search_component_html,KatalonXPathTest,search_component_html,FAILED,java.lang.AssertionError
+i,mutation_LLMP_search_component_html_i_4_LLM_PARAMETRIC_search_component_html,RelativeXPathTest,search_component_html,FAILED,java.lang.AssertionError
+i,mutation_LLMP_search_component_html_i_4_LLM_PARAMETRIC_search_component_html,RobulaPlusXPathTest,search_component_html,FAILED,java.lang.AssertionError
+i,mutation_LLMP_search_component_html_i_4_LLM_PARAMETRIC_search_component_html,RobulaXPathTest,search_component_html,FAILED,java.lang.AssertionError
+i,mutation_LLMP_search_component_html_i_4_LLM_PARAMETRIC_search_component_html,SeleniumXPathTest,search_component_html,FAILED,java.lang.AssertionError
+h,mutation_LLMP_search_component_html_h_7_LLM_PARAMETRIC_search_component_html,AbsoluteXPathTest,search_component_html,PASSED,null
+h,mutation_LLMP_search_component_html_h_7_LLM_PARAMETRIC_search_component_html,KatalonXPathTest,search_component_html,PASSED,null
+h,mutation_LLMP_search_component_html_h_7_LLM_PARAMETRIC_search_component_html,RelativeXPathTest,search_component_html,PASSED,null
+h,mutation_LLMP_search_component_html_h_7_LLM_PARAMETRIC_search_component_html,RobulaPlusXPathTest,search_component_html,PASSED,null
+h,mutation_LLMP_search_component_html_h_7_LLM_PARAMETRIC_search_component_html,RobulaXPathTest,search_component_html,PASSED,null
+h,mutation_LLMP_search_component_html_h_7_LLM_PARAMETRIC_search_component_html,SeleniumXPathTest,search_component_html,PASSED,null
+i,mutation_LLMP_search_component_html_i_7_LLM_PARAMETRIC_search_component_html,AbsoluteXPathTest,search_component_html,PASSED,null
+i,mutation_LLMP_search_component_html_i_7_LLM_PARAMETRIC_search_component_html,KatalonXPathTest,search_component_html,PASSED,null
+i,mutation_LLMP_search_component_html_i_7_LLM_PARAMETRIC_search_component_html,RelativeXPathTest,search_component_html,PASSED,null
+i,mutation_LLMP_search_component_html_i_7_LLM_PARAMETRIC_search_component_html,RobulaPlusXPathTest,search_component_html,PASSED,null
+i,mutation_LLMP_search_component_html_i_7_LLM_PARAMETRIC_search_component_html,RobulaXPathTest,search_component_html,PASSED,null
+i,mutation_LLMP_search_component_html_i_7_LLM_PARAMETRIC_search_component_html,SeleniumXPathTest,search_component_html,PASSED,null
+i,mutation_LLMP_search_component_html_i_2_LLM_PARAMETRIC_search_component_html,AbsoluteXPathTest,search_component_html,PASSED,null
+i,mutation_LLMP_search_component_html_i_2_LLM_PARAMETRIC_search_component_html,KatalonXPathTest,search_component_html,PASSED,null
+i,mutation_LLMP_search_component_html_i_2_LLM_PARAMETRIC_search_component_html,RelativeXPathTest,search_component_html,PASSED,null
+i,mutation_LLMP_search_component_html_i_2_LLM_PARAMETRIC_search_component_html,RobulaPlusXPathTest,search_component_html,PASSED,null
+i,mutation_LLMP_search_component_html_i_2_LLM_PARAMETRIC_search_component_html,RobulaXPathTest,search_component_html,PASSED,null
+i,mutation_LLMP_search_component_html_i_2_LLM_PARAMETRIC_search_component_html,SeleniumXPathTest,search_component_html,PASSED,null
+i,mutation_LLMP_search_component_html_i_6_LLM_PARAMETRIC_search_component_html,AbsoluteXPathTest,search_component_html,NOT_APPLICABLE,Application did not recompile.
+i,mutation_LLMP_search_component_html_i_6_LLM_PARAMETRIC_search_component_html,KatalonXPathTest,search_component_html,NOT_APPLICABLE,Application did not recompile.
+i,mutation_LLMP_search_component_html_i_6_LLM_PARAMETRIC_search_component_html,RelativeXPathTest,search_component_html,NOT_APPLICABLE,Application did not recompile.
+i,mutation_LLMP_search_component_html_i_6_LLM_PARAMETRIC_search_component_html,RobulaPlusXPathTest,search_component_html,NOT_APPLICABLE,Application did not recompile.
+i,mutation_LLMP_search_component_html_i_6_LLM_PARAMETRIC_search_component_html,RobulaXPathTest,search_component_html,NOT_APPLICABLE,Application did not recompile.
+i,mutation_LLMP_search_component_html_i_6_LLM_PARAMETRIC_search_component_html,SeleniumXPathTest,search_component_html,NOT_APPLICABLE,Application did not recompile.
+h,mutation_LLMP_search_component_html_h_1_LLM_PARAMETRIC_search_component_html,AbsoluteXPathTest,search_component_html,PASSED,null
+h,mutation_LLMP_search_component_html_h_1_LLM_PARAMETRIC_search_component_html,KatalonXPathTest,search_component_html,PASSED,null
+h,mutation_LLMP_search_component_html_h_1_LLM_PARAMETRIC_search_component_html,RelativeXPathTest,search_component_html,PASSED,null
+h,mutation_LLMP_search_component_html_h_1_LLM_PARAMETRIC_search_component_html,RobulaPlusXPathTest,search_component_html,PASSED,null
+h,mutation_LLMP_search_component_html_h_1_LLM_PARAMETRIC_search_component_html,RobulaXPathTest,search_component_html,PASSED,null
+h,mutation_LLMP_search_component_html_h_1_LLM_PARAMETRIC_search_component_html,SeleniumXPathTest,search_component_html,PASSED,null
+i,mutation_LLMP_search_component_html_i_5_LLM_PARAMETRIC_search_component_html,AbsoluteXPathTest,search_component_html,PASSED,null
+i,mutation_LLMP_search_component_html_i_5_LLM_PARAMETRIC_search_component_html,KatalonXPathTest,search_component_html,PASSED,null
+i,mutation_LLMP_search_component_html_i_5_LLM_PARAMETRIC_search_component_html,RelativeXPathTest,search_component_html,PASSED,null
+i,mutation_LLMP_search_component_html_i_5_LLM_PARAMETRIC_search_component_html,RobulaPlusXPathTest,search_component_html,PASSED,null
+i,mutation_LLMP_search_component_html_i_5_LLM_PARAMETRIC_search_component_html,RobulaXPathTest,search_component_html,PASSED,null
+i,mutation_LLMP_search_component_html_i_5_LLM_PARAMETRIC_search_component_html,SeleniumXPathTest,search_component_html,PASSED,null
+i,mutation_LLMP_search_component_html_i_8_LLM_PARAMETRIC_search_component_html,AbsoluteXPathTest,search_component_html,PASSED,null
+i,mutation_LLMP_search_component_html_i_8_LLM_PARAMETRIC_search_component_html,KatalonXPathTest,search_component_html,PASSED,null
+i,mutation_LLMP_search_component_html_i_8_LLM_PARAMETRIC_search_component_html,RelativeXPathTest,search_component_html,PASSED,null
+i,mutation_LLMP_search_component_html_i_8_LLM_PARAMETRIC_search_component_html,RobulaPlusXPathTest,search_component_html,PASSED,null
+i,mutation_LLMP_search_component_html_i_8_LLM_PARAMETRIC_search_component_html,RobulaXPathTest,search_component_html,PASSED,null
+i,mutation_LLMP_search_component_html_i_8_LLM_PARAMETRIC_search_component_html,SeleniumXPathTest,search_component_html,PASSED,null
+h,mutation_LLMP_search_component_html_h_9_LLM_PARAMETRIC_search_component_html,AbsoluteXPathTest,search_component_html,PASSED,null
+h,mutation_LLMP_search_component_html_h_9_LLM_PARAMETRIC_search_component_html,KatalonXPathTest,search_component_html,PASSED,null
+h,mutation_LLMP_search_component_html_h_9_LLM_PARAMETRIC_search_component_html,RelativeXPathTest,search_component_html,PASSED,null
+h,mutation_LLMP_search_component_html_h_9_LLM_PARAMETRIC_search_component_html,RobulaPlusXPathTest,search_component_html,PASSED,null
+h,mutation_LLMP_search_component_html_h_9_LLM_PARAMETRIC_search_component_html,RobulaXPathTest,search_component_html,PASSED,null
+h,mutation_LLMP_search_component_html_h_9_LLM_PARAMETRIC_search_component_html,SeleniumXPathTest,search_component_html,PASSED,null
+
+
+Test results:
+Locator,Total,Success,Fragility,Obsolescence,Not Compiled
+RelativeXPathTest,20,14,0,3,3
+AbsoluteXPathTest,20,13,1,3,3
+RobulaXPathTest,20,14,0,3,3
+KatalonXPathTest,20,14,0,3,3
+SeleniumXPathTest,20,13,1,3,3
+RobulaPlusXPathTest,20,13,1,3,3
+
+File saved: output\tests\batches.csv
+File saved: output\tests\stats.csv
+
+Tests completed.
+Execution time: 667 seconds.

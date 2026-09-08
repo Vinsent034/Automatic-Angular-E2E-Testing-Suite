@@ -1,0 +1,15 @@
+######### START 1 - a #########
+<p class="detail-description note" x-test-detail-description>{{ store.selectedCard()?.description }}</p>
+######### END 1 - a #########
+######### START 2 - b #########
+<p x-test-detail-description>{{ store.selectedCard()?.description }}</p>
+######### END 2 - b #########
+######### START 3 - c #########
+<p data-cls="detail-description" x-test-detail-description>{{ store.selectedCard()?.description }}</p>
+######### END 3 - c #########
+######### START 6 - j #########
+<div class="detail-description" x-test-detail-description>{{ store.selectedCard()?.description }}</div>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="ddesc-wrap"><p class="detail-description" x-test-detail-description>{{ store.selectedCard()?.description }}</p></div>
+######### END 7 - k #########

@@ -1,0 +1,12 @@
+######### START 1 - a #########
+<div class="mode-switch" role="group" aria-label="View mode" x-test-view-switch>
+      <button type="button" class="view-btn" [class.active]="view() === 'grid'" [attr.aria-pressed]="view() === 'grid'" (click)="setView('grid')" x-test-view-grid>Grid</button>
+      <button type="button" class="view-btn" [class.active]="view() === 'list'" [attr.aria-pressed]="view() === 'list'" (click)="setView('list')" x-test-view-list>List</button>
+    </div>
+######### END 1 - a #########
+######### START 2 - c #########
+<div class="view-switch" data-viewmode="group" aria-label="View mode" x-test-view-switch>
+      <button type="button" class="view-btn" [class.active]="view() === 'grid'" [attr.aria-pressed]="view() === 'grid'" (click)="setView('grid')" x-test-view-grid>Grid</button>
+      <button type="button" class="view-btn" [class.active]="view() === 'list'" [attr.aria-pressed]="view() === 'list'" (click)="setView('list')" x-test-view-list>List</button>
+    </div>
+######### END 2 - c #########

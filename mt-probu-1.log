@@ -1,0 +1,540 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.sqlite.SQLiteJDBCLoader in an unnamed module (file:/C:/Users/vince/OneDrive/Desktop/Tirocinio/progetto/Automatic-Angular-E2E-Testing-Suite/mutation-tester/target/mutation-tester-1.0.0-jar-with-dependencies.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+Loaded class: AbsoluteXPathTest
+Loaded abstract class: BaseTest
+Loaded class: KatalonXPathTest
+Loaded class: RelativeXPathTest
+Loaded class: RobulaPlusXPathTest
+Loaded class: RobulaXPathTest
+Loaded class: SeleniumXPathTest
+Loaded factory class: WebDriverFactory
+Found 6 classes to execute.
+Found 20 mutations to apply.
+Starting TypeScript application (npm start)...
+TypeScript application started.
+
+20 out of 20 remaining.
+Mutation mutation_LLMP_card_component_html_a_3_LLM_PARAMETRIC_card_component_html applied. Waiting for recompile...
+Application did not recompile.
+Skipping test AbsoluteXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test KatalonXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RelativeXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaPlusXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test SeleniumXPathTest: Application did not recompile.
+---------------------------------------------
+
+19 out of 20 remaining.
+Mutation mutation_LLMP_card_component_html_a_7_LLM_PARAMETRIC_card_component_html applied. Waiting for recompile...
+Application did not recompile.
+Skipping test AbsoluteXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test KatalonXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RelativeXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaPlusXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test SeleniumXPathTest: Application did not recompile.
+---------------------------------------------
+
+18 out of 20 remaining.
+Mutation mutation_LLMP_card_component_html_a_1_LLM_PARAMETRIC_card_component_html applied. Waiting for recompile...
+Application did not recompile.
+Skipping test AbsoluteXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test KatalonXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RelativeXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaPlusXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test SeleniumXPathTest: Application did not recompile.
+---------------------------------------------
+
+17 out of 20 remaining.
+Mutation mutation_LLMP_card_component_html_a_5_LLM_PARAMETRIC_card_component_html applied. Waiting for recompile...
+Application did not recompile.
+Skipping test AbsoluteXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test KatalonXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RelativeXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaPlusXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test SeleniumXPathTest: Application did not recompile.
+---------------------------------------------
+
+16 out of 20 remaining.
+Mutation mutation_LLMP_card_component_html_a_9_LLM_PARAMETRIC_card_component_html applied. Waiting for recompile...
+Application did not recompile.
+Skipping test AbsoluteXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test KatalonXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RelativeXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaPlusXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test SeleniumXPathTest: Application did not recompile.
+---------------------------------------------
+
+15 out of 20 remaining.
+Mutation mutation_LLMP_card_component_html_b_1_LLM_PARAMETRIC_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Jun 19, 2026 11:25:33 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+AVVERTENZA: Unable to find CDP implementation matching 149
+Jun 19, 2026 11:25:33 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+AVVERTENZA: Unable to find version of CDP to use for 149.0.7827.115. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[WebDriverFactory] DevTools/sentry-block saltato: You are using a no-op implementation of the CDP. The most likely reason for this is that Selenium was unable to find an implementation of the CDP protocol that matches your browser. Please be sure to include an implementation on the classpath, possibly by adding a new (maven) dependency of `org.seleniumhq.selenium:selenium-devtools-vNN:4.27.0` where `NN` matches the major version of the browser you're using.
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: DevTools Connection
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+14 out of 20 remaining.
+Mutation mutation_LLMP_card_component_html_b_2_LLM_PARAMETRIC_card_component_html applied. Waiting for recompile...
+Application did not recompile.
+Skipping test AbsoluteXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test KatalonXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RelativeXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaPlusXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test SeleniumXPathTest: Application did not recompile.
+---------------------------------------------
+
+13 out of 20 remaining.
+Mutation mutation_LLMP_card_component_html_a_6_LLM_PARAMETRIC_card_component_html applied. Waiting for recompile...
+Application did not recompile.
+Skipping test AbsoluteXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test KatalonXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RelativeXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaPlusXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test SeleniumXPathTest: Application did not recompile.
+---------------------------------------------
+
+12 out of 20 remaining.
+Mutation mutation_LLMP_card_component_html_b_4_LLM_PARAMETRIC_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+11 out of 20 remaining.
+Mutation mutation_LLMP_card_component_html_b_10_LLM_PARAMETRIC_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+10 out of 20 remaining.
+Mutation mutation_LLMP_card_component_html_a_4_LLM_PARAMETRIC_card_component_html applied. Waiting for recompile...
+Application did not recompile.
+Skipping test AbsoluteXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test KatalonXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RelativeXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaPlusXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test SeleniumXPathTest: Application did not recompile.
+---------------------------------------------
+
+9 out of 20 remaining.
+Mutation mutation_LLMP_card_component_html_b_5_LLM_PARAMETRIC_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+8 out of 20 remaining.
+Mutation mutation_LLMP_card_component_html_a_8_LLM_PARAMETRIC_card_component_html applied. Waiting for recompile...
+Application did not recompile.
+Skipping test AbsoluteXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test KatalonXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RelativeXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaPlusXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test SeleniumXPathTest: Application did not recompile.
+---------------------------------------------
+
+7 out of 20 remaining.
+Mutation mutation_LLMP_card_component_html_b_8_LLM_PARAMETRIC_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+6 out of 20 remaining.
+Mutation mutation_LLMP_card_component_html_b_3_LLM_PARAMETRIC_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+5 out of 20 remaining.
+Mutation mutation_LLMP_card_component_html_b_7_LLM_PARAMETRIC_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+4 out of 20 remaining.
+Mutation mutation_LLMP_card_component_html_a_2_LLM_PARAMETRIC_card_component_html applied. Waiting for recompile...
+Application did not recompile.
+Skipping test AbsoluteXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test KatalonXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RelativeXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaPlusXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test SeleniumXPathTest: Application did not recompile.
+---------------------------------------------
+
+3 out of 20 remaining.
+Mutation mutation_LLMP_card_component_html_b_6_LLM_PARAMETRIC_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+2 out of 20 remaining.
+Mutation mutation_LLMP_card_component_html_b_9_LLM_PARAMETRIC_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+1 out of 20 remaining.
+Mutation mutation_LLMP_card_component_html_a_10_LLM_PARAMETRIC_card_component_html applied. Waiting for recompile...
+Application did not recompile.
+Skipping test AbsoluteXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test KatalonXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RelativeXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaPlusXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test SeleniumXPathTest: Application did not recompile.
+---------------------------------------------
+Executed batches:
+Name,Id,Locator,Tag,Status,Error
+a,mutation_LLMP_card_component_html_a_3_LLM_PARAMETRIC_card_component_html,AbsoluteXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_3_LLM_PARAMETRIC_card_component_html,KatalonXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_3_LLM_PARAMETRIC_card_component_html,RelativeXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_3_LLM_PARAMETRIC_card_component_html,RobulaPlusXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_3_LLM_PARAMETRIC_card_component_html,RobulaXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_3_LLM_PARAMETRIC_card_component_html,SeleniumXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_7_LLM_PARAMETRIC_card_component_html,AbsoluteXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_7_LLM_PARAMETRIC_card_component_html,KatalonXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_7_LLM_PARAMETRIC_card_component_html,RelativeXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_7_LLM_PARAMETRIC_card_component_html,RobulaPlusXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_7_LLM_PARAMETRIC_card_component_html,RobulaXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_7_LLM_PARAMETRIC_card_component_html,SeleniumXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_1_LLM_PARAMETRIC_card_component_html,AbsoluteXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_1_LLM_PARAMETRIC_card_component_html,KatalonXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_1_LLM_PARAMETRIC_card_component_html,RelativeXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_1_LLM_PARAMETRIC_card_component_html,RobulaPlusXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_1_LLM_PARAMETRIC_card_component_html,RobulaXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_1_LLM_PARAMETRIC_card_component_html,SeleniumXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_5_LLM_PARAMETRIC_card_component_html,AbsoluteXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_5_LLM_PARAMETRIC_card_component_html,KatalonXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_5_LLM_PARAMETRIC_card_component_html,RelativeXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_5_LLM_PARAMETRIC_card_component_html,RobulaPlusXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_5_LLM_PARAMETRIC_card_component_html,RobulaXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_5_LLM_PARAMETRIC_card_component_html,SeleniumXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_9_LLM_PARAMETRIC_card_component_html,AbsoluteXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_9_LLM_PARAMETRIC_card_component_html,KatalonXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_9_LLM_PARAMETRIC_card_component_html,RelativeXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_9_LLM_PARAMETRIC_card_component_html,RobulaPlusXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_9_LLM_PARAMETRIC_card_component_html,RobulaXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_9_LLM_PARAMETRIC_card_component_html,SeleniumXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+b,mutation_LLMP_card_component_html_b_1_LLM_PARAMETRIC_card_component_html,AbsoluteXPathTest,card_component_html,PASSED,null
+b,mutation_LLMP_card_component_html_b_1_LLM_PARAMETRIC_card_component_html,KatalonXPathTest,card_component_html,PASSED,null
+b,mutation_LLMP_card_component_html_b_1_LLM_PARAMETRIC_card_component_html,RelativeXPathTest,card_component_html,PASSED,null
+b,mutation_LLMP_card_component_html_b_1_LLM_PARAMETRIC_card_component_html,RobulaPlusXPathTest,card_component_html,PASSED,null
+b,mutation_LLMP_card_component_html_b_1_LLM_PARAMETRIC_card_component_html,RobulaXPathTest,card_component_html,PASSED,null
+b,mutation_LLMP_card_component_html_b_1_LLM_PARAMETRIC_card_component_html,SeleniumXPathTest,card_component_html,PASSED,null
+b,mutation_LLMP_card_component_html_b_2_LLM_PARAMETRIC_card_component_html,AbsoluteXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+b,mutation_LLMP_card_component_html_b_2_LLM_PARAMETRIC_card_component_html,KatalonXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+b,mutation_LLMP_card_component_html_b_2_LLM_PARAMETRIC_card_component_html,RelativeXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+b,mutation_LLMP_card_component_html_b_2_LLM_PARAMETRIC_card_component_html,RobulaPlusXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+b,mutation_LLMP_card_component_html_b_2_LLM_PARAMETRIC_card_component_html,RobulaXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+b,mutation_LLMP_card_component_html_b_2_LLM_PARAMETRIC_card_component_html,SeleniumXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_6_LLM_PARAMETRIC_card_component_html,AbsoluteXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_6_LLM_PARAMETRIC_card_component_html,KatalonXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_6_LLM_PARAMETRIC_card_component_html,RelativeXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_6_LLM_PARAMETRIC_card_component_html,RobulaPlusXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_6_LLM_PARAMETRIC_card_component_html,RobulaXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_6_LLM_PARAMETRIC_card_component_html,SeleniumXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+b,mutation_LLMP_card_component_html_b_4_LLM_PARAMETRIC_card_component_html,AbsoluteXPathTest,card_component_html,PASSED,null
+b,mutation_LLMP_card_component_html_b_4_LLM_PARAMETRIC_card_component_html,KatalonXPathTest,card_component_html,PASSED,null
+b,mutation_LLMP_card_component_html_b_4_LLM_PARAMETRIC_card_component_html,RelativeXPathTest,card_component_html,PASSED,null
+b,mutation_LLMP_card_component_html_b_4_LLM_PARAMETRIC_card_component_html,RobulaPlusXPathTest,card_component_html,PASSED,null
+b,mutation_LLMP_card_component_html_b_4_LLM_PARAMETRIC_card_component_html,RobulaXPathTest,card_component_html,PASSED,null
+b,mutation_LLMP_card_component_html_b_4_LLM_PARAMETRIC_card_component_html,SeleniumXPathTest,card_component_html,PASSED,null
+b,mutation_LLMP_card_component_html_b_10_LLM_PARAMETRIC_card_component_html,AbsoluteXPathTest,card_component_html,PASSED,null
+b,mutation_LLMP_card_component_html_b_10_LLM_PARAMETRIC_card_component_html,KatalonXPathTest,card_component_html,PASSED,null
+b,mutation_LLMP_card_component_html_b_10_LLM_PARAMETRIC_card_component_html,RelativeXPathTest,card_component_html,PASSED,null
+b,mutation_LLMP_card_component_html_b_10_LLM_PARAMETRIC_card_component_html,RobulaPlusXPathTest,card_component_html,PASSED,null
+b,mutation_LLMP_card_component_html_b_10_LLM_PARAMETRIC_card_component_html,RobulaXPathTest,card_component_html,PASSED,null
+b,mutation_LLMP_card_component_html_b_10_LLM_PARAMETRIC_card_component_html,SeleniumXPathTest,card_component_html,PASSED,null
+a,mutation_LLMP_card_component_html_a_4_LLM_PARAMETRIC_card_component_html,AbsoluteXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_4_LLM_PARAMETRIC_card_component_html,KatalonXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_4_LLM_PARAMETRIC_card_component_html,RelativeXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_4_LLM_PARAMETRIC_card_component_html,RobulaPlusXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_4_LLM_PARAMETRIC_card_component_html,RobulaXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_4_LLM_PARAMETRIC_card_component_html,SeleniumXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+b,mutation_LLMP_card_component_html_b_5_LLM_PARAMETRIC_card_component_html,AbsoluteXPathTest,card_component_html,PASSED,null
+b,mutation_LLMP_card_component_html_b_5_LLM_PARAMETRIC_card_component_html,KatalonXPathTest,card_component_html,PASSED,null
+b,mutation_LLMP_card_component_html_b_5_LLM_PARAMETRIC_card_component_html,RelativeXPathTest,card_component_html,PASSED,null
+b,mutation_LLMP_card_component_html_b_5_LLM_PARAMETRIC_card_component_html,RobulaPlusXPathTest,card_component_html,PASSED,null
+b,mutation_LLMP_card_component_html_b_5_LLM_PARAMETRIC_card_component_html,RobulaXPathTest,card_component_html,PASSED,null
+b,mutation_LLMP_card_component_html_b_5_LLM_PARAMETRIC_card_component_html,SeleniumXPathTest,card_component_html,PASSED,null
+a,mutation_LLMP_card_component_html_a_8_LLM_PARAMETRIC_card_component_html,AbsoluteXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_8_LLM_PARAMETRIC_card_component_html,KatalonXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_8_LLM_PARAMETRIC_card_component_html,RelativeXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_8_LLM_PARAMETRIC_card_component_html,RobulaPlusXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_8_LLM_PARAMETRIC_card_component_html,RobulaXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_8_LLM_PARAMETRIC_card_component_html,SeleniumXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+b,mutation_LLMP_card_component_html_b_8_LLM_PARAMETRIC_card_component_html,AbsoluteXPathTest,card_component_html,PASSED,null
+b,mutation_LLMP_card_component_html_b_8_LLM_PARAMETRIC_card_component_html,KatalonXPathTest,card_component_html,PASSED,null
+b,mutation_LLMP_card_component_html_b_8_LLM_PARAMETRIC_card_component_html,RelativeXPathTest,card_component_html,PASSED,null
+b,mutation_LLMP_card_component_html_b_8_LLM_PARAMETRIC_card_component_html,RobulaPlusXPathTest,card_component_html,PASSED,null
+b,mutation_LLMP_card_component_html_b_8_LLM_PARAMETRIC_card_component_html,RobulaXPathTest,card_component_html,PASSED,null
+b,mutation_LLMP_card_component_html_b_8_LLM_PARAMETRIC_card_component_html,SeleniumXPathTest,card_component_html,PASSED,null
+b,mutation_LLMP_card_component_html_b_3_LLM_PARAMETRIC_card_component_html,AbsoluteXPathTest,card_component_html,PASSED,null
+b,mutation_LLMP_card_component_html_b_3_LLM_PARAMETRIC_card_component_html,KatalonXPathTest,card_component_html,PASSED,null
+b,mutation_LLMP_card_component_html_b_3_LLM_PARAMETRIC_card_component_html,RelativeXPathTest,card_component_html,PASSED,null
+b,mutation_LLMP_card_component_html_b_3_LLM_PARAMETRIC_card_component_html,RobulaPlusXPathTest,card_component_html,PASSED,null
+b,mutation_LLMP_card_component_html_b_3_LLM_PARAMETRIC_card_component_html,RobulaXPathTest,card_component_html,PASSED,null
+b,mutation_LLMP_card_component_html_b_3_LLM_PARAMETRIC_card_component_html,SeleniumXPathTest,card_component_html,PASSED,null
+b,mutation_LLMP_card_component_html_b_7_LLM_PARAMETRIC_card_component_html,AbsoluteXPathTest,card_component_html,PASSED,null
+b,mutation_LLMP_card_component_html_b_7_LLM_PARAMETRIC_card_component_html,KatalonXPathTest,card_component_html,PASSED,null
+b,mutation_LLMP_card_component_html_b_7_LLM_PARAMETRIC_card_component_html,RelativeXPathTest,card_component_html,PASSED,null
+b,mutation_LLMP_card_component_html_b_7_LLM_PARAMETRIC_card_component_html,RobulaPlusXPathTest,card_component_html,PASSED,null
+b,mutation_LLMP_card_component_html_b_7_LLM_PARAMETRIC_card_component_html,RobulaXPathTest,card_component_html,PASSED,null
+b,mutation_LLMP_card_component_html_b_7_LLM_PARAMETRIC_card_component_html,SeleniumXPathTest,card_component_html,PASSED,null
+a,mutation_LLMP_card_component_html_a_2_LLM_PARAMETRIC_card_component_html,AbsoluteXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_2_LLM_PARAMETRIC_card_component_html,KatalonXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_2_LLM_PARAMETRIC_card_component_html,RelativeXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_2_LLM_PARAMETRIC_card_component_html,RobulaPlusXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_2_LLM_PARAMETRIC_card_component_html,RobulaXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_2_LLM_PARAMETRIC_card_component_html,SeleniumXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+b,mutation_LLMP_card_component_html_b_6_LLM_PARAMETRIC_card_component_html,AbsoluteXPathTest,card_component_html,PASSED,null
+b,mutation_LLMP_card_component_html_b_6_LLM_PARAMETRIC_card_component_html,KatalonXPathTest,card_component_html,PASSED,null
+b,mutation_LLMP_card_component_html_b_6_LLM_PARAMETRIC_card_component_html,RelativeXPathTest,card_component_html,PASSED,null
+b,mutation_LLMP_card_component_html_b_6_LLM_PARAMETRIC_card_component_html,RobulaPlusXPathTest,card_component_html,PASSED,null
+b,mutation_LLMP_card_component_html_b_6_LLM_PARAMETRIC_card_component_html,RobulaXPathTest,card_component_html,PASSED,null
+b,mutation_LLMP_card_component_html_b_6_LLM_PARAMETRIC_card_component_html,SeleniumXPathTest,card_component_html,PASSED,null
+b,mutation_LLMP_card_component_html_b_9_LLM_PARAMETRIC_card_component_html,AbsoluteXPathTest,card_component_html,PASSED,null
+b,mutation_LLMP_card_component_html_b_9_LLM_PARAMETRIC_card_component_html,KatalonXPathTest,card_component_html,PASSED,null
+b,mutation_LLMP_card_component_html_b_9_LLM_PARAMETRIC_card_component_html,RelativeXPathTest,card_component_html,PASSED,null
+b,mutation_LLMP_card_component_html_b_9_LLM_PARAMETRIC_card_component_html,RobulaPlusXPathTest,card_component_html,PASSED,null
+b,mutation_LLMP_card_component_html_b_9_LLM_PARAMETRIC_card_component_html,RobulaXPathTest,card_component_html,PASSED,null
+b,mutation_LLMP_card_component_html_b_9_LLM_PARAMETRIC_card_component_html,SeleniumXPathTest,card_component_html,PASSED,null
+a,mutation_LLMP_card_component_html_a_10_LLM_PARAMETRIC_card_component_html,AbsoluteXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_10_LLM_PARAMETRIC_card_component_html,KatalonXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_10_LLM_PARAMETRIC_card_component_html,RelativeXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_10_LLM_PARAMETRIC_card_component_html,RobulaPlusXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_10_LLM_PARAMETRIC_card_component_html,RobulaXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+a,mutation_LLMP_card_component_html_a_10_LLM_PARAMETRIC_card_component_html,SeleniumXPathTest,card_component_html,NOT_APPLICABLE,Application did not recompile.
+
+
+Test results:
+Locator,Total,Success,Fragility,Obsolescence,Not Compiled
+RelativeXPathTest,20,9,0,0,11
+AbsoluteXPathTest,20,9,0,0,11
+RobulaXPathTest,20,9,0,0,11
+KatalonXPathTest,20,9,0,0,11
+SeleniumXPathTest,20,9,0,0,11
+RobulaPlusXPathTest,20,9,0,0,11
+
+File saved: output\tests\batches.csv
+File saved: output\tests\stats.csv
+
+Tests completed.
+Execution time: 320 seconds.

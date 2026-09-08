@@ -1,0 +1,21 @@
+######### START 1 - a #########
+<h2 class="page-title accent" x-test-form-title-edit>Edit card</h2>
+######### END 1 - a #########
+######### START 2 - b #########
+<h2 x-test-form-title-edit>Edit card</h2>
+######### END 2 - b #########
+######### START 3 - c #########
+<h2 data-cls="page-title" x-test-form-title-edit>Edit card</h2>
+######### END 3 - c #########
+######### START 4 - d #########
+<h2 class="page-title" x-test-form-title-edit>Update card</h2>
+######### END 4 - d #########
+######### START 5 - e #########
+<h2 class="page-title" x-test-form-title-edit></h2>
+######### END 5 - e #########
+######### START 6 - j #########
+<div class="page-title" x-test-form-title-edit>Edit card</div>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="pt-wrap"><h2 class="page-title" x-test-form-title-edit>Edit card</h2></div>
+######### END 7 - k #########

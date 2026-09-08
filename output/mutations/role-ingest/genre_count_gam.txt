@@ -1,0 +1,26 @@
+######### START 1 - a #########
+<div class="genre-chart" x-test-genre-bars>
+      @for (g of genreStats(); track g.genre) {
+        <div class="genre-bar-row" x-test-genre-row [attr.data-genre]="g.genre">
+          <span class="genre-bar-label" x-test-genre-label>{{ g.genre }}</span>
+          <div class="genre-bar-track">
+            <div class="genre-bar-fill" [style.width.%]="g.share"></div>
+          </div>
+          <span class="genre-bar-count" x-test-genre-count>{{ g.count }}</span>
+        </div>
+      }
+    </div>
+######### END 1 - a #########
+######### START 2 - c #########
+<div data-genrebars="genre-bars" x-test-genre-bars>
+      @for (g of genreStats(); track g.genre) {
+        <div class="genre-bar-row" x-test-genre-row [attr.data-genre]="g.genre">
+          <span class="genre-bar-label" x-test-genre-label>{{ g.genre }}</span>
+          <div class="genre-bar-track">
+            <div class="genre-bar-fill" [style.width.%]="g.share"></div>
+          </div>
+          <span class="genre-bar-count" x-test-genre-count>{{ g.count }}</span>
+        </div>
+      }
+    </div>
+######### END 2 - c #########

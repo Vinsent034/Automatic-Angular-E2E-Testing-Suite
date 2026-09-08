@@ -1,0 +1,21 @@
+######### START 1 - a #########
+<span class="bar-count" x-test-genre-count>{{ g.count }}</span>
+######### END 1 - a #########
+######### START 2 - b #########
+<span x-test-genre-count>{{ g.count }}</span>
+######### END 2 - b #########
+######### START 3 - c #########
+<span countclass="genre-bar-count" x-test-genre-count>{{ g.count }}</span>
+######### END 3 - c #########
+######### START 4 - d #########
+<span class="genre-bar-count" x-test-genre-count>{{ g.count }} films</span>
+######### END 4 - d #########
+######### START 5 - e #########
+<span class="genre-bar-count" x-test-genre-count> </span>
+######### END 5 - e #########
+######### START 6 - j #########
+<div class="genre-bar-count" x-test-genre-count>{{ g.count }}</div>
+######### END 6 - j #########
+######### START 7 - k #########
+<span class="count-wrap"><span class="genre-bar-count" x-test-genre-count>{{ g.count }}</span></span>
+######### END 7 - k #########

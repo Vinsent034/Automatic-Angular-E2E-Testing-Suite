@@ -1,0 +1,21 @@
+######### START 1 - a #########
+<button class="btn btn-small btn-danger delete-btn" type="reset" (click)="store.removeCard(card().id)" [attr.x-test-card-delete]="card().id">Delete</button>
+######### END 1 - a #########
+######### START 2 - b #########
+<button class="btn btn-small btn-danger delete-btn" (click)="store.removeCard(card().id)" [attr.x-test-card-delete]="card().id">Delete</button>
+######### END 2 - b #########
+######### START 3 - c #########
+<button class="btn btn-small btn-danger delete-btn" data-type="button" (click)="store.removeCard(card().id)" [attr.x-test-card-delete]="card().id">Delete</button>
+######### END 3 - c #########
+######### START 4 - d #########
+<button class="btn btn-small btn-danger delete-btn" type="button" (click)="store.removeCard(card().id)" [attr.x-test-card-delete]="card().id">Remove</button>
+######### END 4 - d #########
+######### START 5 - e #########
+<button class="btn btn-small btn-danger delete-btn" type="button" (click)="store.removeCard(card().id)" [attr.x-test-card-delete]="card().id"></button>
+######### END 5 - e #########
+######### START 6 - j #########
+<div class="btn btn-small btn-danger delete-btn" type="button" (click)="store.removeCard(card().id)" [attr.x-test-card-delete]="card().id">Delete</div>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="del-wrap"><button class="btn btn-small btn-danger delete-btn" type="button" (click)="store.removeCard(card().id)" [attr.x-test-card-delete]="card().id">Delete</button></div>
+######### END 7 - k #########

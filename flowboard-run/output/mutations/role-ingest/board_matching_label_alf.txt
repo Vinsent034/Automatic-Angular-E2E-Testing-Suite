@@ -1,0 +1,21 @@
+######### START 1 - a #########
+<span class="matching-label muted" x-test-matching-label>Matching</span>
+######### END 1 - a #########
+######### START 2 - b #########
+<span x-test-matching-label>Matching</span>
+######### END 2 - b #########
+######### START 3 - c #########
+<span data-cls="matching-label" x-test-matching-label>Matching</span>
+######### END 3 - c #########
+######### START 4 - d #########
+<span class="matching-label" x-test-matching-label>Results</span>
+######### END 4 - d #########
+######### START 5 - e #########
+<span class="matching-label" x-test-matching-label></span>
+######### END 5 - e #########
+######### START 6 - j #########
+<div class="matching-label" x-test-matching-label>Matching</div>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="matching-wrap"><span class="matching-label" x-test-matching-label>Matching</span></div>
+######### END 7 - k #########

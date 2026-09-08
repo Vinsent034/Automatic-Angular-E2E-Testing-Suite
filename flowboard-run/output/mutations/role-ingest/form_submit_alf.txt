@@ -1,0 +1,21 @@
+######### START 1 - a #########
+<button class="btn btn-primary submit-btn" type="reset" x-test-form-submit>Save card</button>
+######### END 1 - a #########
+######### START 2 - b #########
+<button class="btn btn-primary submit-btn" x-test-form-submit>Save card</button>
+######### END 2 - b #########
+######### START 3 - c #########
+<button class="btn btn-primary submit-btn" data-type="submit" x-test-form-submit>Save card</button>
+######### END 3 - c #########
+######### START 4 - d #########
+<button class="btn btn-primary submit-btn" type="submit" x-test-form-submit>Create card</button>
+######### END 4 - d #########
+######### START 5 - e #########
+<button class="btn btn-primary submit-btn" type="submit" x-test-form-submit></button>
+######### END 5 - e #########
+######### START 6 - j #########
+<div class="btn btn-primary submit-btn" type="submit" x-test-form-submit>Save card</div>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="submit-wrap"><button class="btn btn-primary submit-btn" type="submit" x-test-form-submit>Save card</button></div>
+######### END 7 - k #########

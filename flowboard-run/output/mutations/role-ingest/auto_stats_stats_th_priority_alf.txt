@@ -1,0 +1,21 @@
+######### START 1 - a #########
+<th class="col-priority narrow" x-test-stats-th-priority>Priority</th>
+######### END 1 - a #########
+######### START 2 - b #########
+<th x-test-stats-th-priority>Priority</th>
+######### END 2 - b #########
+######### START 3 - c #########
+<th data-cls="col-priority" x-test-stats-th-priority>Priority</th>
+######### END 3 - c #########
+######### START 4 - d #########
+<th class="col-priority" x-test-stats-th-priority>Severity</th>
+######### END 4 - d #########
+######### START 5 - e #########
+<th class="col-priority" x-test-stats-th-priority></th>
+######### END 5 - e #########
+######### START 6 - j #########
+<td class="col-priority" x-test-stats-th-priority>Priority</td>
+######### END 6 - j #########
+######### START 7 - k #########
+<th class="col-priority" x-test-stats-th-priority><span>Priority</span></th>
+######### END 7 - k #########

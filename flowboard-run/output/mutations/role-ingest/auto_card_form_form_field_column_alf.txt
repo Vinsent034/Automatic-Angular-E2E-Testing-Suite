@@ -1,0 +1,12 @@
+######### START 1 - a #########
+<div class="form-field highlight" x-test-form-field-column><label class="field-label" for="field-column" x-test-form-column-label>Column</label><select id="field-column" name="columnId" class="input select form-column" [(ngModel)]="columnId" x-test-form-column><option value="backlog">Backlog</option><option value="inprogress">In Progress</option><option value="review">Review</option><option value="done">Done</option></select></div>
+######### END 1 - a #########
+######### START 3 - c #########
+<div data-cls="form-field" x-test-form-field-column><label class="field-label" for="field-column" x-test-form-column-label>Column</label><select id="field-column" name="columnId" class="input select form-column" [(ngModel)]="columnId" x-test-form-column><option value="backlog">Backlog</option><option value="inprogress">In Progress</option><option value="review">Review</option><option value="done">Done</option></select></div>
+######### END 3 - c #########
+######### START 6 - j #########
+<section class="form-field" x-test-form-field-column><label class="field-label" for="field-column" x-test-form-column-label>Column</label><select id="field-column" name="columnId" class="input select form-column" [(ngModel)]="columnId" x-test-form-column><option value="backlog">Backlog</option><option value="inprogress">In Progress</option><option value="review">Review</option><option value="done">Done</option></select></section>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="ff-wrap"><div class="form-field" x-test-form-field-column><label class="field-label" for="field-column" x-test-form-column-label>Column</label><select id="field-column" name="columnId" class="input select form-column" [(ngModel)]="columnId" x-test-form-column><option value="backlog">Backlog</option><option value="inprogress">In Progress</option><option value="review">Review</option><option value="done">Done</option></select></div></div>
+######### END 7 - k #########

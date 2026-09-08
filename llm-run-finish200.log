@@ -1,0 +1,64 @@
+LLM generator | GROQ mode | model=llama-3.3-70b-versatile | 100 variants/file x 2 files | 3 API key(s)
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.sqlite.SQLiteJDBCLoader in an unnamed module (file:/C:/Users/vince/OneDrive/Desktop/Tirocinio/progetto/Automatic-Angular-E2E-Testing-Suite/mutation-generator/llm-generator/target/llm-generator-1.0.0-jar-with-dependencies.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+
+============= search.component.html =============
+  Resuming: 100 existing LLM mutants, topping up to 100.
+  File done: 100 total mutants (0 new this run).
+
+============= card.component.html =============
+  Resuming: 25 existing LLM mutants, topping up to 100.
+  Call 1: 29/100 total (4 new this run).
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 44s before retry...
+  Call 2: 32/100 total (7 new this run).
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 11s before retry...
+  [Groq] HTTP 520 (attempt 2/6). Pausing 40s before retry...
+  Call 3: 37/100 total (12 new this run).
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 1s before retry...
+  Call 4: 39/100 total (14 new this run).
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 50s before retry...
+  Call 5: 40/100 total (15 new this run).
+  Call 6: 45/100 total (20 new this run).
+  Call 7: 47/100 total (22 new this run).
+  Call 8: 51/100 total (26 new this run).
+  Call 9: 54/100 total (29 new this run).
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 4s before retry...
+  Call 10: 59/100 total (34 new this run).
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 9s before retry...
+  Call 11: 62/100 total (37 new this run).
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 9s before retry...
+  Call 12: 64/100 total (39 new this run).
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 8s before retry...
+  Call 13: 68/100 total (43 new this run).
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 8s before retry...
+  Call 14: 72/100 total (47 new this run).
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 9s before retry...
+  Call 15: 74/100 total (49 new this run).
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 9s before retry...
+  Call 16: 76/100 total (51 new this run).
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 9s before retry...
+  Call 17: 81/100 total (56 new this run).
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 8s before retry...
+  Call 18: 85/100 total (60 new this run).
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 9s before retry...
+  Call 19: 88/100 total (63 new this run).
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 9s before retry...
+  Call 20: 89/100 total (64 new this run).
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 8s before retry...
+  Call 21: 93/100 total (68 new this run).
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 8s before retry...
+  Call 22: 96/100 total (71 new this run).
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 9s before retry...
+  Call 23: 100/100 total (75 new this run).
+  File done: 100 total mutants (75 new this run).
+
+==============================================
+DONE. LLM mutants saved to mutations.db: 75
+CSV: output/mutations/llm-mutations.csv
+Checkpoint: NOT running the mutation-tester. Stop for review.

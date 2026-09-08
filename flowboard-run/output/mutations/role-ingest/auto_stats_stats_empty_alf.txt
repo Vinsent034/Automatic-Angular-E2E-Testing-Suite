@@ -1,0 +1,21 @@
+######### START 1 - a #########
+<td colspan="6" class="cell-empty" x-test-stats-empty>No cards on the board</td>
+######### END 1 - a #########
+######### START 2 - b #########
+<td class="cell-empty" x-test-stats-empty>No cards on the board</td>
+######### END 2 - b #########
+######### START 3 - c #########
+<td colspan="5" data-cls="cell-empty" x-test-stats-empty>No cards on the board</td>
+######### END 3 - c #########
+######### START 4 - d #########
+<td colspan="5" class="cell-empty" x-test-stats-empty>The board is empty</td>
+######### END 4 - d #########
+######### START 5 - e #########
+<td colspan="5" class="cell-empty" x-test-stats-empty></td>
+######### END 5 - e #########
+######### START 6 - j #########
+<th colspan="5" class="cell-empty" x-test-stats-empty>No cards on the board</th>
+######### END 6 - j #########
+######### START 7 - k #########
+<td colspan="5" class="cell-empty" x-test-stats-empty><span>No cards on the board</span></td>
+######### END 7 - k #########

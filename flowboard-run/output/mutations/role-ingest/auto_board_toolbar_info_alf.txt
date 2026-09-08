@@ -1,0 +1,15 @@
+######### START 1 - a #########
+<div class="toolbar-group toolbar-info active" x-test-toolbar-info><span class="matching-label" x-test-matching-label>Matching</span><span class="badge badge-filtered" data-kind="filtered" x-test-filtered-count>{{ store.filteredCount() }}</span></div>
+######### END 1 - a #########
+######### START 2 - b #########
+<div class="toolbar-group" x-test-toolbar-info><span class="matching-label" x-test-matching-label>Matching</span><span class="badge badge-filtered" data-kind="filtered" x-test-filtered-count>{{ store.filteredCount() }}</span></div>
+######### END 2 - b #########
+######### START 3 - c #########
+<div data-cls="toolbar-group toolbar-info" x-test-toolbar-info><span class="matching-label" x-test-matching-label>Matching</span><span class="badge badge-filtered" data-kind="filtered" x-test-filtered-count>{{ store.filteredCount() }}</span></div>
+######### END 3 - c #########
+######### START 6 - j #########
+<section class="toolbar-group toolbar-info" x-test-toolbar-info><span class="matching-label" x-test-matching-label>Matching</span><span class="badge badge-filtered" data-kind="filtered" x-test-filtered-count>{{ store.filteredCount() }}</span></section>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="tg-wrap"><div class="toolbar-group toolbar-info" x-test-toolbar-info><span class="matching-label" x-test-matching-label>Matching</span><span class="badge badge-filtered" data-kind="filtered" x-test-filtered-count>{{ store.filteredCount() }}</span></div></div>
+######### END 7 - k #########

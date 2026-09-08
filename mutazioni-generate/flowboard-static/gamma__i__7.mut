@@ -1,0 +1,18 @@
+#mutation-id: i
+#element: gamma
+#name: column-empty-message
+#type: tag_rem_mut
+#status: COMPLETE
+######### FILE C:\Users\vince\OneDrive\Desktop\App tirocinio\Kanban board\src\app\column\column.component.html #########
+
+  @for (card of store.cardsByColumn()(colId()); track card.id) {
+    <li class="card-slot">
+      <app-card [card]="card">
+    </app-card></li>
+  } @empty {
+    <li class="empty-slot">
+      <p class="empty-message" x-test-empty-message>No cards here</p>
+    </li>
+  }
+
+######### END FILE #########

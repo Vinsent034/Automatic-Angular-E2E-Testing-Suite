@@ -1,0 +1,21 @@
+######### START 1 - a #########
+<span class="avg" x-test-reviews-average>★ {{ averageUserRating() }}</span>
+######### END 1 - a #########
+######### START 2 - b #########
+<span x-test-reviews-average>★ {{ averageUserRating() }}</span>
+######### END 2 - b #########
+######### START 3 - c #########
+<span avgclass="reviews-average" x-test-reviews-average>★ {{ averageUserRating() }}</span>
+######### END 3 - c #########
+######### START 4 - d #########
+<span class="reviews-average" x-test-reviews-average>☆ {{ averageUserRating() }}</span>
+######### END 4 - d #########
+######### START 5 - e #########
+<span class="reviews-average" x-test-reviews-average> </span>
+######### END 5 - e #########
+######### START 6 - j #########
+<div class="reviews-average" x-test-reviews-average>★ {{ averageUserRating() }}</div>
+######### END 6 - j #########
+######### START 7 - k #########
+<span class="avg-wrap"><span class="reviews-average" x-test-reviews-average>★ {{ averageUserRating() }}</span></span>
+######### END 7 - k #########

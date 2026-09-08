@@ -1,0 +1,774 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@page { size: A4; margin: 1.3cm; }
+body { font-family:'Segoe UI',Arial,sans-serif; font-size:11px; color:#1a1a1a; line-height:1.45; }
+h1 { font-size:20px; border-bottom:2px solid #333; padding-bottom:4px; }
+h2 { font-size:15px; margin-top:20px; color:#0b3d91; border-bottom:1px solid #ccd; padding-bottom:2px; }
+h3 { font-size:12.5px; margin-top:14px; color:#333; }
+table { border-collapse:collapse; margin:6px 0 12px; font-size:9.5px; }
+th,td { border:1px solid #bbb; padding:3px 6px; text-align:center; white-space:nowrap; }
+th { background:#e8eef7; font-weight:600; }
+td:first-child, th:first-child { text-align:left; }
+tr:nth-child(even) td { background:#fafbfd; }
+blockquote { background:#f3f7ec; border-left:4px solid #6aa84f; padding:6px 12px; margin:8px 0; font-size:11px; }
+code { background:#eef; padding:1px 3px; border-radius:3px; font-family:Consolas,monospace; }
+strong { color:#000; }
+hr { border:none; border-top:1px solid #ccc; margin:14px 0; }
+</style></head><body><h1>FlowBoard — Confronto mutazioni <strong>Static</strong> vs <strong>LLM</strong></h1>
+<p><strong>Robustezza dei locatori sotto mutazione</strong> — mutation testing su app Angular (FlowBoard).<br />
+Scope: tutti e 6 gli scenari (S1–S6), 9 componenti. 
+Mutanti generati e testati: <strong>Static = 2840</strong>, <strong>LLM = 1225</strong>.<br />
+<em>(Le due tecniche generano un numero diverso di mutanti — lo Static, meccanico e senza dedup, molti di più; il confronto è quindi sui tassi di validità/robustezza, non sui conteggi assoluti. Ogni percentuale è riportata con la frazione da cui deriva.)</em></p>
+<p>Le due tecniche generano mutazioni con gli <strong>stessi 11 operatori (a–k)</strong> sugli <strong>stessi 152 target</strong>; la differenza è <strong>come</strong>: lo Static muta meccanicamente (ignaro di Angular), l'LLM autorando mutazioni valide che preservano binding/<code>@if</code>/<code>@for</code>.</p>
+<hr />
+<h2>RQ1 — Capacità di generare mutanti VALIDI</h2>
+<h3>1. Static — validi/tot per operatore × ruolo</h3>
+<table>
+<thead>
+<tr>
+<th>Op</th>
+<th>α</th>
+<th>β</th>
+<th>γ</th>
+<th>δ</th>
+<th>TOT</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>a</td>
+<td>22/72</td>
+<td>13/22</td>
+<td>2/14</td>
+<td>18/58</td>
+<td>55/166</td>
+</tr>
+<tr>
+<td>b</td>
+<td>28/72</td>
+<td>11/21</td>
+<td>2/13</td>
+<td>27/60</td>
+<td>68/166</td>
+</tr>
+<tr>
+<td>c</td>
+<td>0/9</td>
+<td>–</td>
+<td>–</td>
+<td>0/9</td>
+<td>0/18</td>
+</tr>
+<tr>
+<td>d</td>
+<td>41/92</td>
+<td>2/5</td>
+<td>2/5</td>
+<td>35/78</td>
+<td>80/180</td>
+</tr>
+<tr>
+<td>e</td>
+<td>44/91</td>
+<td>1/6</td>
+<td>0/5</td>
+<td>35/79</td>
+<td>80/181</td>
+</tr>
+<tr>
+<td>f</td>
+<td>41/96</td>
+<td>30/73</td>
+<td>4/16</td>
+<td>43/98</td>
+<td>118/283</td>
+</tr>
+<tr>
+<td>g</td>
+<td>19/59</td>
+<td>14/57</td>
+<td>8/32</td>
+<td>17/49</td>
+<td>58/197</td>
+</tr>
+<tr>
+<td>h</td>
+<td>62/152</td>
+<td>56/151</td>
+<td>53/124</td>
+<td>59/139</td>
+<td>230/566</td>
+</tr>
+<tr>
+<td>i</td>
+<td>78/152</td>
+<td>26/63</td>
+<td>11/23</td>
+<td>53/123</td>
+<td>168/361</td>
+</tr>
+<tr>
+<td>j</td>
+<td>67/152</td>
+<td>28/63</td>
+<td>11/23</td>
+<td>54/123</td>
+<td>160/361</td>
+</tr>
+<tr>
+<td>k</td>
+<td>70/152</td>
+<td>26/63</td>
+<td>12/23</td>
+<td>55/123</td>
+<td>163/361</td>
+</tr>
+<tr>
+<td><strong>TOT</strong></td>
+<td>472/1099</td>
+<td>207/524</td>
+<td>105/278</td>
+<td>396/939</td>
+<td><strong>1180/2840</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Validità Static: 1180/2840 = 41.5%</strong> (mutanti validi / mutanti totali)</p>
+<h3>2. LLM — validi/tot per operatore × ruolo</h3>
+<table>
+<thead>
+<tr>
+<th>Op</th>
+<th>α</th>
+<th>β</th>
+<th>γ</th>
+<th>δ</th>
+<th>TOT</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>a</td>
+<td>124/125</td>
+<td>6/6</td>
+<td>–</td>
+<td>2/2</td>
+<td>132/133</td>
+</tr>
+<tr>
+<td>b</td>
+<td>111/112</td>
+<td>4/4</td>
+<td>–</td>
+<td>2/2</td>
+<td>117/118</td>
+</tr>
+<tr>
+<td>c</td>
+<td>125/125</td>
+<td>6/6</td>
+<td>–</td>
+<td>2/2</td>
+<td>133/133</td>
+</tr>
+<tr>
+<td>d</td>
+<td>57/57</td>
+<td>–</td>
+<td>–</td>
+<td>2/2</td>
+<td>59/59</td>
+</tr>
+<tr>
+<td>e</td>
+<td>57/57</td>
+<td>–</td>
+<td>–</td>
+<td>2/2</td>
+<td>59/59</td>
+</tr>
+<tr>
+<td>f</td>
+<td>54/55</td>
+<td>39/40</td>
+<td>9/9</td>
+<td>53/54</td>
+<td>155/158</td>
+</tr>
+<tr>
+<td>g</td>
+<td>52/53</td>
+<td>34/34</td>
+<td>4/4</td>
+<td>49/50</td>
+<td>139/141</td>
+</tr>
+<tr>
+<td>h</td>
+<td>34/54</td>
+<td>29/45</td>
+<td>5/13</td>
+<td>42/48</td>
+<td>110/160</td>
+</tr>
+<tr>
+<td>j</td>
+<td>121/123</td>
+<td>6/6</td>
+<td>–</td>
+<td>2/2</td>
+<td>129/131</td>
+</tr>
+<tr>
+<td>k</td>
+<td>125/125</td>
+<td>6/6</td>
+<td>–</td>
+<td>2/2</td>
+<td>133/133</td>
+</tr>
+<tr>
+<td><strong>TOT</strong></td>
+<td>860/886</td>
+<td>130/147</td>
+<td>18/26</td>
+<td>158/166</td>
+<td><strong>1166/1225</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Validità LLM: 1166/1225 = 95.2%</strong> (mutanti validi / mutanti totali)</p>
+<h3>3. Confronto validità per operatore (Static vs LLM)</h3>
+<table>
+<thead>
+<tr>
+<th>Op</th>
+<th>Static valid% (validi/tot)</th>
+<th>LLM valid% (validi/tot)</th>
+<th>Δ (LLM−Static)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>a</td>
+<td>33.1% (55/166)</td>
+<td>99.2% (132/133)</td>
+<td>+66.1</td>
+</tr>
+<tr>
+<td>b</td>
+<td>41.0% (68/166)</td>
+<td>99.2% (117/118)</td>
+<td>+58.2</td>
+</tr>
+<tr>
+<td>c</td>
+<td>0.0% (0/18)</td>
+<td>100.0% (133/133)</td>
+<td>+100.0</td>
+</tr>
+<tr>
+<td>d</td>
+<td>44.4% (80/180)</td>
+<td>100.0% (59/59)</td>
+<td>+55.6</td>
+</tr>
+<tr>
+<td>e</td>
+<td>44.2% (80/181)</td>
+<td>100.0% (59/59)</td>
+<td>+55.8</td>
+</tr>
+<tr>
+<td>f</td>
+<td>41.7% (118/283)</td>
+<td>98.1% (155/158)</td>
+<td>+56.4</td>
+</tr>
+<tr>
+<td>g</td>
+<td>29.4% (58/197)</td>
+<td>98.6% (139/141)</td>
+<td>+69.1</td>
+</tr>
+<tr>
+<td>h</td>
+<td>40.6% (230/566)</td>
+<td>68.8% (110/160)</td>
+<td>+28.1</td>
+</tr>
+<tr>
+<td>i</td>
+<td>46.5% (168/361)</td>
+<td>–</td>
+<td>–</td>
+</tr>
+<tr>
+<td>j</td>
+<td>44.3% (160/361)</td>
+<td>98.5% (129/131)</td>
+<td>+54.2</td>
+</tr>
+<tr>
+<td>k</td>
+<td>45.2% (163/361)</td>
+<td>100.0% (133/133)</td>
+<td>+54.8</td>
+</tr>
+<tr>
+<td><strong>TOT</strong></td>
+<td><strong>41.5% (1180/2840)</strong></td>
+<td><strong>95.2% (1166/1225)</strong></td>
+<td><strong>+53.6</strong></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>Finding RQ1:</strong> lo Static genera mutanti validi al <strong>41.5% (1180/2840)</strong>, l'LLM al <strong>95.2% (1166/1225)</strong>. La tecnica LLM, comprendendo Angular, evita di rompere binding/direttive/<code>@for</code>, mentre lo Static (meccanico) produce in maggioranza mutanti non compilabili.</p>
+</blockquote>
+<h3>4. Cause di non-validità (not-compiled) per operatore</h3>
+<table>
+<thead>
+<tr>
+<th>Op</th>
+<th>Static non-validi/tot</th>
+<th>LLM non-validi/tot</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>a</td>
+<td>111/166</td>
+<td>1/133</td>
+</tr>
+<tr>
+<td>b</td>
+<td>98/166</td>
+<td>1/118</td>
+</tr>
+<tr>
+<td>c</td>
+<td>18/18</td>
+<td>0/133</td>
+</tr>
+<tr>
+<td>d</td>
+<td>100/180</td>
+<td>0/59</td>
+</tr>
+<tr>
+<td>e</td>
+<td>101/181</td>
+<td>0/59</td>
+</tr>
+<tr>
+<td>f</td>
+<td>165/283</td>
+<td>3/158</td>
+</tr>
+<tr>
+<td>g</td>
+<td>139/197</td>
+<td>2/141</td>
+</tr>
+<tr>
+<td>h</td>
+<td>336/566</td>
+<td>50/160</td>
+</tr>
+<tr>
+<td>i</td>
+<td>193/361</td>
+<td>0/0</td>
+</tr>
+<tr>
+<td>j</td>
+<td>201/361</td>
+<td>2/131</td>
+</tr>
+<tr>
+<td>k</td>
+<td>198/361</td>
+<td>0/133</td>
+</tr>
+</tbody>
+</table>
+<h2>RQ2 — Utilità differenziale delle strategie di locatori</h2>
+<p><em>Nelle due tabelle riassuntive ogni conteggio è espresso come </em><em>esito / totale delle esecuzioni di quella strategia</em><em> (Success + Fragility + Obsolescence + NotCompiled). Il </em><em>Success%</em><em> è invece calcolato sui soli mutanti </em><em>testabili</em><em>, cioè escludendo i NotCompiled: la sua frazione <code>(passed/testabili)</code> ha quindi un denominatore più piccolo.</em></p>
+<h3>1. Static — riassuntiva per strategia</h3>
+<table>
+<thead>
+<tr>
+<th>Strategia</th>
+<th>Success</th>
+<th>Fragility</th>
+<th>Obsolescence</th>
+<th>NotCompiled</th>
+<th>Success% (passed/testabili)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Absolute</td>
+<td>701/3645</td>
+<td>175/3645</td>
+<td>367/3645</td>
+<td>2402/3645</td>
+<td>56.4% (701/1243)</td>
+</tr>
+<tr>
+<td>Relative</td>
+<td>850/3645</td>
+<td>26/3645</td>
+<td>367/3645</td>
+<td>2402/3645</td>
+<td>68.4% (850/1243)</td>
+</tr>
+<tr>
+<td>Robula</td>
+<td>837/3645</td>
+<td>39/3645</td>
+<td>367/3645</td>
+<td>2402/3645</td>
+<td>67.3% (837/1243)</td>
+</tr>
+<tr>
+<td>Robula+</td>
+<td>849/3645</td>
+<td>27/3645</td>
+<td>367/3645</td>
+<td>2402/3645</td>
+<td>68.3% (849/1243)</td>
+</tr>
+<tr>
+<td>Selenium</td>
+<td>840/3645</td>
+<td>36/3645</td>
+<td>367/3645</td>
+<td>2402/3645</td>
+<td>67.6% (840/1243)</td>
+</tr>
+<tr>
+<td>Katalon</td>
+<td>836/3645</td>
+<td>40/3645</td>
+<td>367/3645</td>
+<td>2402/3645</td>
+<td>67.3% (836/1243)</td>
+</tr>
+</tbody>
+</table>
+<h3>2. LLM — riassuntiva per strategia</h3>
+<table>
+<thead>
+<tr>
+<th>Strategia</th>
+<th>Success</th>
+<th>Fragility</th>
+<th>Obsolescence</th>
+<th>NotCompiled</th>
+<th>Success% (passed/testabili)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Absolute</td>
+<td>1244/1543</td>
+<td>188/1543</td>
+<td>25/1543</td>
+<td>86/1543</td>
+<td>85.4% (1244/1457)</td>
+</tr>
+<tr>
+<td>Relative</td>
+<td>1400/1543</td>
+<td>32/1543</td>
+<td>25/1543</td>
+<td>86/1543</td>
+<td>96.1% (1400/1457)</td>
+</tr>
+<tr>
+<td>Robula</td>
+<td>1388/1543</td>
+<td>44/1543</td>
+<td>25/1543</td>
+<td>86/1543</td>
+<td>95.3% (1388/1457)</td>
+</tr>
+<tr>
+<td>Robula+</td>
+<td>1410/1543</td>
+<td>22/1543</td>
+<td>25/1543</td>
+<td>86/1543</td>
+<td>96.8% (1410/1457)</td>
+</tr>
+<tr>
+<td>Selenium</td>
+<td>1397/1543</td>
+<td>35/1543</td>
+<td>25/1543</td>
+<td>86/1543</td>
+<td>95.9% (1397/1457)</td>
+</tr>
+<tr>
+<td>Katalon</td>
+<td>1356/1543</td>
+<td>76/1543</td>
+<td>25/1543</td>
+<td>86/1543</td>
+<td>93.1% (1356/1457)</td>
+</tr>
+</tbody>
+</table>
+<h3>3. Confronto robustezza per strategia (Success% sui testabili)</h3>
+<table>
+<thead>
+<tr>
+<th>Strategia</th>
+<th>Static Success% (passed/testabili)</th>
+<th>LLM Success% (passed/testabili)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Absolute</td>
+<td>56.4% (701/1243)</td>
+<td>85.4% (1244/1457)</td>
+</tr>
+<tr>
+<td>Relative</td>
+<td>68.4% (850/1243)</td>
+<td>96.1% (1400/1457)</td>
+</tr>
+<tr>
+<td>Robula</td>
+<td>67.3% (837/1243)</td>
+<td>95.3% (1388/1457)</td>
+</tr>
+<tr>
+<td>Robula+</td>
+<td>68.3% (849/1243)</td>
+<td>96.8% (1410/1457)</td>
+</tr>
+<tr>
+<td>Selenium</td>
+<td>67.6% (840/1243)</td>
+<td>95.9% (1397/1457)</td>
+</tr>
+<tr>
+<td>Katalon</td>
+<td>67.3% (836/1243)</td>
+<td>93.1% (1356/1457)</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>Finding RQ2:</strong> in entrambe le tecniche <strong>Absolute è la strategia più fragile</strong> e le strategie basate su attributi/classi/testo (Relative, Robula, Robula+, Selenium) sono le più robuste — conferma dell'utilità differenziale. La firma di fragilità è coerente tra Static e LLM.</p>
+</blockquote>
+<h3>4. Dettaglio Static (passed/validi) — strategia × operatore</h3>
+<table>
+<thead>
+<tr>
+<th>Strategia</th>
+<th>a</th>
+<th>b</th>
+<th>c</th>
+<th>d</th>
+<th>e</th>
+<th>f</th>
+<th>g</th>
+<th>h</th>
+<th>i</th>
+<th>j</th>
+<th>k</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Absolute</td>
+<td>44/59</td>
+<td>54/70</td>
+<td>–</td>
+<td>57/82</td>
+<td>61/82</td>
+<td>67/125</td>
+<td>14/68</td>
+<td>103/239</td>
+<td>89/181</td>
+<td>84/166</td>
+<td>128/171</td>
+</tr>
+<tr>
+<td>Relative</td>
+<td>42/59</td>
+<td>53/70</td>
+<td>–</td>
+<td>58/82</td>
+<td>61/82</td>
+<td>102/125</td>
+<td>16/68</td>
+<td>122/239</td>
+<td>136/181</td>
+<td>119/166</td>
+<td>141/171</td>
+</tr>
+<tr>
+<td>Robula</td>
+<td>38/59</td>
+<td>50/70</td>
+<td>–</td>
+<td>58/82</td>
+<td>61/82</td>
+<td>102/125</td>
+<td>16/68</td>
+<td>121/239</td>
+<td>134/181</td>
+<td>116/166</td>
+<td>141/171</td>
+</tr>
+<tr>
+<td>Robula+</td>
+<td>38/59</td>
+<td>51/70</td>
+<td>–</td>
+<td>58/82</td>
+<td>61/82</td>
+<td>102/125</td>
+<td>16/68</td>
+<td>121/239</td>
+<td>134/181</td>
+<td>127/166</td>
+<td>141/171</td>
+</tr>
+<tr>
+<td>Selenium</td>
+<td>46/59</td>
+<td>56/70</td>
+<td>–</td>
+<td>58/82</td>
+<td>61/82</td>
+<td>85/125</td>
+<td>16/68</td>
+<td>120/239</td>
+<td>130/181</td>
+<td>129/166</td>
+<td>139/171</td>
+</tr>
+<tr>
+<td>Katalon</td>
+<td>44/59</td>
+<td>55/70</td>
+<td>–</td>
+<td>54/82</td>
+<td>57/82</td>
+<td>97/125</td>
+<td>15/68</td>
+<td>117/239</td>
+<td>133/181</td>
+<td>123/166</td>
+<td>141/171</td>
+</tr>
+</tbody>
+</table>
+<h3>5. Dettaglio LLM (passed/validi) — strategia × operatore</h3>
+<table>
+<thead>
+<tr>
+<th>Strategia</th>
+<th>a</th>
+<th>b</th>
+<th>c</th>
+<th>d</th>
+<th>e</th>
+<th>f</th>
+<th>g</th>
+<th>h</th>
+<th>j</th>
+<th>k</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Absolute</td>
+<td>166/166</td>
+<td>149/151</td>
+<td>167/168</td>
+<td>69/72</td>
+<td>69/72</td>
+<td>157/195</td>
+<td>125/173</td>
+<td>92/130</td>
+<td>119/162</td>
+<td>131/168</td>
+</tr>
+<tr>
+<td>Relative</td>
+<td>162/166</td>
+<td>145/151</td>
+<td>162/168</td>
+<td>68/72</td>
+<td>68/72</td>
+<td>194/195</td>
+<td>172/173</td>
+<td>113/130</td>
+<td>148/162</td>
+<td>168/168</td>
+</tr>
+<tr>
+<td>Robula</td>
+<td>160/166</td>
+<td>143/151</td>
+<td>160/168</td>
+<td>69/72</td>
+<td>69/72</td>
+<td>194/195</td>
+<td>169/173</td>
+<td>113/130</td>
+<td>147/162</td>
+<td>164/168</td>
+</tr>
+<tr>
+<td>Robula+</td>
+<td>164/166</td>
+<td>147/151</td>
+<td>164/168</td>
+<td>69/72</td>
+<td>69/72</td>
+<td>194/195</td>
+<td>169/173</td>
+<td>113/130</td>
+<td>157/162</td>
+<td>164/168</td>
+</tr>
+<tr>
+<td>Selenium</td>
+<td>166/166</td>
+<td>143/151</td>
+<td>160/168</td>
+<td>69/72</td>
+<td>69/72</td>
+<td>189/195</td>
+<td>166/173</td>
+<td>111/130</td>
+<td>161/162</td>
+<td>163/168</td>
+</tr>
+<tr>
+<td>Katalon</td>
+<td>165/166</td>
+<td>149/151</td>
+<td>166/168</td>
+<td>61/72</td>
+<td>61/72</td>
+<td>177/195</td>
+<td>157/173</td>
+<td>101/130</td>
+<td>151/162</td>
+<td>168/168</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>Conclusione — quantità non è validità</h2>
+<p>La tecnica <strong>Static genera molti più mutanti</strong> della tecnica LLM — <strong>2840</strong> contro <strong>1225</strong>, cioè <strong>2.3× di più</strong> — ma <strong>solo una minima parte di essi compila</strong>: i mutanti Static validi sono <strong>1180/2840 = 41.5%</strong> (mutanti validi / mutanti totali), contro <strong>1166/1225 = 95.2%</strong> (mutanti validi / mutanti totali) dell'LLM, con uno scarto di <strong>53.6 punti percentuali</strong>. In altre parole, lo Static scarta <strong>1660/2840 = 58.5%</strong> dei mutanti prodotti perché non compilabili, mentre l'LLM ne scarta appena <strong>59/1225 = 4.8%</strong>.</p>
+<p>Il vantaggio numerico dello Static è quindi <strong>apparente</strong>: mutando il template in modo meccanico e ignaro di Angular, rompe binding, direttive strutturali e <code>@for</code>, e i mutanti risultanti non arrivano nemmeno alla fase di test. Al netto della compilazione, i mutanti effettivamente utilizzabili sono <strong>1180</strong> per lo Static e <strong>1166</strong> per l'LLM: a fronte di <strong>2.3×</strong> mutanti generati, lo Static ne rende testabili solo <strong>1.01×</strong> rispetto all'LLM. È per questa ragione che il confronto tra le due tecniche va condotto <strong>sui tassi</strong> (validi/totali) e <strong>mai sui conteggi assoluti</strong>.</p></body></html>

@@ -1,0 +1,53 @@
+Starting dev server...
+Dev server ready.
+
+=== card_component_html: 31 mutants ===
+  [1/31] LLMP_card_component_html_a_1 type=a -> NO (fail)
+  [2/31] LLMP_card_component_html_a_2 type=a -> NO (fail)
+  [3/31] LLMP_card_component_html_a_3 type=a -> NO (fail)
+  [4/31] LLMP_card_component_html_a_4 type=a -> NO (fail)
+  [5/31] LLMP_card_component_html_a_5 type=a -> NO (fail)
+  [6/31] LLMP_card_component_html_a_6 type=a -> NO (fail)
+  [7/31] LLMP_card_component_html_a_7 type=a -> NO (fail)
+  [8/31] LLMP_card_component_html_a_8 type=a -> NO (fail)
+  [9/31] LLMP_card_component_html_a_9 type=a -> NO (fail)
+  [10/31] LLMP_card_component_html_a_10 type=a -> NO (fail)
+  [12/31] LLMP_card_component_html_b_2 type=b -> NO (fail)
+  [20/31] LLMP_card_component_html_b_10 type=b -> COMPILES
+  [21/31] LLMP_card_component_html_c_1 type=c -> NO (fail)
+  [22/31] LLMP_card_component_html_c_2 type=c -> NO (fail)
+  [23/31] LLMP_card_component_html_c_3 type=c -> NO (fail)
+  [24/31] LLMP_card_component_html_c_4 type=c -> NO (fail)
+  [25/31] LLMP_card_component_html_c_5 type=c -> NO (fail)
+  [26/31] LLMP_card_component_html_c_6 type=c -> NO (fail)
+  [27/31] LLMP_card_component_html_c_7 type=c -> NO (fail)
+  [29/31] LLMP_card_component_html_c_9 type=c -> NO (fail)
+  [30/31] LLMP_card_component_html_j_1 type=j -> COMPILES
+=== search_component_html: 110 mutants ===
+  [10/110] LLMP_search_component_html_a_10 type=a -> COMPILES
+  [20/110] LLMP_search_component_html_b_10 type=b -> COMPILES
+  [21/110] LLMP_search_component_html_c_1 type=c -> NO (fail)
+  [22/110] LLMP_search_component_html_c_2 type=c -> NO (fail)
+  [23/110] LLMP_search_component_html_c_3 type=c -> NO (fail)
+  [24/110] LLMP_search_component_html_c_4 type=c -> NO (fail)
+  [25/110] LLMP_search_component_html_c_5 type=c -> NO (fail)
+  [26/110] LLMP_search_component_html_c_6 type=c -> NO (fail)
+  [27/110] LLMP_search_component_html_c_7 type=c -> NO (fail)
+  [28/110] LLMP_search_component_html_c_8 type=c -> NO (fail)
+  [30/110] LLMP_search_component_html_c_10 type=c -> NO (fail)
+  [36/110] LLMP_search_component_html_d_6 type=d -> NO (fail)
+  [40/110] LLMP_search_component_html_d_10 type=d -> COMPILES
+  [48/110] LLMP_search_component_html_e_8 type=e -> NO (fail)
+  [50/110] LLMP_search_component_html_e_10 type=e -> COMPILES
+  [58/110] LLMP_search_component_html_f_8 type=f -> NO (fail)
+  [60/110] LLMP_search_component_html_f_10 type=f -> COMPILES
+  [70/110] LLMP_search_component_html_g_10 type=g -> COMPILES
+  [80/110] LLMP_search_component_html_h_10 type=h -> NO (fail)
+  [86/110] LLMP_search_component_html_i_6 type=i -> NO (fail)
+  [90/110] LLMP_search_component_html_i_10 type=i -> COMPILES
+  [97/110] LLMP_search_component_html_j_7 type=j -> NO (fail)
+  [98/110] LLMP_search_component_html_j_8 type=j -> NO (fail)
+  [100/110] LLMP_search_component_html_j_10 type=j -> COMPILES
+  [110/110] LLMP_search_component_html_k_10 type=k -> COMPILES
+
+Saved 141 results -> output/tests/param-compile.csv

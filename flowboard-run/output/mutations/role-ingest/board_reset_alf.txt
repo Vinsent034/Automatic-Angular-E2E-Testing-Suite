@@ -1,0 +1,21 @@
+######### START 1 - a #########
+<button class="btn btn-ghost reset-btn wide" type="button" (click)="store.reset()" x-test-reset>Reset board</button>
+######### END 1 - a #########
+######### START 2 - b #########
+<button class="btn btn-ghost reset-btn" (click)="store.reset()" x-test-reset>Reset board</button>
+######### END 2 - b #########
+######### START 3 - c #########
+<button class="btn btn-ghost reset-btn" data-type="button" (click)="store.reset()" x-test-reset>Reset board</button>
+######### END 3 - c #########
+######### START 4 - d #########
+<button class="btn btn-ghost reset-btn" type="button" (click)="store.reset()" x-test-reset>Restore seed</button>
+######### END 4 - d #########
+######### START 5 - e #########
+<button class="btn btn-ghost reset-btn" type="button" (click)="store.reset()" x-test-reset></button>
+######### END 5 - e #########
+######### START 6 - j #########
+<div class="btn btn-ghost reset-btn" type="button" (click)="store.reset()" x-test-reset>Reset board</div>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="reset-wrap"><button class="btn btn-ghost reset-btn" type="button" (click)="store.reset()" x-test-reset>Reset board</button></div>
+######### END 7 - k #########

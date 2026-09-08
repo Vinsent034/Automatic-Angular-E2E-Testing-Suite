@@ -1,0 +1,28 @@
+######### START 1 - a #########
+<div class="cast-entry" x-test-cast-row>
+  <span class="cast-avatar" aria-hidden="true">{{ member().name.charAt(0) }}</span>
+  <span class="cast-name" x-test-cast-name>{{ member().name }}</span>
+  <span class="cast-role" x-test-cast-role>{{ member().role }}</span>
+</div>
+######### END 1 - a #########
+######### START 2 - c #########
+<div dataattr="cast-row" x-test-cast-row>
+  <span class="cast-avatar" aria-hidden="true">{{ member().name.charAt(0) }}</span>
+  <span class="cast-name" x-test-cast-name>{{ member().name }}</span>
+  <span class="cast-role" x-test-cast-role>{{ member().role }}</span>
+</div>
+######### END 2 - c #########
+######### START 3 - j #########
+<article class="cast-row" x-test-cast-row>
+  <span class="cast-avatar" aria-hidden="true">{{ member().name.charAt(0) }}</span>
+  <span class="cast-name" x-test-cast-name>{{ member().name }}</span>
+  <span class="cast-role" x-test-cast-role>{{ member().role }}</span>
+</article>
+######### END 3 - j #########
+######### START 4 - k #########
+<div class="castrow-box"><div class="cast-row" x-test-cast-row>
+  <span class="cast-avatar" aria-hidden="true">{{ member().name.charAt(0) }}</span>
+  <span class="cast-name" x-test-cast-name>{{ member().name }}</span>
+  <span class="cast-role" x-test-cast-role>{{ member().role }}</span>
+</div></div>
+######### END 4 - k #########

@@ -1,0 +1,15 @@
+######### START 1 - a #########
+<a class="card-title-link active" [routerLink]="['/card', card().id]" [attr.x-test-card-open]="card().id"><h4 class="card-title" [attr.x-test-card-title]="card().id">{{ card().title }}</h4></a>
+######### END 1 - a #########
+######### START 2 - b #########
+<a [routerLink]="['/card', card().id]" [attr.x-test-card-open]="card().id"><h4 class="card-title" [attr.x-test-card-title]="card().id">{{ card().title }}</h4></a>
+######### END 2 - b #########
+######### START 3 - c #########
+<a data-cls="card-title-link" [routerLink]="['/card', card().id]" [attr.x-test-card-open]="card().id"><h4 class="card-title" [attr.x-test-card-title]="card().id">{{ card().title }}</h4></a>
+######### END 3 - c #########
+######### START 6 - j #########
+<span class="card-title-link" [routerLink]="['/card', card().id]" [attr.x-test-card-open]="card().id"><h4 class="card-title" [attr.x-test-card-title]="card().id">{{ card().title }}</h4></span>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="ctl-wrap"><a class="card-title-link" [routerLink]="['/card', card().id]" [attr.x-test-card-open]="card().id"><h4 class="card-title" [attr.x-test-card-title]="card().id">{{ card().title }}</h4></a></div>
+######### END 7 - k #########

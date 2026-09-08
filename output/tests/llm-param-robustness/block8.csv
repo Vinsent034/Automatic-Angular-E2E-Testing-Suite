@@ -1,0 +1,121 @@
+Name,Id,Locator,Tag,Status,Error
+d,mutation_LLMP_card_component_html_d_3_LLM_PARAMETRIC_card_component_html,AbsoluteXPathTest,card_component_html,PASSED,null
+d,mutation_LLMP_card_component_html_d_3_LLM_PARAMETRIC_card_component_html,KatalonXPathTest,card_component_html,PASSED,null
+d,mutation_LLMP_card_component_html_d_3_LLM_PARAMETRIC_card_component_html,RelativeXPathTest,card_component_html,PASSED,null
+d,mutation_LLMP_card_component_html_d_3_LLM_PARAMETRIC_card_component_html,RobulaPlusXPathTest,card_component_html,PASSED,null
+d,mutation_LLMP_card_component_html_d_3_LLM_PARAMETRIC_card_component_html,RobulaXPathTest,card_component_html,PASSED,null
+d,mutation_LLMP_card_component_html_d_3_LLM_PARAMETRIC_card_component_html,SeleniumXPathTest,card_component_html,PASSED,null
+d,mutation_LLMP_card_component_html_d_7_LLM_PARAMETRIC_card_component_html,AbsoluteXPathTest,card_component_html,PASSED,null
+d,mutation_LLMP_card_component_html_d_7_LLM_PARAMETRIC_card_component_html,KatalonXPathTest,card_component_html,PASSED,null
+d,mutation_LLMP_card_component_html_d_7_LLM_PARAMETRIC_card_component_html,RelativeXPathTest,card_component_html,PASSED,null
+d,mutation_LLMP_card_component_html_d_7_LLM_PARAMETRIC_card_component_html,RobulaPlusXPathTest,card_component_html,PASSED,null
+d,mutation_LLMP_card_component_html_d_7_LLM_PARAMETRIC_card_component_html,RobulaXPathTest,card_component_html,PASSED,null
+d,mutation_LLMP_card_component_html_d_7_LLM_PARAMETRIC_card_component_html,SeleniumXPathTest,card_component_html,PASSED,null
+d,mutation_LLMP_card_component_html_d_1_LLM_PARAMETRIC_card_component_html,AbsoluteXPathTest,card_component_html,FAILED,java.lang.AssertionError
+d,mutation_LLMP_card_component_html_d_1_LLM_PARAMETRIC_card_component_html,KatalonXPathTest,card_component_html,FAILED,java.lang.AssertionError
+d,mutation_LLMP_card_component_html_d_1_LLM_PARAMETRIC_card_component_html,RelativeXPathTest,card_component_html,FAILED,java.lang.AssertionError
+d,mutation_LLMP_card_component_html_d_1_LLM_PARAMETRIC_card_component_html,RobulaPlusXPathTest,card_component_html,FAILED,java.lang.AssertionError
+d,mutation_LLMP_card_component_html_d_1_LLM_PARAMETRIC_card_component_html,RobulaXPathTest,card_component_html,FAILED,java.lang.AssertionError
+d,mutation_LLMP_card_component_html_d_1_LLM_PARAMETRIC_card_component_html,SeleniumXPathTest,card_component_html,FAILED,java.lang.AssertionError
+d,mutation_LLMP_card_component_html_d_5_LLM_PARAMETRIC_card_component_html,AbsoluteXPathTest,card_component_html,PASSED,null
+d,mutation_LLMP_card_component_html_d_5_LLM_PARAMETRIC_card_component_html,KatalonXPathTest,card_component_html,PASSED,null
+d,mutation_LLMP_card_component_html_d_5_LLM_PARAMETRIC_card_component_html,RelativeXPathTest,card_component_html,PASSED,null
+d,mutation_LLMP_card_component_html_d_5_LLM_PARAMETRIC_card_component_html,RobulaPlusXPathTest,card_component_html,PASSED,null
+d,mutation_LLMP_card_component_html_d_5_LLM_PARAMETRIC_card_component_html,RobulaXPathTest,card_component_html,PASSED,null
+d,mutation_LLMP_card_component_html_d_5_LLM_PARAMETRIC_card_component_html,SeleniumXPathTest,card_component_html,PASSED,null
+d,mutation_LLMP_card_component_html_d_9_LLM_PARAMETRIC_card_component_html,AbsoluteXPathTest,card_component_html,PASSED,null
+d,mutation_LLMP_card_component_html_d_9_LLM_PARAMETRIC_card_component_html,KatalonXPathTest,card_component_html,PASSED,null
+d,mutation_LLMP_card_component_html_d_9_LLM_PARAMETRIC_card_component_html,RelativeXPathTest,card_component_html,PASSED,null
+d,mutation_LLMP_card_component_html_d_9_LLM_PARAMETRIC_card_component_html,RobulaPlusXPathTest,card_component_html,PASSED,null
+d,mutation_LLMP_card_component_html_d_9_LLM_PARAMETRIC_card_component_html,RobulaXPathTest,card_component_html,PASSED,null
+d,mutation_LLMP_card_component_html_d_9_LLM_PARAMETRIC_card_component_html,SeleniumXPathTest,card_component_html,PASSED,null
+e,mutation_LLMP_card_component_html_e_1_LLM_PARAMETRIC_card_component_html,AbsoluteXPathTest,card_component_html,FAILED,java.lang.AssertionError
+e,mutation_LLMP_card_component_html_e_1_LLM_PARAMETRIC_card_component_html,KatalonXPathTest,card_component_html,FAILED,java.lang.AssertionError
+e,mutation_LLMP_card_component_html_e_1_LLM_PARAMETRIC_card_component_html,RelativeXPathTest,card_component_html,FAILED,java.lang.AssertionError
+e,mutation_LLMP_card_component_html_e_1_LLM_PARAMETRIC_card_component_html,RobulaPlusXPathTest,card_component_html,FAILED,java.lang.AssertionError
+e,mutation_LLMP_card_component_html_e_1_LLM_PARAMETRIC_card_component_html,RobulaXPathTest,card_component_html,FAILED,java.lang.AssertionError
+e,mutation_LLMP_card_component_html_e_1_LLM_PARAMETRIC_card_component_html,SeleniumXPathTest,card_component_html,FAILED,java.lang.AssertionError
+e,mutation_LLMP_card_component_html_e_2_LLM_PARAMETRIC_card_component_html,AbsoluteXPathTest,card_component_html,PASSED,null
+e,mutation_LLMP_card_component_html_e_2_LLM_PARAMETRIC_card_component_html,KatalonXPathTest,card_component_html,PASSED,null
+e,mutation_LLMP_card_component_html_e_2_LLM_PARAMETRIC_card_component_html,RelativeXPathTest,card_component_html,PASSED,null
+e,mutation_LLMP_card_component_html_e_2_LLM_PARAMETRIC_card_component_html,RobulaPlusXPathTest,card_component_html,PASSED,null
+e,mutation_LLMP_card_component_html_e_2_LLM_PARAMETRIC_card_component_html,RobulaXPathTest,card_component_html,PASSED,null
+e,mutation_LLMP_card_component_html_e_2_LLM_PARAMETRIC_card_component_html,SeleniumXPathTest,card_component_html,PASSED,null
+d,mutation_LLMP_card_component_html_d_6_LLM_PARAMETRIC_card_component_html,AbsoluteXPathTest,card_component_html,PASSED,null
+d,mutation_LLMP_card_component_html_d_6_LLM_PARAMETRIC_card_component_html,KatalonXPathTest,card_component_html,PASSED,null
+d,mutation_LLMP_card_component_html_d_6_LLM_PARAMETRIC_card_component_html,RelativeXPathTest,card_component_html,PASSED,null
+d,mutation_LLMP_card_component_html_d_6_LLM_PARAMETRIC_card_component_html,RobulaPlusXPathTest,card_component_html,PASSED,null
+d,mutation_LLMP_card_component_html_d_6_LLM_PARAMETRIC_card_component_html,RobulaXPathTest,card_component_html,PASSED,null
+d,mutation_LLMP_card_component_html_d_6_LLM_PARAMETRIC_card_component_html,SeleniumXPathTest,card_component_html,PASSED,null
+e,mutation_LLMP_card_component_html_e_4_LLM_PARAMETRIC_card_component_html,AbsoluteXPathTest,card_component_html,FAILED,java.lang.AssertionError
+e,mutation_LLMP_card_component_html_e_4_LLM_PARAMETRIC_card_component_html,KatalonXPathTest,card_component_html,FAILED,java.lang.AssertionError
+e,mutation_LLMP_card_component_html_e_4_LLM_PARAMETRIC_card_component_html,RelativeXPathTest,card_component_html,FAILED,java.lang.AssertionError
+e,mutation_LLMP_card_component_html_e_4_LLM_PARAMETRIC_card_component_html,RobulaPlusXPathTest,card_component_html,FAILED,java.lang.AssertionError
+e,mutation_LLMP_card_component_html_e_4_LLM_PARAMETRIC_card_component_html,RobulaXPathTest,card_component_html,FAILED,java.lang.AssertionError
+e,mutation_LLMP_card_component_html_e_4_LLM_PARAMETRIC_card_component_html,SeleniumXPathTest,card_component_html,FAILED,java.lang.AssertionError
+f,mutation_LLMP_card_component_html_f_3_LLM_PARAMETRIC_card_component_html,AbsoluteXPathTest,card_component_html,PASSED,null
+f,mutation_LLMP_card_component_html_f_3_LLM_PARAMETRIC_card_component_html,KatalonXPathTest,card_component_html,PASSED,null
+f,mutation_LLMP_card_component_html_f_3_LLM_PARAMETRIC_card_component_html,RelativeXPathTest,card_component_html,PASSED,null
+f,mutation_LLMP_card_component_html_f_3_LLM_PARAMETRIC_card_component_html,RobulaPlusXPathTest,card_component_html,PASSED,null
+f,mutation_LLMP_card_component_html_f_3_LLM_PARAMETRIC_card_component_html,RobulaXPathTest,card_component_html,PASSED,null
+f,mutation_LLMP_card_component_html_f_3_LLM_PARAMETRIC_card_component_html,SeleniumXPathTest,card_component_html,PASSED,null
+d,mutation_LLMP_card_component_html_d_4_LLM_PARAMETRIC_card_component_html,AbsoluteXPathTest,card_component_html,PASSED,null
+d,mutation_LLMP_card_component_html_d_4_LLM_PARAMETRIC_card_component_html,KatalonXPathTest,card_component_html,PASSED,null
+d,mutation_LLMP_card_component_html_d_4_LLM_PARAMETRIC_card_component_html,RelativeXPathTest,card_component_html,PASSED,null
+d,mutation_LLMP_card_component_html_d_4_LLM_PARAMETRIC_card_component_html,RobulaPlusXPathTest,card_component_html,PASSED,null
+d,mutation_LLMP_card_component_html_d_4_LLM_PARAMETRIC_card_component_html,RobulaXPathTest,card_component_html,PASSED,null
+d,mutation_LLMP_card_component_html_d_4_LLM_PARAMETRIC_card_component_html,SeleniumXPathTest,card_component_html,PASSED,null
+e,mutation_LLMP_card_component_html_e_5_LLM_PARAMETRIC_card_component_html,AbsoluteXPathTest,card_component_html,PASSED,null
+e,mutation_LLMP_card_component_html_e_5_LLM_PARAMETRIC_card_component_html,KatalonXPathTest,card_component_html,PASSED,null
+e,mutation_LLMP_card_component_html_e_5_LLM_PARAMETRIC_card_component_html,RelativeXPathTest,card_component_html,PASSED,null
+e,mutation_LLMP_card_component_html_e_5_LLM_PARAMETRIC_card_component_html,RobulaPlusXPathTest,card_component_html,PASSED,null
+e,mutation_LLMP_card_component_html_e_5_LLM_PARAMETRIC_card_component_html,RobulaXPathTest,card_component_html,PASSED,null
+e,mutation_LLMP_card_component_html_e_5_LLM_PARAMETRIC_card_component_html,SeleniumXPathTest,card_component_html,PASSED,null
+d,mutation_LLMP_card_component_html_d_8_LLM_PARAMETRIC_card_component_html,AbsoluteXPathTest,card_component_html,PASSED,null
+d,mutation_LLMP_card_component_html_d_8_LLM_PARAMETRIC_card_component_html,KatalonXPathTest,card_component_html,PASSED,null
+d,mutation_LLMP_card_component_html_d_8_LLM_PARAMETRIC_card_component_html,RelativeXPathTest,card_component_html,PASSED,null
+d,mutation_LLMP_card_component_html_d_8_LLM_PARAMETRIC_card_component_html,RobulaPlusXPathTest,card_component_html,PASSED,null
+d,mutation_LLMP_card_component_html_d_8_LLM_PARAMETRIC_card_component_html,RobulaXPathTest,card_component_html,PASSED,null
+d,mutation_LLMP_card_component_html_d_8_LLM_PARAMETRIC_card_component_html,SeleniumXPathTest,card_component_html,PASSED,null
+f,mutation_LLMP_card_component_html_f_1_LLM_PARAMETRIC_card_component_html,AbsoluteXPathTest,card_component_html,PASSED,null
+f,mutation_LLMP_card_component_html_f_1_LLM_PARAMETRIC_card_component_html,KatalonXPathTest,card_component_html,PASSED,null
+f,mutation_LLMP_card_component_html_f_1_LLM_PARAMETRIC_card_component_html,RelativeXPathTest,card_component_html,PASSED,null
+f,mutation_LLMP_card_component_html_f_1_LLM_PARAMETRIC_card_component_html,RobulaPlusXPathTest,card_component_html,PASSED,null
+f,mutation_LLMP_card_component_html_f_1_LLM_PARAMETRIC_card_component_html,RobulaXPathTest,card_component_html,PASSED,null
+f,mutation_LLMP_card_component_html_f_1_LLM_PARAMETRIC_card_component_html,SeleniumXPathTest,card_component_html,PASSED,null
+e,mutation_LLMP_card_component_html_e_3_LLM_PARAMETRIC_card_component_html,AbsoluteXPathTest,card_component_html,PASSED,null
+e,mutation_LLMP_card_component_html_e_3_LLM_PARAMETRIC_card_component_html,KatalonXPathTest,card_component_html,PASSED,null
+e,mutation_LLMP_card_component_html_e_3_LLM_PARAMETRIC_card_component_html,RelativeXPathTest,card_component_html,PASSED,null
+e,mutation_LLMP_card_component_html_e_3_LLM_PARAMETRIC_card_component_html,RobulaPlusXPathTest,card_component_html,PASSED,null
+e,mutation_LLMP_card_component_html_e_3_LLM_PARAMETRIC_card_component_html,RobulaXPathTest,card_component_html,PASSED,null
+e,mutation_LLMP_card_component_html_e_3_LLM_PARAMETRIC_card_component_html,SeleniumXPathTest,card_component_html,PASSED,null
+e,mutation_LLMP_card_component_html_e_7_LLM_PARAMETRIC_card_component_html,AbsoluteXPathTest,card_component_html,PASSED,null
+e,mutation_LLMP_card_component_html_e_7_LLM_PARAMETRIC_card_component_html,KatalonXPathTest,card_component_html,PASSED,null
+e,mutation_LLMP_card_component_html_e_7_LLM_PARAMETRIC_card_component_html,RelativeXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[3]/div[1]"}
+e,mutation_LLMP_card_component_html_e_7_LLM_PARAMETRIC_card_component_html,RobulaPlusXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[3]/*[@class='common-grid']"}
+e,mutation_LLMP_card_component_html_e_7_LLM_PARAMETRIC_card_component_html,RobulaXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[3]/div"}
+e,mutation_LLMP_card_component_html_e_7_LLM_PARAMETRIC_card_component_html,SeleniumXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".ng-star-inserted:nth-child(3) > .common-grid"}
+d,mutation_LLMP_card_component_html_d_2_LLM_PARAMETRIC_card_component_html,AbsoluteXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[3]/div"}
+d,mutation_LLMP_card_component_html_d_2_LLM_PARAMETRIC_card_component_html,KatalonXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Artists'])[1]/following::div[1]"}
+d,mutation_LLMP_card_component_html_d_2_LLM_PARAMETRIC_card_component_html,RelativeXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[3]/div[1]"}
+d,mutation_LLMP_card_component_html_d_2_LLM_PARAMETRIC_card_component_html,RobulaPlusXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[3]/*[@class='common-grid']"}
+d,mutation_LLMP_card_component_html_d_2_LLM_PARAMETRIC_card_component_html,RobulaXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[3]/div"}
+d,mutation_LLMP_card_component_html_d_2_LLM_PARAMETRIC_card_component_html,SeleniumXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".ng-star-inserted:nth-child(3) > .common-grid"}
+e,mutation_LLMP_card_component_html_e_6_LLM_PARAMETRIC_card_component_html,AbsoluteXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[3]/div"}
+e,mutation_LLMP_card_component_html_e_6_LLM_PARAMETRIC_card_component_html,KatalonXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Artists'])[1]/following::div[1]"}
+e,mutation_LLMP_card_component_html_e_6_LLM_PARAMETRIC_card_component_html,RelativeXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[3]/div[1]"}
+e,mutation_LLMP_card_component_html_e_6_LLM_PARAMETRIC_card_component_html,RobulaPlusXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[3]/*[@class='common-grid']"}
+e,mutation_LLMP_card_component_html_e_6_LLM_PARAMETRIC_card_component_html,RobulaXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[3]/div"}
+e,mutation_LLMP_card_component_html_e_6_LLM_PARAMETRIC_card_component_html,SeleniumXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".ng-star-inserted:nth-child(3) > .common-grid"}
+f,mutation_LLMP_card_component_html_f_2_LLM_PARAMETRIC_card_component_html,AbsoluteXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[3]/div"}
+f,mutation_LLMP_card_component_html_f_2_LLM_PARAMETRIC_card_component_html,KatalonXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Artists'])[1]/following::div[1]"}
+f,mutation_LLMP_card_component_html_f_2_LLM_PARAMETRIC_card_component_html,RelativeXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[3]/div[1]"}
+f,mutation_LLMP_card_component_html_f_2_LLM_PARAMETRIC_card_component_html,RobulaPlusXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[3]/*[@class='common-grid']"}
+f,mutation_LLMP_card_component_html_f_2_LLM_PARAMETRIC_card_component_html,RobulaXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[3]/div"}
+f,mutation_LLMP_card_component_html_f_2_LLM_PARAMETRIC_card_component_html,SeleniumXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".ng-star-inserted:nth-child(3) > .common-grid"}
+d,mutation_LLMP_card_component_html_d_10_LLM_PARAMETRIC_card_component_html,AbsoluteXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[3]/div"}
+d,mutation_LLMP_card_component_html_d_10_LLM_PARAMETRIC_card_component_html,KatalonXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Artists'])[1]/following::div[1]"}
+d,mutation_LLMP_card_component_html_d_10_LLM_PARAMETRIC_card_component_html,RelativeXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[3]/div[1]"}
+d,mutation_LLMP_card_component_html_d_10_LLM_PARAMETRIC_card_component_html,RobulaPlusXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[3]/*[@class='common-grid']"}
+d,mutation_LLMP_card_component_html_d_10_LLM_PARAMETRIC_card_component_html,RobulaXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[3]/div"}
+d,mutation_LLMP_card_component_html_d_10_LLM_PARAMETRIC_card_component_html,SeleniumXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".ng-star-inserted:nth-child(3) > .common-grid"}

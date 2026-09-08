@@ -1,0 +1,21 @@
+######### START 1 - a #########
+<p class="error" x-test-error-title>Title is required.</p>
+######### END 1 - a #########
+######### START 2 - b #########
+<p x-test-error-title>Title is required.</p>
+######### END 2 - b #########
+######### START 3 - c #########
+<p errclass="field-error" x-test-error-title>Title is required.</p>
+######### END 3 - c #########
+######### START 4 - d #########
+<p class="field-error" x-test-error-title>Please enter a title.</p>
+######### END 4 - d #########
+######### START 5 - e #########
+<p class="field-error" x-test-error-title> </p>
+######### END 5 - e #########
+######### START 6 - j #########
+<div class="field-error" x-test-error-title>Title is required.</div>
+######### END 6 - j #########
+######### START 7 - k #########
+<span class="error-wrap"><p class="field-error" x-test-error-title>Title is required.</p></span>
+######### END 7 - k #########

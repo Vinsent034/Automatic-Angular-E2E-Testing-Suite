@@ -1,0 +1,21 @@
+######### START 1 - a #########
+<a class="btn btn-ghost back-btn wide" routerLink="/" x-test-detail-back>Back to board</a>
+######### END 1 - a #########
+######### START 2 - b #########
+<a class="btn btn-ghost back-btn" x-test-detail-back>Back to board</a>
+######### END 2 - b #########
+######### START 3 - c #########
+<a class="btn btn-ghost back-btn" data-link="/" x-test-detail-back>Back to board</a>
+######### END 3 - c #########
+######### START 4 - d #########
+<a class="btn btn-ghost back-btn" routerLink="/" x-test-detail-back>Return to board</a>
+######### END 4 - d #########
+######### START 5 - e #########
+<a class="btn btn-ghost back-btn" routerLink="/" x-test-detail-back></a>
+######### END 5 - e #########
+######### START 6 - j #########
+<span class="btn btn-ghost back-btn" routerLink="/" x-test-detail-back>Back to board</span>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="dback-wrap"><a class="btn btn-ghost back-btn" routerLink="/" x-test-detail-back>Back to board</a></div>
+######### END 7 - k #########

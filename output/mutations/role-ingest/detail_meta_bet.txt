@@ -1,0 +1,65 @@
+######### START 1 - a #########
+<div class="info">
+        <p class="detail-kicker">Movie</p>
+        <h1 class="detail-title" x-test-detail-title>{{ m.title }}</h1>
+        <p class="detail-meta" x-test-detail-meta>{{ m.year }} · {{ m.genre }} · {{ m.runtime }} min · ★ {{ m.rating }}</p>
+        <p class="detail-director">Directed by {{ m.director }}</p>
+        <div class="detail-actions">
+          <button type="button" class="btn btn-favorite" [class.active]="m.favorite" [attr.aria-pressed]="m.favorite" (click)="toggleFavorite()" x-test-detail-favorite>{{ m.favorite ? '♥ In favorites' : '♡ Add to favorites' }}</button>
+          <a [routerLink]="['/movie', m.id, 'edit']" class="btn" x-test-edit-button>Edit</a>
+          <button type="button" class="btn btn-danger" (click)="openDelete()" x-test-delete-button>Delete</button>
+        </div>
+      </div>
+######### END 1 - a #########
+######### START 2 - b #########
+<div>
+        <p class="detail-kicker">Movie</p>
+        <h1 class="detail-title" x-test-detail-title>{{ m.title }}</h1>
+        <p class="detail-meta" x-test-detail-meta>{{ m.year }} · {{ m.genre }} · {{ m.runtime }} min · ★ {{ m.rating }}</p>
+        <p class="detail-director">Directed by {{ m.director }}</p>
+        <div class="detail-actions">
+          <button type="button" class="btn btn-favorite" [class.active]="m.favorite" [attr.aria-pressed]="m.favorite" (click)="toggleFavorite()" x-test-detail-favorite>{{ m.favorite ? '♥ In favorites' : '♡ Add to favorites' }}</button>
+          <a [routerLink]="['/movie', m.id, 'edit']" class="btn" x-test-edit-button>Edit</a>
+          <button type="button" class="btn btn-danger" (click)="openDelete()" x-test-delete-button>Delete</button>
+        </div>
+      </div>
+######### END 2 - b #########
+######### START 3 - c #########
+<div infoclass="detail-info">
+        <p class="detail-kicker">Movie</p>
+        <h1 class="detail-title" x-test-detail-title>{{ m.title }}</h1>
+        <p class="detail-meta" x-test-detail-meta>{{ m.year }} · {{ m.genre }} · {{ m.runtime }} min · ★ {{ m.rating }}</p>
+        <p class="detail-director">Directed by {{ m.director }}</p>
+        <div class="detail-actions">
+          <button type="button" class="btn btn-favorite" [class.active]="m.favorite" [attr.aria-pressed]="m.favorite" (click)="toggleFavorite()" x-test-detail-favorite>{{ m.favorite ? '♥ In favorites' : '♡ Add to favorites' }}</button>
+          <a [routerLink]="['/movie', m.id, 'edit']" class="btn" x-test-edit-button>Edit</a>
+          <button type="button" class="btn btn-danger" (click)="openDelete()" x-test-delete-button>Delete</button>
+        </div>
+      </div>
+######### END 3 - c #########
+######### START 4 - j #########
+<section class="detail-info">
+        <p class="detail-kicker">Movie</p>
+        <h1 class="detail-title" x-test-detail-title>{{ m.title }}</h1>
+        <p class="detail-meta" x-test-detail-meta>{{ m.year }} · {{ m.genre }} · {{ m.runtime }} min · ★ {{ m.rating }}</p>
+        <p class="detail-director">Directed by {{ m.director }}</p>
+        <div class="detail-actions">
+          <button type="button" class="btn btn-favorite" [class.active]="m.favorite" [attr.aria-pressed]="m.favorite" (click)="toggleFavorite()" x-test-detail-favorite>{{ m.favorite ? '♥ In favorites' : '♡ Add to favorites' }}</button>
+          <a [routerLink]="['/movie', m.id, 'edit']" class="btn" x-test-edit-button>Edit</a>
+          <button type="button" class="btn btn-danger" (click)="openDelete()" x-test-delete-button>Delete</button>
+        </div>
+      </section>
+######### END 4 - j #########
+######### START 5 - k #########
+<div class="info-wrap"><div class="detail-info">
+        <p class="detail-kicker">Movie</p>
+        <h1 class="detail-title" x-test-detail-title>{{ m.title }}</h1>
+        <p class="detail-meta" x-test-detail-meta>{{ m.year }} · {{ m.genre }} · {{ m.runtime }} min · ★ {{ m.rating }}</p>
+        <p class="detail-director">Directed by {{ m.director }}</p>
+        <div class="detail-actions">
+          <button type="button" class="btn btn-favorite" [class.active]="m.favorite" [attr.aria-pressed]="m.favorite" (click)="toggleFavorite()" x-test-detail-favorite>{{ m.favorite ? '♥ In favorites' : '♡ Add to favorites' }}</button>
+          <a [routerLink]="['/movie', m.id, 'edit']" class="btn" x-test-edit-button>Edit</a>
+          <button type="button" class="btn btn-danger" (click)="openDelete()" x-test-delete-button>Delete</button>
+        </div>
+      </div></div>
+######### END 5 - k #########

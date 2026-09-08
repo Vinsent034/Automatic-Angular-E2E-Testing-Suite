@@ -1,0 +1,7 @@
+Name,Id,Locator,Tag,Status,Error
+SongCard,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+SongCard,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+SongCard,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+SongCard,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+SongCard,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+SongCard,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,PASSED,null

@@ -1,0 +1,44 @@
+######### START 1 - a #########
+<p class="card-score" x-test-card-rating>★ {{ movie().rating }}</p>
+######### END 1 - a #########
+######### START 2 - c #########
+<p data-rating="card-rating" x-test-card-rating>★ {{ movie().rating }}</p>
+######### END 2 - c #########
+######### START 3 - d #########
+<p class="card-rating" x-test-card-rating>★{{ movie().rating }}/5</p>
+######### END 3 - d #########
+######### START 4 - f #########
+<div class="movie-card movie-card-{{ view() }}" [attr.data-genre]="movie().genre" [class.is-favorite]="movie().favorite" x-test-card>
+  <a class="poster" [routerLink]="['/movie', movie().id]" aria-hidden="true" tabindex="-1" x-test-card-poster>
+    <span class="poster-letter">{{ movie().title.charAt(0) }}</span>
+  </a>
+  <button type="button" class="favorite-toggle" [class.active]="movie().favorite" (click)="toggleFavorite()" [attr.aria-pressed]="movie().favorite" [attr.aria-label]="movie().favorite ? 'Remove from favorites' : 'Add to favorites'" x-test-favorite-toggle>{{ movie().favorite ? '♥' : '♡' }}</button>
+  <div class="card-body">
+    <p class="card-rating" x-test-card-rating>★ {{ movie().rating }}</p>
+    <a class="card-title-link" [routerLink]="['/movie', movie().id]" x-test-card-link>
+      <h2 class="card-title" x-test-card-title>{{ movie().title }}</h2>
+    </a>
+    <p class="card-meta" x-test-card-meta>{{ movie().year }} · {{ movie().genre }}</p>
+  </div>
+</div>
+######### END 4 - f #########
+######### START 5 - g #########
+<div class="movie-card movie-card-{{ view() }}" [attr.data-genre]="movie().genre" [class.is-favorite]="movie().favorite" x-test-card>
+  <a class="poster" [routerLink]="['/movie', movie().id]" aria-hidden="true" tabindex="-1" x-test-card-poster>
+    <span class="poster-letter">{{ movie().title.charAt(0) }}</span>
+  </a>
+  <button type="button" class="favorite-toggle" [class.active]="movie().favorite" (click)="toggleFavorite()" [attr.aria-pressed]="movie().favorite" [attr.aria-label]="movie().favorite ? 'Remove from favorites' : 'Add to favorites'" x-test-favorite-toggle>{{ movie().favorite ? '♥' : '♡' }}</button>
+  <div class="card-body">
+    <a class="card-title-link" [routerLink]="['/movie', movie().id]" x-test-card-link>
+      <h2 class="card-title" x-test-card-title>{{ movie().title }}</h2>
+    </a>
+    <p class="card-meta" x-test-card-meta>{{ movie().year }} · {{ movie().genre }}<p class="card-rating" x-test-card-rating>★ {{ movie().rating }}</p></p>
+  </div>
+</div>
+######### END 5 - g #########
+######### START 6 - j #########
+<span class="card-rating" x-test-card-rating>★ {{ movie().rating }}</span>
+######### END 6 - j #########
+######### START 7 - k #########
+<span class="score-wrap"><p class="card-rating" x-test-card-rating>★ {{ movie().rating }}</p></span>
+######### END 7 - k #########

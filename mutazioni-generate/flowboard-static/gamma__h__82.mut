@@ -1,0 +1,109 @@
+#mutation-id: h
+#element: gamma
+#name: auto-card-form-form-field-priority
+#type: tag_mov_temp_mut
+#status: COMPLETE
+######### FILE C:\Users\vince\OneDrive\Desktop\App tirocinio\Kanban board\src\app\card-form\card-form.component.html #########
+<section class="form-page" x-test-card-form>
+  <div class="page-heading" x-test-form-heading>
+    @if (editing()) {
+      <h2 class="page-title" x-test-form-title-edit>Edit card</h2>
+    } @else {
+      <h2 class="page-title" x-test-form-title-new>New card</h2>
+    }
+    <a class="btn btn-ghost back-btn" routerLink="/" x-test-form-back>Back to board</a>
+  </div>
+
+  
+</section>
+######### END FILE #########
+######### FILE C:\Users\vince\OneDrive\Desktop\App tirocinio\Kanban board\src\app\stats\stats.component.html #########
+<section class="stats-page" x-test-stats>
+ <div class="page-heading" x-test-stats-heading>
+  <h2 class="page-title" x-test-stats-title>Board statistics</h2>
+  <a class="btn btn-ghost back-btn" routerLink="/" x-test-stats-back>Back to board</a>
+ </div>
+ <div class="stats-grid" x-test-stats-cards>
+  <div class="stat-card" data-stat="total" x-test-stat-total-card>
+   <span class="stat-label" x-test-stat-total-label>Total cards</span> <span class="stat-value" x-test-stat-total>{{ store.totalCards() }}</span>
+  </div>
+  <div class="stat-card" data-stat="backlog" x-test-stat-backlog-card>
+   <span class="stat-label" x-test-stat-backlog-label>Backlog</span> <span class="stat-value" x-test-stat-backlog>{{ store.backlogCount() }}</span>
+  </div>
+  <div class="stat-card" data-stat="inprogress" x-test-stat-inprogress-card>
+   <span class="stat-label" x-test-stat-inprogress-label>In Progress</span> <span class="stat-value" x-test-stat-inprogress>{{ store.inProgressCount() }}</span>
+  </div>
+  <div class="stat-card" data-stat="review" x-test-stat-review-card>
+   <span class="stat-label" x-test-stat-review-label>Review</span> <span class="stat-value" x-test-stat-review>
+    <form class="card-form" (ngSubmit)="submit()" x-test-form>
+     <div class="form-field" x-test-form-field-title>
+      <label class="field-label" for="field-title" x-test-form-title-label>Title</label> <input id="field-title" name="title" class="input form-title" type="text" required placeholder="Card title" [(ngModel)]="title" x-test-form-title>
+     </div>
+     <div class="form-field" x-test-form-field-description>
+      <label class="field-label" for="field-description" x-test-form-description-label>Description</label> <textarea id="field-description" name="description" class="input form-description" rows="4" placeholder="What is this card about?" [(ngModel)]="description" x-test-form-description></textarea>
+     </div>
+     <div class="form-row">
+      <div class="form-field" x-test-form-field-priority>
+       <label class="field-label" for="field-priority" x-test-form-priority-label>Priority</label> <select id="field-priority" name="priority" class="input select form-priority" [(ngModel)]="priority" x-test-form-priority> <option value="low">Low</option> <option value="medium">Medium</option> <option value="high">High</option> </select>
+      </div>
+      <div class="form-field" x-test-form-field-assignee>
+       <label class="field-label" for="field-assignee" x-test-form-assignee-label>Assignee</label> <input id="field-assignee" name="assignee" class="input form-assignee" type="text" placeholder="Who works on it" [(ngModel)]="assignee" x-test-form-assignee>
+      </div>
+      <div class="form-field" x-test-form-field-column>
+       <label class="field-label" for="field-column" x-test-form-column-label>Column</label> <select id="field-column" name="columnId" class="input select form-column" [(ngModel)]="columnId" x-test-form-column> <option value="backlog">Backlog</option> <option value="inprogress">In Progress</option> <option value="review">Review</option> <option value="done">Done</option> </select>
+      </div>
+     </div>
+     <div class="form-field" x-test-form-field-tags>
+      <label class="field-label" for="field-tags" x-test-form-tags-label>Tags (comma separated)</label> <input id="field-tags" name="tags" class="input form-tags" type="text" placeholder="e.g. bug, ui" [(ngModel)]="tagsText" x-test-form-tags>
+     </div>
+     <div class="form-actions" x-test-form-actions>
+      <button class="btn btn-primary submit-btn" type="submit" x-test-form-submit>Save card</button>
+      <a class="btn btn-ghost cancel-btn" routerLink="/" x-test-form-cancel>Cancel</a>
+     </div>
+    </form>{{ store.reviewCount() }}
+   </span>
+  </div>
+  <div class="stat-card" data-stat="done" x-test-stat-done-card>
+   <span class="stat-label" x-test-stat-done-label>Done</span> <span class="stat-value" x-test-stat-done>{{ store.doneCount() }}</span>
+  </div>
+  <div class="stat-card" data-stat="high" data-priority="high" x-test-stat-high-card>
+   <span class="stat-label" x-test-stat-high-label>High priority</span> <span class="stat-value" x-test-stat-high>{{ store.highCount() }}</span>
+  </div>
+  <div class="stat-card" data-stat="medium" data-priority="medium" x-test-stat-medium-card>
+   <span class="stat-label" x-test-stat-medium-label>Medium priority</span> <span class="stat-value" x-test-stat-medium>{{ store.mediumCount() }}</span>
+  </div>
+  <div class="stat-card" data-stat="low" data-priority="low" x-test-stat-low-card>
+   <span class="stat-label" x-test-stat-low-label>Low priority</span> <span class="stat-value" x-test-stat-low>{{ store.lowCount() }}</span>
+  </div>
+ </div>
+ <div class="stats-table-wrap" x-test-stats-table-section>
+  <h3 class="section-title" x-test-stats-table-title>All cards</h3>
+  <table class="stats-table" x-test-stats-table>
+   <thead>
+    <tr>
+     <th class="col-id" x-test-stats-th-id>Id</th>
+     <th class="col-title" x-test-stats-th-title>Title</th>
+     <th class="col-priority" x-test-stats-th-priority>Priority</th>
+     <th class="col-assignee" x-test-stats-th-assignee>Assignee</th>
+     <th class="col-column" x-test-stats-th-column>Column</th>
+    </tr>
+   </thead>
+   <tbody>
+    @for (card of store.cards(); track card.id) {
+    <tr class="stats-row" [attr.data-card-id]="card.id" [attr.data-priority]="card.priority" [attr.x-test-stat-row]="card.id">
+     <td class="cell-id">#{{ card.id }}</td>
+     <td class="cell-title">{{ card.title }}</td>
+     <td class="cell-priority">{{ card.priority }}</td>
+     <td class="cell-assignee">{{ card.assignee }}</td>
+     <td class="cell-column">{{ card.columnId }}</td>
+    </tr>
+    } @empty {
+    <tr class="stats-row-empty">
+     <td colspan="5" class="cell-empty" x-test-stats-empty>No cards on the board</td>
+    </tr>
+    }
+   </tbody>
+  </table>
+ </div>
+</section>
+######### END FILE #########

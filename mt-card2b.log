@@ -1,0 +1,606 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.sqlite.SQLiteJDBCLoader in an unnamed module (file:/C:/Users/vince/OneDrive/Desktop/Tirocinio/progetto/Automatic-Angular-E2E-Testing-Suite/mutation-tester/target/mutation-tester-1.0.0-jar-with-dependencies.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+Loaded class: AbsoluteXPathTest
+Loaded abstract class: BaseTest
+Loaded class: KatalonXPathTest
+Loaded class: RelativeXPathTest
+Loaded class: RobulaPlusXPathTest
+Loaded class: RobulaXPathTest
+Loaded class: SeleniumXPathTest
+Loaded factory class: WebDriverFactory
+Found 6 classes to execute.
+Found 20 mutations to apply.
+Starting TypeScript application (npm start)...
+TypeScript application started.
+
+20 out of 20 remaining.
+Mutation mutation_LLM_card_component_html_27_LLM_GENERATED_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Jun 17, 2026 8:55:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+AVVERTENZA: Unable to find CDP implementation matching 149
+Jun 17, 2026 8:55:31 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+AVVERTENZA: Unable to find version of CDP to use for 149.0.7827.104. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[WebDriverFactory] DevTools/sentry-block saltato: You are using a no-op implementation of the CDP. The most likely reason for this is that Selenium was unable to find an implementation of the CDP protocol that matches your browser. Please be sure to include an implementation on the classpath, possibly by adding a new (maven) dependency of `org.seleniumhq.selenium:selenium-devtools-vNN:4.27.0` where `NN` matches the major version of the browser you're using.
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: DevTools Connection
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+19 out of 20 remaining.
+Mutation mutation_LLM_card_component_html_31_LLM_GENERATED_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+18 out of 20 remaining.
+Mutation mutation_LLM_card_component_html_3_LLM_GENERATED_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+17 out of 20 remaining.
+Mutation mutation_LLM_card_component_html_29_LLM_GENERATED_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+16 out of 20 remaining.
+Mutation mutation_LLM_card_component_html_33_LLM_GENERATED_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+15 out of 20 remaining.
+Mutation mutation_LLM_card_component_html_35_LLM_GENERATED_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+14 out of 20 remaining.
+Mutation mutation_LLM_card_component_html_36_LLM_GENERATED_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+13 out of 20 remaining.
+Mutation mutation_LLM_card_component_html_30_LLM_GENERATED_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+12 out of 20 remaining.
+Mutation mutation_LLM_card_component_html_38_LLM_GENERATED_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+11 out of 20 remaining.
+Mutation mutation_LLM_card_component_html_44_LLM_GENERATED_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+10 out of 20 remaining.
+Mutation mutation_LLM_card_component_html_28_LLM_GENERATED_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+9 out of 20 remaining.
+Mutation mutation_LLM_card_component_html_39_LLM_GENERATED_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+8 out of 20 remaining.
+Mutation mutation_LLM_card_component_html_32_LLM_GENERATED_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+7 out of 20 remaining.
+Mutation mutation_LLM_card_component_html_42_LLM_GENERATED_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+6 out of 20 remaining.
+Mutation mutation_LLM_card_component_html_37_LLM_GENERATED_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+5 out of 20 remaining.
+Mutation mutation_LLM_card_component_html_41_LLM_GENERATED_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+4 out of 20 remaining.
+Mutation mutation_LLM_card_component_html_4_LLM_GENERATED_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+3 out of 20 remaining.
+Mutation mutation_LLM_card_component_html_40_LLM_GENERATED_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+2 out of 20 remaining.
+Mutation mutation_LLM_card_component_html_43_LLM_GENERATED_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+1 out of 20 remaining.
+Mutation mutation_LLM_card_component_html_34_LLM_GENERATED_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+Executed batches:
+Name,Id,Locator,Tag,Status,Error
+descriptionstyling,mutation_LLM_card_component_html_27_LLM_GENERATED_card_component_html,AbsoluteXPathTest,card_component_html,PASSED,null
+descriptionstyling,mutation_LLM_card_component_html_27_LLM_GENERATED_card_component_html,KatalonXPathTest,card_component_html,PASSED,null
+descriptionstyling,mutation_LLM_card_component_html_27_LLM_GENERATED_card_component_html,RelativeXPathTest,card_component_html,PASSED,null
+descriptionstyling,mutation_LLM_card_component_html_27_LLM_GENERATED_card_component_html,RobulaPlusXPathTest,card_component_html,PASSED,null
+descriptionstyling,mutation_LLM_card_component_html_27_LLM_GENERATED_card_component_html,RobulaXPathTest,card_component_html,PASSED,null
+descriptionstyling,mutation_LLM_card_component_html_27_LLM_GENERATED_card_component_html,SeleniumXPathTest,card_component_html,PASSED,null
+titlestyling,mutation_LLM_card_component_html_31_LLM_GENERATED_card_component_html,AbsoluteXPathTest,card_component_html,PASSED,null
+titlestyling,mutation_LLM_card_component_html_31_LLM_GENERATED_card_component_html,KatalonXPathTest,card_component_html,PASSED,null
+titlestyling,mutation_LLM_card_component_html_31_LLM_GENERATED_card_component_html,RelativeXPathTest,card_component_html,PASSED,null
+titlestyling,mutation_LLM_card_component_html_31_LLM_GENERATED_card_component_html,RobulaPlusXPathTest,card_component_html,PASSED,null
+titlestyling,mutation_LLM_card_component_html_31_LLM_GENERATED_card_component_html,RobulaXPathTest,card_component_html,PASSED,null
+titlestyling,mutation_LLM_card_component_html_31_LLM_GENERATED_card_component_html,SeleniumXPathTest,card_component_html,PASSED,null
+titlewrap,mutation_LLM_card_component_html_3_LLM_GENERATED_card_component_html,AbsoluteXPathTest,card_component_html,PASSED,null
+titlewrap,mutation_LLM_card_component_html_3_LLM_GENERATED_card_component_html,KatalonXPathTest,card_component_html,PASSED,null
+titlewrap,mutation_LLM_card_component_html_3_LLM_GENERATED_card_component_html,RelativeXPathTest,card_component_html,PASSED,null
+titlewrap,mutation_LLM_card_component_html_3_LLM_GENERATED_card_component_html,RobulaPlusXPathTest,card_component_html,PASSED,null
+titlewrap,mutation_LLM_card_component_html_3_LLM_GENERATED_card_component_html,RobulaXPathTest,card_component_html,PASSED,null
+titlewrap,mutation_LLM_card_component_html_3_LLM_GENERATED_card_component_html,SeleniumXPathTest,card_component_html,PASSED,null
+cardbodypaddingchange,mutation_LLM_card_component_html_29_LLM_GENERATED_card_component_html,AbsoluteXPathTest,card_component_html,PASSED,null
+cardbodypaddingchange,mutation_LLM_card_component_html_29_LLM_GENERATED_card_component_html,KatalonXPathTest,card_component_html,PASSED,null
+cardbodypaddingchange,mutation_LLM_card_component_html_29_LLM_GENERATED_card_component_html,RelativeXPathTest,card_component_html,PASSED,null
+cardbodypaddingchange,mutation_LLM_card_component_html_29_LLM_GENERATED_card_component_html,RobulaPlusXPathTest,card_component_html,PASSED,null
+cardbodypaddingchange,mutation_LLM_card_component_html_29_LLM_GENERATED_card_component_html,RobulaXPathTest,card_component_html,PASSED,null
+cardbodypaddingchange,mutation_LLM_card_component_html_29_LLM_GENERATED_card_component_html,SeleniumXPathTest,card_component_html,PASSED,null
+simplifiedcard,mutation_LLM_card_component_html_33_LLM_GENERATED_card_component_html,AbsoluteXPathTest,card_component_html,PASSED,null
+simplifiedcard,mutation_LLM_card_component_html_33_LLM_GENERATED_card_component_html,KatalonXPathTest,card_component_html,PASSED,null
+simplifiedcard,mutation_LLM_card_component_html_33_LLM_GENERATED_card_component_html,RelativeXPathTest,card_component_html,PASSED,null
+simplifiedcard,mutation_LLM_card_component_html_33_LLM_GENERATED_card_component_html,RobulaPlusXPathTest,card_component_html,PASSED,null
+simplifiedcard,mutation_LLM_card_component_html_33_LLM_GENERATED_card_component_html,RobulaXPathTest,card_component_html,PASSED,null
+simplifiedcard,mutation_LLM_card_component_html_33_LLM_GENERATED_card_component_html,SeleniumXPathTest,card_component_html,PASSED,null
+newclassadded,mutation_LLM_card_component_html_35_LLM_GENERATED_card_component_html,AbsoluteXPathTest,card_component_html,PASSED,null
+newclassadded,mutation_LLM_card_component_html_35_LLM_GENERATED_card_component_html,KatalonXPathTest,card_component_html,PASSED,null
+newclassadded,mutation_LLM_card_component_html_35_LLM_GENERATED_card_component_html,RelativeXPathTest,card_component_html,PASSED,null
+newclassadded,mutation_LLM_card_component_html_35_LLM_GENERATED_card_component_html,RobulaPlusXPathTest,card_component_html,PASSED,null
+newclassadded,mutation_LLM_card_component_html_35_LLM_GENERATED_card_component_html,RobulaXPathTest,card_component_html,PASSED,null
+newclassadded,mutation_LLM_card_component_html_35_LLM_GENERATED_card_component_html,SeleniumXPathTest,card_component_html,PASSED,null
+removedattribute,mutation_LLM_card_component_html_36_LLM_GENERATED_card_component_html,AbsoluteXPathTest,card_component_html,PASSED,null
+removedattribute,mutation_LLM_card_component_html_36_LLM_GENERATED_card_component_html,KatalonXPathTest,card_component_html,PASSED,null
+removedattribute,mutation_LLM_card_component_html_36_LLM_GENERATED_card_component_html,RelativeXPathTest,card_component_html,PASSED,null
+removedattribute,mutation_LLM_card_component_html_36_LLM_GENERATED_card_component_html,RobulaPlusXPathTest,card_component_html,PASSED,null
+removedattribute,mutation_LLM_card_component_html_36_LLM_GENERATED_card_component_html,RobulaXPathTest,card_component_html,PASSED,null
+removedattribute,mutation_LLM_card_component_html_36_LLM_GENERATED_card_component_html,SeleniumXPathTest,card_component_html,PASSED,null
+descriptionwrapping,mutation_LLM_card_component_html_30_LLM_GENERATED_card_component_html,AbsoluteXPathTest,card_component_html,PASSED,null
+descriptionwrapping,mutation_LLM_card_component_html_30_LLM_GENERATED_card_component_html,KatalonXPathTest,card_component_html,PASSED,null
+descriptionwrapping,mutation_LLM_card_component_html_30_LLM_GENERATED_card_component_html,RelativeXPathTest,card_component_html,PASSED,null
+descriptionwrapping,mutation_LLM_card_component_html_30_LLM_GENERATED_card_component_html,RobulaPlusXPathTest,card_component_html,PASSED,null
+descriptionwrapping,mutation_LLM_card_component_html_30_LLM_GENERATED_card_component_html,RobulaXPathTest,card_component_html,PASSED,null
+descriptionwrapping,mutation_LLM_card_component_html_30_LLM_GENERATED_card_component_html,SeleniumXPathTest,card_component_html,PASSED,null
+descriptionwrapper,mutation_LLM_card_component_html_38_LLM_GENERATED_card_component_html,AbsoluteXPathTest,card_component_html,PASSED,null
+descriptionwrapper,mutation_LLM_card_component_html_38_LLM_GENERATED_card_component_html,KatalonXPathTest,card_component_html,PASSED,null
+descriptionwrapper,mutation_LLM_card_component_html_38_LLM_GENERATED_card_component_html,RelativeXPathTest,card_component_html,PASSED,null
+descriptionwrapper,mutation_LLM_card_component_html_38_LLM_GENERATED_card_component_html,RobulaPlusXPathTest,card_component_html,PASSED,null
+descriptionwrapper,mutation_LLM_card_component_html_38_LLM_GENERATED_card_component_html,RobulaXPathTest,card_component_html,PASSED,null
+descriptionwrapper,mutation_LLM_card_component_html_38_LLM_GENERATED_card_component_html,SeleniumXPathTest,card_component_html,PASSED,null
+modifiedcardbodyclass,mutation_LLM_card_component_html_44_LLM_GENERATED_card_component_html,AbsoluteXPathTest,card_component_html,PASSED,null
+modifiedcardbodyclass,mutation_LLM_card_component_html_44_LLM_GENERATED_card_component_html,KatalonXPathTest,card_component_html,PASSED,null
+modifiedcardbodyclass,mutation_LLM_card_component_html_44_LLM_GENERATED_card_component_html,RelativeXPathTest,card_component_html,PASSED,null
+modifiedcardbodyclass,mutation_LLM_card_component_html_44_LLM_GENERATED_card_component_html,RobulaPlusXPathTest,card_component_html,PASSED,null
+modifiedcardbodyclass,mutation_LLM_card_component_html_44_LLM_GENERATED_card_component_html,RobulaXPathTest,card_component_html,PASSED,null
+modifiedcardbodyclass,mutation_LLM_card_component_html_44_LLM_GENERATED_card_component_html,SeleniumXPathTest,card_component_html,PASSED,null
+mediacoverclasschange,mutation_LLM_card_component_html_28_LLM_GENERATED_card_component_html,AbsoluteXPathTest,card_component_html,PASSED,null
+mediacoverclasschange,mutation_LLM_card_component_html_28_LLM_GENERATED_card_component_html,KatalonXPathTest,card_component_html,PASSED,null
+mediacoverclasschange,mutation_LLM_card_component_html_28_LLM_GENERATED_card_component_html,RelativeXPathTest,card_component_html,PASSED,null
+mediacoverclasschange,mutation_LLM_card_component_html_28_LLM_GENERATED_card_component_html,RobulaPlusXPathTest,card_component_html,PASSED,null
+mediacoverclasschange,mutation_LLM_card_component_html_28_LLM_GENERATED_card_component_html,RobulaXPathTest,card_component_html,PASSED,null
+mediacoverclasschange,mutation_LLM_card_component_html_28_LLM_GENERATED_card_component_html,SeleniumXPathTest,card_component_html,PASSED,null
+cardbodyclass,mutation_LLM_card_component_html_39_LLM_GENERATED_card_component_html,AbsoluteXPathTest,card_component_html,PASSED,null
+cardbodyclass,mutation_LLM_card_component_html_39_LLM_GENERATED_card_component_html,KatalonXPathTest,card_component_html,PASSED,null
+cardbodyclass,mutation_LLM_card_component_html_39_LLM_GENERATED_card_component_html,RelativeXPathTest,card_component_html,PASSED,null
+cardbodyclass,mutation_LLM_card_component_html_39_LLM_GENERATED_card_component_html,RobulaPlusXPathTest,card_component_html,PASSED,null
+cardbodyclass,mutation_LLM_card_component_html_39_LLM_GENERATED_card_component_html,RobulaXPathTest,card_component_html,PASSED,null
+cardbodyclass,mutation_LLM_card_component_html_39_LLM_GENERATED_card_component_html,SeleniumXPathTest,card_component_html,PASSED,null
+cardbodypadding,mutation_LLM_card_component_html_32_LLM_GENERATED_card_component_html,AbsoluteXPathTest,card_component_html,PASSED,null
+cardbodypadding,mutation_LLM_card_component_html_32_LLM_GENERATED_card_component_html,KatalonXPathTest,card_component_html,PASSED,null
+cardbodypadding,mutation_LLM_card_component_html_32_LLM_GENERATED_card_component_html,RelativeXPathTest,card_component_html,PASSED,null
+cardbodypadding,mutation_LLM_card_component_html_32_LLM_GENERATED_card_component_html,RobulaPlusXPathTest,card_component_html,PASSED,null
+cardbodypadding,mutation_LLM_card_component_html_32_LLM_GENERATED_card_component_html,RobulaXPathTest,card_component_html,PASSED,null
+cardbodypadding,mutation_LLM_card_component_html_32_LLM_GENERATED_card_component_html,SeleniumXPathTest,card_component_html,PASSED,null
+updatedplaybuttonclass,mutation_LLM_card_component_html_42_LLM_GENERATED_card_component_html,AbsoluteXPathTest,card_component_html,PASSED,null
+updatedplaybuttonclass,mutation_LLM_card_component_html_42_LLM_GENERATED_card_component_html,KatalonXPathTest,card_component_html,PASSED,null
+updatedplaybuttonclass,mutation_LLM_card_component_html_42_LLM_GENERATED_card_component_html,RelativeXPathTest,card_component_html,PASSED,null
+updatedplaybuttonclass,mutation_LLM_card_component_html_42_LLM_GENERATED_card_component_html,RobulaPlusXPathTest,card_component_html,PASSED,null
+updatedplaybuttonclass,mutation_LLM_card_component_html_42_LLM_GENERATED_card_component_html,RobulaXPathTest,card_component_html,PASSED,null
+updatedplaybuttonclass,mutation_LLM_card_component_html_42_LLM_GENERATED_card_component_html,SeleniumXPathTest,card_component_html,PASSED,null
+wrappedcardbody,mutation_LLM_card_component_html_37_LLM_GENERATED_card_component_html,AbsoluteXPathTest,card_component_html,PASSED,null
+wrappedcardbody,mutation_LLM_card_component_html_37_LLM_GENERATED_card_component_html,KatalonXPathTest,card_component_html,PASSED,null
+wrappedcardbody,mutation_LLM_card_component_html_37_LLM_GENERATED_card_component_html,RelativeXPathTest,card_component_html,PASSED,null
+wrappedcardbody,mutation_LLM_card_component_html_37_LLM_GENERATED_card_component_html,RobulaPlusXPathTest,card_component_html,PASSED,null
+wrappedcardbody,mutation_LLM_card_component_html_37_LLM_GENERATED_card_component_html,RobulaXPathTest,card_component_html,PASSED,null
+wrappedcardbody,mutation_LLM_card_component_html_37_LLM_GENERATED_card_component_html,SeleniumXPathTest,card_component_html,PASSED,null
+refactoredcardstructure,mutation_LLM_card_component_html_41_LLM_GENERATED_card_component_html,AbsoluteXPathTest,card_component_html,PASSED,null
+refactoredcardstructure,mutation_LLM_card_component_html_41_LLM_GENERATED_card_component_html,KatalonXPathTest,card_component_html,PASSED,null
+refactoredcardstructure,mutation_LLM_card_component_html_41_LLM_GENERATED_card_component_html,RelativeXPathTest,card_component_html,PASSED,null
+refactoredcardstructure,mutation_LLM_card_component_html_41_LLM_GENERATED_card_component_html,RobulaPlusXPathTest,card_component_html,PASSED,null
+refactoredcardstructure,mutation_LLM_card_component_html_41_LLM_GENERATED_card_component_html,RobulaXPathTest,card_component_html,PASSED,null
+refactoredcardstructure,mutation_LLM_card_component_html_41_LLM_GENERATED_card_component_html,SeleniumXPathTest,card_component_html,PASSED,null
+buttonsizing,mutation_LLM_card_component_html_4_LLM_GENERATED_card_component_html,AbsoluteXPathTest,card_component_html,PASSED,null
+buttonsizing,mutation_LLM_card_component_html_4_LLM_GENERATED_card_component_html,KatalonXPathTest,card_component_html,PASSED,null
+buttonsizing,mutation_LLM_card_component_html_4_LLM_GENERATED_card_component_html,RelativeXPathTest,card_component_html,PASSED,null
+buttonsizing,mutation_LLM_card_component_html_4_LLM_GENERATED_card_component_html,RobulaPlusXPathTest,card_component_html,PASSED,null
+buttonsizing,mutation_LLM_card_component_html_4_LLM_GENERATED_card_component_html,RobulaXPathTest,card_component_html,PASSED,null
+buttonsizing,mutation_LLM_card_component_html_4_LLM_GENERATED_card_component_html,SeleniumXPathTest,card_component_html,PASSED,null
+cardcoverstyling,mutation_LLM_card_component_html_40_LLM_GENERATED_card_component_html,AbsoluteXPathTest,card_component_html,PASSED,null
+cardcoverstyling,mutation_LLM_card_component_html_40_LLM_GENERATED_card_component_html,KatalonXPathTest,card_component_html,PASSED,null
+cardcoverstyling,mutation_LLM_card_component_html_40_LLM_GENERATED_card_component_html,RelativeXPathTest,card_component_html,PASSED,null
+cardcoverstyling,mutation_LLM_card_component_html_40_LLM_GENERATED_card_component_html,RobulaPlusXPathTest,card_component_html,PASSED,null
+cardcoverstyling,mutation_LLM_card_component_html_40_LLM_GENERATED_card_component_html,RobulaXPathTest,card_component_html,PASSED,null
+cardcoverstyling,mutation_LLM_card_component_html_40_LLM_GENERATED_card_component_html,SeleniumXPathTest,card_component_html,PASSED,null
+addedcontainerdiv,mutation_LLM_card_component_html_43_LLM_GENERATED_card_component_html,AbsoluteXPathTest,card_component_html,PASSED,null
+addedcontainerdiv,mutation_LLM_card_component_html_43_LLM_GENERATED_card_component_html,KatalonXPathTest,card_component_html,PASSED,null
+addedcontainerdiv,mutation_LLM_card_component_html_43_LLM_GENERATED_card_component_html,RelativeXPathTest,card_component_html,PASSED,null
+addedcontainerdiv,mutation_LLM_card_component_html_43_LLM_GENERATED_card_component_html,RobulaPlusXPathTest,card_component_html,PASSED,null
+addedcontainerdiv,mutation_LLM_card_component_html_43_LLM_GENERATED_card_component_html,RobulaXPathTest,card_component_html,PASSED,null
+addedcontainerdiv,mutation_LLM_card_component_html_43_LLM_GENERATED_card_component_html,SeleniumXPathTest,card_component_html,PASSED,null
+modifiedcardbody,mutation_LLM_card_component_html_34_LLM_GENERATED_card_component_html,AbsoluteXPathTest,card_component_html,PASSED,null
+modifiedcardbody,mutation_LLM_card_component_html_34_LLM_GENERATED_card_component_html,KatalonXPathTest,card_component_html,PASSED,null
+modifiedcardbody,mutation_LLM_card_component_html_34_LLM_GENERATED_card_component_html,RelativeXPathTest,card_component_html,PASSED,null
+modifiedcardbody,mutation_LLM_card_component_html_34_LLM_GENERATED_card_component_html,RobulaPlusXPathTest,card_component_html,PASSED,null
+modifiedcardbody,mutation_LLM_card_component_html_34_LLM_GENERATED_card_component_html,RobulaXPathTest,card_component_html,PASSED,null
+modifiedcardbody,mutation_LLM_card_component_html_34_LLM_GENERATED_card_component_html,SeleniumXPathTest,card_component_html,PASSED,null
+
+
+Test results:
+Locator,Total,Success,Fragility,Obsolescence,Not Compiled
+RelativeXPathTest,20,20,0,0,0
+AbsoluteXPathTest,20,20,0,0,0
+RobulaXPathTest,20,20,0,0,0
+KatalonXPathTest,20,20,0,0,0
+SeleniumXPathTest,20,20,0,0,0
+RobulaPlusXPathTest,20,20,0,0,0
+
+File saved: output\tests\batches.csv
+File saved: output\tests\stats.csv
+
+Tests completed.
+Execution time: 584 seconds.

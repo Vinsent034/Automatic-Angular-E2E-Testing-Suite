@@ -1,0 +1,21 @@
+######### START 1 - a #########
+<a class="nav-link active-tab" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" x-test-nav-board>Board</a>
+######### END 1 - a #########
+######### START 2 - b #########
+<a class="nav-link" routerLink="/" routerLinkActive="active" x-test-nav-board>Board</a>
+######### END 2 - b #########
+######### START 3 - c #########
+<a data-cls="nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" x-test-nav-board>Board</a>
+######### END 3 - c #########
+######### START 4 - d #########
+<a class="nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" x-test-nav-board>Home</a>
+######### END 4 - d #########
+######### START 5 - e #########
+<a class="nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" x-test-nav-board></a>
+######### END 5 - e #########
+######### START 6 - j #########
+<span class="nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" x-test-nav-board>Board</span>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="nav-wrap"><a class="nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" x-test-nav-board>Board</a></div>
+######### END 7 - k #########

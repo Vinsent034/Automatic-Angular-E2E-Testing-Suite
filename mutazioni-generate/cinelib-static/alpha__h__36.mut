@@ -1,0 +1,19 @@
+#mutation-id: h
+#element: alpha
+#name: cast-role
+#type: tag_mov_temp_mut
+#status: COMPLETE
+######### FILE C:\Users\vince\OneDrive\Desktop\App tirocinio\cinelib\src\app\cast-row\cast-row.component.html #########
+<div class="cast-row" x-test-cast-row>
+  <span class="cast-avatar" aria-hidden="true">{{ member().name.charAt(0) }}</span>
+  <span class="cast-name" x-test-cast-name>{{ member().name }}</span>
+  
+</div>
+######### END FILE #########
+######### FILE C:\Users\vince\OneDrive\Desktop\App tirocinio\cinelib\src\app\app.component.html #########
+<app-header></app-header>
+<main class="page">
+ <router-outlet></router-outlet>
+</main>
+<app-toast></app-toast>
+######### END FILE #########

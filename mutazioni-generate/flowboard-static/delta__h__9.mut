@@ -1,0 +1,118 @@
+#mutation-id: h
+#element: delta
+#name: board-assignee-label
+#type: tag_mov_temp_mut
+#status: COMPLETE
+######### FILE C:\Users\vince\OneDrive\Desktop\App tirocinio\Kanban board\src\app\board\board.component.html #########
+<section class="board-page" x-test-board>
+  <div class="board-intro" x-test-board-intro>
+    <h2 class="page-title" x-test-board-title>Project board</h2>
+    <span class="badge badge-demo" data-kind="demo" x-test-demo-badge>Board demo</span>
+    <p class="hint-banner" x-test-hint-banner>Use the Move menu on a card to change column</p>
+  </div>
+
+  <div class="toolbar" role="toolbar" aria-label="Board toolbar" x-test-toolbar>
+    <div class="toolbar-group toolbar-search" role="search" x-test-toolbar-search>
+      <label class="field-label" for="search-input" x-test-search-label>Search</label>
+      <input id="search-input" class="input search-input" type="text" placeholder="Filter by title…" [value]="store.searchText()" (input)="onSearch($event)" x-test-search>
+    </div>
+
+    <div class="toolbar-group toolbar-priority" x-test-toolbar-priority>
+      <label class="field-label" for="priority-filter" x-test-priority-label>Priority</label>
+      <select id="priority-filter" class="input select priority-filter" [value]="store.priorityFilter()" (change)="onPriorityFilter($event)" x-test-filter-priority>
+        <option value="all">All</option>
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+      </select>
+    </div>
+
+    <div class="toolbar-group toolbar-assignee" x-test-toolbar-assignee>
+      <label class="field-label" for="assignee-filter" x-test-assignee-label>Assignee</label>
+      
+    </div>
+
+    <div class="toolbar-group toolbar-info" x-test-toolbar-info>
+      <span class="matching-label" x-test-matching-label>Matching</span>
+      <span class="badge badge-filtered" data-kind="filtered" x-test-filtered-count>{{ store.filteredCount() }}</span>
+    </div>
+
+    <div class="toolbar-group toolbar-actions" x-test-toolbar-actions>
+      <a class="btn btn-primary add-card-btn" routerLink="/card/new" role="button" x-test-add-card>Add card</a>
+      <button class="btn btn-ghost reset-btn" type="button" (click)="store.reset()" x-test-reset>Reset board</button>
+    </div>
+  </div>
+
+  <div class="board-grid" role="list" aria-label="Board columns" x-test-columns>
+    <section class="column" data-column="backlog" role="listitem" aria-label="Backlog column" x-test-column="backlog">
+      <header class="column-header">
+        <h3 class="column-title" x-test-column-title="backlog">Backlog</h3>
+        <span class="badge column-count" data-column="backlog" x-test-column-count="backlog">{{ store.backlogCount() }}</span>
+      </header>
+      <app-column colId="backlog">
+    </app-column></section>
+
+    <section class="column" data-column="inprogress" role="listitem" aria-label="In Progress column" x-test-column="inprogress">
+      <header class="column-header">
+        <h3 class="column-title" x-test-column-title="inprogress">In Progress</h3>
+        <span class="badge column-count" data-column="inprogress" x-test-column-count="inprogress">{{ store.inProgressCount() }}</span>
+      </header>
+      <app-column colId="inprogress">
+    </app-column></section>
+
+    <section class="column" data-column="review" role="listitem" aria-label="Review column" x-test-column="review">
+      <header class="column-header">
+        <h3 class="column-title" x-test-column-title="review">Review</h3>
+        <span class="badge column-count" data-column="review" x-test-column-count="review">{{ store.reviewCount() }}</span>
+      </header>
+      <app-column colId="review">
+    </app-column></section>
+
+    <section class="column" data-column="done" role="listitem" aria-label="Done column" x-test-column="done">
+      <header class="column-header">
+        <h3 class="column-title" x-test-column-title="done">Done</h3>
+        <span class="badge column-count" data-column="done" x-test-column-count="done">{{ store.doneCount() }}</span>
+      </header>
+      <app-column colId="done">
+    </app-column></section>
+  </div>
+</section>
+######### END FILE #########
+######### FILE C:\Users\vince\OneDrive\Desktop\App tirocinio\Kanban board\src\app\card-form\card-form.component.html #########
+<section class="form-page" x-test-card-form>
+ <div class="page-heading" x-test-form-heading>
+  @if (editing()) {
+  <h2 class="page-title" x-test-form-title-edit>Edit card</h2>
+  } @else {
+  <h2 class="page-title" x-test-form-title-new>New card</h2>
+  } <a class="btn btn-ghost back-btn" routerLink="/" x-test-form-back>Back to board</a>
+ </div>
+ <form class="card-form" (ngSubmit)="submit()" x-test-form>
+  <div class="form-field" x-test-form-field-title>
+   <label class="field-label" for="field-title" x-test-form-title-label>Title</label> <input id="field-title" name="title" class="input form-title" type="text" required placeholder="Card title" [(ngModel)]="title" x-test-form-title>
+  </div>
+  <select id="assignee-filter" class="input select assignee-filter" [value]="store.assigneeFilter()" (change)="onAssigneeFilter($event)" x-test-filter-assignee> <option value="all">All</option> @for (person of store.assignees(); track person) { <option [value]="person">{{ person }}</option> } </select>
+  <div class="form-field" x-test-form-field-description>
+   <label class="field-label" for="field-description" x-test-form-description-label>Description</label> <textarea id="field-description" name="description" class="input form-description" rows="4" placeholder="What is this card about?" [(ngModel)]="description" x-test-form-description></textarea>
+  </div>
+  <div class="form-row">
+   <div class="form-field" x-test-form-field-priority>
+    <label class="field-label" for="field-priority" x-test-form-priority-label>Priority</label> <select id="field-priority" name="priority" class="input select form-priority" [(ngModel)]="priority" x-test-form-priority> <option value="low">Low</option> <option value="medium">Medium</option> <option value="high">High</option> </select>
+   </div>
+   <div class="form-field" x-test-form-field-assignee>
+    <label class="field-label" for="field-assignee" x-test-form-assignee-label>Assignee</label> <input id="field-assignee" name="assignee" class="input form-assignee" type="text" placeholder="Who works on it" [(ngModel)]="assignee" x-test-form-assignee>
+   </div>
+   <div class="form-field" x-test-form-field-column>
+    <label class="field-label" for="field-column" x-test-form-column-label>Column</label> <select id="field-column" name="columnId" class="input select form-column" [(ngModel)]="columnId" x-test-form-column> <option value="backlog">Backlog</option> <option value="inprogress">In Progress</option> <option value="review">Review</option> <option value="done">Done</option> </select>
+   </div>
+  </div>
+  <div class="form-field" x-test-form-field-tags>
+   <label class="field-label" for="field-tags" x-test-form-tags-label>Tags (comma separated)</label> <input id="field-tags" name="tags" class="input form-tags" type="text" placeholder="e.g. bug, ui" [(ngModel)]="tagsText" x-test-form-tags>
+  </div>
+  <div class="form-actions" x-test-form-actions>
+   <button class="btn btn-primary submit-btn" type="submit" x-test-form-submit>Save card</button>
+   <a class="btn btn-ghost cancel-btn" routerLink="/" x-test-form-cancel>Cancel</a>
+  </div>
+ </form>
+</section>
+######### END FILE #########

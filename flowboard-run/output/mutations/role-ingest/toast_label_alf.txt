@@ -1,0 +1,21 @@
+######### START 1 - a #########
+<span class="toast-label muted" x-test-toast-label>Last action:</span>
+######### END 1 - a #########
+######### START 2 - b #########
+<span x-test-toast-label>Last action:</span>
+######### END 2 - b #########
+######### START 3 - c #########
+<span data-cls="toast-label" x-test-toast-label>Last action:</span>
+######### END 3 - c #########
+######### START 4 - d #########
+<span class="toast-label" x-test-toast-label>Latest:</span>
+######### END 4 - d #########
+######### START 5 - e #########
+<span class="toast-label" x-test-toast-label></span>
+######### END 5 - e #########
+######### START 6 - j #########
+<div class="toast-label" x-test-toast-label>Last action:</div>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="tl-wrap"><span class="toast-label" x-test-toast-label>Last action:</span></div>
+######### END 7 - k #########

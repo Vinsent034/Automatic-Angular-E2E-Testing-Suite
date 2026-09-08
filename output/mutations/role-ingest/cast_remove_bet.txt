@@ -1,0 +1,35 @@
+######### START 1 - a #########
+<div class="cast-row-edit" [formGroupName]="$index" x-test-cast-edit-row>
+            <input type="text" formControlName="name" placeholder="Actor name" class="field-input" x-test-cast-name>
+            <input type="text" formControlName="role" placeholder="Role" class="field-input" x-test-cast-role>
+            <button type="button" class="btn btn-danger btn-small" (click)="removeCast($index)" x-test-cast-remove>Remove</button>
+          </div>
+######### END 1 - a #########
+######### START 2 - b #########
+<div [formGroupName]="$index" x-test-cast-edit-row>
+            <input type="text" formControlName="name" placeholder="Actor name" class="field-input" x-test-cast-name>
+            <input type="text" formControlName="role" placeholder="Role" class="field-input" x-test-cast-role>
+            <button type="button" class="btn btn-danger btn-small" (click)="removeCast($index)" x-test-cast-remove>Remove</button>
+          </div>
+######### END 2 - b #########
+######### START 3 - c #########
+<div rowclass="cast-edit-row" [formGroupName]="$index" x-test-cast-edit-row>
+            <input type="text" formControlName="name" placeholder="Actor name" class="field-input" x-test-cast-name>
+            <input type="text" formControlName="role" placeholder="Role" class="field-input" x-test-cast-role>
+            <button type="button" class="btn btn-danger btn-small" (click)="removeCast($index)" x-test-cast-remove>Remove</button>
+          </div>
+######### END 3 - c #########
+######### START 4 - j #########
+<fieldset class="cast-edit-row" [formGroupName]="$index" x-test-cast-edit-row>
+            <input type="text" formControlName="name" placeholder="Actor name" class="field-input" x-test-cast-name>
+            <input type="text" formControlName="role" placeholder="Role" class="field-input" x-test-cast-role>
+            <button type="button" class="btn btn-danger btn-small" (click)="removeCast($index)" x-test-cast-remove>Remove</button>
+          </fieldset>
+######### END 4 - j #########
+######### START 5 - k #########
+<div class="cast-row-wrap"><div class="cast-edit-row" [formGroupName]="$index" x-test-cast-edit-row>
+            <input type="text" formControlName="name" placeholder="Actor name" class="field-input" x-test-cast-name>
+            <input type="text" formControlName="role" placeholder="Role" class="field-input" x-test-cast-role>
+            <button type="button" class="btn btn-danger btn-small" (click)="removeCast($index)" x-test-cast-remove>Remove</button>
+          </div></div>
+######### END 5 - k #########

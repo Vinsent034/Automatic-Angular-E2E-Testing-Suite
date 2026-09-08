@@ -1,0 +1,20 @@
+#mutation-id: j
+#element: delta
+#name: card-meta
+#type: tag_type_mod_mut
+#status: COMPLETE
+######### FILE C:\Users\vince\OneDrive\Desktop\App tirocinio\cinelib\src\app\movie-card\movie-card.component.html #########
+<div class="movie-card movie-card-{{ view() }}" [attr.data-genre]="movie().genre" [class.is-favorite]="movie().favorite" x-test-card>
+  <a class="poster" [routerLink]="['/movie', movie().id]" aria-hidden="true" tabindex="-1" x-test-card-poster>
+    <span class="poster-letter">{{ movie().title.charAt(0) }}</span>
+  </a>
+  <button type="button" class="favorite-toggle" [class.active]="movie().favorite" (click)="toggleFavorite()" [attr.aria-pressed]="movie().favorite" [attr.aria-label]="movie().favorite ? 'Remove from favorites' : 'Add to favorites'" x-test-favorite-toggle>{{ movie().favorite ? '♥' : '♡' }}</button>
+  <div class="card-body">
+    <a class="card-title-link" [routerLink]="['/movie', movie().id]" x-test-card-link>
+      <h2 class="card-title" x-test-card-title>{{ movie().title }}</h2>
+    </a>
+    <p class="card-meta" x-test-card-meta>{{ movie().year }} · {{ movie().genre }}</p>
+    <div class="card-rating" x-test-card-rating>★ {{ movie().rating }}</div>
+  </div>
+</div>
+######### END FILE #########

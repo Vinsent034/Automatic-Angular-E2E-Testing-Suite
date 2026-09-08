@@ -1,0 +1,32 @@
+######### START 1 - a #########
+<select id="field-column" name="columnId" class="input select form-column compact" [(ngModel)]="columnId" x-test-form-column>
+          <option value="backlog">Backlog</option>
+          <option value="inprogress">In Progress</option>
+          <option value="review">Review</option>
+          <option value="done">Done</option>
+        </select>
+######### END 1 - a #########
+######### START 2 - b #########
+<select id="field-column" name="columnId" [(ngModel)]="columnId" x-test-form-column>
+          <option value="backlog">Backlog</option>
+          <option value="inprogress">In Progress</option>
+          <option value="review">Review</option>
+          <option value="done">Done</option>
+        </select>
+######### END 2 - b #########
+######### START 3 - c #########
+<select id="field-column" name="columnId" data-cls="input select form-column" [(ngModel)]="columnId" x-test-form-column>
+          <option value="backlog">Backlog</option>
+          <option value="inprogress">In Progress</option>
+          <option value="review">Review</option>
+          <option value="done">Done</option>
+        </select>
+######### END 3 - c #########
+######### START 7 - k #########
+<div class="field-wrap"><select id="field-column" name="columnId" class="input select form-column" [(ngModel)]="columnId" x-test-form-column>
+          <option value="backlog">Backlog</option>
+          <option value="inprogress">In Progress</option>
+          <option value="review">Review</option>
+          <option value="done">Done</option>
+        </select></div>
+######### END 7 - k #########

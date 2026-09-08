@@ -1,0 +1,886 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.sqlite.SQLiteJDBCLoader in an unnamed module (file:/C:/Users/vince/OneDrive/Desktop/Tirocinio/progetto/Automatic-Angular-E2E-Testing-Suite/mutation-generator/llm-generator/target/llm-generator-1.0.0-jar-with-dependencies.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+LLM generator | ROLE 11x5 mode | 24 targets x 11 operators x 5 roles | model=llama-3.3-70b-versatile
+
+============= catalog-result-count (x-test-result-count in catalog.component.html) =============
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 49s before retry...
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 13s before retry...
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 10s before retry...
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 50s before retry...
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 43s before retry...
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 11s before retry...
+  role alpha-target    : 10 applicable, 1 still pending after 10 call(s)
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 21s before retry...
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 13s before retry...
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 10s before retry...
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 11s before retry...
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 9s before retry...
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 11s before retry...
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 11s before retry...
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 10s before retry...
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 11s before retry...
+  role delta-sibling   : 10 applicable, 1 still pending after 10 call(s)
+
+============= catalog-search-input (x-test-search-input in catalog.component.html) =============
+  [Groq] HTTP 429 (daily quota exhausted) -> rotating to key 2/3.
+  role alpha-target    : 7 applicable, 0 still pending after 1 call(s)
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 54s before retry...
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 21s before retry...
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 20s before retry...
+  role beta-parent     : 8 applicable, 0 still pending after 3 call(s)
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 8s before retry...
+  [Groq] HTTP 429 per-minute (attempt 2/6). Pausing 28s before retry...
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 27s before retry...
+  role gamma-ancestor  : 8 applicable, 0 still pending after 3 call(s)
+
+============= catalog-filter-genre (x-test-filter-genre in catalog.component.html) =============
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 38s before retry...
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 13s before retry...
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 16s before retry...
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 11s before retry...
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 11s before retry...
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 10s before retry...
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 11s before retry...
+  [Groq] HTTP 429 (daily quota exhausted) -> rotating to key 3/3.
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 49s before retry...
+  role alpha-target    : 10 applicable, 1 still pending after 10 call(s)
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 55s before retry...
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 15s before retry...
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 14s before retry...
+  [Groq] HTTP 429 per-minute (attempt 2/6). Pausing 13s before retry...
+  role beta-parent     : 8 applicable, 0 still pending after 3 call(s)
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 17s before retry...
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 22s before retry...
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 23s before retry...
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 19s before retry...
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 14s before retry...
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 13s before retry...
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 13s before retry...
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 14s before retry...
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role gamma-ancestor  : 8 applicable, 1 still pending after 10 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role delta-sibling   : 8 applicable, 8 still pending after 10 call(s)
+
+============= catalog-sort (x-test-sort in catalog.component.html) =============
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role alpha-target    : 8 applicable, 8 still pending after 10 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role beta-parent     : 8 applicable, 8 still pending after 10 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role gamma-ancestor  : 8 applicable, 8 still pending after 10 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role delta-sibling   : 10 applicable, 10 still pending after 10 call(s)
+
+============= catalog-view-list (x-test-view-list in catalog.component.html) =============
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role alpha-target    : 10 applicable, 10 still pending after 10 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role beta-parent     : 8 applicable, 8 still pending after 10 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role gamma-ancestor  : 8 applicable, 8 still pending after 10 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role delta-sibling   : 10 applicable, 10 still pending after 10 call(s)
+
+============= card-title (x-test-card-title in movie-card.component.html) =============
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role alpha-target    : 9 applicable, 9 still pending after 10 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role beta-parent     : 8 applicable, 8 still pending after 10 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role gamma-ancestor  : 8 applicable, 8 still pending after 10 call(s)
+
+============= detail-meta (x-test-detail-meta in movie-detail.component.html) =============
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role alpha-target    : 10 applicable, 10 still pending after 10 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role beta-parent     : 8 applicable, 8 still pending after 10 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role gamma-ancestor  : 8 applicable, 8 still pending after 10 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role delta-sibling   : 10 applicable, 10 still pending after 10 call(s)
+
+============= cast-row (x-test-cast-row in cast-row.component.html) =============
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role alpha-target    : 5 applicable, 5 still pending after 7 call(s)
+
+============= detail-delete-button (x-test-delete-button in movie-detail.component.html) =============
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role alpha-target    : 10 applicable, 10 still pending after 10 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role beta-parent     : 8 applicable, 8 still pending after 10 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role gamma-ancestor  : 8 applicable, 8 still pending after 10 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role delta-sibling   : 10 applicable, 10 still pending after 10 call(s)
+
+============= detail-not-found (x-test-not-found in movie-detail.component.html) =============
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role alpha-target    : 8 applicable, 8 still pending after 10 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role delta-sibling   : 6 applicable, 6 still pending after 7 call(s)
+
+============= catalog-favorites-filter (x-test-favorites-filter in catalog.component.html) =============
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role alpha-target    : 10 applicable, 10 still pending after 10 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role beta-parent     : 8 applicable, 8 still pending after 10 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role gamma-ancestor  : 8 applicable, 8 still pending after 10 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role delta-sibling   : 8 applicable, 8 still pending after 10 call(s)
+
+============= card-favorite-toggle (x-test-favorite-toggle in movie-card.component.html) =============
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role alpha-target    : 10 applicable, 10 still pending after 10 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role beta-parent     : 5 applicable, 5 still pending after 7 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role delta-sibling   : 8 applicable, 8 still pending after 10 call(s)
+
+============= detail-favorite (x-test-detail-favorite in movie-detail.component.html) =============
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role alpha-target    : 10 applicable, 10 still pending after 10 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role beta-parent     : 8 applicable, 8 still pending after 10 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role gamma-ancestor  : 8 applicable, 8 still pending after 10 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role delta-sibling   : 10 applicable, 10 still pending after 10 call(s)
+
+============= review-item (x-test-review-item in reviews.component.html) =============
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role alpha-target    : 7 applicable, 7 still pending after 7 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role beta-parent     : 10 applicable, 10 still pending after 10 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role gamma-ancestor  : 5 applicable, 5 still pending after 7 call(s)
+
+============= review-field-author (x-test-review-field-author in reviews.component.html) =============
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role alpha-target    : 8 applicable, 8 still pending after 10 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role beta-parent     : 10 applicable, 10 still pending after 10 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role gamma-ancestor  : 8 applicable, 8 still pending after 10 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role delta-sibling   : 10 applicable, 10 still pending after 10 call(s)
+
+============= review-submit (x-test-review-submit in reviews.component.html) =============
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role alpha-target    : 9 applicable, 9 still pending after 10 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role beta-parent     : 8 applicable, 8 still pending after 10 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role gamma-ancestor  : 8 applicable, 8 still pending after 10 call(s)
+
+============= review-remove (x-test-review-remove in reviews.component.html) =============
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role alpha-target    : 10 applicable, 10 still pending after 10 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role beta-parent     : 8 applicable, 8 still pending after 10 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role gamma-ancestor  : 7 applicable, 7 still pending after 7 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role delta-sibling   : 10 applicable, 10 still pending after 10 call(s)
+
+============= stat-total-value (x-test-stat-total-value in stats.component.html) =============
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role alpha-target    : 10 applicable, 10 still pending after 10 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role beta-parent     : 8 applicable, 8 still pending after 10 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role gamma-ancestor  : 8 applicable, 8 still pending after 10 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role delta-sibling   : 10 applicable, 10 still pending after 10 call(s)
+
+============= genre-row (x-test-genre-row in stats.component.html) =============
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role alpha-target    : 7 applicable, 7 still pending after 7 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role beta-parent     : 10 applicable, 10 still pending after 10 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role gamma-ancestor  : 8 applicable, 8 still pending after 10 call(s)
+
+============= top-row (x-test-top-row in stats.component.html) =============
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role alpha-target    : 4 applicable, 4 still pending after 7 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role beta-parent     : 7 applicable, 7 still pending after 7 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role gamma-ancestor  : 8 applicable, 8 still pending after 10 call(s)
+
+============= top-title (x-test-top-title in stats.component.html) =============
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role alpha-target    : 9 applicable, 9 still pending after 10 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role beta-parent     : 5 applicable, 5 still pending after 7 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role gamma-ancestor  : 4 applicable, 4 still pending after 7 call(s)
+
+============= field-title (x-test-field-title in movie-form.component.html) =============
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role alpha-target    : 8 applicable, 8 still pending after 10 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role beta-parent     : 10 applicable, 10 still pending after 10 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role gamma-ancestor  : 8 applicable, 8 still pending after 10 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role delta-sibling   : 10 applicable, 10 still pending after 10 call(s)
+
+============= form-submit (x-test-form-submit in movie-form.component.html) =============
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role alpha-target    : 10 applicable, 10 still pending after 10 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role beta-parent     : 8 applicable, 8 still pending after 10 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role gamma-ancestor  : 8 applicable, 8 still pending after 10 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role delta-sibling   : 10 applicable, 10 still pending after 10 call(s)
+
+============= cast-add (x-test-cast-add in movie-form.component.html) =============
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role alpha-target    : 10 applicable, 10 still pending after 10 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role beta-parent     : 8 applicable, 8 still pending after 10 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role gamma-ancestor  : 8 applicable, 8 still pending after 10 call(s)
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 3/3).
+  role delta-sibling   : 10 applicable, 10 still pending after 10 call(s)
+
+==============================================
+DONE (role 11x5). Saved: 73 | Rejected: 615 | NA: 632 | Applicable: 688
+Matrix: output/mutations/role-mutations-matrix.csv
+Per-test report: output/mutations/role-per-test-report.csv
+Checkpoint: NOT running the mutation-tester. Stop for review.

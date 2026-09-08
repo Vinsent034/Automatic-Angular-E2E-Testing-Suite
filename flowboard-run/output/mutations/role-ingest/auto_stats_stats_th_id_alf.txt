@@ -1,0 +1,21 @@
+######### START 1 - a #########
+<th class="col-id narrow" x-test-stats-th-id>Id</th>
+######### END 1 - a #########
+######### START 2 - b #########
+<th x-test-stats-th-id>Id</th>
+######### END 2 - b #########
+######### START 3 - c #########
+<th data-cls="col-id" x-test-stats-th-id>Id</th>
+######### END 3 - c #########
+######### START 4 - d #########
+<th class="col-id" x-test-stats-th-id>#</th>
+######### END 4 - d #########
+######### START 5 - e #########
+<th class="col-id" x-test-stats-th-id></th>
+######### END 5 - e #########
+######### START 6 - j #########
+<td class="col-id" x-test-stats-th-id>Id</td>
+######### END 6 - j #########
+######### START 7 - k #########
+<th class="col-id" x-test-stats-th-id><span>Id</span></th>
+######### END 7 - k #########

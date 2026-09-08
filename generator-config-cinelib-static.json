@@ -1,0 +1,412 @@
+{
+ "seed": "1234",
+ "repositoryRootPath": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib",
+ "npmRunCommand": "npm start -- --port 4300",
+ "mutations": [
+  {
+   "name": "catalog-result-count",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/catalog/catalog.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-result-count",
+    "value": ""
+   }
+  },
+  {
+   "name": "catalog-search-input",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/catalog/catalog.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-search-input",
+    "value": ""
+   }
+  },
+  {
+   "name": "catalog-filter-genre",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/catalog/catalog.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-filter-genre",
+    "value": ""
+   }
+  },
+  {
+   "name": "catalog-sort",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/catalog/catalog.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-sort",
+    "value": ""
+   }
+  },
+  {
+   "name": "catalog-view-list",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/catalog/catalog.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-view-list",
+    "value": ""
+   }
+  },
+  {
+   "name": "card-title",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-card/movie-card.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-card-title",
+    "value": ""
+   }
+  },
+  {
+   "name": "detail-meta",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-detail/movie-detail.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-detail-meta",
+    "value": ""
+   }
+  },
+  {
+   "name": "cast-row",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/cast-row/cast-row.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-cast-row",
+    "value": ""
+   }
+  },
+  {
+   "name": "detail-delete-button",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-detail/movie-detail.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-delete-button",
+    "value": ""
+   }
+  },
+  {
+   "name": "detail-not-found",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-detail/movie-detail.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-not-found",
+    "value": ""
+   }
+  },
+  {
+   "name": "catalog-favorites-filter",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/catalog/catalog.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-favorites-filter",
+    "value": ""
+   }
+  },
+  {
+   "name": "card-favorite-toggle",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-card/movie-card.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-favorite-toggle",
+    "value": ""
+   }
+  },
+  {
+   "name": "detail-favorite",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-detail/movie-detail.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-detail-favorite",
+    "value": ""
+   }
+  },
+  {
+   "name": "review-item",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/reviews/reviews.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-review-item",
+    "value": ""
+   }
+  },
+  {
+   "name": "review-field-author",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/reviews/reviews.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-review-field-author",
+    "value": ""
+   }
+  },
+  {
+   "name": "review-submit",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/reviews/reviews.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-review-submit",
+    "value": ""
+   }
+  },
+  {
+   "name": "review-remove",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/reviews/reviews.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-review-remove",
+    "value": ""
+   }
+  },
+  {
+   "name": "stat-total-value",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-stat-total-value",
+    "value": ""
+   }
+  },
+  {
+   "name": "genre-row",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-genre-row",
+    "value": ""
+   }
+  },
+  {
+   "name": "top-row",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-top-row",
+    "value": ""
+   }
+  },
+  {
+   "name": "top-title",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-top-title",
+    "value": ""
+   }
+  },
+  {
+   "name": "field-title",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-form/movie-form.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-field-title",
+    "value": ""
+   }
+  },
+  {
+   "name": "form-submit",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-form/movie-form.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-form-submit",
+    "value": ""
+   }
+  },
+  {
+   "name": "cast-add",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-form/movie-form.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-cast-add",
+    "value": ""
+   }
+  },
+  {
+   "name": "catalog-add-button",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/catalog/catalog.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-add-button",
+    "value": ""
+   }
+  },
+  {
+   "name": "catalog-reset-button",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/catalog/catalog.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-reset-button",
+    "value": ""
+   }
+  },
+  {
+   "name": "catalog-empty",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/catalog/catalog.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-empty",
+    "value": ""
+   }
+  },
+  {
+   "name": "catalog-modal-confirm",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/catalog/catalog.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-modal-confirm",
+    "value": ""
+   }
+  },
+  {
+   "name": "card-meta",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-card/movie-card.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-card-meta",
+    "value": ""
+   }
+  },
+  {
+   "name": "card-rating",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-card/movie-card.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-card-rating",
+    "value": ""
+   }
+  },
+  {
+   "name": "card-poster",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-card/movie-card.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-card-poster",
+    "value": ""
+   }
+  },
+  {
+   "name": "detail-title",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-detail/movie-detail.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-detail-title",
+    "value": ""
+   }
+  },
+  {
+   "name": "detail-synopsis",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-detail/movie-detail.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-synopsis",
+    "value": ""
+   }
+  },
+  {
+   "name": "detail-edit-button",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-detail/movie-detail.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-edit-button",
+    "value": ""
+   }
+  },
+  {
+   "name": "cast-name",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/cast-row/cast-row.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-cast-name",
+    "value": ""
+   }
+  },
+  {
+   "name": "cast-role",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/cast-row/cast-row.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-cast-role",
+    "value": ""
+   }
+  },
+  {
+   "name": "reviews-average",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/reviews/reviews.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-reviews-average",
+    "value": ""
+   }
+  },
+  {
+   "name": "review-comment",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/reviews/reviews.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-review-comment",
+    "value": ""
+   }
+  },
+  {
+   "name": "review-field-comment",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/reviews/reviews.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-review-field-comment",
+    "value": ""
+   }
+  },
+  {
+   "name": "stats-heading",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-stats-heading",
+    "value": ""
+   }
+  },
+  {
+   "name": "genre-count",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-genre-count",
+    "value": ""
+   }
+  },
+  {
+   "name": "stat-favorites-value",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-stat-favorites-value",
+    "value": ""
+   }
+  },
+  {
+   "name": "field-year",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-form/movie-form.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-field-year",
+    "value": ""
+   }
+  },
+  {
+   "name": "form-cancel",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-form/movie-form.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-form-cancel",
+    "value": ""
+   }
+  },
+  {
+   "name": "cast-remove",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-form/movie-form.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-cast-remove",
+    "value": ""
+   }
+  }
+ ]
+}

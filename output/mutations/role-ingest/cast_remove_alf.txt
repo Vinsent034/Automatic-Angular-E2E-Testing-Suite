@@ -1,0 +1,21 @@
+######### START 1 - a #########
+<button type="button" class="btn btn-danger btn-del" (click)="removeCast($index)" x-test-cast-remove>Remove</button>
+######### END 1 - a #########
+######### START 2 - b #########
+<button class="btn btn-danger btn-small" (click)="removeCast($index)" x-test-cast-remove>Remove</button>
+######### END 2 - b #########
+######### START 3 - c #########
+<button data-type="button" class="btn btn-danger btn-small" (click)="removeCast($index)" x-test-cast-remove>Remove</button>
+######### END 3 - c #########
+######### START 4 - d #########
+<button type="button" class="btn btn-danger btn-small" (click)="removeCast($index)" x-test-cast-remove>Delete</button>
+######### END 4 - d #########
+######### START 5 - e #########
+<button type="button" class="btn btn-danger btn-small" (click)="removeCast($index)" x-test-cast-remove> </button>
+######### END 5 - e #########
+######### START 6 - j #########
+<a type="button" class="btn btn-danger btn-small" (click)="removeCast($index)" x-test-cast-remove>Remove</a>
+######### END 6 - j #########
+######### START 7 - k #########
+<span class="cast-remove-wrap"><button type="button" class="btn btn-danger btn-small" (click)="removeCast($index)" x-test-cast-remove>Remove</button></span>
+######### END 7 - k #########

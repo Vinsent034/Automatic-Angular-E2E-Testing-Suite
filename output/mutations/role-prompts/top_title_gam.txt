@@ -1,0 +1,31 @@
+# TARGET: top-title  (x-test-top-title)
+# ROLE: gamma-ancestor   FILE: C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/stats/stats.component.html
+# Mutate ONLY this element. For each operator below, output the element's MUTATED outerHTML.
+# Rules: result valid Angular 19; NEVER add/remove/rename/alter any x-test* attribute;
+#        apply ONLY the requested operator; the element must really differ from the original.
+
+ROLE ELEMENT (original):
+<tr x-test-top-row>
+            <td>{{ i + 1 }}</td>
+            <td><a [routerLink]="['/movie', movie.id]" class="stats-link" x-test-top-title>{{ movie.title }}</a></td>
+            <td>{{ movie.year }}</td>
+            <td class="stats-rating">★ {{ movie.rating }}</td>
+          </tr>
+
+OPERATORS TO APPLY (one block each, body = mutated element outerHTML):
+- g (HTML Tag Movement (any point of the HTML tree)): Move an element to a different position elsewhere in the template tree (different parent).  [before: <div>
+  <tag>text</tag>
+  <other></other>
+</div> -> after: <tag>text</tag>
+<div>
+  <other></other>
+</div>]
+- j (HTML Tag Type Modification): Change the tag name of an element (e.g. div -> section), keeping attributes and content.  [before: <tag attr="value">text</tag> -> after: <newTag attr="value">text</newTag>]
+- k (HTML Tag Insertion): Insert a new wrapper/container tag around an existing element (add a hierarchy level).  [before: <tag attr="value">text</tag> -> after: <wrapper>
+  <tag attr="value">text</tag>
+</wrapper>]
+
+OUTPUT FORMAT (only these blocks, {op} = operator id):
+######### START 1 - {op} #########
+<mutated element>
+######### END 1 - {op} #########

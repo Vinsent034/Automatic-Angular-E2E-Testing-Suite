@@ -1,0 +1,11 @@
+[14:53:14] GROUP s1s2: PENDING=318 | td=td-s1s2
+[16:48:46] GROUP s1s2: done in 6919s -> batches-s1s2.csv
+[16:48:54] GROUP s3: PENDING=208 | td=td-s3
+[17:24:20] GROUP s3: done in 2121s -> batches-s3.csv
+[17:24:28] GROUP s4: PENDING=256 | td=td-s4
+[18:13:44] GROUP s4: done in 2951s -> batches-s4.csv
+[18:13:57] GROUP s5: PENDING=279 | td=td-s5
+[19:14:51] GROUP s5: done in 3647s -> batches-s5.csv
+[19:14:59] GROUP s6: PENDING=164 | td=td-s6
+[19:52:15] GROUP s6: done in 2230s -> batches-s6.csv
+[19:52:23] ALL GROUPS DONE in 17949s

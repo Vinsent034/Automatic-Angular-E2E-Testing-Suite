@@ -1,0 +1,21 @@
+######### START 1 - a #########
+<h3 class="section-title accent" x-test-stats-table-title>All cards</h3>
+######### END 1 - a #########
+######### START 2 - b #########
+<h3 x-test-stats-table-title>All cards</h3>
+######### END 2 - b #########
+######### START 3 - c #########
+<h3 data-cls="section-title" x-test-stats-table-title>All cards</h3>
+######### END 3 - c #########
+######### START 4 - d #########
+<h3 class="section-title" x-test-stats-table-title>Every card</h3>
+######### END 4 - d #########
+######### START 5 - e #########
+<h3 class="section-title" x-test-stats-table-title></h3>
+######### END 5 - e #########
+######### START 6 - j #########
+<div class="section-title" x-test-stats-table-title>All cards</div>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="stt-wrap"><h3 class="section-title" x-test-stats-table-title>All cards</h3></div>
+######### END 7 - k #########

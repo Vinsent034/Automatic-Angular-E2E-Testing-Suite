@@ -1,0 +1,15 @@
+######### START 1 - a #########
+<header class="card-top active"><span class="card-id" [attr.x-test-card-id]="card().id">#{{ card().id }}</span><span class="badge priority-badge" [attr.data-priority]="card().priority" [attr.x-test-card-priority]="card().id">{{ card().priority }}</span></header>
+######### END 1 - a #########
+######### START 2 - b #########
+<header><span class="card-id" [attr.x-test-card-id]="card().id">#{{ card().id }}</span><span class="badge priority-badge" [attr.data-priority]="card().priority" [attr.x-test-card-priority]="card().id">{{ card().priority }}</span></header>
+######### END 2 - b #########
+######### START 3 - c #########
+<header data-cls="card-top"><span class="card-id" [attr.x-test-card-id]="card().id">#{{ card().id }}</span><span class="badge priority-badge" [attr.data-priority]="card().priority" [attr.x-test-card-priority]="card().id">{{ card().priority }}</span></header>
+######### END 3 - c #########
+######### START 6 - j #########
+<div class="card-top"><span class="card-id" [attr.x-test-card-id]="card().id">#{{ card().id }}</span><span class="badge priority-badge" [attr.data-priority]="card().priority" [attr.x-test-card-priority]="card().id">{{ card().priority }}</span></div>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="ct-wrap"><header class="card-top"><span class="card-id" [attr.x-test-card-id]="card().id">#{{ card().id }}</span><span class="badge priority-badge" [attr.data-priority]="card().priority" [attr.x-test-card-priority]="card().id">{{ card().priority }}</span></header></div>
+######### END 7 - k #########

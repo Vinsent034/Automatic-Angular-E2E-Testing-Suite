@@ -1,0 +1,21 @@
+######### START 1 - a #########
+<button type="button" class="btn btn-cancel" (click)="cancelReset()" x-test-modal-cancel>Cancel</button>
+######### END 1 - a #########
+######### START 2 - b #########
+<button class="btn" (click)="cancelReset()" x-test-modal-cancel>Cancel</button>
+######### END 2 - b #########
+######### START 3 - c #########
+<button data-type="button" class="btn" (click)="cancelReset()" x-test-modal-cancel>Cancel</button>
+######### END 3 - c #########
+######### START 4 - d #########
+<button type="button" class="btn" (click)="cancelReset()" x-test-modal-cancel>Dismiss</button>
+######### END 4 - d #########
+######### START 5 - e #########
+<button type="button" class="btn" (click)="cancelReset()" x-test-modal-cancel> </button>
+######### END 5 - e #########
+######### START 6 - j #########
+<a type="button" class="btn" (click)="cancelReset()" x-test-modal-cancel>Cancel</a>
+######### END 6 - j #########
+######### START 7 - k #########
+<span class="cancel-modal-wrap"><button type="button" class="btn" (click)="cancelReset()" x-test-modal-cancel>Cancel</button></span>
+######### END 7 - k #########

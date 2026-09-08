@@ -1,0 +1,12 @@
+######### START 1 - a #########
+<div class="form-field highlight" x-test-form-field-title><label class="field-label" for="field-title" x-test-form-title-label>Title</label><input id="field-title" name="title" class="input form-title" type="text" required placeholder="Card title" [(ngModel)]="title" x-test-form-title></div>
+######### END 1 - a #########
+######### START 3 - c #########
+<div data-cls="form-field" x-test-form-field-title><label class="field-label" for="field-title" x-test-form-title-label>Title</label><input id="field-title" name="title" class="input form-title" type="text" required placeholder="Card title" [(ngModel)]="title" x-test-form-title></div>
+######### END 3 - c #########
+######### START 6 - j #########
+<section class="form-field" x-test-form-field-title><label class="field-label" for="field-title" x-test-form-title-label>Title</label><input id="field-title" name="title" class="input form-title" type="text" required placeholder="Card title" [(ngModel)]="title" x-test-form-title></section>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="ff-wrap"><div class="form-field" x-test-form-field-title><label class="field-label" for="field-title" x-test-form-title-label>Title</label><input id="field-title" name="title" class="input form-title" type="text" required placeholder="Card title" [(ngModel)]="title" x-test-form-title></div></div>
+######### END 7 - k #########

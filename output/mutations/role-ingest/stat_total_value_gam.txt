@@ -1,0 +1,24 @@
+######### START 1 - a #########
+<div class="stats-grid" x-test-stat-cards>
+    <div class="stat-card" x-test-stat-total>
+      <span class="stat-value" x-test-stat-total-value>{{ total() }}</span>
+      <span class="stat-label">Movies</span>
+    </div>
+    <div class="stat-card" x-test-stat-average>
+      <span class="stat-value" x-test-stat-average-value>★ {{ averageRating() }}</span>
+      <span class="stat-label">Average rating</span>
+    </div>
+    <div class="stat-card" x-test-stat-runtime>
+      <span class="stat-value" x-test-stat-runtime-value>{{ averageRuntime() }}'</span>
+      <span class="stat-label">Average runtime</span>
+    </div>
+    <div class="stat-card" x-test-stat-favorites>
+      <span class="stat-value" x-test-stat-favorites-value>{{ favoriteCount() }}</span>
+      <span class="stat-label">Favorites</span>
+    </div>
+    <div class="stat-card" x-test-stat-reviews>
+      <span class="stat-value" x-test-stat-reviews-value>{{ reviewCount() }}</span>
+      <span class="stat-label">Reviews</span>
+    </div>
+  </div>
+######### END 1 - a #########

@@ -1,0 +1,2367 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.sqlite.SQLiteJDBCLoader in an unnamed module (file:/C:/Users/vince/OneDrive/Desktop/Tirocinio/progetto/Automatic-Angular-E2E-Testing-Suite/mutation-tester/target/mutation-tester-1.0.0-jar-with-dependencies.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+Loaded class: AbsoluteXPathTest
+Loaded abstract class: BaseTest
+Loaded class: HookXPathTest
+Loaded class: KatalonXPathTest
+Loaded class: RelativeXPathTest
+Loaded class: RobulaPlusXPathTest
+Loaded class: RobulaXPathTest
+Loaded class: SeleniumXPathTest
+Loaded factory class: WebDriverFactory
+Found 7 classes to execute.
+Found 76 mutations to apply.
+Starting TypeScript application (npm start)...
+TypeScript application started.
+
+76 out of 76 remaining.
+Mutation mutation_k_tag_ins_mut_delta applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+75 out of 76 remaining.
+Mutation mutation_f_tag_mov_container_mut_beta applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+74 out of 76 remaining.
+Mutation mutation_b_attr_rem_mut_alpha applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+73 out of 76 remaining.
+Mutation mutation_i_tag_rem_mut_beta applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+72 out of 76 remaining.
+Mutation mutation_e_text_cont_rem_mut_delta applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+71 out of 76 remaining.
+Mutation mutation_j_tag_type_mod_mut_gamma applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+70 out of 76 remaining.
+Mutation mutation_e_text_cont_rem_mut_beta applied. Waiting for recompile...
+Application did not recompile.
+Skipping test AbsoluteXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test HookXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test KatalonXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RelativeXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaPlusXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test SeleniumXPathTest: Application did not recompile.
+---------------------------------------------
+
+69 out of 76 remaining.
+Mutation mutation_a_attr_val_mod_mut_gamma applied. Waiting for recompile...
+Application did not recompile.
+Skipping test AbsoluteXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test HookXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test KatalonXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RelativeXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaPlusXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test SeleniumXPathTest: Application did not recompile.
+---------------------------------------------
+
+68 out of 76 remaining.
+Mutation mutation_h_tag_mov_temp_mut_gamma applied. Waiting for recompile...
+Application did not recompile.
+Skipping test AbsoluteXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test HookXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test KatalonXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RelativeXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaPlusXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test SeleniumXPathTest: Application did not recompile.
+---------------------------------------------
+
+67 out of 76 remaining.
+Mutation mutation_f_tag_mov_container_mut_delta applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+66 out of 76 remaining.
+Mutation mutation_k_tag_ins_mut_alpha applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+65 out of 76 remaining.
+Mutation mutation_i_tag_rem_mut_alpha applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+64 out of 76 remaining.
+Mutation mutation_j_tag_type_mod_mut_alpha applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+63 out of 76 remaining.
+Mutation mutation_b_attr_rem_mut_gamma applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+62 out of 76 remaining.
+Mutation mutation_a_attr_val_mod_mut_alpha applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+61 out of 76 remaining.
+Mutation mutation_k_tag_ins_mut_delta applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+60 out of 76 remaining.
+Mutation mutation_g_tag_mov_html_mut_alpha applied. Waiting for recompile...
+Application did not recompile.
+Skipping test AbsoluteXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test HookXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test KatalonXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RelativeXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaPlusXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test SeleniumXPathTest: Application did not recompile.
+---------------------------------------------
+
+59 out of 76 remaining.
+Mutation mutation_d_text_cont_mod_mut_alpha applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+58 out of 76 remaining.
+Mutation mutation_e_text_cont_rem_mut_beta applied. Waiting for recompile...
+Application did not recompile.
+Skipping test AbsoluteXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test HookXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test KatalonXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RelativeXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaPlusXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test SeleniumXPathTest: Application did not recompile.
+---------------------------------------------
+
+57 out of 76 remaining.
+Mutation mutation_j_tag_type_mod_mut_alpha applied. Waiting for recompile...
+Application did not recompile.
+Skipping test AbsoluteXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test HookXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test KatalonXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RelativeXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaPlusXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test SeleniumXPathTest: Application did not recompile.
+---------------------------------------------
+
+56 out of 76 remaining.
+Mutation mutation_f_tag_mov_container_mut_gamma applied. Waiting for recompile...
+Application did not recompile.
+Skipping test AbsoluteXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test HookXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test KatalonXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RelativeXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaPlusXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test SeleniumXPathTest: Application did not recompile.
+---------------------------------------------
+
+55 out of 76 remaining.
+Mutation mutation_e_text_cont_rem_mut_gamma applied. Waiting for recompile...
+Application did not recompile.
+Skipping test AbsoluteXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test HookXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test KatalonXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RelativeXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaPlusXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test SeleniumXPathTest: Application did not recompile.
+---------------------------------------------
+
+54 out of 76 remaining.
+Mutation mutation_j_tag_type_mod_mut_gamma applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+53 out of 76 remaining.
+Mutation mutation_k_tag_ins_mut_alpha applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+52 out of 76 remaining.
+Mutation mutation_k_tag_ins_mut_beta applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+51 out of 76 remaining.
+Mutation mutation_g_tag_mov_html_mut_gamma applied. Waiting for recompile...
+Application did not recompile.
+Skipping test AbsoluteXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test HookXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test KatalonXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RelativeXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaPlusXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test SeleniumXPathTest: Application did not recompile.
+---------------------------------------------
+
+50 out of 76 remaining.
+Mutation mutation_h_tag_mov_temp_mut_beta applied. Waiting for recompile...
+Application did not recompile.
+Skipping test AbsoluteXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test HookXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test KatalonXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RelativeXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaPlusXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test SeleniumXPathTest: Application did not recompile.
+---------------------------------------------
+
+49 out of 76 remaining.
+Mutation mutation_j_tag_type_mod_mut_beta applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+48 out of 76 remaining.
+Mutation mutation_i_tag_rem_mut_beta applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+47 out of 76 remaining.
+Mutation mutation_g_tag_mov_html_mut_beta applied. Waiting for recompile...
+Application did not recompile.
+Skipping test AbsoluteXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test HookXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test KatalonXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RelativeXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaPlusXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test SeleniumXPathTest: Application did not recompile.
+---------------------------------------------
+
+46 out of 76 remaining.
+Mutation mutation_i_tag_rem_mut_alpha applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+45 out of 76 remaining.
+Mutation mutation_j_tag_type_mod_mut_beta applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+44 out of 76 remaining.
+Mutation mutation_j_tag_type_mod_mut_delta applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+43 out of 76 remaining.
+Mutation mutation_h_tag_mov_temp_mut_alpha applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+42 out of 76 remaining.
+Mutation mutation_i_tag_rem_mut_beta applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+41 out of 76 remaining.
+Mutation mutation_f_tag_mov_container_mut_delta applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+40 out of 76 remaining.
+Mutation mutation_g_tag_mov_html_mut_beta applied. Waiting for recompile...
+Application did not recompile.
+Skipping test AbsoluteXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test HookXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test KatalonXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RelativeXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaPlusXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test SeleniumXPathTest: Application did not recompile.
+---------------------------------------------
+
+39 out of 76 remaining.
+Mutation mutation_h_tag_mov_temp_mut_beta applied. Waiting for recompile...
+Application did not recompile.
+Skipping test AbsoluteXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test HookXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test KatalonXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RelativeXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaPlusXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test SeleniumXPathTest: Application did not recompile.
+---------------------------------------------
+
+38 out of 76 remaining.
+Mutation mutation_i_tag_rem_mut_delta applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+37 out of 76 remaining.
+Mutation mutation_j_tag_type_mod_mut_alpha applied. Waiting for recompile...
+Application did not recompile.
+Skipping test AbsoluteXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test HookXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test KatalonXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RelativeXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaPlusXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test SeleniumXPathTest: Application did not recompile.
+---------------------------------------------
+
+36 out of 76 remaining.
+Mutation mutation_j_tag_type_mod_mut_delta applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+35 out of 76 remaining.
+Mutation mutation_k_tag_ins_mut_beta applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+34 out of 76 remaining.
+Mutation mutation_e_text_cont_rem_mut_alpha applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+33 out of 76 remaining.
+Mutation mutation_f_tag_mov_container_mut_beta applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+32 out of 76 remaining.
+Mutation mutation_h_tag_mov_temp_mut_alpha applied. Waiting for recompile...
+Application did not recompile.
+Skipping test AbsoluteXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test HookXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test KatalonXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RelativeXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaPlusXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test SeleniumXPathTest: Application did not recompile.
+---------------------------------------------
+
+31 out of 76 remaining.
+Mutation mutation_k_tag_ins_mut_gamma applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+30 out of 76 remaining.
+Mutation mutation_g_tag_mov_html_mut_delta applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+29 out of 76 remaining.
+Mutation mutation_i_tag_rem_mut_gamma applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+28 out of 76 remaining.
+Mutation mutation_k_tag_ins_mut_beta applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+27 out of 76 remaining.
+Mutation mutation_g_tag_mov_html_mut_alpha applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+26 out of 76 remaining.
+Mutation mutation_h_tag_mov_temp_mut_delta applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+25 out of 76 remaining.
+Mutation mutation_j_tag_type_mod_mut_gamma applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+24 out of 76 remaining.
+Mutation mutation_i_tag_rem_mut_delta applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+23 out of 76 remaining.
+Mutation mutation_d_text_cont_mod_mut_delta applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+22 out of 76 remaining.
+Mutation mutation_a_attr_val_mod_mut_alpha applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+21 out of 76 remaining.
+Mutation mutation_d_text_cont_mod_mut_beta applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+20 out of 76 remaining.
+Mutation mutation_k_tag_ins_mut_alpha applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+19 out of 76 remaining.
+Mutation mutation_h_tag_mov_temp_mut_delta applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+18 out of 76 remaining.
+Mutation mutation_i_tag_rem_mut_gamma applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+17 out of 76 remaining.
+Mutation mutation_d_text_cont_mod_mut_gamma applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+16 out of 76 remaining.
+Mutation mutation_f_tag_mov_container_mut_beta applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+15 out of 76 remaining.
+Mutation mutation_g_tag_mov_html_mut_delta applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+14 out of 76 remaining.
+Mutation mutation_h_tag_mov_temp_mut_beta applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+13 out of 76 remaining.
+Mutation mutation_g_tag_mov_html_mut_beta applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+12 out of 76 remaining.
+Mutation mutation_h_tag_mov_temp_mut_alpha applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+11 out of 76 remaining.
+Mutation mutation_g_tag_mov_html_mut_gamma applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+10 out of 76 remaining.
+Mutation mutation_b_attr_rem_mut_alpha applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+9 out of 76 remaining.
+Mutation mutation_j_tag_type_mod_mut_beta applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+8 out of 76 remaining.
+Mutation mutation_g_tag_mov_html_mut_gamma applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+7 out of 76 remaining.
+Mutation mutation_h_tag_mov_temp_mut_gamma applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+6 out of 76 remaining.
+Mutation mutation_i_tag_rem_mut_gamma applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+5 out of 76 remaining.
+Mutation mutation_h_tag_mov_temp_mut_gamma applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+4 out of 76 remaining.
+Mutation mutation_k_tag_ins_mut_gamma applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+3 out of 76 remaining.
+Mutation mutation_i_tag_rem_mut_alpha applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+2 out of 76 remaining.
+Mutation mutation_k_tag_ins_mut_gamma applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+1 out of 76 remaining.
+Mutation mutation_g_tag_mov_html_mut_alpha applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+Executed batches:
+Name,Id,Locator,Tag,Status,Error
+InputField,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+InputField,mutation_k_tag_ins_mut_delta,HookXPathTest,delta,PASSED,null
+InputField,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,PASSED,null
+InputField,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,PASSED,null
+InputField,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+InputField,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,PASSED,null
+InputField,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,PASSED,null
+CardTitle,mutation_f_tag_mov_container_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+CardTitle,mutation_f_tag_mov_container_mut_beta,HookXPathTest,beta,PASSED,null
+CardTitle,mutation_f_tag_mov_container_mut_beta,KatalonXPathTest,beta,PASSED,null
+CardTitle,mutation_f_tag_mov_container_mut_beta,RelativeXPathTest,beta,PASSED,null
+CardTitle,mutation_f_tag_mov_container_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+CardTitle,mutation_f_tag_mov_container_mut_beta,RobulaXPathTest,beta,PASSED,null
+CardTitle,mutation_f_tag_mov_container_mut_beta,SeleniumXPathTest,beta,PASSED,null
+ArtistCard,mutation_b_attr_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+ArtistCard,mutation_b_attr_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
+ArtistCard,mutation_b_attr_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+ArtistCard,mutation_b_attr_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+ArtistCard,mutation_b_attr_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+ArtistCard,mutation_b_attr_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+ArtistCard,mutation_b_attr_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+ArtistCard,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+ArtistCard,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,PASSED,null
+ArtistCard,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
+ArtistCard,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
+ArtistCard,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+ArtistCard,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
+ArtistCard,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,PASSED,null
+CardTitle,mutation_e_text_cont_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+CardTitle,mutation_e_text_cont_rem_mut_delta,HookXPathTest,delta,PASSED,null
+CardTitle,mutation_e_text_cont_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+CardTitle,mutation_e_text_cont_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+CardTitle,mutation_e_text_cont_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+CardTitle,mutation_e_text_cont_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+CardTitle,mutation_e_text_cont_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+ArtistCard,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+ArtistCard,mutation_j_tag_type_mod_mut_gamma,HookXPathTest,gamma,PASSED,null
+ArtistCard,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+ArtistCard,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+ArtistCard,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+ArtistCard,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+ArtistCard,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+InputField,mutation_e_text_cont_rem_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_e_text_cont_rem_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_e_text_cont_rem_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_e_text_cont_rem_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_e_text_cont_rem_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_e_text_cont_rem_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_e_text_cont_rem_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+CardTitle,mutation_a_attr_val_mod_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+CardTitle,mutation_a_attr_val_mod_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+CardTitle,mutation_a_attr_val_mod_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+CardTitle,mutation_a_attr_val_mod_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+CardTitle,mutation_a_attr_val_mod_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+CardTitle,mutation_a_attr_val_mod_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+CardTitle,mutation_a_attr_val_mod_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_h_tag_mov_temp_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+InputField,mutation_f_tag_mov_container_mut_delta,HookXPathTest,delta,PASSED,null
+InputField,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,PASSED,null
+InputField,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,PASSED,null
+InputField,mutation_f_tag_mov_container_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+InputField,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,PASSED,null
+InputField,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,PASSED,null
+InputField,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+InputField,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,PASSED,null
+InputField,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+InputField,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+InputField,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+InputField,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+InputField,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+InputField,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+InputField,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
+InputField,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+InputField,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+InputField,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+InputField,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+InputField,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+CardTitle,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+CardTitle,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+CardTitle,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+CardTitle,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+CardTitle,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+CardTitle,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+CardTitle,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+CardTitle,mutation_b_attr_rem_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+CardTitle,mutation_b_attr_rem_mut_gamma,HookXPathTest,gamma,PASSED,null
+CardTitle,mutation_b_attr_rem_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+CardTitle,mutation_b_attr_rem_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+CardTitle,mutation_b_attr_rem_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+CardTitle,mutation_b_attr_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+CardTitle,mutation_b_attr_rem_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+InputField,mutation_a_attr_val_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+InputField,mutation_a_attr_val_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+InputField,mutation_a_attr_val_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+InputField,mutation_a_attr_val_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+InputField,mutation_a_attr_val_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+InputField,mutation_a_attr_val_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+InputField,mutation_a_attr_val_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+CardTitle,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+CardTitle,mutation_k_tag_ins_mut_delta,HookXPathTest,delta,PASSED,null
+CardTitle,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,PASSED,null
+CardTitle,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,PASSED,null
+CardTitle,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+CardTitle,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,PASSED,null
+CardTitle,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,PASSED,null
+ArtistCard,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+CardTitle,mutation_d_text_cont_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+CardTitle,mutation_d_text_cont_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+CardTitle,mutation_d_text_cont_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+CardTitle,mutation_d_text_cont_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+CardTitle,mutation_d_text_cont_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+CardTitle,mutation_d_text_cont_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+CardTitle,mutation_d_text_cont_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+ArtistCard,mutation_e_text_cont_rem_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_e_text_cont_rem_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_e_text_cont_rem_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_e_text_cont_rem_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_e_text_cont_rem_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_e_text_cont_rem_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_e_text_cont_rem_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_f_tag_mov_container_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_f_tag_mov_container_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_f_tag_mov_container_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_f_tag_mov_container_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_f_tag_mov_container_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_f_tag_mov_container_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_f_tag_mov_container_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_e_text_cont_rem_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_e_text_cont_rem_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_e_text_cont_rem_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_e_text_cont_rem_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_e_text_cont_rem_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_e_text_cont_rem_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_e_text_cont_rem_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+CardTitle,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+CardTitle,mutation_j_tag_type_mod_mut_gamma,HookXPathTest,gamma,PASSED,null
+CardTitle,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+CardTitle,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+CardTitle,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+CardTitle,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+CardTitle,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+ArtistCard,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+ArtistCard,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,PASSED,null
+ArtistCard,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+ArtistCard,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+ArtistCard,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+ArtistCard,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+ArtistCard,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+ArtistCard,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+ArtistCard,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,PASSED,null
+ArtistCard,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
+ArtistCard,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
+ArtistCard,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+ArtistCard,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
+ArtistCard,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
+CardTitle,mutation_g_tag_mov_html_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+CardTitle,mutation_g_tag_mov_html_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+CardTitle,mutation_g_tag_mov_html_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+CardTitle,mutation_g_tag_mov_html_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+CardTitle,mutation_g_tag_mov_html_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+CardTitle,mutation_g_tag_mov_html_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+CardTitle,mutation_g_tag_mov_html_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+InputField,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,PASSED,null
+InputField,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
+InputField,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
+InputField,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+InputField,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
+InputField,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
+CardTitle,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+CardTitle,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,PASSED,null
+CardTitle,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
+CardTitle,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
+CardTitle,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+CardTitle,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
+CardTitle,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,PASSED,null
+CardTitle,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+CardTitle,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+CardTitle,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+CardTitle,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+CardTitle,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+CardTitle,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+CardTitle,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+ArtistCard,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
+ArtistCard,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+ArtistCard,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+ArtistCard,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+ArtistCard,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+ArtistCard,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+CardTitle,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+CardTitle,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,PASSED,null
+CardTitle,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
+CardTitle,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
+CardTitle,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+CardTitle,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
+CardTitle,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
+InputField,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+InputField,mutation_j_tag_type_mod_mut_delta,HookXPathTest,delta,PASSED,null
+InputField,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
+InputField,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
+InputField,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+InputField,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
+InputField,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+InputField,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+InputField,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,PASSED,null
+InputField,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+InputField,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+InputField,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+InputField,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+InputField,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+InputField,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+InputField,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,PASSED,null
+InputField,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
+InputField,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
+InputField,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+InputField,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
+InputField,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,PASSED,null
+CardTitle,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+CardTitle,mutation_f_tag_mov_container_mut_delta,HookXPathTest,delta,PASSED,null
+CardTitle,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,PASSED,null
+CardTitle,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,PASSED,null
+CardTitle,mutation_f_tag_mov_container_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+CardTitle,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,PASSED,null
+CardTitle,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,PASSED,null
+ArtistCard,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+InputField,mutation_i_tag_rem_mut_delta,HookXPathTest,delta,PASSED,null
+InputField,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+InputField,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+InputField,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+InputField,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+InputField,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+InputField,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+InputField,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+CardTitle,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+CardTitle,mutation_j_tag_type_mod_mut_delta,HookXPathTest,delta,PASSED,null
+CardTitle,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
+CardTitle,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
+CardTitle,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+CardTitle,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
+CardTitle,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+InputField,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+InputField,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,PASSED,null
+InputField,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
+InputField,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
+InputField,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+InputField,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
+InputField,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
+CardTitle,mutation_e_text_cont_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+CardTitle,mutation_e_text_cont_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
+CardTitle,mutation_e_text_cont_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+CardTitle,mutation_e_text_cont_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+CardTitle,mutation_e_text_cont_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+CardTitle,mutation_e_text_cont_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+CardTitle,mutation_e_text_cont_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+InputField,mutation_f_tag_mov_container_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+InputField,mutation_f_tag_mov_container_mut_beta,HookXPathTest,beta,PASSED,null
+InputField,mutation_f_tag_mov_container_mut_beta,KatalonXPathTest,beta,PASSED,null
+InputField,mutation_f_tag_mov_container_mut_beta,RelativeXPathTest,beta,PASSED,null
+InputField,mutation_f_tag_mov_container_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+InputField,mutation_f_tag_mov_container_mut_beta,RobulaXPathTest,beta,PASSED,null
+InputField,mutation_f_tag_mov_container_mut_beta,SeleniumXPathTest,beta,PASSED,null
+CardTitle,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+CardTitle,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+CardTitle,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+CardTitle,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+CardTitle,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+CardTitle,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+CardTitle,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+ArtistCard,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+ArtistCard,mutation_k_tag_ins_mut_gamma,HookXPathTest,gamma,PASSED,null
+ArtistCard,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+ArtistCard,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+ArtistCard,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+ArtistCard,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+ArtistCard,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+InputField,mutation_g_tag_mov_html_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+InputField,mutation_g_tag_mov_html_mut_delta,HookXPathTest,delta,PASSED,null
+InputField,mutation_g_tag_mov_html_mut_delta,KatalonXPathTest,delta,PASSED,null
+InputField,mutation_g_tag_mov_html_mut_delta,RelativeXPathTest,delta,PASSED,null
+InputField,mutation_g_tag_mov_html_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+InputField,mutation_g_tag_mov_html_mut_delta,RobulaXPathTest,delta,PASSED,null
+InputField,mutation_g_tag_mov_html_mut_delta,SeleniumXPathTest,delta,PASSED,null
+ArtistCard,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+ArtistCard,mutation_i_tag_rem_mut_gamma,HookXPathTest,gamma,PASSED,null
+ArtistCard,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+ArtistCard,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+ArtistCard,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+ArtistCard,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+ArtistCard,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+CardTitle,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+CardTitle,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,PASSED,null
+CardTitle,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
+CardTitle,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
+CardTitle,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+CardTitle,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
+CardTitle,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
+CardTitle,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+CardTitle,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,PASSED,null
+CardTitle,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+CardTitle,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+CardTitle,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+CardTitle,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+CardTitle,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+InputField,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+InputField,mutation_h_tag_mov_temp_mut_delta,HookXPathTest,delta,PASSED,null
+InputField,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,PASSED,null
+InputField,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,PASSED,null
+InputField,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+InputField,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,PASSED,null
+InputField,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,PASSED,null
+InputField,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+InputField,mutation_j_tag_type_mod_mut_gamma,HookXPathTest,gamma,PASSED,null
+InputField,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+InputField,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+InputField,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+InputField,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+InputField,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+CardTitle,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+CardTitle,mutation_i_tag_rem_mut_delta,HookXPathTest,delta,PASSED,null
+CardTitle,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+CardTitle,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+CardTitle,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+CardTitle,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+CardTitle,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+CardTitle,mutation_d_text_cont_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+CardTitle,mutation_d_text_cont_mod_mut_delta,HookXPathTest,delta,PASSED,null
+CardTitle,mutation_d_text_cont_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
+CardTitle,mutation_d_text_cont_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
+CardTitle,mutation_d_text_cont_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+CardTitle,mutation_d_text_cont_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
+CardTitle,mutation_d_text_cont_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+ArtistCard,mutation_a_attr_val_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+ArtistCard,mutation_a_attr_val_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+ArtistCard,mutation_a_attr_val_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+ArtistCard,mutation_a_attr_val_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+ArtistCard,mutation_a_attr_val_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+ArtistCard,mutation_a_attr_val_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+ArtistCard,mutation_a_attr_val_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+ArtistCard,mutation_d_text_cont_mod_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+ArtistCard,mutation_d_text_cont_mod_mut_beta,HookXPathTest,beta,PASSED,null
+ArtistCard,mutation_d_text_cont_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
+ArtistCard,mutation_d_text_cont_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
+ArtistCard,mutation_d_text_cont_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+ArtistCard,mutation_d_text_cont_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
+ArtistCard,mutation_d_text_cont_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
+CardTitle,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+CardTitle,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,PASSED,null
+CardTitle,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+CardTitle,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+CardTitle,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+CardTitle,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+CardTitle,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+CardTitle,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+CardTitle,mutation_h_tag_mov_temp_mut_delta,HookXPathTest,delta,PASSED,null
+CardTitle,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,PASSED,null
+CardTitle,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,PASSED,null
+CardTitle,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+CardTitle,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,PASSED,null
+CardTitle,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,PASSED,null
+InputField,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+InputField,mutation_i_tag_rem_mut_gamma,HookXPathTest,gamma,PASSED,null
+InputField,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+InputField,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+InputField,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+InputField,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+InputField,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+InputField,mutation_d_text_cont_mod_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+InputField,mutation_d_text_cont_mod_mut_gamma,HookXPathTest,gamma,PASSED,null
+InputField,mutation_d_text_cont_mod_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+InputField,mutation_d_text_cont_mod_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+InputField,mutation_d_text_cont_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+InputField,mutation_d_text_cont_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+InputField,mutation_d_text_cont_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+ArtistCard,mutation_f_tag_mov_container_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+ArtistCard,mutation_f_tag_mov_container_mut_beta,HookXPathTest,beta,PASSED,null
+ArtistCard,mutation_f_tag_mov_container_mut_beta,KatalonXPathTest,beta,PASSED,null
+ArtistCard,mutation_f_tag_mov_container_mut_beta,RelativeXPathTest,beta,PASSED,null
+ArtistCard,mutation_f_tag_mov_container_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+ArtistCard,mutation_f_tag_mov_container_mut_beta,RobulaXPathTest,beta,PASSED,null
+ArtistCard,mutation_f_tag_mov_container_mut_beta,SeleniumXPathTest,beta,PASSED,null
+CardTitle,mutation_g_tag_mov_html_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+CardTitle,mutation_g_tag_mov_html_mut_delta,HookXPathTest,delta,PASSED,null
+CardTitle,mutation_g_tag_mov_html_mut_delta,KatalonXPathTest,delta,PASSED,null
+CardTitle,mutation_g_tag_mov_html_mut_delta,RelativeXPathTest,delta,PASSED,null
+CardTitle,mutation_g_tag_mov_html_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+CardTitle,mutation_g_tag_mov_html_mut_delta,RobulaXPathTest,delta,PASSED,null
+CardTitle,mutation_g_tag_mov_html_mut_delta,SeleniumXPathTest,delta,PASSED,null
+CardTitle,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+CardTitle,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,PASSED,null
+CardTitle,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,PASSED,null
+CardTitle,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,PASSED,null
+CardTitle,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+CardTitle,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,PASSED,null
+CardTitle,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,PASSED,null
+InputField,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+InputField,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,PASSED,null
+InputField,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,PASSED,null
+InputField,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,PASSED,null
+InputField,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+InputField,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,PASSED,null
+InputField,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,PASSED,null
+ArtistCard,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+ArtistCard,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,PASSED,null
+ArtistCard,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+ArtistCard,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+ArtistCard,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+ArtistCard,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+ArtistCard,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+ArtistCard,mutation_g_tag_mov_html_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+ArtistCard,mutation_g_tag_mov_html_mut_gamma,HookXPathTest,gamma,PASSED,null
+ArtistCard,mutation_g_tag_mov_html_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+ArtistCard,mutation_g_tag_mov_html_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+ArtistCard,mutation_g_tag_mov_html_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+ArtistCard,mutation_g_tag_mov_html_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+ArtistCard,mutation_g_tag_mov_html_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+InputField,mutation_b_attr_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+InputField,mutation_b_attr_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
+InputField,mutation_b_attr_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+InputField,mutation_b_attr_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+InputField,mutation_b_attr_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+InputField,mutation_b_attr_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+InputField,mutation_b_attr_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+ArtistCard,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+ArtistCard,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,PASSED,null
+ArtistCard,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
+ArtistCard,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
+ArtistCard,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+ArtistCard,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
+ArtistCard,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
+InputField,mutation_g_tag_mov_html_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+InputField,mutation_g_tag_mov_html_mut_gamma,HookXPathTest,gamma,PASSED,null
+InputField,mutation_g_tag_mov_html_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+InputField,mutation_g_tag_mov_html_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+InputField,mutation_g_tag_mov_html_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+InputField,mutation_g_tag_mov_html_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+InputField,mutation_g_tag_mov_html_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+InputField,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+InputField,mutation_h_tag_mov_temp_mut_gamma,HookXPathTest,gamma,PASSED,null
+InputField,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+InputField,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+InputField,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+InputField,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+InputField,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+CardTitle,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+CardTitle,mutation_i_tag_rem_mut_gamma,HookXPathTest,gamma,PASSED,null
+CardTitle,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+CardTitle,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+CardTitle,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+CardTitle,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+CardTitle,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+CardTitle,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+CardTitle,mutation_h_tag_mov_temp_mut_gamma,HookXPathTest,gamma,PASSED,null
+CardTitle,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+CardTitle,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+CardTitle,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+CardTitle,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+CardTitle,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+CardTitle,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+CardTitle,mutation_k_tag_ins_mut_gamma,HookXPathTest,gamma,PASSED,null
+CardTitle,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+CardTitle,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+CardTitle,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+CardTitle,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+CardTitle,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+CardTitle,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+CardTitle,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
+CardTitle,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+CardTitle,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+CardTitle,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+CardTitle,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+CardTitle,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+InputField,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+InputField,mutation_k_tag_ins_mut_gamma,HookXPathTest,gamma,PASSED,null
+InputField,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+InputField,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+InputField,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+InputField,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+InputField,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+InputField,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+InputField,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,PASSED,null
+InputField,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+InputField,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+InputField,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+InputField,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+InputField,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+
+
+Test results:
+Locator,Total,Success,Fragility,Obsolescence,Not Compiled
+RelativeXPathTest,76,61,0,0,15
+AbsoluteXPathTest,76,61,0,0,15
+RobulaXPathTest,76,61,0,0,15
+KatalonXPathTest,76,61,0,0,15
+SeleniumXPathTest,76,61,0,0,15
+RobulaPlusXPathTest,76,61,0,0,15
+HookXPathTest,76,61,0,0,15
+
+File saved: output\tests\batches.csv
+File saved: output\tests\stats.csv
+
+Tests completed.
+Execution time: 204 seconds.

@@ -1,0 +1,6 @@
+Mutant,SourceFile,DestFile,Decision,Reason
+addbutton_to_card,C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/catalog/catalog.component.html,C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-card/movie-card.component.html,SAVED,
+cardrating_to_reviews,C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-card/movie-card.component.html,C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/reviews/reviews.component.html,SAVED,
+castname_to_card,C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/cast-row/cast-row.component.html,C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-card/movie-card.component.html,SAVED,
+editbtn_to_castrow,C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-detail/movie-detail.component.html,C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/cast-row/cast-row.component.html,SAVED,
+h_castrole_to_card,-,-,SAVED,resumed

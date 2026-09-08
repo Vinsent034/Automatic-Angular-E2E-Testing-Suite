@@ -1,0 +1,15 @@
+######### START 1 - a #########
+<button type="button" class="btn btn-del" (click)="openDelete()" x-test-delete-button>Delete</button>
+######### END 1 - a #########
+######### START 2 - c #########
+<button type="button" btnclass="btn btn-danger" (click)="openDelete()" x-test-delete-button>Delete</button>
+######### END 2 - c #########
+######### START 3 - d #########
+<button type="button" class="btn btn-danger" (click)="openDelete()" x-test-delete-button>Trash</button>
+######### END 3 - d #########
+######### START 4 - j #########
+<span type="button" class="btn btn-danger" (click)="openDelete()" x-test-delete-button>Delete</span>
+######### END 4 - j #########
+######### START 5 - k #########
+<span class="del-btn-wrap"><button type="button" class="btn btn-danger" (click)="openDelete()" x-test-delete-button>Delete</button></span>
+######### END 5 - k #########

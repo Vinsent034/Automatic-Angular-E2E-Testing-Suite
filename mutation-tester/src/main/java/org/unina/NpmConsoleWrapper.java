@@ -16,7 +16,10 @@ public class NpmConsoleWrapper {
     private volatile CountDownLatch compilationLatch;
     private volatile boolean lastCompilationSuccess = false;
 
-    private static final String SUCCESS_MSG = "Compiled successfully";
+    // "Compiled successfully" = webpack-based Angular builder (angular-spotify).
+    // "Application bundle generation complete" = esbuild-based Angular 19+ builder (CineLib and
+    // other newer apps). Both are checked so the same wrapper works across builder generations.
+    private static final String[] SUCCESS_MSGS = {"Compiled successfully", "Application bundle generation complete"};
     private static final String ERROR_MSG = "Error:";
 
     private final boolean debug;
@@ -67,7 +70,11 @@ public class NpmConsoleWrapper {
                 String cleanLine = line.replaceAll("\u001B\\[[;\\d]*m", "");
                 if (debug)
                     System.out.println("[DEBUG NX] " + cleanLine);
-                if (cleanLine.contains(SUCCESS_MSG)) {
+                boolean isSuccess = false;
+                for (String msg : SUCCESS_MSGS) {
+                    if (cleanLine.contains(msg)) { isSuccess = true; break; }
+                }
+                if (isSuccess) {
                     notifyCompilation(true);
                 } else if (cleanLine.contains(ERROR_MSG)) {
                     notifyCompilation(false);

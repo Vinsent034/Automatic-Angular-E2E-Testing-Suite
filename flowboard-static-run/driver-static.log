@@ -1,0 +1,10 @@
+[20:03:47] assegnazione gruppi: s1s2=805, s3=481, s4=542, s5=659, s6=353
+[20:03:48] GROUP s1s2: PENDING=805
+[20:41:36] GROUP s1s2: done in 2260s -> batches-s1s2.csv
+[20:41:45] GROUP s3: PENDING=481
+[21:11:10] GROUP s3: done in 1757s -> batches-s3.csv
+[21:11:18] GROUP s4: PENDING=542
+[21:21:53] GROUP s4: done in 629s -> batches-s4.csv
+[21:22:00] GROUP s5: PENDING=659
+[00:55:40] GROUP s5: done in 12813s -> batches-s5.csv
+[00:55:52] GROUP s6: PENDING=353

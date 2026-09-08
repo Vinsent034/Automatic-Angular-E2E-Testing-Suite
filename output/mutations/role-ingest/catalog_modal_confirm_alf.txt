@@ -1,0 +1,21 @@
+######### START 1 - a #########
+<button type="button" class="btn btn-confirm" (click)="confirmReset()" x-test-modal-confirm>Reset</button>
+######### END 1 - a #########
+######### START 2 - b #########
+<button class="btn btn-danger" (click)="confirmReset()" x-test-modal-confirm>Reset</button>
+######### END 2 - b #########
+######### START 3 - c #########
+<button data-type="button" class="btn btn-danger" (click)="confirmReset()" x-test-modal-confirm>Reset</button>
+######### END 3 - c #########
+######### START 4 - d #########
+<button type="button" class="btn btn-danger" (click)="confirmReset()" x-test-modal-confirm>Confirm</button>
+######### END 4 - d #########
+######### START 5 - e #########
+<button type="button" class="btn btn-danger" (click)="confirmReset()" x-test-modal-confirm> </button>
+######### END 5 - e #########
+######### START 6 - j #########
+<a type="button" class="btn btn-danger" (click)="confirmReset()" x-test-modal-confirm>Reset</a>
+######### END 6 - j #########
+######### START 7 - k #########
+<span class="confirm-wrap"><button type="button" class="btn btn-danger" (click)="confirmReset()" x-test-modal-confirm>Reset</button></span>
+######### END 7 - k #########

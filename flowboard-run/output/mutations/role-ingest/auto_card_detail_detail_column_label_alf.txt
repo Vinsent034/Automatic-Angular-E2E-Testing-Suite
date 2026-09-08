@@ -1,0 +1,21 @@
+######### START 1 - a #########
+<span class="detail-label bold" x-test-detail-column-label>Column</span>
+######### END 1 - a #########
+######### START 2 - b #########
+<span x-test-detail-column-label>Column</span>
+######### END 2 - b #########
+######### START 3 - c #########
+<span data-cls="detail-label" x-test-detail-column-label>Column</span>
+######### END 3 - c #########
+######### START 4 - d #########
+<span class="detail-label" x-test-detail-column-label>Lane</span>
+######### END 4 - d #########
+######### START 5 - e #########
+<span class="detail-label" x-test-detail-column-label></span>
+######### END 5 - e #########
+######### START 6 - j #########
+<div class="detail-label" x-test-detail-column-label>Column</div>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="dl-wrap"><span class="detail-label" x-test-detail-column-label>Column</span></div>
+######### END 7 - k #########

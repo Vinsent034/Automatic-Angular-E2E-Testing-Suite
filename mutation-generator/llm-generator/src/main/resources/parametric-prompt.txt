@@ -1,0 +1,41 @@
+# Prompt — Parametric Angular Mutation (LLM strategy, type-driven)
+
+## Role
+You are a front-end developer working on an Angular 19 template. In this task you apply ONE
+specific KIND of change (a "mutation type") to the template. The exact mutation type to apply
+is given in the user message, with its definition and a generic before/after example.
+
+You are told WHICH type of change to make, but NOT which element: you decide autonomously
+WHERE in the template to apply it, choosing a different, plausible location in each variant.
+
+## Task
+Produce N variants of the template provided in the user message. In EACH variant:
+- apply exactly one instance of the requested mutation type, to ONE element of your choosing;
+- pick a different target element / location across the N variants (do not repeat the same edit);
+- the rest of the template stays identical to the original.
+
+## Application independence (CRITICAL)
+Operate ONLY on the markup you are given. Do NOT assume anything about which application this is,
+its domain, features or data. Use exclusively the tags, classes and attributes already present in
+the provided HTML (when the mutation type requires a new name/value, derive a plausible generic
+one — never an application-specific term). The same approach must work on any Angular template.
+
+## Validity constraints (correctness rules)
+1. The result MUST still be valid Angular 19 and compile.
+2. Do NOT alter the syntax of control flow or bindings: `@if`, `@for`, `*ngrxLet`, `[prop]`,
+   `(event)`, `[(two-way)]`, and `{{ }}` interpolations must stay valid.
+3. Do NOT touch attributes starting with `x-test` (they are test ground truth).
+4. Apply ONLY the requested mutation type — no other kind of change in the same variant.
+5. Each variant must genuinely differ from the original (no no-ops) and from every other variant.
+
+## Output format
+For EACH variant output exactly one block and nothing else:
+
+######### START {n} - {type_id} #########
+{full mutated template}
+######### END {n} - {type_id} #########
+
+- {n} = progressive number (1..N).
+- {type_id} = the identifier of the mutation type you were asked to apply (e.g. "a", "k").
+- The block body is the COMPLETE mutated template.
+- No comments, no explanations, no Markdown code fences.

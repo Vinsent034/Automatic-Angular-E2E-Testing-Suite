@@ -1,0 +1,55 @@
+Name,Id,Locator,Tag,Status,Error
+SongCard,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+SongCard,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,PASSED,null
+SongCard,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,PASSED,null
+SongCard,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+SongCard,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,PASSED,null
+SongCard,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,PASSED,null
+SongCard,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+SongCard,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/following::div[1]"}
+SongCard,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[2]/div[1]"}
+SongCard,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@class='mb-8']"}
+SongCard,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[@class='mb-8']"}
+SongCard,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".mb-8"}
+SongCardContainer,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[2]/div"}
+SongCardContainer,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/following::div[1]"}
+SongCardContainer,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[2]/div[1]"}
+SongCardContainer,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@class='mb-8']"}
+SongCardContainer,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[@class='mb-8']"}
+SongCardContainer,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".mb-8"}
+SongCardContainer,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[2]/div"}
+SongCardContainer,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/following::div[1]"}
+SongCardContainer,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[2]/div[1]"}
+SongCardContainer,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@class='mb-8']"}
+SongCardContainer,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[@class='mb-8']"}
+SongCardContainer,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".mb-8"}
+InputField,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[2]/div"}
+InputField,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/following::div[1]"}
+InputField,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[2]/div[1]"}
+InputField,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@class='mb-8']"}
+InputField,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[@class='mb-8']"}
+InputField,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".mb-8"}
+SongCard,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[2]/div"}
+SongCard,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/following::div[1]"}
+SongCard,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[2]/div[1]"}
+SongCard,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@class='mb-8']"}
+SongCard,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[@class='mb-8']"}
+SongCard,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".mb-8"}
+SongCardContainer,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[2]/div"}
+SongCardContainer,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/following::div[1]"}
+SongCardContainer,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[2]/div[1]"}
+SongCardContainer,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@class='mb-8']"}
+SongCardContainer,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[@class='mb-8']"}
+SongCardContainer,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".mb-8"}
+InputField,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[2]/div"}
+InputField,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/following::div[1]"}
+InputField,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[2]/div[1]"}
+InputField,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@class='mb-8']"}
+InputField,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[@class='mb-8']"}
+InputField,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".mb-8"}
+SongCard,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[2]/div"}
+SongCard,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/following::div[1]"}
+SongCard,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[2]/div[1]"}
+SongCard,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@class='mb-8']"}
+SongCard,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[@class='mb-8']"}
+SongCard,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".mb-8"}

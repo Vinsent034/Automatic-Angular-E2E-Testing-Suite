@@ -1,0 +1,26 @@
+######### START 1 - a #########
+<div formArrayName="cast" class="cast-list" x-test-cast-editor>
+        @for (member of cast.controls; track $index) {
+          <div class="cast-edit-row" [formGroupName]="$index" x-test-cast-edit-row>
+            <input type="text" formControlName="name" placeholder="Actor name" class="field-input" x-test-cast-name>
+            <input type="text" formControlName="role" placeholder="Role" class="field-input" x-test-cast-role>
+            <button type="button" class="btn btn-danger btn-small" (click)="removeCast($index)" x-test-cast-remove>Remove</button>
+          </div>
+        } @empty {
+          <p class="cast-empty">No cast members yet.</p>
+        }
+      </div>
+######### END 1 - a #########
+######### START 2 - j #########
+<section formArrayName="cast" class="cast-editor" x-test-cast-editor>
+        @for (member of cast.controls; track $index) {
+          <div class="cast-edit-row" [formGroupName]="$index" x-test-cast-edit-row>
+            <input type="text" formControlName="name" placeholder="Actor name" class="field-input" x-test-cast-name>
+            <input type="text" formControlName="role" placeholder="Role" class="field-input" x-test-cast-role>
+            <button type="button" class="btn btn-danger btn-small" (click)="removeCast($index)" x-test-cast-remove>Remove</button>
+          </div>
+        } @empty {
+          <p class="cast-empty">No cast members yet.</p>
+        }
+      </section>
+######### END 2 - j #########

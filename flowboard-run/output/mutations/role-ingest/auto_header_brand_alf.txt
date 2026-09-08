@@ -1,0 +1,15 @@
+######### START 1 - a #########
+<div class="brand active" x-test-brand><span class="brand-icon" aria-hidden="true" x-test-brand-icon>▤</span><h1 class="brand-name" x-test-app-title>FlowBoard</h1><span class="brand-tagline" x-test-app-tagline>Kanban demo board</span></div>
+######### END 1 - a #########
+######### START 2 - b #########
+<div x-test-brand><span class="brand-icon" aria-hidden="true" x-test-brand-icon>▤</span><h1 class="brand-name" x-test-app-title>FlowBoard</h1><span class="brand-tagline" x-test-app-tagline>Kanban demo board</span></div>
+######### END 2 - b #########
+######### START 3 - c #########
+<div data-cls="brand" x-test-brand><span class="brand-icon" aria-hidden="true" x-test-brand-icon>▤</span><h1 class="brand-name" x-test-app-title>FlowBoard</h1><span class="brand-tagline" x-test-app-tagline>Kanban demo board</span></div>
+######### END 3 - c #########
+######### START 6 - j #########
+<header class="brand" x-test-brand><span class="brand-icon" aria-hidden="true" x-test-brand-icon>▤</span><h1 class="brand-name" x-test-app-title>FlowBoard</h1><span class="brand-tagline" x-test-app-tagline>Kanban demo board</span></header>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="brand-outer"><div class="brand" x-test-brand><span class="brand-icon" aria-hidden="true" x-test-brand-icon>▤</span><h1 class="brand-name" x-test-app-title>FlowBoard</h1><span class="brand-tagline" x-test-app-tagline>Kanban demo board</span></div></div>
+######### END 7 - k #########

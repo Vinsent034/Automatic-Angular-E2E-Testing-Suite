@@ -1,0 +1,21 @@
+######### START 1 - a #########
+<p class="empty" x-test-empty>No movies match your search.</p>
+######### END 1 - a #########
+######### START 2 - b #########
+<p x-test-empty>No movies match your search.</p>
+######### END 2 - b #########
+######### START 3 - c #########
+<p emptyclass="empty-state" x-test-empty>No movies match your search.</p>
+######### END 3 - c #########
+######### START 4 - d #########
+<p class="empty-state" x-test-empty>Nothing found.</p>
+######### END 4 - d #########
+######### START 5 - e #########
+<p class="empty-state" x-test-empty> </p>
+######### END 5 - e #########
+######### START 6 - j #########
+<div class="empty-state" x-test-empty>No movies match your search.</div>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="empty-wrap"><p class="empty-state" x-test-empty>No movies match your search.</p></div>
+######### END 7 - k #########

@@ -1,0 +1,52 @@
+######### START 1 - a #########
+<div class="form-field">
+        <label for="year" class="field-label">Year</label>
+        <input id="year" type="number" formControlName="year" class="field-input" x-test-field-year>
+        @if (showError('year')) {
+          <p class="field-error" x-test-error-year>Enter a year between 1900 and 2100.</p>
+        }
+      </div>
+######### END 1 - a #########
+######### START 2 - b #########
+<div>
+        <label for="year" class="field-label">Year</label>
+        <input id="year" type="number" formControlName="year" class="field-input" x-test-field-year>
+        @if (showError('year')) {
+          <p class="field-error" x-test-error-year>Enter a year between 1900 and 2100.</p>
+        }
+      </div>
+######### END 2 - b #########
+######### START 3 - c #########
+<div fieldclass="field">
+        <label for="year" class="field-label">Year</label>
+        <input id="year" type="number" formControlName="year" class="field-input" x-test-field-year>
+        @if (showError('year')) {
+          <p class="field-error" x-test-error-year>Enter a year between 1900 and 2100.</p>
+        }
+      </div>
+######### END 3 - c #########
+######### START 4 - i #########
+<label for="year" class="field-label">Year</label>
+        <input id="year" type="number" formControlName="year" class="field-input" x-test-field-year>
+        @if (showError('year')) {
+          <p class="field-error" x-test-error-year>Enter a year between 1900 and 2100.</p>
+        }
+######### END 4 - i #########
+######### START 5 - j #########
+<section class="field">
+        <label for="year" class="field-label">Year</label>
+        <input id="year" type="number" formControlName="year" class="field-input" x-test-field-year>
+        @if (showError('year')) {
+          <p class="field-error" x-test-error-year>Enter a year between 1900 and 2100.</p>
+        }
+      </section>
+######### END 5 - j #########
+######### START 6 - k #########
+<div class="year-wrap"><div class="field">
+        <label for="year" class="field-label">Year</label>
+        <input id="year" type="number" formControlName="year" class="field-input" x-test-field-year>
+        @if (showError('year')) {
+          <p class="field-error" x-test-error-year>Enter a year between 1900 and 2100.</p>
+        }
+      </div></div>
+######### END 6 - k #########

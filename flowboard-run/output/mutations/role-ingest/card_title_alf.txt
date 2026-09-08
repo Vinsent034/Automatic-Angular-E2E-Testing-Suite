@@ -1,0 +1,15 @@
+######### START 1 - a #########
+<h4 class="card-title bold" [attr.x-test-card-title]="card().id">{{ card().title }}</h4>
+######### END 1 - a #########
+######### START 2 - b #########
+<h4 [attr.x-test-card-title]="card().id">{{ card().title }}</h4>
+######### END 2 - b #########
+######### START 3 - c #########
+<h4 data-cls="card-title" [attr.x-test-card-title]="card().id">{{ card().title }}</h4>
+######### END 3 - c #########
+######### START 6 - j #########
+<div class="card-title" [attr.x-test-card-title]="card().id">{{ card().title }}</div>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="title-wrap"><h4 class="card-title" [attr.x-test-card-title]="card().id">{{ card().title }}</h4></div>
+######### END 7 - k #########

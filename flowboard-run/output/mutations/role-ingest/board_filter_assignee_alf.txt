@@ -1,0 +1,15 @@
+######### START 1 - a #########
+<select id="assignee-filter" class="input select assignee-filter compact" [value]="store.assigneeFilter()" (change)="onAssigneeFilter($event)" x-test-filter-assignee><option value="all">All</option>@for (person of store.assignees(); track person) {<option [value]="person">{{ person }}</option>}</select>
+######### END 1 - a #########
+######### START 2 - b #########
+<select id="assignee-filter" [value]="store.assigneeFilter()" (change)="onAssigneeFilter($event)" x-test-filter-assignee><option value="all">All</option>@for (person of store.assignees(); track person) {<option [value]="person">{{ person }}</option>}</select>
+######### END 2 - b #########
+######### START 3 - c #########
+<select id="assignee-filter" data-cls="input select assignee-filter" [value]="store.assigneeFilter()" (change)="onAssigneeFilter($event)" x-test-filter-assignee><option value="all">All</option>@for (person of store.assignees(); track person) {<option [value]="person">{{ person }}</option>}</select>
+######### END 3 - c #########
+######### START 6 - j #########
+<div id="assignee-filter" class="input select assignee-filter" [value]="store.assigneeFilter()" (change)="onAssigneeFilter($event)" x-test-filter-assignee><option value="all">All</option>@for (person of store.assignees(); track person) {<option [value]="person">{{ person }}</option>}</div>
+######### END 6 - j #########
+######### START 7 - k #########
+<label class="af-wrap"><select id="assignee-filter" class="input select assignee-filter" [value]="store.assigneeFilter()" (change)="onAssigneeFilter($event)" x-test-filter-assignee><option value="all">All</option>@for (person of store.assignees(); track person) {<option [value]="person">{{ person }}</option>}</select></label>
+######### END 7 - k #########

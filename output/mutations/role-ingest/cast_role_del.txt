@@ -1,0 +1,34 @@
+######### START 1 - a #########
+<span class="member-name" x-test-cast-name>{{ member().name }}</span>
+######### END 1 - a #########
+######### START 2 - b #########
+<span x-test-cast-name>{{ member().name }}</span>
+######### END 2 - b #########
+######### START 3 - c #########
+<span data-name="cast-name" x-test-cast-name>{{ member().name }}</span>
+######### END 3 - c #########
+######### START 4 - d #########
+<span class="cast-name" x-test-cast-name>Actor</span>
+######### END 4 - d #########
+######### START 5 - e #########
+<span class="cast-name" x-test-cast-name>  </span>
+######### END 5 - e #########
+######### START 6 - f #########
+<div class="cast-row" x-test-cast-row>
+  <span class="cast-avatar" aria-hidden="true">{{ member().name.charAt(0) }}</span>
+  <span class="cast-role" x-test-cast-role>{{ member().role }}</span>
+  <span class="cast-name" x-test-cast-name>{{ member().name }}</span>
+</div>
+######### END 6 - f #########
+######### START 7 - g #########
+<div class="cast-row" x-test-cast-row>
+  <span class="cast-avatar" aria-hidden="true">{{ member().name.charAt(0) }}</span>
+  <span class="cast-role" x-test-cast-role>{{ member().role }}<span class="cast-name" x-test-cast-name>{{ member().name }}</span></span>
+</div>
+######### END 7 - g #########
+######### START 8 - j #########
+<strong class="cast-name" x-test-cast-name>{{ member().name }}</strong>
+######### END 8 - j #########
+######### START 9 - k #########
+<span class="castname-wrap"><span class="cast-name" x-test-cast-name>{{ member().name }}</span></span>
+######### END 9 - k #########

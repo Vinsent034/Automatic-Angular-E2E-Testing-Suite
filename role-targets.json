@@ -1,0 +1,64 @@
+{
+  "_comment": "Target per la modalita 11x5 (LLM_ROLE) su CineLib. Estratti automaticamente dai 6 *.spec.ts (29 test -> 24 elementi DOM distinti). Ogni target = elemento su cui agisce/asserisce il test, identificato dal suo attributo x-test. La generazione ancora 11 operatori (a-k) x 5 ruoli (epsilon/gamma/beta/alfa/sigma) attorno a ogni target.",
+  "app": "cinelib",
+  "appRoot": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib",
+  "targets": [
+    { "id": "catalog-result-count", "targetAttr": "x-test-result-count", "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/catalog/catalog.component.html", "tests": ["catalog: shows the full sample catalog on load"] },
+    { "id": "catalog-search-input", "targetAttr": "x-test-search-input", "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/catalog/catalog.component.html", "tests": ["catalog: search filters by title", "catalog: search filters by genre keyword", "catalog: empty search shows the empty state"] },
+    { "id": "catalog-filter-genre", "targetAttr": "x-test-filter-genre", "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/catalog/catalog.component.html", "tests": ["catalog: genre dropdown narrows the grid"] },
+    { "id": "catalog-sort", "targetAttr": "x-test-sort", "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/catalog/catalog.component.html", "tests": ["catalog: sort by top rated puts the highest rating first"] },
+    { "id": "catalog-view-list", "targetAttr": "x-test-view-list", "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/catalog/catalog.component.html", "tests": ["catalog: list view toggle changes the grid layout class"] },
+
+    { "id": "card-title", "targetAttr": "x-test-card-title", "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-card/movie-card.component.html", "tests": ["detail: navigating from a card opens the matching movie"] },
+    { "id": "detail-meta", "targetAttr": "x-test-detail-meta", "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-detail/movie-detail.component.html", "tests": ["detail: detail meta line carries year, genre, runtime and rating"] },
+    { "id": "cast-row", "targetAttr": "x-test-cast-row", "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/cast-row/cast-row.component.html", "tests": ["detail: cast list renders every member"] },
+    { "id": "detail-delete-button", "targetAttr": "x-test-delete-button", "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-detail/movie-detail.component.html", "tests": ["detail: delete shows a confirm modal and cancel keeps the movie", "detail: confirming delete removes the movie and returns to the catalog"] },
+    { "id": "detail-not-found", "targetAttr": "x-test-not-found", "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-detail/movie-detail.component.html", "tests": ["detail: unknown id shows the not-found state"] },
+
+    { "id": "catalog-favorites-filter", "targetAttr": "x-test-favorites-filter", "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/catalog/catalog.component.html", "tests": ["favorites: seed catalog starts with three favorites", "favorites: favorites-only filter narrows the catalog"] },
+    { "id": "card-favorite-toggle", "targetAttr": "x-test-favorite-toggle", "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-card/movie-card.component.html", "tests": ["favorites: toggling a favorite on a card updates aria-pressed and shows a toast"] },
+    { "id": "detail-favorite", "targetAttr": "x-test-detail-favorite", "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-detail/movie-detail.component.html", "tests": ["favorites: favorite toggled on the detail page is reflected in the label"] },
+
+    { "id": "review-item", "targetAttr": "x-test-review-item", "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/reviews/reviews.component.html", "tests": ["reviews: seed movie shows its reviews and average"] },
+    { "id": "review-field-author", "targetAttr": "x-test-review-field-author", "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/reviews/reviews.component.html", "tests": ["reviews: adding a review appends it to the list and recomputes the average"] },
+    { "id": "review-submit", "targetAttr": "x-test-review-submit", "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/reviews/reviews.component.html", "tests": ["reviews: submitting an empty review shows validation errors"] },
+    { "id": "review-remove", "targetAttr": "x-test-review-remove", "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/reviews/reviews.component.html", "tests": ["reviews: removing a review drops it from the list"] },
+
+    { "id": "stat-total-value", "targetAttr": "x-test-stat-total-value", "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/stats/stats.component.html", "tests": ["stats: summary cards report the seed totals"] },
+    { "id": "genre-row", "targetAttr": "x-test-genre-row", "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/stats/stats.component.html", "tests": ["stats: genre bars list each distinct genre (.genre-bar-row)"] },
+    { "id": "top-row", "targetAttr": "x-test-top-row", "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/stats/stats.component.html", "tests": ["stats: top-rated table is ordered by rating descending"] },
+    { "id": "top-title", "targetAttr": "x-test-top-title", "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/stats/stats.component.html", "tests": ["stats: a top-rated title links to its detail page"] },
+
+    { "id": "field-title", "targetAttr": "x-test-field-title", "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-form/movie-form.component.html", "tests": ["form: creating a movie navigates to its new detail page (getByLabel Title)", "form: editing an existing movie pre-fills and saves changes"] },
+    { "id": "form-submit", "targetAttr": "x-test-form-submit", "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-form/movie-form.component.html", "tests": ["form: submitting an empty form surfaces required-field errors"] },
+    { "id": "cast-add", "targetAttr": "x-test-cast-add", "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-form/movie-form.component.html", "tests": ["form: adding then removing a cast member updates the editor rows"] },
+
+    { "id": "catalog-add-button", "targetAttr": "x-test-add-button", "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/catalog/catalog.component.html", "tests": ["extended target (catalog)"] },
+    { "id": "catalog-reset-button", "targetAttr": "x-test-reset-button", "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/catalog/catalog.component.html", "tests": ["extended target (catalog)"] },
+    { "id": "catalog-empty", "targetAttr": "x-test-empty", "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/catalog/catalog.component.html", "tests": ["extended target (catalog)"] },
+    { "id": "catalog-modal-confirm", "targetAttr": "x-test-modal-confirm", "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/catalog/catalog.component.html", "tests": ["extended target (catalog)"] },
+
+    { "id": "card-meta", "targetAttr": "x-test-card-meta", "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-card/movie-card.component.html", "tests": ["extended target (movie-card)"] },
+    { "id": "card-rating", "targetAttr": "x-test-card-rating", "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-card/movie-card.component.html", "tests": ["extended target (movie-card)"] },
+    { "id": "card-poster", "targetAttr": "x-test-card-poster", "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-card/movie-card.component.html", "tests": ["extended target (movie-card)"] },
+
+    { "id": "detail-title", "targetAttr": "x-test-detail-title", "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-detail/movie-detail.component.html", "tests": ["extended target (movie-detail)"] },
+    { "id": "detail-synopsis", "targetAttr": "x-test-synopsis", "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-detail/movie-detail.component.html", "tests": ["extended target (movie-detail)"] },
+    { "id": "detail-edit-button", "targetAttr": "x-test-edit-button", "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-detail/movie-detail.component.html", "tests": ["extended target (movie-detail)"] },
+
+    { "id": "cast-name", "targetAttr": "x-test-cast-name", "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/cast-row/cast-row.component.html", "tests": ["extended target (cast-row)"] },
+    { "id": "cast-role", "targetAttr": "x-test-cast-role", "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/cast-row/cast-row.component.html", "tests": ["extended target (cast-row)"] },
+
+    { "id": "reviews-average", "targetAttr": "x-test-reviews-average", "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/reviews/reviews.component.html", "tests": ["extended target (reviews)"] },
+    { "id": "review-comment", "targetAttr": "x-test-review-comment", "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/reviews/reviews.component.html", "tests": ["extended target (reviews)"] },
+    { "id": "review-field-comment", "targetAttr": "x-test-review-field-comment", "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/reviews/reviews.component.html", "tests": ["extended target (reviews)"] },
+
+    { "id": "stats-heading", "targetAttr": "x-test-stats-heading", "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/stats/stats.component.html", "tests": ["extended target (stats)"] },
+    { "id": "genre-count", "targetAttr": "x-test-genre-count", "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/stats/stats.component.html", "tests": ["extended target (stats)"] },
+    { "id": "stat-favorites-value", "targetAttr": "x-test-stat-favorites-value", "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/stats/stats.component.html", "tests": ["extended target (stats)"] },
+
+    { "id": "field-year", "targetAttr": "x-test-field-year", "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-form/movie-form.component.html", "tests": ["extended target (form)"] },
+    { "id": "form-cancel", "targetAttr": "x-test-form-cancel", "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-form/movie-form.component.html", "tests": ["extended target (form)"] },
+    { "id": "cast-remove", "targetAttr": "x-test-cast-remove", "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-form/movie-form.component.html", "tests": ["extended target (form)"] }
+  ]
+}

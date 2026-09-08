@@ -1,0 +1,15 @@
+######### START 1 - a #########
+<button type="button" class="btn btn-ghost" (click)="cancel()" x-test-form-cancel>Cancel</button>
+######### END 1 - a #########
+######### START 2 - c #########
+<button data-btn="button" class="btn" (click)="cancel()" x-test-form-cancel>Cancel</button>
+######### END 2 - c #########
+######### START 3 - d #########
+<button type="button" class="btn" (click)="cancel()" x-test-form-cancel>Back</button>
+######### END 3 - d #########
+######### START 4 - j #########
+<span type="button" class="btn" (click)="cancel()" x-test-form-cancel>Cancel</span>
+######### END 4 - j #########
+######### START 5 - k #########
+<span class="cancelbtn-wrap"><button type="button" class="btn" (click)="cancel()" x-test-form-cancel>Cancel</button></span>
+######### END 5 - k #########

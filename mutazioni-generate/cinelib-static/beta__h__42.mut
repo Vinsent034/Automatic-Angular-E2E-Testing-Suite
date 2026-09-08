@@ -1,0 +1,111 @@
+#mutation-id: h
+#element: beta
+#name: stat-favorites-value
+#type: tag_mov_temp_mut
+#status: COMPLETE
+######### FILE C:\Users\vince\OneDrive\Desktop\App tirocinio\cinelib\src\app\stats\stats.component.html #########
+<section class="stats-page" x-test-stats>
+  <h1 class="form-heading" x-test-stats-heading>Statistics</h1>
+
+  <div class="stat-cards" x-test-stat-cards>
+    <div class="stat-card" x-test-stat-total>
+      <span class="stat-value" x-test-stat-total-value>{{ total() }}</span>
+      <span class="stat-label">Movies</span>
+    </div>
+    <div class="stat-card" x-test-stat-average>
+      <span class="stat-value" x-test-stat-average-value>★ {{ averageRating() }}</span>
+      <span class="stat-label">Average rating</span>
+    </div>
+    <div class="stat-card" x-test-stat-runtime>
+      <span class="stat-value" x-test-stat-runtime-value>{{ averageRuntime() }}'</span>
+      <span class="stat-label">Average runtime</span>
+    </div>
+    
+    <div class="stat-card" x-test-stat-reviews>
+      <span class="stat-value" x-test-stat-reviews-value>{{ reviewCount() }}</span>
+      <span class="stat-label">Reviews</span>
+    </div>
+  </div>
+
+  <section class="detail-section">
+    <h2 class="section-title">Movies by genre</h2>
+    <div class="genre-bars" x-test-genre-bars>
+      @for (g of genreStats(); track g.genre) {
+        <div class="genre-bar-row" x-test-genre-row [attr.data-genre]="g.genre">
+          <span class="genre-bar-label" x-test-genre-label>{{ g.genre }}</span>
+          <div class="genre-bar-track">
+            <div class="genre-bar-fill" [style.width.%]="g.share"></div>
+          </div>
+          <span class="genre-bar-count" x-test-genre-count>{{ g.count }}</span>
+        </div>
+      }
+    </div>
+  </section>
+
+  <section class="detail-section">
+    <h2 class="section-title">Top rated</h2>
+    <table class="stats-table" x-test-top-table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Title</th>
+          <th>Year</th>
+          <th>Rating</th>
+        </tr>
+      </thead>
+      <tbody>
+        @for (movie of topRated(); track movie.id; let i = $index) {
+          <tr x-test-top-row>
+            <td>{{ i + 1 }}</td>
+            <td><a [routerLink]="['/movie', movie.id]" class="stats-link" x-test-top-title>{{ movie.title }}</a></td>
+            <td>{{ movie.year }}</td>
+            <td class="stats-rating">★ {{ movie.rating }}</td>
+          </tr>
+        }
+      </tbody>
+    </table>
+  </section>
+</section>
+######### END FILE #########
+######### FILE C:\Users\vince\OneDrive\Desktop\App tirocinio\cinelib\src\app\reviews\reviews.component.html #########
+<div class="reviews" x-test-reviews>
+ <div class="reviews-summary" x-test-reviews-summary>
+  @if (reviews().length > 0) { <span class="reviews-average" x-test-reviews-average>★ {{ averageUserRating() }}</span> <span class="reviews-count" x-test-reviews-count> {{ reviews().length }} {{ reviews().length === 1 ? 'review' : 'reviews' }} </span> } @else { <span class="reviews-count" x-test-reviews-empty>No reviews yet — be the first.</span> }
+ </div>
+ <ul class="review-list" x-test-review-list>
+  @for (review of reviews(); track review.id) {
+  <li class="review-item" x-test-review-item>
+   <div class="review-head">
+    <span class="review-author" x-test-review-author>{{ review.author }}</span> <span class="review-stars" x-test-review-stars [attr.data-rating]="review.rating">{{ stars(review.rating) }}</span> <span class="review-date" x-test-review-date>{{ review.date }}</span>
+    <button type="button" class="review-remove" (click)="remove(review.id)" aria-label="Remove review" x-test-review-remove>×</button>
+   </div>
+   <p class="review-comment" x-test-review-comment>{{ review.comment }}</p>
+  </li>
+  }
+ </ul>
+ <form [formGroup]="form" (ngSubmit)="submit()" class="review-form" x-test-review-form>
+  <div class="review-form-row">
+   <div class="field">
+    <label for="review-author" class="field-label">
+     <div class="stat-card" x-test-stat-favorites>
+      <span class="stat-value" x-test-stat-favorites-value>{{ favoriteCount() }}</span> <span class="stat-label">Favorites</span>
+     </div>Your name
+    </label> <input id="review-author" type="text" formControlName="author" class="field-input" x-test-review-field-author> @if (showError('author')) {
+    <p class="field-error" x-test-review-error-author>Name is required.</p>
+    }
+   </div>
+   <div class="field">
+    <label for="review-rating" class="field-label">Rating</label> <select id="review-rating" formControlName="rating" class="field-input" x-test-review-field-rating> @for (r of ratings; track r) { <option [value]="r">{{ r }} ★</option> } </select>
+   </div>
+  </div>
+  <div class="field">
+   <label for="review-comment" class="field-label">Comment</label> <textarea id="review-comment" formControlName="comment" rows="3" class="field-input" x-test-review-field-comment></textarea> @if (showError('comment')) {
+   <p class="field-error" x-test-review-error-comment>Write at least 3 characters.</p>
+   }
+  </div>
+  <div class="form-actions">
+   <button type="submit" class="btn btn-primary" x-test-review-submit>Post review</button>
+  </div>
+ </form>
+</div>
+######### END FILE #########

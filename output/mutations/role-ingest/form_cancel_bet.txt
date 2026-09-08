@@ -1,0 +1,24 @@
+######### START 1 - a #########
+<div class="form-buttons">
+      <button type="submit" class="btn btn-primary" x-test-form-submit>{{ isEdit ? 'Save changes' : 'Create movie' }}</button>
+      <button type="button" class="btn" (click)="cancel()" x-test-form-cancel>Cancel</button>
+    </div>
+######### END 1 - a #########
+######### START 2 - c #########
+<div data-actions="form-actions">
+      <button type="submit" class="btn btn-primary" x-test-form-submit>{{ isEdit ? 'Save changes' : 'Create movie' }}</button>
+      <button type="button" class="btn" (click)="cancel()" x-test-form-cancel>Cancel</button>
+    </div>
+######### END 2 - c #########
+######### START 3 - j #########
+<nav class="form-actions">
+      <button type="submit" class="btn btn-primary" x-test-form-submit>{{ isEdit ? 'Save changes' : 'Create movie' }}</button>
+      <button type="button" class="btn" (click)="cancel()" x-test-form-cancel>Cancel</button>
+    </nav>
+######### END 3 - j #########
+######### START 4 - k #########
+<div class="form-actions-box"><div class="form-actions">
+      <button type="submit" class="btn btn-primary" x-test-form-submit>{{ isEdit ? 'Save changes' : 'Create movie' }}</button>
+      <button type="button" class="btn" (click)="cancel()" x-test-form-cancel>Cancel</button>
+    </div></div>
+######### END 4 - k #########

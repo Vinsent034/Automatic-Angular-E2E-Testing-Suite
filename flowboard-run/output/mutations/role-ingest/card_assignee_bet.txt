@@ -1,0 +1,15 @@
+######### START 1 - a #########
+<div class="card-meta active"><span class="card-assignee" [attr.data-assignee]="card().assignee" [attr.x-test-card-assignee]="card().id">{{ card().assignee }}</span><ul class="tag-list" [attr.x-test-card-tags]="card().id">@for (tag of card().tags; track tag) {<li class="tag" [attr.data-tag]="tag">{{ tag }}</li>}</ul></div>
+######### END 1 - a #########
+######### START 2 - b #########
+<div><span class="card-assignee" [attr.data-assignee]="card().assignee" [attr.x-test-card-assignee]="card().id">{{ card().assignee }}</span><ul class="tag-list" [attr.x-test-card-tags]="card().id">@for (tag of card().tags; track tag) {<li class="tag" [attr.data-tag]="tag">{{ tag }}</li>}</ul></div>
+######### END 2 - b #########
+######### START 3 - c #########
+<div data-cls="card-meta"><span class="card-assignee" [attr.data-assignee]="card().assignee" [attr.x-test-card-assignee]="card().id">{{ card().assignee }}</span><ul class="tag-list" [attr.x-test-card-tags]="card().id">@for (tag of card().tags; track tag) {<li class="tag" [attr.data-tag]="tag">{{ tag }}</li>}</ul></div>
+######### END 3 - c #########
+######### START 6 - j #########
+<section class="card-meta"><span class="card-assignee" [attr.data-assignee]="card().assignee" [attr.x-test-card-assignee]="card().id">{{ card().assignee }}</span><ul class="tag-list" [attr.x-test-card-tags]="card().id">@for (tag of card().tags; track tag) {<li class="tag" [attr.data-tag]="tag">{{ tag }}</li>}</ul></section>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="cm-wrap"><div class="card-meta"><span class="card-assignee" [attr.data-assignee]="card().assignee" [attr.x-test-card-assignee]="card().id">{{ card().assignee }}</span><ul class="tag-list" [attr.x-test-card-tags]="card().id">@for (tag of card().tags; track tag) {<li class="tag" [attr.data-tag]="tag">{{ tag }}</li>}</ul></div></div>
+######### END 7 - k #########

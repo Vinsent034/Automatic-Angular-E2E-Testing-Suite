@@ -1,0 +1,9 @@
+######### START 1 - a #########
+<a [routerLink]="['/movie', m.id, 'edit']" class="btn btn-editlink" x-test-edit-button>Edit</a>
+######### END 1 - a #########
+######### START 2 - c #########
+<a [routerLink]="['/movie', m.id, 'edit']" data-editbtn="btn" x-test-edit-button>Edit</a>
+######### END 2 - c #########
+######### START 3 - d #########
+<a [routerLink]="['/movie', m.id, 'edit']" class="btn" x-test-edit-button>Update</a>
+######### END 3 - d #########

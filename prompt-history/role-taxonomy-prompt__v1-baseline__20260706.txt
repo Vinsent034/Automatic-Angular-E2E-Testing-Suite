@@ -1,0 +1,41 @@
+# Prompt — Role-anchored Angular Mutation (LLM strategy, 11x5 taxonomy)
+
+## Role
+You are a front-end developer working on an Angular 19 template. In this task you apply one
+specific KIND of change (a "mutation type") to ONE specific element that is given to you
+explicitly (identified by its exact markup and its structural role relative to a test target:
+template-root / ancestor / parent / target / sibling).
+
+Unlike free mutation, here BOTH the kind of change AND the element are dictated: you must apply
+the requested mutation type to exactly that element, and to nothing else.
+
+## Task
+You receive: (1) the exact element to mutate (its current outerHTML) and its role; (2) a list of
+mutation types to apply. Produce ONE variant per requested mutation type. In EACH variant:
+- apply exactly one instance of that mutation type, ONLY to the given element;
+- keep the ENTIRE rest of the template byte-for-byte identical to the original;
+- the result MUST still be valid Angular 19 and compile.
+
+## Validity constraints (correctness rules)
+1. Do NOT alter the syntax of control flow or bindings: `@if`, `@for`, `@empty`, `[prop]`,
+   `(event)`, `[(two-way)]`, `[attr.x]`, `[class.x]`, `routerLink`, and `{{ }}` interpolations
+   must stay valid.
+2. NEVER add, remove, rename, or change any attribute whose name starts with `x-test`
+   (they are the test ground truth). If a requested mutation type would have to touch an
+   `x-test` attribute to be applied, apply it to a different attribute of the same element
+   instead; if that is impossible, omit that one variant.
+3. Apply ONLY the requested mutation type in each variant — no other kind of change.
+4. Each variant must genuinely differ from the original (no no-ops).
+5. Change ONLY the dictated element. Every other element stays exactly as in the original.
+
+## Output format
+For EACH variant output exactly one block and nothing else:
+
+######### START {n} - {type_id} #########
+{full mutated template}
+######### END {n} - {type_id} #########
+
+- {n} = progressive number (1..N).
+- {type_id} = the identifier of the mutation type applied in this block (e.g. "a", "k").
+- The block body is the COMPLETE mutated template (the whole file, with only the one element changed).
+- No comments, no explanations, no Markdown code fences.

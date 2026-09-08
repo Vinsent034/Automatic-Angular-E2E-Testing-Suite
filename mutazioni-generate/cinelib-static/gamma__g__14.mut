@@ -1,0 +1,36 @@
+#mutation-id: g
+#element: gamma
+#name: catalog-add-button
+#type: tag_mov_html_mut
+#status: HELD
+######### FILE C:\Users\vince\OneDrive\Desktop\App tirocinio\cinelib\src\app\catalog\catalog.component.html #########
+
+
+@if (resetOpen()) {
+  <div class="modal-backdrop" x-test-modal-backdrop>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="reset-title" x-test-reset-modal>
+      <h2 id="reset-title" class="modal-title" x-test-modal-title>Reset catalog?</h2>
+      <p class="modal-body" x-test-modal-body>
+        This restores the original sample movies and discards every change, favorite and review.
+      </p>
+      <div class="modal-actions">
+        <button type="button" class="btn btn-danger" (click)="confirmReset()" x-test-modal-confirm>Reset</button>
+        <button type="button" class="btn" (click)="cancelReset()" x-test-modal-cancel>Cancel</button>
+      </div>
+    </div>
+  </div>
+}
+######### END FILE #########
+######### FILE C:\Users\vince\OneDrive\Desktop\App tirocinio\cinelib\src\app\movie-card\movie-card.component.html #########
+<div class="movie-card movie-card-{{ view() }}" [attr.data-genre]="movie().genre" [class.is-favorite]="movie().favorite" x-test-card>
+ <a class="poster" [routerLink]="['/movie', movie().id]" aria-hidden="true" tabindex="-1" x-test-card-poster> <span class="poster-letter">{{ movie().title.charAt(0) }}</span> </a>
+ <button type="button" class="favorite-toggle" [class.active]="movie().favorite" (click)="toggleFavorite()" [attr.aria-pressed]="movie().favorite" [attr.aria-label]="movie().favorite ? 'Remove from favorites' : 'Add to favorites'" x-test-favorite-toggle>{{ movie().favorite ? '♥' : '♡' }}</button>
+ <div class="card-body">
+  <a class="card-title-link" [routerLink]="['/movie', movie().id]" x-test-card-link> 
+   <h2 class="card-title" x-test-card-title>{{ movie().title }}</h2> 
+  </a>
+  <p class="card-meta" x-test-card-meta>{{ movie().year }} · {{ movie().genre }}</p>
+  <p class="card-rating" x-test-card-rating>★ {{ movie().rating }}</p>
+ </div>
+</div>
+######### END FILE #########

@@ -1,0 +1,84 @@
+{
+  "_comment": "Modello di mutazioni della tesi precedente (Tabella 1.1, a-k). Usato dal llm-generator in modalita parametrica: per ogni tipo si chiede all'LLM di applicare QUEL tipo, scegliendo lui l'elemento.",
+  "types": [
+    {
+      "id": "a",
+      "name": "Attribute Value Modification",
+      "description": "Change the VALUE of an existing attribute on an element, keeping the same attribute name.",
+      "before": "<tag attr=\"value\">text</tag>",
+      "after": "<tag attr=\"newValue\">text</tag>"
+    },
+    {
+      "id": "b",
+      "name": "Attribute Removal",
+      "description": "Remove an existing (non-essential) attribute from an element.",
+      "before": "<tag attr=\"value\">text</tag>",
+      "after": "<tag>text</tag>"
+    },
+    {
+      "id": "c",
+      "name": "Attribute Identifier Modification",
+      "description": "Rename an existing attribute (change the attribute name, keep its value).",
+      "before": "<tag attr=\"value\">text</tag>",
+      "after": "<tag newAttr=\"value\">text</tag>",
+      "note": "Nell'app potrebbe non esserci alcun id nativo: in tal caso il tipo e' poco/non applicabile (come nella tesi precedente)."
+    },
+    {
+      "id": "d",
+      "name": "Text Content Modification",
+      "description": "Change the visible text content of an element.",
+      "before": "<tag attr=\"value\">text</tag>",
+      "after": "<tag attr=\"value\">newText</tag>"
+    },
+    {
+      "id": "e",
+      "name": "Text Content Removal",
+      "description": "Remove/empty the visible text content of an element.",
+      "before": "<tag attr=\"value\">text</tag>",
+      "after": "<tag attr=\"value\"> </tag>"
+    },
+    {
+      "id": "f",
+      "name": "HTML Tag Movement (within a container)",
+      "description": "Reorder an element among its siblings inside the same parent container.",
+      "before": "<div>\n  <tagX></tagX>\n  <tagY>text</tagY>\n</div>",
+      "after": "<div>\n  <tagY>text</tagY>\n  <tagX></tagX>\n</div>"
+    },
+    {
+      "id": "g",
+      "name": "HTML Tag Movement (any point of the HTML tree)",
+      "description": "Move an element to a different position elsewhere in the template tree (different parent).",
+      "before": "<div>\n  <tag>text</tag>\n  <other></other>\n</div>",
+      "after": "<tag>text</tag>\n<div>\n  <other></other>\n</div>"
+    },
+    {
+      "id": "h",
+      "name": "HTML Tag Movement (between two templates)",
+      "description": "Move an element out of this template into another component template.",
+      "before": "<template1>\n  <tag>text</tag>\n</template1>",
+      "after": "<template1>\n</template1>  (l'elemento viene spostato in un altro template)",
+      "note": "Richiede due template: difficile in modalita per-file con un solo template fornito. Da gestire a parte o segnalare come non applicabile in questo contesto."
+    },
+    {
+      "id": "i",
+      "name": "HTML Tag Removal",
+      "description": "Remove an element's tag but keep its text/children (unwrap).",
+      "before": "<tag attr=\"value\">text</tag>",
+      "after": "text"
+    },
+    {
+      "id": "j",
+      "name": "HTML Tag Type Modification",
+      "description": "Change the tag name of an element (e.g. div -> section), keeping attributes and content.",
+      "before": "<tag attr=\"value\">text</tag>",
+      "after": "<newTag attr=\"value\">text</newTag>"
+    },
+    {
+      "id": "k",
+      "name": "HTML Tag Insertion",
+      "description": "Insert a new wrapper/container tag around an existing element (add a hierarchy level).",
+      "before": "<tag attr=\"value\">text</tag>",
+      "after": "<wrapper>\n  <tag attr=\"value\">text</tag>\n</wrapper>"
+    }
+  ]
+}

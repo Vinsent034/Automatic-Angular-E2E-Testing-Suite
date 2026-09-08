@@ -1,0 +1,21 @@
+######### START 1 - a #########
+<p class="not-found-message alert" x-test-detail-not-found-message>Card not found</p>
+######### END 1 - a #########
+######### START 2 - b #########
+<p x-test-detail-not-found-message>Card not found</p>
+######### END 2 - b #########
+######### START 3 - c #########
+<p data-cls="not-found-message" x-test-detail-not-found-message>Card not found</p>
+######### END 3 - c #########
+######### START 4 - d #########
+<p class="not-found-message" x-test-detail-not-found-message>No such card</p>
+######### END 4 - d #########
+######### START 5 - e #########
+<p class="not-found-message" x-test-detail-not-found-message></p>
+######### END 5 - e #########
+######### START 6 - j #########
+<div class="not-found-message" x-test-detail-not-found-message>Card not found</div>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="nfm-wrap"><p class="not-found-message" x-test-detail-not-found-message>Card not found</p></div>
+######### END 7 - k #########

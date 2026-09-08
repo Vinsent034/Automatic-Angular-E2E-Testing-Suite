@@ -1,0 +1,20 @@
+######### START 1 - a #########
+<div class="cast-field">
+      <div class="cast-header">
+        <span class="field-label">Cast</span>
+        <button type="button" class="btn btn-small" (click)="addCast()" x-test-cast-add>+ Add member</button>
+      </div>
+
+      <div formArrayName="cast" class="cast-editor" x-test-cast-editor>
+        @for (member of cast.controls; track $index) {
+          <div class="cast-edit-row" [formGroupName]="$index" x-test-cast-edit-row>
+            <input type="text" formControlName="name" placeholder="Actor name" class="field-input" x-test-cast-name>
+            <input type="text" formControlName="role" placeholder="Role" class="field-input" x-test-cast-role>
+            <button type="button" class="btn btn-danger btn-small" (click)="removeCast($index)" x-test-cast-remove>Remove</button>
+          </div>
+        } @empty {
+          <p class="cast-empty">No cast members yet.</p>
+        }
+      </div>
+    </div>
+######### END 1 - a #########

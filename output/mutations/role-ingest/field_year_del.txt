@@ -1,0 +1,21 @@
+######### START 1 - a #########
+<p class="error" x-test-error-year>Enter a year between 1900 and 2100.</p>
+######### END 1 - a #########
+######### START 2 - b #########
+<p x-test-error-year>Enter a year between 1900 and 2100.</p>
+######### END 2 - b #########
+######### START 3 - c #########
+<p errclass="field-error" x-test-error-year>Enter a year between 1900 and 2100.</p>
+######### END 3 - c #########
+######### START 4 - d #########
+<p class="field-error" x-test-error-year>Invalid year.</p>
+######### END 4 - d #########
+######### START 5 - e #########
+<p class="field-error" x-test-error-year> </p>
+######### END 5 - e #########
+######### START 6 - j #########
+<div class="field-error" x-test-error-year>Enter a year between 1900 and 2100.</div>
+######### END 6 - j #########
+######### START 7 - k #########
+<span class="year-error-wrap"><p class="field-error" x-test-error-year>Enter a year between 1900 and 2100.</p></span>
+######### END 7 - k #########

@@ -1,0 +1,15 @@
+######### START 1 - a #########
+<span class="detail-column tag" [attr.data-column]="store.selectedCard()?.columnId" x-test-detail-column>{{ store.selectedCard()?.columnId }}</span>
+######### END 1 - a #########
+######### START 2 - b #########
+<span [attr.data-column]="store.selectedCard()?.columnId" x-test-detail-column>{{ store.selectedCard()?.columnId }}</span>
+######### END 2 - b #########
+######### START 3 - c #########
+<span data-cls="detail-column" [attr.data-column]="store.selectedCard()?.columnId" x-test-detail-column>{{ store.selectedCard()?.columnId }}</span>
+######### END 3 - c #########
+######### START 6 - j #########
+<div class="detail-column" [attr.data-column]="store.selectedCard()?.columnId" x-test-detail-column>{{ store.selectedCard()?.columnId }}</div>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="dcolumn-wrap"><span class="detail-column" [attr.data-column]="store.selectedCard()?.columnId" x-test-detail-column>{{ store.selectedCard()?.columnId }}</span></div>
+######### END 7 - k #########

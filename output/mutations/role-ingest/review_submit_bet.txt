@@ -1,0 +1,28 @@
+######### START 1 - a #########
+<div class="actions">
+      <button type="submit" class="btn btn-primary" x-test-review-submit>Post review</button>
+    </div>
+######### END 1 - a #########
+######### START 2 - b #########
+<div>
+      <button type="submit" class="btn btn-primary" x-test-review-submit>Post review</button>
+    </div>
+######### END 2 - b #########
+######### START 3 - c #########
+<div actionsclass="form-actions">
+      <button type="submit" class="btn btn-primary" x-test-review-submit>Post review</button>
+    </div>
+######### END 3 - c #########
+######### START 4 - i #########
+<button type="submit" class="btn btn-primary" x-test-review-submit>Post review</button>
+######### END 4 - i #########
+######### START 5 - j #########
+<footer class="form-actions">
+      <button type="submit" class="btn btn-primary" x-test-review-submit>Post review</button>
+    </footer>
+######### END 5 - j #########
+######### START 6 - k #########
+<div class="review-actions-wrap"><div class="form-actions">
+      <button type="submit" class="btn btn-primary" x-test-review-submit>Post review</button>
+    </div></div>
+######### END 6 - k #########

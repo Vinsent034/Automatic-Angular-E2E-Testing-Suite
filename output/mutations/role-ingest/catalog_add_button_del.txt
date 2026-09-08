@@ -1,0 +1,21 @@
+######### START 1 - a #########
+<select class="sort-dropdown" [value]="sort()" (change)="onSort($any($event.target).value)" x-test-sort>
+      <option value="title">Title (A–Z)</option>
+      <option value="rating">Top rated</option>
+      <option value="year">Newest</option>
+    </select>
+######### END 1 - a #########
+######### START 2 - c #########
+<select data-sortsel="field-input filter-select" [value]="sort()" (change)="onSort($any($event.target).value)" x-test-sort>
+      <option value="title">Title (A–Z)</option>
+      <option value="rating">Top rated</option>
+      <option value="year">Newest</option>
+    </select>
+######### END 2 - c #########
+######### START 3 - j #########
+<fieldset class="field-input filter-select" [value]="sort()" (change)="onSort($any($event.target).value)" x-test-sort>
+      <option value="title">Title (A–Z)</option>
+      <option value="rating">Top rated</option>
+      <option value="year">Newest</option>
+    </fieldset>
+######### END 3 - j #########

@@ -1,0 +1,15 @@
+######### START 1 - a #########
+<span class="badge badge-filtered" data-kind="count" x-test-filtered-count>{{ store.filteredCount() }}</span>
+######### END 1 - a #########
+######### START 2 - b #########
+<span class="badge badge-filtered" x-test-filtered-count>{{ store.filteredCount() }}</span>
+######### END 2 - b #########
+######### START 3 - c #########
+<span class="badge badge-filtered" data-role="filtered" x-test-filtered-count>{{ store.filteredCount() }}</span>
+######### END 3 - c #########
+######### START 6 - j #########
+<div class="badge badge-filtered" data-kind="filtered" x-test-filtered-count>{{ store.filteredCount() }}</div>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="count-wrap"><span class="badge badge-filtered" data-kind="filtered" x-test-filtered-count>{{ store.filteredCount() }}</span></div>
+######### END 7 - k #########

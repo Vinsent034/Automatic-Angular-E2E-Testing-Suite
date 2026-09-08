@@ -1,0 +1,21 @@
+######### START 1 - a #########
+<span class="toast-icon lg" aria-hidden="true" x-test-toast-icon>ℹ</span>
+######### END 1 - a #########
+######### START 2 - b #########
+<span class="toast-icon" x-test-toast-icon>ℹ</span>
+######### END 2 - b #########
+######### START 3 - c #########
+<span class="toast-icon" data-hidden="true" x-test-toast-icon>ℹ</span>
+######### END 3 - c #########
+######### START 4 - d #########
+<span class="toast-icon" aria-hidden="true" x-test-toast-icon>★</span>
+######### END 4 - d #########
+######### START 5 - e #########
+<span class="toast-icon" aria-hidden="true" x-test-toast-icon></span>
+######### END 5 - e #########
+######### START 6 - j #########
+<i class="toast-icon" aria-hidden="true" x-test-toast-icon>ℹ</i>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="ti-wrap"><span class="toast-icon" aria-hidden="true" x-test-toast-icon>ℹ</span></div>
+######### END 7 - k #########

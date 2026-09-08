@@ -1,0 +1,15 @@
+######### START 1 - a #########
+<input id="review-author" type="text" formControlName="author" class="form-field" x-test-review-field-author>
+######### END 1 - a #########
+######### START 2 - b #########
+<input id="review-author" formControlName="author" class="field-input" x-test-review-field-author>
+######### END 2 - b #########
+######### START 3 - c #########
+<input id="review-author" data-type="text" formControlName="author" class="field-input" x-test-review-field-author>
+######### END 3 - c #########
+######### START 4 - j #########
+<textarea id="review-author" type="text" formControlName="author" class="field-input" x-test-review-field-author></textarea>
+######### END 4 - j #########
+######### START 5 - k #########
+<div class="review-author-wrap"><input id="review-author" type="text" formControlName="author" class="field-input" x-test-review-field-author></div>
+######### END 5 - k #########

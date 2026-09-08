@@ -1,0 +1,15 @@
+######### START 1 - a #########
+<span class="badge column-count" data-column="board" x-test-column-count="backlog">{{ store.backlogCount() }}</span>
+######### END 1 - a #########
+######### START 2 - b #########
+<span class="badge column-count" x-test-column-count="backlog">{{ store.backlogCount() }}</span>
+######### END 2 - b #########
+######### START 3 - c #########
+<span class="badge column-count" data-col="backlog" x-test-column-count="backlog">{{ store.backlogCount() }}</span>
+######### END 3 - c #########
+######### START 6 - j #########
+<div class="badge column-count" data-column="backlog" x-test-column-count="backlog">{{ store.backlogCount() }}</div>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="ccount-wrap"><span class="badge column-count" data-column="backlog" x-test-column-count="backlog">{{ store.backlogCount() }}</span></div>
+######### END 7 - k #########

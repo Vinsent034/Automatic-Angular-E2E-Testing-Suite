@@ -1,0 +1,12 @@
+######### START 1 - a #########
+<div class="page-heading active" x-test-stats-heading><h2 class="page-title" x-test-stats-title>Board statistics</h2><a class="btn btn-ghost back-btn" routerLink="/" x-test-stats-back>Back to board</a></div>
+######### END 1 - a #########
+######### START 3 - c #########
+<div data-cls="page-heading" x-test-stats-heading><h2 class="page-title" x-test-stats-title>Board statistics</h2><a class="btn btn-ghost back-btn" routerLink="/" x-test-stats-back>Back to board</a></div>
+######### END 3 - c #########
+######### START 6 - j #########
+<header class="page-heading" x-test-stats-heading><h2 class="page-title" x-test-stats-title>Board statistics</h2><a class="btn btn-ghost back-btn" routerLink="/" x-test-stats-back>Back to board</a></header>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="ph-wrap"><div class="page-heading" x-test-stats-heading><h2 class="page-title" x-test-stats-title>Board statistics</h2><a class="btn btn-ghost back-btn" routerLink="/" x-test-stats-back>Back to board</a></div></div>
+######### END 7 - k #########

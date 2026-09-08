@@ -1,0 +1,23 @@
+#mutation-id: LLMP_card_component_html_a_3
+#element: card_component_html
+#name: a
+#type: LLM_PARAMETRIC
+#status: HELD
+######### FILE C:\Users\vince\OneDrive\Desktop\Tirocinio\angular-spotify\libs\web\shared\ui\media\src\lib\card.component.html #########
+<a class="card" [routerLink]="routerUrl">
+  <div class="card-cover" [class.is-playing]="newPlaying" *ngrxLet="isMediaPlaying$ as isPlaying">
+    <as-media-cover [imageUrl]="imageUrl" [roundedImage]="roundedImage">
+    </as-media-cover>
+    <as-play-button class="play-button-overlay" [primary]="true" [large]="true" [isPlaying]="isPlaying" (togglePlay)="togglePlay.emit($event)" asClickStopPropagation>
+    </as-play-button>
+  </div>
+  <div class="card-body">
+    <h2 class="card-title font-bold text-white ellipsis-one-line">
+      {{ title }}
+    </h2>
+    <div class="card-description text-description">
+      {{ description }}
+    </div>
+  </div>
+</a>
+######### END FILE #########

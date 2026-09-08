@@ -1,0 +1,21 @@
+######### START 1 - a #########
+<label class="field-label strong" for="field-priority" x-test-form-priority-label>Priority</label>
+######### END 1 - a #########
+######### START 2 - b #########
+<label class="field-label" x-test-form-priority-label>Priority</label>
+######### END 2 - b #########
+######### START 3 - c #########
+<label class="field-label" data-for="field-priority" x-test-form-priority-label>Priority</label>
+######### END 3 - c #########
+######### START 4 - d #########
+<label class="field-label" for="field-priority" x-test-form-priority-label>Severity</label>
+######### END 4 - d #########
+######### START 5 - e #########
+<label class="field-label" for="field-priority" x-test-form-priority-label></label>
+######### END 5 - e #########
+######### START 6 - j #########
+<span class="field-label" for="field-priority" x-test-form-priority-label>Priority</span>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="fl-wrap"><label class="field-label" for="field-priority" x-test-form-priority-label>Priority</label></div>
+######### END 7 - k #########

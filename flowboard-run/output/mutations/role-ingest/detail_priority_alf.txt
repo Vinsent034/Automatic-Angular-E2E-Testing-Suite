@@ -1,0 +1,15 @@
+######### START 1 - a #########
+<span class="badge priority-badge strong" [attr.data-priority]="store.selectedCard()?.priority" x-test-detail-priority>{{ store.selectedCard()?.priority }}</span>
+######### END 1 - a #########
+######### START 2 - b #########
+<span [attr.data-priority]="store.selectedCard()?.priority" x-test-detail-priority>{{ store.selectedCard()?.priority }}</span>
+######### END 2 - b #########
+######### START 3 - c #########
+<span data-cls="badge priority-badge" [attr.data-priority]="store.selectedCard()?.priority" x-test-detail-priority>{{ store.selectedCard()?.priority }}</span>
+######### END 3 - c #########
+######### START 6 - j #########
+<div class="badge priority-badge" [attr.data-priority]="store.selectedCard()?.priority" x-test-detail-priority>{{ store.selectedCard()?.priority }}</div>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="dprio-wrap"><span class="badge priority-badge" [attr.data-priority]="store.selectedCard()?.priority" x-test-detail-priority>{{ store.selectedCard()?.priority }}</span></div>
+######### END 7 - k #########

@@ -1,0 +1,21 @@
+######### START 1 - a #########
+<p class="synopsis" x-test-synopsis>{{ m.synopsis }}</p>
+######### END 1 - a #########
+######### START 2 - b #########
+<p x-test-synopsis>{{ m.synopsis }}</p>
+######### END 2 - b #########
+######### START 3 - c #########
+<p synclass="synopsis-text" x-test-synopsis>{{ m.synopsis }}</p>
+######### END 3 - c #########
+######### START 4 - d #########
+<p class="synopsis-text" x-test-synopsis>{{ m.synopsis }}.</p>
+######### END 4 - d #########
+######### START 5 - e #########
+<p class="synopsis-text" x-test-synopsis> </p>
+######### END 5 - e #########
+######### START 6 - j #########
+<div class="synopsis-text" x-test-synopsis>{{ m.synopsis }}</div>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="synopsis-wrap"><p class="synopsis-text" x-test-synopsis>{{ m.synopsis }}</p></div>
+######### END 7 - k #########

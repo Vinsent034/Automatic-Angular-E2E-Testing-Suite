@@ -1,0 +1,15 @@
+######### START 1 - a #########
+<span class="stat-value big" x-test-stat-total>{{ store.totalCards() }}</span>
+######### END 1 - a #########
+######### START 2 - b #########
+<span x-test-stat-total>{{ store.totalCards() }}</span>
+######### END 2 - b #########
+######### START 3 - c #########
+<span data-cls="stat-value" x-test-stat-total>{{ store.totalCards() }}</span>
+######### END 3 - c #########
+######### START 6 - j #########
+<div class="stat-value" x-test-stat-total>{{ store.totalCards() }}</div>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="sv-wrap"><span class="stat-value" x-test-stat-total>{{ store.totalCards() }}</span></div>
+######### END 7 - k #########

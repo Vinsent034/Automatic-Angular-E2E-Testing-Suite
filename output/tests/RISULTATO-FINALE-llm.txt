@@ -1,0 +1,14 @@
+RISULTATO FINALE — Mutation testing LLM (200 mutanti, 2026-06-15)
+================================================================
+LLM combinato: 200 mut · 22 discriminanti · 15 non-compilanti (NA)
+Fragility per strategia:
+  RobulaPlus 15 > Selenium 10 > Absolute 9 > Relative 7 > Katalon 4 > Robula 3
+Per area:
+  search (100): RobulaPlus 14 > Selenium 8 > Absolute 7 > Relative 6 > Katalon 3 > Robula 2 (20 discr)
+  card   (100): fragility ~nulla, 2 discr (locatori a testo del titolo robusti)
+
+Confronto Static vs LLM (piu fragile -> piu robusto):
+  STATIC: Absolute > Relative > Robula > RobulaPlus > Selenium > Katalon
+  LLM:    RobulaPlus > Selenium > Absolute > Relative > Katalon > Robula
+Finding: static colpisce i locatori posizionali; LLM colpisce quelli su classi/attributi. Robula robusto in entrambi.
+Output per blocco: output/tests/llm-search-full/ e output/tests/llm-card-full/

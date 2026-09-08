@@ -1,0 +1,159 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+  @page { size: A4 portrait; margin: 15mm; }
+  html,body{margin:0;background:#fff;font-family:'Segoe UI',Helvetica,Arial,sans-serif;color:#1f1f1f;}
+  h1{font-size:18px;font-weight:700;margin:0 0 2px 0;}
+  h2{font-size:14px;font-weight:600;margin:20px 0 3px 0;}
+  h3{font-size:12px;font-weight:600;margin:14px 0 4px 0;color:#333;}
+  p.sub{font-size:11px;color:#555;margin:0 0 10px 0;}
+  p.note{font-size:11px;color:#444;margin:6px 0 10px 0;padding:8px 12px;background:#f7f7f2;border-left:3px solid #b9b9a8;}
+  p.setline{font-size:11.5px;color:#333;margin:4px 0 8px 0;padding:7px 12px;background:#eef3ff;border-left:3px solid #6f8fd6;}
+  table{border-collapse:collapse;font-size:12.5px;width:auto;min-width:340px;}
+  th{background:#f2f2f2;text-align:left;padding:9px 22px;font-weight:600;border-bottom:1px solid #e0e0e0;white-space:nowrap;}
+  td{padding:9px 22px;border-bottom:1px solid #ededed;white-space:nowrap;}
+  .cap{font-size:10.5px;color:#777;margin-top:4px;}
+  pre{font-family:Consolas,'Courier New',monospace;font-size:8.4px;line-height:1.35;background:#f6f6f6;border:1px solid #e3e3e3;border-radius:4px;padding:9px 11px;white-space:pre-wrap;word-break:break-word;}
+  .promptbox{page-break-inside:avoid;}
+</style></head><body>
+<h1>Confronto di robustezza delle strategie di localizzazione</h1>
+<p class="sub">App: angular-spotify. Valori espressi come <em>mutazioni effettuate / mutazioni totali</em>.</p>
+<p class="setline"><strong>Obsolescence</strong> e <strong>Not&nbsp;Compiled</strong> dipendono dalla mutazione (non dal locatore): sono quindi <strong>identiche per tutte le strategie</strong> nella stessa colonna.</p>
+
+<h2>1. Mutazioni generate tramite analisi statica</h2>
+<p class="sub">Tecnica della tesi precedente (operatori meccanici). 266 mutazioni.</p>
+<table><thead><tr><th>Locator</th><th>Success</th><th>Fragility</th><th>Obsolescence</th><th>Not Compiled</th></tr></thead><tbody><tr><td>Relative</td><td>117/266</td><td>23/266</td><td>68/266</td><td>58/266</td></tr><tr><td>Absolute</td><td>105/266</td><td>35/266</td><td>68/266</td><td>58/266</td></tr><tr><td>Robula</td><td>128/266</td><td>12/266</td><td>68/266</td><td>58/266</td></tr><tr><td>Katalon</td><td>95/198 *</td><td>2/198 *</td><td>68/266</td><td>58/266</td></tr><tr><td>Selenium</td><td>133/266</td><td>7/266</td><td>68/266</td><td>58/266</td></tr><tr><td>Robula+</td><td>131/266</td><td>9/266</td><td>68/266</td><td>58/266</td></tr></tbody></table>
+<p class="cap">* Katalon ha Success/Fragility su <strong>198</strong>: escluso da un test case (68 mutazioni) per un problema
+di formato pre-esistente del suo locatore (prefisso <code>xpath=</code>), non legato alle mutazioni. Obsolescence e
+Not-Compiled dipendono dalla mutazione (non dal locatore): restano quelle del set (68/266, 58/266) anche per Katalon.</p>
+
+<h2>2. Mutazioni generate da LLM secondo il modello statico (parametrico)</h2>
+<p class="sub">L'LLM applica gli 11 tipi di mutazione del modello statico (a&ndash;k). 256 mutazioni testate.</p>
+<table><thead><tr><th>Locator</th><th>Success</th><th>Fragility</th><th>Obsolescence</th><th>Not Compiled</th></tr></thead><tbody><tr><td>Relative</td><td>173/256</td><td>14/256</td><td>15/256</td><td>54/256</td></tr><tr><td>Absolute</td><td>172/256</td><td>15/256</td><td>15/256</td><td>54/256</td></tr><tr><td>Robula</td><td>183/256</td><td>4/256</td><td>15/256</td><td>54/256</td></tr><tr><td>Katalon</td><td>183/256</td><td>4/256</td><td>15/256</td><td>54/256</td></tr><tr><td>Selenium</td><td>177/256</td><td>10/256</td><td>15/256</td><td>54/256</td></tr><tr><td>Robula+</td><td>177/256</td><td>10/256</td><td>15/256</td><td>54/256</td></tr></tbody></table>
+<p class="cap">Serie ampliata da 161 a 256 mutazioni per equiparare il numero a quello dello static (266): il confronto e ora bilanciato (256 vs 266). La classifica di fragilita resta invariata (Absolute &gt; Relative &gt; Selenium/Robula+ &gt; Robula/Katalon).</p>
+<div class="promptbox">
+<h3>Prompt usato (parametrico) &mdash; system</h3>
+<pre># Prompt — Parametric Angular Mutation (LLM strategy, type-driven)
+
+## Role
+You are a front-end developer working on an Angular 19 template. In this task you apply ONE
+specific KIND of change (a &quot;mutation type&quot;) to the template. The exact mutation type to apply
+is given in the user message, with its definition and a generic before/after example.
+
+You are told WHICH type of change to make, but NOT which element: you decide autonomously
+WHERE in the template to apply it, choosing a different, plausible location in each variant.
+
+## Task
+Produce N variants of the template provided in the user message. In EACH variant:
+- apply exactly one instance of the requested mutation type, to ONE element of your choosing;
+- pick a different target element / location across the N variants (do not repeat the same edit);
+- the rest of the template stays identical to the original.
+
+## Application independence (CRITICAL)
+Operate ONLY on the markup you are given. Do NOT assume anything about which application this is,
+its domain, features or data. Use exclusively the tags, classes and attributes already present in
+the provided HTML (when the mutation type requires a new name/value, derive a plausible generic
+one — never an application-specific term). The same approach must work on any Angular template.
+
+## Validity constraints (correctness rules)
+1. The result MUST still be valid Angular 19 and compile.
+2. Do NOT alter the syntax of control flow or bindings: `@if`, `@for`, `*ngrxLet`, `[prop]`,
+   `(event)`, `[(two-way)]`, and `{{ }}` interpolations must stay valid.
+3. Do NOT touch attributes starting with `x-test` (they are test ground truth).
+4. Apply ONLY the requested mutation type — no other kind of change in the same variant.
+5. Each variant must genuinely differ from the original (no no-ops) and from every other variant.
+
+## Output format
+For EACH variant output exactly one block and nothing else:
+
+######### START {n} - {type_id} #########
+{full mutated template}
+######### END {n} - {type_id} #########
+
+- {n} = progressive number (1..N).
+- {type_id} = the identifier of the mutation type you were asked to apply (e.g. &quot;a&quot;, &quot;k&quot;).
+- The block body is the COMPLETE mutated template.
+- No comments, no explanations, no Markdown code fences.
+</pre>
+<h3>Messaggio utente (esempio, tipo k) &mdash; la definizione del tipo a&ndash;k e il template vengono iniettati</h3>
+<pre>Apply ONLY the following mutation type to the template below.
+
+Mutation type id: k
+Name: HTML Tag Insertion
+Definition: Insert a new wrapper/container tag around an existing element (add a hierarchy level).
+Generic example:
+  Before: &lt;tag attr=&quot;value&quot;&gt;text&lt;/tag&gt;
+  After:  &lt;wrapper&gt;
+    &lt;tag attr=&quot;value&quot;&gt;text&lt;/tag&gt;
+  &lt;/wrapper&gt;
+
+Produce exactly N variants, numbered 1..N, each applying THIS mutation type to a DIFFERENT element you choose. Output ONLY the delimited blocks, with {type_id} = k.
+
+----- ORIGINAL TEMPLATE -----
+{contenuto completo del file .html}
+----- END ORIGINAL TEMPLATE -----</pre>
+</div>
+
+<h2>3. Modifiche reali generate da LLM</h2>
+<p class="note"><strong>Nota:</strong> questa tabella e un'aggiunta sperimentale, inserita per osservare quali risultati produce la generazione di <em>modifiche realistiche e libere</em> da parte dell'LLM (non vincolate al modello di mutazioni statico). 200 mutazioni.</p>
+<table><thead><tr><th>Locator</th><th>Success</th><th>Fragility</th><th>Obsolescence</th><th>Not Compiled</th></tr></thead><tbody><tr><td>Relative</td><td>178/200</td><td>4/200</td><td>3/200</td><td>15/200</td></tr><tr><td>Absolute</td><td>176/200</td><td>6/200</td><td>3/200</td><td>15/200</td></tr><tr><td>Robula</td><td>182/200</td><td>0/200</td><td>3/200</td><td>15/200</td></tr><tr><td>Katalon</td><td>181/200</td><td>1/200</td><td>3/200</td><td>15/200</td></tr><tr><td>Selenium</td><td>175/200</td><td>7/200</td><td>3/200</td><td>15/200</td></tr><tr><td>Robula+</td><td>170/200</td><td>12/200</td><td>3/200</td><td>15/200</td></tr></tbody></table>
+<div class="promptbox">
+<h3>Prompt usato (realistico) &mdash; system</h3>
+<pre># Prompt — Independent Realistic Angular Mutation (LLM strategy)
+
+## Role
+You are a front-end developer working on an Angular 19 template. You make the kind of
+small, plausible changes a real developer or designer makes during everyday UI work and
+redesigns. You decide entirely on your own what to change and where — there are NO
+instructions telling you which element to touch or which kind of edit to apply.
+
+## Task
+You receive the complete source of one Angular template. Produce N variants of it. In each
+variant you autonomously introduce ONE realistic change of your own choosing, somewhere in
+the template. The change should be the sort of thing a developer would actually commit: it
+keeps the page working, but it may reshape how the markup is organised, so test locators may
+or may not react.
+
+## Spread and depth (variety, not direction)
+You decide everything; this only asks for a varied set, NOT where or how to act:
+- Across the N variants, vary BOTH where in the template you act and HOW MUCH you change —
+  from a minor touch up to a single, more substantial restructuring of a piece of markup.
+- Do NOT restrict the set to the smallest cosmetic edits, and do NOT concentrate every
+  variant on the same spot. Cover the template broadly.
+- No two variants may make essentially the same edit.
+
+## Application independence (CRITICAL)
+Operate ONLY on the markup you are given. Do NOT assume anything about which application
+this is, its domain, its features, or its data. Do not invent app-specific names. Use
+exclusively the tags, classes and attributes already present in the provided HTML. The same
+strategy must work unchanged on any Angular application.
+
+## Validity constraints (correctness rules — NOT instructions on what to change)
+1. The result MUST still be valid Angular 19 and compile.
+2. Do NOT alter the syntax of control flow or bindings: `@if`, `@for`, `*ngrxLet`, `[prop]`,
+   `(event)`, `[(two-way)]`, and `{{ }}` interpolations must stay valid.
+3. Do NOT touch attributes starting with `x-test` (they are test ground truth).
+4. Keep the feature usable: do not delete or disable the interactive elements a user needs.
+5. Exactly ONE self-contained change per variant: it may be small or a single larger
+   restructuring, but it must be one coherent edit, not several unrelated ones.
+6. Each variant must genuinely differ from the original (no no-ops) and from every other variant.
+
+## Output format
+For EACH variant output exactly one block and nothing else:
+
+######### START {n} - {label} #########
+{full mutated template}
+######### END {n} - {label} #########
+
+- {n} = progressive number (1..N).
+- {label} = a short free-text word YOU choose to describe the change you made (your own words).
+- The block body is the COMPLETE mutated template.
+- No comments, no explanations, no Markdown code fences.
+</pre>
+<h3>Messaggio utente &mdash; viene iniettato il template</h3>
+<pre>Here is the complete source of one Angular template.
+Produce exactly N variants of it, numbered 1..N, each in its own delimited block exactly as specified in your instructions. Decide entirely on your own what to change in each variant. Output ONLY the blocks, nothing else.
+
+----- ORIGINAL TEMPLATE -----
+{contenuto completo del file .html}
+----- END ORIGINAL TEMPLATE -----</pre>
+</div>
+</body></html>

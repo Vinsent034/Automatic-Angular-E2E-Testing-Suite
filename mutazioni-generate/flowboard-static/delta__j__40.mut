@@ -1,0 +1,61 @@
+#mutation-id: j
+#element: delta
+#name: detail-title
+#type: tag_type_mod_mut
+#status: COMPLETE
+######### FILE C:\Users\vince\OneDrive\Desktop\App tirocinio\Kanban board\src\app\card-detail\card-detail.component.html #########
+<section class="detail-page" x-test-card-detail>
+  <div class="page-heading" x-test-detail-heading>
+    <h2 class="page-title" x-test-detail-page-title>Card detail</h2>
+    <a class="btn btn-ghost back-btn" routerLink="/" x-test-detail-back>Back to board</a>
+  </div>
+
+  @if (store.selectedCard()) {
+    <article class="detail-card" [attr.data-card-id]="store.selectedCard()?.id" [attr.data-priority]="store.selectedCard()?.priority" x-test-detail-card>
+      <header class="detail-header">
+        <span class="card-id detail-id" x-test-detail-id>#{{ store.selectedCard()?.id }}</span>
+        <h3 class="detail-title" x-test-detail-title>{{ store.selectedCard()?.title }}</h3>
+        <div class="badge priority-badge" [attr.data-priority]="store.selectedCard()?.priority" x-test-detail-priority>{{ store.selectedCard()?.priority }}</div>
+      </header>
+
+      <div class="detail-body">
+        <div class="detail-row" x-test-detail-description-row>
+          <span class="detail-label" x-test-detail-description-label>Description</span>
+          <p class="detail-description" x-test-detail-description>{{ store.selectedCard()?.description }}</p>
+        </div>
+
+        <div class="detail-row" x-test-detail-assignee-row>
+          <span class="detail-label" x-test-detail-assignee-label>Assignee</span>
+          <span class="detail-assignee" [attr.data-assignee]="store.selectedCard()?.assignee" x-test-detail-assignee>{{ store.selectedCard()?.assignee }}</span>
+        </div>
+
+        <div class="detail-row" x-test-detail-column-row>
+          <span class="detail-label" x-test-detail-column-label>Column</span>
+          <span class="detail-column" [attr.data-column]="store.selectedCard()?.columnId" x-test-detail-column>{{ store.selectedCard()?.columnId }}</span>
+        </div>
+
+        <div class="detail-row" x-test-detail-tags-row>
+          <span class="detail-label" x-test-detail-tags-label>Tags</span>
+          <ul class="tag-list detail-tags" x-test-detail-tags>
+            @for (tag of store.selectedCard()?.tags; track tag) {
+              <li class="tag" [attr.data-tag]="tag">{{ tag }}</li>
+            } @empty {
+              <li class="tag tag-empty" x-test-detail-no-tags>no tags</li>
+            }
+          </ul>
+        </div>
+      </div>
+
+      <footer class="detail-actions" x-test-detail-actions>
+        <a class="btn btn-primary edit-btn" [routerLink]="['/card', store.selectedCard()?.id, 'edit']" x-test-detail-edit>Edit card</a>
+        <button class="btn btn-danger delete-btn" type="button" (click)="deleteAndGoBack()" x-test-detail-delete>Delete card</button>
+      </footer>
+    </article>
+  } @else {
+    <div class="not-found" x-test-detail-not-found>
+      <p class="not-found-message" x-test-detail-not-found-message>Card not found</p>
+      <a class="btn btn-primary" routerLink="/" x-test-detail-not-found-back>Go to board</a>
+    </div>
+  }
+</section>
+######### END FILE #########

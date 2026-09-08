@@ -1,0 +1,65 @@
+#mutation-id: f
+#element: alpha
+#name: auto-card-form-form-field-description
+#type: tag_mov_container_mut
+#status: COMPLETE
+######### FILE C:\Users\vince\OneDrive\Desktop\App tirocinio\Kanban board\src\app\card-form\card-form.component.html #########
+<section class="form-page" x-test-card-form>
+  <div class="page-heading" x-test-form-heading>
+    @if (editing()) {
+      <h2 class="page-title" x-test-form-title-edit>Edit card</h2>
+    } @else {
+      <h2 class="page-title" x-test-form-title-new>New card</h2>
+    }
+    <a class="btn btn-ghost back-btn" routerLink="/" x-test-form-back>Back to board</a>
+  </div>
+
+  <form class="card-form" (ngSubmit)="submit()" x-test-form>
+    <div class="form-field" x-test-form-field-title>
+      <label class="field-label" for="field-title" x-test-form-title-label>Title</label>
+      <input id="field-title" name="title" class="input form-title" type="text" required placeholder="Card title" [(ngModel)]="title" x-test-form-title>
+    </div><div class="form-field" x-test-form-field-description>
+      <label class="field-label" for="field-description" x-test-form-description-label>Description</label>
+      <textarea id="field-description" name="description" class="input form-description" rows="4" placeholder="What is this card about?" [(ngModel)]="description" x-test-form-description></textarea>
+    </div>
+
+    
+
+    <div class="form-row">
+      <div class="form-field" x-test-form-field-priority>
+        <label class="field-label" for="field-priority" x-test-form-priority-label>Priority</label>
+        <select id="field-priority" name="priority" class="input select form-priority" [(ngModel)]="priority" x-test-form-priority>
+          <option value="low">Low</option>
+          <option value="medium">Medium</option>
+          <option value="high">High</option>
+        </select>
+      </div>
+
+      <div class="form-field" x-test-form-field-assignee>
+        <label class="field-label" for="field-assignee" x-test-form-assignee-label>Assignee</label>
+        <input id="field-assignee" name="assignee" class="input form-assignee" type="text" placeholder="Who works on it" [(ngModel)]="assignee" x-test-form-assignee>
+      </div>
+
+      <div class="form-field" x-test-form-field-column>
+        <label class="field-label" for="field-column" x-test-form-column-label>Column</label>
+        <select id="field-column" name="columnId" class="input select form-column" [(ngModel)]="columnId" x-test-form-column>
+          <option value="backlog">Backlog</option>
+          <option value="inprogress">In Progress</option>
+          <option value="review">Review</option>
+          <option value="done">Done</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="form-field" x-test-form-field-tags>
+      <label class="field-label" for="field-tags" x-test-form-tags-label>Tags (comma separated)</label>
+      <input id="field-tags" name="tags" class="input form-tags" type="text" placeholder="e.g. bug, ui" [(ngModel)]="tagsText" x-test-form-tags>
+    </div>
+
+    <div class="form-actions" x-test-form-actions>
+      <button class="btn btn-primary submit-btn" type="submit" x-test-form-submit>Save card</button>
+      <a class="btn btn-ghost cancel-btn" routerLink="/" x-test-form-cancel>Cancel</a>
+    </div>
+  </form>
+</section>
+######### END FILE #########

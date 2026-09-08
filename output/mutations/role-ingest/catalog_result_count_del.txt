@@ -1,0 +1,33 @@
+######### START 1 - a #########
+<div class="grid movie-grid-{{ view() }}" x-test-grid>
+      @for (movie of movies(); track movie.id) {
+        <app-movie-card [movie]="movie" [view]="view()"></app-movie-card>
+      }
+    </div>
+######### END 1 - a #########
+######### START 2 - c #########
+<div gridclass="movie-grid movie-grid-{{ view() }}" x-test-grid>
+      @for (movie of movies(); track movie.id) {
+        <app-movie-card [movie]="movie" [view]="view()"></app-movie-card>
+      }
+    </div>
+######### END 2 - c #########
+######### START 3 - i #########
+@for (movie of movies(); track movie.id) {
+        <app-movie-card [movie]="movie" [view]="view()"></app-movie-card>
+      }
+######### END 3 - i #########
+######### START 4 - j #########
+<section class="movie-grid movie-grid-{{ view() }}" x-test-grid>
+      @for (movie of movies(); track movie.id) {
+        <app-movie-card [movie]="movie" [view]="view()"></app-movie-card>
+      }
+    </section>
+######### END 4 - j #########
+######### START 5 - k #########
+<div class="grid-wrap"><div class="movie-grid movie-grid-{{ view() }}" x-test-grid>
+      @for (movie of movies(); track movie.id) {
+        <app-movie-card [movie]="movie" [view]="view()"></app-movie-card>
+      }
+    </div></div>
+######### END 5 - k #########

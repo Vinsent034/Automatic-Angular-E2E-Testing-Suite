@@ -1,0 +1,21 @@
+######### START 1 - a #########
+<span class="date" x-test-review-date>{{ review.date }}</span>
+######### END 1 - a #########
+######### START 2 - b #########
+<span x-test-review-date>{{ review.date }}</span>
+######### END 2 - b #########
+######### START 3 - c #########
+<span dateclass="review-date" x-test-review-date>{{ review.date }}</span>
+######### END 3 - c #########
+######### START 4 - d #########
+<span class="review-date" x-test-review-date>{{ review.date }} ago</span>
+######### END 4 - d #########
+######### START 5 - e #########
+<span class="review-date" x-test-review-date> </span>
+######### END 5 - e #########
+######### START 6 - j #########
+<time class="review-date" x-test-review-date>{{ review.date }}</time>
+######### END 6 - j #########
+######### START 7 - k #########
+<span class="date-wrap"><span class="review-date" x-test-review-date>{{ review.date }}</span></span>
+######### END 7 - k #########

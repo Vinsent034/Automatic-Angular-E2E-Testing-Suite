@@ -1,0 +1,36 @@
+######### START 1 - a #########
+<div class="bar-line" x-test-genre-row [attr.data-genre]="g.genre">
+          <span class="genre-bar-label" x-test-genre-label>{{ g.genre }}</span>
+          <div class="genre-bar-track">
+            <div class="genre-bar-fill" [style.width.%]="g.share"></div>
+          </div>
+          <span class="genre-bar-count" x-test-genre-count>{{ g.count }}</span>
+        </div>
+######### END 1 - a #########
+######### START 2 - c #########
+<div data-row="genre-bar-row" x-test-genre-row [attr.data-genre]="g.genre">
+          <span class="genre-bar-label" x-test-genre-label>{{ g.genre }}</span>
+          <div class="genre-bar-track">
+            <div class="genre-bar-fill" [style.width.%]="g.share"></div>
+          </div>
+          <span class="genre-bar-count" x-test-genre-count>{{ g.count }}</span>
+        </div>
+######### END 2 - c #########
+######### START 3 - j #########
+<article class="genre-bar-row" x-test-genre-row [attr.data-genre]="g.genre">
+          <span class="genre-bar-label" x-test-genre-label>{{ g.genre }}</span>
+          <div class="genre-bar-track">
+            <div class="genre-bar-fill" [style.width.%]="g.share"></div>
+          </div>
+          <span class="genre-bar-count" x-test-genre-count>{{ g.count }}</span>
+        </article>
+######### END 3 - j #########
+######### START 4 - k #########
+<div class="bar-line-wrap"><div class="genre-bar-row" x-test-genre-row [attr.data-genre]="g.genre">
+          <span class="genre-bar-label" x-test-genre-label>{{ g.genre }}</span>
+          <div class="genre-bar-track">
+            <div class="genre-bar-fill" [style.width.%]="g.share"></div>
+          </div>
+          <span class="genre-bar-count" x-test-genre-count>{{ g.count }}</span>
+        </div></div>
+######### END 4 - k #########

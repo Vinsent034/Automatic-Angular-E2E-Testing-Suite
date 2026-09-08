@@ -1,0 +1,1945 @@
+######### START 1 - class-rename #########
+<div class="mb-6 content-spacing">
+  <!-- Search Input -->
+  <div class="search-input-container">
+    <as-input class="search-field" [control]="searchControl" icon="search" [iconSize]="'lg'" placeholder="Artists, songs, albums, or playlists" [autoFocus]="true" [rounded]="true" [enableClearButton]="true">
+    </as-input>
+    @if (isLoading$ | async) {
+      
+    }
+  </div>
+
+  <!-- Tracks -->
+  @if (tracks$ | async; as tracks) {
+    @if (tracks.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Songs</h2>
+        <as-media-table-header>
+          <div class="album-tracks-grid">
+            <div>#</div>
+            <div class="text-xs uppercase ellipsis-one-line">Title</div>
+            <svg-icon [key]="'clock'" title="Duration"></svg-icon>
+          </div>
+        </as-media-table-header>
+        <div class="mb-8">
+          @for (item of tracks; track item; let idx = $index) {
+            <as-album-track [track]="item" [contextUri]="item.album.uri" [index]="idx + 1">
+            </as-album-track>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Artists -->
+  @if (artists$ | async; as artists) {
+    @if (artists.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Artists</h2>
+        <div class="common-grid">
+          @for (item of artists; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/artist/' + item.id" [description]="item.type | titlecase" [roundedImage]="true" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Albums -->
+  @if (albums$ | async; as albums) {
+    @if (albums.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Albums</h2>
+        <div class="common-grid">
+          @for (item of albums; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [description]="item.artists[0].name" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/albums/' + item.id" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Playlists -->
+  @if (playlists$ | async; as playlists) {
+    @if (playlists.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Playlists</h2>
+        <div class="common-grid">
+          @for (item of playlists; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [description]="item.description" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/playlist/' + item.id" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+
+  <!-- Infinite scroll sentinel -->
+  <div asInfiniteScroll [enabled]="(hasMore$ | async) === true &amp;&amp; (isLoading$ | async) === false" (scrolledToBottom)="loadMore()">
+  </div>
+</div>
+
+######### END 1 - class-rename #########
+######### START 2 - class-rename #########
+<div class="mb-6 content-spacing">
+  <!-- Search Input -->
+  <div class="search-input-container">
+    <as-input class="search-box" [control]="searchControl" icon="search" [iconSize]="'lg'" placeholder="Artists, songs, albums, or playlists" [autoFocus]="true" [rounded]="true" [enableClearButton]="true">
+    </as-input>
+    @if (isLoading$ | async) {
+      
+    }
+  </div>
+
+  <!-- Tracks -->
+  @if (tracks$ | async; as tracks) {
+    @if (tracks.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Songs</h2>
+        <as-media-table-header>
+          <div class="album-tracks-grid">
+            <div>#</div>
+            <div class="text-xs uppercase ellipsis-one-line">Title</div>
+            <svg-icon [key]="'clock'" title="Duration"></svg-icon>
+          </div>
+        </as-media-table-header>
+        <div class="mb-8">
+          @for (item of tracks; track item; let idx = $index) {
+            <as-album-track [track]="item" [contextUri]="item.album.uri" [index]="idx + 1">
+            </as-album-track>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Artists -->
+  @if (artists$ | async; as artists) {
+    @if (artists.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Artists</h2>
+        <div class="common-grid">
+          @for (item of artists; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/artist/' + item.id" [description]="item.type | titlecase" [roundedImage]="true" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Albums -->
+  @if (albums$ | async; as albums) {
+    @if (albums.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Albums</h2>
+        <div class="common-grid">
+          @for (item of albums; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [description]="item.artists[0].name" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/albums/' + item.id" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Playlists -->
+  @if (playlists$ | async; as playlists) {
+    @if (playlists.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Playlists</h2>
+        <div class="common-grid">
+          @for (item of playlists; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [description]="item.description" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/playlist/' + item.id" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+
+  <!-- Infinite scroll sentinel -->
+  <div asInfiniteScroll [enabled]="(hasMore$ | async) === true &amp;&amp; (isLoading$ | async) === false" (scrolledToBottom)="loadMore()">
+  </div>
+</div>
+
+######### END 2 - class-rename #########
+######### START 3 - class-rename #########
+<div class="mb-6 content-spacing">
+  <!-- Search Input -->
+  <div class="search-input-container">
+    <as-input class="search-input" [control]="searchControl" icon="search" [iconSize]="'lg'" placeholder="Artists, songs, albums, or playlists" [autoFocus]="true" [rounded]="true" [enableClearButton]="true">
+    </as-input>
+    @if (isLoading$ | async) {
+      
+    }
+  </div>
+
+  <!-- Tracks -->
+  @if (tracks$ | async; as tracks) {
+    @if (tracks.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Songs</h2>
+        <as-media-table-header>
+          <div class="album-tracks-grid">
+            <div>#</div>
+            <div class="text-xs uppercase ellipsis-one-line">Title</div>
+            <svg-icon [key]="'clock'" title="Duration"></svg-icon>
+          </div>
+        </as-media-table-header>
+        <div class="mb-8">
+          @for (item of tracks; track item; let idx = $index) {
+            <as-album-track [track]="item" [contextUri]="item.album.uri" [index]="idx + 1">
+            </as-album-track>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Artists -->
+  @if (artists$ | async; as artists) {
+    @if (artists.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Artists</h2>
+        <div class="common-grid">
+          @for (item of artists; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/artist/' + item.id" [description]="item.type | titlecase" [roundedImage]="true" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Albums -->
+  @if (albums$ | async; as albums) {
+    @if (albums.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Albums</h2>
+        <div class="common-grid">
+          @for (item of albums; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [description]="item.artists[0].name" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/albums/' + item.id" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Playlists -->
+  @if (playlists$ | async; as playlists) {
+    @if (playlists.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Playlists</h2>
+        <div class="common-grid">
+          @for (item of playlists; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [description]="item.description" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/playlist/' + item.id" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+
+  <!-- Infinite scroll sentinel -->
+  <div asInfiniteScroll [enabled]="(hasMore$ | async) === true &amp;&amp; (isLoading$ | async) === false" (scrolledToBottom)="loadMore()">
+  </div>
+</div>
+
+######### END 3 - class-rename #########
+######### START 4 - class-rename #########
+<div class="mb-6 content-spacing">
+  <!-- Search Input -->
+  <div class="search-input-container">
+    <as-input class="query-control" [control]="searchControl" icon="search" [iconSize]="'lg'" placeholder="Artists, songs, albums, or playlists" [autoFocus]="true" [rounded]="true" [enableClearButton]="true">
+    </as-input>
+    @if (isLoading$ | async) {
+      
+    }
+  </div>
+
+  <!-- Tracks -->
+  @if (tracks$ | async; as tracks) {
+    @if (tracks.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Songs</h2>
+        <as-media-table-header>
+          <div class="album-tracks-grid">
+            <div>#</div>
+            <div class="text-xs uppercase ellipsis-one-line">Title</div>
+            <svg-icon [key]="'clock'" title="Duration"></svg-icon>
+          </div>
+        </as-media-table-header>
+        <div class="mb-8">
+          @for (item of tracks; track item; let idx = $index) {
+            <as-album-track [track]="item" [contextUri]="item.album.uri" [index]="idx + 1">
+            </as-album-track>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Artists -->
+  @if (artists$ | async; as artists) {
+    @if (artists.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Artists</h2>
+        <div class="common-grid">
+          @for (item of artists; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/artist/' + item.id" [description]="item.type | titlecase" [roundedImage]="true" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Albums -->
+  @if (albums$ | async; as albums) {
+    @if (albums.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Albums</h2>
+        <div class="common-grid">
+          @for (item of albums; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [description]="item.artists[0].name" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/albums/' + item.id" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Playlists -->
+  @if (playlists$ | async; as playlists) {
+    @if (playlists.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Playlists</h2>
+        <div class="common-grid">
+          @for (item of playlists; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [description]="item.description" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/playlist/' + item.id" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+
+  <!-- Infinite scroll sentinel -->
+  <div asInfiniteScroll [enabled]="(hasMore$ | async) === true &amp;&amp; (isLoading$ | async) === false" (scrolledToBottom)="loadMore()">
+  </div>
+</div>
+
+######### END 4 - class-rename #########
+######### START 5 - class-rename #########
+<div class="mb-6 content-spacing">
+  <!-- Search Input -->
+  <div class="search-input-container">
+    <as-input class="search-control form-control" [control]="searchControl" icon="search" [iconSize]="'lg'" placeholder="Artists, songs, albums, or playlists" [autoFocus]="true" [rounded]="true" [enableClearButton]="true">
+    </as-input>
+    @if (isLoading$ | async) {
+      
+    }
+  </div>
+
+  <!-- Tracks -->
+  @if (tracks$ | async; as tracks) {
+    @if (tracks.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Songs</h2>
+        <as-media-table-header>
+          <div class="album-tracks-grid">
+            <div>#</div>
+            <div class="text-xs uppercase ellipsis-one-line">Title</div>
+            <svg-icon [key]="'clock'" title="Duration"></svg-icon>
+          </div>
+        </as-media-table-header>
+        <div class="mb-8">
+          @for (item of tracks; track item; let idx = $index) {
+            <as-album-track [track]="item" [contextUri]="item.album.uri" [index]="idx + 1">
+            </as-album-track>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Artists -->
+  @if (artists$ | async; as artists) {
+    @if (artists.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Artists</h2>
+        <div class="common-grid">
+          @for (item of artists; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/artist/' + item.id" [description]="item.type | titlecase" [roundedImage]="true" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Albums -->
+  @if (albums$ | async; as albums) {
+    @if (albums.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Albums</h2>
+        <div class="common-grid">
+          @for (item of albums; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [description]="item.artists[0].name" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/albums/' + item.id" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Playlists -->
+  @if (playlists$ | async; as playlists) {
+    @if (playlists.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Playlists</h2>
+        <div class="common-grid">
+          @for (item of playlists; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [description]="item.description" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/playlist/' + item.id" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+
+  <!-- Infinite scroll sentinel -->
+  <div asInfiniteScroll [enabled]="(hasMore$ | async) === true &amp;&amp; (isLoading$ | async) === false" (scrolledToBottom)="loadMore()">
+  </div>
+</div>
+
+######### END 5 - class-rename #########
+######### START 6 - class-rename #########
+<div class="mb-6 content-spacing">
+  <!-- Search Input -->
+  <div class="search-wrapper">
+    <as-input class="search-control" [control]="searchControl" icon="search" [iconSize]="'lg'" placeholder="Artists, songs, albums, or playlists" [autoFocus]="true" [rounded]="true" [enableClearButton]="true">
+    </as-input>
+    @if (isLoading$ | async) {
+      
+    }
+  </div>
+
+  <!-- Tracks -->
+  @if (tracks$ | async; as tracks) {
+    @if (tracks.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Songs</h2>
+        <as-media-table-header>
+          <div class="album-tracks-grid">
+            <div>#</div>
+            <div class="text-xs uppercase ellipsis-one-line">Title</div>
+            <svg-icon [key]="'clock'" title="Duration"></svg-icon>
+          </div>
+        </as-media-table-header>
+        <div class="mb-8">
+          @for (item of tracks; track item; let idx = $index) {
+            <as-album-track [track]="item" [contextUri]="item.album.uri" [index]="idx + 1">
+            </as-album-track>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Artists -->
+  @if (artists$ | async; as artists) {
+    @if (artists.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Artists</h2>
+        <div class="common-grid">
+          @for (item of artists; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/artist/' + item.id" [description]="item.type | titlecase" [roundedImage]="true" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Albums -->
+  @if (albums$ | async; as albums) {
+    @if (albums.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Albums</h2>
+        <div class="common-grid">
+          @for (item of albums; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [description]="item.artists[0].name" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/albums/' + item.id" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Playlists -->
+  @if (playlists$ | async; as playlists) {
+    @if (playlists.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Playlists</h2>
+        <div class="common-grid">
+          @for (item of playlists; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [description]="item.description" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/playlist/' + item.id" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+
+  <!-- Infinite scroll sentinel -->
+  <div asInfiniteScroll [enabled]="(hasMore$ | async) === true &amp;&amp; (isLoading$ | async) === false" (scrolledToBottom)="loadMore()">
+  </div>
+</div>
+
+######### END 6 - class-rename #########
+######### START 7 - class-rename #########
+<div class="mb-6 content-spacing">
+  <!-- Search Input -->
+  <div class="search-bar">
+    <as-input class="search-control" [control]="searchControl" icon="search" [iconSize]="'lg'" placeholder="Artists, songs, albums, or playlists" [autoFocus]="true" [rounded]="true" [enableClearButton]="true">
+    </as-input>
+    @if (isLoading$ | async) {
+      
+    }
+  </div>
+
+  <!-- Tracks -->
+  @if (tracks$ | async; as tracks) {
+    @if (tracks.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Songs</h2>
+        <as-media-table-header>
+          <div class="album-tracks-grid">
+            <div>#</div>
+            <div class="text-xs uppercase ellipsis-one-line">Title</div>
+            <svg-icon [key]="'clock'" title="Duration"></svg-icon>
+          </div>
+        </as-media-table-header>
+        <div class="mb-8">
+          @for (item of tracks; track item; let idx = $index) {
+            <as-album-track [track]="item" [contextUri]="item.album.uri" [index]="idx + 1">
+            </as-album-track>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Artists -->
+  @if (artists$ | async; as artists) {
+    @if (artists.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Artists</h2>
+        <div class="common-grid">
+          @for (item of artists; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/artist/' + item.id" [description]="item.type | titlecase" [roundedImage]="true" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Albums -->
+  @if (albums$ | async; as albums) {
+    @if (albums.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Albums</h2>
+        <div class="common-grid">
+          @for (item of albums; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [description]="item.artists[0].name" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/albums/' + item.id" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Playlists -->
+  @if (playlists$ | async; as playlists) {
+    @if (playlists.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Playlists</h2>
+        <div class="common-grid">
+          @for (item of playlists; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [description]="item.description" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/playlist/' + item.id" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+
+  <!-- Infinite scroll sentinel -->
+  <div asInfiniteScroll [enabled]="(hasMore$ | async) === true &amp;&amp; (isLoading$ | async) === false" (scrolledToBottom)="loadMore()">
+  </div>
+</div>
+
+######### END 7 - class-rename #########
+######### START 8 - class-rename #########
+<div class="mb-6 content-spacing">
+  <!-- Search Input -->
+  <div class="search-field-container">
+    <as-input class="search-control" [control]="searchControl" icon="search" [iconSize]="'lg'" placeholder="Artists, songs, albums, or playlists" [autoFocus]="true" [rounded]="true" [enableClearButton]="true">
+    </as-input>
+    @if (isLoading$ | async) {
+      
+    }
+  </div>
+
+  <!-- Tracks -->
+  @if (tracks$ | async; as tracks) {
+    @if (tracks.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Songs</h2>
+        <as-media-table-header>
+          <div class="album-tracks-grid">
+            <div>#</div>
+            <div class="text-xs uppercase ellipsis-one-line">Title</div>
+            <svg-icon [key]="'clock'" title="Duration"></svg-icon>
+          </div>
+        </as-media-table-header>
+        <div class="mb-8">
+          @for (item of tracks; track item; let idx = $index) {
+            <as-album-track [track]="item" [contextUri]="item.album.uri" [index]="idx + 1">
+            </as-album-track>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Artists -->
+  @if (artists$ | async; as artists) {
+    @if (artists.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Artists</h2>
+        <div class="common-grid">
+          @for (item of artists; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/artist/' + item.id" [description]="item.type | titlecase" [roundedImage]="true" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Albums -->
+  @if (albums$ | async; as albums) {
+    @if (albums.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Albums</h2>
+        <div class="common-grid">
+          @for (item of albums; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [description]="item.artists[0].name" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/albums/' + item.id" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Playlists -->
+  @if (playlists$ | async; as playlists) {
+    @if (playlists.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Playlists</h2>
+        <div class="common-grid">
+          @for (item of playlists; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [description]="item.description" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/playlist/' + item.id" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+
+  <!-- Infinite scroll sentinel -->
+  <div asInfiniteScroll [enabled]="(hasMore$ | async) === true &amp;&amp; (isLoading$ | async) === false" (scrolledToBottom)="loadMore()">
+  </div>
+</div>
+
+######### END 8 - class-rename #########
+######### START 9 - class-rename #########
+<div class="mb-8 content-spacing">
+  <!-- Search Input -->
+  <div class="search-input-container">
+    <as-input class="search-control" [control]="searchControl" icon="search" [iconSize]="'lg'" placeholder="Artists, songs, albums, or playlists" [autoFocus]="true" [rounded]="true" [enableClearButton]="true">
+    </as-input>
+    @if (isLoading$ | async) {
+      
+    }
+  </div>
+
+  <!-- Tracks -->
+  @if (tracks$ | async; as tracks) {
+    @if (tracks.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Songs</h2>
+        <as-media-table-header>
+          <div class="album-tracks-grid">
+            <div>#</div>
+            <div class="text-xs uppercase ellipsis-one-line">Title</div>
+            <svg-icon [key]="'clock'" title="Duration"></svg-icon>
+          </div>
+        </as-media-table-header>
+        <div class="mb-8">
+          @for (item of tracks; track item; let idx = $index) {
+            <as-album-track [track]="item" [contextUri]="item.album.uri" [index]="idx + 1">
+            </as-album-track>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Artists -->
+  @if (artists$ | async; as artists) {
+    @if (artists.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Artists</h2>
+        <div class="common-grid">
+          @for (item of artists; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/artist/' + item.id" [description]="item.type | titlecase" [roundedImage]="true" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Albums -->
+  @if (albums$ | async; as albums) {
+    @if (albums.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Albums</h2>
+        <div class="common-grid">
+          @for (item of albums; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [description]="item.artists[0].name" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/albums/' + item.id" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Playlists -->
+  @if (playlists$ | async; as playlists) {
+    @if (playlists.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Playlists</h2>
+        <div class="common-grid">
+          @for (item of playlists; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [description]="item.description" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/playlist/' + item.id" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+
+  <!-- Infinite scroll sentinel -->
+  <div asInfiniteScroll [enabled]="(hasMore$ | async) === true &amp;&amp; (isLoading$ | async) === false" (scrolledToBottom)="loadMore()">
+  </div>
+</div>
+
+######### END 9 - class-rename #########
+######### START 10 - class-rename #########
+<div class="mb-6 page-spacing">
+  <!-- Search Input -->
+  <div class="search-input-container">
+    <as-input class="search-control" [control]="searchControl" icon="search" [iconSize]="'lg'" placeholder="Artists, songs, albums, or playlists" [autoFocus]="true" [rounded]="true" [enableClearButton]="true">
+    </as-input>
+    @if (isLoading$ | async) {
+      
+    }
+  </div>
+
+  <!-- Tracks -->
+  @if (tracks$ | async; as tracks) {
+    @if (tracks.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Songs</h2>
+        <as-media-table-header>
+          <div class="album-tracks-grid">
+            <div>#</div>
+            <div class="text-xs uppercase ellipsis-one-line">Title</div>
+            <svg-icon [key]="'clock'" title="Duration"></svg-icon>
+          </div>
+        </as-media-table-header>
+        <div class="mb-8">
+          @for (item of tracks; track item; let idx = $index) {
+            <as-album-track [track]="item" [contextUri]="item.album.uri" [index]="idx + 1">
+            </as-album-track>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Artists -->
+  @if (artists$ | async; as artists) {
+    @if (artists.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Artists</h2>
+        <div class="common-grid">
+          @for (item of artists; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/artist/' + item.id" [description]="item.type | titlecase" [roundedImage]="true" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Albums -->
+  @if (albums$ | async; as albums) {
+    @if (albums.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Albums</h2>
+        <div class="common-grid">
+          @for (item of albums; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [description]="item.artists[0].name" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/albums/' + item.id" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Playlists -->
+  @if (playlists$ | async; as playlists) {
+    @if (playlists.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Playlists</h2>
+        <div class="common-grid">
+          @for (item of playlists; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [description]="item.description" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/playlist/' + item.id" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+
+  <!-- Infinite scroll sentinel -->
+  <div asInfiniteScroll [enabled]="(hasMore$ | async) === true &amp;&amp; (isLoading$ | async) === false" (scrolledToBottom)="loadMore()">
+  </div>
+</div>
+
+######### END 10 - class-rename #########
+######### START 11 - class-rename #########
+<div class="search-page content-spacing">
+  <!-- Search Input -->
+  <div class="search-input-container">
+    <as-input class="search-control" [control]="searchControl" icon="search" [iconSize]="'lg'" placeholder="Artists, songs, albums, or playlists" [autoFocus]="true" [rounded]="true" [enableClearButton]="true">
+    </as-input>
+    @if (isLoading$ | async) {
+      
+    }
+  </div>
+
+  <!-- Tracks -->
+  @if (tracks$ | async; as tracks) {
+    @if (tracks.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Songs</h2>
+        <as-media-table-header>
+          <div class="album-tracks-grid">
+            <div>#</div>
+            <div class="text-xs uppercase ellipsis-one-line">Title</div>
+            <svg-icon [key]="'clock'" title="Duration"></svg-icon>
+          </div>
+        </as-media-table-header>
+        <div class="mb-8">
+          @for (item of tracks; track item; let idx = $index) {
+            <as-album-track [track]="item" [contextUri]="item.album.uri" [index]="idx + 1">
+            </as-album-track>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Artists -->
+  @if (artists$ | async; as artists) {
+    @if (artists.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Artists</h2>
+        <div class="common-grid">
+          @for (item of artists; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/artist/' + item.id" [description]="item.type | titlecase" [roundedImage]="true" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Albums -->
+  @if (albums$ | async; as albums) {
+    @if (albums.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Albums</h2>
+        <div class="common-grid">
+          @for (item of albums; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [description]="item.artists[0].name" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/albums/' + item.id" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Playlists -->
+  @if (playlists$ | async; as playlists) {
+    @if (playlists.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Playlists</h2>
+        <div class="common-grid">
+          @for (item of playlists; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [description]="item.description" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/playlist/' + item.id" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+
+  <!-- Infinite scroll sentinel -->
+  <div asInfiniteScroll [enabled]="(hasMore$ | async) === true &amp;&amp; (isLoading$ | async) === false" (scrolledToBottom)="loadMore()">
+  </div>
+</div>
+
+######### END 11 - class-rename #########
+######### START 12 - attr-change #########
+<div class="mb-6 content-spacing">
+  <!-- Search Input -->
+  <div class="search-input-container">
+    <as-input class="search-control" [control]="searchControl" icon="search" [iconSize]="'lg'" placeholder="Search music" [autoFocus]="true" [rounded]="true" [enableClearButton]="true">
+    </as-input>
+    @if (isLoading$ | async) {
+      
+    }
+  </div>
+
+  <!-- Tracks -->
+  @if (tracks$ | async; as tracks) {
+    @if (tracks.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Songs</h2>
+        <as-media-table-header>
+          <div class="album-tracks-grid">
+            <div>#</div>
+            <div class="text-xs uppercase ellipsis-one-line">Title</div>
+            <svg-icon [key]="'clock'" title="Duration"></svg-icon>
+          </div>
+        </as-media-table-header>
+        <div class="mb-8">
+          @for (item of tracks; track item; let idx = $index) {
+            <as-album-track [track]="item" [contextUri]="item.album.uri" [index]="idx + 1">
+            </as-album-track>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Artists -->
+  @if (artists$ | async; as artists) {
+    @if (artists.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Artists</h2>
+        <div class="common-grid">
+          @for (item of artists; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/artist/' + item.id" [description]="item.type | titlecase" [roundedImage]="true" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Albums -->
+  @if (albums$ | async; as albums) {
+    @if (albums.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Albums</h2>
+        <div class="common-grid">
+          @for (item of albums; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [description]="item.artists[0].name" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/albums/' + item.id" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Playlists -->
+  @if (playlists$ | async; as playlists) {
+    @if (playlists.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Playlists</h2>
+        <div class="common-grid">
+          @for (item of playlists; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [description]="item.description" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/playlist/' + item.id" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+
+  <!-- Infinite scroll sentinel -->
+  <div asInfiniteScroll [enabled]="(hasMore$ | async) === true &amp;&amp; (isLoading$ | async) === false" (scrolledToBottom)="loadMore()">
+  </div>
+</div>
+
+######### END 12 - attr-change #########
+######### START 13 - attr-change #########
+<div class="mb-6 content-spacing">
+  <!-- Search Input -->
+  <div class="search-input-container">
+    <as-input class="search-control" [control]="searchControl" icon="search" [iconSize]="'lg'" placeholder="Search Spotify" [autoFocus]="true" [rounded]="true" [enableClearButton]="true">
+    </as-input>
+    @if (isLoading$ | async) {
+      
+    }
+  </div>
+
+  <!-- Tracks -->
+  @if (tracks$ | async; as tracks) {
+    @if (tracks.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Songs</h2>
+        <as-media-table-header>
+          <div class="album-tracks-grid">
+            <div>#</div>
+            <div class="text-xs uppercase ellipsis-one-line">Title</div>
+            <svg-icon [key]="'clock'" title="Duration"></svg-icon>
+          </div>
+        </as-media-table-header>
+        <div class="mb-8">
+          @for (item of tracks; track item; let idx = $index) {
+            <as-album-track [track]="item" [contextUri]="item.album.uri" [index]="idx + 1">
+            </as-album-track>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Artists -->
+  @if (artists$ | async; as artists) {
+    @if (artists.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Artists</h2>
+        <div class="common-grid">
+          @for (item of artists; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/artist/' + item.id" [description]="item.type | titlecase" [roundedImage]="true" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Albums -->
+  @if (albums$ | async; as albums) {
+    @if (albums.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Albums</h2>
+        <div class="common-grid">
+          @for (item of albums; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [description]="item.artists[0].name" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/albums/' + item.id" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Playlists -->
+  @if (playlists$ | async; as playlists) {
+    @if (playlists.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Playlists</h2>
+        <div class="common-grid">
+          @for (item of playlists; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [description]="item.description" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/playlist/' + item.id" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+
+  <!-- Infinite scroll sentinel -->
+  <div asInfiniteScroll [enabled]="(hasMore$ | async) === true &amp;&amp; (isLoading$ | async) === false" (scrolledToBottom)="loadMore()">
+  </div>
+</div>
+
+######### END 13 - attr-change #########
+######### START 14 - attr-change #########
+<div class="mb-6 content-spacing">
+  <!-- Search Input -->
+  <div class="search-input-container">
+    <as-input class="search-control" [control]="searchControl" icon="search" [iconSize]="'lg'" placeholder="What do you want to listen to?" [autoFocus]="true" [rounded]="true" [enableClearButton]="true">
+    </as-input>
+    @if (isLoading$ | async) {
+      
+    }
+  </div>
+
+  <!-- Tracks -->
+  @if (tracks$ | async; as tracks) {
+    @if (tracks.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Songs</h2>
+        <as-media-table-header>
+          <div class="album-tracks-grid">
+            <div>#</div>
+            <div class="text-xs uppercase ellipsis-one-line">Title</div>
+            <svg-icon [key]="'clock'" title="Duration"></svg-icon>
+          </div>
+        </as-media-table-header>
+        <div class="mb-8">
+          @for (item of tracks; track item; let idx = $index) {
+            <as-album-track [track]="item" [contextUri]="item.album.uri" [index]="idx + 1">
+            </as-album-track>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Artists -->
+  @if (artists$ | async; as artists) {
+    @if (artists.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Artists</h2>
+        <div class="common-grid">
+          @for (item of artists; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/artist/' + item.id" [description]="item.type | titlecase" [roundedImage]="true" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Albums -->
+  @if (albums$ | async; as albums) {
+    @if (albums.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Albums</h2>
+        <div class="common-grid">
+          @for (item of albums; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [description]="item.artists[0].name" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/albums/' + item.id" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Playlists -->
+  @if (playlists$ | async; as playlists) {
+    @if (playlists.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Playlists</h2>
+        <div class="common-grid">
+          @for (item of playlists; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [description]="item.description" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/playlist/' + item.id" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+
+  <!-- Infinite scroll sentinel -->
+  <div asInfiniteScroll [enabled]="(hasMore$ | async) === true &amp;&amp; (isLoading$ | async) === false" (scrolledToBottom)="loadMore()">
+  </div>
+</div>
+
+######### END 14 - attr-change #########
+######### START 15 - attr-change #########
+<div class="mb-6 content-spacing">
+  <!-- Search Input -->
+  <div class="search-input-container">
+    <as-input class="search-control" [control]="searchControl" icon="magnifier" [iconSize]="'lg'" placeholder="Artists, songs, albums, or playlists" [autoFocus]="true" [rounded]="true" [enableClearButton]="true">
+    </as-input>
+    @if (isLoading$ | async) {
+      
+    }
+  </div>
+
+  <!-- Tracks -->
+  @if (tracks$ | async; as tracks) {
+    @if (tracks.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Songs</h2>
+        <as-media-table-header>
+          <div class="album-tracks-grid">
+            <div>#</div>
+            <div class="text-xs uppercase ellipsis-one-line">Title</div>
+            <svg-icon [key]="'clock'" title="Duration"></svg-icon>
+          </div>
+        </as-media-table-header>
+        <div class="mb-8">
+          @for (item of tracks; track item; let idx = $index) {
+            <as-album-track [track]="item" [contextUri]="item.album.uri" [index]="idx + 1">
+            </as-album-track>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Artists -->
+  @if (artists$ | async; as artists) {
+    @if (artists.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Artists</h2>
+        <div class="common-grid">
+          @for (item of artists; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/artist/' + item.id" [description]="item.type | titlecase" [roundedImage]="true" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Albums -->
+  @if (albums$ | async; as albums) {
+    @if (albums.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Albums</h2>
+        <div class="common-grid">
+          @for (item of albums; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [description]="item.artists[0].name" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/albums/' + item.id" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Playlists -->
+  @if (playlists$ | async; as playlists) {
+    @if (playlists.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Playlists</h2>
+        <div class="common-grid">
+          @for (item of playlists; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [description]="item.description" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/playlist/' + item.id" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+
+  <!-- Infinite scroll sentinel -->
+  <div asInfiniteScroll [enabled]="(hasMore$ | async) === true &amp;&amp; (isLoading$ | async) === false" (scrolledToBottom)="loadMore()">
+  </div>
+</div>
+
+######### END 15 - attr-change #########
+######### START 16 - attr-change #########
+<div class="mb-6 content-spacing">
+  <!-- Search Input -->
+  <div class="search-input-container">
+    <as-input class="search-control" [control]="searchControl" icon="search" [iconSize]="'md'" placeholder="Artists, songs, albums, or playlists" [autoFocus]="true" [rounded]="true" [enableClearButton]="true">
+    </as-input>
+    @if (isLoading$ | async) {
+      
+    }
+  </div>
+
+  <!-- Tracks -->
+  @if (tracks$ | async; as tracks) {
+    @if (tracks.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Songs</h2>
+        <as-media-table-header>
+          <div class="album-tracks-grid">
+            <div>#</div>
+            <div class="text-xs uppercase ellipsis-one-line">Title</div>
+            <svg-icon [key]="'clock'" title="Duration"></svg-icon>
+          </div>
+        </as-media-table-header>
+        <div class="mb-8">
+          @for (item of tracks; track item; let idx = $index) {
+            <as-album-track [track]="item" [contextUri]="item.album.uri" [index]="idx + 1">
+            </as-album-track>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Artists -->
+  @if (artists$ | async; as artists) {
+    @if (artists.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Artists</h2>
+        <div class="common-grid">
+          @for (item of artists; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/artist/' + item.id" [description]="item.type | titlecase" [roundedImage]="true" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Albums -->
+  @if (albums$ | async; as albums) {
+    @if (albums.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Albums</h2>
+        <div class="common-grid">
+          @for (item of albums; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [description]="item.artists[0].name" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/albums/' + item.id" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Playlists -->
+  @if (playlists$ | async; as playlists) {
+    @if (playlists.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Playlists</h2>
+        <div class="common-grid">
+          @for (item of playlists; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [description]="item.description" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/playlist/' + item.id" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+
+  <!-- Infinite scroll sentinel -->
+  <div asInfiniteScroll [enabled]="(hasMore$ | async) === true &amp;&amp; (isLoading$ | async) === false" (scrolledToBottom)="loadMore()">
+  </div>
+</div>
+
+######### END 16 - attr-change #########
+######### START 17 - attr-change #########
+<div class="mb-6 content-spacing">
+  <!-- Search Input -->
+  <div class="search-input-container">
+    <as-input class="search-control" title="Search" [control]="searchControl" icon="search" [iconSize]="'lg'" placeholder="Artists, songs, albums, or playlists" [autoFocus]="true" [rounded]="true" [enableClearButton]="true">
+    </as-input>
+    @if (isLoading$ | async) {
+      
+    }
+  </div>
+
+  <!-- Tracks -->
+  @if (tracks$ | async; as tracks) {
+    @if (tracks.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Songs</h2>
+        <as-media-table-header>
+          <div class="album-tracks-grid">
+            <div>#</div>
+            <div class="text-xs uppercase ellipsis-one-line">Title</div>
+            <svg-icon [key]="'clock'" title="Duration"></svg-icon>
+          </div>
+        </as-media-table-header>
+        <div class="mb-8">
+          @for (item of tracks; track item; let idx = $index) {
+            <as-album-track [track]="item" [contextUri]="item.album.uri" [index]="idx + 1">
+            </as-album-track>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Artists -->
+  @if (artists$ | async; as artists) {
+    @if (artists.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Artists</h2>
+        <div class="common-grid">
+          @for (item of artists; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/artist/' + item.id" [description]="item.type | titlecase" [roundedImage]="true" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Albums -->
+  @if (albums$ | async; as albums) {
+    @if (albums.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Albums</h2>
+        <div class="common-grid">
+          @for (item of albums; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [description]="item.artists[0].name" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/albums/' + item.id" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Playlists -->
+  @if (playlists$ | async; as playlists) {
+    @if (playlists.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Playlists</h2>
+        <div class="common-grid">
+          @for (item of playlists; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [description]="item.description" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/playlist/' + item.id" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+
+  <!-- Infinite scroll sentinel -->
+  <div asInfiniteScroll [enabled]="(hasMore$ | async) === true &amp;&amp; (isLoading$ | async) === false" (scrolledToBottom)="loadMore()">
+  </div>
+</div>
+
+######### END 17 - attr-change #########
+######### START 18 - attr-change #########
+<div class="mb-6 content-spacing">
+  <!-- Search Input -->
+  <div class="search-input-container">
+    <as-input class="search-control" data-role="search" [control]="searchControl" icon="search" [iconSize]="'lg'" placeholder="Artists, songs, albums, or playlists" [autoFocus]="true" [rounded]="true" [enableClearButton]="true">
+    </as-input>
+    @if (isLoading$ | async) {
+      
+    }
+  </div>
+
+  <!-- Tracks -->
+  @if (tracks$ | async; as tracks) {
+    @if (tracks.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Songs</h2>
+        <as-media-table-header>
+          <div class="album-tracks-grid">
+            <div>#</div>
+            <div class="text-xs uppercase ellipsis-one-line">Title</div>
+            <svg-icon [key]="'clock'" title="Duration"></svg-icon>
+          </div>
+        </as-media-table-header>
+        <div class="mb-8">
+          @for (item of tracks; track item; let idx = $index) {
+            <as-album-track [track]="item" [contextUri]="item.album.uri" [index]="idx + 1">
+            </as-album-track>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Artists -->
+  @if (artists$ | async; as artists) {
+    @if (artists.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Artists</h2>
+        <div class="common-grid">
+          @for (item of artists; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/artist/' + item.id" [description]="item.type | titlecase" [roundedImage]="true" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Albums -->
+  @if (albums$ | async; as albums) {
+    @if (albums.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Albums</h2>
+        <div class="common-grid">
+          @for (item of albums; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [description]="item.artists[0].name" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/albums/' + item.id" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Playlists -->
+  @if (playlists$ | async; as playlists) {
+    @if (playlists.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Playlists</h2>
+        <div class="common-grid">
+          @for (item of playlists; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [description]="item.description" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/playlist/' + item.id" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+
+  <!-- Infinite scroll sentinel -->
+  <div asInfiniteScroll [enabled]="(hasMore$ | async) === true &amp;&amp; (isLoading$ | async) === false" (scrolledToBottom)="loadMore()">
+  </div>
+</div>
+
+######### END 18 - attr-change #########
+######### START 19 - attr-change #########
+<div class="mb-6 content-spacing">
+  <!-- Search Input -->
+  <div class="search-input-container">
+    <as-input class="search-control" aria-label="Search" [control]="searchControl" icon="search" [iconSize]="'lg'" placeholder="Artists, songs, albums, or playlists" [autoFocus]="true" [rounded]="true" [enableClearButton]="true">
+    </as-input>
+    @if (isLoading$ | async) {
+      
+    }
+  </div>
+
+  <!-- Tracks -->
+  @if (tracks$ | async; as tracks) {
+    @if (tracks.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Songs</h2>
+        <as-media-table-header>
+          <div class="album-tracks-grid">
+            <div>#</div>
+            <div class="text-xs uppercase ellipsis-one-line">Title</div>
+            <svg-icon [key]="'clock'" title="Duration"></svg-icon>
+          </div>
+        </as-media-table-header>
+        <div class="mb-8">
+          @for (item of tracks; track item; let idx = $index) {
+            <as-album-track [track]="item" [contextUri]="item.album.uri" [index]="idx + 1">
+            </as-album-track>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Artists -->
+  @if (artists$ | async; as artists) {
+    @if (artists.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Artists</h2>
+        <div class="common-grid">
+          @for (item of artists; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/artist/' + item.id" [description]="item.type | titlecase" [roundedImage]="true" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Albums -->
+  @if (albums$ | async; as albums) {
+    @if (albums.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Albums</h2>
+        <div class="common-grid">
+          @for (item of albums; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [description]="item.artists[0].name" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/albums/' + item.id" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Playlists -->
+  @if (playlists$ | async; as playlists) {
+    @if (playlists.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Playlists</h2>
+        <div class="common-grid">
+          @for (item of playlists; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [description]="item.description" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/playlist/' + item.id" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+
+  <!-- Infinite scroll sentinel -->
+  <div asInfiniteScroll [enabled]="(hasMore$ | async) === true &amp;&amp; (isLoading$ | async) === false" (scrolledToBottom)="loadMore()">
+  </div>
+</div>
+
+######### END 19 - attr-change #########
+######### START 20 - tag-swap #########
+<section class="mb-6 content-spacing">
+  <!-- Search Input -->
+  <div class="search-input-container">
+    <as-input class="search-control" [control]="searchControl" icon="search" [iconSize]="'lg'" placeholder="Artists, songs, albums, or playlists" [autoFocus]="true" [rounded]="true" [enableClearButton]="true">
+    </as-input>
+    @if (isLoading$ | async) {
+      
+    }
+  </div>
+
+  <!-- Tracks -->
+  @if (tracks$ | async; as tracks) {
+    @if (tracks.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Songs</h2>
+        <as-media-table-header>
+          <div class="album-tracks-grid">
+            <div>#</div>
+            <div class="text-xs uppercase ellipsis-one-line">Title</div>
+            <svg-icon [key]="'clock'" title="Duration"></svg-icon>
+          </div>
+        </as-media-table-header>
+        <div class="mb-8">
+          @for (item of tracks; track item; let idx = $index) {
+            <as-album-track [track]="item" [contextUri]="item.album.uri" [index]="idx + 1">
+            </as-album-track>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Artists -->
+  @if (artists$ | async; as artists) {
+    @if (artists.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Artists</h2>
+        <div class="common-grid">
+          @for (item of artists; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/artist/' + item.id" [description]="item.type | titlecase" [roundedImage]="true" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Albums -->
+  @if (albums$ | async; as albums) {
+    @if (albums.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Albums</h2>
+        <div class="common-grid">
+          @for (item of albums; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [description]="item.artists[0].name" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/albums/' + item.id" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Playlists -->
+  @if (playlists$ | async; as playlists) {
+    @if (playlists.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Playlists</h2>
+        <div class="common-grid">
+          @for (item of playlists; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [description]="item.description" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/playlist/' + item.id" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+
+  <!-- Infinite scroll sentinel -->
+  <div asInfiniteScroll [enabled]="(hasMore$ | async) === true &amp;&amp; (isLoading$ | async) === false" (scrolledToBottom)="loadMore()">
+  </div>
+</div>
+
+######### END 20 - tag-swap #########
+######### START 21 - tag-swap #########
+<div class="mb-6 content-spacing">
+  <!-- Search Input -->
+  <section class="search-input-container">
+    <as-input class="search-control" [control]="searchControl" icon="search" [iconSize]="'lg'" placeholder="Artists, songs, albums, or playlists" [autoFocus]="true" [rounded]="true" [enableClearButton]="true">
+    </as-input>
+    @if (isLoading$ | async) {
+      
+    }
+  </div>
+
+  <!-- Tracks -->
+  @if (tracks$ | async; as tracks) {
+    @if (tracks.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Songs</h2>
+        <as-media-table-header>
+          <div class="album-tracks-grid">
+            <div>#</div>
+            <div class="text-xs uppercase ellipsis-one-line">Title</div>
+            <svg-icon [key]="'clock'" title="Duration"></svg-icon>
+          </div>
+        </as-media-table-header>
+        <div class="mb-8">
+          @for (item of tracks; track item; let idx = $index) {
+            <as-album-track [track]="item" [contextUri]="item.album.uri" [index]="idx + 1">
+            </as-album-track>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Artists -->
+  @if (artists$ | async; as artists) {
+    @if (artists.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Artists</h2>
+        <div class="common-grid">
+          @for (item of artists; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/artist/' + item.id" [description]="item.type | titlecase" [roundedImage]="true" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Albums -->
+  @if (albums$ | async; as albums) {
+    @if (albums.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Albums</h2>
+        <div class="common-grid">
+          @for (item of albums; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [description]="item.artists[0].name" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/albums/' + item.id" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Playlists -->
+  @if (playlists$ | async; as playlists) {
+    @if (playlists.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Playlists</h2>
+        <div class="common-grid">
+          @for (item of playlists; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [description]="item.description" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/playlist/' + item.id" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+
+  <!-- Infinite scroll sentinel -->
+  <div asInfiniteScroll [enabled]="(hasMore$ | async) === true &amp;&amp; (isLoading$ | async) === false" (scrolledToBottom)="loadMore()">
+  </div>
+</div>
+
+######### END 21 - tag-swap #########
+######### START 22 - tag-swap #########
+<div class="mb-6 content-spacing">
+  <!-- Search Input -->
+  <form class="search-input-container">
+    <as-input class="search-control" [control]="searchControl" icon="search" [iconSize]="'lg'" placeholder="Artists, songs, albums, or playlists" [autoFocus]="true" [rounded]="true" [enableClearButton]="true">
+    </as-input>
+    @if (isLoading$ | async) {
+      
+    }
+  </div>
+
+  <!-- Tracks -->
+  @if (tracks$ | async; as tracks) {
+    @if (tracks.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Songs</h2>
+        <as-media-table-header>
+          <div class="album-tracks-grid">
+            <div>#</div>
+            <div class="text-xs uppercase ellipsis-one-line">Title</div>
+            <svg-icon [key]="'clock'" title="Duration"></svg-icon>
+          </div>
+        </as-media-table-header>
+        <div class="mb-8">
+          @for (item of tracks; track item; let idx = $index) {
+            <as-album-track [track]="item" [contextUri]="item.album.uri" [index]="idx + 1">
+            </as-album-track>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Artists -->
+  @if (artists$ | async; as artists) {
+    @if (artists.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Artists</h2>
+        <div class="common-grid">
+          @for (item of artists; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/artist/' + item.id" [description]="item.type | titlecase" [roundedImage]="true" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Albums -->
+  @if (albums$ | async; as albums) {
+    @if (albums.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Albums</h2>
+        <div class="common-grid">
+          @for (item of albums; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [description]="item.artists[0].name" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/albums/' + item.id" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Playlists -->
+  @if (playlists$ | async; as playlists) {
+    @if (playlists.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Playlists</h2>
+        <div class="common-grid">
+          @for (item of playlists; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [description]="item.description" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/playlist/' + item.id" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+
+  <!-- Infinite scroll sentinel -->
+  <div asInfiniteScroll [enabled]="(hasMore$ | async) === true &amp;&amp; (isLoading$ | async) === false" (scrolledToBottom)="loadMore()">
+  </div>
+</div>
+
+######### END 22 - tag-swap #########
+######### START 23 - wrapper-add #########
+<div class="mb-6 content-spacing">
+  <!-- Search Input -->
+  <div class="search-input-container">
+    <div class="input-group">
+      <as-input class="search-control" [control]="searchControl" icon="search" [iconSize]="'lg'" placeholder="Artists, songs, albums, or playlists" [autoFocus]="true" [rounded]="true" [enableClearButton]="true">
+      </as-input>
+    </div>
+    @if (isLoading$ | async) {
+      
+    }
+  </div>
+
+  <!-- Tracks -->
+  @if (tracks$ | async; as tracks) {
+    @if (tracks.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Songs</h2>
+        <as-media-table-header>
+          <div class="album-tracks-grid">
+            <div>#</div>
+            <div class="text-xs uppercase ellipsis-one-line">Title</div>
+            <svg-icon [key]="'clock'" title="Duration"></svg-icon>
+          </div>
+        </as-media-table-header>
+        <div class="mb-8">
+          @for (item of tracks; track item; let idx = $index) {
+            <as-album-track [track]="item" [contextUri]="item.album.uri" [index]="idx + 1">
+            </as-album-track>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Artists -->
+  @if (artists$ | async; as artists) {
+    @if (artists.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Artists</h2>
+        <div class="common-grid">
+          @for (item of artists; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/artist/' + item.id" [description]="item.type | titlecase" [roundedImage]="true" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Albums -->
+  @if (albums$ | async; as albums) {
+    @if (albums.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Albums</h2>
+        <div class="common-grid">
+          @for (item of albums; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [description]="item.artists[0].name" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/albums/' + item.id" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Playlists -->
+  @if (playlists$ | async; as playlists) {
+    @if (playlists.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Playlists</h2>
+        <div class="common-grid">
+          @for (item of playlists; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [description]="item.description" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/playlist/' + item.id" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+
+  <!-- Infinite scroll sentinel -->
+  <div asInfiniteScroll [enabled]="(hasMore$ | async) === true &amp;&amp; (isLoading$ | async) === false" (scrolledToBottom)="loadMore()">
+  </div>
+</div>
+
+######### END 23 - wrapper-add #########
+######### START 24 - wrapper-remove #########
+<div class="mb-6 content-spacing">
+  <!-- Search Input -->
+  <as-input class="search-control" [control]="searchControl" icon="search" [iconSize]="'lg'" placeholder="Artists, songs, albums, or playlists" [autoFocus]="true" [rounded]="true" [enableClearButton]="true">
+    </as-input>
+    @if (isLoading$ | async) {
+      
+    }
+  </div>
+
+  <!-- Tracks -->
+  @if (tracks$ | async; as tracks) {
+    @if (tracks.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Songs</h2>
+        <as-media-table-header>
+          <div class="album-tracks-grid">
+            <div>#</div>
+            <div class="text-xs uppercase ellipsis-one-line">Title</div>
+            <svg-icon [key]="'clock'" title="Duration"></svg-icon>
+          </div>
+        </as-media-table-header>
+        <div class="mb-8">
+          @for (item of tracks; track item; let idx = $index) {
+            <as-album-track [track]="item" [contextUri]="item.album.uri" [index]="idx + 1">
+            </as-album-track>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Artists -->
+  @if (artists$ | async; as artists) {
+    @if (artists.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Artists</h2>
+        <div class="common-grid">
+          @for (item of artists; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/artist/' + item.id" [description]="item.type | titlecase" [roundedImage]="true" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Albums -->
+  @if (albums$ | async; as albums) {
+    @if (albums.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Albums</h2>
+        <div class="common-grid">
+          @for (item of albums; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [description]="item.artists[0].name" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/albums/' + item.id" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+  <!-- Playlists -->
+  @if (playlists$ | async; as playlists) {
+    @if (playlists.length) {
+      <div>
+        <h2 class="mt-8 mb-4 text-heading">Playlists</h2>
+        <div class="common-grid">
+          @for (item of playlists; track item) {
+            <as-card [title]="item.name" [uri]="item.uri" [description]="item.description" [imageUrl]="item.images?.[0]?.url" [routerUrl]="'/playlist/' + item.id" (togglePlay)="togglePlay($event, item.uri)">
+            </as-card>
+          }
+        </div>
+      </div>
+    }
+  }
+
+  <!-- Infinite scroll sentinel -->
+  <div asInfiniteScroll [enabled]="(hasMore$ | async) === true &amp;&amp; (isLoading$ | async) === false" (scrolledToBottom)="loadMore()">
+  </div>
+</div>
+
+######### END 24 - wrapper-remove #########

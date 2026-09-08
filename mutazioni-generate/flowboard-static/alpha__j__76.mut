@@ -1,0 +1,12 @@
+#mutation-id: j
+#element: alpha
+#name: toast-label
+#type: tag_type_mod_mut
+#status: COMPLETE
+######### FILE C:\Users\vince\OneDrive\Desktop\App tirocinio\Kanban board\src\app\toast\toast.component.html #########
+<aside class="toast-bar" role="status" aria-live="polite" x-test-toast-bar>
+  <span class="toast-icon" aria-hidden="true" x-test-toast-icon>ℹ</span>
+  <div class="toast-label" x-test-toast-label>Last action:</div>
+  <span class="toast-message" x-test-toast>{{ store.toast() }}</span>
+</aside>
+######### END FILE #########

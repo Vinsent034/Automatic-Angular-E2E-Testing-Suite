@@ -1,0 +1,55 @@
+######### START 1 - a #########
+<li class="review-card" x-test-review-item>
+        <div class="review-head">
+          <span class="review-author" x-test-review-author>{{ review.author }}</span>
+          <span class="review-stars" x-test-review-stars [attr.data-rating]="review.rating">{{ stars(review.rating) }}</span>
+          <span class="review-date" x-test-review-date>{{ review.date }}</span>
+          <button type="button" class="review-remove" (click)="remove(review.id)" aria-label="Remove review" x-test-review-remove>×</button>
+        </div>
+        <p class="review-comment" x-test-review-comment>{{ review.comment }}</p>
+      </li>
+######### END 1 - a #########
+######### START 2 - b #########
+<li x-test-review-item>
+        <div class="review-head">
+          <span class="review-author" x-test-review-author>{{ review.author }}</span>
+          <span class="review-stars" x-test-review-stars [attr.data-rating]="review.rating">{{ stars(review.rating) }}</span>
+          <span class="review-date" x-test-review-date>{{ review.date }}</span>
+          <button type="button" class="review-remove" (click)="remove(review.id)" aria-label="Remove review" x-test-review-remove>×</button>
+        </div>
+        <p class="review-comment" x-test-review-comment>{{ review.comment }}</p>
+      </li>
+######### END 2 - b #########
+######### START 3 - c #########
+<li liclass="review-item" x-test-review-item>
+        <div class="review-head">
+          <span class="review-author" x-test-review-author>{{ review.author }}</span>
+          <span class="review-stars" x-test-review-stars [attr.data-rating]="review.rating">{{ stars(review.rating) }}</span>
+          <span class="review-date" x-test-review-date>{{ review.date }}</span>
+          <button type="button" class="review-remove" (click)="remove(review.id)" aria-label="Remove review" x-test-review-remove>×</button>
+        </div>
+        <p class="review-comment" x-test-review-comment>{{ review.comment }}</p>
+      </li>
+######### END 3 - c #########
+######### START 4 - j #########
+<div class="review-item" x-test-review-item>
+        <div class="review-head">
+          <span class="review-author" x-test-review-author>{{ review.author }}</span>
+          <span class="review-stars" x-test-review-stars [attr.data-rating]="review.rating">{{ stars(review.rating) }}</span>
+          <span class="review-date" x-test-review-date>{{ review.date }}</span>
+          <button type="button" class="review-remove" (click)="remove(review.id)" aria-label="Remove review" x-test-review-remove>×</button>
+        </div>
+        <p class="review-comment" x-test-review-comment>{{ review.comment }}</p>
+      </div>
+######### END 4 - j #########
+######### START 5 - k #########
+<div class="review-item-wrap"><li class="review-item" x-test-review-item>
+        <div class="review-head">
+          <span class="review-author" x-test-review-author>{{ review.author }}</span>
+          <span class="review-stars" x-test-review-stars [attr.data-rating]="review.rating">{{ stars(review.rating) }}</span>
+          <span class="review-date" x-test-review-date>{{ review.date }}</span>
+          <button type="button" class="review-remove" (click)="remove(review.id)" aria-label="Remove review" x-test-review-remove>×</button>
+        </div>
+        <p class="review-comment" x-test-review-comment>{{ review.comment }}</p>
+      </li></div>
+######### END 5 - k #########

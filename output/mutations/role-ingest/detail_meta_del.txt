@@ -1,0 +1,24 @@
+######### START 1 - a #########
+<p class="director">Directed by {{ m.director }}</p>
+######### END 1 - a #########
+######### START 2 - b #########
+<p>Directed by {{ m.director }}</p>
+######### END 2 - b #########
+######### START 3 - c #########
+<p dirclass="detail-director">Directed by {{ m.director }}</p>
+######### END 3 - c #########
+######### START 4 - d #########
+<p class="detail-director">Dir: {{ m.director }}</p>
+######### END 4 - d #########
+######### START 5 - e #########
+<p class="detail-director"> </p>
+######### END 5 - e #########
+######### START 6 - i #########
+Directed by {{ m.director }}
+######### END 6 - i #########
+######### START 7 - j #########
+<div class="detail-director">Directed by {{ m.director }}</div>
+######### END 7 - j #########
+######### START 8 - k #########
+<span class="director-wrap"><p class="detail-director">Directed by {{ m.director }}</p></span>
+######### END 8 - k #########

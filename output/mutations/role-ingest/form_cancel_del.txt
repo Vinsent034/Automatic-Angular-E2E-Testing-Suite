@@ -1,0 +1,15 @@
+######### START 1 - a #########
+<button type="submit" class="btn btn-save-primary" x-test-form-submit>{{ isEdit ? 'Save changes' : 'Create movie' }}</button>
+######### END 1 - a #########
+######### START 2 - c #########
+<button data-btn="submit" class="btn btn-primary" x-test-form-submit>{{ isEdit ? 'Save changes' : 'Create movie' }}</button>
+######### END 2 - c #########
+######### START 3 - d #########
+<button type="submit" class="btn btn-primary" x-test-form-submit>{{ isEdit ? 'Save' : 'Create' }}</button>
+######### END 3 - d #########
+######### START 4 - j #########
+<span type="submit" class="btn btn-primary" x-test-form-submit>{{ isEdit ? 'Save changes' : 'Create movie' }}</span>
+######### END 4 - j #########
+######### START 5 - k #########
+<span class="submit-btn-wrap"><button type="submit" class="btn btn-primary" x-test-form-submit>{{ isEdit ? 'Save changes' : 'Create movie' }}</button></span>
+######### END 5 - k #########

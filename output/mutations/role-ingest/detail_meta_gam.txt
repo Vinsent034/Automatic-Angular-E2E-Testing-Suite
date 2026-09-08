@@ -1,0 +1,36 @@
+######### START 1 - a #########
+<header class="detail-head">
+      <div class="detail-poster" aria-hidden="true">
+        <span class="poster-letter">{{ m.title.charAt(0) }}</span>
+      </div>
+      <div class="detail-info">
+        <p class="detail-kicker">Movie</p>
+        <h1 class="detail-title" x-test-detail-title>{{ m.title }}</h1>
+        <p class="detail-meta" x-test-detail-meta>{{ m.year }} · {{ m.genre }} · {{ m.runtime }} min · ★ {{ m.rating }}</p>
+        <p class="detail-director">Directed by {{ m.director }}</p>
+        <div class="detail-actions">
+          <button type="button" class="btn btn-favorite" [class.active]="m.favorite" [attr.aria-pressed]="m.favorite" (click)="toggleFavorite()" x-test-detail-favorite>{{ m.favorite ? '♥ In favorites' : '♡ Add to favorites' }}</button>
+          <a [routerLink]="['/movie', m.id, 'edit']" class="btn" x-test-edit-button>Edit</a>
+          <button type="button" class="btn btn-danger" (click)="openDelete()" x-test-delete-button>Delete</button>
+        </div>
+      </div>
+    </header>
+######### END 1 - a #########
+######### START 2 - j #########
+<div class="detail-header">
+      <div class="detail-poster" aria-hidden="true">
+        <span class="poster-letter">{{ m.title.charAt(0) }}</span>
+      </div>
+      <div class="detail-info">
+        <p class="detail-kicker">Movie</p>
+        <h1 class="detail-title" x-test-detail-title>{{ m.title }}</h1>
+        <p class="detail-meta" x-test-detail-meta>{{ m.year }} · {{ m.genre }} · {{ m.runtime }} min · ★ {{ m.rating }}</p>
+        <p class="detail-director">Directed by {{ m.director }}</p>
+        <div class="detail-actions">
+          <button type="button" class="btn btn-favorite" [class.active]="m.favorite" [attr.aria-pressed]="m.favorite" (click)="toggleFavorite()" x-test-detail-favorite>{{ m.favorite ? '♥ In favorites' : '♡ Add to favorites' }}</button>
+          <a [routerLink]="['/movie', m.id, 'edit']" class="btn" x-test-edit-button>Edit</a>
+          <button type="button" class="btn btn-danger" (click)="openDelete()" x-test-delete-button>Delete</button>
+        </div>
+      </div>
+    </div>
+######### END 2 - j #########

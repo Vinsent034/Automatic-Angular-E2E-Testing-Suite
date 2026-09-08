@@ -1,0 +1,27 @@
+######### START 1 - a #########
+<div class="form-field">
+        <label for="review-author" class="field-label">Your name</label>
+        <input id="review-author" type="text" formControlName="author" class="field-input" x-test-review-field-author>
+        @if (showError('author')) {
+          <p class="field-error" x-test-review-error-author>Name is required.</p>
+        }
+      </div>
+######### END 1 - a #########
+######### START 2 - c #########
+<div fieldclass="field">
+        <label for="review-author" class="field-label">Your name</label>
+        <input id="review-author" type="text" formControlName="author" class="field-input" x-test-review-field-author>
+        @if (showError('author')) {
+          <p class="field-error" x-test-review-error-author>Name is required.</p>
+        }
+      </div>
+######### END 2 - c #########
+######### START 3 - j #########
+<section class="field">
+        <label for="review-author" class="field-label">Your name</label>
+        <input id="review-author" type="text" formControlName="author" class="field-input" x-test-review-field-author>
+        @if (showError('author')) {
+          <p class="field-error" x-test-review-error-author>Name is required.</p>
+        }
+      </section>
+######### END 3 - j #########

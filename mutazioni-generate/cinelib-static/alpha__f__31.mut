@@ -1,0 +1,90 @@
+#mutation-id: f
+#element: alpha
+#name: form-cancel
+#type: tag_mov_container_mut
+#status: COMPLETE
+######### FILE C:\Users\vince\OneDrive\Desktop\App tirocinio\cinelib\src\app\movie-form\movie-form.component.html #########
+<section class="form-page" x-test-form-page>
+  <h1 class="form-heading" x-test-form-heading>{{ isEdit ? 'Edit movie' : 'Add movie' }}</h1>
+
+  <form [formGroup]="form" (ngSubmit)="save()" class="movie-form" x-test-form>
+    <div class="field">
+      <label for="title" class="field-label">Title</label>
+      <input id="title" type="text" formControlName="title" class="field-input" x-test-field-title>
+      @if (showError('title')) {
+        <p class="field-error" x-test-error-title>Title is required.</p>
+      }
+    </div>
+
+    <div class="field-row">
+      <div class="field">
+        <label for="year" class="field-label">Year</label>
+        <input id="year" type="number" formControlName="year" class="field-input" x-test-field-year>
+        @if (showError('year')) {
+          <p class="field-error" x-test-error-year>Enter a year between 1900 and 2100.</p>
+        }
+      </div>
+      <div class="field">
+        <label for="genre" class="field-label">Genre</label>
+        <select id="genre" formControlName="genre" class="field-input" x-test-field-genre>
+          @for (g of genres; track g) {
+            <option [value]="g">{{ g }}</option>
+          }
+        </select>
+      </div>
+      <div class="field">
+        <label for="rating" class="field-label">Rating</label>
+        <input id="rating" type="number" step="0.1" formControlName="rating" class="field-input" x-test-field-rating>
+        @if (showError('rating')) {
+          <p class="field-error" x-test-error-rating>Rating must be between 0 and 5.</p>
+        }
+      </div>
+    </div>
+
+    <div class="field">
+      <label for="runtime" class="field-label">Runtime (minutes)</label>
+      <input id="runtime" type="number" formControlName="runtime" class="field-input" x-test-field-runtime>
+      @if (showError('runtime')) {
+        <p class="field-error" x-test-error-runtime>Runtime must be between 1 and 600 minutes.</p>
+      }
+    </div>
+
+    <div class="field">
+      <label for="director" class="field-label">Director</label>
+      <input id="director" type="text" formControlName="director" class="field-input" x-test-field-director>
+      @if (showError('director')) {
+        <p class="field-error" x-test-error-director>Director is required.</p>
+      }
+    </div>
+
+    <div class="field">
+      <label for="synopsis" class="field-label">Synopsis</label>
+      <textarea id="synopsis" formControlName="synopsis" rows="4" class="field-input" x-test-field-synopsis></textarea>
+    </div>
+
+    <div class="field">
+      <div class="cast-header">
+        <span class="field-label">Cast</span>
+        <button type="button" class="btn btn-small" (click)="addCast()" x-test-cast-add>+ Add member</button>
+      </div>
+
+      <div formArrayName="cast" class="cast-editor" x-test-cast-editor>
+        @for (member of cast.controls; track $index) {
+          <div class="cast-edit-row" [formGroupName]="$index" x-test-cast-edit-row>
+            <input type="text" formControlName="name" placeholder="Actor name" class="field-input" x-test-cast-name>
+            <input type="text" formControlName="role" placeholder="Role" class="field-input" x-test-cast-role>
+            <button type="button" class="btn btn-danger btn-small" (click)="removeCast($index)" x-test-cast-remove>Remove</button>
+          </div>
+        } @empty {
+          <p class="cast-empty">No cast members yet.</p>
+        }
+      </div>
+    </div>
+
+    <div class="form-actions"><button type="button" class="btn" (click)="cancel()" x-test-form-cancel>Cancel</button>
+      <button type="submit" class="btn btn-primary" x-test-form-submit>{{ isEdit ? 'Save changes' : 'Create movie' }}</button>
+      
+    </div>
+  </form>
+</section>
+######### END FILE #########

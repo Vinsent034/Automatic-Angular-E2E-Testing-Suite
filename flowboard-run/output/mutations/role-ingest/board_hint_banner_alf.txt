@@ -1,0 +1,21 @@
+######### START 1 - a #########
+<p class="hint-banner note" x-test-hint-banner>Use the Move menu on a card to change column</p>
+######### END 1 - a #########
+######### START 2 - b #########
+<p x-test-hint-banner>Use the Move menu on a card to change column</p>
+######### END 2 - b #########
+######### START 3 - c #########
+<p data-hint="hint-banner" x-test-hint-banner>Use the Move menu on a card to change column</p>
+######### END 3 - c #########
+######### START 4 - d #########
+<p class="hint-banner" x-test-hint-banner>Drag cards between columns to update them</p>
+######### END 4 - d #########
+######### START 5 - e #########
+<p class="hint-banner" x-test-hint-banner></p>
+######### END 5 - e #########
+######### START 6 - j #########
+<div class="hint-banner" x-test-hint-banner>Use the Move menu on a card to change column</div>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="hint-wrap"><p class="hint-banner" x-test-hint-banner>Use the Move menu on a card to change column</p></div>
+######### END 7 - k #########

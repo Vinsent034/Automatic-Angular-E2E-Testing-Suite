@@ -1,0 +1,606 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.sqlite.SQLiteJDBCLoader in an unnamed module (file:/C:/Users/vince/OneDrive/Desktop/Tirocinio/progetto/Automatic-Angular-E2E-Testing-Suite/mutation-tester/target/mutation-tester-1.0.0-jar-with-dependencies.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+Loaded class: AbsoluteXPathTest
+Loaded abstract class: BaseTest
+Loaded class: KatalonXPathTest
+Loaded class: RelativeXPathTest
+Loaded class: RobulaPlusXPathTest
+Loaded class: RobulaXPathTest
+Loaded class: SeleniumXPathTest
+Loaded factory class: WebDriverFactory
+Found 6 classes to execute.
+Found 20 mutations to apply.
+Starting TypeScript application (npm start)...
+TypeScript application started.
+
+20 out of 20 remaining.
+Mutation mutation_LLM_card_component_html_27_LLM_GENERATED_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Jun 15, 2026 7:20:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+AVVERTENZA: Unable to find CDP implementation matching 149
+Jun 15, 2026 7:20:19 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+AVVERTENZA: Unable to find version of CDP to use for 149.0.7827.104. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[WebDriverFactory] DevTools/sentry-block saltato: You are using a no-op implementation of the CDP. The most likely reason for this is that Selenium was unable to find an implementation of the CDP protocol that matches your browser. Please be sure to include an implementation on the classpath, possibly by adding a new (maven) dependency of `org.seleniumhq.selenium:selenium-devtools-vNN:4.27.0` where `NN` matches the major version of the browser you're using.
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: DevTools Connection
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+19 out of 20 remaining.
+Mutation mutation_LLM_card_component_html_31_LLM_GENERATED_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+18 out of 20 remaining.
+Mutation mutation_LLM_card_component_html_3_LLM_GENERATED_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+17 out of 20 remaining.
+Mutation mutation_LLM_card_component_html_29_LLM_GENERATED_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+16 out of 20 remaining.
+Mutation mutation_LLM_card_component_html_33_LLM_GENERATED_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+15 out of 20 remaining.
+Mutation mutation_LLM_card_component_html_35_LLM_GENERATED_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+14 out of 20 remaining.
+Mutation mutation_LLM_card_component_html_36_LLM_GENERATED_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//div[3]/div"}
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [FAILED] no such element: Unable to locate element: {"method":"css selector" "selector":".ng-star-inserted:nth-child(3) > .common-grid"}
+---------------------------------------------
+
+13 out of 20 remaining.
+Mutation mutation_LLM_card_component_html_30_LLM_GENERATED_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[3]/div"}
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Artists'])[1]/following::div[1]"}
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[3]/div[1]"}
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//*[3]/*[@class='common-grid']"}
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//div[3]/div"}
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [FAILED] no such element: Unable to locate element: {"method":"css selector" "selector":".ng-star-inserted:nth-child(3) > .common-grid"}
+---------------------------------------------
+
+12 out of 20 remaining.
+Mutation mutation_LLM_card_component_html_38_LLM_GENERATED_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[3]/div"}
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Artists'])[1]/following::div[1]"}
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[3]/div[1]"}
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//*[3]/*[@class='common-grid']"}
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//div[3]/div"}
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [FAILED] no such element: Unable to locate element: {"method":"css selector" "selector":".ng-star-inserted:nth-child(3) > .common-grid"}
+---------------------------------------------
+
+11 out of 20 remaining.
+Mutation mutation_LLM_card_component_html_44_LLM_GENERATED_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[3]/div"}
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Artists'])[1]/following::div[1]"}
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[3]/div[1]"}
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//*[3]/*[@class='common-grid']"}
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//div[3]/div"}
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [FAILED] no such element: Unable to locate element: {"method":"css selector" "selector":".ng-star-inserted:nth-child(3) > .common-grid"}
+---------------------------------------------
+
+10 out of 20 remaining.
+Mutation mutation_LLM_card_component_html_28_LLM_GENERATED_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[3]/div"}
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Artists'])[1]/following::div[1]"}
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[3]/div[1]"}
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//*[3]/*[@class='common-grid']"}
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//div[3]/div"}
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [FAILED] no such element: Unable to locate element: {"method":"css selector" "selector":".ng-star-inserted:nth-child(3) > .common-grid"}
+---------------------------------------------
+
+9 out of 20 remaining.
+Mutation mutation_LLM_card_component_html_39_LLM_GENERATED_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[3]/div"}
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Artists'])[1]/following::div[1]"}
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[3]/div[1]"}
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//*[3]/*[@class='common-grid']"}
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//div[3]/div"}
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [FAILED] no such element: Unable to locate element: {"method":"css selector" "selector":".ng-star-inserted:nth-child(3) > .common-grid"}
+---------------------------------------------
+
+8 out of 20 remaining.
+Mutation mutation_LLM_card_component_html_32_LLM_GENERATED_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[3]/div"}
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Artists'])[1]/following::div[1]"}
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[3]/div[1]"}
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//*[3]/*[@class='common-grid']"}
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//div[3]/div"}
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [FAILED] no such element: Unable to locate element: {"method":"css selector" "selector":".ng-star-inserted:nth-child(3) > .common-grid"}
+---------------------------------------------
+
+7 out of 20 remaining.
+Mutation mutation_LLM_card_component_html_42_LLM_GENERATED_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[3]/div"}
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Artists'])[1]/following::div[1]"}
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[3]/div[1]"}
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//*[3]/*[@class='common-grid']"}
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//div[3]/div"}
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [FAILED] no such element: Unable to locate element: {"method":"css selector" "selector":".ng-star-inserted:nth-child(3) > .common-grid"}
+---------------------------------------------
+
+6 out of 20 remaining.
+Mutation mutation_LLM_card_component_html_37_LLM_GENERATED_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[3]/div"}
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Artists'])[1]/following::div[1]"}
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[3]/div[1]"}
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//*[3]/*[@class='common-grid']"}
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//div[3]/div"}
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [FAILED] no such element: Unable to locate element: {"method":"css selector" "selector":".ng-star-inserted:nth-child(3) > .common-grid"}
+---------------------------------------------
+
+5 out of 20 remaining.
+Mutation mutation_LLM_card_component_html_41_LLM_GENERATED_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[3]/div"}
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Artists'])[1]/following::div[1]"}
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[3]/div[1]"}
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//*[3]/*[@class='common-grid']"}
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//div[3]/div"}
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [FAILED] no such element: Unable to locate element: {"method":"css selector" "selector":".ng-star-inserted:nth-child(3) > .common-grid"}
+---------------------------------------------
+
+4 out of 20 remaining.
+Mutation mutation_LLM_card_component_html_4_LLM_GENERATED_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[3]/div"}
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Artists'])[1]/following::div[1]"}
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[3]/div[1]"}
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//*[3]/*[@class='common-grid']"}
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//div[3]/div"}
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [FAILED] no such element: Unable to locate element: {"method":"css selector" "selector":".ng-star-inserted:nth-child(3) > .common-grid"}
+---------------------------------------------
+
+3 out of 20 remaining.
+Mutation mutation_LLM_card_component_html_40_LLM_GENERATED_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[3]/div"}
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Artists'])[1]/following::div[1]"}
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[3]/div[1]"}
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//*[3]/*[@class='common-grid']"}
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//div[3]/div"}
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [FAILED] no such element: Unable to locate element: {"method":"css selector" "selector":".ng-star-inserted:nth-child(3) > .common-grid"}
+---------------------------------------------
+
+2 out of 20 remaining.
+Mutation mutation_LLM_card_component_html_43_LLM_GENERATED_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[3]/div"}
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Artists'])[1]/following::div[1]"}
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[3]/div[1]"}
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//*[3]/*[@class='common-grid']"}
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//div[3]/div"}
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [FAILED] no such element: Unable to locate element: {"method":"css selector" "selector":".ng-star-inserted:nth-child(3) > .common-grid"}
+---------------------------------------------
+
+1 out of 20 remaining.
+Mutation mutation_LLM_card_component_html_34_LLM_GENERATED_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[3]/div"}
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Artists'])[1]/following::div[1]"}
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[3]/div[1]"}
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//*[3]/*[@class='common-grid']"}
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//div[3]/div"}
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [FAILED] no such element: Unable to locate element: {"method":"css selector" "selector":".ng-star-inserted:nth-child(3) > .common-grid"}
+---------------------------------------------
+Executed batches:
+Name,Id,Locator,Tag,Status,Error
+descriptionstyling,mutation_LLM_card_component_html_27_LLM_GENERATED_card_component_html,AbsoluteXPathTest,card_component_html,PASSED,null
+descriptionstyling,mutation_LLM_card_component_html_27_LLM_GENERATED_card_component_html,KatalonXPathTest,card_component_html,PASSED,null
+descriptionstyling,mutation_LLM_card_component_html_27_LLM_GENERATED_card_component_html,RelativeXPathTest,card_component_html,PASSED,null
+descriptionstyling,mutation_LLM_card_component_html_27_LLM_GENERATED_card_component_html,RobulaPlusXPathTest,card_component_html,PASSED,null
+descriptionstyling,mutation_LLM_card_component_html_27_LLM_GENERATED_card_component_html,RobulaXPathTest,card_component_html,PASSED,null
+descriptionstyling,mutation_LLM_card_component_html_27_LLM_GENERATED_card_component_html,SeleniumXPathTest,card_component_html,PASSED,null
+titlestyling,mutation_LLM_card_component_html_31_LLM_GENERATED_card_component_html,AbsoluteXPathTest,card_component_html,PASSED,null
+titlestyling,mutation_LLM_card_component_html_31_LLM_GENERATED_card_component_html,KatalonXPathTest,card_component_html,PASSED,null
+titlestyling,mutation_LLM_card_component_html_31_LLM_GENERATED_card_component_html,RelativeXPathTest,card_component_html,PASSED,null
+titlestyling,mutation_LLM_card_component_html_31_LLM_GENERATED_card_component_html,RobulaPlusXPathTest,card_component_html,PASSED,null
+titlestyling,mutation_LLM_card_component_html_31_LLM_GENERATED_card_component_html,RobulaXPathTest,card_component_html,PASSED,null
+titlestyling,mutation_LLM_card_component_html_31_LLM_GENERATED_card_component_html,SeleniumXPathTest,card_component_html,PASSED,null
+titlewrap,mutation_LLM_card_component_html_3_LLM_GENERATED_card_component_html,AbsoluteXPathTest,card_component_html,PASSED,null
+titlewrap,mutation_LLM_card_component_html_3_LLM_GENERATED_card_component_html,KatalonXPathTest,card_component_html,PASSED,null
+titlewrap,mutation_LLM_card_component_html_3_LLM_GENERATED_card_component_html,RelativeXPathTest,card_component_html,PASSED,null
+titlewrap,mutation_LLM_card_component_html_3_LLM_GENERATED_card_component_html,RobulaPlusXPathTest,card_component_html,PASSED,null
+titlewrap,mutation_LLM_card_component_html_3_LLM_GENERATED_card_component_html,RobulaXPathTest,card_component_html,PASSED,null
+titlewrap,mutation_LLM_card_component_html_3_LLM_GENERATED_card_component_html,SeleniumXPathTest,card_component_html,PASSED,null
+cardbodypaddingchange,mutation_LLM_card_component_html_29_LLM_GENERATED_card_component_html,AbsoluteXPathTest,card_component_html,PASSED,null
+cardbodypaddingchange,mutation_LLM_card_component_html_29_LLM_GENERATED_card_component_html,KatalonXPathTest,card_component_html,PASSED,null
+cardbodypaddingchange,mutation_LLM_card_component_html_29_LLM_GENERATED_card_component_html,RelativeXPathTest,card_component_html,PASSED,null
+cardbodypaddingchange,mutation_LLM_card_component_html_29_LLM_GENERATED_card_component_html,RobulaPlusXPathTest,card_component_html,PASSED,null
+cardbodypaddingchange,mutation_LLM_card_component_html_29_LLM_GENERATED_card_component_html,RobulaXPathTest,card_component_html,PASSED,null
+cardbodypaddingchange,mutation_LLM_card_component_html_29_LLM_GENERATED_card_component_html,SeleniumXPathTest,card_component_html,PASSED,null
+simplifiedcard,mutation_LLM_card_component_html_33_LLM_GENERATED_card_component_html,AbsoluteXPathTest,card_component_html,PASSED,null
+simplifiedcard,mutation_LLM_card_component_html_33_LLM_GENERATED_card_component_html,KatalonXPathTest,card_component_html,PASSED,null
+simplifiedcard,mutation_LLM_card_component_html_33_LLM_GENERATED_card_component_html,RelativeXPathTest,card_component_html,PASSED,null
+simplifiedcard,mutation_LLM_card_component_html_33_LLM_GENERATED_card_component_html,RobulaPlusXPathTest,card_component_html,PASSED,null
+simplifiedcard,mutation_LLM_card_component_html_33_LLM_GENERATED_card_component_html,RobulaXPathTest,card_component_html,PASSED,null
+simplifiedcard,mutation_LLM_card_component_html_33_LLM_GENERATED_card_component_html,SeleniumXPathTest,card_component_html,PASSED,null
+newclassadded,mutation_LLM_card_component_html_35_LLM_GENERATED_card_component_html,AbsoluteXPathTest,card_component_html,PASSED,null
+newclassadded,mutation_LLM_card_component_html_35_LLM_GENERATED_card_component_html,KatalonXPathTest,card_component_html,PASSED,null
+newclassadded,mutation_LLM_card_component_html_35_LLM_GENERATED_card_component_html,RelativeXPathTest,card_component_html,PASSED,null
+newclassadded,mutation_LLM_card_component_html_35_LLM_GENERATED_card_component_html,RobulaPlusXPathTest,card_component_html,PASSED,null
+newclassadded,mutation_LLM_card_component_html_35_LLM_GENERATED_card_component_html,RobulaXPathTest,card_component_html,PASSED,null
+newclassadded,mutation_LLM_card_component_html_35_LLM_GENERATED_card_component_html,SeleniumXPathTest,card_component_html,PASSED,null
+removedattribute,mutation_LLM_card_component_html_36_LLM_GENERATED_card_component_html,AbsoluteXPathTest,card_component_html,PASSED,null
+removedattribute,mutation_LLM_card_component_html_36_LLM_GENERATED_card_component_html,KatalonXPathTest,card_component_html,PASSED,null
+removedattribute,mutation_LLM_card_component_html_36_LLM_GENERATED_card_component_html,RelativeXPathTest,card_component_html,PASSED,null
+removedattribute,mutation_LLM_card_component_html_36_LLM_GENERATED_card_component_html,RobulaPlusXPathTest,card_component_html,PASSED,null
+removedattribute,mutation_LLM_card_component_html_36_LLM_GENERATED_card_component_html,RobulaXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[3]/div"}
+removedattribute,mutation_LLM_card_component_html_36_LLM_GENERATED_card_component_html,SeleniumXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".ng-star-inserted:nth-child(3) > .common-grid"}
+descriptionwrapping,mutation_LLM_card_component_html_30_LLM_GENERATED_card_component_html,AbsoluteXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[3]/div"}
+descriptionwrapping,mutation_LLM_card_component_html_30_LLM_GENERATED_card_component_html,KatalonXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Artists'])[1]/following::div[1]"}
+descriptionwrapping,mutation_LLM_card_component_html_30_LLM_GENERATED_card_component_html,RelativeXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[3]/div[1]"}
+descriptionwrapping,mutation_LLM_card_component_html_30_LLM_GENERATED_card_component_html,RobulaPlusXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[3]/*[@class='common-grid']"}
+descriptionwrapping,mutation_LLM_card_component_html_30_LLM_GENERATED_card_component_html,RobulaXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[3]/div"}
+descriptionwrapping,mutation_LLM_card_component_html_30_LLM_GENERATED_card_component_html,SeleniumXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".ng-star-inserted:nth-child(3) > .common-grid"}
+descriptionwrapper,mutation_LLM_card_component_html_38_LLM_GENERATED_card_component_html,AbsoluteXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[3]/div"}
+descriptionwrapper,mutation_LLM_card_component_html_38_LLM_GENERATED_card_component_html,KatalonXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Artists'])[1]/following::div[1]"}
+descriptionwrapper,mutation_LLM_card_component_html_38_LLM_GENERATED_card_component_html,RelativeXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[3]/div[1]"}
+descriptionwrapper,mutation_LLM_card_component_html_38_LLM_GENERATED_card_component_html,RobulaPlusXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[3]/*[@class='common-grid']"}
+descriptionwrapper,mutation_LLM_card_component_html_38_LLM_GENERATED_card_component_html,RobulaXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[3]/div"}
+descriptionwrapper,mutation_LLM_card_component_html_38_LLM_GENERATED_card_component_html,SeleniumXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".ng-star-inserted:nth-child(3) > .common-grid"}
+modifiedcardbodyclass,mutation_LLM_card_component_html_44_LLM_GENERATED_card_component_html,AbsoluteXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[3]/div"}
+modifiedcardbodyclass,mutation_LLM_card_component_html_44_LLM_GENERATED_card_component_html,KatalonXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Artists'])[1]/following::div[1]"}
+modifiedcardbodyclass,mutation_LLM_card_component_html_44_LLM_GENERATED_card_component_html,RelativeXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[3]/div[1]"}
+modifiedcardbodyclass,mutation_LLM_card_component_html_44_LLM_GENERATED_card_component_html,RobulaPlusXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[3]/*[@class='common-grid']"}
+modifiedcardbodyclass,mutation_LLM_card_component_html_44_LLM_GENERATED_card_component_html,RobulaXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[3]/div"}
+modifiedcardbodyclass,mutation_LLM_card_component_html_44_LLM_GENERATED_card_component_html,SeleniumXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".ng-star-inserted:nth-child(3) > .common-grid"}
+mediacoverclasschange,mutation_LLM_card_component_html_28_LLM_GENERATED_card_component_html,AbsoluteXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[3]/div"}
+mediacoverclasschange,mutation_LLM_card_component_html_28_LLM_GENERATED_card_component_html,KatalonXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Artists'])[1]/following::div[1]"}
+mediacoverclasschange,mutation_LLM_card_component_html_28_LLM_GENERATED_card_component_html,RelativeXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[3]/div[1]"}
+mediacoverclasschange,mutation_LLM_card_component_html_28_LLM_GENERATED_card_component_html,RobulaPlusXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[3]/*[@class='common-grid']"}
+mediacoverclasschange,mutation_LLM_card_component_html_28_LLM_GENERATED_card_component_html,RobulaXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[3]/div"}
+mediacoverclasschange,mutation_LLM_card_component_html_28_LLM_GENERATED_card_component_html,SeleniumXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".ng-star-inserted:nth-child(3) > .common-grid"}
+cardbodyclass,mutation_LLM_card_component_html_39_LLM_GENERATED_card_component_html,AbsoluteXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[3]/div"}
+cardbodyclass,mutation_LLM_card_component_html_39_LLM_GENERATED_card_component_html,KatalonXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Artists'])[1]/following::div[1]"}
+cardbodyclass,mutation_LLM_card_component_html_39_LLM_GENERATED_card_component_html,RelativeXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[3]/div[1]"}
+cardbodyclass,mutation_LLM_card_component_html_39_LLM_GENERATED_card_component_html,RobulaPlusXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[3]/*[@class='common-grid']"}
+cardbodyclass,mutation_LLM_card_component_html_39_LLM_GENERATED_card_component_html,RobulaXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[3]/div"}
+cardbodyclass,mutation_LLM_card_component_html_39_LLM_GENERATED_card_component_html,SeleniumXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".ng-star-inserted:nth-child(3) > .common-grid"}
+cardbodypadding,mutation_LLM_card_component_html_32_LLM_GENERATED_card_component_html,AbsoluteXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[3]/div"}
+cardbodypadding,mutation_LLM_card_component_html_32_LLM_GENERATED_card_component_html,KatalonXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Artists'])[1]/following::div[1]"}
+cardbodypadding,mutation_LLM_card_component_html_32_LLM_GENERATED_card_component_html,RelativeXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[3]/div[1]"}
+cardbodypadding,mutation_LLM_card_component_html_32_LLM_GENERATED_card_component_html,RobulaPlusXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[3]/*[@class='common-grid']"}
+cardbodypadding,mutation_LLM_card_component_html_32_LLM_GENERATED_card_component_html,RobulaXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[3]/div"}
+cardbodypadding,mutation_LLM_card_component_html_32_LLM_GENERATED_card_component_html,SeleniumXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".ng-star-inserted:nth-child(3) > .common-grid"}
+updatedplaybuttonclass,mutation_LLM_card_component_html_42_LLM_GENERATED_card_component_html,AbsoluteXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[3]/div"}
+updatedplaybuttonclass,mutation_LLM_card_component_html_42_LLM_GENERATED_card_component_html,KatalonXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Artists'])[1]/following::div[1]"}
+updatedplaybuttonclass,mutation_LLM_card_component_html_42_LLM_GENERATED_card_component_html,RelativeXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[3]/div[1]"}
+updatedplaybuttonclass,mutation_LLM_card_component_html_42_LLM_GENERATED_card_component_html,RobulaPlusXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[3]/*[@class='common-grid']"}
+updatedplaybuttonclass,mutation_LLM_card_component_html_42_LLM_GENERATED_card_component_html,RobulaXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[3]/div"}
+updatedplaybuttonclass,mutation_LLM_card_component_html_42_LLM_GENERATED_card_component_html,SeleniumXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".ng-star-inserted:nth-child(3) > .common-grid"}
+wrappedcardbody,mutation_LLM_card_component_html_37_LLM_GENERATED_card_component_html,AbsoluteXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[3]/div"}
+wrappedcardbody,mutation_LLM_card_component_html_37_LLM_GENERATED_card_component_html,KatalonXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Artists'])[1]/following::div[1]"}
+wrappedcardbody,mutation_LLM_card_component_html_37_LLM_GENERATED_card_component_html,RelativeXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[3]/div[1]"}
+wrappedcardbody,mutation_LLM_card_component_html_37_LLM_GENERATED_card_component_html,RobulaPlusXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[3]/*[@class='common-grid']"}
+wrappedcardbody,mutation_LLM_card_component_html_37_LLM_GENERATED_card_component_html,RobulaXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[3]/div"}
+wrappedcardbody,mutation_LLM_card_component_html_37_LLM_GENERATED_card_component_html,SeleniumXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".ng-star-inserted:nth-child(3) > .common-grid"}
+refactoredcardstructure,mutation_LLM_card_component_html_41_LLM_GENERATED_card_component_html,AbsoluteXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[3]/div"}
+refactoredcardstructure,mutation_LLM_card_component_html_41_LLM_GENERATED_card_component_html,KatalonXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Artists'])[1]/following::div[1]"}
+refactoredcardstructure,mutation_LLM_card_component_html_41_LLM_GENERATED_card_component_html,RelativeXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[3]/div[1]"}
+refactoredcardstructure,mutation_LLM_card_component_html_41_LLM_GENERATED_card_component_html,RobulaPlusXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[3]/*[@class='common-grid']"}
+refactoredcardstructure,mutation_LLM_card_component_html_41_LLM_GENERATED_card_component_html,RobulaXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[3]/div"}
+refactoredcardstructure,mutation_LLM_card_component_html_41_LLM_GENERATED_card_component_html,SeleniumXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".ng-star-inserted:nth-child(3) > .common-grid"}
+buttonsizing,mutation_LLM_card_component_html_4_LLM_GENERATED_card_component_html,AbsoluteXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[3]/div"}
+buttonsizing,mutation_LLM_card_component_html_4_LLM_GENERATED_card_component_html,KatalonXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Artists'])[1]/following::div[1]"}
+buttonsizing,mutation_LLM_card_component_html_4_LLM_GENERATED_card_component_html,RelativeXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[3]/div[1]"}
+buttonsizing,mutation_LLM_card_component_html_4_LLM_GENERATED_card_component_html,RobulaPlusXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[3]/*[@class='common-grid']"}
+buttonsizing,mutation_LLM_card_component_html_4_LLM_GENERATED_card_component_html,RobulaXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[3]/div"}
+buttonsizing,mutation_LLM_card_component_html_4_LLM_GENERATED_card_component_html,SeleniumXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".ng-star-inserted:nth-child(3) > .common-grid"}
+cardcoverstyling,mutation_LLM_card_component_html_40_LLM_GENERATED_card_component_html,AbsoluteXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[3]/div"}
+cardcoverstyling,mutation_LLM_card_component_html_40_LLM_GENERATED_card_component_html,KatalonXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Artists'])[1]/following::div[1]"}
+cardcoverstyling,mutation_LLM_card_component_html_40_LLM_GENERATED_card_component_html,RelativeXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[3]/div[1]"}
+cardcoverstyling,mutation_LLM_card_component_html_40_LLM_GENERATED_card_component_html,RobulaPlusXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[3]/*[@class='common-grid']"}
+cardcoverstyling,mutation_LLM_card_component_html_40_LLM_GENERATED_card_component_html,RobulaXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[3]/div"}
+cardcoverstyling,mutation_LLM_card_component_html_40_LLM_GENERATED_card_component_html,SeleniumXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".ng-star-inserted:nth-child(3) > .common-grid"}
+addedcontainerdiv,mutation_LLM_card_component_html_43_LLM_GENERATED_card_component_html,AbsoluteXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[3]/div"}
+addedcontainerdiv,mutation_LLM_card_component_html_43_LLM_GENERATED_card_component_html,KatalonXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Artists'])[1]/following::div[1]"}
+addedcontainerdiv,mutation_LLM_card_component_html_43_LLM_GENERATED_card_component_html,RelativeXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[3]/div[1]"}
+addedcontainerdiv,mutation_LLM_card_component_html_43_LLM_GENERATED_card_component_html,RobulaPlusXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[3]/*[@class='common-grid']"}
+addedcontainerdiv,mutation_LLM_card_component_html_43_LLM_GENERATED_card_component_html,RobulaXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[3]/div"}
+addedcontainerdiv,mutation_LLM_card_component_html_43_LLM_GENERATED_card_component_html,SeleniumXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".ng-star-inserted:nth-child(3) > .common-grid"}
+modifiedcardbody,mutation_LLM_card_component_html_34_LLM_GENERATED_card_component_html,AbsoluteXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html/body/angular-spotify-root/as-layout/as-main-view/div[2]/as-search/div/div[3]/div"}
+modifiedcardbody,mutation_LLM_card_component_html_34_LLM_GENERATED_card_component_html,KatalonXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Artists'])[1]/following::div[1]"}
+modifiedcardbody,mutation_LLM_card_component_html_34_LLM_GENERATED_card_component_html,RelativeXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//body/angular-spotify-root/as-layout/as-main-view/div/as-search/div/div[3]/div[1]"}
+modifiedcardbody,mutation_LLM_card_component_html_34_LLM_GENERATED_card_component_html,RobulaPlusXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[3]/*[@class='common-grid']"}
+modifiedcardbody,mutation_LLM_card_component_html_34_LLM_GENERATED_card_component_html,RobulaXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[3]/div"}
+modifiedcardbody,mutation_LLM_card_component_html_34_LLM_GENERATED_card_component_html,SeleniumXPathTest,card_component_html,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".ng-star-inserted:nth-child(3) > .common-grid"}
+
+
+Test results:
+Locator,Total,Success,Fragility,Obsolescence,Not Compiled
+RelativeXPathTest,20,7,0,13,0
+AbsoluteXPathTest,20,7,0,13,0
+RobulaXPathTest,20,6,1,13,0
+KatalonXPathTest,20,7,0,13,0
+SeleniumXPathTest,20,6,1,13,0
+RobulaPlusXPathTest,20,7,0,13,0
+
+File saved: output\tests\batches.csv
+File saved: output\tests\stats.csv
+
+Tests completed.
+Execution time: 771 seconds.

@@ -1,0 +1,86 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.sqlite.SQLiteJDBCLoader in an unnamed module (file:/C:/Users/vince/OneDrive/Desktop/Tirocinio/progetto/Automatic-Angular-E2E-Testing-Suite/mutation-generator/llm-generator/target/llm-generator-1.0.0-jar-with-dependencies.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+LLM generator | model=llama-3.3-70b-versatile | 70 variants/target x 3 targets | 2 API key(s)
+
+============= InputField (search.component.html) =============
+  Call 1: 6/70 valid mutants so far.
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 19s before retry...
+  Call 2: 10/70 valid mutants so far.
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 25s before retry...
+  Call 3: 13/70 valid mutants so far.
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 4s before retry...
+  Call 4: 13/70 valid mutants so far.
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 25s before retry...
+  [Groq] HTTP 429 per-minute (attempt 2/6). Pausing 21s before retry...
+  Call 5: 14/70 valid mutants so far.
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 5s before retry...
+  [Groq] HTTP 429 per-minute (attempt 2/6). Pausing 20s before retry...
+  Call 6: 14/70 valid mutants so far.
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 33s before retry...
+  Call 7: 16/70 valid mutants so far.
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 25s before retry...
+  Call 8: 17/70 valid mutants so far.
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 44s before retry...
+  Call 9: 18/70 valid mutants so far.
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 26s before retry...
+  Call 10: 20/70 valid mutants so far.
+  [Groq] HTTP 429 (daily quota exhausted) -> rotating to key 2/2.
+  Call 11: 20/70 valid mutants so far.
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 54s before retry...
+  Call 12: 20/70 valid mutants so far.
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 33s before retry...
+  [Groq] HTTP 429 per-minute (attempt 2/6). Pausing 21s before retry...
+  Call 13: 20/70 valid mutants so far.
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 5s before retry...
+  Call 14: 22/70 valid mutants so far.
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 24s before retry...
+  Call 15: 23/70 valid mutants so far.
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 25s before retry...
+  Call 16: 23/70 valid mutants so far.
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 46s before retry...
+  Call 17: 23/70 valid mutants so far.
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 5s before retry...
+  [Groq] HTTP 429 per-minute (attempt 2/6). Pausing 20s before retry...
+  Call 18: 23/70 valid mutants so far.
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 5s before retry...
+  Call 19: 23/70 valid mutants so far.
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 26s before retry...
+  [Groq] HTTP 429 per-minute (attempt 2/6). Pausing 20s before retry...
+  Call 20: 25/70 valid mutants so far.
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 5s before retry...
+  Call 21: 25/70 valid mutants so far.
+  [Groq] HTTP 429 per-minute (attempt 1/6). Pausing 25s before retry...
+  Call 22: 25/70 valid mutants so far.
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 2/2).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 2/2).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 2/2).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 2/2).
+  Too many consecutive Groq failures, moving on.
+  Target done: 25 mutants.
+
+============= ArtistCard (search.component.html) =============
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 2/2).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 2/2).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 2/2).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 2/2).
+  Too many consecutive Groq failures, moving on.
+  Target done: 0 mutants.
+
+============= CardTitle (card.component.html) =============
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 2/2).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 2/2).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 2/2).
+  [Groq] HTTP 429 (daily quota exhausted) and no more keys left (used 2/2).
+  Too many consecutive Groq failures, moving on.
+  Target done: 0 mutants.
+
+==============================================
+DONE. LLM mutants saved to mutations.db: 25
+CSV: output/mutations/llm-mutations.csv
+Checkpoint: NOT running the mutation-tester. Stop for review.

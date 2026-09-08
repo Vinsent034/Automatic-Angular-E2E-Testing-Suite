@@ -1,0 +1,21 @@
+######### START 1 - a #########
+<span class="total-label muted" x-test-total-label>Total cards</span>
+######### END 1 - a #########
+######### START 2 - b #########
+<span x-test-total-label>Total cards</span>
+######### END 2 - b #########
+######### START 3 - c #########
+<span data-cls="total-label" x-test-total-label>Total cards</span>
+######### END 3 - c #########
+######### START 4 - d #########
+<span class="total-label" x-test-total-label>All cards</span>
+######### END 4 - d #########
+######### START 5 - e #########
+<span class="total-label" x-test-total-label></span>
+######### END 5 - e #########
+######### START 6 - j #########
+<div class="total-label" x-test-total-label>Total cards</div>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="tl-wrap"><span class="total-label" x-test-total-label>Total cards</span></div>
+######### END 7 - k #########

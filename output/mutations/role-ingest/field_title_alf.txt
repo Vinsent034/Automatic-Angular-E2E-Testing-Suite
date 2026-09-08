@@ -1,0 +1,15 @@
+######### START 1 - a #########
+<input id="title" type="text" formControlName="title" class="field-control" x-test-field-title>
+######### END 1 - a #########
+######### START 2 - b #########
+<input id="title" formControlName="title" class="field-input" x-test-field-title>
+######### END 2 - b #########
+######### START 3 - c #########
+<input id="title" data-type="text" formControlName="title" class="field-input" x-test-field-title>
+######### END 3 - c #########
+######### START 4 - j #########
+<textarea id="title" type="text" formControlName="title" class="field-input" x-test-field-title></textarea>
+######### END 4 - j #########
+######### START 5 - k #########
+<div class="title-field-wrap"><input id="title" type="text" formControlName="title" class="field-input" x-test-field-title></div>
+######### END 5 - k #########

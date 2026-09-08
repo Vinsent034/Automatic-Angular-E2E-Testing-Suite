@@ -1,0 +1,27 @@
+######### START 1 - a #########
+<div class="form-field">
+      <label for="review-comment" class="field-label">Comment</label>
+      <textarea id="review-comment" formControlName="comment" rows="3" class="field-input" x-test-review-field-comment></textarea>
+      @if (showError('comment')) {
+        <p class="field-error" x-test-review-error-comment>Write at least 3 characters.</p>
+      }
+    </div>
+######### END 1 - a #########
+######### START 2 - c #########
+<div fieldclass="field">
+      <label for="review-comment" class="field-label">Comment</label>
+      <textarea id="review-comment" formControlName="comment" rows="3" class="field-input" x-test-review-field-comment></textarea>
+      @if (showError('comment')) {
+        <p class="field-error" x-test-review-error-comment>Write at least 3 characters.</p>
+      }
+    </div>
+######### END 2 - c #########
+######### START 3 - j #########
+<section class="field">
+      <label for="review-comment" class="field-label">Comment</label>
+      <textarea id="review-comment" formControlName="comment" rows="3" class="field-input" x-test-review-field-comment></textarea>
+      @if (showError('comment')) {
+        <p class="field-error" x-test-review-error-comment>Write at least 3 characters.</p>
+      }
+    </section>
+######### END 3 - j #########

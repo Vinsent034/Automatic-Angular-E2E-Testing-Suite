@@ -1,0 +1,63 @@
+#mutation-id: j
+#element: gamma
+#name: review-comment
+#type: tag_type_mod_mut
+#status: COMPLETE
+######### FILE C:\Users\vince\OneDrive\Desktop\App tirocinio\cinelib\src\app\reviews\reviews.component.html #########
+<div class="reviews" x-test-reviews>
+  <div class="reviews-summary" x-test-reviews-summary>
+    @if (reviews().length > 0) {
+      <span class="reviews-average" x-test-reviews-average>★ {{ averageUserRating() }}</span>
+      <span class="reviews-count" x-test-reviews-count>
+        {{ reviews().length }} {{ reviews().length === 1 ? 'review' : 'reviews' }}
+      </span>
+    } @else {
+      <span class="reviews-count" x-test-reviews-empty>No reviews yet — be the first.</span>
+    }
+  </div>
+
+  <div class="review-list" x-test-review-list>
+    @for (review of reviews(); track review.id) {
+      <li class="review-item" x-test-review-item>
+        <div class="review-head">
+          <span class="review-author" x-test-review-author>{{ review.author }}</span>
+          <span class="review-stars" x-test-review-stars [attr.data-rating]="review.rating">{{ stars(review.rating) }}</span>
+          <span class="review-date" x-test-review-date>{{ review.date }}</span>
+          <button type="button" class="review-remove" (click)="remove(review.id)" aria-label="Remove review" x-test-review-remove>×</button>
+        </div>
+        <p class="review-comment" x-test-review-comment>{{ review.comment }}</p>
+      </li>
+    }
+  </div>
+
+  <form [formGroup]="form" (ngSubmit)="submit()" class="review-form" x-test-review-form>
+    <div class="review-form-row">
+      <div class="field">
+        <label for="review-author" class="field-label">Your name</label>
+        <input id="review-author" type="text" formControlName="author" class="field-input" x-test-review-field-author>
+        @if (showError('author')) {
+          <p class="field-error" x-test-review-error-author>Name is required.</p>
+        }
+      </div>
+      <div class="field">
+        <label for="review-rating" class="field-label">Rating</label>
+        <select id="review-rating" formControlName="rating" class="field-input" x-test-review-field-rating>
+          @for (r of ratings; track r) {
+            <option [value]="r">{{ r }} ★</option>
+          }
+        </select>
+      </div>
+    </div>
+    <div class="field">
+      <label for="review-comment" class="field-label">Comment</label>
+      <textarea id="review-comment" formControlName="comment" rows="3" class="field-input" x-test-review-field-comment></textarea>
+      @if (showError('comment')) {
+        <p class="field-error" x-test-review-error-comment>Write at least 3 characters.</p>
+      }
+    </div>
+    <div class="form-actions">
+      <button type="submit" class="btn btn-primary" x-test-review-submit>Post review</button>
+    </div>
+  </form>
+</div>
+######### END FILE #########

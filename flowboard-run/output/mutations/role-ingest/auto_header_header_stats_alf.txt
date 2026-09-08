@@ -1,0 +1,15 @@
+######### START 1 - a #########
+<div class="header-stats active" x-test-header-stats><span class="total-label" x-test-total-label>Total cards</span><span class="badge badge-total" data-kind="total" x-test-total-badge>{{ store.totalCards() }}</span></div>
+######### END 1 - a #########
+######### START 2 - b #########
+<div x-test-header-stats><span class="total-label" x-test-total-label>Total cards</span><span class="badge badge-total" data-kind="total" x-test-total-badge>{{ store.totalCards() }}</span></div>
+######### END 2 - b #########
+######### START 3 - c #########
+<div data-cls="header-stats" x-test-header-stats><span class="total-label" x-test-total-label>Total cards</span><span class="badge badge-total" data-kind="total" x-test-total-badge>{{ store.totalCards() }}</span></div>
+######### END 3 - c #########
+######### START 6 - j #########
+<section class="header-stats" x-test-header-stats><span class="total-label" x-test-total-label>Total cards</span><span class="badge badge-total" data-kind="total" x-test-total-badge>{{ store.totalCards() }}</span></section>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="hs-wrap"><div class="header-stats" x-test-header-stats><span class="total-label" x-test-total-label>Total cards</span><span class="badge badge-total" data-kind="total" x-test-total-badge>{{ store.totalCards() }}</span></div></div>
+######### END 7 - k #########

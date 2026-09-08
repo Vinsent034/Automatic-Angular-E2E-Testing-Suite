@@ -1,0 +1,15 @@
+######### START 1 - a #########
+<ul class="tag-list dense" [attr.x-test-card-tags]="card().id">@for (tag of card().tags; track tag) {<li class="tag" [attr.data-tag]="tag">{{ tag }}</li>}</ul>
+######### END 1 - a #########
+######### START 2 - b #########
+<ul [attr.x-test-card-tags]="card().id">@for (tag of card().tags; track tag) {<li class="tag" [attr.data-tag]="tag">{{ tag }}</li>}</ul>
+######### END 2 - b #########
+######### START 3 - c #########
+<ul data-cls="tag-list" [attr.x-test-card-tags]="card().id">@for (tag of card().tags; track tag) {<li class="tag" [attr.data-tag]="tag">{{ tag }}</li>}</ul>
+######### END 3 - c #########
+######### START 6 - j #########
+<div class="tag-list" [attr.x-test-card-tags]="card().id">@for (tag of card().tags; track tag) {<li class="tag" [attr.data-tag]="tag">{{ tag }}</li>}</div>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="tags-wrap"><ul class="tag-list" [attr.x-test-card-tags]="card().id">@for (tag of card().tags; track tag) {<li class="tag" [attr.data-tag]="tag">{{ tag }}</li>}</ul></div>
+######### END 7 - k #########

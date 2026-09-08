@@ -131,7 +131,9 @@ public class MutationDatabase {
     }
 
     public void updateMutation(String mutation_id, String status) throws SQLException {
-        String sql = "UPDATE mutations SET status = ? WHERE uuid = ?";
+        // NB: filtra per mutation_id (era erroneamente "uuid", che non combacia mai col valore
+        // passato -> lo status non veniva mai aggiornato, ogni run ritestava tutto da capo).
+        String sql = "UPDATE mutations SET status = ? WHERE mutation_id = ?";
         try (Connection conn = DriverManager.getConnection(DB_URL)) {
             var stmt = conn.prepareStatement(sql);
             stmt.setString(1, status);

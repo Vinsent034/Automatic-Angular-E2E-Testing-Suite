@@ -1,0 +1,149 @@
+#mutation-id: LLMR_h_cast_remove_bet
+#element: movie_form_component_html
+#name: h
+#type: LLM_ROLE
+#status: COMPLETE
+######### FILE C:\Users\vince\OneDrive\Desktop\App tirocinio\cinelib\src\app\movie-form\movie-form.component.html #########
+<section class="form-page" x-test-form-page>
+  <h1 class="form-heading" x-test-form-heading>{{ isEdit ? 'Edit movie' : 'Add movie' }}</h1>
+
+  <form [formGroup]="form" (ngSubmit)="save()" class="movie-form" x-test-form>
+    <div class="field">
+      <label for="title" class="field-label">Title</label>
+      <input id="title" type="text" formControlName="title" class="field-input" x-test-field-title>
+      @if (showError('title')) {
+        <p class="field-error" x-test-error-title>Title is required.</p>
+      }
+    </div>
+
+    <div class="field-row">
+      <div class="field">
+        <label for="year" class="field-label">Year</label>
+        <input id="year" type="number" formControlName="year" class="field-input" x-test-field-year>
+        @if (showError('year')) {
+          <p class="field-error" x-test-error-year>Enter a year between 1900 and 2100.</p>
+        }
+      </div>
+      <div class="field">
+        <label for="genre" class="field-label">Genre</label>
+        <select id="genre" formControlName="genre" class="field-input" x-test-field-genre>
+          @for (g of genres; track g) {
+            <option [value]="g">{{ g }}</option>
+          }
+        </select>
+      </div>
+      <div class="field">
+        <label for="rating" class="field-label">Rating</label>
+        <input id="rating" type="number" step="0.1" formControlName="rating" class="field-input" x-test-field-rating>
+        @if (showError('rating')) {
+          <p class="field-error" x-test-error-rating>Rating must be between 0 and 5.</p>
+        }
+      </div>
+    </div>
+
+    <div class="field">
+      <label for="runtime" class="field-label">Runtime (minutes)</label>
+      <input id="runtime" type="number" formControlName="runtime" class="field-input" x-test-field-runtime>
+      @if (showError('runtime')) {
+        <p class="field-error" x-test-error-runtime>Runtime must be between 1 and 600 minutes.</p>
+      }
+    </div>
+
+    <div class="field">
+      <label for="director" class="field-label">Director</label>
+      <input id="director" type="text" formControlName="director" class="field-input" x-test-field-director>
+      @if (showError('director')) {
+        <p class="field-error" x-test-error-director>Director is required.</p>
+      }
+    </div>
+
+    <div class="field">
+      <label for="synopsis" class="field-label">Synopsis</label>
+      <textarea id="synopsis" formControlName="synopsis" rows="4" class="field-input" x-test-field-synopsis></textarea>
+    </div>
+
+    <div class="field">
+      <div class="cast-header">
+        <span class="field-label">Cast</span>
+        <button type="button" class="btn btn-small" (click)="addCast()" x-test-cast-add>+ Add member</button>
+      </div>
+
+      <div formArrayName="cast" class="cast-editor" x-test-cast-editor>
+        @for (member of cast.controls; track $index) {
+          
+        } @empty {
+          <p class="cast-empty">No cast members yet.</p>
+        }
+      </div>
+    </div>
+
+    <div class="form-actions">
+      <button type="submit" class="btn btn-primary" x-test-form-submit>{{ isEdit ? 'Save changes' : 'Create movie' }}</button>
+      <button type="button" class="btn" (click)="cancel()" x-test-form-cancel>Cancel</button>
+    </div>
+  </form>
+</section>
+######### END FILE #########
+######### FILE C:\Users\vince\OneDrive\Desktop\App tirocinio\cinelib\src\app\catalog\catalog.component.html #########
+<section class="catalog" x-test-catalog>
+  <div class="toolbar">
+    <div class="search-box">
+      <input type="text" class="search-input" placeholder="Search a movie…" [value]="query()" (input)="onSearch($any($event.target).value)" x-test-search-input>
+    </div>
+    <select class="field-input filter-select" [value]="genre()" (change)="onGenre($any($event.target).value)" x-test-filter-genre>
+      <option value="">All genres</option>
+      @for (g of genres(); track g) {
+        <option [value]="g">{{ g }}</option>
+      }
+    </select>
+    <select class="field-input filter-select" [value]="sort()" (change)="onSort($any($event.target).value)" x-test-sort>
+      <option value="title">Title (A–Z)</option>
+      <option value="rating">Top rated</option>
+      <option value="year">Newest</option>
+    </select>
+    <a routerLink="/movie/new" class="btn btn-primary" x-test-add-button>Add movie</a>
+  </div>
+
+  <div class="toolbar toolbar-secondary">
+    <button type="button" class="btn btn-toggle" [class.active]="favoritesOnly()" [attr.aria-pressed]="favoritesOnly()" (click)="toggleFavoritesOnly()" x-test-favorites-filter>♥ Favorites ({{ favoriteCount() }})</button>
+
+    <div class="view-switch" role="group" aria-label="View mode" x-test-view-switch>
+      <button type="button" class="view-btn" [class.active]="view() === 'grid'" [attr.aria-pressed]="view() === 'grid'" (click)="setView('grid')" x-test-view-grid>Grid</button>
+      <button type="button" class="view-btn" [class.active]="view() === 'list'" [attr.aria-pressed]="view() === 'list'" (click)="setView('list')" x-test-view-list>List</button>
+    </div>
+
+    <button type="button" class="btn btn-ghost" (click)="openReset()" x-test-reset-button>Reset catalog</button>
+  </div>
+
+  @if (movies().length > 0) {
+    <p class="result-count" x-test-result-count>{{ movies().length }} {{ movies().length === 1 ? 'movie' : 'movies' }}</p>
+    <div class="movie-grid movie-grid-{{ view() }}" x-test-grid>
+      @for (movie of movies(); track movie.id) {
+        <app-movie-card [movie]="movie" [view]="view()"></app-movie-card>
+      }
+    </div>
+  } @else {
+    <p class="empty-state" x-test-empty>No movies match your search.</p>
+  }
+</section>
+
+@if (resetOpen()) {
+  <div class="modal-backdrop" x-test-modal-backdrop>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="reset-title" x-test-reset-modal>
+      <h2 id="reset-title" class="modal-title" x-test-modal-title>Reset catalog?</h2>
+      <p class="modal-body" x-test-modal-body>
+        This restores the original sample movies and discards every change, favorite and review.
+      </p>
+      <div class="modal-actions">
+        <button type="button" class="btn btn-danger" (click)="confirmReset()" x-test-modal-confirm>Reset</button>
+        <button type="button" class="btn" (click)="cancelReset()" x-test-modal-cancel>Cancel</button>
+      </div>
+    </div>
+  </div>
+}
+<div class="cast-edit-row" [formGroupName]="$index" x-test-cast-edit-row>
+            <input type="text" formControlName="name" placeholder="Actor name" class="field-input" x-test-cast-name>
+            <input type="text" formControlName="role" placeholder="Role" class="field-input" x-test-cast-role>
+            <button type="button" class="btn btn-danger btn-small" (click)="removeCast($index)" x-test-cast-remove>Remove</button>
+          </div>
+######### END FILE #########

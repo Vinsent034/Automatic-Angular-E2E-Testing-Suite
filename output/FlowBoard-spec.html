@@ -1,0 +1,131 @@
+<!doctype html><meta charset="utf-8">
+<style>
+@page{size:A4;margin:15mm}
+body{font-family:'Segoe UI',Arial,sans-serif;color:#1a1a1a;font-size:11px;line-height:1.4}
+h1{font-size:20px;margin:0 0 2px}
+h2{font-size:14px;margin:16px 0 6px;border-bottom:2px solid #2c3e50;padding-bottom:2px;color:#2c3e50}
+h3{font-size:12px;margin:10px 0 4px;color:#34495e}
+.sub{color:#666;font-size:10px;margin-bottom:8px}
+table{border-collapse:collapse;width:100%;margin:6px 0;font-size:10px}
+th,td{border:1px solid #bbb;padding:4px 7px;text-align:left;vertical-align:top}
+th{background:#2c3e50;color:#fff}
+tr:nth-child(even) td{background:#f4f6f8}
+code{background:#eef2f6;padding:0 3px;border-radius:3px;font-family:Consolas,monospace;font-size:9.5px}
+ul{margin:4px 0 4px 0;padding-left:18px} li{margin:2px 0}
+.box{background:#fff8e1;border:1px solid #e0c060;border-radius:5px;padding:8px 10px;margin:8px 0}
+.bad{background:#fdecea;border:1px solid #e0a0a0;border-radius:5px;padding:8px 10px;margin:8px 0}
+.op{font-weight:700;background:#eef2f6;text-align:center}
+.key{color:#0a7a4b;font-weight:700}
+</style>
+
+<h1>FlowBoard &mdash; Specifica di creazione</h1>
+<div class="sub">Seconda applicazione Angular per lo studio sulla robustezza dei locatori (tesi) &middot; brief per la generazione automatica &middot; 2026-07-10</div>
+
+<h2>1. Scopo e contesto</h2>
+<p>FlowBoard &egrave; una <b>Kanban board</b> in Angular 19, seconda applicazione di prova (dopo CineLib) per il requisito di <b>generalit&agrave;</b> della tesi. Serve a generare mutanti del markup e misurare quanto le <b>6 strategie di locatori</b> (Absolute, Relative, Selenium, Katalon, Robula, Robula+) resistono alle mutazioni.</p>
+<p><b>Obiettivo specifico che distingue questa app da CineLib:</b> deve essere progettata perch&eacute; <b>tutti e 11 gli operatori di mutazione (a&ndash;k) producano mutanti VALIDI (compilabili) e misurabili</b>, incluso l'operatore <b>h</b> (spostamento di un elemento tra due template di componenti diversi), che su CineLib era not-compilable per costruzione.</p>
+
+<h2>2. LA REGOLA D'ORO (perch&eacute; h falliva e come evitarlo)</h2>
+<p>L'operatore <b>h</b> sposta un elemento dal template di un componente a quello di un <b>altro</b> componente. Su CineLib gli elementi-target erano legati a <b>dati locali del componente</b> (es. <code>{{ movie().title }}</code>, <code>{{ member().name }}</code>, <code>[member]="member"</code>): spostati altrove, quei binding puntano a variabili inesistenti &rarr; <b>non compila</b>.</p>
+<div class="box"><b class="key">Regola d'oro:</b> gli elementi che fanno da bersaglio ai test devono essere <b>(A) statici</b> (nessun binding) <b>oppure (B) legati a uno store globale a signal</b> iniettato in TUTTI i componenti. Cos&igrave; un elemento come <code>{{ store.selected()?.title }}</code> compila in qualsiasi componente &rarr; <b>h produce mutanti validi</b>.</p>
+Vietato il "prop drilling" con <code>@Input</code> per gli elementi bersaglio: usare sempre lo store globale.</div>
+
+<h2>3. Stack tecnologico e vincoli</h2>
+<ul>
+<li><b>Angular 19</b>, componenti <b>standalone</b>, <b>signals</b>, control flow <code>@if</code>/<code>@for</code>/<code>@empty</code>.</li>
+<li><b>Nessun backend</b>: dati 100% locali. Niente HTTP, niente OAuth, niente API esterne, niente rate-limit.</li>
+<li><b>Deterministico:</b> seed di dati <b>fisso e hard-coded</b>. Nessun valore casuale, nessuna data/ora dinamica (<code>Date.now()</code>, date correnti): se servono date, usare stringhe fisse nel seed.</li>
+<li><b>Reset:</b> l'app parte sempre dallo stesso seed; un pulsante "Reset board" ripristina lo stato iniziale. I test partono da stato pulito (come CineLib). Se si usa <code>localStorage</code>, dev'essere azzerabile e i test lo svuotano prima di ogni scenario.</li>
+<li>Router Angular per le pagine; nessun login.</li>
+</ul>
+
+<h2>4. Architettura: un unico store globale a signal</h2>
+<p>Creare un servizio <b><code>BoardStore</code></b> (<code>providedIn: 'root'</code>) che contiene <b>tutto</b> lo stato in signals. Tutti i componenti leggono da qui.</p>
+<ul>
+<li>Stato: <code>columns()</code>, <code>cards()</code>, <code>selectedCard()</code>, <code>filters()</code> (testo/priorit&agrave;/assegnatario), <code>totalCards()</code>, conteggi per colonna e per priorit&agrave;.</li>
+<li>Derivati (computed): <code>cardsByColumn(colId)</code>, <code>filteredCards()</code>, <code>backlogCount()</code>, <code>doneCount()</code>, ecc.</li>
+<li>Azioni: <code>addCard</code>, <code>updateCard</code>, <code>removeCard</code>, <code>moveCard(id, colId)</code>, <code>select(id)</code>, <code>setFilter</code>, <code>reset</code>.</li>
+</ul>
+
+<h2>5. Struttura: route e componenti</h2>
+<table>
+<tr><th>Route</th><th>Componente</th><th>Contenuto</th></tr>
+<tr><td><code>/</code></td><td>app-board</td><td>toolbar (ricerca, filtro, add, reset) + 4 colonne + card</td></tr>
+<tr><td><code>/card/:id</code></td><td>app-card-detail</td><td>dettaglio di <code>store.selectedCard()</code> (single, store-bound)</td></tr>
+<tr><td><code>/card/new</code> e <code>/card/:id/edit</code></td><td>app-card-form</td><td>form (titolo, descrizione, priorit&agrave;, assegnatario, colonna, tag)</td></tr>
+<tr><td><code>/stats</code></td><td>app-stats</td><td>aggregati store-bound + tabella</td></tr>
+</table>
+<p>Componenti aggiuntivi: <code>app-header</code> (barra in alto persistente), <code>app-column</code>, <code>app-card</code> (card nella lista), <code>app-toast</code>.</p>
+<div class="box"><b class="key">Scelta chiave per h:</b> le <b>4 colonne sono esplicite</b> (Backlog, In Progress, Review, Done), <b>non generate in <code>@for</code></b>: cos&igrave; i titoli di colonna sono <b>statici</b> e i conteggi vengono dallo store (<code>store.backlogCount()</code>) &rarr; questi elementi sono <b>h-safe</b>. Le <b>card dentro le colonne</b> restano in <code>@for</code> (per gli altri operatori).</p></div>
+
+<h2>6. Modello dati e seed deterministico</h2>
+<ul>
+<li><b>Column</b>: <code>id</code>, <code>title</code> (fisso: Backlog/In Progress/Review/Done).</li>
+<li><b>Card</b>: <code>id</code> (numerico fisso), <code>title</code>, <code>description</code>, <code>priority</code> ('low'|'medium'|'high'), <code>assignee</code>, <code>tags</code> (array), <code>columnId</code>.</li>
+<li><b>Seed fisso:</b> ~10 card distribuite nelle 4 colonne, con id e titoli stabili (es. #1 "Setup repository" in Backlog, #3 "Design login" in In Progress, ecc.). Nessuna casualit&agrave;.</li>
+</ul>
+
+<h2>7. Attributi <code>x-test-*</code> e multi-strategia</h2>
+<p>Come su CineLib: <b>ogni elemento interattivo o bersaglio deve avere un attributo <code>x-test-*</code></b> univoco (la "ground truth", <b>mai</b> da mutare). In pi&ugrave;, ogni bersaglio deve essere raggiungibile con <b>pi&ugrave; strategie</b>: classe CSS, testo, ruolo ARIA, attributo <code>data-*</code> (es. <code>data-priority</code>, <code>data-column</code>), e posizione gerarchica. Cos&igrave; si possono autorare tutte e 6 le strategie di locatori.</p>
+<p>Esempi: <code>x-test-board</code>, <code>x-test-column</code>, <code>x-test-card</code>, <code>x-test-card-title</code>, <code>x-test-add-card</code>, <code>x-test-search</code>, <code>x-test-filter-priority</code>, <code>x-test-reset</code>, <code>x-test-total-badge</code>, <code>x-test-detail-title</code>, <code>x-test-form-submit</code>, <code>x-test-stat-total</code>, ecc.</p>
+
+<h2>8. Come rendere applicabili TUTTI gli 11 operatori</h2>
+<p>L'app deve contenere, in abbondanza, gli "ingredienti" che ogni operatore richiede. In particolare per <b>h</b> servono molti elementi <b>statici</b> o <b>store-bound</b>.</p>
+<table>
+<tr><th>Op</th><th>Tipo di mutazione</th><th>Cosa deve esistere nell'app</th></tr>
+<tr><td class="op">a</td><td>Attribute Value Modification</td><td>elementi con attributi valorizzati (<code>data-*</code>, <code>aria-*</code>, <code>class</code>, <code>title</code>)</td></tr>
+<tr><td class="op">b</td><td>Attribute Removal</td><td>attributi non essenziali removibili (stessi di sopra)</td></tr>
+<tr><td class="op">c</td><td>Attribute Identifier Modification</td><td>attributi rinominabili senza rompere Angular (preferire <code>data-*</code>/<code>aria-*</code>, NON binding)</td></tr>
+<tr><td class="op">d</td><td>Text Content Modification</td><td>elementi con testo visibile (titoli, etichette, badge)</td></tr>
+<tr><td class="op">e</td><td>Text Content Removal</td><td>idem</td></tr>
+<tr><td class="op">f</td><td>Tag Movement (nel contenitore)</td><td>contenitori con pi&ugrave; figli fratelli (toolbar, riga di badge, form-actions)</td></tr>
+<tr><td class="op">g</td><td>Tag Movement (qualsiasi punto)</td><td>alberi annidati con pi&ugrave; livelli</td></tr>
+<tr><td class="op key">h</td><td class="key">Tag Movement (tra template)</td><td class="key">molti elementi STATICI (badge, icone, banner, etichette, titoli statici di colonna) e STORE-BOUND (contatore totale, conteggi colonna, dettaglio da <code>store.selected()</code>) &rarr; compilano se spostati altrove</td></tr>
+<tr><td class="op">i</td><td>Tag Removal (unwrap)</td><td>elementi wrapper con figli/testo (div che avvolge span/testo)</td></tr>
+<tr><td class="op">j</td><td>Tag Type Modification</td><td>elementi con tag variabili (div/section/article/span intercambiabili)</td></tr>
+<tr><td class="op">k</td><td>Tag Insertion</td><td>elementi attorno a cui si pu&ograve; inserire un wrapper</td></tr>
+</table>
+<div class="box"><b class="key">Zone h-safe da prevedere (elementi statici o store-bound, fuori dai <code>@for</code>):</b>
+<ul>
+<li><b>Header:</b> titolo app (statico), badge totale card (<code>store.totalCards()</code>), pulsante "New card" (etichetta statica).</li>
+<li><b>Toolbar:</b> etichette statiche, conteggi da store, banner statici ("Drag to reorder", "Board demo").</li>
+<li><b>Titoli e conteggi di colonna</b> (colonne esplicite, non in <code>@for</code>).</li>
+<li><b>Card detail</b> (<code>/card/:id</code>): tutti gli elementi da <code>store.selectedCard()</code>.</li>
+<li><b>Stats</b> (<code>/stats</code>): stat card store-bound + intestazioni statiche + tabella.</li>
+<li>Icone, etichette, messaggi di stato vuoto (<code>@empty</code>), footer &mdash; tutti statici.</li>
+</ul>
+Le <b>card dentro le colonne</b> (in <code>@for</code>, legate alla variabile di ciclo) restano bersaglio per gli operatori a&ndash;e, f, g, i, j, k, ma NON per h.</div>
+
+<h2>9. Scenari E2E con condizioni di pre/post successo</h2>
+<p>Ogni scenario ha uno <b>stato iniziale noto</b> (pre), un'<b>azione</b>, e uno <b>stato atteso</b> (post), verificabile con i locatori. Esempi deterministici:</p>
+<table>
+<tr><th>Scenario</th><th>Pre-condizione</th><th>Azione</th><th>Post-condizione</th></tr>
+<tr><td>Ricerca card</td><td>10 card nel board</td><td>digita "login" nella ricerca</td><td>1 card visibile, titolo "Design login"</td></tr>
+<tr><td>Filtro priorit&agrave;</td><td>badge totale = 10</td><td>filtro "High"</td><td>N card con <code>data-priority="high"</code></td></tr>
+<tr><td>Sposta card</td><td>card #1 in Backlog</td><td>sposta in "In Progress"</td><td>conteggio Backlog &minus;1, In Progress +1</td></tr>
+<tr><td>Aggiungi card</td><td>form vuoto su /card/new</td><td>compila e submit</td><td>badge totale = 11, card in colonna scelta</td></tr>
+<tr><td>Dettaglio</td><td>board</td><td>apri card #3</td><td>titolo dettaglio = "Design login"</td></tr>
+<tr><td>Elimina</td><td>card #5 esistente</td><td>elimina</td><td>badge totale = 9, card assente</td></tr>
+</table>
+<p>I test devono partire dal seed (chiamare <code>reset</code> / svuotare <code>localStorage</code> in fase di setup), come su CineLib.</p>
+
+<h2>10. Anti-pattern da EVITARE</h2>
+<div class="bad"><ul>
+<li><b>NO</b> <code>@Input</code>/prop drilling per gli elementi bersaglio: usare lo store globale (altrimenti h si rompe).</li>
+<li><b>NO</b> dati casuali, id generati a runtime, date/ore correnti: rompono il determinismo dei test.</li>
+<li><b>NO</b> backend, HTTP, autenticazione, servizi esterni.</li>
+<li><b>NON</b> mettere logica solo dentro <code>@for</code>: prevedere abbastanza elementi statici/store-bound per h.</li>
+<li><b>NON</b> mutare mai gli attributi <code>x-test-*</code> (sono la ground truth): l'app li tiene, il generatore non li tocca.</li>
+<li><b>NO</b> animazioni/timeout che rendano instabile lo stato durante i test.</li>
+</ul></div>
+
+<h2>11. Deliverable atteso da Fable</h2>
+<ul>
+<li>App Angular 19 funzionante (<code>npm start</code>), avviabile su una porta configurabile (userei <b>4400</b> per non confliggere con CineLib 4300 e Spotify 4200).</li>
+<li>Store globale <code>BoardStore</code> a signal; nessun backend; seed deterministico + reset.</li>
+<li>Tutti gli elementi bersaglio con <code>x-test-*</code> e raggiungibili con pi&ugrave; strategie (classe/testo/ruolo/data-*/posizione).</li>
+<li>Zone h-safe (statiche + store-bound) come da &sect;8.</li>
+<li>Un <code>README</code> che elenca le route, gli attributi <code>x-test-*</code> principali e gli scenari E2E con pre/post condizioni.</li>
+<li>(Opzionale) una manciata di test Playwright d'esempio come su CineLib, per fissare gli scenari.</li>
+</ul>
+<p style="margin-top:10px;color:#666;font-size:10px">Nota: lo scopo NON &egrave; un prodotto reale, ma un banco di prova ricco e deterministico dove ogni tipo di mutazione (a&ndash;k) sia applicabile e produca mutanti compilabili, per un confronto equo e completo delle 6 strategie di locatori.</p>

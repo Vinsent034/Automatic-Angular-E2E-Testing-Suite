@@ -1,0 +1,94 @@
+######### START 1 - a #########
+<section class="genre-section">
+    <h2 class="section-title">Movies by genre</h2>
+    <div class="genre-bars" x-test-genre-bars>
+      @for (g of genreStats(); track g.genre) {
+        <div class="genre-bar-row" x-test-genre-row [attr.data-genre]="g.genre">
+          <span class="genre-bar-label" x-test-genre-label>{{ g.genre }}</span>
+          <div class="genre-bar-track">
+            <div class="genre-bar-fill" [style.width.%]="g.share"></div>
+          </div>
+          <span class="genre-bar-count" x-test-genre-count>{{ g.count }}</span>
+        </div>
+      }
+    </div>
+  </section>
+######### END 1 - a #########
+######### START 2 - b #########
+<section>
+    <h2 class="section-title">Movies by genre</h2>
+    <div class="genre-bars" x-test-genre-bars>
+      @for (g of genreStats(); track g.genre) {
+        <div class="genre-bar-row" x-test-genre-row [attr.data-genre]="g.genre">
+          <span class="genre-bar-label" x-test-genre-label>{{ g.genre }}</span>
+          <div class="genre-bar-track">
+            <div class="genre-bar-fill" [style.width.%]="g.share"></div>
+          </div>
+          <span class="genre-bar-count" x-test-genre-count>{{ g.count }}</span>
+        </div>
+      }
+    </div>
+  </section>
+######### END 2 - b #########
+######### START 3 - c #########
+<section sectionclass="detail-section">
+    <h2 class="section-title">Movies by genre</h2>
+    <div class="genre-bars" x-test-genre-bars>
+      @for (g of genreStats(); track g.genre) {
+        <div class="genre-bar-row" x-test-genre-row [attr.data-genre]="g.genre">
+          <span class="genre-bar-label" x-test-genre-label>{{ g.genre }}</span>
+          <div class="genre-bar-track">
+            <div class="genre-bar-fill" [style.width.%]="g.share"></div>
+          </div>
+          <span class="genre-bar-count" x-test-genre-count>{{ g.count }}</span>
+        </div>
+      }
+    </div>
+  </section>
+######### END 3 - c #########
+######### START 4 - i #########
+<h2 class="section-title">Movies by genre</h2>
+    <div class="genre-bars" x-test-genre-bars>
+      @for (g of genreStats(); track g.genre) {
+        <div class="genre-bar-row" x-test-genre-row [attr.data-genre]="g.genre">
+          <span class="genre-bar-label" x-test-genre-label>{{ g.genre }}</span>
+          <div class="genre-bar-track">
+            <div class="genre-bar-fill" [style.width.%]="g.share"></div>
+          </div>
+          <span class="genre-bar-count" x-test-genre-count>{{ g.count }}</span>
+        </div>
+      }
+    </div>
+######### END 4 - i #########
+######### START 5 - j #########
+<div class="detail-section">
+    <h2 class="section-title">Movies by genre</h2>
+    <div class="genre-bars" x-test-genre-bars>
+      @for (g of genreStats(); track g.genre) {
+        <div class="genre-bar-row" x-test-genre-row [attr.data-genre]="g.genre">
+          <span class="genre-bar-label" x-test-genre-label>{{ g.genre }}</span>
+          <div class="genre-bar-track">
+            <div class="genre-bar-fill" [style.width.%]="g.share"></div>
+          </div>
+          <span class="genre-bar-count" x-test-genre-count>{{ g.count }}</span>
+        </div>
+      }
+    </div>
+  </div>
+######### END 5 - j #########
+######### START 6 - k #########
+<div class="genre-outer"><section class="detail-section">
+    <h2 class="section-title">Movies by genre</h2>
+    <div class="genre-bars" x-test-genre-bars>
+      @for (g of genreStats(); track g.genre) {
+        <div class="genre-bar-row" x-test-genre-row [attr.data-genre]="g.genre">
+          <span class="genre-bar-label" x-test-genre-label>{{ g.genre }}</span>
+          <div class="genre-bar-track">
+            <div class="genre-bar-fill" [style.width.%]="g.share"></div>
+          </div>
+          <span class="genre-bar-count" x-test-genre-count>{{ g.count }}</span>
+        </div>
+      }
+    </div>
+  </section></div>
+######### END 6 - k #########

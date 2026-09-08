@@ -1,0 +1,21 @@
+######### START 1 - a #########
+<h1 class="title" x-test-detail-title>{{ m.title }}</h1>
+######### END 1 - a #########
+######### START 2 - b #########
+<h1 x-test-detail-title>{{ m.title }}</h1>
+######### END 2 - b #########
+######### START 3 - c #########
+<h1 titleclass="detail-title" x-test-detail-title>{{ m.title }}</h1>
+######### END 3 - c #########
+######### START 4 - d #########
+<h1 class="detail-title" x-test-detail-title>Movie title</h1>
+######### END 4 - d #########
+######### START 5 - e #########
+<h1 class="detail-title" x-test-detail-title> </h1>
+######### END 5 - e #########
+######### START 6 - j #########
+<h2 class="detail-title" x-test-detail-title>{{ m.title }}</h2>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="title-wrap"><h1 class="detail-title" x-test-detail-title>{{ m.title }}</h1></div>
+######### END 7 - k #########

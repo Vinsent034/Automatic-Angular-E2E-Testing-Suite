@@ -1,0 +1,15 @@
+######### START 1 - a #########
+<header class="column-header active"><h3 class="column-title" x-test-column-title="backlog">Backlog</h3><span class="badge column-count" data-column="backlog" x-test-column-count="backlog">{{ store.backlogCount() }}</span></header>
+######### END 1 - a #########
+######### START 2 - b #########
+<header><h3 class="column-title" x-test-column-title="backlog">Backlog</h3><span class="badge column-count" data-column="backlog" x-test-column-count="backlog">{{ store.backlogCount() }}</span></header>
+######### END 2 - b #########
+######### START 3 - c #########
+<header data-cls="column-header"><h3 class="column-title" x-test-column-title="backlog">Backlog</h3><span class="badge column-count" data-column="backlog" x-test-column-count="backlog">{{ store.backlogCount() }}</span></header>
+######### END 3 - c #########
+######### START 6 - j #########
+<div class="column-header"><h3 class="column-title" x-test-column-title="backlog">Backlog</h3><span class="badge column-count" data-column="backlog" x-test-column-count="backlog">{{ store.backlogCount() }}</span></div>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="ch-wrap"><header class="column-header"><h3 class="column-title" x-test-column-title="backlog">Backlog</h3><span class="badge column-count" data-column="backlog" x-test-column-count="backlog">{{ store.backlogCount() }}</span></header></div>
+######### END 7 - k #########

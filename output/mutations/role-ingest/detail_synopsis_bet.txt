@@ -1,0 +1,34 @@
+######### START 1 - a #########
+<section class="detail-block">
+      <h2 class="section-title">Synopsis</h2>
+      <p class="synopsis-text" x-test-synopsis>{{ m.synopsis }}</p>
+    </section>
+######### END 1 - a #########
+######### START 2 - b #########
+<section>
+      <h2 class="section-title">Synopsis</h2>
+      <p class="synopsis-text" x-test-synopsis>{{ m.synopsis }}</p>
+    </section>
+######### END 2 - b #########
+######### START 3 - c #########
+<section sectionclass="detail-section">
+      <h2 class="section-title">Synopsis</h2>
+      <p class="synopsis-text" x-test-synopsis>{{ m.synopsis }}</p>
+    </section>
+######### END 3 - c #########
+######### START 4 - i #########
+<h2 class="section-title">Synopsis</h2>
+      <p class="synopsis-text" x-test-synopsis>{{ m.synopsis }}</p>
+######### END 4 - i #########
+######### START 5 - j #########
+<div class="detail-section">
+      <h2 class="section-title">Synopsis</h2>
+      <p class="synopsis-text" x-test-synopsis>{{ m.synopsis }}</p>
+    </div>
+######### END 5 - j #########
+######### START 6 - k #########
+<div class="synopsis-section-wrap"><section class="detail-section">
+      <h2 class="section-title">Synopsis</h2>
+      <p class="synopsis-text" x-test-synopsis>{{ m.synopsis }}</p>
+    </section></div>
+######### END 6 - k #########

@@ -1,0 +1,17 @@
+#mutation-id: h
+#element: delta
+#name: auto-toast-toast-icon
+#type: tag_mov_temp_mut
+#status: COMPLETE
+######### FILE C:\Users\vince\OneDrive\Desktop\App tirocinio\Kanban board\src\app\toast\toast.component.html #########
+<aside class="toast-bar" role="status" aria-live="polite" x-test-toast-bar>
+  <span class="toast-icon" aria-hidden="true" x-test-toast-icon>ℹ</span>
+  
+  <span class="toast-message" x-test-toast>{{ store.toast() }}</span>
+</aside>
+######### END FILE #########
+######### FILE C:\Users\vince\OneDrive\Desktop\App tirocinio\Kanban board\src\app\toast\toast.component.html #########
+<aside class="toast-bar" role="status" aria-live="polite" x-test-toast-bar>
+ <span class="toast-icon" aria-hidden="true" x-test-toast-icon>ℹ</span><span class="toast-label" x-test-toast-label>Last action:</span> <span class="toast-label" x-test-toast-label>Last action:</span> <span class="toast-message" x-test-toast>{{ store.toast() }}</span>
+</aside>
+######### END FILE #########

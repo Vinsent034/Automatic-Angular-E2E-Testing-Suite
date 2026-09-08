@@ -1,0 +1,12 @@
+######### START 1 - a #########
+<footer class="detail-actions active" x-test-detail-actions><a class="btn btn-primary edit-btn" [routerLink]="['/card', store.selectedCard()?.id, 'edit']" x-test-detail-edit>Edit card</a><button class="btn btn-danger delete-btn" type="button" (click)="deleteAndGoBack()" x-test-detail-delete>Delete card</button></footer>
+######### END 1 - a #########
+######### START 3 - c #########
+<footer data-cls="detail-actions" x-test-detail-actions><a class="btn btn-primary edit-btn" [routerLink]="['/card', store.selectedCard()?.id, 'edit']" x-test-detail-edit>Edit card</a><button class="btn btn-danger delete-btn" type="button" (click)="deleteAndGoBack()" x-test-detail-delete>Delete card</button></footer>
+######### END 3 - c #########
+######### START 6 - j #########
+<div class="detail-actions" x-test-detail-actions><a class="btn btn-primary edit-btn" [routerLink]="['/card', store.selectedCard()?.id, 'edit']" x-test-detail-edit>Edit card</a><button class="btn btn-danger delete-btn" type="button" (click)="deleteAndGoBack()" x-test-detail-delete>Delete card</button></div>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="da-wrap"><footer class="detail-actions" x-test-detail-actions><a class="btn btn-primary edit-btn" [routerLink]="['/card', store.selectedCard()?.id, 'edit']" x-test-detail-edit>Edit card</a><button class="btn btn-danger delete-btn" type="button" (click)="deleteAndGoBack()" x-test-detail-delete>Delete card</button></footer></div>
+######### END 7 - k #########

@@ -1,0 +1,65 @@
+######### START 1 - a #########
+<div class="genre-list" x-test-genre-bars>
+      @for (g of genreStats(); track g.genre) {
+        <div class="genre-bar-row" x-test-genre-row [attr.data-genre]="g.genre">
+          <span class="genre-bar-label" x-test-genre-label>{{ g.genre }}</span>
+          <div class="genre-bar-track">
+            <div class="genre-bar-fill" [style.width.%]="g.share"></div>
+          </div>
+          <span class="genre-bar-count" x-test-genre-count>{{ g.count }}</span>
+        </div>
+      }
+    </div>
+######### END 1 - a #########
+######### START 2 - b #########
+<div x-test-genre-bars>
+      @for (g of genreStats(); track g.genre) {
+        <div class="genre-bar-row" x-test-genre-row [attr.data-genre]="g.genre">
+          <span class="genre-bar-label" x-test-genre-label>{{ g.genre }}</span>
+          <div class="genre-bar-track">
+            <div class="genre-bar-fill" [style.width.%]="g.share"></div>
+          </div>
+          <span class="genre-bar-count" x-test-genre-count>{{ g.count }}</span>
+        </div>
+      }
+    </div>
+######### END 2 - b #########
+######### START 3 - c #########
+<div barsclass="genre-bars" x-test-genre-bars>
+      @for (g of genreStats(); track g.genre) {
+        <div class="genre-bar-row" x-test-genre-row [attr.data-genre]="g.genre">
+          <span class="genre-bar-label" x-test-genre-label>{{ g.genre }}</span>
+          <div class="genre-bar-track">
+            <div class="genre-bar-fill" [style.width.%]="g.share"></div>
+          </div>
+          <span class="genre-bar-count" x-test-genre-count>{{ g.count }}</span>
+        </div>
+      }
+    </div>
+######### END 3 - c #########
+######### START 4 - j #########
+<section class="genre-bars" x-test-genre-bars>
+      @for (g of genreStats(); track g.genre) {
+        <div class="genre-bar-row" x-test-genre-row [attr.data-genre]="g.genre">
+          <span class="genre-bar-label" x-test-genre-label>{{ g.genre }}</span>
+          <div class="genre-bar-track">
+            <div class="genre-bar-fill" [style.width.%]="g.share"></div>
+          </div>
+          <span class="genre-bar-count" x-test-genre-count>{{ g.count }}</span>
+        </div>
+      }
+    </section>
+######### END 4 - j #########
+######### START 5 - k #########
+<div class="genre-bars-wrap"><div class="genre-bars" x-test-genre-bars>
+      @for (g of genreStats(); track g.genre) {
+        <div class="genre-bar-row" x-test-genre-row [attr.data-genre]="g.genre">
+          <span class="genre-bar-label" x-test-genre-label>{{ g.genre }}</span>
+          <div class="genre-bar-track">
+            <div class="genre-bar-fill" [style.width.%]="g.share"></div>
+          </div>
+          <span class="genre-bar-count" x-test-genre-count>{{ g.count }}</span>
+        </div>
+      }
+    </div></div>
+######### END 5 - k #########

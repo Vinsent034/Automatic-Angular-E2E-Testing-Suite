@@ -1,0 +1,21 @@
+######### START 1 - a #########
+<li class="tag tag-empty muted" x-test-detail-no-tags>no tags</li>
+######### END 1 - a #########
+######### START 2 - b #########
+<li x-test-detail-no-tags>no tags</li>
+######### END 2 - b #########
+######### START 3 - c #########
+<li data-cls="tag tag-empty" x-test-detail-no-tags>no tags</li>
+######### END 3 - c #########
+######### START 4 - d #########
+<li class="tag tag-empty" x-test-detail-no-tags>none</li>
+######### END 4 - d #########
+######### START 5 - e #########
+<li class="tag tag-empty" x-test-detail-no-tags></li>
+######### END 5 - e #########
+######### START 6 - j #########
+<span class="tag tag-empty" x-test-detail-no-tags>no tags</span>
+######### END 6 - j #########
+######### START 7 - k #########
+<div class="nt-wrap"><li class="tag tag-empty" x-test-detail-no-tags>no tags</li></div>
+######### END 7 - k #########
