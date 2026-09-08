@@ -1,6 +1,45 @@
 # Automatic Angular E2E Testing Suite
 A comprehensive automation tool designed to create and test mutations for HTML files within Angular repositories. This project streamlines the process of End-to-End (E2E) testing by generating targeted mutations and validating them against your application.
 
+---
+
+## About this fork
+
+This repository extends the original suite developed by S. Liberti with a **second mutant
+generator based on Large Language Models**, and with the experimental campaigns that assess it.
+It is the software companion of the thesis *Generazione di mutanti per applicazioni web
+template-based mediante modelli linguistici di grandi dimensioni* (V. Di Carluccio,
+Università degli Studi di Napoli Federico II, A.A. 2025–2026).
+
+**What was added**
+
+- **`llm-generator`** — mutant generation delegated to a language model, anchored to the
+  taxonomy of 11 mutation operators × 5 structural roles, so that every mutant produced maps
+  to a known category. Four operating modes: direct API, prompt dump, snippet ingest, dry run.
+- **`MutationPorter`** (in `common`) — export and re-import of mutant sets as readable text
+  files, so they can be inspected and edited outside the database.
+- **Two purpose-built subject applications** (CineLib, FlowBoard), designed so that all eleven
+  operators find the structural conditions to be instantiated.
+- **[`mutazioni-generate/`](mutazioni-generate/)** — the complete set of **6,470 mutants**
+  produced across four campaigns, exported in readable form and browsable directly here.
+
+**Headline result** — the language-based generator produced valid mutants in 88.4% and 95.2%
+of cases on the two subjects, against 79.4% and 41.5% for the static technique. More
+importantly, the static generator's yield varies by nearly forty percentage points across
+subjects while the language-based one stays within seven: measuring a generator on a single
+application is not informative.
+
+| Campaign | Subject | Technique | Mutants | Valid |
+|---|---|---|---|---|
+| [`cinelib-llm`](mutazioni-generate/cinelib-llm) | CineLib | LLM | 1,263 | 713 / 807 |
+| [`cinelib-static`](mutazioni-generate/cinelib-static) | CineLib | static | 1,142 | 907 / 1,142 |
+| [`flowboard-llm`](mutazioni-generate/flowboard-llm) | FlowBoard | LLM | 1,225 | 1,166 / 1,225 |
+| [`flowboard-static`](mutazioni-generate/flowboard-static) | FlowBoard | static | 2,840 | 1,180 / 2,840 |
+
+The original documentation below still applies to the shared parts of the tool.
+
+---
+
 ## Project Structure
 The project relies on a modular architecture:
 ```txt
@@ -9,9 +48,10 @@ The project relies on a modular architecture:
 ├── 📁 hook-injector        // Module to inject custom hooks into the application under test
 ├── 📁 mutation-generator
 |   ├── 📁 common           // Shared logic and utilities
-|   ├── 📁 llm-generator    // (Not implemented) Mutation generator via LLM prompts
+|   ├── 📁 llm-generator    // Mutation generator via LLM prompts
 |   └── 📁 static-generator // Mutation generator using static analysis
 ├── 📁 mutation-tester      // Module to execute automatic tests on generated mutations
+├── 📁 mutazioni-generate   // The 6,470 generated mutants, exported in readable form
 ├── generator-config.json   // Main configuration file for the suite
 └── pom.xml                 // Main Maven module file
 ```
