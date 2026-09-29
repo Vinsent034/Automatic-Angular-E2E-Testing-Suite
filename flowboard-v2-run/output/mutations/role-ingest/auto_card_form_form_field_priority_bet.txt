@@ -1,0 +1,162 @@
+######### START 1 - a #########
+<div class="form-columns">
+        <div class="form-field" x-test-form-field-priority>
+          <label class="field-label" for="field-priority" x-test-form-priority-label>Priority</label>
+          <select id="field-priority" name="priority" class="input select form-priority" [(ngModel)]="priority" x-test-form-priority>
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+          </select>
+        </div>
+
+        <div class="form-field" x-test-form-field-assignee>
+          <label class="field-label" for="field-assignee" x-test-form-assignee-label>Assignee</label>
+          <input id="field-assignee" name="assignee" class="input form-assignee" type="text" placeholder="Who works on it" [(ngModel)]="assignee" x-test-form-assignee>
+        </div>
+
+        <div class="form-field" x-test-form-field-column>
+          <label class="field-label" for="field-column" x-test-form-column-label>Column</label>
+          <select id="field-column" name="columnId" class="input select form-column" [(ngModel)]="columnId" x-test-form-column>
+            <option value="backlog">Backlog</option>
+            <option value="inprogress">In Progress</option>
+            <option value="review">Review</option>
+            <option value="done">Done</option>
+          </select>
+        </div>
+      </div>
+######### END 1 - a #########
+######### START 1 - b #########
+<div>
+        <div class="form-field" x-test-form-field-priority>
+          <label class="field-label" for="field-priority" x-test-form-priority-label>Priority</label>
+          <select id="field-priority" name="priority" class="input select form-priority" [(ngModel)]="priority" x-test-form-priority>
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+          </select>
+        </div>
+
+        <div class="form-field" x-test-form-field-assignee>
+          <label class="field-label" for="field-assignee" x-test-form-assignee-label>Assignee</label>
+          <input id="field-assignee" name="assignee" class="input form-assignee" type="text" placeholder="Who works on it" [(ngModel)]="assignee" x-test-form-assignee>
+        </div>
+
+        <div class="form-field" x-test-form-field-column>
+          <label class="field-label" for="field-column" x-test-form-column-label>Column</label>
+          <select id="field-column" name="columnId" class="input select form-column" [(ngModel)]="columnId" x-test-form-column>
+            <option value="backlog">Backlog</option>
+            <option value="inprogress">In Progress</option>
+            <option value="review">Review</option>
+            <option value="done">Done</option>
+          </select>
+        </div>
+      </div>
+######### END 1 - b #########
+######### START 1 - c #########
+<div data-class="form-row">
+        <div class="form-field" x-test-form-field-priority>
+          <label class="field-label" for="field-priority" x-test-form-priority-label>Priority</label>
+          <select id="field-priority" name="priority" class="input select form-priority" [(ngModel)]="priority" x-test-form-priority>
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+          </select>
+        </div>
+
+        <div class="form-field" x-test-form-field-assignee>
+          <label class="field-label" for="field-assignee" x-test-form-assignee-label>Assignee</label>
+          <input id="field-assignee" name="assignee" class="input form-assignee" type="text" placeholder="Who works on it" [(ngModel)]="assignee" x-test-form-assignee>
+        </div>
+
+        <div class="form-field" x-test-form-field-column>
+          <label class="field-label" for="field-column" x-test-form-column-label>Column</label>
+          <select id="field-column" name="columnId" class="input select form-column" [(ngModel)]="columnId" x-test-form-column>
+            <option value="backlog">Backlog</option>
+            <option value="inprogress">In Progress</option>
+            <option value="review">Review</option>
+            <option value="done">Done</option>
+          </select>
+        </div>
+      </div>
+######### END 1 - c #########
+######### START 1 - i #########
+<div class="form-field" x-test-form-field-priority>
+          <label class="field-label" for="field-priority" x-test-form-priority-label>Priority</label>
+          <select id="field-priority" name="priority" class="input select form-priority" [(ngModel)]="priority" x-test-form-priority>
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+          </select>
+        </div>
+
+        <div class="form-field" x-test-form-field-assignee>
+          <label class="field-label" for="field-assignee" x-test-form-assignee-label>Assignee</label>
+          <input id="field-assignee" name="assignee" class="input form-assignee" type="text" placeholder="Who works on it" [(ngModel)]="assignee" x-test-form-assignee>
+        </div>
+
+        <div class="form-field" x-test-form-field-column>
+          <label class="field-label" for="field-column" x-test-form-column-label>Column</label>
+          <select id="field-column" name="columnId" class="input select form-column" [(ngModel)]="columnId" x-test-form-column>
+            <option value="backlog">Backlog</option>
+            <option value="inprogress">In Progress</option>
+            <option value="review">Review</option>
+            <option value="done">Done</option>
+          </select>
+        </div>
+######### END 1 - i #########
+######### START 1 - j #########
+<section class="form-row">
+        <div class="form-field" x-test-form-field-priority>
+          <label class="field-label" for="field-priority" x-test-form-priority-label>Priority</label>
+          <select id="field-priority" name="priority" class="input select form-priority" [(ngModel)]="priority" x-test-form-priority>
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+          </select>
+        </div>
+
+        <div class="form-field" x-test-form-field-assignee>
+          <label class="field-label" for="field-assignee" x-test-form-assignee-label>Assignee</label>
+          <input id="field-assignee" name="assignee" class="input form-assignee" type="text" placeholder="Who works on it" [(ngModel)]="assignee" x-test-form-assignee>
+        </div>
+
+        <div class="form-field" x-test-form-field-column>
+          <label class="field-label" for="field-column" x-test-form-column-label>Column</label>
+          <select id="field-column" name="columnId" class="input select form-column" [(ngModel)]="columnId" x-test-form-column>
+            <option value="backlog">Backlog</option>
+            <option value="inprogress">In Progress</option>
+            <option value="review">Review</option>
+            <option value="done">Done</option>
+          </select>
+        </div>
+      </section>
+######### END 1 - j #########
+######### START 1 - k #########
+<div class="form-row-wrap">
+  <div class="form-row">
+        <div class="form-field" x-test-form-field-priority>
+          <label class="field-label" for="field-priority" x-test-form-priority-label>Priority</label>
+          <select id="field-priority" name="priority" class="input select form-priority" [(ngModel)]="priority" x-test-form-priority>
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+          </select>
+        </div>
+
+        <div class="form-field" x-test-form-field-assignee>
+          <label class="field-label" for="field-assignee" x-test-form-assignee-label>Assignee</label>
+          <input id="field-assignee" name="assignee" class="input form-assignee" type="text" placeholder="Who works on it" [(ngModel)]="assignee" x-test-form-assignee>
+        </div>
+
+        <div class="form-field" x-test-form-field-column>
+          <label class="field-label" for="field-column" x-test-form-column-label>Column</label>
+          <select id="field-column" name="columnId" class="input select form-column" [(ngModel)]="columnId" x-test-form-column>
+            <option value="backlog">Backlog</option>
+            <option value="inprogress">In Progress</option>
+            <option value="review">Review</option>
+            <option value="done">Done</option>
+          </select>
+        </div>
+      </div>
+</div>
+######### END 1 - k #########

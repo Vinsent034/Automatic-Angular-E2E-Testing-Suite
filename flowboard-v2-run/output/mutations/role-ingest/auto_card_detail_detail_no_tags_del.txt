@@ -1,0 +1,26 @@
+######### START 1 - a #########
+<li class="tag-item" [attr.data-tag]="tag">{{ tag }}</li>
+######### END 1 - a #########
+######### START 1 - b #########
+<li [attr.data-tag]="tag">{{ tag }}</li>
+######### END 1 - b #########
+######### START 1 - c #########
+<li data-class="tag" [attr.data-tag]="tag">{{ tag }}</li>
+######### END 1 - c #########
+######### START 1 - d #########
+<li class="tag" [attr.data-tag]="tag">sample</li>
+######### END 1 - d #########
+######### START 1 - e #########
+<li class="tag" [attr.data-tag]="tag"> </li>
+######### END 1 - e #########
+######### START 1 - i #########
+{{ tag }}
+######### END 1 - i #########
+######### START 1 - j #########
+<span class="tag" [attr.data-tag]="tag">{{ tag }}</span>
+######### END 1 - j #########
+######### START 1 - k #########
+<div class="tag-wrapper">
+  <li class="tag" [attr.data-tag]="tag">{{ tag }}</li>
+</div>
+######### END 1 - k #########

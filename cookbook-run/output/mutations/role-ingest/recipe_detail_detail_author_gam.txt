@@ -1,0 +1,72 @@
+######### START 1 - a #########
+<header class="detail-head-alt">
+      <div class="detail-title-row">
+        <h1 class="detail-title" x-test-detail-title>{{ recipe.title }}</h1>
+        <span class="detail-course">{{ recipe.course }}</span>
+      </div>
+      <p class="detail-byline">
+        <span class="detail-author" x-test-detail-author>{{ recipe.author }}</span>
+        <span class="detail-rating">★ {{ recipe.rating }}</span>
+      </p>
+    </header>
+######### END 1 - a #########
+######### START 2 - b #########
+<header>
+      <div class="detail-title-row">
+        <h1 class="detail-title" x-test-detail-title>{{ recipe.title }}</h1>
+        <span class="detail-course">{{ recipe.course }}</span>
+      </div>
+      <p class="detail-byline">
+        <span class="detail-author" x-test-detail-author>{{ recipe.author }}</span>
+        <span class="detail-rating">★ {{ recipe.rating }}</span>
+      </p>
+    </header>
+######### END 2 - b #########
+######### START 3 - c #########
+<header data-head="detail-head">
+      <div class="detail-title-row">
+        <h1 class="detail-title" x-test-detail-title>{{ recipe.title }}</h1>
+        <span class="detail-course">{{ recipe.course }}</span>
+      </div>
+      <p class="detail-byline">
+        <span class="detail-author" x-test-detail-author>{{ recipe.author }}</span>
+        <span class="detail-rating">★ {{ recipe.rating }}</span>
+      </p>
+    </header>
+######### END 3 - c #########
+######### START 4 - i #########
+<div class="detail-title-row">
+        <h1 class="detail-title" x-test-detail-title>{{ recipe.title }}</h1>
+        <span class="detail-course">{{ recipe.course }}</span>
+      </div>
+      <p class="detail-byline">
+        <span class="detail-author" x-test-detail-author>{{ recipe.author }}</span>
+        <span class="detail-rating">★ {{ recipe.rating }}</span>
+      </p>
+######### END 4 - i #########
+######### START 5 - j #########
+<div class="detail-head">
+      <div class="detail-title-row">
+        <h1 class="detail-title" x-test-detail-title>{{ recipe.title }}</h1>
+        <span class="detail-course">{{ recipe.course }}</span>
+      </div>
+      <p class="detail-byline">
+        <span class="detail-author" x-test-detail-author>{{ recipe.author }}</span>
+        <span class="detail-rating">★ {{ recipe.rating }}</span>
+      </p>
+    </div>
+######### END 5 - j #########
+######### START 6 - k #########
+<div>
+  <header class="detail-head">
+      <div class="detail-title-row">
+        <h1 class="detail-title" x-test-detail-title>{{ recipe.title }}</h1>
+        <span class="detail-course">{{ recipe.course }}</span>
+      </div>
+      <p class="detail-byline">
+        <span class="detail-author" x-test-detail-author>{{ recipe.author }}</span>
+        <span class="detail-rating">★ {{ recipe.rating }}</span>
+      </p>
+    </header>
+</div>
+######### END 6 - k #########

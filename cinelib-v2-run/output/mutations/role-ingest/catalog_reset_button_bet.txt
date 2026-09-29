@@ -1,0 +1,72 @@
+######### START 1 - a #########
+<div class="toolbar toolbar-actions">
+    <button type="button" class="btn btn-toggle" [class.active]="favoritesOnly()" [attr.aria-pressed]="favoritesOnly()" (click)="toggleFavoritesOnly()" x-test-favorites-filter>♥ Favorites ({{ favoriteCount() }})</button>
+
+    <div class="view-switch" role="group" aria-label="View mode" x-test-view-switch>
+      <button type="button" class="view-btn" [class.active]="view() === 'grid'" [attr.aria-pressed]="view() === 'grid'" (click)="setView('grid')" x-test-view-grid>Grid</button>
+      <button type="button" class="view-btn" [class.active]="view() === 'list'" [attr.aria-pressed]="view() === 'list'" (click)="setView('list')" x-test-view-list>List</button>
+    </div>
+
+    <button type="button" class="btn btn-ghost" (click)="openReset()" x-test-reset-button>Reset catalog</button>
+  </div>
+######### END 1 - a #########
+######### START 1 - b #########
+<div>
+    <button type="button" class="btn btn-toggle" [class.active]="favoritesOnly()" [attr.aria-pressed]="favoritesOnly()" (click)="toggleFavoritesOnly()" x-test-favorites-filter>♥ Favorites ({{ favoriteCount() }})</button>
+
+    <div class="view-switch" role="group" aria-label="View mode" x-test-view-switch>
+      <button type="button" class="view-btn" [class.active]="view() === 'grid'" [attr.aria-pressed]="view() === 'grid'" (click)="setView('grid')" x-test-view-grid>Grid</button>
+      <button type="button" class="view-btn" [class.active]="view() === 'list'" [attr.aria-pressed]="view() === 'list'" (click)="setView('list')" x-test-view-list>List</button>
+    </div>
+
+    <button type="button" class="btn btn-ghost" (click)="openReset()" x-test-reset-button>Reset catalog</button>
+  </div>
+######### END 1 - b #########
+######### START 1 - c #########
+<div data-toolbar="toolbar toolbar-secondary">
+    <button type="button" class="btn btn-toggle" [class.active]="favoritesOnly()" [attr.aria-pressed]="favoritesOnly()" (click)="toggleFavoritesOnly()" x-test-favorites-filter>♥ Favorites ({{ favoriteCount() }})</button>
+
+    <div class="view-switch" role="group" aria-label="View mode" x-test-view-switch>
+      <button type="button" class="view-btn" [class.active]="view() === 'grid'" [attr.aria-pressed]="view() === 'grid'" (click)="setView('grid')" x-test-view-grid>Grid</button>
+      <button type="button" class="view-btn" [class.active]="view() === 'list'" [attr.aria-pressed]="view() === 'list'" (click)="setView('list')" x-test-view-list>List</button>
+    </div>
+
+    <button type="button" class="btn btn-ghost" (click)="openReset()" x-test-reset-button>Reset catalog</button>
+  </div>
+######### END 1 - c #########
+######### START 1 - i #########
+<button type="button" class="btn btn-toggle" [class.active]="favoritesOnly()" [attr.aria-pressed]="favoritesOnly()" (click)="toggleFavoritesOnly()" x-test-favorites-filter>♥ Favorites ({{ favoriteCount() }})</button>
+
+    <div class="view-switch" role="group" aria-label="View mode" x-test-view-switch>
+      <button type="button" class="view-btn" [class.active]="view() === 'grid'" [attr.aria-pressed]="view() === 'grid'" (click)="setView('grid')" x-test-view-grid>Grid</button>
+      <button type="button" class="view-btn" [class.active]="view() === 'list'" [attr.aria-pressed]="view() === 'list'" (click)="setView('list')" x-test-view-list>List</button>
+    </div>
+
+    <button type="button" class="btn btn-ghost" (click)="openReset()" x-test-reset-button>Reset catalog</button>
+######### END 1 - i #########
+######### START 1 - j #########
+<section class="toolbar toolbar-secondary">
+    <button type="button" class="btn btn-toggle" [class.active]="favoritesOnly()" [attr.aria-pressed]="favoritesOnly()" (click)="toggleFavoritesOnly()" x-test-favorites-filter>♥ Favorites ({{ favoriteCount() }})</button>
+
+    <div class="view-switch" role="group" aria-label="View mode" x-test-view-switch>
+      <button type="button" class="view-btn" [class.active]="view() === 'grid'" [attr.aria-pressed]="view() === 'grid'" (click)="setView('grid')" x-test-view-grid>Grid</button>
+      <button type="button" class="view-btn" [class.active]="view() === 'list'" [attr.aria-pressed]="view() === 'list'" (click)="setView('list')" x-test-view-list>List</button>
+    </div>
+
+    <button type="button" class="btn btn-ghost" (click)="openReset()" x-test-reset-button>Reset catalog</button>
+  </section>
+######### END 1 - j #########
+######### START 1 - k #########
+<div>
+<div class="toolbar toolbar-secondary">
+    <button type="button" class="btn btn-toggle" [class.active]="favoritesOnly()" [attr.aria-pressed]="favoritesOnly()" (click)="toggleFavoritesOnly()" x-test-favorites-filter>♥ Favorites ({{ favoriteCount() }})</button>
+
+    <div class="view-switch" role="group" aria-label="View mode" x-test-view-switch>
+      <button type="button" class="view-btn" [class.active]="view() === 'grid'" [attr.aria-pressed]="view() === 'grid'" (click)="setView('grid')" x-test-view-grid>Grid</button>
+      <button type="button" class="view-btn" [class.active]="view() === 'list'" [attr.aria-pressed]="view() === 'list'" (click)="setView('list')" x-test-view-list>List</button>
+    </div>
+
+    <button type="button" class="btn btn-ghost" (click)="openReset()" x-test-reset-button>Reset catalog</button>
+  </div>
+</div>
+######### END 1 - k #########

@@ -1,0 +1,23 @@
+######### START 1 - a #########
+<span class="detail-author-alt" x-test-detail-author>{{ recipe.author }}</span>
+######### END 1 - a #########
+######### START 2 - b #########
+<span x-test-detail-author>{{ recipe.author }}</span>
+######### END 2 - b #########
+######### START 3 - c #########
+<span data-author="detail-author" x-test-detail-author>{{ recipe.author }}</span>
+######### END 3 - c #########
+######### START 4 - d #########
+<span class="detail-author" x-test-detail-author>Anonymous</span>
+######### END 4 - d #########
+######### START 5 - e #########
+<span class="detail-author" x-test-detail-author> </span>
+######### END 5 - e #########
+######### START 6 - j #########
+<strong class="detail-author" x-test-detail-author>{{ recipe.author }}</strong>
+######### END 6 - j #########
+######### START 7 - k #########
+<span>
+  <span class="detail-author" x-test-detail-author>{{ recipe.author }}</span>
+</span>
+######### END 7 - k #########

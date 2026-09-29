@@ -1,0 +1,26 @@
+######### START 1 - a #########
+<span class="ing-unit-alt">{{ ingredient().unit }}</span>
+######### END 1 - a #########
+######### START 2 - b #########
+<span>{{ ingredient().unit }}</span>
+######### END 2 - b #########
+######### START 3 - c #########
+<span data-unit="ing-unit">{{ ingredient().unit }}</span>
+######### END 3 - c #########
+######### START 4 - d #########
+<span class="ing-unit">g</span>
+######### END 4 - d #########
+######### START 5 - e #########
+<span class="ing-unit"> </span>
+######### END 5 - e #########
+######### START 6 - i #########
+{{ ingredient().unit }}
+######### END 6 - i #########
+######### START 7 - j #########
+<small class="ing-unit">{{ ingredient().unit }}</small>
+######### END 7 - j #########
+######### START 8 - k #########
+<span>
+  <span class="ing-unit">{{ ingredient().unit }}</span>
+</span>
+######### END 8 - k #########

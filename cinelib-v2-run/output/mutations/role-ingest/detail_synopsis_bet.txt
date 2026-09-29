@@ -1,0 +1,36 @@
+######### START 1 - a #########
+<section class="movie-section">
+      <h2 class="section-title">Synopsis</h2>
+      <p class="synopsis-text" x-test-synopsis>{{ m.synopsis }}</p>
+    </section>
+######### END 1 - a #########
+######### START 1 - b #########
+<section>
+      <h2 class="section-title">Synopsis</h2>
+      <p class="synopsis-text" x-test-synopsis>{{ m.synopsis }}</p>
+    </section>
+######### END 1 - b #########
+######### START 1 - c #########
+<section data-section="detail-section">
+      <h2 class="section-title">Synopsis</h2>
+      <p class="synopsis-text" x-test-synopsis>{{ m.synopsis }}</p>
+    </section>
+######### END 1 - c #########
+######### START 1 - i #########
+<h2 class="section-title">Synopsis</h2>
+      <p class="synopsis-text" x-test-synopsis>{{ m.synopsis }}</p>
+######### END 1 - i #########
+######### START 1 - j #########
+<div class="detail-section">
+      <h2 class="section-title">Synopsis</h2>
+      <p class="synopsis-text" x-test-synopsis>{{ m.synopsis }}</p>
+    </div>
+######### END 1 - j #########
+######### START 1 - k #########
+<div>
+<section class="detail-section">
+      <h2 class="section-title">Synopsis</h2>
+      <p class="synopsis-text" x-test-synopsis>{{ m.synopsis }}</p>
+    </section>
+</div>
+######### END 1 - k #########

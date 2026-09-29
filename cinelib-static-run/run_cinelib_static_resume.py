@@ -1,22 +1,23 @@
 # Driver run STATIC su CineLib con RIPRESA PER GRUPPO.
 # - Salta i gruppi che hanno gia' un batches-<g>.csv valido (quindi rilanciabile all'infinito).
-# - Dopo ogni gruppo verifica il CSV: esiste, ha ~n*6 righe, e NON e' byte-identico a un altro
+# - Dopo ogni gruppo verifica il CSV: esiste, ha ~n*N_STRAT righe, e NON e' byte-identico a un altro
 #   (sintomo del bug "app non parte -> ricopia il vecchio"). Se il check fallisce, STOP subito.
 # - Uso: python run_cinelib_static_resume.py            -> tutti i gruppi mancanti, in ordine
 #        python run_cinelib_static_resume.py moviedetail -> solo quel gruppo (forzato, anche se il CSV esiste)
 import sqlite3, subprocess, os, sys, time, shutil, json, glob, hashlib
 from collections import defaultdict
 
-SUITE  = "C:/Users/vince/OneDrive/Desktop/Tirocinio/progetto/Automatic-Angular-E2E-Testing-Suite"
+SUITE  = "C:/Users/vince/OneDrive/Desktop/Università/Tirocinio/progetto/Automatic-Angular-E2E-Testing-Suite"
 RUN    = SUITE + "/cinelib-static-run"
 TD     = SUITE + "/ext-test-classes/target"
 DB     = RUN + "/mutations.db"
 JAVA   = "C:/Program Files/Eclipse Adoptium/jdk-25.0.2.10-hotspot/bin/java.exe"
 CP     = SUITE + "/mutation-tester/target/mutation-tester-1.0.0-jar-with-dependencies.jar;" + SUITE + "/vintage-fix"
 CFG    = SUITE + "/generator-config-cinelib-static.json"
+N_STRAT = 7   # strategie per mutante: 6 storiche + Hook-Based (reintegrata 09/2026)
 PORT   = 4300
-APPSRC = "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app"
-BACKUP = "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib-templates-backup-20260717"
+APPSRC = "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib/src/app"
+BACKUP = "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib-templates-backup-20260717"
 
 COMP2GROUP = {
  "catalog": "catalog", "movie-card": "catalog",
@@ -32,7 +33,7 @@ GROUP_TD = {
  "reviews":     TD + "/cinelib-only-reviews",
  "stats":       TD + "/cinelib-only-stats",
 }
-GROUP_ORDER = ["moviedetail", "movieform", "reviews", "stats"]
+GROUP_ORDER = ["catalog", "moviedetail", "movieform", "reviews", "stats"]
 
 def log(m): print(f"[{time.strftime('%H:%M:%S')}] {m}", flush=True)
 
@@ -66,9 +67,9 @@ def check_csv(g, path, n_mut):
     """True se il CSV del gruppo sembra genuino."""
     if not os.path.exists(path):
         log(f"GROUP {g}: CHECK FAIL — batches-{g}.csv non esiste"); return False
-    rows, expected = csv_rows(path), n_mut * 6
+    rows, expected = csv_rows(path), n_mut * N_STRAT
     if rows < expected * 0.9:
-        log(f"GROUP {g}: CHECK FAIL — {rows} righe, attese ~{expected} ({n_mut} mutanti x 6 strategie)")
+        log(f"GROUP {g}: CHECK FAIL — {rows} righe, attese ~{expected} ({n_mut} mutanti x {N_STRAT} strategie)")
         return False
     mine = md5(path)
     for other in glob.glob(f"{RUN}/output/tests/batches-*.csv"):

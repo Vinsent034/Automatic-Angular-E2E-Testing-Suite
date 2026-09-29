@@ -1,0 +1,119 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.sqlite.SQLiteJDBCLoader in an unnamed module (file:/C:/Users/vince/OneDrive/Desktop/Universit%c3%a0/Tirocinio/progetto/Automatic-Angular-E2E-Testing-Suite/mutation-generator/llm-generator/target/llm-generator-1.0.0-jar-with-dependencies-eps.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+LLM generator | ROLE 11x5 mode (INGEST snippets) | 52 targets x 8 operators x 5 roles | model=claude-opus-4-8
+
+============= app-footer-brand (x-test-footer-brand in app.component.html) =============
+
+============= app-footer-version (x-test-footer-version in app.component.html) =============
+
+============= header-brand-name (x-test-brand-name in header.component.html) =============
+
+============= header-nav-shopping (x-test-nav-shopping in header.component.html) =============
+
+============= header-nav-stats (x-test-nav-stats in header.component.html) =============
+
+============= toast-toast-message (x-test-toast-message in toast.component.html) =============
+
+============= recipe-list-list-title (x-test-list-title in recipe-list.component.html) =============
+
+============= recipe-list-search (x-test-search in recipe-list.component.html) =============
+
+============= recipe-list-course-filter (x-test-course-filter in recipe-list.component.html) =============
+
+============= recipe-list-veg-only (x-test-veg-only in recipe-list.component.html) =============
+
+============= recipe-list-sort (x-test-sort in recipe-list.component.html) =============
+
+============= recipe-list-result-count (x-test-result-count in recipe-list.component.html) =============
+
+============= recipe-list-add-recipe (x-test-add-recipe in recipe-list.component.html) =============
+
+============= recipe-list-empty (x-test-empty in recipe-list.component.html) =============
+
+============= recipe-card-card ([attr.x-test-card] in recipe-card.component.html) =============
+
+============= recipe-card-card-title ([attr.x-test-card-title] in recipe-card.component.html) =============
+
+============= recipe-card-card-fav ([attr.x-test-card-fav] in recipe-card.component.html) =============
+
+============= recipe-card-card-time ([attr.x-test-card-time] in recipe-card.component.html) =============
+
+============= recipe-detail-detail-title (x-test-detail-title in recipe-detail.component.html) =============
+
+============= recipe-detail-detail-author (x-test-detail-author in recipe-detail.component.html) =============
+
+============= recipe-detail-servings (x-test-servings in recipe-detail.component.html) =============
+
+============= recipe-detail-kcal (x-test-kcal in recipe-detail.component.html) =============
+
+============= recipe-detail-protein (x-test-protein in recipe-detail.component.html) =============
+
+============= recipe-detail-add-shopping (x-test-add-shopping in recipe-detail.component.html) =============
+
+============= recipe-detail-delete (x-test-delete in recipe-detail.component.html) =============
+
+============= recipe-detail-not-found (x-test-not-found in recipe-detail.component.html) =============
+
+============= ingredient-row-ing-qty ([attr.x-test-ing-qty] in ingredient-row.component.html) =============
+
+============= ingredient-row-ing-name ([attr.x-test-ing-name] in ingredient-row.component.html) =============
+
+============= step-item-step-number ([attr.x-test-step-number] in step-item.component.html) =============
+
+============= step-item-step-text ([attr.x-test-step-text] in step-item.component.html) =============
+
+============= recipe-form-form-heading (x-test-form-heading in recipe-form.component.html) =============
+
+============= recipe-form-f-title (x-test-f-title in recipe-form.component.html) =============
+
+============= recipe-form-f-course (x-test-f-course in recipe-form.component.html) =============
+
+============= recipe-form-f-servings (x-test-f-servings in recipe-form.component.html) =============
+
+============= recipe-form-f-veg (x-test-f-veg in recipe-form.component.html) =============
+
+============= recipe-form-f-tags (x-test-f-tags in recipe-form.component.html) =============
+
+============= recipe-form-f-ingredients (x-test-f-ingredients in recipe-form.component.html) =============
+
+============= recipe-form-f-steps (x-test-f-steps in recipe-form.component.html) =============
+
+============= recipe-form-f-submit (x-test-f-submit in recipe-form.component.html) =============
+
+============= shopping-list-shopping-title (x-test-shopping-title in shopping-list.component.html) =============
+
+============= shopping-list-open-count (x-test-open-count in shopping-list.component.html) =============
+
+============= shopping-list-done-count (x-test-done-count in shopping-list.component.html) =============
+
+============= shopping-list-shopping-empty (x-test-shopping-empty in shopping-list.component.html) =============
+
+============= shopping-list-shop-check ([attr.x-test-shop-check] in shopping-list.component.html) =============
+
+============= shopping-list-clear-done (x-test-clear-done in shopping-list.component.html) =============
+
+============= stats-stats-title (x-test-stats-title in stats.component.html) =============
+
+============= stats-stat-total (x-test-stat-total in stats.component.html) =============
+
+============= stats-stat-veg (x-test-stat-veg in stats.component.html) =============
+
+============= stats-stat-time (x-test-stat-time in stats.component.html) =============
+
+============= stats-stat-fav (x-test-stat-fav in stats.component.html) =============
+
+============= stats-course-count ([attr.x-test-course-count] in stats.component.html) =============
+
+============= stats-top-title ([attr.x-test-top-title] in stats.component.html) =============
+
+==============================================
+DONE (role 11x5). Saved: 1388 | Rejected: 38 | NA: 654 | Applicable: 1426
+Matrix: output/mutations/role-mutations-matrix.csv
+Per-test report: output/mutations/role-per-test-report.csv
+Checkpoint: NOT running the mutation-tester. Stop for review.

@@ -1,0 +1,30 @@
+#mutation-id: h
+#element: beta
+#name: catalog-empty
+#type: tag_mov_temp_mut
+#status: COMPLETE
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\cinelib\src\app\catalog\catalog.component.html #########
+
+
+@if (resetOpen()) {
+  <div class="modal-backdrop" x-test-modal-backdrop>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="reset-title" x-test-reset-modal>
+      <h2 id="reset-title" class="modal-title" x-test-modal-title>Reset catalog?</h2>
+      <p class="modal-body" x-test-modal-body>
+        This restores the original sample movies and discards every change, favorite and review.
+      </p>
+      <div class="modal-actions">
+        <button type="button" class="btn btn-danger" (click)="confirmReset()" x-test-modal-confirm>Reset</button>
+        <button type="button" class="btn" (click)="cancelReset()" x-test-modal-cancel>Cancel</button>
+      </div>
+    </div>
+  </div>
+}
+######### END FILE #########
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\cinelib\src\app\app.component.html #########
+<app-header></app-header>
+<main class="page">
+ <router-outlet></router-outlet>
+</main>
+<app-toast></app-toast>
+######### END FILE #########

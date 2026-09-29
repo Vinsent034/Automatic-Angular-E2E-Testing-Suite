@@ -1,0 +1,90 @@
+######### START 1 - a #########
+<footer class="card-footer">
+    <label class="move-label">
+      <span class="move-caption">Move</span>
+      <select class="input select move-select" [value]="card().columnId" (change)="onMove($event)" [attr.x-test-card-move]="card().id">
+        <option value="backlog">Backlog</option>
+        <option value="inprogress">In Progress</option>
+        <option value="review">Review</option>
+        <option value="done">Done</option>
+      </select>
+    </label>
+    <a class="btn btn-small btn-ghost edit-btn" [routerLink]="['/card', card().id, 'edit']" [attr.x-test-card-edit]="card().id">Edit</a>
+    <button class="btn btn-small btn-danger delete-btn" type="button" (click)="store.removeCard(card().id)" [attr.x-test-card-delete]="card().id">Delete</button>
+  </footer>
+######### END 1 - a #########
+######### START 1 - b #########
+<footer>
+    <label class="move-label">
+      <span class="move-caption">Move</span>
+      <select class="input select move-select" [value]="card().columnId" (change)="onMove($event)" [attr.x-test-card-move]="card().id">
+        <option value="backlog">Backlog</option>
+        <option value="inprogress">In Progress</option>
+        <option value="review">Review</option>
+        <option value="done">Done</option>
+      </select>
+    </label>
+    <a class="btn btn-small btn-ghost edit-btn" [routerLink]="['/card', card().id, 'edit']" [attr.x-test-card-edit]="card().id">Edit</a>
+    <button class="btn btn-small btn-danger delete-btn" type="button" (click)="store.removeCard(card().id)" [attr.x-test-card-delete]="card().id">Delete</button>
+  </footer>
+######### END 1 - b #########
+######### START 1 - c #########
+<footer data-class="card-actions">
+    <label class="move-label">
+      <span class="move-caption">Move</span>
+      <select class="input select move-select" [value]="card().columnId" (change)="onMove($event)" [attr.x-test-card-move]="card().id">
+        <option value="backlog">Backlog</option>
+        <option value="inprogress">In Progress</option>
+        <option value="review">Review</option>
+        <option value="done">Done</option>
+      </select>
+    </label>
+    <a class="btn btn-small btn-ghost edit-btn" [routerLink]="['/card', card().id, 'edit']" [attr.x-test-card-edit]="card().id">Edit</a>
+    <button class="btn btn-small btn-danger delete-btn" type="button" (click)="store.removeCard(card().id)" [attr.x-test-card-delete]="card().id">Delete</button>
+  </footer>
+######### END 1 - c #########
+######### START 1 - i #########
+<label class="move-label">
+      <span class="move-caption">Move</span>
+      <select class="input select move-select" [value]="card().columnId" (change)="onMove($event)" [attr.x-test-card-move]="card().id">
+        <option value="backlog">Backlog</option>
+        <option value="inprogress">In Progress</option>
+        <option value="review">Review</option>
+        <option value="done">Done</option>
+      </select>
+    </label>
+    <a class="btn btn-small btn-ghost edit-btn" [routerLink]="['/card', card().id, 'edit']" [attr.x-test-card-edit]="card().id">Edit</a>
+    <button class="btn btn-small btn-danger delete-btn" type="button" (click)="store.removeCard(card().id)" [attr.x-test-card-delete]="card().id">Delete</button>
+######### END 1 - i #########
+######### START 1 - j #########
+<div class="card-actions">
+    <label class="move-label">
+      <span class="move-caption">Move</span>
+      <select class="input select move-select" [value]="card().columnId" (change)="onMove($event)" [attr.x-test-card-move]="card().id">
+        <option value="backlog">Backlog</option>
+        <option value="inprogress">In Progress</option>
+        <option value="review">Review</option>
+        <option value="done">Done</option>
+      </select>
+    </label>
+    <a class="btn btn-small btn-ghost edit-btn" [routerLink]="['/card', card().id, 'edit']" [attr.x-test-card-edit]="card().id">Edit</a>
+    <button class="btn btn-small btn-danger delete-btn" type="button" (click)="store.removeCard(card().id)" [attr.x-test-card-delete]="card().id">Delete</button>
+  </div>
+######### END 1 - j #########
+######### START 1 - k #########
+<div class="card-actions-wrap">
+  <footer class="card-actions">
+    <label class="move-label">
+      <span class="move-caption">Move</span>
+      <select class="input select move-select" [value]="card().columnId" (change)="onMove($event)" [attr.x-test-card-move]="card().id">
+        <option value="backlog">Backlog</option>
+        <option value="inprogress">In Progress</option>
+        <option value="review">Review</option>
+        <option value="done">Done</option>
+      </select>
+    </label>
+    <a class="btn btn-small btn-ghost edit-btn" [routerLink]="['/card', card().id, 'edit']" [attr.x-test-card-edit]="card().id">Edit</a>
+    <button class="btn btn-small btn-danger delete-btn" type="button" (click)="store.removeCard(card().id)" [attr.x-test-card-delete]="card().id">Delete</button>
+  </footer>
+</div>
+######### END 1 - k #########

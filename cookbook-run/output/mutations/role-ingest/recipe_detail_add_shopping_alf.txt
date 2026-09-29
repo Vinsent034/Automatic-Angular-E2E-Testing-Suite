@@ -1,0 +1,23 @@
+######### START 1 - a #########
+<button type="button" class="btn btn-secondary" (click)="store.addToShopping(recipe.id)" x-test-add-shopping>Add to shopping list</button>
+######### END 1 - a #########
+######### START 2 - b #########
+<button class="btn btn-primary" (click)="store.addToShopping(recipe.id)" x-test-add-shopping>Add to shopping list</button>
+######### END 2 - b #########
+######### START 3 - c #########
+<button type="button" data-btn="btn btn-primary" (click)="store.addToShopping(recipe.id)" x-test-add-shopping>Add to shopping list</button>
+######### END 3 - c #########
+######### START 4 - d #########
+<button type="button" class="btn btn-primary" (click)="store.addToShopping(recipe.id)" x-test-add-shopping>Add ingredients</button>
+######### END 4 - d #########
+######### START 5 - e #########
+<button type="button" class="btn btn-primary" (click)="store.addToShopping(recipe.id)" x-test-add-shopping> </button>
+######### END 5 - e #########
+######### START 6 - j #########
+<div type="button" class="btn btn-primary" (click)="store.addToShopping(recipe.id)" x-test-add-shopping>Add to shopping list</div>
+######### END 6 - j #########
+######### START 7 - k #########
+<div>
+  <button type="button" class="btn btn-primary" (click)="store.addToShopping(recipe.id)" x-test-add-shopping>Add to shopping list</button>
+</div>
+######### END 7 - k #########

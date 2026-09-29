@@ -1,0 +1,42 @@
+######### START 1 - a #########
+<div class="detail-buttons">
+            <button type="button" class="btn btn-favorite" [class.active]="m.favorite" [attr.aria-pressed]="m.favorite" (click)="toggleFavorite()" x-test-detail-favorite>{{ m.favorite ? '♥ In favorites' : '♡ Add to favorites' }}</button>
+            <a [routerLink]="['/movie', m.id, 'edit']" class="btn" x-test-edit-button>Edit</a>
+            <button type="button" class="btn btn-danger" (click)="openDelete()" x-test-delete-button>Delete</button>
+          </div>
+######### END 1 - a #########
+######### START 1 - b #########
+<div>
+            <button type="button" class="btn btn-favorite" [class.active]="m.favorite" [attr.aria-pressed]="m.favorite" (click)="toggleFavorite()" x-test-detail-favorite>{{ m.favorite ? '♥ In favorites' : '♡ Add to favorites' }}</button>
+            <a [routerLink]="['/movie', m.id, 'edit']" class="btn" x-test-edit-button>Edit</a>
+            <button type="button" class="btn btn-danger" (click)="openDelete()" x-test-delete-button>Delete</button>
+          </div>
+######### END 1 - b #########
+######### START 1 - c #########
+<div data-actions="detail-actions">
+            <button type="button" class="btn btn-favorite" [class.active]="m.favorite" [attr.aria-pressed]="m.favorite" (click)="toggleFavorite()" x-test-detail-favorite>{{ m.favorite ? '♥ In favorites' : '♡ Add to favorites' }}</button>
+            <a [routerLink]="['/movie', m.id, 'edit']" class="btn" x-test-edit-button>Edit</a>
+            <button type="button" class="btn btn-danger" (click)="openDelete()" x-test-delete-button>Delete</button>
+          </div>
+######### END 1 - c #########
+######### START 1 - i #########
+<button type="button" class="btn btn-favorite" [class.active]="m.favorite" [attr.aria-pressed]="m.favorite" (click)="toggleFavorite()" x-test-detail-favorite>{{ m.favorite ? '♥ In favorites' : '♡ Add to favorites' }}</button>
+            <a [routerLink]="['/movie', m.id, 'edit']" class="btn" x-test-edit-button>Edit</a>
+            <button type="button" class="btn btn-danger" (click)="openDelete()" x-test-delete-button>Delete</button>
+######### END 1 - i #########
+######### START 1 - j #########
+<section class="detail-actions">
+            <button type="button" class="btn btn-favorite" [class.active]="m.favorite" [attr.aria-pressed]="m.favorite" (click)="toggleFavorite()" x-test-detail-favorite>{{ m.favorite ? '♥ In favorites' : '♡ Add to favorites' }}</button>
+            <a [routerLink]="['/movie', m.id, 'edit']" class="btn" x-test-edit-button>Edit</a>
+            <button type="button" class="btn btn-danger" (click)="openDelete()" x-test-delete-button>Delete</button>
+          </section>
+######### END 1 - j #########
+######### START 1 - k #########
+<div>
+<div class="detail-actions">
+            <button type="button" class="btn btn-favorite" [class.active]="m.favorite" [attr.aria-pressed]="m.favorite" (click)="toggleFavorite()" x-test-detail-favorite>{{ m.favorite ? '♥ In favorites' : '♡ Add to favorites' }}</button>
+            <a [routerLink]="['/movie', m.id, 'edit']" class="btn" x-test-edit-button>Edit</a>
+            <button type="button" class="btn btn-danger" (click)="openDelete()" x-test-delete-button>Delete</button>
+          </div>
+</div>
+######### END 1 - k #########

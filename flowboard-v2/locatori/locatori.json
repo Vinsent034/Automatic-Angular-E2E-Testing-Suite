@@ -1,0 +1,170 @@
+{
+ "S1_Search": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-board[1]/section[1]/div[2]/div[1]/input[1]",
+  "Robula": "//input",
+  "RobulaPlus": "//input",
+  "HookBased": "//*[@x-test-search]",
+  "Relative": "//input[@id='search-input']",
+  "Katalon": "id=search-input",
+  "Selenium": "id=search-input"
+ },
+ "S1_Card": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-board[1]/section[1]/div[3]/section[2]/app-column[1]/ul[1]/li[1]/app-card[1]/article[1]",
+  "Robula": "//article",
+  "RobulaPlus": "//article",
+  "HookBased": "//*[@x-test-card='3']",
+  "Relative": "//article[@aria-label='Card Design login']",
+  "Katalon": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='In Progress'])[1]/following::article[1]",
+  "Selenium": "css=.card"
+ },
+ "S1_CardTitle": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-board[1]/section[1]/div[3]/section[2]/app-column[1]/ul[1]/li[1]/app-card[1]/article[1]/a[1]/h4[1]",
+  "Robula": "//h4",
+  "RobulaPlus": "//h4",
+  "HookBased": "//*[@x-test-card-title='3']",
+  "Relative": "//h4[normalize-space()='Design login']",
+  "Katalon": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='high'])[1]/following::h4[1]",
+  "Selenium": "css=.card-title"
+ },
+ "S2_ColumnCount": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-board[1]/section[1]/div[3]/section[1]/header[1]/span[1]",
+  "Robula": "//span[@data-column='backlog']",
+  "RobulaPlus": "//*[@data-column='backlog' and @class='badge column-count']",
+  "HookBased": "//*[@x-test-column-count='backlog']",
+  "Relative": "//span[normalize-space()='4']",
+  "Katalon": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Backlog'])[1]/following::span[1]",
+  "Selenium": "css=.column:nth-child(1) > .column-header > .badge"
+ },
+ "S2_CardMove": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-board[1]/section[1]/div[3]/section[1]/app-column[1]/ul[1]/li[1]/app-card[1]/article[1]/footer[1]/label[1]/select[1]",
+  "Robula": "//article[@data-card-id='1']/*/*/select",
+  "RobulaPlus": "//*[@data-card-id='1']/*/*/select",
+  "HookBased": "//*[@x-test-card-move='1']",
+  "Relative": "//article[@aria-label='Card Setup repository']//select[@class='input select move-select']",
+  "Katalon": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Move'])[1]/following::select[1]",
+  "Selenium": "css=.column:nth-child(1) .card-slot:nth-child(1) .input"
+ },
+ "S2_ColumnInprogress": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-board[1]/section[1]/div[3]/section[2]",
+  "Robula": "//section[@data-column='inprogress']",
+  "RobulaPlus": "//*[@aria-label='In Progress column']",
+  "HookBased": "//*[@x-test-column='inprogress']",
+  "Relative": "//section[@aria-label='In Progress column']",
+  "Katalon": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[4]/following::section[1]",
+  "Selenium": "css=.column:nth-child(2)"
+ },
+ "S3_FormTitle": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-card-form[1]/section[1]/form[1]/div[1]/input[1]",
+  "Robula": "//input[@id='field-title']",
+  "RobulaPlus": "//*[@id='field-title']",
+  "HookBased": "//*[@x-test-form-title]",
+  "Relative": "//input[@id='field-title']",
+  "Katalon": "id=field-title",
+  "Selenium": "id=field-title"
+ },
+ "S3_FormPriority": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-card-form[1]/section[1]/form[1]/app-panel[1]/section[1]/div[1]/div[1]/div[1]/select[1]",
+  "Robula": "//select[@id='field-priority']",
+  "RobulaPlus": "//*[@id='field-priority']",
+  "HookBased": "//*[@x-test-form-priority]",
+  "Relative": "//select[@id='field-priority']",
+  "Katalon": "id=field-priority",
+  "Selenium": "id=field-priority"
+ },
+ "S3_FormSubmit": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-card-form[1]/section[1]/form[1]/div[4]/button[1]",
+  "Robula": "//button",
+  "RobulaPlus": "//button",
+  "HookBased": "//*[@x-test-form-submit]",
+  "Relative": "//button[normalize-space()='Save card']",
+  "Katalon": "xpath=//button[@type='submit']",
+  "Selenium": "css=.submit-btn"
+ },
+ "S4_DetailTitle": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-card-detail[1]/section[1]/article[1]/header[1]/h3[1]",
+  "Robula": "//h3",
+  "RobulaPlus": "//h3",
+  "HookBased": "//*[@x-test-detail-title]",
+  "Relative": "//h3[normalize-space()='Design login']",
+  "Katalon": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='#3'])[1]/following::h3[1]",
+  "Selenium": "css=.detail-title"
+ },
+ "S4_DetailAssignee": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-card-detail[1]/section[1]/article[1]/app-panel[1]/section[1]/div[1]/div[1]/div[2]/span[2]",
+  "Robula": "//span[@class='detail-assignee']",
+  "RobulaPlus": "//*[contains(text(),'Marco')]",
+  "HookBased": "//*[@x-test-detail-assignee]",
+  "Relative": "//span[@class='detail-assignee']",
+  "Katalon": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Assignee'])[1]/following::span[1]",
+  "Selenium": "css=.detail-assignee"
+ },
+ "S4_DetailDelete": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-card-detail[1]/section[1]/article[1]/footer[1]/button[1]",
+  "Robula": "//button",
+  "RobulaPlus": "//button",
+  "HookBased": "//*[@x-test-detail-delete]",
+  "Relative": "//button[normalize-space()='Delete card']",
+  "Katalon": "xpath=//button[@type='button']",
+  "Selenium": "css=.btn-danger"
+ },
+ "S5_StatTotal": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-stats[1]/section[1]/div[2]/div[1]/span[2]",
+  "Robula": "//div[@data-stat='total']/span[@class='stat-value']",
+  "RobulaPlus": "//*[@data-stat='total']/*[contains(text(),'10')]",
+  "HookBased": "//*[@x-test-stat-total]",
+  "Relative": "//span[@class='stat-value'][normalize-space()='10']",
+  "Katalon": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Total cards'])[2]/following::span[1]",
+  "Selenium": "css=.stat-card:nth-child(1) > .stat-value"
+ },
+ "S5_StatBacklog": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-stats[1]/section[1]/div[2]/div[2]/span[2]",
+  "Robula": "//div[@data-stat='backlog']/span[@class='stat-value']",
+  "RobulaPlus": "//*[@data-stat='backlog']/*[contains(text(),'4')]",
+  "HookBased": "//*[@x-test-stat-backlog]",
+  "Relative": "//div[@data-stat='backlog']//span[@class='stat-value'][normalize-space()='4']",
+  "Katalon": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Backlog'])[1]/following::span[1]",
+  "Selenium": "css=.stat-card:nth-child(2) > .stat-value"
+ },
+ "S5_StatRow3": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-stats[1]/section[1]/div[3]/app-panel[1]/section[1]/div[1]/table[1]/tbody[1]/tr[3]",
+  "Robula": "//tr[@data-card-id='3']",
+  "RobulaPlus": "//*[@data-card-id='3']",
+  "HookBased": "//*[@x-test-stat-row='3']",
+  "Relative": "css=.stats-row[data-card-id='3']",
+  "Katalon": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='backlog'])[2]/following::td[1]/ancestor::tr[1]",
+  "Selenium": "css=.stats-row:nth-child(3)"
+ },
+ "S6_NavStats": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/app-header[1]/header[1]/div[1]/nav[1]/a[2]",
+  "Robula": "//a[@routerlink='/stats']",
+  "RobulaPlus": "//*[contains(text(),'Stats')]",
+  "HookBased": "//*[@x-test-nav-stats]",
+  "Relative": "//a[normalize-space()='Stats']",
+  "Katalon": "link=Stats",
+  "Selenium": "linkText=Stats"
+ },
+ "S6_TotalBadge": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/app-header[1]/header[1]/div[1]/div[2]/span[2]",
+  "Robula": "//span[@data-kind='total']",
+  "RobulaPlus": "//*[@data-kind='total']",
+  "HookBased": "//*[@x-test-total-badge]",
+  "Relative": "//span[@class='badge badge-total']",
+  "Katalon": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Total cards'])[1]/following::span[1]",
+  "Selenium": "css=.badge"
+ },
+ "S6_FooterVersion": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/footer[1]/div[1]/span[5]",
+  "Robula": "//span[@class='footer-version']",
+  "RobulaPlus": "//*[contains(text(),'v1.0')]",
+  "HookBased": "//*[@x-test-footer-version]",
+  "Relative": "//span[@class='footer-version']",
+  "Katalon": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='·'])[2]/following::span[1]",
+  "Selenium": "css=.footer-version"
+ },
+ "_note": {
+  "S5_StatRow3.Relative": "SelectorsHub proponeva //tbody/tr[2] (sbagliata: e' la terza riga, tr[3] nella Abs XPath): stesso difetto gia' visto a luglio sulle <tr>. Usato il Rel cssSelector dello stesso strumento, come nella cattura di luglio.",
+  "S5_StatRow3.Katalon": "Katalon registra la CELLA (following::td[1]); come a luglio si sale alla riga con ancestor::tr[1], mantenendo l ancora prodotta dal registratore.",
+  "S5_StatRow3.Selenium": "Selenium IDE registra la CELLA (css=.stats-row:nth-child(3) > .cell-id); tolta la parte finale per avere la RIGA, come per Katalon.",
+  "S6_TotalBadge.Selenium": "css=.badge corrisponde a 17 elementi sulla bacheca; il primo, quello usato da Selenium findElement, e' il badge del totale. Registrato come prodotto dallo strumento."
+ }
+}

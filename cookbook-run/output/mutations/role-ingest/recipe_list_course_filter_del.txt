@@ -1,0 +1,26 @@
+######### START 1 - a #########
+<small class="field-hint-alt">one course at a time</small>
+######### END 1 - a #########
+######### START 2 - b #########
+<small>one course at a time</small>
+######### END 2 - b #########
+######### START 3 - c #########
+<small data-hint="field-hint">one course at a time</small>
+######### END 3 - c #########
+######### START 4 - d #########
+<small class="field-hint">pick one course</small>
+######### END 4 - d #########
+######### START 5 - e #########
+<small class="field-hint"> </small>
+######### END 5 - e #########
+######### START 6 - i #########
+one course at a time
+######### END 6 - i #########
+######### START 7 - j #########
+<span class="field-hint">one course at a time</span>
+######### END 7 - j #########
+######### START 8 - k #########
+<span>
+  <small class="field-hint">one course at a time</small>
+</span>
+######### END 8 - k #########

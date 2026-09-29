@@ -1,0 +1,17 @@
+#mutation-id: i
+#element: gamma
+#name: step-item-step-number
+#type: tag_rem_mut
+#status: COMPLETE
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\cookbook\src\app\step-item\step-item.component.html #########
+
+  <div class="step-marker">
+    <span class="step-number" [attr.x-test-step-number]="step().n">{{ step().n }}</span>
+    <span class="step-dot" aria-hidden="true"></span>
+  </div>
+  <div class="step-content">
+    <p class="step-text" [attr.x-test-step-text]="step().n">{{ step().text }}</p>
+    <p class="step-time"><span class="step-minutes">{{ step().minutes }}</span> min</p>
+  </div>
+
+######### END FILE #########

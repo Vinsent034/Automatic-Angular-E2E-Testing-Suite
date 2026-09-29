@@ -1,0 +1,66 @@
+######### START 1 - a #########
+<label class="field-alt" for="sort-select">
+        <span class="field-label">Sort by</span>
+        <select id="sort-select" class="input sort-select" [value]="store.sortKey()" (change)="onSort($event)" x-test-sort>
+          <option value="title">Title</option>
+          <option value="time">Total time</option>
+          <option value="rating">Rating</option>
+        </select>
+        <small class="field-hint">ascending time, descending rating</small>
+      </label>
+######### END 1 - a #########
+######### START 2 - b #########
+<label for="sort-select">
+        <span class="field-label">Sort by</span>
+        <select id="sort-select" class="input sort-select" [value]="store.sortKey()" (change)="onSort($event)" x-test-sort>
+          <option value="title">Title</option>
+          <option value="time">Total time</option>
+          <option value="rating">Rating</option>
+        </select>
+        <small class="field-hint">ascending time, descending rating</small>
+      </label>
+######### END 2 - b #########
+######### START 3 - c #########
+<label data-field="field" for="sort-select">
+        <span class="field-label">Sort by</span>
+        <select id="sort-select" class="input sort-select" [value]="store.sortKey()" (change)="onSort($event)" x-test-sort>
+          <option value="title">Title</option>
+          <option value="time">Total time</option>
+          <option value="rating">Rating</option>
+        </select>
+        <small class="field-hint">ascending time, descending rating</small>
+      </label>
+######### END 3 - c #########
+######### START 4 - i #########
+<span class="field-label">Sort by</span>
+        <select id="sort-select" class="input sort-select" [value]="store.sortKey()" (change)="onSort($event)" x-test-sort>
+          <option value="title">Title</option>
+          <option value="time">Total time</option>
+          <option value="rating">Rating</option>
+        </select>
+        <small class="field-hint">ascending time, descending rating</small>
+######### END 4 - i #########
+######### START 5 - j #########
+<div class="field" for="sort-select">
+        <span class="field-label">Sort by</span>
+        <select id="sort-select" class="input sort-select" [value]="store.sortKey()" (change)="onSort($event)" x-test-sort>
+          <option value="title">Title</option>
+          <option value="time">Total time</option>
+          <option value="rating">Rating</option>
+        </select>
+        <small class="field-hint">ascending time, descending rating</small>
+      </div>
+######### END 5 - j #########
+######### START 6 - k #########
+<div>
+  <label class="field" for="sort-select">
+        <span class="field-label">Sort by</span>
+        <select id="sort-select" class="input sort-select" [value]="store.sortKey()" (change)="onSort($event)" x-test-sort>
+          <option value="title">Title</option>
+          <option value="time">Total time</option>
+          <option value="rating">Rating</option>
+        </select>
+        <small class="field-hint">ascending time, descending rating</small>
+      </label>
+</div>
+######### END 6 - k #########

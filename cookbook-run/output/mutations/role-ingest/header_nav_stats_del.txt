@@ -1,0 +1,26 @@
+######### START 1 - a #########
+<span class="nav-hint-alt">numbers</span>
+######### END 1 - a #########
+######### START 2 - b #########
+<span>numbers</span>
+######### END 2 - b #########
+######### START 3 - c #########
+<span data-hint="nav-hint">numbers</span>
+######### END 3 - c #########
+######### START 4 - d #########
+<span class="nav-hint">digits</span>
+######### END 4 - d #########
+######### START 5 - e #########
+<span class="nav-hint"> </span>
+######### END 5 - e #########
+######### START 6 - i #########
+numbers
+######### END 6 - i #########
+######### START 7 - j #########
+<small class="nav-hint">numbers</small>
+######### END 7 - j #########
+######### START 8 - k #########
+<span>
+  <span class="nav-hint">numbers</span>
+</span>
+######### END 8 - k #########

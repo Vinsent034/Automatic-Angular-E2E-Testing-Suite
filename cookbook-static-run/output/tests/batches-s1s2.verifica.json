@@ -1,0 +1,14 @@
+{
+  "gruppo": "s1s2",
+  "campagna": "static",
+  "completo": true,
+  "mutanti": 341,
+  "accettati": 341,
+  "in_sospeso": 0,
+  "classi_per_mutante": 14,
+  "giri": 1,
+  "inneschi": [],
+  "abbandonati": [],
+  "data": "2026-09-22 12:03:35",
+  "regola": "coda finale di >=2 non compilati = dev server incastrato; primo della coda valido, gli altri rieseguiti con dev server nuovo"
+}

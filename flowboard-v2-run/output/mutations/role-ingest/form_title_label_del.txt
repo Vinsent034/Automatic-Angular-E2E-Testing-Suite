@@ -1,0 +1,17 @@
+######### START 1 - a #########
+<input id="field-title" name="title" class="input form-title-field" type="text" required placeholder="Card title" [(ngModel)]="title" x-test-form-title>
+######### END 1 - a #########
+######### START 1 - b #########
+<input id="field-title" name="title" class="input form-title" type="text" required [(ngModel)]="title" x-test-form-title>
+######### END 1 - b #########
+######### START 1 - c #########
+<input id="field-title" name="title" data-class="input form-title" type="text" required placeholder="Card title" [(ngModel)]="title" x-test-form-title>
+######### END 1 - c #########
+######### START 1 - j #########
+<textarea id="field-title" name="title" class="input form-title" type="text" required placeholder="Card title" [(ngModel)]="title" x-test-form-title></textarea>
+######### END 1 - j #########
+######### START 1 - k #########
+<div class="input-wrap">
+  <input id="field-title" name="title" class="input form-title" type="text" required placeholder="Card title" [(ngModel)]="title" x-test-form-title>
+</div>
+######### END 1 - k #########

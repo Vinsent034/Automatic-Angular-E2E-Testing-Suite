@@ -1,0 +1,30 @@
+######### START 1 - a #########
+<div class="search-wrapper">
+      <input type="text" class="search-input" placeholder="Search a movie…" [value]="query()" (input)="onSearch($any($event.target).value)" x-test-search-input>
+    </div>
+######### END 1 - a #########
+######### START 1 - b #########
+<div>
+      <input type="text" class="search-input" placeholder="Search a movie…" [value]="query()" (input)="onSearch($any($event.target).value)" x-test-search-input>
+    </div>
+######### END 1 - b #########
+######### START 1 - c #########
+<div data-box="search-box">
+      <input type="text" class="search-input" placeholder="Search a movie…" [value]="query()" (input)="onSearch($any($event.target).value)" x-test-search-input>
+    </div>
+######### END 1 - c #########
+######### START 1 - i #########
+<input type="text" class="search-input" placeholder="Search a movie…" [value]="query()" (input)="onSearch($any($event.target).value)" x-test-search-input>
+######### END 1 - i #########
+######### START 1 - j #########
+<section class="search-box">
+      <input type="text" class="search-input" placeholder="Search a movie…" [value]="query()" (input)="onSearch($any($event.target).value)" x-test-search-input>
+    </section>
+######### END 1 - j #########
+######### START 1 - k #########
+<div>
+<div class="search-box">
+      <input type="text" class="search-input" placeholder="Search a movie…" [value]="query()" (input)="onSearch($any($event.target).value)" x-test-search-input>
+    </div>
+</div>
+######### END 1 - k #########

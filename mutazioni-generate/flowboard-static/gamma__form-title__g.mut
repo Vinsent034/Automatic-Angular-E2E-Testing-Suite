@@ -1,0 +1,30 @@
+#mutation-id: g
+#element: gamma
+#name: form-title
+#type: tag_mov_html_mut
+#status: COMPLETE
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\Kanban board\src\app\card-form\card-form.component.html #########
+<section class="form-page" x-test-card-form>
+  <div class="page-heading" x-test-form-heading>
+    @if (editing()) {
+      <h2 class="page-title" x-test-form-title-edit>Edit card</h2>
+    } @else {
+      <h2 class="page-title" x-test-form-title-new>New card</h2>
+    }
+    <a class="btn btn-ghost back-btn" routerLink="/" x-test-form-back>Back to board</a>
+  </div>
+
+  
+</section>
+######### END FILE #########
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\Kanban board\src\app\panel\panel.component.html #########
+<section class="panel">
+ <header class="panel-head">
+  <h4 class="panel-heading">{{ heading() }}</h4>
+  <span class="panel-note">{{ note() }}</span>
+ </header>
+ <div class="panel-body">
+  <ng-content></ng-content>
+ </div>
+</section>
+######### END FILE #########

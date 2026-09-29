@@ -1,0 +1,66 @@
+######### START 1 - a #########
+<app-panel heading="Method steps" note="one step per line">
+      <div class="area-field">
+        <label class="field-label" for="f-steps">Steps</label>
+        <div class="control">
+          <textarea id="f-steps" name="steps" rows="5" class="input" [(ngModel)]="stepsText" x-test-f-steps></textarea>
+          <small class="help">they are numbered automatically</small>
+        </div>
+      </div>
+    </app-panel>
+######### END 1 - a #########
+######### START 2 - b #########
+<app-panel heading="Method">
+      <div class="area-field">
+        <label class="field-label" for="f-steps">Steps</label>
+        <div class="control">
+          <textarea id="f-steps" name="steps" rows="5" class="input" [(ngModel)]="stepsText" x-test-f-steps></textarea>
+          <small class="help">they are numbered automatically</small>
+        </div>
+      </div>
+    </app-panel>
+######### END 2 - b #########
+######### START 3 - c #########
+<app-panel data-heading="Method" note="one step per line">
+      <div class="area-field">
+        <label class="field-label" for="f-steps">Steps</label>
+        <div class="control">
+          <textarea id="f-steps" name="steps" rows="5" class="input" [(ngModel)]="stepsText" x-test-f-steps></textarea>
+          <small class="help">they are numbered automatically</small>
+        </div>
+      </div>
+    </app-panel>
+######### END 3 - c #########
+######### START 4 - i #########
+<div class="area-field">
+        <label class="field-label" for="f-steps">Steps</label>
+        <div class="control">
+          <textarea id="f-steps" name="steps" rows="5" class="input" [(ngModel)]="stepsText" x-test-f-steps></textarea>
+          <small class="help">they are numbered automatically</small>
+        </div>
+      </div>
+######### END 4 - i #########
+######### START 5 - j #########
+<section heading="Method" note="one step per line">
+      <div class="area-field">
+        <label class="field-label" for="f-steps">Steps</label>
+        <div class="control">
+          <textarea id="f-steps" name="steps" rows="5" class="input" [(ngModel)]="stepsText" x-test-f-steps></textarea>
+          <small class="help">they are numbered automatically</small>
+        </div>
+      </div>
+    </section>
+######### END 5 - j #########
+######### START 6 - k #########
+<div>
+  <app-panel heading="Method" note="one step per line">
+      <div class="area-field">
+        <label class="field-label" for="f-steps">Steps</label>
+        <div class="control">
+          <textarea id="f-steps" name="steps" rows="5" class="input" [(ngModel)]="stepsText" x-test-f-steps></textarea>
+          <small class="help">they are numbered automatically</small>
+        </div>
+      </div>
+    </app-panel>
+</div>
+######### END 6 - k #########

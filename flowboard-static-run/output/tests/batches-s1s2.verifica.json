@@ -1,0 +1,19 @@
+{
+  "gruppo": "s1s2",
+  "campagna": "static",
+  "completo": true,
+  "mutanti": 805,
+  "accettati": 805,
+  "in_sospeso": 0,
+  "classi_per_mutante": 14,
+  "giri": 5,
+  "inneschi": [
+    "478780df-74b9-453b-b2d6-601210e49e16",
+    "64ff4258-e54a-494c-88ff-a8585557ca0f",
+    "dc444f9a-57a0-435a-8468-2ec021b49bde",
+    "bb11090e-7f21-4f69-86bb-4bbe177993d3"
+  ],
+  "abbandonati": [],
+  "data": "2026-09-19 07:04:47",
+  "regola": "coda finale di >=2 non compilati = dev server incastrato; primo della coda valido, gli altri rieseguiti con dev server nuovo"
+}

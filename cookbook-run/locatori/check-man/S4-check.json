@@ -1,0 +1,53 @@
+{
+ "S4_FormTitle": {
+  "Relative": {
+   "count": 1,
+   "same": true,
+   "first": true
+  },
+  "Katalon": {
+   "count": 1,
+   "same": true,
+   "first": true
+  },
+  "Selenium": {
+   "count": 1,
+   "same": true,
+   "first": true
+  }
+ },
+ "S4_FormCourse": {
+  "Relative": {
+   "count": 1,
+   "same": true,
+   "first": true
+  },
+  "Katalon": {
+   "count": 1,
+   "same": true,
+   "first": true
+  },
+  "Selenium": {
+   "count": 1,
+   "same": true,
+   "first": true
+  }
+ },
+ "S4_FormSubmit": {
+  "Relative": {
+   "count": 1,
+   "same": true,
+   "first": true
+  },
+  "Katalon": {
+   "count": 1,
+   "same": true,
+   "first": true
+  },
+  "Selenium": {
+   "count": 1,
+   "same": true,
+   "first": true
+  }
+ }
+}

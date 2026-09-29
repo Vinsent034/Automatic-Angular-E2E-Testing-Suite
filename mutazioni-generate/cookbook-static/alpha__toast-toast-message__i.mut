@@ -1,0 +1,16 @@
+#mutation-id: i
+#element: alpha
+#name: toast-toast-message
+#type: tag_rem_mut
+#status: COMPLETE
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\cookbook\src\app\toast\toast.component.html #########
+@if (store.toast() !== '') {
+  <div class="toast-bar" role="status" aria-live="polite">
+    <div class="toast-box">
+      <span class="toast-icon" aria-hidden="true">i</span>
+      {{ store.toast() }}
+      <button type="button" class="toast-close" aria-label="Dismiss message" (click)="store.toast.set('')">×</button>
+    </div>
+  </div>
+}
+######### END FILE #########

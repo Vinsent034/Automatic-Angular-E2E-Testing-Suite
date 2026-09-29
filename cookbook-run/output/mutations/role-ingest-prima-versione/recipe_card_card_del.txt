@@ -1,0 +1,26 @@
+######### START 1 - a #########
+<div class="card-badge">{{ recipe().vegetarian ? 'vegetarian' : 'meat or fish' }}</div>
+######### END 1 - a #########
+######### START 2 - b #########
+<div>{{ recipe().vegetarian ? 'vegetarian' : 'meat or fish' }}</div>
+######### END 2 - b #########
+######### START 3 - c #########
+<div data-ribbon="card-ribbon">{{ recipe().vegetarian ? 'vegetarian' : 'meat or fish' }}</div>
+######### END 3 - c #########
+######### START 4 - d #########
+<div class="card-ribbon">{{ recipe().vegetarian ? 'veg' : 'meat or fish' }}</div>
+######### END 4 - d #########
+######### START 5 - e #########
+<div class="card-ribbon"> </div>
+######### END 5 - e #########
+######### START 6 - i #########
+{{ recipe().vegetarian ? 'vegetarian' : 'meat or fish' }}
+######### END 6 - i #########
+######### START 7 - j #########
+<span class="card-ribbon">{{ recipe().vegetarian ? 'vegetarian' : 'meat or fish' }}</span>
+######### END 7 - j #########
+######### START 8 - k #########
+<div class="card-ribbon-wrap">
+  <div class="card-ribbon">{{ recipe().vegetarian ? 'vegetarian' : 'meat or fish' }}</div>
+</div>
+######### END 8 - k #########

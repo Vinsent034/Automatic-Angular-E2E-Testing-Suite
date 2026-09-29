@@ -1,0 +1,23 @@
+######### START 1 - a #########
+<span class="footer-version-alt" x-test-footer-version>v1.0</span>
+######### END 1 - a #########
+######### START 2 - b #########
+<span x-test-footer-version>v1.0</span>
+######### END 2 - b #########
+######### START 3 - c #########
+<span data-version="footer-version" x-test-footer-version>v1.0</span>
+######### END 3 - c #########
+######### START 4 - d #########
+<span class="footer-version" x-test-footer-version>v2.0</span>
+######### END 4 - d #########
+######### START 5 - e #########
+<span class="footer-version" x-test-footer-version> </span>
+######### END 5 - e #########
+######### START 6 - j #########
+<small class="footer-version" x-test-footer-version>v1.0</small>
+######### END 6 - j #########
+######### START 7 - k #########
+<span>
+  <span class="footer-version" x-test-footer-version>v1.0</span>
+</span>
+######### END 7 - k #########

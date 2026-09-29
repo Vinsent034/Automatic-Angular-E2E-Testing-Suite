@@ -1,0 +1,54 @@
+######### START 1 - a #########
+<div class="control-alt">
+          <label class="check" for="f-veg">
+            <input id="f-veg" name="vegetarian" type="checkbox" [(ngModel)]="vegetarian" x-test-f-veg>
+            <span class="check-label">Vegetarian</span>
+          </label>
+          <small class="help">used by the vegetarian filter</small>
+        </div>
+######### END 1 - a #########
+######### START 2 - b #########
+<div>
+          <label class="check" for="f-veg">
+            <input id="f-veg" name="vegetarian" type="checkbox" [(ngModel)]="vegetarian" x-test-f-veg>
+            <span class="check-label">Vegetarian</span>
+          </label>
+          <small class="help">used by the vegetarian filter</small>
+        </div>
+######### END 2 - b #########
+######### START 3 - c #########
+<div data-control="control">
+          <label class="check" for="f-veg">
+            <input id="f-veg" name="vegetarian" type="checkbox" [(ngModel)]="vegetarian" x-test-f-veg>
+            <span class="check-label">Vegetarian</span>
+          </label>
+          <small class="help">used by the vegetarian filter</small>
+        </div>
+######### END 3 - c #########
+######### START 4 - i #########
+<label class="check" for="f-veg">
+            <input id="f-veg" name="vegetarian" type="checkbox" [(ngModel)]="vegetarian" x-test-f-veg>
+            <span class="check-label">Vegetarian</span>
+          </label>
+          <small class="help">used by the vegetarian filter</small>
+######### END 4 - i #########
+######### START 5 - j #########
+<section class="control">
+          <label class="check" for="f-veg">
+            <input id="f-veg" name="vegetarian" type="checkbox" [(ngModel)]="vegetarian" x-test-f-veg>
+            <span class="check-label">Vegetarian</span>
+          </label>
+          <small class="help">used by the vegetarian filter</small>
+        </section>
+######### END 5 - j #########
+######### START 6 - k #########
+<div>
+  <div class="control">
+          <label class="check" for="f-veg">
+            <input id="f-veg" name="vegetarian" type="checkbox" [(ngModel)]="vegetarian" x-test-f-veg>
+            <span class="check-label">Vegetarian</span>
+          </label>
+          <small class="help">used by the vegetarian filter</small>
+        </div>
+</div>
+######### END 6 - k #########

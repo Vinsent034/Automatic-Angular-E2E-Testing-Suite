@@ -1,0 +1,23 @@
+######### START 1 - a #########
+<span class="result-count-alt" data-kind="filtered" x-test-result-count>{{ store.filteredCount() }}</span>
+######### END 1 - a #########
+######### START 2 - b #########
+<span class="result-count" x-test-result-count>{{ store.filteredCount() }}</span>
+######### END 2 - b #########
+######### START 3 - c #########
+<span data-count="result-count" data-kind="filtered" x-test-result-count>{{ store.filteredCount() }}</span>
+######### END 3 - c #########
+######### START 4 - d #########
+<span class="result-count" data-kind="filtered" x-test-result-count>0</span>
+######### END 4 - d #########
+######### START 5 - e #########
+<span class="result-count" data-kind="filtered" x-test-result-count> </span>
+######### END 5 - e #########
+######### START 6 - j #########
+<strong class="result-count" data-kind="filtered" x-test-result-count>{{ store.filteredCount() }}</strong>
+######### END 6 - j #########
+######### START 7 - k #########
+<span>
+  <span class="result-count" data-kind="filtered" x-test-result-count>{{ store.filteredCount() }}</span>
+</span>
+######### END 7 - k #########

@@ -1,0 +1,53 @@
+{
+ "S1_Search": {
+  "Relative": {
+   "count": 1,
+   "same": true,
+   "first": true
+  },
+  "Katalon": {
+   "count": 1,
+   "same": true,
+   "first": true
+  },
+  "Selenium": {
+   "count": 1,
+   "same": true,
+   "first": true
+  }
+ },
+ "S1_Card": {
+  "Relative": {
+   "count": 1,
+   "same": true,
+   "first": true
+  },
+  "Katalon": {
+   "count": 1,
+   "same": true,
+   "first": true
+  },
+  "Selenium": {
+   "count": 1,
+   "same": true,
+   "first": true
+  }
+ },
+ "S1_CardTitle": {
+  "Relative": {
+   "count": 1,
+   "same": true,
+   "first": true
+  },
+  "Katalon": {
+   "count": 1,
+   "same": true,
+   "first": true
+  },
+  "Selenium": {
+   "count": 1,
+   "same": true,
+   "first": true
+  }
+ }
+}

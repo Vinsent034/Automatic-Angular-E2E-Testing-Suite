@@ -1,0 +1,26 @@
+######### START 1 - a #########
+<small class="field-hint-alt">ascending time, descending rating</small>
+######### END 1 - a #########
+######### START 2 - b #########
+<small>ascending time, descending rating</small>
+######### END 2 - b #########
+######### START 3 - c #########
+<small data-hint="field-hint">ascending time, descending rating</small>
+######### END 3 - c #########
+######### START 4 - d #########
+<small class="field-hint">time up, rating down</small>
+######### END 4 - d #########
+######### START 5 - e #########
+<small class="field-hint"> </small>
+######### END 5 - e #########
+######### START 6 - i #########
+ascending time, descending rating
+######### END 6 - i #########
+######### START 7 - j #########
+<span class="field-hint">ascending time, descending rating</span>
+######### END 7 - j #########
+######### START 8 - k #########
+<span>
+  <small class="field-hint">ascending time, descending rating</small>
+</span>
+######### END 8 - k #########

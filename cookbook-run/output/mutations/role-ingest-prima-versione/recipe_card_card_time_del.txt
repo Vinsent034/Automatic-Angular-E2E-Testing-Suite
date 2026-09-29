@@ -1,0 +1,26 @@
+######### START 1 - a #########
+<span class="card-separator">·</span>
+######### END 1 - a #########
+######### START 2 - b #########
+<span>·</span>
+######### END 2 - b #########
+######### START 3 - c #########
+<span data-dot="card-dot">·</span>
+######### END 3 - c #########
+######### START 4 - d #########
+<span class="card-dot">•</span>
+######### END 4 - d #########
+######### START 5 - e #########
+<span class="card-dot"> </span>
+######### END 5 - e #########
+######### START 6 - i #########
+·
+######### END 6 - i #########
+######### START 7 - j #########
+<i class="card-dot">·</i>
+######### END 7 - j #########
+######### START 8 - k #########
+<span class="card-dot-wrap">
+  <span class="card-dot">·</span>
+</span>
+######### END 8 - k #########

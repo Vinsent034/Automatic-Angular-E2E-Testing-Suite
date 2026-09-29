@@ -1,0 +1,68 @@
+#mutation-id: g
+#element: gamma
+#name: stats-table
+#type: tag_mov_html_mut
+#status: COMPLETE
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\Kanban board\src\app\stats\stats.component.html #########
+<section class="stats-page" x-test-stats>
+  <div class="page-heading" x-test-stats-heading>
+    <h2 class="page-title" x-test-stats-title>Board statistics</h2>
+    <a class="btn btn-ghost back-btn" routerLink="/" x-test-stats-back>Back to board</a>
+  </div>
+
+  <div class="stats-grid" x-test-stats-cards>
+    <div class="stat-card" data-stat="total" x-test-stat-total-card>
+      <span class="stat-label" x-test-stat-total-label>Total cards</span>
+      <span class="stat-value" x-test-stat-total>{{ store.totalCards() }}</span>
+    </div>
+
+    <div class="stat-card" data-stat="backlog" x-test-stat-backlog-card>
+      <span class="stat-label" x-test-stat-backlog-label>Backlog</span>
+      <span class="stat-value" x-test-stat-backlog>{{ store.backlogCount() }}</span>
+    </div>
+
+    <div class="stat-card" data-stat="inprogress" x-test-stat-inprogress-card>
+      <span class="stat-label" x-test-stat-inprogress-label>In Progress</span>
+      <span class="stat-value" x-test-stat-inprogress>{{ store.inProgressCount() }}</span>
+    </div>
+
+    <div class="stat-card" data-stat="review" x-test-stat-review-card>
+      <span class="stat-label" x-test-stat-review-label>Review</span>
+      <span class="stat-value" x-test-stat-review>{{ store.reviewCount() }}</span>
+    </div>
+
+    <div class="stat-card" data-stat="done" x-test-stat-done-card>
+      <span class="stat-label" x-test-stat-done-label>Done</span>
+      <span class="stat-value" x-test-stat-done>{{ store.doneCount() }}</span>
+    </div>
+
+    <div class="stat-card" data-stat="high" data-priority="high" x-test-stat-high-card>
+      <span class="stat-label" x-test-stat-high-label>High priority</span>
+      <span class="stat-value" x-test-stat-high>{{ store.highCount() }}</span>
+    </div>
+
+    <div class="stat-card" data-stat="medium" data-priority="medium" x-test-stat-medium-card>
+      <span class="stat-label" x-test-stat-medium-label>Medium priority</span>
+      <span class="stat-value" x-test-stat-medium>{{ store.mediumCount() }}</span>
+    </div>
+
+    <div class="stat-card" data-stat="low" data-priority="low" x-test-stat-low-card>
+      <span class="stat-label" x-test-stat-low-label>Low priority</span>
+      <span class="stat-value" x-test-stat-low>{{ store.lowCount() }}</span>
+    </div>
+  </div>
+
+  
+</section>
+######### END FILE #########
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\Kanban board\src\app\panel\panel.component.html #########
+<section class="panel">
+ <header class="panel-head">
+  <h4 class="panel-heading">{{ heading() }}</h4>
+  <span class="panel-note">{{ note() }}</span>
+ </header>
+ <div class="panel-body">
+  <ng-content></ng-content>
+ </div>
+</section>
+######### END FILE #########

@@ -1,0 +1,72 @@
+######### START 1 - a #########
+<div class="page-heading-bar" x-test-form-heading>
+    @if (editing()) {
+      <h2 class="page-title" x-test-form-title-edit>Edit card</h2>
+    } @else {
+      <h2 class="page-title" x-test-form-title-new>New card</h2>
+    }
+    <a class="btn btn-ghost back-btn" routerLink="/" x-test-form-back>Back to board</a>
+  </div>
+######### END 1 - a #########
+######### START 1 - b #########
+<div x-test-form-heading>
+    @if (editing()) {
+      <h2 class="page-title" x-test-form-title-edit>Edit card</h2>
+    } @else {
+      <h2 class="page-title" x-test-form-title-new>New card</h2>
+    }
+    <a class="btn btn-ghost back-btn" routerLink="/" x-test-form-back>Back to board</a>
+  </div>
+######### END 1 - b #########
+######### START 1 - c #########
+<div data-class="page-heading" x-test-form-heading>
+    @if (editing()) {
+      <h2 class="page-title" x-test-form-title-edit>Edit card</h2>
+    } @else {
+      <h2 class="page-title" x-test-form-title-new>New card</h2>
+    }
+    <a class="btn btn-ghost back-btn" routerLink="/" x-test-form-back>Back to board</a>
+  </div>
+######### END 1 - c #########
+######### START 1 - d #########
+<div class="page-heading" x-test-form-heading>
+    @if (editing()) {
+      <h2 class="page-title" x-test-form-title-edit>Edit card</h2>
+    } @else {
+      <h2 class="page-title" x-test-form-title-new>New card</h2>
+    }
+    <a class="btn btn-ghost back-btn" routerLink="/" x-test-form-back>Return to board</a>
+  </div>
+######### END 1 - d #########
+######### START 1 - e #########
+<div class="page-heading" x-test-form-heading>
+    @if (editing()) {
+      <h2 class="page-title" x-test-form-title-edit>Edit card</h2>
+    } @else {
+      <h2 class="page-title" x-test-form-title-new>New card</h2>
+    }
+    <a class="btn btn-ghost back-btn" routerLink="/" x-test-form-back> </a>
+  </div>
+######### END 1 - e #########
+######### START 1 - j #########
+<header class="page-heading" x-test-form-heading>
+    @if (editing()) {
+      <h2 class="page-title" x-test-form-title-edit>Edit card</h2>
+    } @else {
+      <h2 class="page-title" x-test-form-title-new>New card</h2>
+    }
+    <a class="btn btn-ghost back-btn" routerLink="/" x-test-form-back>Back to board</a>
+  </header>
+######### END 1 - j #########
+######### START 1 - k #########
+<div class="page-heading-wrap">
+  <div class="page-heading" x-test-form-heading>
+    @if (editing()) {
+      <h2 class="page-title" x-test-form-title-edit>Edit card</h2>
+    } @else {
+      <h2 class="page-title" x-test-form-title-new>New card</h2>
+    }
+    <a class="btn btn-ghost back-btn" routerLink="/" x-test-form-back>Back to board</a>
+  </div>
+</div>
+######### END 1 - k #########

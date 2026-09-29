@@ -1,0 +1,16 @@
+#mutation-id: LLMR_ingredient_row_component_html_ingredient_row_ing_qty_bet_c
+#element: ingredient_row_component_html
+#name: c
+#type: LLM_ROLE
+#status: HELD
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\cookbook\src\app\ingredient-row\ingredient-row.component.html #########
+<div class="ingredient-row" [attr.data-ingredient-id]="ingredient().id" [class.is-optional]="ingredient().optional">
+  <span class="ing-bullet" aria-hidden="true">•</span>
+  <p data-ingline="ing-line">
+    <span class="ing-qty" [attr.x-test-ing-qty]="ingredient().id">{{ store.formatQty(ingredient().quantity * store.scaleFactor()) }}</span>
+    <span class="ing-unit">{{ ingredient().unit }}</span>
+    <span class="ing-name" [attr.x-test-ing-name]="ingredient().id">{{ ingredient().name }}</span>
+    <em class="ing-optional">{{ ingredient().optional ? '(optional)' : '' }}</em>
+  </p>
+</div>
+######### END FILE #########

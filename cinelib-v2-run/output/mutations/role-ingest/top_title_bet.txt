@@ -1,0 +1,11 @@
+######### START 1 - i #########
+<a [routerLink]="['/movie', movie.id]" class="stats-link" x-test-top-title>{{ movie.title }}</a>
+######### END 1 - i #########
+######### START 1 - j #########
+<th><a [routerLink]="['/movie', movie.id]" class="stats-link" x-test-top-title>{{ movie.title }}</a></th>
+######### END 1 - j #########
+######### START 1 - k #########
+<tr>
+<td><a [routerLink]="['/movie', movie.id]" class="stats-link" x-test-top-title>{{ movie.title }}</a></td>
+</tr>
+######### END 1 - k #########

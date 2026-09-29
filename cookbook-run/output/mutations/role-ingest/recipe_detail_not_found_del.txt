@@ -1,0 +1,26 @@
+######### START 1 - a #########
+<a class="btn btn-secondary nf-back" routerLink="/">Back to recipes</a>
+######### END 1 - a #########
+######### START 2 - b #########
+<a routerLink="/">Back to recipes</a>
+######### END 2 - b #########
+######### START 3 - c #########
+<a data-btn="btn btn-primary nf-back" routerLink="/">Back to recipes</a>
+######### END 3 - c #########
+######### START 4 - d #########
+<a class="btn btn-primary nf-back" routerLink="/">Go back</a>
+######### END 4 - d #########
+######### START 5 - e #########
+<a class="btn btn-primary nf-back" routerLink="/"> </a>
+######### END 5 - e #########
+######### START 6 - i #########
+Back to recipes
+######### END 6 - i #########
+######### START 7 - j #########
+<button class="btn btn-primary nf-back" routerLink="/">Back to recipes</button>
+######### END 7 - j #########
+######### START 8 - k #########
+<div>
+  <a class="btn btn-primary nf-back" routerLink="/">Back to recipes</a>
+</div>
+######### END 8 - k #########

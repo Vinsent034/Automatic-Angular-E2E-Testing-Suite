@@ -1,11 +1,11 @@
 {
  "seed": "1234",
- "repositoryRootPath": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib",
+ "repositoryRootPath": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib",
  "npmRunCommand": "npm start -- --port 4300",
  "mutations": [
   {
    "name": "catalog-result-count",
-   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/catalog/catalog.component.html",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib/src/app/catalog/catalog.component.html",
    "target_matcher": {
     "type": "attribute",
     "key": "x-test-result-count",
@@ -14,7 +14,7 @@
   },
   {
    "name": "catalog-search-input",
-   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/catalog/catalog.component.html",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib/src/app/catalog/catalog.component.html",
    "target_matcher": {
     "type": "attribute",
     "key": "x-test-search-input",
@@ -23,7 +23,7 @@
   },
   {
    "name": "catalog-filter-genre",
-   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/catalog/catalog.component.html",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib/src/app/catalog/catalog.component.html",
    "target_matcher": {
     "type": "attribute",
     "key": "x-test-filter-genre",
@@ -32,7 +32,7 @@
   },
   {
    "name": "catalog-sort",
-   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/catalog/catalog.component.html",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib/src/app/catalog/catalog.component.html",
    "target_matcher": {
     "type": "attribute",
     "key": "x-test-sort",
@@ -41,7 +41,7 @@
   },
   {
    "name": "catalog-view-list",
-   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/catalog/catalog.component.html",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib/src/app/catalog/catalog.component.html",
    "target_matcher": {
     "type": "attribute",
     "key": "x-test-view-list",
@@ -50,7 +50,7 @@
   },
   {
    "name": "card-title",
-   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-card/movie-card.component.html",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib/src/app/movie-card/movie-card.component.html",
    "target_matcher": {
     "type": "attribute",
     "key": "x-test-card-title",
@@ -59,7 +59,7 @@
   },
   {
    "name": "detail-meta",
-   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-detail/movie-detail.component.html",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib/src/app/movie-detail/movie-detail.component.html",
    "target_matcher": {
     "type": "attribute",
     "key": "x-test-detail-meta",
@@ -68,7 +68,7 @@
   },
   {
    "name": "cast-row",
-   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/cast-row/cast-row.component.html",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib/src/app/cast-row/cast-row.component.html",
    "target_matcher": {
     "type": "attribute",
     "key": "x-test-cast-row",
@@ -77,7 +77,7 @@
   },
   {
    "name": "detail-delete-button",
-   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-detail/movie-detail.component.html",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib/src/app/movie-detail/movie-detail.component.html",
    "target_matcher": {
     "type": "attribute",
     "key": "x-test-delete-button",
@@ -86,7 +86,7 @@
   },
   {
    "name": "detail-not-found",
-   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-detail/movie-detail.component.html",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib/src/app/movie-detail/movie-detail.component.html",
    "target_matcher": {
     "type": "attribute",
     "key": "x-test-not-found",
@@ -95,7 +95,7 @@
   },
   {
    "name": "catalog-favorites-filter",
-   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/catalog/catalog.component.html",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib/src/app/catalog/catalog.component.html",
    "target_matcher": {
     "type": "attribute",
     "key": "x-test-favorites-filter",
@@ -104,7 +104,7 @@
   },
   {
    "name": "card-favorite-toggle",
-   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-card/movie-card.component.html",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib/src/app/movie-card/movie-card.component.html",
    "target_matcher": {
     "type": "attribute",
     "key": "x-test-favorite-toggle",
@@ -113,7 +113,7 @@
   },
   {
    "name": "detail-favorite",
-   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-detail/movie-detail.component.html",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib/src/app/movie-detail/movie-detail.component.html",
    "target_matcher": {
     "type": "attribute",
     "key": "x-test-detail-favorite",
@@ -122,7 +122,7 @@
   },
   {
    "name": "review-item",
-   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/reviews/reviews.component.html",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib/src/app/reviews/reviews.component.html",
    "target_matcher": {
     "type": "attribute",
     "key": "x-test-review-item",
@@ -131,7 +131,7 @@
   },
   {
    "name": "review-field-author",
-   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/reviews/reviews.component.html",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib/src/app/reviews/reviews.component.html",
    "target_matcher": {
     "type": "attribute",
     "key": "x-test-review-field-author",
@@ -140,7 +140,7 @@
   },
   {
    "name": "review-submit",
-   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/reviews/reviews.component.html",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib/src/app/reviews/reviews.component.html",
    "target_matcher": {
     "type": "attribute",
     "key": "x-test-review-submit",
@@ -149,7 +149,7 @@
   },
   {
    "name": "review-remove",
-   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/reviews/reviews.component.html",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib/src/app/reviews/reviews.component.html",
    "target_matcher": {
     "type": "attribute",
     "key": "x-test-review-remove",
@@ -158,7 +158,7 @@
   },
   {
    "name": "stat-total-value",
-   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/stats/stats.component.html",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib/src/app/stats/stats.component.html",
    "target_matcher": {
     "type": "attribute",
     "key": "x-test-stat-total-value",
@@ -167,7 +167,7 @@
   },
   {
    "name": "genre-row",
-   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/stats/stats.component.html",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib/src/app/stats/stats.component.html",
    "target_matcher": {
     "type": "attribute",
     "key": "x-test-genre-row",
@@ -176,7 +176,7 @@
   },
   {
    "name": "top-row",
-   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/stats/stats.component.html",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib/src/app/stats/stats.component.html",
    "target_matcher": {
     "type": "attribute",
     "key": "x-test-top-row",
@@ -185,7 +185,7 @@
   },
   {
    "name": "top-title",
-   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/stats/stats.component.html",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib/src/app/stats/stats.component.html",
    "target_matcher": {
     "type": "attribute",
     "key": "x-test-top-title",
@@ -194,7 +194,7 @@
   },
   {
    "name": "field-title",
-   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-form/movie-form.component.html",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib/src/app/movie-form/movie-form.component.html",
    "target_matcher": {
     "type": "attribute",
     "key": "x-test-field-title",
@@ -203,7 +203,7 @@
   },
   {
    "name": "form-submit",
-   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-form/movie-form.component.html",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib/src/app/movie-form/movie-form.component.html",
    "target_matcher": {
     "type": "attribute",
     "key": "x-test-form-submit",
@@ -212,7 +212,7 @@
   },
   {
    "name": "cast-add",
-   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-form/movie-form.component.html",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib/src/app/movie-form/movie-form.component.html",
    "target_matcher": {
     "type": "attribute",
     "key": "x-test-cast-add",
@@ -221,7 +221,7 @@
   },
   {
    "name": "catalog-add-button",
-   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/catalog/catalog.component.html",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib/src/app/catalog/catalog.component.html",
    "target_matcher": {
     "type": "attribute",
     "key": "x-test-add-button",
@@ -230,7 +230,7 @@
   },
   {
    "name": "catalog-reset-button",
-   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/catalog/catalog.component.html",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib/src/app/catalog/catalog.component.html",
    "target_matcher": {
     "type": "attribute",
     "key": "x-test-reset-button",
@@ -239,7 +239,7 @@
   },
   {
    "name": "catalog-empty",
-   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/catalog/catalog.component.html",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib/src/app/catalog/catalog.component.html",
    "target_matcher": {
     "type": "attribute",
     "key": "x-test-empty",
@@ -248,7 +248,7 @@
   },
   {
    "name": "catalog-modal-confirm",
-   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/catalog/catalog.component.html",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib/src/app/catalog/catalog.component.html",
    "target_matcher": {
     "type": "attribute",
     "key": "x-test-modal-confirm",
@@ -257,7 +257,7 @@
   },
   {
    "name": "card-meta",
-   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-card/movie-card.component.html",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib/src/app/movie-card/movie-card.component.html",
    "target_matcher": {
     "type": "attribute",
     "key": "x-test-card-meta",
@@ -266,7 +266,7 @@
   },
   {
    "name": "card-rating",
-   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-card/movie-card.component.html",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib/src/app/movie-card/movie-card.component.html",
    "target_matcher": {
     "type": "attribute",
     "key": "x-test-card-rating",
@@ -275,7 +275,7 @@
   },
   {
    "name": "card-poster",
-   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-card/movie-card.component.html",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib/src/app/movie-card/movie-card.component.html",
    "target_matcher": {
     "type": "attribute",
     "key": "x-test-card-poster",
@@ -284,7 +284,7 @@
   },
   {
    "name": "detail-title",
-   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-detail/movie-detail.component.html",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib/src/app/movie-detail/movie-detail.component.html",
    "target_matcher": {
     "type": "attribute",
     "key": "x-test-detail-title",
@@ -293,7 +293,7 @@
   },
   {
    "name": "detail-synopsis",
-   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-detail/movie-detail.component.html",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib/src/app/movie-detail/movie-detail.component.html",
    "target_matcher": {
     "type": "attribute",
     "key": "x-test-synopsis",
@@ -302,7 +302,7 @@
   },
   {
    "name": "detail-edit-button",
-   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-detail/movie-detail.component.html",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib/src/app/movie-detail/movie-detail.component.html",
    "target_matcher": {
     "type": "attribute",
     "key": "x-test-edit-button",
@@ -311,7 +311,7 @@
   },
   {
    "name": "cast-name",
-   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/cast-row/cast-row.component.html",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib/src/app/cast-row/cast-row.component.html",
    "target_matcher": {
     "type": "attribute",
     "key": "x-test-cast-name",
@@ -320,7 +320,7 @@
   },
   {
    "name": "cast-role",
-   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/cast-row/cast-row.component.html",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib/src/app/cast-row/cast-row.component.html",
    "target_matcher": {
     "type": "attribute",
     "key": "x-test-cast-role",
@@ -329,7 +329,7 @@
   },
   {
    "name": "reviews-average",
-   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/reviews/reviews.component.html",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib/src/app/reviews/reviews.component.html",
    "target_matcher": {
     "type": "attribute",
     "key": "x-test-reviews-average",
@@ -338,7 +338,7 @@
   },
   {
    "name": "review-comment",
-   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/reviews/reviews.component.html",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib/src/app/reviews/reviews.component.html",
    "target_matcher": {
     "type": "attribute",
     "key": "x-test-review-comment",
@@ -347,7 +347,7 @@
   },
   {
    "name": "review-field-comment",
-   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/reviews/reviews.component.html",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib/src/app/reviews/reviews.component.html",
    "target_matcher": {
     "type": "attribute",
     "key": "x-test-review-field-comment",
@@ -356,7 +356,7 @@
   },
   {
    "name": "stats-heading",
-   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/stats/stats.component.html",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib/src/app/stats/stats.component.html",
    "target_matcher": {
     "type": "attribute",
     "key": "x-test-stats-heading",
@@ -365,7 +365,7 @@
   },
   {
    "name": "genre-count",
-   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/stats/stats.component.html",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib/src/app/stats/stats.component.html",
    "target_matcher": {
     "type": "attribute",
     "key": "x-test-genre-count",
@@ -374,7 +374,7 @@
   },
   {
    "name": "stat-favorites-value",
-   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/stats/stats.component.html",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib/src/app/stats/stats.component.html",
    "target_matcher": {
     "type": "attribute",
     "key": "x-test-stat-favorites-value",
@@ -383,7 +383,7 @@
   },
   {
    "name": "field-year",
-   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-form/movie-form.component.html",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib/src/app/movie-form/movie-form.component.html",
    "target_matcher": {
     "type": "attribute",
     "key": "x-test-field-year",
@@ -392,7 +392,7 @@
   },
   {
    "name": "form-cancel",
-   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-form/movie-form.component.html",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib/src/app/movie-form/movie-form.component.html",
    "target_matcher": {
     "type": "attribute",
     "key": "x-test-form-cancel",
@@ -401,7 +401,7 @@
   },
   {
    "name": "cast-remove",
-   "file_path": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-form/movie-form.component.html",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib/src/app/movie-form/movie-form.component.html",
    "target_matcher": {
     "type": "attribute",
     "key": "x-test-cast-remove",

@@ -1,0 +1,26 @@
+######### START 1 - a #########
+<span class="action-note-alt">removes the checked lines</span>
+######### END 1 - a #########
+######### START 2 - b #########
+<span>removes the checked lines</span>
+######### END 2 - b #########
+######### START 3 - c #########
+<span data-note="action-note">removes the checked lines</span>
+######### END 3 - c #########
+######### START 4 - d #########
+<span class="action-note">deletes the checked lines</span>
+######### END 4 - d #########
+######### START 5 - e #########
+<span class="action-note"> </span>
+######### END 5 - e #########
+######### START 6 - i #########
+removes the checked lines
+######### END 6 - i #########
+######### START 7 - j #########
+<small class="action-note">removes the checked lines</small>
+######### END 7 - j #########
+######### START 8 - k #########
+<span>
+  <span class="action-note">removes the checked lines</span>
+</span>
+######### END 8 - k #########

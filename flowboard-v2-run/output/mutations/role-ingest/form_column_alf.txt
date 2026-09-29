@@ -1,0 +1,42 @@
+######### START 1 - a #########
+<select id="field-column" name="columnId" class="input select form-column-field" [(ngModel)]="columnId" x-test-form-column>
+            <option value="backlog">Backlog</option>
+            <option value="inprogress">In Progress</option>
+            <option value="review">Review</option>
+            <option value="done">Done</option>
+          </select>
+######### END 1 - a #########
+######### START 1 - b #########
+<select id="field-column" name="columnId" [(ngModel)]="columnId" x-test-form-column>
+            <option value="backlog">Backlog</option>
+            <option value="inprogress">In Progress</option>
+            <option value="review">Review</option>
+            <option value="done">Done</option>
+          </select>
+######### END 1 - b #########
+######### START 1 - c #########
+<select id="field-column" name="columnId" data-class="input select form-column" [(ngModel)]="columnId" x-test-form-column>
+            <option value="backlog">Backlog</option>
+            <option value="inprogress">In Progress</option>
+            <option value="review">Review</option>
+            <option value="done">Done</option>
+          </select>
+######### END 1 - c #########
+######### START 1 - j #########
+<textarea id="field-column" name="columnId" class="input select form-column" [(ngModel)]="columnId" x-test-form-column>
+            <option value="backlog">Backlog</option>
+            <option value="inprogress">In Progress</option>
+            <option value="review">Review</option>
+            <option value="done">Done</option>
+          </textarea>
+######### END 1 - j #########
+######### START 1 - k #########
+<div class="select-wrap">
+  <select id="field-column" name="columnId" class="input select form-column" [(ngModel)]="columnId" x-test-form-column>
+            <option value="backlog">Backlog</option>
+            <option value="inprogress">In Progress</option>
+            <option value="review">Review</option>
+            <option value="done">Done</option>
+          </select>
+</div>
+######### END 1 - k #########

@@ -1,0 +1,138 @@
+#mutation-id: LLMR_h_shopping_list_clear_done_alf
+#element: shopping_list_component_html
+#name: h
+#type: LLM_ROLE
+#status: HELD
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\cookbook\src\app\shopping-list\shopping-list.component.html #########
+<section class="shopping-page">
+  <div class="page-head">
+    <div class="title-block">
+      <h1 class="page-title" x-test-shopping-title>Shopping list</h1>
+      <p class="page-sub">Ingredients added from the recipes</p>
+    </div>
+  </div>
+
+  <div class="shopping-summary">
+    <p class="summary-line">
+      <span class="summary-value" data-kind="open" x-test-open-count>{{ store.shoppingOpenCount() }}</span>
+      <span class="summary-label">to buy</span>
+    </p>
+    <p class="summary-line">
+      <span class="summary-value" data-kind="done" x-test-done-count>{{ store.shoppingDoneCount() }}</span>
+      <span class="summary-label">bought</span>
+    </p>
+  </div>
+
+  <div class="shopping-body">
+    @if (store.shoppingGroups().length === 0) {
+      <div class="empty-box">
+        <p class="empty-text" x-test-shopping-empty>Your shopping list is empty</p>
+        <p class="empty-hint">Open a recipe and add its ingredients</p>
+      </div>
+    }
+    @for (group of store.shoppingGroups(); track group.recipeId) {
+      <div class="shop-group" [attr.data-recipe-id]="group.recipeId">
+        <h2 class="group-title">
+          <span class="group-name">{{ group.title }}</span>
+          <span class="group-count">{{ group.items.length }}</span>
+        </h2>
+        <ul class="shop-items">
+          @for (item of group.items; track item.id) {
+            <li class="shop-item" [class.is-done]="item.done" [attr.data-item-id]="item.id">
+              <label class="shop-check">
+                <input type="checkbox" class="shop-box" [checked]="item.done" (change)="store.toggleShopping(item.id)" [attr.aria-label]="'Bought ' + item.name" [attr.x-test-shop-check]="item.id">
+                <span class="shop-text">{{ store.formatQty(item.quantity) }} {{ item.unit }} {{ item.name }}</span>
+              </label>
+            </li>
+          }
+        </ul>
+      </div>
+    }
+  </div>
+
+  <div class="shopping-actions">
+    <div class="action-group">
+      
+      <span class="action-note">removes the checked lines</span>
+    </div>
+  </div>
+</section>
+######### END FILE #########
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\cookbook\src\app\recipe-list\recipe-list.component.html #########
+<section class="recipes-page">
+  <div class="page-head">
+    <div class="title-block">
+      <h1 class="page-title" x-test-list-title>Recipes</h1>
+      <p class="page-sub">A fixed collection of demo recipes</p>
+    </div>
+  </div>
+
+  <div class="toolbar" role="toolbar" aria-label="Recipe filters">
+    <div class="tool tool-search">
+      <label class="field" for="search-input">
+        <span class="field-label">Search</span>
+        <input id="search-input" class="input search-input" type="text" placeholder="Search a recipe…" [value]="store.search()" (input)="onSearch($event)" x-test-search>
+        <small class="field-hint">title or tag</small>
+      </label>
+    </div>
+    <div class="tool tool-course">
+      <label class="field" for="course-filter">
+        <span class="field-label">Course</span>
+        <select id="course-filter" class="input course-select" [value]="store.courseFilter()" (change)="onCourse($event)" x-test-course-filter>
+          <option value="all">All courses</option>
+          <option value="starter">Starter</option>
+          <option value="main">Main</option>
+          <option value="side">Side</option>
+          <option value="dessert">Dessert</option>
+        </select>
+        <small class="field-hint">one course at a time</small>
+      </label>
+    </div>
+    <div class="tool tool-veg">
+      <label class="check" for="veg-only">
+        <input id="veg-only" class="veg-check" type="checkbox" [checked]="store.vegetarianOnly()" (change)="onVegetarian($event)" x-test-veg-only>
+        <span class="check-label">Vegetarian only</span>
+      </label>
+    </div>
+    <div class="tool tool-sort">
+      <label class="field" for="sort-select">
+        <span class="field-label">Sort by</span>
+        <select id="sort-select" class="input sort-select" [value]="store.sortKey()" (change)="onSort($event)" x-test-sort>
+          <option value="title">Title</option>
+          <option value="time">Total time</option>
+          <option value="rating">Rating</option>
+        </select>
+        <small class="field-hint">ascending time, descending rating</small>
+      </label>
+    </div>
+  </div>
+
+  <div class="list-meta">
+    <p class="result-line">
+      <span class="result-count" data-kind="filtered" x-test-result-count>{{ store.filteredCount() }}</span>
+      <span class="result-label">recipes shown</span>
+    </p>
+    <div class="list-actions">
+      <a class="btn btn-primary" routerLink="/recipe/new" role="button" x-test-add-recipe>New recipe</a>
+      <button type="button" class="btn btn-ghost" (click)="store.reset()">Reset</button>
+    </div>
+  </div>
+
+  <div class="list-body">
+    @if (store.filteredCount() === 0) {
+      <div class="empty-box">
+        <p class="empty-text" x-test-empty>No recipes match your filters.</p>
+        <p class="empty-hint">Try another search or course</p>
+      </div>
+    }
+    <ul class="recipe-grid" aria-label="Recipes">
+      @for (recipe of store.filtered(); track recipe.id) {
+        <li class="recipe-slot">
+          <app-recipe-card [recipe]="recipe"></app-recipe-card>
+        </li>
+      }
+    </ul>
+  </div>
+</section>
+<button type="button" class="btn" (click)="store.clearDone()" x-test-clear-done>Clear bought items</button>
+######### END FILE #########

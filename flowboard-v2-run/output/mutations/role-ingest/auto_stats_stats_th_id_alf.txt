@@ -1,0 +1,23 @@
+######### START 1 - a #########
+<th class="col-id-cell" x-test-stats-th-id>Id</th>
+######### END 1 - a #########
+######### START 1 - b #########
+<th x-test-stats-th-id>Id</th>
+######### END 1 - b #########
+######### START 1 - c #########
+<th data-class="col-id" x-test-stats-th-id>Id</th>
+######### END 1 - c #########
+######### START 1 - d #########
+<th class="col-id" x-test-stats-th-id>ID</th>
+######### END 1 - d #########
+######### START 1 - e #########
+<th class="col-id" x-test-stats-th-id> </th>
+######### END 1 - e #########
+######### START 1 - j #########
+<td class="col-id" x-test-stats-th-id>Id</td>
+######### END 1 - j #########
+######### START 1 - k #########
+<div class="th-wrap">
+  <th class="col-id" x-test-stats-th-id>Id</th>
+</div>
+######### END 1 - k #########

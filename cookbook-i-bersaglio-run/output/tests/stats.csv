@@ -1,0 +1,8 @@
+Locator,Total,Success,Fragility,Obsolescence,Not Compiled
+RelativeXPathTest,2,0,0,1,1
+AbsoluteXPathTest,2,0,0,1,1
+RobulaXPathTest,2,0,0,1,1
+KatalonXPathTest,2,0,0,1,1
+SeleniumXPathTest,2,0,0,1,1
+RobulaPlusXPathTest,2,0,0,1,1
+HookXPathTest,2,0,0,1,1

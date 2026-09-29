@@ -1,0 +1,37 @@
+######### START 1 - a #########
+<aside class="toast-banner" role="status" aria-live="polite" x-test-toast-bar>
+  <span class="toast-icon" aria-hidden="true" x-test-toast-icon>ℹ</span>
+  <span class="toast-label" x-test-toast-label>Last action:</span>
+  <span class="toast-message" x-test-toast>{{ store.toast() }}</span>
+</aside>
+######### END 1 - a #########
+######### START 1 - b #########
+<aside class="toast-bar" role="status" x-test-toast-bar>
+  <span class="toast-icon" aria-hidden="true" x-test-toast-icon>ℹ</span>
+  <span class="toast-label" x-test-toast-label>Last action:</span>
+  <span class="toast-message" x-test-toast>{{ store.toast() }}</span>
+</aside>
+######### END 1 - b #########
+######### START 1 - c #########
+<aside class="toast-bar" data-role="status" aria-live="polite" x-test-toast-bar>
+  <span class="toast-icon" aria-hidden="true" x-test-toast-icon>ℹ</span>
+  <span class="toast-label" x-test-toast-label>Last action:</span>
+  <span class="toast-message" x-test-toast>{{ store.toast() }}</span>
+</aside>
+######### END 1 - c #########
+######### START 1 - j #########
+<div class="toast-bar" role="status" aria-live="polite" x-test-toast-bar>
+  <span class="toast-icon" aria-hidden="true" x-test-toast-icon>ℹ</span>
+  <span class="toast-label" x-test-toast-label>Last action:</span>
+  <span class="toast-message" x-test-toast>{{ store.toast() }}</span>
+</div>
+######### END 1 - j #########
+######### START 1 - k #########
+<div class="toast-bar-wrapper">
+<aside class="toast-bar" role="status" aria-live="polite" x-test-toast-bar>
+  <span class="toast-icon" aria-hidden="true" x-test-toast-icon>ℹ</span>
+  <span class="toast-label" x-test-toast-label>Last action:</span>
+  <span class="toast-message" x-test-toast>{{ store.toast() }}</span>
+</aside>
+</div>
+######### END 1 - k #########

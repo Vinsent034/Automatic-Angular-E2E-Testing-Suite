@@ -1,0 +1,42 @@
+######### START 1 - a #########
+<div class="course-row-alt" role="row" [attr.data-course]="stat.course">
+            <span class="course-name" role="cell">{{ stat.course }}</span>
+            <span class="course-count" role="cell" [attr.x-test-course-count]="stat.course">{{ stat.count }}</span>
+            <span class="course-share" role="cell">{{ stat.share }}%</span>
+          </div>
+######### END 1 - a #########
+######### START 2 - b #########
+<div class="course-row" [attr.data-course]="stat.course">
+            <span class="course-name" role="cell">{{ stat.course }}</span>
+            <span class="course-count" role="cell" [attr.x-test-course-count]="stat.course">{{ stat.count }}</span>
+            <span class="course-share" role="cell">{{ stat.share }}%</span>
+          </div>
+######### END 2 - b #########
+######### START 3 - c #########
+<div data-row="course-row" role="row" [attr.data-course]="stat.course">
+            <span class="course-name" role="cell">{{ stat.course }}</span>
+            <span class="course-count" role="cell" [attr.x-test-course-count]="stat.course">{{ stat.count }}</span>
+            <span class="course-share" role="cell">{{ stat.share }}%</span>
+          </div>
+######### END 3 - c #########
+######### START 4 - i #########
+<span class="course-name" role="cell">{{ stat.course }}</span>
+            <span class="course-count" role="cell" [attr.x-test-course-count]="stat.course">{{ stat.count }}</span>
+            <span class="course-share" role="cell">{{ stat.share }}%</span>
+######### END 4 - i #########
+######### START 5 - j #########
+<section class="course-row" role="row" [attr.data-course]="stat.course">
+            <span class="course-name" role="cell">{{ stat.course }}</span>
+            <span class="course-count" role="cell" [attr.x-test-course-count]="stat.course">{{ stat.count }}</span>
+            <span class="course-share" role="cell">{{ stat.share }}%</span>
+          </section>
+######### END 5 - j #########
+######### START 6 - k #########
+<div>
+  <div class="course-row" role="row" [attr.data-course]="stat.course">
+            <span class="course-name" role="cell">{{ stat.course }}</span>
+            <span class="course-count" role="cell" [attr.x-test-course-count]="stat.course">{{ stat.count }}</span>
+            <span class="course-share" role="cell">{{ stat.share }}%</span>
+          </div>
+</div>
+######### END 6 - k #########

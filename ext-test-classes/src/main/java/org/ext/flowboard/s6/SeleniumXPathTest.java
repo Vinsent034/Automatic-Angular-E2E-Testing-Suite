@@ -3,8 +3,10 @@ package org.ext.flowboard.s6;
 import org.ext.flowboard.FlowBoardBaseTest;
 import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import static org.junit.Assert.assertEquals;
 
 public class SeleniumXPathTest extends FlowBoardBaseTest {
@@ -12,7 +14,7 @@ public class SeleniumXPathTest extends FlowBoardBaseTest {
     public void test() throws Exception {
         driver.get(baseUrl);
         assertEquals("Stats", wait.until(ExpectedConditions.visibilityOfElementLocated(By.linkText("Stats"))).getText());
-        assertEquals("10", driver.findElement(By.cssSelector(".badge-total")).getText());
+        assertEquals("10", driver.findElement(By.cssSelector(".badge")).getText());
         assertEquals("v1.0", driver.findElement(By.cssSelector(".footer-version")).getText());
     }
 }

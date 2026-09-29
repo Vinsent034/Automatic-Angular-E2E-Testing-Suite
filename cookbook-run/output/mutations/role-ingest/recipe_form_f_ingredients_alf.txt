@@ -1,0 +1,17 @@
+######### START 1 - a #########
+<textarea id="f-ingredients" name="ingredients" rows="6" class="input input-area" [(ngModel)]="ingredientsText" x-test-f-ingredients></textarea>
+######### END 1 - a #########
+######### START 2 - b #########
+<textarea id="f-ingredients" name="ingredients" class="input" [(ngModel)]="ingredientsText" x-test-f-ingredients></textarea>
+######### END 2 - b #########
+######### START 3 - c #########
+<textarea id="f-ingredients" name="ingredients" rows="6" data-input="input" [(ngModel)]="ingredientsText" x-test-f-ingredients></textarea>
+######### END 3 - c #########
+######### START 4 - j #########
+<input id="f-ingredients" name="ingredients" rows="6" class="input" [(ngModel)]="ingredientsText" x-test-f-ingredients>
+######### END 4 - j #########
+######### START 5 - k #########
+<div>
+  <textarea id="f-ingredients" name="ingredients" rows="6" class="input" [(ngModel)]="ingredientsText" x-test-f-ingredients></textarea>
+</div>
+######### END 5 - k #########

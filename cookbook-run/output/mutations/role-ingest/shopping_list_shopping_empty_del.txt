@@ -1,0 +1,26 @@
+######### START 1 - a #########
+<p class="empty-hint-alt">Open a recipe and add its ingredients</p>
+######### END 1 - a #########
+######### START 2 - b #########
+<p>Open a recipe and add its ingredients</p>
+######### END 2 - b #########
+######### START 3 - c #########
+<p data-hint="empty-hint">Open a recipe and add its ingredients</p>
+######### END 3 - c #########
+######### START 4 - d #########
+<p class="empty-hint">Add ingredients from a recipe</p>
+######### END 4 - d #########
+######### START 5 - e #########
+<p class="empty-hint"> </p>
+######### END 5 - e #########
+######### START 6 - i #########
+Open a recipe and add its ingredients
+######### END 6 - i #########
+######### START 7 - j #########
+<span class="empty-hint">Open a recipe and add its ingredients</span>
+######### END 7 - j #########
+######### START 8 - k #########
+<div>
+  <p class="empty-hint">Open a recipe and add its ingredients</p>
+</div>
+######### END 8 - k #########

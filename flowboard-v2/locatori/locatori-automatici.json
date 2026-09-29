@@ -1,0 +1,110 @@
+{
+ "S1_Search": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-board[1]/section[1]/div[2]/div[1]/input[1]",
+  "Robula": "//input",
+  "RobulaPlus": "//input",
+  "HookBased": "//*[@x-test-search]"
+ },
+ "S1_Card": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-board[1]/section[1]/div[3]/section[2]/app-column[1]/ul[1]/li[1]/app-card[1]/article[1]",
+  "Robula": "//article",
+  "RobulaPlus": "//article",
+  "HookBased": "//*[@x-test-card='3']"
+ },
+ "S1_CardTitle": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-board[1]/section[1]/div[3]/section[2]/app-column[1]/ul[1]/li[1]/app-card[1]/article[1]/a[1]/h4[1]",
+  "Robula": "//h4",
+  "RobulaPlus": "//h4",
+  "HookBased": "//*[@x-test-card-title='3']"
+ },
+ "S2_ColumnCount": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-board[1]/section[1]/div[3]/section[1]/header[1]/span[1]",
+  "Robula": "//span[@data-column='backlog']",
+  "RobulaPlus": "//*[@data-column='backlog' and @class='badge column-count']",
+  "HookBased": "//*[@x-test-column-count='backlog']"
+ },
+ "S2_CardMove": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-board[1]/section[1]/div[3]/section[1]/app-column[1]/ul[1]/li[1]/app-card[1]/article[1]/footer[1]/label[1]/select[1]",
+  "Robula": "//article[@data-card-id='1']/*/*/select",
+  "RobulaPlus": "//*[@data-card-id='1']/*/*/select",
+  "HookBased": "//*[@x-test-card-move='1']"
+ },
+ "S2_ColumnInprogress": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-board[1]/section[1]/div[3]/section[2]",
+  "Robula": "//section[@data-column='inprogress']",
+  "RobulaPlus": "//*[@aria-label='In Progress column']",
+  "HookBased": "//*[@x-test-column='inprogress']"
+ },
+ "S3_FormTitle": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-card-form[1]/section[1]/form[1]/div[1]/input[1]",
+  "Robula": "//input[@id='field-title']",
+  "RobulaPlus": "//*[@id='field-title']",
+  "HookBased": "//*[@x-test-form-title]"
+ },
+ "S3_FormPriority": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-card-form[1]/section[1]/form[1]/app-panel[1]/section[1]/div[1]/div[1]/div[1]/select[1]",
+  "Robula": "//select[@id='field-priority']",
+  "RobulaPlus": "//*[@id='field-priority']",
+  "HookBased": "//*[@x-test-form-priority]"
+ },
+ "S3_FormSubmit": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-card-form[1]/section[1]/form[1]/div[4]/button[1]",
+  "Robula": "//button",
+  "RobulaPlus": "//button",
+  "HookBased": "//*[@x-test-form-submit]"
+ },
+ "S4_DetailTitle": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-card-detail[1]/section[1]/article[1]/header[1]/h3[1]",
+  "Robula": "//h3",
+  "RobulaPlus": "//h3",
+  "HookBased": "//*[@x-test-detail-title]"
+ },
+ "S4_DetailAssignee": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-card-detail[1]/section[1]/article[1]/app-panel[1]/section[1]/div[1]/div[1]/div[2]/span[2]",
+  "Robula": "//span[@class='detail-assignee']",
+  "RobulaPlus": "//*[contains(text(),'Marco')]",
+  "HookBased": "//*[@x-test-detail-assignee]"
+ },
+ "S4_DetailDelete": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-card-detail[1]/section[1]/article[1]/footer[1]/button[1]",
+  "Robula": "//button",
+  "RobulaPlus": "//button",
+  "HookBased": "//*[@x-test-detail-delete]"
+ },
+ "S5_StatTotal": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-stats[1]/section[1]/div[2]/div[1]/span[2]",
+  "Robula": "//div[@data-stat='total']/span[@class='stat-value']",
+  "RobulaPlus": "//*[@data-stat='total']/*[contains(text(),'10')]",
+  "HookBased": "//*[@x-test-stat-total]"
+ },
+ "S5_StatBacklog": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-stats[1]/section[1]/div[2]/div[2]/span[2]",
+  "Robula": "//div[@data-stat='backlog']/span[@class='stat-value']",
+  "RobulaPlus": "//*[@data-stat='backlog']/*[contains(text(),'4')]",
+  "HookBased": "//*[@x-test-stat-backlog]"
+ },
+ "S5_StatRow3": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-stats[1]/section[1]/div[3]/app-panel[1]/section[1]/div[1]/table[1]/tbody[1]/tr[3]",
+  "Robula": "//tr[@data-card-id='3']",
+  "RobulaPlus": "//*[@data-card-id='3']",
+  "HookBased": "//*[@x-test-stat-row='3']"
+ },
+ "S6_NavStats": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/app-header[1]/header[1]/div[1]/nav[1]/a[2]",
+  "Robula": "//a[@routerlink='/stats']",
+  "RobulaPlus": "//*[contains(text(),'Stats')]",
+  "HookBased": "//*[@x-test-nav-stats]"
+ },
+ "S6_TotalBadge": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/app-header[1]/header[1]/div[1]/div[2]/span[2]",
+  "Robula": "//span[@data-kind='total']",
+  "RobulaPlus": "//*[@data-kind='total']",
+  "HookBased": "//*[@x-test-total-badge]"
+ },
+ "S6_FooterVersion": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/footer[1]/div[1]/span[5]",
+  "Robula": "//span[@class='footer-version']",
+  "RobulaPlus": "//*[contains(text(),'v1.0')]",
+  "HookBased": "//*[@x-test-footer-version]"
+ }
+}

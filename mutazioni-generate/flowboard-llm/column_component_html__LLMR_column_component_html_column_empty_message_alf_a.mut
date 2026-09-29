@@ -1,0 +1,18 @@
+#mutation-id: LLMR_column_component_html_column_empty_message_alf_a
+#element: column_component_html
+#name: a
+#type: LLM_ROLE
+#status: HELD
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\Kanban board\src\app\column\column.component.html #########
+<ul class="card-list" [attr.data-column]="colId()" x-test-card-list>
+  @for (card of store.cardsByColumn()(colId()); track card.id) {
+    <li class="card-slot">
+      <app-card [card]="card" />
+    </li>
+  } @empty {
+    <li class="empty-slot">
+      <p class="empty-text" x-test-empty-message>No cards here</p>
+    </li>
+  }
+</ul>
+######### END FILE #########

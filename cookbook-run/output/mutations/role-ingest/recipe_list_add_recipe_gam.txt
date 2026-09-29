@@ -1,0 +1,72 @@
+######### START 1 - a #########
+<div class="list-meta-alt">
+    <p class="result-line">
+      <span class="result-count" data-kind="filtered" x-test-result-count>{{ store.filteredCount() }}</span>
+      <span class="result-label">recipes shown</span>
+    </p>
+    <div class="list-actions">
+      <a class="btn btn-primary" routerLink="/recipe/new" role="button" x-test-add-recipe>New recipe</a>
+      <button type="button" class="btn btn-ghost" (click)="store.reset()">Reset</button>
+    </div>
+  </div>
+######### END 1 - a #########
+######### START 2 - b #########
+<div>
+    <p class="result-line">
+      <span class="result-count" data-kind="filtered" x-test-result-count>{{ store.filteredCount() }}</span>
+      <span class="result-label">recipes shown</span>
+    </p>
+    <div class="list-actions">
+      <a class="btn btn-primary" routerLink="/recipe/new" role="button" x-test-add-recipe>New recipe</a>
+      <button type="button" class="btn btn-ghost" (click)="store.reset()">Reset</button>
+    </div>
+  </div>
+######### END 2 - b #########
+######### START 3 - c #########
+<div data-meta="list-meta">
+    <p class="result-line">
+      <span class="result-count" data-kind="filtered" x-test-result-count>{{ store.filteredCount() }}</span>
+      <span class="result-label">recipes shown</span>
+    </p>
+    <div class="list-actions">
+      <a class="btn btn-primary" routerLink="/recipe/new" role="button" x-test-add-recipe>New recipe</a>
+      <button type="button" class="btn btn-ghost" (click)="store.reset()">Reset</button>
+    </div>
+  </div>
+######### END 3 - c #########
+######### START 4 - i #########
+<p class="result-line">
+      <span class="result-count" data-kind="filtered" x-test-result-count>{{ store.filteredCount() }}</span>
+      <span class="result-label">recipes shown</span>
+    </p>
+    <div class="list-actions">
+      <a class="btn btn-primary" routerLink="/recipe/new" role="button" x-test-add-recipe>New recipe</a>
+      <button type="button" class="btn btn-ghost" (click)="store.reset()">Reset</button>
+    </div>
+######### END 4 - i #########
+######### START 5 - j #########
+<section class="list-meta">
+    <p class="result-line">
+      <span class="result-count" data-kind="filtered" x-test-result-count>{{ store.filteredCount() }}</span>
+      <span class="result-label">recipes shown</span>
+    </p>
+    <div class="list-actions">
+      <a class="btn btn-primary" routerLink="/recipe/new" role="button" x-test-add-recipe>New recipe</a>
+      <button type="button" class="btn btn-ghost" (click)="store.reset()">Reset</button>
+    </div>
+  </section>
+######### END 5 - j #########
+######### START 6 - k #########
+<div>
+  <div class="list-meta">
+    <p class="result-line">
+      <span class="result-count" data-kind="filtered" x-test-result-count>{{ store.filteredCount() }}</span>
+      <span class="result-label">recipes shown</span>
+    </p>
+    <div class="list-actions">
+      <a class="btn btn-primary" routerLink="/recipe/new" role="button" x-test-add-recipe>New recipe</a>
+      <button type="button" class="btn btn-ghost" (click)="store.reset()">Reset</button>
+    </div>
+  </div>
+</div>
+######### END 6 - k #########

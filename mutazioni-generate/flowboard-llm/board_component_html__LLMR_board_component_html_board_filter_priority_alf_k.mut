@@ -3,7 +3,7 @@
 #name: k
 #type: LLM_ROLE
 #status: HELD
-######### FILE C:\Users\vince\OneDrive\Desktop\App tirocinio\Kanban board\src\app\board\board.component.html #########
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\Kanban board\src\app\board\board.component.html #########
 <section class="board-page" x-test-board>
   <div class="board-intro" x-test-board-intro>
     <h2 class="page-title" x-test-board-title>Project board</h2>
@@ -19,7 +19,14 @@
 
     <div class="toolbar-group toolbar-priority" x-test-toolbar-priority>
       <label class="field-label" for="priority-filter" x-test-priority-label>Priority</label>
-      <label class="pf-wrap"><select id="priority-filter" class="input select priority-filter" [value]="store.priorityFilter()" (change)="onPriorityFilter($event)" x-test-filter-priority><option value="all">All</option><option value="low">Low</option><option value="medium">Medium</option><option value="high">High</option></select></label>
+      <div class="select-wrap">
+  <select id="priority-filter" class="input select priority-filter" [value]="store.priorityFilter()" (change)="onPriorityFilter($event)" x-test-filter-priority>
+        <option value="all">All</option>
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+      </select>
+</div>
     </div>
 
     <div class="toolbar-group toolbar-assignee" x-test-toolbar-assignee>

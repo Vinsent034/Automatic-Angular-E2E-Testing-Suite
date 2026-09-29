@@ -1,0 +1,26 @@
+######### START 1 - a #########
+<h2 class="card-heading" [attr.x-test-card-title]="recipe().id">{{ recipe().title }}</h2>
+######### END 1 - a #########
+######### START 2 - b #########
+<h2 [attr.x-test-card-title]="recipe().id">{{ recipe().title }}</h2>
+######### END 2 - b #########
+######### START 3 - c #########
+<h2 data-title="card-title" [attr.x-test-card-title]="recipe().id">{{ recipe().title }}</h2>
+######### END 3 - c #########
+######### START 4 - d #########
+<h2 class="card-title" [attr.x-test-card-title]="recipe().id">Recipe</h2>
+######### END 4 - d #########
+######### START 5 - e #########
+<h2 class="card-title" [attr.x-test-card-title]="recipe().id"> </h2>
+######### END 5 - e #########
+######### START 6 - i #########
+{{ recipe().title }}
+######### END 6 - i #########
+######### START 7 - j #########
+<h3 class="card-title" [attr.x-test-card-title]="recipe().id">{{ recipe().title }}</h3>
+######### END 7 - j #########
+######### START 8 - k #########
+<div class="card-title-wrap">
+  <h2 class="card-title" [attr.x-test-card-title]="recipe().id">{{ recipe().title }}</h2>
+</div>
+######### END 8 - k #########

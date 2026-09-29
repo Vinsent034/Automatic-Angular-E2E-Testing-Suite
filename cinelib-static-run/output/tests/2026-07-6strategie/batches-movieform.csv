@@ -1,0 +1,997 @@
+Name,Id,Locator,Tag,Status,Error
+field-title,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+field-title,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+field-title,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+field-title,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+field-title,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+field-title,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+field-year,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-movie-form[1]/section[1]/form[1]/div[2]/div[2]/select[1]"}
+field-year,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+field-year,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+field-year,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+field-year,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+field-year,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+form-submit,mutation_a_attr_val_mod_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+form-submit,mutation_a_attr_val_mod_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+form-submit,mutation_a_attr_val_mod_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+form-submit,mutation_a_attr_val_mod_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+form-submit,mutation_a_attr_val_mod_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+form-submit,mutation_a_attr_val_mod_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+form-cancel,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+form-cancel,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+form-cancel,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+form-cancel,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+form-cancel,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+form-cancel,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+form-submit,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+form-submit,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+form-submit,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+form-submit,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+form-submit,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+form-submit,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+field-year,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,FAILED,expected:<[Create movie]> but was:<[]>
+field-year,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<[Create movie]> but was:<[]>
+field-year,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[normalize-space()='Create movie']"}
+field-year,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[contains(text() 'Create movie')]"}
+field-year,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,FAILED,expected:<[Create movie]> but was:<[]>
+field-year,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,FAILED,expected:<[Create movie]> but was:<[]>
+form-submit,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,FAILED,expected:<C[reate movie]> but was:<C[ancel]>
+form-submit,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[@type='submit']"}
+form-submit,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[normalize-space()='Create movie']"}
+form-submit,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+form-submit,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[@type='submit']"}
+form-submit,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+form-submit,mutation_f_tag_mov_container_mut_beta,AbsoluteXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-movie-form[1]/section[1]/form[1]/div[7]/button[1]"}
+form-submit,mutation_f_tag_mov_container_mut_beta,KatalonXPathTest,beta,PASSED,null
+form-submit,mutation_f_tag_mov_container_mut_beta,RelativeXPathTest,beta,PASSED,null
+form-submit,mutation_f_tag_mov_container_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+form-submit,mutation_f_tag_mov_container_mut_beta,RobulaXPathTest,beta,PASSED,null
+form-submit,mutation_f_tag_mov_container_mut_beta,SeleniumXPathTest,beta,PASSED,null
+field-year,mutation_f_tag_mov_container_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+field-year,mutation_f_tag_mov_container_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+field-year,mutation_f_tag_mov_container_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+field-year,mutation_f_tag_mov_container_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+field-year,mutation_f_tag_mov_container_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+field-year,mutation_f_tag_mov_container_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+form-cancel,mutation_e_text_cont_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+form-cancel,mutation_e_text_cont_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+form-cancel,mutation_e_text_cont_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+form-cancel,mutation_e_text_cont_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+form-cancel,mutation_e_text_cont_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+form-cancel,mutation_e_text_cont_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+cast-remove,mutation_b_attr_rem_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+cast-remove,mutation_b_attr_rem_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+cast-remove,mutation_b_attr_rem_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+cast-remove,mutation_b_attr_rem_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+cast-remove,mutation_b_attr_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+cast-remove,mutation_b_attr_rem_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+cast-remove,mutation_d_text_cont_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+cast-remove,mutation_d_text_cont_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+cast-remove,mutation_d_text_cont_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+cast-remove,mutation_d_text_cont_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+cast-remove,mutation_d_text_cont_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+cast-remove,mutation_d_text_cont_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+field-title,mutation_e_text_cont_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+field-title,mutation_e_text_cont_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+field-title,mutation_e_text_cont_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+field-title,mutation_e_text_cont_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+field-title,mutation_e_text_cont_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+field-title,mutation_e_text_cont_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+field-title,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-form[1]/section[1]/form[1]/div[1]/input[1] (tried for 5 second(s) with 500 milliseconds interval)
+field-title,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.id: title (tried for 5 second(s) with 500 milliseconds interval)
+field-title,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id='title'] (tried for 5 second(s) with 500 milliseconds interval)
+field-title,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id='title'] (tried for 5 second(s) with 500 milliseconds interval)
+field-title,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id='title'] (tried for 5 second(s) with 500 milliseconds interval)
+field-title,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.id: title (tried for 5 second(s) with 500 milliseconds interval)
+cast-remove,mutation_f_tag_mov_container_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+cast-remove,mutation_f_tag_mov_container_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+cast-remove,mutation_f_tag_mov_container_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+cast-remove,mutation_f_tag_mov_container_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+cast-remove,mutation_f_tag_mov_container_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+cast-remove,mutation_f_tag_mov_container_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+field-year,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+field-year,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,PASSED,null
+field-year,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,PASSED,null
+field-year,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+field-year,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,PASSED,null
+field-year,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,PASSED,null
+field-title,mutation_a_attr_val_mod_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+field-title,mutation_a_attr_val_mod_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+field-title,mutation_a_attr_val_mod_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+field-title,mutation_a_attr_val_mod_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+field-title,mutation_a_attr_val_mod_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+field-title,mutation_a_attr_val_mod_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+cast-add,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+cast-add,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
+cast-add,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
+cast-add,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+cast-add,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
+cast-add,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+form-submit,mutation_d_text_cont_mod_mut_alpha,AbsoluteXPathTest,alpha,FAILED,expected:<[]Create movie> but was:<[[The following text has been mutated] ]Create movie>
+form-submit,mutation_d_text_cont_mod_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<[]Create movie> but was:<[[The following text has been mutated] ]Create movie>
+form-submit,mutation_d_text_cont_mod_mut_alpha,RelativeXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[normalize-space()='Create movie']"}
+form-submit,mutation_d_text_cont_mod_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,expected:<[]Create movie> but was:<[[The following text has been mutated] ]Create movie>
+form-submit,mutation_d_text_cont_mod_mut_alpha,RobulaXPathTest,alpha,FAILED,expected:<[]Create movie> but was:<[[The following text has been mutated] ]Create movie>
+form-submit,mutation_d_text_cont_mod_mut_alpha,SeleniumXPathTest,alpha,FAILED,expected:<[]Create movie> but was:<[[The following text has been mutated] ]Create movie>
+form-submit,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-movie-form[1]/section[1]/form[1]/div[7]/button[1]"}
+form-submit,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
+form-submit,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
+form-submit,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+form-submit,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
+form-submit,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
+form-cancel,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+form-cancel,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+form-cancel,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+form-cancel,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+form-cancel,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+form-cancel,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+form-submit,mutation_b_attr_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+form-submit,mutation_b_attr_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[@type='submit']"}
+form-submit,mutation_b_attr_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+form-submit,mutation_b_attr_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+form-submit,mutation_b_attr_rem_mut_alpha,RobulaXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[@type='submit']"}
+form-submit,mutation_b_attr_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+form-cancel,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+form-cancel,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+form-cancel,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+form-cancel,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+form-cancel,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+form-cancel,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+cast-remove,mutation_a_attr_val_mod_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+cast-remove,mutation_a_attr_val_mod_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+cast-remove,mutation_a_attr_val_mod_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+cast-remove,mutation_a_attr_val_mod_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+cast-remove,mutation_a_attr_val_mod_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+cast-remove,mutation_a_attr_val_mod_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+field-year,mutation_c_attr_id_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+field-year,mutation_c_attr_id_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+field-year,mutation_c_attr_id_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+field-year,mutation_c_attr_id_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+field-year,mutation_c_attr_id_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+field-year,mutation_c_attr_id_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+form-cancel,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+form-cancel,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
+form-cancel,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
+form-cancel,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+form-cancel,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
+form-cancel,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
+form-submit,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+form-submit,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+form-submit,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+form-submit,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+form-submit,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+form-submit,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+form-cancel,mutation_e_text_cont_rem_mut_delta,AbsoluteXPathTest,delta,FAILED,expected:<[Create movie]> but was:<[]>
+form-cancel,mutation_e_text_cont_rem_mut_delta,KatalonXPathTest,delta,FAILED,expected:<[Create movie]> but was:<[]>
+form-cancel,mutation_e_text_cont_rem_mut_delta,RelativeXPathTest,delta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[normalize-space()='Create movie']"}
+form-cancel,mutation_e_text_cont_rem_mut_delta,RobulaPlusXPathTest,delta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[contains(text() 'Create movie')]"}
+form-cancel,mutation_e_text_cont_rem_mut_delta,RobulaXPathTest,delta,FAILED,expected:<[Create movie]> but was:<[]>
+form-cancel,mutation_e_text_cont_rem_mut_delta,SeleniumXPathTest,delta,FAILED,expected:<[Create movie]> but was:<[]>
+form-submit,mutation_b_attr_rem_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+form-submit,mutation_b_attr_rem_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+form-submit,mutation_b_attr_rem_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+form-submit,mutation_b_attr_rem_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+form-submit,mutation_b_attr_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+form-submit,mutation_b_attr_rem_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+form-cancel,mutation_f_tag_mov_container_mut_alpha,AbsoluteXPathTest,alpha,FAILED,expected:<C[reate movie]> but was:<C[ancel]>
+form-cancel,mutation_f_tag_mov_container_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+form-cancel,mutation_f_tag_mov_container_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+form-cancel,mutation_f_tag_mov_container_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+form-cancel,mutation_f_tag_mov_container_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+form-cancel,mutation_f_tag_mov_container_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+field-title,mutation_d_text_cont_mod_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+field-title,mutation_d_text_cont_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
+field-title,mutation_d_text_cont_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
+field-title,mutation_d_text_cont_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+field-title,mutation_d_text_cont_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
+field-title,mutation_d_text_cont_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
+cast-add,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+cast-add,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
+cast-add,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
+cast-add,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+cast-add,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
+cast-add,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
+cast-remove,mutation_a_attr_val_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+cast-remove,mutation_a_attr_val_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
+cast-remove,mutation_a_attr_val_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
+cast-remove,mutation_a_attr_val_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+cast-remove,mutation_a_attr_val_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
+cast-remove,mutation_a_attr_val_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+form-submit,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-movie-form[1]/section[1]/form[1]/div[7]/button[1]"}
+form-submit,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
+form-submit,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
+form-submit,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+form-submit,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
+form-submit,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,PASSED,null
+field-year,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-movie-form[1]/section[1]/form[1]/div[2]/div[2]/select[1]"}
+field-year,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
+field-year,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
+field-year,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+field-year,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
+field-year,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
+form-submit,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,FAILED,expected:<C[reate movie]> but was:<C[ancel]>
+form-submit,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,PASSED,null
+form-submit,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,PASSED,null
+form-submit,mutation_f_tag_mov_container_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+form-submit,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,PASSED,null
+form-submit,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,PASSED,null
+field-title,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-form[1]/section[1]/form[1]/div[1]/input[1] (tried for 5 second(s) with 500 milliseconds interval)
+field-title,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
+field-title,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
+field-title,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+field-title,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
+field-title,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
+form-submit,mutation_f_tag_mov_container_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+form-submit,mutation_f_tag_mov_container_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+form-submit,mutation_f_tag_mov_container_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+form-submit,mutation_f_tag_mov_container_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+form-submit,mutation_f_tag_mov_container_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+form-submit,mutation_f_tag_mov_container_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+field-title,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+field-title,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
+field-title,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
+field-title,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+field-title,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
+field-title,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+form-submit,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+form-submit,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
+form-submit,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
+form-submit,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+form-submit,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
+form-submit,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
+cast-remove,mutation_b_attr_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+cast-remove,mutation_b_attr_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+cast-remove,mutation_b_attr_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+cast-remove,mutation_b_attr_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+cast-remove,mutation_b_attr_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+cast-remove,mutation_b_attr_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+field-year,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+field-year,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+field-year,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+field-year,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+field-year,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+field-year,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+cast-remove,mutation_a_attr_val_mod_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+cast-remove,mutation_a_attr_val_mod_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+cast-remove,mutation_a_attr_val_mod_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+cast-remove,mutation_a_attr_val_mod_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+cast-remove,mutation_a_attr_val_mod_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+cast-remove,mutation_a_attr_val_mod_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+form-cancel,mutation_b_attr_rem_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+form-cancel,mutation_b_attr_rem_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+form-cancel,mutation_b_attr_rem_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+form-cancel,mutation_b_attr_rem_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+form-cancel,mutation_b_attr_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+form-cancel,mutation_b_attr_rem_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+form-cancel,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+form-cancel,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+form-cancel,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+form-cancel,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+form-cancel,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+form-cancel,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+field-year,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+field-year,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
+field-year,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
+field-year,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+field-year,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
+field-year,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+form-submit,mutation_d_text_cont_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+form-submit,mutation_d_text_cont_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
+form-submit,mutation_d_text_cont_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
+form-submit,mutation_d_text_cont_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+form-submit,mutation_d_text_cont_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
+form-submit,mutation_d_text_cont_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+form-cancel,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-form[1]/section[1]/form[1]/div[1]/input[1] (tried for 5 second(s) with 500 milliseconds interval)
+form-cancel,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+form-cancel,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+form-cancel,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+form-cancel,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+form-cancel,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+field-year,mutation_f_tag_mov_container_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+field-year,mutation_f_tag_mov_container_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+field-year,mutation_f_tag_mov_container_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+field-year,mutation_f_tag_mov_container_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+field-year,mutation_f_tag_mov_container_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+field-year,mutation_f_tag_mov_container_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+field-title,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-form[1]/section[1]/form[1]/div[1]/input[1] (tried for 5 second(s) with 500 milliseconds interval)
+field-title,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.id: title (tried for 5 second(s) with 500 milliseconds interval)
+field-title,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id='title'] (tried for 5 second(s) with 500 milliseconds interval)
+field-title,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id='title'] (tried for 5 second(s) with 500 milliseconds interval)
+field-title,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id='title'] (tried for 5 second(s) with 500 milliseconds interval)
+field-title,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.id: title (tried for 5 second(s) with 500 milliseconds interval)
+field-title,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+field-title,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+field-title,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+field-title,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+field-title,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+field-title,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+field-title,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-movie-form[1]/section[1]/form[1]/div[2]/div[2]/select[1]"}
+field-title,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
+field-title,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
+field-title,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+field-title,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
+field-title,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
+form-cancel,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+form-cancel,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
+form-cancel,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
+form-cancel,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+form-cancel,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
+form-cancel,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,PASSED,null
+field-title,mutation_a_attr_val_mod_mut_alpha,AbsoluteXPathTest,alpha,FAILED,expected:<[Create movie]> but was:<[]>
+field-title,mutation_a_attr_val_mod_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<[Create movie]> but was:<[]>
+field-title,mutation_a_attr_val_mod_mut_alpha,RelativeXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[normalize-space()='Create movie']"}
+field-title,mutation_a_attr_val_mod_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[contains(text() 'Create movie')]"}
+field-title,mutation_a_attr_val_mod_mut_alpha,RobulaXPathTest,alpha,FAILED,expected:<[Create movie]> but was:<[]>
+field-title,mutation_a_attr_val_mod_mut_alpha,SeleniumXPathTest,alpha,FAILED,expected:<[Create movie]> but was:<[]>
+cast-remove,mutation_a_attr_val_mod_mut_gamma,AbsoluteXPathTest,gamma,FAILED,expected:<[Create movie]> but was:<[]>
+cast-remove,mutation_a_attr_val_mod_mut_gamma,KatalonXPathTest,gamma,FAILED,expected:<[Create movie]> but was:<[]>
+cast-remove,mutation_a_attr_val_mod_mut_gamma,RelativeXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[normalize-space()='Create movie']"}
+cast-remove,mutation_a_attr_val_mod_mut_gamma,RobulaPlusXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[contains(text() 'Create movie')]"}
+cast-remove,mutation_a_attr_val_mod_mut_gamma,RobulaXPathTest,gamma,FAILED,expected:<[Create movie]> but was:<[]>
+cast-remove,mutation_a_attr_val_mod_mut_gamma,SeleniumXPathTest,gamma,FAILED,expected:<[Create movie]> but was:<[]>
+cast-add,mutation_e_text_cont_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+cast-add,mutation_e_text_cont_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+cast-add,mutation_e_text_cont_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+cast-add,mutation_e_text_cont_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+cast-add,mutation_e_text_cont_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+cast-add,mutation_e_text_cont_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+form-cancel,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+form-cancel,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+form-cancel,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+form-cancel,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+form-cancel,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+form-cancel,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+form-cancel,mutation_b_attr_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+form-cancel,mutation_b_attr_rem_mut_delta,KatalonXPathTest,delta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[@type='submit']"}
+form-cancel,mutation_b_attr_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+form-cancel,mutation_b_attr_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+form-cancel,mutation_b_attr_rem_mut_delta,RobulaXPathTest,delta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[@type='submit']"}
+form-cancel,mutation_b_attr_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+cast-add,mutation_a_attr_val_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+cast-add,mutation_a_attr_val_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+cast-add,mutation_a_attr_val_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+cast-add,mutation_a_attr_val_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+cast-add,mutation_a_attr_val_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+cast-add,mutation_a_attr_val_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+form-cancel,mutation_a_attr_val_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+form-cancel,mutation_a_attr_val_mod_mut_delta,KatalonXPathTest,delta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[@type='submit']"}
+form-cancel,mutation_a_attr_val_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
+form-cancel,mutation_a_attr_val_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+form-cancel,mutation_a_attr_val_mod_mut_delta,RobulaXPathTest,delta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[@type='submit']"}
+form-cancel,mutation_a_attr_val_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+field-year,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+field-year,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+field-year,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+field-year,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+field-year,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+field-year,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+cast-add,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+cast-add,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,PASSED,null
+cast-add,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,PASSED,null
+cast-add,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+cast-add,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,PASSED,null
+cast-add,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,PASSED,null
+form-submit,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-form[1]/section[1]/form[1]/div[1]/input[1] (tried for 5 second(s) with 500 milliseconds interval)
+form-submit,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+form-submit,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+form-submit,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+form-submit,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+form-submit,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+cast-remove,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+cast-remove,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+cast-remove,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+cast-remove,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+cast-remove,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+cast-remove,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+form-cancel,mutation_b_attr_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+form-cancel,mutation_b_attr_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+form-cancel,mutation_b_attr_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+form-cancel,mutation_b_attr_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+form-cancel,mutation_b_attr_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+form-cancel,mutation_b_attr_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+form-submit,mutation_a_attr_val_mod_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+form-submit,mutation_a_attr_val_mod_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+form-submit,mutation_a_attr_val_mod_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+form-submit,mutation_a_attr_val_mod_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+form-submit,mutation_a_attr_val_mod_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+form-submit,mutation_a_attr_val_mod_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+cast-add,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+cast-add,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+cast-add,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+cast-add,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+cast-add,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+cast-add,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+field-title,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-form[1]/section[1]/form[1]/div[1]/input[1] (tried for 5 second(s) with 500 milliseconds interval)
+field-title,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,FAILED,expected:<[Create movie]> but was:<[]>
+field-title,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[normalize-space()='Create movie']"}
+field-title,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[contains(text() 'Create movie')]"}
+field-title,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,FAILED,expected:<[Create movie]> but was:<[]>
+field-title,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,FAILED,expected:<[Create movie]> but was:<[]>
+cast-remove,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+cast-remove,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+cast-remove,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+cast-remove,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+cast-remove,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+cast-remove,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+field-title,mutation_c_attr_id_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+field-title,mutation_c_attr_id_mut_alpha,KatalonXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.id: title (tried for 5 second(s) with 500 milliseconds interval)
+field-title,mutation_c_attr_id_mut_alpha,RelativeXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id='title'] (tried for 5 second(s) with 500 milliseconds interval)
+field-title,mutation_c_attr_id_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id='title'] (tried for 5 second(s) with 500 milliseconds interval)
+field-title,mutation_c_attr_id_mut_alpha,RobulaXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id='title'] (tried for 5 second(s) with 500 milliseconds interval)
+field-title,mutation_c_attr_id_mut_alpha,SeleniumXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.id: title (tried for 5 second(s) with 500 milliseconds interval)
+form-cancel,mutation_d_text_cont_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+form-cancel,mutation_d_text_cont_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+form-cancel,mutation_d_text_cont_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+form-cancel,mutation_d_text_cont_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+form-cancel,mutation_d_text_cont_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+form-cancel,mutation_d_text_cont_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+form-cancel,mutation_a_attr_val_mod_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+form-cancel,mutation_a_attr_val_mod_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+form-cancel,mutation_a_attr_val_mod_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+form-cancel,mutation_a_attr_val_mod_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+form-cancel,mutation_a_attr_val_mod_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+form-cancel,mutation_a_attr_val_mod_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+form-submit,mutation_b_attr_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+form-submit,mutation_b_attr_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+form-submit,mutation_b_attr_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+form-submit,mutation_b_attr_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+form-submit,mutation_b_attr_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+form-submit,mutation_b_attr_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+cast-add,mutation_f_tag_mov_container_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+cast-add,mutation_f_tag_mov_container_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+cast-add,mutation_f_tag_mov_container_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+cast-add,mutation_f_tag_mov_container_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+cast-add,mutation_f_tag_mov_container_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+cast-add,mutation_f_tag_mov_container_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+cast-add,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+cast-add,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,PASSED,null
+cast-add,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,PASSED,null
+cast-add,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+cast-add,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,PASSED,null
+cast-add,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,PASSED,null
+form-submit,mutation_e_text_cont_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+form-submit,mutation_e_text_cont_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+form-submit,mutation_e_text_cont_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+form-submit,mutation_e_text_cont_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+form-submit,mutation_e_text_cont_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+form-submit,mutation_e_text_cont_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+cast-remove,mutation_b_attr_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+cast-remove,mutation_b_attr_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+cast-remove,mutation_b_attr_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+cast-remove,mutation_b_attr_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+cast-remove,mutation_b_attr_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+cast-remove,mutation_b_attr_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+form-submit,mutation_e_text_cont_rem_mut_alpha,AbsoluteXPathTest,alpha,FAILED,expected:<[Create movie]> but was:<[]>
+form-submit,mutation_e_text_cont_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<[Create movie]> but was:<[]>
+form-submit,mutation_e_text_cont_rem_mut_alpha,RelativeXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[normalize-space()='Create movie']"}
+form-submit,mutation_e_text_cont_rem_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[contains(text() 'Create movie')]"}
+form-submit,mutation_e_text_cont_rem_mut_alpha,RobulaXPathTest,alpha,FAILED,expected:<[Create movie]> but was:<[]>
+form-submit,mutation_e_text_cont_rem_mut_alpha,SeleniumXPathTest,alpha,FAILED,expected:<[Create movie]> but was:<[]>
+cast-remove,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+cast-remove,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,PASSED,null
+cast-remove,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,PASSED,null
+cast-remove,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+cast-remove,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,PASSED,null
+cast-remove,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,PASSED,null
+form-submit,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+form-submit,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+form-submit,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+form-submit,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+form-submit,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+form-submit,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+cast-remove,mutation_e_text_cont_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+cast-remove,mutation_e_text_cont_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+cast-remove,mutation_e_text_cont_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+cast-remove,mutation_e_text_cont_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+cast-remove,mutation_e_text_cont_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+cast-remove,mutation_e_text_cont_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+field-title,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-form[1]/section[1]/form[1]/div[1]/input[1] (tried for 5 second(s) with 500 milliseconds interval)
+field-title,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.id: title (tried for 5 second(s) with 500 milliseconds interval)
+field-title,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id='title'] (tried for 5 second(s) with 500 milliseconds interval)
+field-title,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id='title'] (tried for 5 second(s) with 500 milliseconds interval)
+field-title,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id='title'] (tried for 5 second(s) with 500 milliseconds interval)
+field-title,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.id: title (tried for 5 second(s) with 500 milliseconds interval)
+cast-remove,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+cast-remove,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+cast-remove,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+cast-remove,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+cast-remove,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+cast-remove,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+cast-add,mutation_f_tag_mov_container_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+cast-add,mutation_f_tag_mov_container_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+cast-add,mutation_f_tag_mov_container_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+cast-add,mutation_f_tag_mov_container_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+cast-add,mutation_f_tag_mov_container_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+cast-add,mutation_f_tag_mov_container_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+cast-add,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-movie-form[1]/section[1]/form[1]/div[7]/button[1]"}
+cast-add,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+cast-add,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+cast-add,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+cast-add,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+cast-add,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+field-year,mutation_d_text_cont_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+field-year,mutation_d_text_cont_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
+field-year,mutation_d_text_cont_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
+field-year,mutation_d_text_cont_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+field-year,mutation_d_text_cont_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
+field-year,mutation_d_text_cont_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+form-cancel,mutation_d_text_cont_mod_mut_delta,AbsoluteXPathTest,delta,FAILED,expected:<[]Create movie> but was:<[[The following text has been mutated] ]Create movie>
+form-cancel,mutation_d_text_cont_mod_mut_delta,KatalonXPathTest,delta,FAILED,expected:<[]Create movie> but was:<[[The following text has been mutated] ]Create movie>
+form-cancel,mutation_d_text_cont_mod_mut_delta,RelativeXPathTest,delta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[normalize-space()='Create movie']"}
+form-cancel,mutation_d_text_cont_mod_mut_delta,RobulaPlusXPathTest,delta,FAILED,expected:<[]Create movie> but was:<[[The following text has been mutated] ]Create movie>
+form-cancel,mutation_d_text_cont_mod_mut_delta,RobulaXPathTest,delta,FAILED,expected:<[]Create movie> but was:<[[The following text has been mutated] ]Create movie>
+form-cancel,mutation_d_text_cont_mod_mut_delta,SeleniumXPathTest,delta,FAILED,expected:<[]Create movie> but was:<[[The following text has been mutated] ]Create movie>
+field-title,mutation_f_tag_mov_container_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+field-title,mutation_f_tag_mov_container_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+field-title,mutation_f_tag_mov_container_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+field-title,mutation_f_tag_mov_container_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+field-title,mutation_f_tag_mov_container_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+field-title,mutation_f_tag_mov_container_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+cast-remove,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+cast-remove,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+cast-remove,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+cast-remove,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+cast-remove,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+cast-remove,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+form-submit,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+form-submit,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+form-submit,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+form-submit,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+form-submit,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+form-submit,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+form-cancel,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+form-cancel,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+form-cancel,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+form-cancel,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+form-cancel,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+form-cancel,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+cast-remove,mutation_d_text_cont_mod_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+cast-remove,mutation_d_text_cont_mod_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+cast-remove,mutation_d_text_cont_mod_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+cast-remove,mutation_d_text_cont_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+cast-remove,mutation_d_text_cont_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+cast-remove,mutation_d_text_cont_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+form-submit,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+form-submit,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,PASSED,null
+form-submit,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,PASSED,null
+form-submit,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+form-submit,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,PASSED,null
+form-submit,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,PASSED,null
+form-submit,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,FAILED,expected:<C[reate movie]> but was:<C[ancel]>
+form-submit,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[@type='submit']"}
+form-submit,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[normalize-space()='Create movie']"}
+form-submit,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,expected:<Create movie[]> but was:<Create movie[Cancel]>
+form-submit,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[@type='submit']"}
+form-submit,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".btn-primary"}
+field-title,mutation_d_text_cont_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+field-title,mutation_d_text_cont_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
+field-title,mutation_d_text_cont_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
+field-title,mutation_d_text_cont_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+field-title,mutation_d_text_cont_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
+field-title,mutation_d_text_cont_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+cast-remove,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+cast-remove,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,PASSED,null
+cast-remove,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,PASSED,null
+cast-remove,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+cast-remove,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,PASSED,null
+cast-remove,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,PASSED,null
+field-title,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+field-title,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+field-title,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+field-title,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+field-title,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+field-title,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+cast-remove,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+cast-remove,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
+cast-remove,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
+cast-remove,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+cast-remove,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
+cast-remove,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+cast-add,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+cast-add,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+cast-add,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+cast-add,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+cast-add,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+cast-add,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+cast-remove,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+cast-remove,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+cast-remove,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+cast-remove,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+cast-remove,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+cast-remove,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+form-submit,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+form-submit,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
+form-submit,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
+form-submit,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+form-submit,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
+form-submit,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+form-cancel,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+form-cancel,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+form-cancel,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+form-cancel,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+form-cancel,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+form-cancel,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+field-year,mutation_a_attr_val_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+field-year,mutation_a_attr_val_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+field-year,mutation_a_attr_val_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+field-year,mutation_a_attr_val_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+field-year,mutation_a_attr_val_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+field-year,mutation_a_attr_val_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+cast-remove,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+cast-remove,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,PASSED,null
+cast-remove,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,PASSED,null
+cast-remove,mutation_f_tag_mov_container_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+cast-remove,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,PASSED,null
+cast-remove,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,PASSED,null
+field-year,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+field-year,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,PASSED,null
+field-year,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,PASSED,null
+field-year,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+field-year,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,PASSED,null
+field-year,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,PASSED,null
+field-title,mutation_b_attr_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+field-title,mutation_b_attr_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+field-title,mutation_b_attr_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+field-title,mutation_b_attr_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+field-title,mutation_b_attr_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+field-title,mutation_b_attr_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+cast-remove,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+cast-remove,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+cast-remove,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+cast-remove,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+cast-remove,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+cast-remove,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+cast-add,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-movie-form[1]/section[1]/form[1]/div[7]/button[1]"}
+cast-add,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+cast-add,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+cast-add,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+cast-add,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+cast-add,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+form-submit,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+form-submit,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+form-submit,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+form-submit,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+form-submit,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+form-submit,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+cast-add,mutation_d_text_cont_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+cast-add,mutation_d_text_cont_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
+cast-add,mutation_d_text_cont_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
+cast-add,mutation_d_text_cont_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+cast-add,mutation_d_text_cont_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
+cast-add,mutation_d_text_cont_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+field-year,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-movie-form[1]/section[1]/form[1]/div[7]/button[1]"}
+field-year,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+field-year,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+field-year,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+field-year,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+field-year,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+cast-add,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+cast-add,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+cast-add,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+cast-add,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+cast-add,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+cast-add,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+form-cancel,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-movie-form[1]/section[1]/form[1]/div[7]/button[1]"}
+form-cancel,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
+form-cancel,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
+form-cancel,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+form-cancel,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
+form-cancel,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
+cast-add,mutation_d_text_cont_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+cast-add,mutation_d_text_cont_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+cast-add,mutation_d_text_cont_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+cast-add,mutation_d_text_cont_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+cast-add,mutation_d_text_cont_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+cast-add,mutation_d_text_cont_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+cast-remove,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+cast-remove,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,PASSED,null
+cast-remove,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,PASSED,null
+cast-remove,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+cast-remove,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,PASSED,null
+cast-remove,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,PASSED,null
+cast-remove,mutation_b_attr_rem_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+cast-remove,mutation_b_attr_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
+cast-remove,mutation_b_attr_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
+cast-remove,mutation_b_attr_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+cast-remove,mutation_b_attr_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
+cast-remove,mutation_b_attr_rem_mut_beta,SeleniumXPathTest,beta,PASSED,null
+cast-add,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+cast-add,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
+cast-add,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
+cast-add,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+cast-add,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
+cast-add,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,PASSED,null
+form-cancel,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,FAILED,expected:<C[reate movie]> but was:<C[ancel]>
+form-cancel,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[@type='submit']"}
+form-cancel,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[normalize-space()='Create movie']"}
+form-cancel,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,FAILED,expected:<Create movie[]> but was:<Create movie[Cancel]>
+form-cancel,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[@type='submit']"}
+form-cancel,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".btn-primary"}
+field-year,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-movie-form[1]/section[1]/form[1]/div[2]/div[2]/select[1]"}
+field-year,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
+field-year,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
+field-year,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+field-year,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
+field-year,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
+field-title,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-form[1]/section[1]/form[1]/div[1]/input[1] (tried for 5 second(s) with 500 milliseconds interval)
+field-title,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.id: title (tried for 5 second(s) with 500 milliseconds interval)
+field-title,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id='title'] (tried for 5 second(s) with 500 milliseconds interval)
+field-title,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id='title'] (tried for 5 second(s) with 500 milliseconds interval)
+field-title,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id='title'] (tried for 5 second(s) with 500 milliseconds interval)
+field-title,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.id: title (tried for 5 second(s) with 500 milliseconds interval)
+field-year,mutation_b_attr_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+field-year,mutation_b_attr_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+field-year,mutation_b_attr_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+field-year,mutation_b_attr_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+field-year,mutation_b_attr_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+field-year,mutation_b_attr_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+field-title,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-form[1]/section[1]/form[1]/div[1]/input[1] (tried for 5 second(s) with 500 milliseconds interval)
+field-title,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
+field-title,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
+field-title,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+field-title,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
+field-title,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,PASSED,null
+cast-remove,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+cast-remove,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
+cast-remove,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
+cast-remove,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+cast-remove,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
+cast-remove,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,PASSED,null
+field-year,mutation_e_text_cont_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+field-year,mutation_e_text_cont_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+field-year,mutation_e_text_cont_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+field-year,mutation_e_text_cont_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+field-year,mutation_e_text_cont_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+field-year,mutation_e_text_cont_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+cast-remove,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+cast-remove,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
+cast-remove,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
+cast-remove,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+cast-remove,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
+cast-remove,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
+cast-remove,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+cast-remove,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+cast-remove,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+cast-remove,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+cast-remove,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+cast-remove,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+field-title,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-form[1]/section[1]/form[1]/div[1]/input[1] (tried for 5 second(s) with 500 milliseconds interval)
+field-title,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<[Create movie]> but was:<[]>
+field-title,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id='title'] (tried for 5 second(s) with 500 milliseconds interval)
+field-title,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[contains(text() 'Create movie')]"}
+field-title,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id='title'] (tried for 5 second(s) with 500 milliseconds interval)
+field-title,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,FAILED,expected:<[Create movie]> but was:<[]>
+cast-add,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+cast-add,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+cast-add,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+cast-add,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+cast-add,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+cast-add,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+field-year,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+field-year,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+field-year,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+field-year,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+field-year,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+field-year,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+cast-remove,mutation_e_text_cont_rem_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+cast-remove,mutation_e_text_cont_rem_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+cast-remove,mutation_e_text_cont_rem_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+cast-remove,mutation_e_text_cont_rem_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+cast-remove,mutation_e_text_cont_rem_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+cast-remove,mutation_e_text_cont_rem_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+form-submit,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+form-submit,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+form-submit,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+form-submit,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+form-submit,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+form-submit,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+field-title,mutation_e_text_cont_rem_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+field-title,mutation_e_text_cont_rem_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+field-title,mutation_e_text_cont_rem_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+field-title,mutation_e_text_cont_rem_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+field-title,mutation_e_text_cont_rem_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+field-title,mutation_e_text_cont_rem_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+form-cancel,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,FAILED,expected:<C[reate movie]> but was:<C[ancel]>
+form-cancel,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[@type='submit']"}
+form-cancel,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[normalize-space()='Create movie']"}
+form-cancel,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+form-cancel,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[@type='submit']"}
+form-cancel,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+form-submit,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-form[1]/section[1]/form[1]/div[1]/input[1] (tried for 5 second(s) with 500 milliseconds interval)
+form-submit,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,FAILED,expected:<[Create movie]> but was:<[]>
+form-submit,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[normalize-space()='Create movie']"}
+form-submit,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[contains(text() 'Create movie')]"}
+form-submit,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,FAILED,expected:<[Create movie]> but was:<[]>
+form-submit,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,FAILED,expected:<[Create movie]> but was:<[]>
+cast-remove,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+cast-remove,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
+cast-remove,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
+cast-remove,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+cast-remove,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
+cast-remove,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
+field-title,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+field-title,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,PASSED,null
+field-title,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,PASSED,null
+field-title,mutation_f_tag_mov_container_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+field-title,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,PASSED,null
+field-title,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,PASSED,null
+form-submit,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+form-submit,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+form-submit,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+form-submit,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+form-submit,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+form-submit,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+cast-add,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-movie-form[1]/section[1]/form[1]/div[7]/button[1]"}
+cast-add,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+cast-add,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+cast-add,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+cast-add,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+cast-add,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+cast-add,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+cast-add,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
+cast-add,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
+cast-add,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+cast-add,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
+cast-add,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
+field-title,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+field-title,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,PASSED,null
+field-title,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,PASSED,null
+field-title,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+field-title,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,PASSED,null
+field-title,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,PASSED,null
+field-year,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+field-year,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+field-year,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+field-year,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+field-year,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+field-year,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+cast-add,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+cast-add,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+cast-add,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+cast-add,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+cast-add,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+cast-add,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+field-title,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-form[1]/section[1]/form[1]/div[1]/input[1] (tried for 5 second(s) with 500 milliseconds interval)
+field-title,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+field-title,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+field-title,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+field-title,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+field-title,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+cast-remove,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+cast-remove,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+cast-remove,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+cast-remove,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+cast-remove,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+cast-remove,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+form-submit,mutation_a_attr_val_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+form-submit,mutation_a_attr_val_mod_mut_alpha,KatalonXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[@type='submit']"}
+form-submit,mutation_a_attr_val_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+form-submit,mutation_a_attr_val_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+form-submit,mutation_a_attr_val_mod_mut_alpha,RobulaXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[@type='submit']"}
+form-submit,mutation_a_attr_val_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+field-year,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+field-year,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,PASSED,null
+field-year,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,PASSED,null
+field-year,mutation_f_tag_mov_container_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+field-year,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,PASSED,null
+field-year,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,PASSED,null
+cast-remove,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+cast-remove,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+cast-remove,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+cast-remove,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+cast-remove,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+cast-remove,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+cast-add,mutation_e_text_cont_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+cast-add,mutation_e_text_cont_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+cast-add,mutation_e_text_cont_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+cast-add,mutation_e_text_cont_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+cast-add,mutation_e_text_cont_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+cast-add,mutation_e_text_cont_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+form-cancel,mutation_f_tag_mov_container_mut_beta,AbsoluteXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-movie-form[1]/section[1]/form[1]/div[2]/div[2]/select[1]"}
+form-cancel,mutation_f_tag_mov_container_mut_beta,KatalonXPathTest,beta,PASSED,null
+form-cancel,mutation_f_tag_mov_container_mut_beta,RelativeXPathTest,beta,PASSED,null
+form-cancel,mutation_f_tag_mov_container_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+form-cancel,mutation_f_tag_mov_container_mut_beta,RobulaXPathTest,beta,PASSED,null
+form-cancel,mutation_f_tag_mov_container_mut_beta,SeleniumXPathTest,beta,PASSED,null
+cast-remove,mutation_f_tag_mov_container_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+cast-remove,mutation_f_tag_mov_container_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+cast-remove,mutation_f_tag_mov_container_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+cast-remove,mutation_f_tag_mov_container_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+cast-remove,mutation_f_tag_mov_container_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+cast-remove,mutation_f_tag_mov_container_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+field-year,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+field-year,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+field-year,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+field-year,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+field-year,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+field-year,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+form-cancel,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+form-cancel,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,PASSED,null
+form-cancel,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,PASSED,null
+form-cancel,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+form-cancel,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,PASSED,null
+form-cancel,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,PASSED,null
+cast-add,mutation_b_attr_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+cast-add,mutation_b_attr_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+cast-add,mutation_b_attr_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+cast-add,mutation_b_attr_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+cast-add,mutation_b_attr_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+cast-add,mutation_b_attr_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+field-title,mutation_f_tag_mov_container_mut_beta,AbsoluteXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-form[1]/section[1]/form[1]/div[1]/input[1] (tried for 5 second(s) with 500 milliseconds interval)
+field-title,mutation_f_tag_mov_container_mut_beta,KatalonXPathTest,beta,PASSED,null
+field-title,mutation_f_tag_mov_container_mut_beta,RelativeXPathTest,beta,PASSED,null
+field-title,mutation_f_tag_mov_container_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+field-title,mutation_f_tag_mov_container_mut_beta,RobulaXPathTest,beta,PASSED,null
+field-title,mutation_f_tag_mov_container_mut_beta,SeleniumXPathTest,beta,PASSED,null
+form-cancel,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,FAILED,expected:<C[reate movie]> but was:<C[ancel]>
+form-cancel,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[@type='submit']"}
+form-cancel,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[normalize-space()='Create movie']"}
+form-cancel,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[contains(text() 'Create movie')]"}
+form-cancel,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[@type='submit']"}
+form-cancel,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".btn-primary"}
+form-cancel,mutation_a_attr_val_mod_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+form-cancel,mutation_a_attr_val_mod_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+form-cancel,mutation_a_attr_val_mod_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+form-cancel,mutation_a_attr_val_mod_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+form-cancel,mutation_a_attr_val_mod_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+form-cancel,mutation_a_attr_val_mod_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+form-cancel,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-form[1]/section[1]/form[1]/div[1]/input[1] (tried for 5 second(s) with 500 milliseconds interval)
+form-cancel,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,FAILED,expected:<[Create movie]> but was:<[]>
+form-cancel,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[normalize-space()='Create movie']"}
+form-cancel,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[contains(text() 'Create movie')]"}
+form-cancel,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,FAILED,expected:<[Create movie]> but was:<[]>
+form-cancel,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,FAILED,expected:<[Create movie]> but was:<[]>
+field-title,mutation_b_attr_rem_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+field-title,mutation_b_attr_rem_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+field-title,mutation_b_attr_rem_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+field-title,mutation_b_attr_rem_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+field-title,mutation_b_attr_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+field-title,mutation_b_attr_rem_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+field-year,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+field-year,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+field-year,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+field-year,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+field-year,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+field-year,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+field-year,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-movie-form[1]/section[1]/form[1]/div[2]/div[2]/select[1]"}
+field-year,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
+field-year,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
+field-year,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+field-year,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
+field-year,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,PASSED,null
+field-title,mutation_f_tag_mov_container_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+field-title,mutation_f_tag_mov_container_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+field-title,mutation_f_tag_mov_container_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+field-title,mutation_f_tag_mov_container_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+field-title,mutation_f_tag_mov_container_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+field-title,mutation_f_tag_mov_container_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+cast-add,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+cast-add,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+cast-add,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+cast-add,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+cast-add,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+cast-add,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+cast-add,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+cast-add,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+cast-add,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+cast-add,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+cast-add,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+cast-add,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+form-cancel,mutation_f_tag_mov_container_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+form-cancel,mutation_f_tag_mov_container_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+form-cancel,mutation_f_tag_mov_container_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+form-cancel,mutation_f_tag_mov_container_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+form-cancel,mutation_f_tag_mov_container_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+form-cancel,mutation_f_tag_mov_container_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+field-title,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+field-title,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+field-title,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+field-title,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+field-title,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+field-title,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+field-year,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-movie-form[1]/section[1]/form[1]/div[2]/div[2]/select[1]"}
+field-year,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+field-year,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+field-year,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+field-year,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+field-year,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,PASSED,null

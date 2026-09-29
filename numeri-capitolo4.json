@@ -1,0 +1,2052 @@
+{
+ "CineLib|statica": {
+  "validita": {
+   "M": 944,
+   "Mv": 688,
+   "Mnc": 256
+  },
+  "per_operatore": {
+   "a": {
+    "M": 48,
+    "Mv": 26,
+    "Mnc": 22
+   },
+   "b": {
+    "M": 50,
+    "Mv": 50,
+    "Mnc": 0
+   },
+   "c": {
+    "M": 4,
+    "Mv": 4,
+    "Mnc": 0
+   },
+   "d": {
+    "M": 59,
+    "Mv": 59,
+    "Mnc": 0
+   },
+   "e": {
+    "M": 55,
+    "Mv": 48,
+    "Mnc": 7
+   },
+   "f": {
+    "M": 83,
+    "Mv": 83,
+    "Mnc": 0
+   },
+   "g": {
+    "M": 156,
+    "Mv": 46,
+    "Mnc": 110
+   },
+   "h": {
+    "M": 168,
+    "Mv": 56,
+    "Mnc": 112
+   },
+   "i": {
+    "M": 107,
+    "Mv": 107,
+    "Mnc": 0
+   },
+   "j": {
+    "M": 107,
+    "Mv": 103,
+    "Mnc": 4
+   },
+   "k": {
+    "M": 107,
+    "Mv": 106,
+    "Mnc": 1
+   }
+  },
+  "per_ruolo": {
+   "alf": {
+    "M": 334,
+    "Mv": 265,
+    "Mnc": 69
+   },
+   "bet": {
+    "M": 201,
+    "Mv": 133,
+    "Mnc": 68
+   },
+   "gam": {
+    "M": 141,
+    "Mv": 80,
+    "Mnc": 61
+   },
+   "del": {
+    "M": 220,
+    "Mv": 175,
+    "Mnc": 45
+   },
+   "eps": {
+    "M": 48,
+    "Mv": 35,
+    "Mnc": 13
+   }
+  },
+  "senza_h": {
+   "M": 776,
+   "Mv": 632,
+   "Mnc": 144
+  },
+  "stati": {
+   "ROBUST": 329,
+   "OBSOLETE": 166,
+   "NOT_TESTED": 256,
+   "FRAGILE": 193
+  },
+  "strategie": {
+   "Absolute": {
+    "E": 944,
+    "E_nc": 256,
+    "E_obs": 166,
+    "succ": 409,
+    "frag": 113,
+    "TS": 78.4
+   },
+   "Relative": {
+    "E": 944,
+    "E_nc": 256,
+    "E_obs": 166,
+    "succ": 496,
+    "frag": 26,
+    "TS": 95.0
+   },
+   "Robula": {
+    "E": 944,
+    "E_nc": 256,
+    "E_obs": 166,
+    "succ": 490,
+    "frag": 32,
+    "TS": 93.9
+   },
+   "Robula+": {
+    "E": 944,
+    "E_nc": 256,
+    "E_obs": 166,
+    "succ": 511,
+    "frag": 11,
+    "TS": 97.9
+   },
+   "Selenium": {
+    "E": 944,
+    "E_nc": 256,
+    "E_obs": 166,
+    "succ": 507,
+    "frag": 15,
+    "TS": 97.1
+   },
+   "Katalon": {
+    "E": 944,
+    "E_nc": 256,
+    "E_obs": 166,
+    "succ": 423,
+    "frag": 99,
+    "TS": 81.0
+   },
+   "Hook-Based": {
+    "E": 944,
+    "E_nc": 256,
+    "E_obs": 166,
+    "succ": 514,
+    "frag": 8,
+    "TS": 98.5
+   }
+  },
+  "TO": {
+   "obs": 166,
+   "testabili": 688,
+   "perc": 24.1
+  },
+  "hook_per_ruolo": {
+   "alf": {
+    "succ": 188,
+    "frag": 5
+   },
+   "bet": {
+    "succ": 99,
+    "frag": 1
+   },
+   "gam": {
+    "succ": 54,
+    "frag": 1
+   },
+   "del": {
+    "succ": 143,
+    "frag": 1
+   },
+   "eps": {
+    "succ": 30,
+    "frag": 0
+   }
+  },
+  "celle_coperte": 49,
+  "operatori_coperti": [
+   "a",
+   "b",
+   "c",
+   "d",
+   "e",
+   "f",
+   "g",
+   "h",
+   "i",
+   "j",
+   "k"
+  ],
+  "ruoli_coperti": [
+   "alf",
+   "bet",
+   "del",
+   "eps",
+   "gam"
+  ]
+ },
+ "CineLib|statica+dup": {
+  "validita": {
+   "M": 1254,
+   "Mv": 971,
+   "Mnc": 283
+  },
+  "per_operatore": {
+   "a": {
+    "M": 65,
+    "Mv": 33,
+    "Mnc": 32
+   },
+   "b": {
+    "M": 65,
+    "Mv": 65,
+    "Mnc": 0
+   },
+   "c": {
+    "M": 4,
+    "Mv": 4,
+    "Mnc": 0
+   },
+   "d": {
+    "M": 74,
+    "Mv": 74,
+    "Mnc": 0
+   },
+   "e": {
+    "M": 70,
+    "Mv": 60,
+    "Mnc": 10
+   },
+   "f": {
+    "M": 117,
+    "Mv": 117,
+    "Mnc": 0
+   },
+   "g": {
+    "M": 173,
+    "Mv": 53,
+    "Mnc": 120
+   },
+   "h": {
+    "M": 173,
+    "Mv": 59,
+    "Mnc": 114
+   },
+   "i": {
+    "M": 171,
+    "Mv": 171,
+    "Mnc": 0
+   },
+   "j": {
+    "M": 171,
+    "Mv": 165,
+    "Mnc": 6
+   },
+   "k": {
+    "M": 171,
+    "Mv": 170,
+    "Mnc": 1
+   }
+  },
+  "per_ruolo": {
+   "alf": {
+    "M": 373,
+    "Mv": 302,
+    "Mnc": 71
+   },
+   "bet": {
+    "M": 269,
+    "Mv": 196,
+    "Mnc": 73
+   },
+   "gam": {
+    "M": 234,
+    "Mv": 161,
+    "Mnc": 73
+   },
+   "del": {
+    "M": 299,
+    "Mv": 247,
+    "Mnc": 52
+   },
+   "eps": {
+    "M": 79,
+    "Mv": 65,
+    "Mnc": 14
+   }
+  },
+  "senza_h": {
+   "M": 1081,
+   "Mv": 912,
+   "Mnc": 169
+  },
+  "stati": {
+   "ROBUST": 411,
+   "OBSOLETE": 254,
+   "NOT_TESTED": 283,
+   "FRAGILE": 306
+  },
+  "strategie": {
+   "Absolute": {
+    "E": 1254,
+    "E_nc": 283,
+    "E_obs": 254,
+    "succ": 530,
+    "frag": 187,
+    "TS": 73.9
+   },
+   "Relative": {
+    "E": 1254,
+    "E_nc": 283,
+    "E_obs": 254,
+    "succ": 678,
+    "frag": 39,
+    "TS": 94.6
+   },
+   "Robula": {
+    "E": 1254,
+    "E_nc": 283,
+    "E_obs": 254,
+    "succ": 665,
+    "frag": 52,
+    "TS": 92.7
+   },
+   "Robula+": {
+    "E": 1254,
+    "E_nc": 283,
+    "E_obs": 254,
+    "succ": 698,
+    "frag": 19,
+    "TS": 97.4
+   },
+   "Selenium": {
+    "E": 1254,
+    "E_nc": 283,
+    "E_obs": 254,
+    "succ": 691,
+    "frag": 26,
+    "TS": 96.4
+   },
+   "Katalon": {
+    "E": 1254,
+    "E_nc": 283,
+    "E_obs": 254,
+    "succ": 562,
+    "frag": 155,
+    "TS": 78.4
+   },
+   "Hook-Based": {
+    "E": 1254,
+    "E_nc": 283,
+    "E_obs": 254,
+    "succ": 704,
+    "frag": 13,
+    "TS": 98.2
+   }
+  },
+  "TO": {
+   "obs": 254,
+   "testabili": 971,
+   "perc": 26.2
+  },
+  "hook_per_ruolo": {
+   "alf": {
+    "succ": 214,
+    "frag": 5
+   },
+   "bet": {
+    "succ": 135,
+    "frag": 4
+   },
+   "gam": {
+    "succ": 106,
+    "frag": 3
+   },
+   "del": {
+    "succ": 190,
+    "frag": 1
+   },
+   "eps": {
+    "succ": 59,
+    "frag": 0
+   }
+  },
+  "celle_coperte": 49,
+  "operatori_coperti": [
+   "a",
+   "b",
+   "c",
+   "d",
+   "e",
+   "f",
+   "g",
+   "h",
+   "i",
+   "j",
+   "k"
+  ],
+  "ruoli_coperti": [
+   "alf",
+   "bet",
+   "del",
+   "eps",
+   "gam"
+  ]
+ },
+ "CineLib|linguistica": {
+  "validita": {
+   "M": 944,
+   "Mv": 831,
+   "Mnc": 113
+  },
+  "per_operatore": {
+   "a": {
+    "M": 104,
+    "Mv": 104,
+    "Mnc": 0
+   },
+   "b": {
+    "M": 104,
+    "Mv": 104,
+    "Mnc": 0
+   },
+   "c": {
+    "M": 104,
+    "Mv": 103,
+    "Mnc": 1
+   },
+   "d": {
+    "M": 58,
+    "Mv": 49,
+    "Mnc": 9
+   },
+   "e": {
+    "M": 55,
+    "Mv": 55,
+    "Mnc": 0
+   },
+   "f": {
+    "M": 91,
+    "Mv": 88,
+    "Mnc": 3
+   },
+   "g": {
+    "M": 80,
+    "Mv": 68,
+    "Mnc": 12
+   },
+   "h": {
+    "M": 107,
+    "Mv": 22,
+    "Mnc": 85
+   },
+   "i": {
+    "M": 31,
+    "Mv": 31,
+    "Mnc": 0
+   },
+   "j": {
+    "M": 104,
+    "Mv": 102,
+    "Mnc": 2
+   },
+   "k": {
+    "M": 106,
+    "Mv": 105,
+    "Mnc": 1
+   }
+  },
+  "per_ruolo": {
+   "alf": {
+    "M": 347,
+    "Mv": 304,
+    "Mnc": 43
+   },
+   "bet": {
+    "M": 220,
+    "Mv": 191,
+    "Mnc": 29
+   },
+   "gam": {
+    "M": 126,
+    "Mv": 109,
+    "Mnc": 17
+   },
+   "del": {
+    "M": 225,
+    "Mv": 204,
+    "Mnc": 21
+   },
+   "eps": {
+    "M": 26,
+    "Mv": 23,
+    "Mnc": 3
+   }
+  },
+  "senza_h": {
+   "M": 837,
+   "Mv": 809,
+   "Mnc": 28
+  },
+  "stati": {
+   "NOT_TESTED": 113,
+   "ROBUST": 579,
+   "FRAGILE": 229,
+   "OBSOLETE": 23
+  },
+  "strategie": {
+   "Absolute": {
+    "E": 944,
+    "E_nc": 113,
+    "E_obs": 23,
+    "succ": 646,
+    "frag": 162,
+    "TS": 80.0
+   },
+   "Relative": {
+    "E": 944,
+    "E_nc": 113,
+    "E_obs": 23,
+    "succ": 773,
+    "frag": 35,
+    "TS": 95.7
+   },
+   "Robula": {
+    "E": 944,
+    "E_nc": 113,
+    "E_obs": 23,
+    "succ": 762,
+    "frag": 46,
+    "TS": 94.3
+   },
+   "Robula+": {
+    "E": 944,
+    "E_nc": 113,
+    "E_obs": 23,
+    "succ": 792,
+    "frag": 16,
+    "TS": 98.0
+   },
+   "Selenium": {
+    "E": 944,
+    "E_nc": 113,
+    "E_obs": 23,
+    "succ": 768,
+    "frag": 40,
+    "TS": 95.0
+   },
+   "Katalon": {
+    "E": 944,
+    "E_nc": 113,
+    "E_obs": 23,
+    "succ": 763,
+    "frag": 45,
+    "TS": 94.4
+   },
+   "Hook-Based": {
+    "E": 944,
+    "E_nc": 113,
+    "E_obs": 23,
+    "succ": 808,
+    "frag": 0,
+    "TS": 100.0
+   }
+  },
+  "TO": {
+   "obs": 23,
+   "testabili": 831,
+   "perc": 2.8
+  },
+  "hook_per_ruolo": {
+   "alf": {
+    "succ": 289,
+    "frag": 0
+   },
+   "bet": {
+    "succ": 189,
+    "frag": 0
+   },
+   "gam": {
+    "succ": 107,
+    "frag": 0
+   },
+   "del": {
+    "succ": 200,
+    "frag": 0
+   },
+   "eps": {
+    "succ": 23,
+    "frag": 0
+   }
+  },
+  "celle_coperte": 50,
+  "operatori_coperti": [
+   "a",
+   "b",
+   "c",
+   "d",
+   "e",
+   "f",
+   "g",
+   "h",
+   "i",
+   "j",
+   "k"
+  ],
+  "ruoli_coperti": [
+   "alf",
+   "bet",
+   "del",
+   "eps",
+   "gam"
+  ]
+ },
+ "FlowBoard|statica": {
+  "validita": {
+   "M": 2148,
+   "Mv": 1664,
+   "Mnc": 484
+  },
+  "per_operatore": {
+   "a": {
+    "M": 102,
+    "Mv": 70,
+    "Mnc": 32
+   },
+   "b": {
+    "M": 101,
+    "Mv": 101,
+    "Mnc": 0
+   },
+   "c": {
+    "M": 9,
+    "Mv": 9,
+    "Mnc": 0
+   },
+   "d": {
+    "M": 103,
+    "Mv": 103,
+    "Mnc": 0
+   },
+   "e": {
+    "M": 104,
+    "Mv": 95,
+    "Mnc": 9
+   },
+   "f": {
+    "M": 170,
+    "Mv": 170,
+    "Mnc": 0
+   },
+   "g": {
+    "M": 464,
+    "Mv": 235,
+    "Mnc": 229
+   },
+   "h": {
+    "M": 564,
+    "Mv": 356,
+    "Mnc": 208
+   },
+   "i": {
+    "M": 177,
+    "Mv": 177,
+    "Mnc": 0
+   },
+   "j": {
+    "M": 177,
+    "Mv": 173,
+    "Mnc": 4
+   },
+   "k": {
+    "M": 177,
+    "Mv": 175,
+    "Mnc": 2
+   }
+  },
+  "per_ruolo": {
+   "alf": {
+    "M": 705,
+    "Mv": 601,
+    "Mnc": 104
+   },
+   "bet": {
+    "M": 476,
+    "Mv": 341,
+    "Mnc": 135
+   },
+   "gam": {
+    "M": 270,
+    "Mv": 147,
+    "Mnc": 123
+   },
+   "del": {
+    "M": 618,
+    "Mv": 529,
+    "Mnc": 89
+   },
+   "eps": {
+    "M": 79,
+    "Mv": 46,
+    "Mnc": 33
+   }
+  },
+  "senza_h": {
+   "M": 1584,
+   "Mv": 1308,
+   "Mnc": 276
+  },
+  "stati": {
+   "NOT_TESTED": 653,
+   "FRAGILE": 428,
+   "ROBUST": 1165,
+   "OBSOLETE": 459
+  },
+  "strategie": {
+   "Absolute": {
+    "E": 2705,
+    "E_nc": 653,
+    "E_obs": 459,
+    "succ": 1315,
+    "frag": 278,
+    "TS": 82.5
+   },
+   "Relative": {
+    "E": 2705,
+    "E_nc": 653,
+    "E_obs": 459,
+    "succ": 1562,
+    "frag": 31,
+    "TS": 98.1
+   },
+   "Robula": {
+    "E": 2705,
+    "E_nc": 653,
+    "E_obs": 459,
+    "succ": 1556,
+    "frag": 37,
+    "TS": 97.7
+   },
+   "Robula+": {
+    "E": 2705,
+    "E_nc": 653,
+    "E_obs": 459,
+    "succ": 1568,
+    "frag": 25,
+    "TS": 98.4
+   },
+   "Selenium": {
+    "E": 2705,
+    "E_nc": 653,
+    "E_obs": 459,
+    "succ": 1552,
+    "frag": 41,
+    "TS": 97.4
+   },
+   "Katalon": {
+    "E": 2705,
+    "E_nc": 653,
+    "E_obs": 459,
+    "succ": 1420,
+    "frag": 173,
+    "TS": 89.1
+   },
+   "Hook-Based": {
+    "E": 2705,
+    "E_nc": 653,
+    "E_obs": 459,
+    "succ": 1585,
+    "frag": 8,
+    "TS": 99.5
+   }
+  },
+  "TO": {
+   "obs": 459,
+   "testabili": 2052,
+   "perc": 22.4
+  },
+  "hook_per_ruolo": {
+   "alf": {
+    "succ": 569,
+    "frag": 2
+   },
+   "bet": {
+    "succ": 333,
+    "frag": 1
+   },
+   "gam": {
+    "succ": 117,
+    "frag": 2
+   },
+   "del": {
+    "succ": 540,
+    "frag": 3
+   },
+   "eps": {
+    "succ": 26,
+    "frag": 0
+   }
+  },
+  "celle_coperte": 49,
+  "operatori_coperti": [
+   "a",
+   "b",
+   "c",
+   "d",
+   "e",
+   "f",
+   "g",
+   "h",
+   "i",
+   "j",
+   "k"
+  ],
+  "ruoli_coperti": [
+   "alf",
+   "bet",
+   "del",
+   "eps",
+   "gam"
+  ]
+ },
+ "FlowBoard|statica+dup": {
+  "validita": {
+   "M": 4263,
+   "Mv": 3661,
+   "Mnc": 602
+  },
+  "per_operatore": {
+   "a": {
+    "M": 251,
+    "Mv": 183,
+    "Mnc": 68
+   },
+   "b": {
+    "M": 251,
+    "Mv": 251,
+    "Mnc": 0
+   },
+   "c": {
+    "M": 18,
+    "Mv": 18,
+    "Mnc": 0
+   },
+   "d": {
+    "M": 190,
+    "Mv": 190,
+    "Mnc": 0
+   },
+   "e": {
+    "M": 191,
+    "Mv": 178,
+    "Mnc": 13
+   },
+   "f": {
+    "M": 364,
+    "Mv": 364,
+    "Mnc": 0
+   },
+   "g": {
+    "M": 605,
+    "Mv": 320,
+    "Mnc": 285
+   },
+   "h": {
+    "M": 605,
+    "Mv": 380,
+    "Mnc": 225
+   },
+   "i": {
+    "M": 596,
+    "Mv": 596,
+    "Mnc": 0
+   },
+   "j": {
+    "M": 596,
+    "Mv": 589,
+    "Mnc": 7
+   },
+   "k": {
+    "M": 596,
+    "Mv": 592,
+    "Mnc": 4
+   }
+  },
+  "per_ruolo": {
+   "alf": {
+    "M": 1189,
+    "Mv": 1071,
+    "Mnc": 118
+   },
+   "bet": {
+    "M": 906,
+    "Mv": 751,
+    "Mnc": 155
+   },
+   "gam": {
+    "M": 796,
+    "Mv": 623,
+    "Mnc": 173
+   },
+   "del": {
+    "M": 1103,
+    "Mv": 992,
+    "Mnc": 111
+   },
+   "eps": {
+    "M": 269,
+    "Mv": 224,
+    "Mnc": 45
+   }
+  },
+  "senza_h": {
+   "M": 3658,
+   "Mv": 3281,
+   "Mnc": 377
+  },
+  "stati": {
+   "NOT_TESTED": 797,
+   "FRAGILE": 1283,
+   "ROBUST": 2387,
+   "OBSOLETE": 791
+  },
+  "strategie": {
+   "Absolute": {
+    "E": 5258,
+    "E_nc": 797,
+    "E_obs": 791,
+    "succ": 2670,
+    "frag": 1000,
+    "TS": 72.8
+   },
+   "Relative": {
+    "E": 5258,
+    "E_nc": 797,
+    "E_obs": 791,
+    "succ": 3593,
+    "frag": 77,
+    "TS": 97.9
+   },
+   "Robula": {
+    "E": 5258,
+    "E_nc": 797,
+    "E_obs": 791,
+    "succ": 3576,
+    "frag": 94,
+    "TS": 97.4
+   },
+   "Robula+": {
+    "E": 5258,
+    "E_nc": 797,
+    "E_obs": 791,
+    "succ": 3610,
+    "frag": 60,
+    "TS": 98.4
+   },
+   "Selenium": {
+    "E": 5258,
+    "E_nc": 797,
+    "E_obs": 791,
+    "succ": 3580,
+    "frag": 90,
+    "TS": 97.5
+   },
+   "Katalon": {
+    "E": 5258,
+    "E_nc": 797,
+    "E_obs": 791,
+    "succ": 3317,
+    "frag": 353,
+    "TS": 90.4
+   },
+   "Hook-Based": {
+    "E": 5258,
+    "E_nc": 797,
+    "E_obs": 791,
+    "succ": 3661,
+    "frag": 9,
+    "TS": 99.8
+   }
+  },
+  "TO": {
+   "obs": 791,
+   "testabili": 4461,
+   "perc": 17.7
+  },
+  "hook_per_ruolo": {
+   "alf": {
+    "succ": 1082,
+    "frag": 2
+   },
+   "bet": {
+    "succ": 762,
+    "frag": 1
+   },
+   "gam": {
+    "succ": 619,
+    "frag": 3
+   },
+   "del": {
+    "succ": 1016,
+    "frag": 3
+   },
+   "eps": {
+    "succ": 182,
+    "frag": 0
+   }
+  },
+  "celle_coperte": 50,
+  "operatori_coperti": [
+   "a",
+   "b",
+   "c",
+   "d",
+   "e",
+   "f",
+   "g",
+   "h",
+   "i",
+   "j",
+   "k"
+  ],
+  "ruoli_coperti": [
+   "alf",
+   "bet",
+   "del",
+   "eps",
+   "gam"
+  ]
+ },
+ "FlowBoard|linguistica": {
+  "validita": {
+   "M": 1559,
+   "Mv": 1491,
+   "Mnc": 68
+  },
+  "per_operatore": {
+   "a": {
+    "M": 189,
+    "Mv": 186,
+    "Mnc": 3
+   },
+   "b": {
+    "M": 167,
+    "Mv": 166,
+    "Mnc": 1
+   },
+   "c": {
+    "M": 171,
+    "Mv": 171,
+    "Mnc": 0
+   },
+   "d": {
+    "M": 93,
+    "Mv": 93,
+    "Mnc": 0
+   },
+   "e": {
+    "M": 86,
+    "Mv": 86,
+    "Mnc": 0
+   },
+   "f": {
+    "M": 158,
+    "Mv": 156,
+    "Mnc": 2
+   },
+   "g": {
+    "M": 144,
+    "Mv": 142,
+    "Mnc": 2
+   },
+   "h": {
+    "M": 176,
+    "Mv": 118,
+    "Mnc": 58
+   },
+   "i": {
+    "M": 28,
+    "Mv": 28,
+    "Mnc": 0
+   },
+   "j": {
+    "M": 166,
+    "Mv": 164,
+    "Mnc": 2
+   },
+   "k": {
+    "M": 181,
+    "Mv": 181,
+    "Mnc": 0
+   }
+  },
+  "per_ruolo": {
+   "alf": {
+    "M": 567,
+    "Mv": 540,
+    "Mnc": 27
+   },
+   "bet": {
+    "M": 344,
+    "Mv": 324,
+    "Mnc": 20
+   },
+   "gam": {
+    "M": 103,
+    "Mv": 93,
+    "Mnc": 10
+   },
+   "del": {
+    "M": 527,
+    "Mv": 517,
+    "Mnc": 10
+   },
+   "eps": {
+    "M": 18,
+    "Mv": 17,
+    "Mnc": 1
+   }
+  },
+  "senza_h": {
+   "M": 1383,
+   "Mv": 1373,
+   "Mnc": 10
+  },
+  "stati": {
+   "NOT_TESTED": 96,
+   "ROBUST": 1481,
+   "FRAGILE": 374,
+   "OBSOLETE": 39
+  },
+  "strategie": {
+   "Absolute": {
+    "E": 1990,
+    "E_nc": 96,
+    "E_obs": 39,
+    "succ": 1578,
+    "frag": 277,
+    "TS": 85.1
+   },
+   "Relative": {
+    "E": 1990,
+    "E_nc": 96,
+    "E_obs": 39,
+    "succ": 1810,
+    "frag": 45,
+    "TS": 97.6
+   },
+   "Robula": {
+    "E": 1990,
+    "E_nc": 96,
+    "E_obs": 39,
+    "succ": 1804,
+    "frag": 51,
+    "TS": 97.3
+   },
+   "Robula+": {
+    "E": 1990,
+    "E_nc": 96,
+    "E_obs": 39,
+    "succ": 1828,
+    "frag": 27,
+    "TS": 98.5
+   },
+   "Selenium": {
+    "E": 1990,
+    "E_nc": 96,
+    "E_obs": 39,
+    "succ": 1782,
+    "frag": 73,
+    "TS": 96.1
+   },
+   "Katalon": {
+    "E": 1990,
+    "E_nc": 96,
+    "E_obs": 39,
+    "succ": 1771,
+    "frag": 84,
+    "TS": 95.5
+   },
+   "Hook-Based": {
+    "E": 1990,
+    "E_nc": 96,
+    "E_obs": 39,
+    "succ": 1855,
+    "frag": 0,
+    "TS": 100.0
+   }
+  },
+  "TO": {
+   "obs": 39,
+   "testabili": 1894,
+   "perc": 2.1
+  },
+  "hook_per_ruolo": {
+   "alf": {
+    "succ": 660,
+    "frag": 0
+   },
+   "bet": {
+    "succ": 407,
+    "frag": 0
+   },
+   "gam": {
+    "succ": 115,
+    "frag": 0
+   },
+   "del": {
+    "succ": 657,
+    "frag": 0
+   },
+   "eps": {
+    "succ": 16,
+    "frag": 0
+   }
+  },
+  "celle_coperte": 51,
+  "operatori_coperti": [
+   "a",
+   "b",
+   "c",
+   "d",
+   "e",
+   "f",
+   "g",
+   "h",
+   "i",
+   "j",
+   "k"
+  ],
+  "ruoli_coperti": [
+   "alf",
+   "bet",
+   "del",
+   "eps",
+   "gam"
+  ]
+ },
+ "CookBook|statica+dup": {
+  "validita": {
+   "M": 1503,
+   "Mv": 1243,
+   "Mnc": 260
+  },
+  "per_operatore": {
+   "a": {
+    "M": 73,
+    "Mv": 46,
+    "Mnc": 27
+   },
+   "b": {
+    "M": 73,
+    "Mv": 73,
+    "Mnc": 0
+   },
+   "c": {
+    "M": 12,
+    "Mv": 12,
+    "Mnc": 0
+   },
+   "d": {
+    "M": 91,
+    "Mv": 89,
+    "Mnc": 2
+   },
+   "e": {
+    "M": 92,
+    "Mv": 87,
+    "Mnc": 5
+   },
+   "f": {
+    "M": 111,
+    "Mv": 111,
+    "Mnc": 0
+   },
+   "g": {
+    "M": 191,
+    "Mv": 107,
+    "Mnc": 84
+   },
+   "h": {
+    "M": 215,
+    "Mv": 116,
+    "Mnc": 99
+   },
+   "i": {
+    "M": 215,
+    "Mv": 215,
+    "Mnc": 0
+   },
+   "j": {
+    "M": 215,
+    "Mv": 190,
+    "Mnc": 25
+   },
+   "k": {
+    "M": 215,
+    "Mv": 197,
+    "Mnc": 18
+   }
+  },
+  "per_ruolo": {
+   "alf": {
+    "M": 422,
+    "Mv": 328,
+    "Mnc": 94
+   },
+   "bet": {
+    "M": 296,
+    "Mv": 245,
+    "Mnc": 51
+   },
+   "gam": {
+    "M": 311,
+    "Mv": 251,
+    "Mnc": 60
+   },
+   "del": {
+    "M": 420,
+    "Mv": 375,
+    "Mnc": 45
+   },
+   "eps": {
+    "M": 54,
+    "Mv": 44,
+    "Mnc": 10
+   }
+  },
+  "senza_h": {
+   "M": 1288,
+   "Mv": 1127,
+   "Mnc": 161
+  },
+  "stati": {
+   "NOT_TESTED": 334,
+   "ROBUST": 972,
+   "FRAGILE": 388,
+   "OBSOLETE": 150
+  },
+  "strategie": {
+   "Absolute": {
+    "E": 1844,
+    "E_nc": 334,
+    "E_obs": 150,
+    "succ": 1031,
+    "frag": 329,
+    "TS": 75.8
+   },
+   "Relative": {
+    "E": 1844,
+    "E_nc": 334,
+    "E_obs": 150,
+    "succ": 1335,
+    "frag": 25,
+    "TS": 98.2
+   },
+   "Robula": {
+    "E": 1844,
+    "E_nc": 334,
+    "E_obs": 150,
+    "succ": 1320,
+    "frag": 40,
+    "TS": 97.1
+   },
+   "Robula+": {
+    "E": 1844,
+    "E_nc": 334,
+    "E_obs": 150,
+    "succ": 1340,
+    "frag": 20,
+    "TS": 98.5
+   },
+   "Selenium": {
+    "E": 1844,
+    "E_nc": 334,
+    "E_obs": 150,
+    "succ": 1336,
+    "frag": 24,
+    "TS": 98.2
+   },
+   "Katalon": {
+    "E": 1844,
+    "E_nc": 334,
+    "E_obs": 150,
+    "succ": 1217,
+    "frag": 143,
+    "TS": 89.5
+   },
+   "Hook-Based": {
+    "E": 1844,
+    "E_nc": 334,
+    "E_obs": 150,
+    "succ": 1351,
+    "frag": 9,
+    "TS": 99.3
+   }
+  },
+  "TO": {
+   "obs": 150,
+   "testabili": 1510,
+   "perc": 9.9
+  },
+  "hook_per_ruolo": {
+   "alf": {
+    "succ": 325,
+    "frag": 7
+   },
+   "bet": {
+    "succ": 272,
+    "frag": 1
+   },
+   "gam": {
+    "succ": 273,
+    "frag": 1
+   },
+   "del": {
+    "succ": 442,
+    "frag": 0
+   },
+   "eps": {
+    "succ": 39,
+    "frag": 0
+   }
+  },
+  "celle_coperte": 45,
+  "operatori_coperti": [
+   "a",
+   "b",
+   "c",
+   "d",
+   "e",
+   "f",
+   "g",
+   "h",
+   "i",
+   "j",
+   "k"
+  ],
+  "ruoli_coperti": [
+   "alf",
+   "bet",
+   "del",
+   "eps",
+   "gam"
+  ]
+ },
+ "CookBook|statica": {
+  "validita": {
+   "M": 1454,
+   "Mv": 1197,
+   "Mnc": 257
+  },
+  "per_operatore": {
+   "a": {
+    "M": 69,
+    "Mv": 45,
+    "Mnc": 24
+   },
+   "b": {
+    "M": 71,
+    "Mv": 71,
+    "Mnc": 0
+   },
+   "c": {
+    "M": 12,
+    "Mv": 12,
+    "Mnc": 0
+   },
+   "d": {
+    "M": 91,
+    "Mv": 89,
+    "Mnc": 2
+   },
+   "e": {
+    "M": 92,
+    "Mv": 87,
+    "Mnc": 5
+   },
+   "f": {
+    "M": 108,
+    "Mv": 108,
+    "Mnc": 0
+   },
+   "g": {
+    "M": 191,
+    "Mv": 107,
+    "Mnc": 84
+   },
+   "h": {
+    "M": 214,
+    "Mv": 115,
+    "Mnc": 99
+   },
+   "i": {
+    "M": 202,
+    "Mv": 202,
+    "Mnc": 0
+   },
+   "j": {
+    "M": 202,
+    "Mv": 177,
+    "Mnc": 25
+   },
+   "k": {
+    "M": 202,
+    "Mv": 184,
+    "Mnc": 18
+   }
+  },
+  "per_ruolo": {
+   "alf": {
+    "M": 422,
+    "Mv": 328,
+    "Mnc": 94
+   },
+   "bet": {
+    "M": 289,
+    "Mv": 238,
+    "Mnc": 51
+   },
+   "gam": {
+    "M": 279,
+    "Mv": 221,
+    "Mnc": 58
+   },
+   "del": {
+    "M": 415,
+    "Mv": 371,
+    "Mnc": 44
+   },
+   "eps": {
+    "M": 49,
+    "Mv": 39,
+    "Mnc": 10
+   }
+  },
+  "senza_h": {
+   "M": 1240,
+   "Mv": 1082,
+   "Mnc": 158
+  },
+  "stati": {
+   "NOT_TESTED": 330,
+   "ROBUST": 949,
+   "FRAGILE": 356,
+   "OBSOLETE": 148
+  },
+  "strategie": {
+   "Absolute": {
+    "E": 1783,
+    "E_nc": 330,
+    "E_obs": 148,
+    "succ": 1007,
+    "frag": 298,
+    "TS": 77.2
+   },
+   "Relative": {
+    "E": 1783,
+    "E_nc": 330,
+    "E_obs": 148,
+    "succ": 1280,
+    "frag": 25,
+    "TS": 98.1
+   },
+   "Robula": {
+    "E": 1783,
+    "E_nc": 330,
+    "E_obs": 148,
+    "succ": 1268,
+    "frag": 37,
+    "TS": 97.2
+   },
+   "Robula+": {
+    "E": 1783,
+    "E_nc": 330,
+    "E_obs": 148,
+    "succ": 1285,
+    "frag": 20,
+    "TS": 98.5
+   },
+   "Selenium": {
+    "E": 1783,
+    "E_nc": 330,
+    "E_obs": 148,
+    "succ": 1282,
+    "frag": 23,
+    "TS": 98.2
+   },
+   "Katalon": {
+    "E": 1783,
+    "E_nc": 330,
+    "E_obs": 148,
+    "succ": 1167,
+    "frag": 138,
+    "TS": 89.4
+   },
+   "Hook-Based": {
+    "E": 1783,
+    "E_nc": 330,
+    "E_obs": 148,
+    "succ": 1296,
+    "frag": 9,
+    "TS": 99.3
+   }
+  },
+  "TO": {
+   "obs": 148,
+   "testabili": 1453,
+   "perc": 10.2
+  },
+  "hook_per_ruolo": {
+   "alf": {
+    "succ": 325,
+    "frag": 7
+   },
+   "bet": {
+    "succ": 262,
+    "frag": 1
+   },
+   "gam": {
+    "succ": 241,
+    "frag": 1
+   },
+   "del": {
+    "succ": 434,
+    "frag": 0
+   },
+   "eps": {
+    "succ": 34,
+    "frag": 0
+   }
+  },
+  "celle_coperte": 45,
+  "operatori_coperti": [
+   "a",
+   "b",
+   "c",
+   "d",
+   "e",
+   "f",
+   "g",
+   "h",
+   "i",
+   "j",
+   "k"
+  ],
+  "ruoli_coperti": [
+   "alf",
+   "bet",
+   "del",
+   "eps",
+   "gam"
+  ]
+ },
+ "CookBook|linguistica": {
+  "validita": {
+   "M": 1929,
+   "Mv": 1813,
+   "Mnc": 116
+  },
+  "per_operatore": {
+   "a": {
+    "M": 215,
+    "Mv": 215,
+    "Mnc": 0
+   },
+   "b": {
+    "M": 203,
+    "Mv": 203,
+    "Mnc": 0
+   },
+   "c": {
+    "M": 215,
+    "Mv": 214,
+    "Mnc": 1
+   },
+   "d": {
+    "M": 91,
+    "Mv": 91,
+    "Mnc": 0
+   },
+   "e": {
+    "M": 92,
+    "Mv": 91,
+    "Mnc": 1
+   },
+   "f": {
+    "M": 169,
+    "Mv": 169,
+    "Mnc": 0
+   },
+   "g": {
+    "M": 180,
+    "Mv": 172,
+    "Mnc": 8
+   },
+   "h": {
+    "M": 202,
+    "Mv": 103,
+    "Mnc": 99
+   },
+   "i": {
+    "M": 144,
+    "Mv": 143,
+    "Mnc": 1
+   },
+   "j": {
+    "M": 210,
+    "Mv": 205,
+    "Mnc": 5
+   },
+   "k": {
+    "M": 208,
+    "Mv": 207,
+    "Mnc": 1
+   }
+  },
+  "per_ruolo": {
+   "alf": {
+    "M": 492,
+    "Mv": 454,
+    "Mnc": 38
+   },
+   "bet": {
+    "M": 430,
+    "Mv": 398,
+    "Mnc": 32
+   },
+   "gam": {
+    "M": 389,
+    "Mv": 365,
+    "Mnc": 24
+   },
+   "del": {
+    "M": 560,
+    "Mv": 545,
+    "Mnc": 15
+   },
+   "eps": {
+    "M": 58,
+    "Mv": 51,
+    "Mnc": 7
+   }
+  },
+  "senza_h": {
+   "M": 1727,
+   "Mv": 1710,
+   "Mnc": 17
+  },
+  "stati": {
+   "NOT_TESTED": 143,
+   "ROBUST": 1814,
+   "FRAGILE": 368,
+   "OBSOLETE": 29
+  },
+  "strategie": {
+   "Absolute": {
+    "E": 2354,
+    "E_nc": 143,
+    "E_obs": 29,
+    "succ": 1905,
+    "frag": 277,
+    "TS": 87.3
+   },
+   "Relative": {
+    "E": 2354,
+    "E_nc": 143,
+    "E_obs": 29,
+    "succ": 2150,
+    "frag": 32,
+    "TS": 98.5
+   },
+   "Robula": {
+    "E": 2354,
+    "E_nc": 143,
+    "E_obs": 29,
+    "succ": 2123,
+    "frag": 59,
+    "TS": 97.3
+   },
+   "Robula+": {
+    "E": 2354,
+    "E_nc": 143,
+    "E_obs": 29,
+    "succ": 2155,
+    "frag": 27,
+    "TS": 98.8
+   },
+   "Selenium": {
+    "E": 2354,
+    "E_nc": 143,
+    "E_obs": 29,
+    "succ": 2124,
+    "frag": 58,
+    "TS": 97.3
+   },
+   "Katalon": {
+    "E": 2354,
+    "E_nc": 143,
+    "E_obs": 29,
+    "succ": 2092,
+    "frag": 90,
+    "TS": 95.9
+   },
+   "Hook-Based": {
+    "E": 2354,
+    "E_nc": 143,
+    "E_obs": 29,
+    "succ": 2176,
+    "frag": 6,
+    "TS": 99.7
+   }
+  },
+  "TO": {
+   "obs": 29,
+   "testabili": 2211,
+   "perc": 1.3
+  },
+  "hook_per_ruolo": {
+   "alf": {
+    "succ": 530,
+    "frag": 4
+   },
+   "bet": {
+    "succ": 483,
+    "frag": 1
+   },
+   "gam": {
+    "succ": 446,
+    "frag": 1
+   },
+   "del": {
+    "succ": 666,
+    "frag": 0
+   },
+   "eps": {
+    "succ": 51,
+    "frag": 0
+   }
+  },
+  "celle_coperte": 49,
+  "operatori_coperti": [
+   "a",
+   "b",
+   "c",
+   "d",
+   "e",
+   "f",
+   "g",
+   "h",
+   "i",
+   "j",
+   "k"
+  ],
+  "ruoli_coperti": [
+   "alf",
+   "bet",
+   "del",
+   "eps",
+   "gam"
+  ]
+ },
+ "CookBook|i-bersaglio": {
+  "validita": {
+   "M": 10,
+   "Mv": 7,
+   "Mnc": 3
+  },
+  "per_operatore": {
+   "a": {
+    "M": 0,
+    "Mv": 0,
+    "Mnc": 0
+   },
+   "b": {
+    "M": 0,
+    "Mv": 0,
+    "Mnc": 0
+   },
+   "c": {
+    "M": 0,
+    "Mv": 0,
+    "Mnc": 0
+   },
+   "d": {
+    "M": 0,
+    "Mv": 0,
+    "Mnc": 0
+   },
+   "e": {
+    "M": 0,
+    "Mv": 0,
+    "Mnc": 0
+   },
+   "f": {
+    "M": 0,
+    "Mv": 0,
+    "Mnc": 0
+   },
+   "g": {
+    "M": 0,
+    "Mv": 0,
+    "Mnc": 0
+   },
+   "h": {
+    "M": 0,
+    "Mv": 0,
+    "Mnc": 0
+   },
+   "i": {
+    "M": 10,
+    "Mv": 7,
+    "Mnc": 3
+   },
+   "j": {
+    "M": 0,
+    "Mv": 0,
+    "Mnc": 0
+   },
+   "k": {
+    "M": 0,
+    "Mv": 0,
+    "Mnc": 0
+   }
+  },
+  "per_ruolo": {
+   "alf": {
+    "M": 10,
+    "Mv": 7,
+    "Mnc": 3
+   },
+   "bet": {
+    "M": 0,
+    "Mv": 0,
+    "Mnc": 0
+   },
+   "gam": {
+    "M": 0,
+    "Mv": 0,
+    "Mnc": 0
+   },
+   "del": {
+    "M": 0,
+    "Mv": 0,
+    "Mnc": 0
+   },
+   "eps": {
+    "M": 0,
+    "Mv": 0,
+    "Mnc": 0
+   }
+  },
+  "senza_h": {
+   "M": 10,
+   "Mv": 7,
+   "Mnc": 3
+  },
+  "stati": {
+   "NOT_TESTED": 4,
+   "FRAGILE": 1,
+   "ROBUST": 7,
+   "OBSOLETE": 2
+  },
+  "strategie": {
+   "Absolute": {
+    "E": 14,
+    "E_nc": 4,
+    "E_obs": 2,
+    "succ": 7,
+    "frag": 1,
+    "TS": 87.5
+   },
+   "Relative": {
+    "E": 14,
+    "E_nc": 4,
+    "E_obs": 2,
+    "succ": 7,
+    "frag": 1,
+    "TS": 87.5
+   },
+   "Robula": {
+    "E": 14,
+    "E_nc": 4,
+    "E_obs": 2,
+    "succ": 7,
+    "frag": 1,
+    "TS": 87.5
+   },
+   "Robula+": {
+    "E": 14,
+    "E_nc": 4,
+    "E_obs": 2,
+    "succ": 7,
+    "frag": 1,
+    "TS": 87.5
+   },
+   "Selenium": {
+    "E": 14,
+    "E_nc": 4,
+    "E_obs": 2,
+    "succ": 7,
+    "frag": 1,
+    "TS": 87.5
+   },
+   "Katalon": {
+    "E": 14,
+    "E_nc": 4,
+    "E_obs": 2,
+    "succ": 8,
+    "frag": 0,
+    "TS": 100.0
+   },
+   "Hook-Based": {
+    "E": 14,
+    "E_nc": 4,
+    "E_obs": 2,
+    "succ": 7,
+    "frag": 1,
+    "TS": 87.5
+   }
+  },
+  "TO": {
+   "obs": 2,
+   "testabili": 10,
+   "perc": 20.0
+  },
+  "hook_per_ruolo": {
+   "alf": {
+    "succ": 7,
+    "frag": 1
+   }
+  },
+  "celle_coperte": 1,
+  "operatori_coperti": [
+   "i"
+  ],
+  "ruoli_coperti": [
+   "alf"
+  ]
+ }
+}

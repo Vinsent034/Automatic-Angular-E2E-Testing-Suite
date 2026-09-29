@@ -1,0 +1,52 @@
+######### START 1 - a #########
+<div class="form-field-block" x-test-form-field-priority>
+          <label class="field-label" for="field-priority" x-test-form-priority-label>Priority</label>
+          <select id="field-priority" name="priority" class="input select form-priority" [(ngModel)]="priority" x-test-form-priority>
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+          </select>
+        </div>
+######### END 1 - a #########
+######### START 1 - b #########
+<div x-test-form-field-priority>
+          <label class="field-label" for="field-priority" x-test-form-priority-label>Priority</label>
+          <select id="field-priority" name="priority" class="input select form-priority" [(ngModel)]="priority" x-test-form-priority>
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+          </select>
+        </div>
+######### END 1 - b #########
+######### START 1 - c #########
+<div data-class="form-field" x-test-form-field-priority>
+          <label class="field-label" for="field-priority" x-test-form-priority-label>Priority</label>
+          <select id="field-priority" name="priority" class="input select form-priority" [(ngModel)]="priority" x-test-form-priority>
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+          </select>
+        </div>
+######### END 1 - c #########
+######### START 1 - j #########
+<section class="form-field" x-test-form-field-priority>
+          <label class="field-label" for="field-priority" x-test-form-priority-label>Priority</label>
+          <select id="field-priority" name="priority" class="input select form-priority" [(ngModel)]="priority" x-test-form-priority>
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+          </select>
+        </section>
+######### END 1 - j #########
+######### START 1 - k #########
+<div class="form-field-wrap">
+  <div class="form-field" x-test-form-field-priority>
+          <label class="field-label" for="field-priority" x-test-form-priority-label>Priority</label>
+          <select id="field-priority" name="priority" class="input select form-priority" [(ngModel)]="priority" x-test-form-priority>
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+          </select>
+        </div>
+</div>
+######### END 1 - k #########

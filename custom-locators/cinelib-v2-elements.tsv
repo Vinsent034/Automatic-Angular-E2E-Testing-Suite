@@ -1,0 +1,15 @@
+CS_Search	/html[1]/body[1]/app-root[1]/main[1]/app-catalog[1]/section[1]/div[1]/div[1]/input[1]	cinelib-v2-catalog-search.html
+CS_Card	/html[1]/body[1]/app-root[1]/main[1]/app-catalog[1]/section[1]/div[3]/app-movie-card[1]/div[1]	cinelib-v2-catalog-search.html
+CS_CardTitle	/html[1]/body[1]/app-root[1]/main[1]/app-catalog[1]/section[1]/div[3]/app-movie-card[1]/div[1]/div[1]/a[1]/h2[1]	cinelib-v2-catalog-search.html
+MD_Title	/html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/app-panel[1]/section[1]/div[1]/header[1]/div[2]/h1[1]	cinelib-v2-movie-detail.html
+MD_CastRow2	/html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[2]/div[1]/app-cast-row[2]/div[1]	cinelib-v2-movie-detail.html
+MD_CastName2	/html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[2]/div[1]/app-cast-row[2]/div[1]/span[2]	cinelib-v2-movie-detail.html
+MF_Title	/html[1]/body[1]/app-root[1]/main[1]/app-movie-form[1]/section[1]/form[1]/div[1]/input[1]	cinelib-v2-movie-form.html
+MF_Genre	/html[1]/body[1]/app-root[1]/main[1]/app-movie-form[1]/section[1]/form[1]/app-panel[1]/section[1]/div[1]/div[1]/div[2]/select[1]	cinelib-v2-movie-form.html
+MF_Submit	/html[1]/body[1]/app-root[1]/main[1]/app-movie-form[1]/section[1]/form[1]/div[6]/button[1]	cinelib-v2-movie-form.html
+RV_Average	/html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[3]/app-reviews[1]/div[1]/div[1]/span[1]	cinelib-v2-reviews.html
+RV_Author1	/html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[3]/app-reviews[1]/div[1]/ul[1]/li[1]/div[1]/span[1]	cinelib-v2-reviews.html
+RV_Submit	/html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[3]/app-reviews[1]/div[1]/form[1]/div[3]/button[1]	cinelib-v2-reviews.html
+ST_Total	/html[1]/body[1]/app-root[1]/main[1]/app-stats[1]/section[1]/div[1]/div[1]/span[1]	cinelib-v2-stats.html
+ST_TopTitle1	/html[1]/body[1]/app-root[1]/main[1]/app-stats[1]/section[1]/section[2]/app-panel[1]/section[1]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/a[1]	cinelib-v2-stats.html
+ST_GenreCount1	/html[1]/body[1]/app-root[1]/main[1]/app-stats[1]/section[1]/section[1]/app-panel[1]/section[1]/div[1]/div[1]/div[1]/span[2]	cinelib-v2-stats.html

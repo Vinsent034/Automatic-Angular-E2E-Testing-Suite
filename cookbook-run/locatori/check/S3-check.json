@@ -1,0 +1,56 @@
+{
+ "S3_DetailTitle": {
+  "Absolute": {
+   "count": 1,
+   "same": true
+  },
+  "Robula": {
+   "count": 1,
+   "same": true
+  },
+  "RobulaPlus": {
+   "count": 1,
+   "same": true
+  },
+  "HookBased": {
+   "count": 1,
+   "same": true
+  }
+ },
+ "S3_Servings": {
+  "Absolute": {
+   "count": 1,
+   "same": true
+  },
+  "Robula": {
+   "count": 1,
+   "same": true
+  },
+  "RobulaPlus": {
+   "count": 1,
+   "same": true
+  },
+  "HookBased": {
+   "count": 1,
+   "same": true
+  }
+ },
+ "S3_IngQty": {
+  "Absolute": {
+   "count": 1,
+   "same": true
+  },
+  "Robula": {
+   "count": 1,
+   "same": true
+  },
+  "RobulaPlus": {
+   "count": 1,
+   "same": true
+  },
+  "HookBased": {
+   "count": 1,
+   "same": true
+  }
+ }
+}

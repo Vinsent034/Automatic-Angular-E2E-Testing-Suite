@@ -1,0 +1,90 @@
+######### START 1 - a #########
+<ul class="nav-menu">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Recipes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/shopping" routerLinkActive="active" x-test-nav-shopping>Shopping</a>
+          <span class="nav-badge" data-kind="shopping">{{ store.shoppingOpenCount() }}</span>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/stats" routerLinkActive="active" x-test-nav-stats>Stats</a>
+          <span class="nav-hint">numbers</span>
+        </li>
+      </ul>
+######### END 1 - a #########
+######### START 2 - b #########
+<ul>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Recipes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/shopping" routerLinkActive="active" x-test-nav-shopping>Shopping</a>
+          <span class="nav-badge" data-kind="shopping">{{ store.shoppingOpenCount() }}</span>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/stats" routerLinkActive="active" x-test-nav-stats>Stats</a>
+          <span class="nav-hint">numbers</span>
+        </li>
+      </ul>
+######### END 2 - b #########
+######### START 3 - c #########
+<ul data-list="nav-list">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Recipes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/shopping" routerLinkActive="active" x-test-nav-shopping>Shopping</a>
+          <span class="nav-badge" data-kind="shopping">{{ store.shoppingOpenCount() }}</span>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/stats" routerLinkActive="active" x-test-nav-stats>Stats</a>
+          <span class="nav-hint">numbers</span>
+        </li>
+      </ul>
+######### END 3 - c #########
+######### START 4 - i #########
+<li class="nav-item">
+          <a class="nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Recipes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/shopping" routerLinkActive="active" x-test-nav-shopping>Shopping</a>
+          <span class="nav-badge" data-kind="shopping">{{ store.shoppingOpenCount() }}</span>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/stats" routerLinkActive="active" x-test-nav-stats>Stats</a>
+          <span class="nav-hint">numbers</span>
+        </li>
+######### END 4 - i #########
+######### START 5 - j #########
+<ol class="nav-list">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Recipes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/shopping" routerLinkActive="active" x-test-nav-shopping>Shopping</a>
+          <span class="nav-badge" data-kind="shopping">{{ store.shoppingOpenCount() }}</span>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/stats" routerLinkActive="active" x-test-nav-stats>Stats</a>
+          <span class="nav-hint">numbers</span>
+        </li>
+      </ol>
+######### END 5 - j #########
+######### START 6 - k #########
+<nav class="nav-list-wrap">
+  <ul class="nav-list">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Recipes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/shopping" routerLinkActive="active" x-test-nav-shopping>Shopping</a>
+          <span class="nav-badge" data-kind="shopping">{{ store.shoppingOpenCount() }}</span>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/stats" routerLinkActive="active" x-test-nav-stats>Stats</a>
+          <span class="nav-hint">numbers</span>
+        </li>
+      </ul>
+</nav>
+######### END 6 - k #########

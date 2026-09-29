@@ -539,7 +539,9 @@ public class App {
      *   beta    = target.parent() (raw, as the static; may be the <body> wrapper)
      *   gamma   = ElementExtension.getAncestor  (grandparent, unless it is html/body/head/#root)
      *   delta   = ElementExtension.getSibling   (next, else previous element sibling)
-     *   epsilon = ElementExtension.getContainingComponent (nearest custom-component ancestor, often null per-file)
+     *   epsilon = ElementExtension.getContainingComponent (nearest custom-component ancestor in the same
+     *             template, e.g. content projected into <app-panel>). Until 21/09/2026 this role was
+     *             skipped here and never found by the helper (pattern bug); both fixed that day.
      */
     private Map<String, Element> resolveRoles(Document doc, Element target) {
         Map<String, Element> r = new LinkedHashMap<>();
@@ -767,6 +769,19 @@ public class App {
             destMap.put("header.component.html", base + "app.component.html");
             destMap.put("app.component.html", base + "header/header.component.html");
             destMap.put("toast.component.html", base + "header/header.component.html");
+        } else if ("cookbook".equalsIgnoreCase(tf.app)) {
+            // CookBook (recipe book) cross-template map: parent <-> child component, shell <-> header.
+            destMap.put("recipe-list.component.html", base + "recipe-card/recipe-card.component.html");
+            destMap.put("recipe-card.component.html", base + "recipe-list/recipe-list.component.html");
+            destMap.put("recipe-detail.component.html", base + "ingredient-row/ingredient-row.component.html");
+            destMap.put("ingredient-row.component.html", base + "recipe-detail/recipe-detail.component.html");
+            destMap.put("step-item.component.html", base + "recipe-detail/recipe-detail.component.html");
+            destMap.put("recipe-form.component.html", base + "recipe-detail/recipe-detail.component.html");
+            destMap.put("shopping-list.component.html", base + "recipe-list/recipe-list.component.html");
+            destMap.put("stats.component.html", base + "recipe-list/recipe-list.component.html");
+            destMap.put("header.component.html", base + "app.component.html");
+            destMap.put("app.component.html", base + "header/header.component.html");
+            destMap.put("toast.component.html", base + "header/header.component.html");
         } else {
             destMap.put("catalog.component.html", base + "movie-card/movie-card.component.html");
             destMap.put("movie-card.component.html", base + "catalog/catalog.component.html");
@@ -797,7 +812,6 @@ public class App {
             if (target == null) { skipped++; continue; }
             Map<String, Element> roles = resolveRoles(srcOrig, target);
             for (String[] role : ROLES) {
-                if ("epsilon-component".equals(role[0])) continue; // ε never exists per-file
                 Element rel = roles.get(role[0]);
                 if (rel == null || isTemplateBoundary(rel)) continue;
                 int idx = srcOrig.getAllElements().indexOf(rel);
@@ -850,7 +864,6 @@ public class App {
             Set<String> ids = idsByFile.computeIfAbsent(fileSlug, this::loadExistingIdsRole);
 
             for (String[] role : ROLES) {
-                if ("epsilon-component".equals(role[0])) continue;
                 Element rel = roles.get(role[0]);
                 if (rel == null || isTemplateBoundary(rel)) continue;
                 int idx = doc.getAllElements().indexOf(rel);

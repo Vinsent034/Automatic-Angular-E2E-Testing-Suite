@@ -1,0 +1,23 @@
+######### START 1 - a #########
+<span class="matching-label-alt" x-test-matching-label>Matching</span>
+######### END 1 - a #########
+######### START 1 - b #########
+<span x-test-matching-label>Matching</span>
+######### END 1 - b #########
+######### START 1 - c #########
+<span data-class="matching-label" x-test-matching-label>Matching</span>
+######### END 1 - c #########
+######### START 1 - d #########
+<span class="matching-label" x-test-matching-label>Showing</span>
+######### END 1 - d #########
+######### START 1 - e #########
+<span class="matching-label" x-test-matching-label> </span>
+######### END 1 - e #########
+######### START 1 - j #########
+<div class="matching-label" x-test-matching-label>Matching</div>
+######### END 1 - j #########
+######### START 1 - k #########
+<span class="matching-label-wrap">
+  <span class="matching-label" x-test-matching-label>Matching</span>
+</span>
+######### END 1 - k #########

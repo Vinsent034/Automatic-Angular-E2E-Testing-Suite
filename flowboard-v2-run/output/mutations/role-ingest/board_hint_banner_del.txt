@@ -1,0 +1,23 @@
+######### START 1 - a #########
+<span class="badge badge-demo-lg" data-kind="demo" x-test-demo-badge>Board demo</span>
+######### END 1 - a #########
+######### START 1 - b #########
+<span data-kind="demo" x-test-demo-badge>Board demo</span>
+######### END 1 - b #########
+######### START 1 - c #########
+<span data-class="badge badge-demo" data-kind="demo" x-test-demo-badge>Board demo</span>
+######### END 1 - c #########
+######### START 1 - d #########
+<span class="badge badge-demo" data-kind="demo" x-test-demo-badge>Demo mode</span>
+######### END 1 - d #########
+######### START 1 - e #########
+<span class="badge badge-demo" data-kind="demo" x-test-demo-badge> </span>
+######### END 1 - e #########
+######### START 1 - j #########
+<div class="badge badge-demo" data-kind="demo" x-test-demo-badge>Board demo</div>
+######### END 1 - j #########
+######### START 1 - k #########
+<span class="badge-demo-wrap">
+  <span class="badge badge-demo" data-kind="demo" x-test-demo-badge>Board demo</span>
+</span>
+######### END 1 - k #########

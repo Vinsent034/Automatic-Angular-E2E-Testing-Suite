@@ -1,0 +1,36 @@
+######### START 1 - a #########
+<p class="footer-line footer-meta-alt">
+        <span class="footer-label">Version</span>
+        <span class="footer-version" x-test-footer-version>v1.0</span>
+      </p>
+######### END 1 - a #########
+######### START 2 - b #########
+<p>
+        <span class="footer-label">Version</span>
+        <span class="footer-version" x-test-footer-version>v1.0</span>
+      </p>
+######### END 2 - b #########
+######### START 3 - c #########
+<p data-line="footer-line footer-meta">
+        <span class="footer-label">Version</span>
+        <span class="footer-version" x-test-footer-version>v1.0</span>
+      </p>
+######### END 3 - c #########
+######### START 4 - i #########
+<span class="footer-label">Version</span>
+        <span class="footer-version" x-test-footer-version>v1.0</span>
+######### END 4 - i #########
+######### START 5 - j #########
+<div class="footer-line footer-meta">
+        <span class="footer-label">Version</span>
+        <span class="footer-version" x-test-footer-version>v1.0</span>
+      </div>
+######### END 5 - j #########
+######### START 6 - k #########
+<div>
+  <p class="footer-line footer-meta">
+        <span class="footer-label">Version</span>
+        <span class="footer-version" x-test-footer-version>v1.0</span>
+      </p>
+</div>
+######### END 6 - k #########

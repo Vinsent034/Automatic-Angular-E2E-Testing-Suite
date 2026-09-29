@@ -1,0 +1,108 @@
+######### START 1 - a #########
+<app-panel heading="Ingredients list" note="quantities follow the servings">
+        <div class="servings-box">
+          <label class="servings-field" for="servings-input">
+            <span class="field-label">Servings</span>
+            <input id="servings-input" class="input servings-input" type="number" min="1" max="24" [value]="store.servingsShown()" (change)="onServings($event)" x-test-servings>
+            <small class="servings-hint">recipe default: {{ recipe.servings }}</small>
+          </label>
+        </div>
+        <ul class="ingredient-list" aria-label="Ingredients">
+          @for (ingredient of recipe.ingredients; track ingredient.id) {
+            <li class="ingredient-slot">
+              <app-ingredient-row [ingredient]="ingredient"></app-ingredient-row>
+            </li>
+          }
+        </ul>
+      </app-panel>
+######### END 1 - a #########
+######### START 2 - b #########
+<app-panel heading="Ingredients">
+        <div class="servings-box">
+          <label class="servings-field" for="servings-input">
+            <span class="field-label">Servings</span>
+            <input id="servings-input" class="input servings-input" type="number" min="1" max="24" [value]="store.servingsShown()" (change)="onServings($event)" x-test-servings>
+            <small class="servings-hint">recipe default: {{ recipe.servings }}</small>
+          </label>
+        </div>
+        <ul class="ingredient-list" aria-label="Ingredients">
+          @for (ingredient of recipe.ingredients; track ingredient.id) {
+            <li class="ingredient-slot">
+              <app-ingredient-row [ingredient]="ingredient"></app-ingredient-row>
+            </li>
+          }
+        </ul>
+      </app-panel>
+######### END 2 - b #########
+######### START 3 - c #########
+<app-panel data-heading="Ingredients" note="quantities follow the servings">
+        <div class="servings-box">
+          <label class="servings-field" for="servings-input">
+            <span class="field-label">Servings</span>
+            <input id="servings-input" class="input servings-input" type="number" min="1" max="24" [value]="store.servingsShown()" (change)="onServings($event)" x-test-servings>
+            <small class="servings-hint">recipe default: {{ recipe.servings }}</small>
+          </label>
+        </div>
+        <ul class="ingredient-list" aria-label="Ingredients">
+          @for (ingredient of recipe.ingredients; track ingredient.id) {
+            <li class="ingredient-slot">
+              <app-ingredient-row [ingredient]="ingredient"></app-ingredient-row>
+            </li>
+          }
+        </ul>
+      </app-panel>
+######### END 3 - c #########
+######### START 4 - i #########
+<div class="servings-box">
+          <label class="servings-field" for="servings-input">
+            <span class="field-label">Servings</span>
+            <input id="servings-input" class="input servings-input" type="number" min="1" max="24" [value]="store.servingsShown()" (change)="onServings($event)" x-test-servings>
+            <small class="servings-hint">recipe default: {{ recipe.servings }}</small>
+          </label>
+        </div>
+        <ul class="ingredient-list" aria-label="Ingredients">
+          @for (ingredient of recipe.ingredients; track ingredient.id) {
+            <li class="ingredient-slot">
+              <app-ingredient-row [ingredient]="ingredient"></app-ingredient-row>
+            </li>
+          }
+        </ul>
+######### END 4 - i #########
+######### START 5 - j #########
+<section heading="Ingredients" note="quantities follow the servings">
+        <div class="servings-box">
+          <label class="servings-field" for="servings-input">
+            <span class="field-label">Servings</span>
+            <input id="servings-input" class="input servings-input" type="number" min="1" max="24" [value]="store.servingsShown()" (change)="onServings($event)" x-test-servings>
+            <small class="servings-hint">recipe default: {{ recipe.servings }}</small>
+          </label>
+        </div>
+        <ul class="ingredient-list" aria-label="Ingredients">
+          @for (ingredient of recipe.ingredients; track ingredient.id) {
+            <li class="ingredient-slot">
+              <app-ingredient-row [ingredient]="ingredient"></app-ingredient-row>
+            </li>
+          }
+        </ul>
+      </section>
+######### END 5 - j #########
+######### START 6 - k #########
+<div>
+  <app-panel heading="Ingredients" note="quantities follow the servings">
+        <div class="servings-box">
+          <label class="servings-field" for="servings-input">
+            <span class="field-label">Servings</span>
+            <input id="servings-input" class="input servings-input" type="number" min="1" max="24" [value]="store.servingsShown()" (change)="onServings($event)" x-test-servings>
+            <small class="servings-hint">recipe default: {{ recipe.servings }}</small>
+          </label>
+        </div>
+        <ul class="ingredient-list" aria-label="Ingredients">
+          @for (ingredient of recipe.ingredients; track ingredient.id) {
+            <li class="ingredient-slot">
+              <app-ingredient-row [ingredient]="ingredient"></app-ingredient-row>
+            </li>
+          }
+        </ul>
+      </app-panel>
+</div>
+######### END 6 - k #########

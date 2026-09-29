@@ -1,0 +1,1904 @@
+Nome,Elemento,Mutazione,Stato,Errore
+catalog-result-count,alpha,a,KO,Target element has no attributes
+catalog-result-count,delta,a,KO,Target element has no attributes
+catalog-result-count,beta,a,KO,Target element has no attributes
+catalog-result-count,alpha,b,KO,Target element has no valid candidate attributes
+catalog-result-count,delta,b,KO,Target element has no valid candidate attributes
+catalog-result-count,beta,b,KO,Target element has no valid candidate attributes
+catalog-result-count,alpha,c,KO,Target element has no id attribute
+catalog-result-count,delta,c,KO,Target element has no id attribute
+catalog-result-count,beta,c,KO,Target element has no id attribute
+catalog-result-count,alpha,d,OK,
+catalog-result-count,delta,d,OK,
+catalog-result-count,beta,d,OK,
+catalog-result-count,alpha,e,OK,
+catalog-result-count,delta,e,OK,
+catalog-result-count,beta,e,KO,Target element text content is empty
+catalog-result-count,alpha,f,OK,
+catalog-result-count,delta,f,OK,
+catalog-result-count,beta,f,OK,
+catalog-result-count,alpha,g,OK,
+catalog-result-count,delta,g,OK,
+catalog-result-count,beta,g,OK,
+catalog-result-count,alpha,h,OK,
+catalog-result-count,delta,h,OK,
+catalog-result-count,beta,h,OK,
+catalog-result-count,alpha,i,OK,
+catalog-result-count,delta,i,OK,
+catalog-result-count,beta,i,OK,
+catalog-result-count,alpha,j,OK,
+catalog-result-count,delta,j,OK,
+catalog-result-count,beta,j,OK,
+catalog-result-count,alpha,k,OK,
+catalog-result-count,delta,k,OK,
+catalog-result-count,beta,k,OK,
+catalog-search-input,alpha,a,OK,
+catalog-search-input,beta,a,KO,Target element has no attributes
+catalog-search-input,gamma,a,KO,Target element has no attributes
+catalog-search-input,alpha,b,OK,
+catalog-search-input,beta,b,KO,Target element has no valid candidate attributes
+catalog-search-input,gamma,b,KO,Target element has no valid candidate attributes
+catalog-search-input,alpha,c,KO,Target element has no id attribute
+catalog-search-input,beta,c,KO,Target element has no id attribute
+catalog-search-input,gamma,c,KO,Target element has no id attribute
+catalog-search-input,alpha,d,KO,Target element has no child nodes
+catalog-search-input,beta,d,KO,Target element text content is empty
+catalog-search-input,gamma,d,KO,Target element text content is empty
+catalog-search-input,alpha,e,KO,Target element has no child nodes
+catalog-search-input,beta,e,KO,Target element text content is empty
+catalog-search-input,gamma,e,KO,Target element text content is empty
+catalog-search-input,alpha,f,KO,The parent is null or empty
+catalog-search-input,beta,f,OK,
+catalog-search-input,gamma,f,OK,
+catalog-search-input,alpha,g,OK,
+catalog-search-input,beta,g,OK,
+catalog-search-input,gamma,g,OK,
+catalog-search-input,alpha,h,OK,
+catalog-search-input,beta,h,OK,
+catalog-search-input,gamma,h,OK,
+catalog-search-input,alpha,i,OK,
+catalog-search-input,beta,i,OK,
+catalog-search-input,gamma,i,OK,
+catalog-search-input,alpha,j,OK,
+catalog-search-input,beta,j,OK,
+catalog-search-input,gamma,j,OK,
+catalog-search-input,alpha,k,OK,
+catalog-search-input,beta,k,OK,
+catalog-search-input,gamma,k,OK,
+catalog-filter-genre,alpha,a,OK,
+catalog-filter-genre,delta,a,OK,
+catalog-filter-genre,beta,a,KO,Target element has no attributes
+catalog-filter-genre,gamma,a,KO,Target element has no attributes
+catalog-filter-genre,alpha,b,OK,
+catalog-filter-genre,delta,b,OK,
+catalog-filter-genre,beta,b,KO,Target element has no valid candidate attributes
+catalog-filter-genre,gamma,b,KO,Target element has no valid candidate attributes
+catalog-filter-genre,alpha,c,KO,Target element has no id attribute
+catalog-filter-genre,delta,c,KO,Target element has no id attribute
+catalog-filter-genre,beta,c,KO,Target element has no id attribute
+catalog-filter-genre,gamma,c,KO,Target element has no id attribute
+catalog-filter-genre,alpha,d,OK,
+catalog-filter-genre,delta,d,KO,Target element text content is empty
+catalog-filter-genre,beta,d,KO,Target element text content is empty
+catalog-filter-genre,gamma,d,KO,Target element text content is empty
+catalog-filter-genre,alpha,e,KO,Target element text content is empty
+catalog-filter-genre,delta,e,KO,Target element text content is empty
+catalog-filter-genre,beta,e,KO,Target element text content is empty
+catalog-filter-genre,gamma,e,KO,Target element text content is empty
+catalog-filter-genre,alpha,f,OK,
+catalog-filter-genre,delta,f,OK,
+catalog-filter-genre,beta,f,OK,
+catalog-filter-genre,gamma,f,OK,
+catalog-filter-genre,alpha,g,OK,
+catalog-filter-genre,delta,g,OK,
+catalog-filter-genre,beta,g,OK,
+catalog-filter-genre,gamma,g,OK,
+catalog-filter-genre,alpha,h,OK,
+catalog-filter-genre,delta,h,OK,
+catalog-filter-genre,beta,h,OK,
+catalog-filter-genre,gamma,h,OK,
+catalog-filter-genre,alpha,i,OK,
+catalog-filter-genre,delta,i,OK,
+catalog-filter-genre,beta,i,OK,
+catalog-filter-genre,gamma,i,OK,
+catalog-filter-genre,alpha,j,OK,
+catalog-filter-genre,delta,j,OK,
+catalog-filter-genre,beta,j,OK,
+catalog-filter-genre,gamma,j,OK,
+catalog-filter-genre,alpha,k,OK,
+catalog-filter-genre,delta,k,OK,
+catalog-filter-genre,beta,k,OK,
+catalog-filter-genre,gamma,k,OK,
+catalog-sort,alpha,a,OK,
+catalog-sort,delta,a,OK,
+catalog-sort,beta,a,KO,Target element has no attributes
+catalog-sort,gamma,a,KO,Target element has no attributes
+catalog-sort,alpha,b,OK,
+catalog-sort,delta,b,OK,
+catalog-sort,beta,b,KO,Target element has no valid candidate attributes
+catalog-sort,gamma,b,KO,Target element has no valid candidate attributes
+catalog-sort,alpha,c,KO,Target element has no id attribute
+catalog-sort,delta,c,KO,Target element has no id attribute
+catalog-sort,beta,c,KO,Target element has no id attribute
+catalog-sort,gamma,c,KO,Target element has no id attribute
+catalog-sort,alpha,d,KO,Target element text content is empty
+catalog-sort,delta,d,OK,
+catalog-sort,beta,d,KO,Target element text content is empty
+catalog-sort,gamma,d,KO,Target element text content is empty
+catalog-sort,alpha,e,KO,Target element text content is empty
+catalog-sort,delta,e,OK,
+catalog-sort,beta,e,KO,Target element text content is empty
+catalog-sort,gamma,e,OK,
+catalog-sort,alpha,f,OK,
+catalog-sort,delta,f,OK,
+catalog-sort,beta,f,OK,
+catalog-sort,gamma,f,OK,
+catalog-sort,alpha,g,OK,
+catalog-sort,delta,g,OK,
+catalog-sort,beta,g,OK,
+catalog-sort,gamma,g,OK,
+catalog-sort,alpha,h,OK,
+catalog-sort,delta,h,OK,
+catalog-sort,beta,h,OK,
+catalog-sort,gamma,h,OK,
+catalog-sort,alpha,i,OK,
+catalog-sort,delta,i,OK,
+catalog-sort,beta,i,OK,
+catalog-sort,gamma,i,OK,
+catalog-sort,alpha,j,OK,
+catalog-sort,delta,j,OK,
+catalog-sort,beta,j,OK,
+catalog-sort,gamma,j,OK,
+catalog-sort,alpha,k,OK,
+catalog-sort,delta,k,OK,
+catalog-sort,beta,k,OK,
+catalog-sort,gamma,k,OK,
+catalog-view-list,alpha,a,OK,
+catalog-view-list,delta,a,OK,
+catalog-view-list,beta,a,OK,
+catalog-view-list,gamma,a,KO,Target element has no attributes
+catalog-view-list,alpha,b,OK,
+catalog-view-list,delta,b,OK,
+catalog-view-list,beta,b,OK,
+catalog-view-list,gamma,b,KO,Target element has no valid candidate attributes
+catalog-view-list,alpha,c,KO,Target element has no id attribute
+catalog-view-list,delta,c,KO,Target element has no id attribute
+catalog-view-list,beta,c,KO,Target element has no id attribute
+catalog-view-list,gamma,c,KO,Target element has no id attribute
+catalog-view-list,alpha,d,OK,
+catalog-view-list,delta,d,OK,
+catalog-view-list,beta,d,KO,Target element text content is empty
+catalog-view-list,gamma,d,KO,Target element text content is empty
+catalog-view-list,alpha,e,OK,
+catalog-view-list,delta,e,OK,
+catalog-view-list,beta,e,KO,Target element text content is empty
+catalog-view-list,gamma,e,KO,Target element text content is empty
+catalog-view-list,alpha,f,OK,
+catalog-view-list,delta,f,OK,
+catalog-view-list,beta,f,OK,
+catalog-view-list,gamma,f,OK,
+catalog-view-list,alpha,g,OK,
+catalog-view-list,delta,g,OK,
+catalog-view-list,beta,g,OK,
+catalog-view-list,gamma,g,OK,
+catalog-view-list,alpha,h,OK,
+catalog-view-list,delta,h,OK,
+catalog-view-list,beta,h,OK,
+catalog-view-list,gamma,h,OK,
+catalog-view-list,alpha,i,OK,
+catalog-view-list,delta,i,OK,
+catalog-view-list,beta,i,OK,
+catalog-view-list,gamma,i,OK,
+catalog-view-list,alpha,j,OK,
+catalog-view-list,delta,j,OK,
+catalog-view-list,beta,j,OK,
+catalog-view-list,gamma,j,OK,
+catalog-view-list,alpha,k,OK,
+catalog-view-list,delta,k,OK,
+catalog-view-list,beta,k,OK,
+catalog-view-list,gamma,k,OK,
+card-title,alpha,a,KO,Target element has no attributes
+card-title,beta,a,OK,
+card-title,gamma,a,KO,Target element has no attributes
+card-title,alpha,b,KO,Target element has no valid candidate attributes
+card-title,beta,b,OK,
+card-title,gamma,b,KO,Target element has no valid candidate attributes
+card-title,alpha,c,KO,Target element has no id attribute
+card-title,beta,c,KO,Target element has no id attribute
+card-title,gamma,c,KO,Target element has no id attribute
+card-title,alpha,d,OK,
+card-title,beta,d,KO,Target element text content is empty
+card-title,gamma,d,KO,Target element text content is empty
+card-title,alpha,e,OK,
+card-title,beta,e,KO,Target element text content is empty
+card-title,gamma,e,KO,Target element text content is empty
+card-title,alpha,f,KO,The parent is null or empty
+card-title,beta,f,OK,
+card-title,gamma,f,OK,
+card-title,alpha,g,OK,
+card-title,beta,g,OK,
+card-title,gamma,g,OK,
+card-title,alpha,h,OK,
+card-title,beta,h,OK,
+card-title,gamma,h,OK,
+card-title,alpha,i,OK,
+card-title,beta,i,OK,
+card-title,gamma,i,OK,
+card-title,alpha,j,OK,
+card-title,beta,j,OK,
+card-title,gamma,j,OK,
+card-title,alpha,k,OK,
+card-title,beta,k,OK,
+card-title,gamma,k,OK,
+detail-meta,epsilon,a,OK,
+detail-meta,alpha,a,KO,Target element has no attributes
+detail-meta,delta,a,KO,Target element has no attributes
+detail-meta,beta,a,KO,Target element has no attributes
+detail-meta,gamma,a,KO,Target element has no attributes
+detail-meta,epsilon,b,OK,
+detail-meta,alpha,b,KO,Target element has no valid candidate attributes
+detail-meta,delta,b,KO,Target element has no valid candidate attributes
+detail-meta,beta,b,KO,Target element has no valid candidate attributes
+detail-meta,gamma,b,KO,Target element has no valid candidate attributes
+detail-meta,epsilon,c,KO,Target element has no id attribute
+detail-meta,alpha,c,KO,Target element has no id attribute
+detail-meta,delta,c,KO,Target element has no id attribute
+detail-meta,beta,c,KO,Target element has no id attribute
+detail-meta,gamma,c,KO,Target element has no id attribute
+detail-meta,epsilon,d,KO,Target element text content is empty
+detail-meta,alpha,d,OK,
+detail-meta,delta,d,OK,
+detail-meta,beta,d,KO,Target element text content is empty
+detail-meta,gamma,d,KO,Target element text content is empty
+detail-meta,epsilon,e,KO,Target element text content is empty
+detail-meta,alpha,e,OK,
+detail-meta,delta,e,OK,
+detail-meta,beta,e,KO,Target element text content is empty
+detail-meta,gamma,e,KO,Target element text content is empty
+detail-meta,epsilon,f,OK,
+detail-meta,alpha,f,OK,
+detail-meta,delta,f,OK,
+detail-meta,beta,f,OK,
+detail-meta,gamma,f,KO,The parent is null or empty
+detail-meta,epsilon,g,OK,
+detail-meta,alpha,g,OK,
+detail-meta,delta,g,OK,
+detail-meta,beta,g,OK,
+detail-meta,gamma,g,OK,
+detail-meta,epsilon,h,OK,
+detail-meta,alpha,h,OK,
+detail-meta,delta,h,OK,
+detail-meta,beta,h,OK,
+detail-meta,gamma,h,OK,
+detail-meta,epsilon,i,OK,
+detail-meta,alpha,i,OK,
+detail-meta,delta,i,OK,
+detail-meta,beta,i,OK,
+detail-meta,gamma,i,OK,
+detail-meta,epsilon,j,OK,
+detail-meta,alpha,j,OK,
+detail-meta,delta,j,OK,
+detail-meta,beta,j,OK,
+detail-meta,gamma,j,OK,
+detail-meta,epsilon,k,OK,
+detail-meta,alpha,k,OK,
+detail-meta,delta,k,OK,
+detail-meta,beta,k,OK,
+detail-meta,gamma,k,OK,
+cast-row,alpha,a,KO,Target element has no attributes
+cast-row,beta,a,KO,Target element has no attributes
+cast-row,alpha,b,KO,Target element has no valid candidate attributes
+cast-row,beta,b,KO,Target element has no attributes
+cast-row,alpha,c,KO,Target element has no id attribute
+cast-row,beta,c,KO,Target element has no id attribute
+cast-row,alpha,d,KO,Target element text content is empty
+cast-row,beta,d,KO,Target element text content is empty
+cast-row,alpha,e,KO,Target element text content is empty
+cast-row,beta,e,KO,Target element text content is empty
+cast-row,alpha,f,KO,The parent is null or empty
+cast-row,beta,f,KO,Target element with body tag cannot be mutated
+cast-row,alpha,g,OK,
+cast-row,beta,g,OK,
+cast-row,alpha,h,OK,
+cast-row,beta,h,OK,
+cast-row,alpha,i,OK,
+cast-row,beta,i,KO,Target element with body tag cannot be mutated
+cast-row,alpha,j,OK,
+cast-row,beta,j,KO,Target element with body tag cannot be mutated
+cast-row,alpha,k,OK,
+cast-row,beta,k,KO,Target element with body tag cannot be mutated
+detail-delete-button,epsilon,a,OK,
+detail-delete-button,alpha,a,OK,
+detail-delete-button,delta,a,OK,
+detail-delete-button,beta,a,KO,Target element has no attributes
+detail-delete-button,gamma,a,KO,Target element has no attributes
+detail-delete-button,epsilon,b,OK,
+detail-delete-button,alpha,b,OK,
+detail-delete-button,delta,b,OK,
+detail-delete-button,beta,b,KO,Target element has no valid candidate attributes
+detail-delete-button,gamma,b,KO,Target element has no valid candidate attributes
+detail-delete-button,epsilon,c,KO,Target element has no id attribute
+detail-delete-button,alpha,c,KO,Target element has no id attribute
+detail-delete-button,delta,c,KO,Target element has no id attribute
+detail-delete-button,beta,c,KO,Target element has no id attribute
+detail-delete-button,gamma,c,KO,Target element has no id attribute
+detail-delete-button,epsilon,d,KO,Target element text content is empty
+detail-delete-button,alpha,d,OK,
+detail-delete-button,delta,d,OK,
+detail-delete-button,beta,d,KO,Target element text content is empty
+detail-delete-button,gamma,d,KO,Target element text content is empty
+detail-delete-button,epsilon,e,KO,Target element text content is empty
+detail-delete-button,alpha,e,OK,
+detail-delete-button,delta,e,OK,
+detail-delete-button,beta,e,KO,Target element text content is empty
+detail-delete-button,gamma,e,KO,Target element text content is empty
+detail-delete-button,epsilon,f,OK,
+detail-delete-button,alpha,f,OK,
+detail-delete-button,delta,f,OK,
+detail-delete-button,beta,f,OK,
+detail-delete-button,gamma,f,OK,
+detail-delete-button,epsilon,g,OK,
+detail-delete-button,alpha,g,OK,
+detail-delete-button,delta,g,OK,
+detail-delete-button,beta,g,OK,
+detail-delete-button,gamma,g,OK,
+detail-delete-button,epsilon,h,OK,
+detail-delete-button,alpha,h,OK,
+detail-delete-button,delta,h,OK,
+detail-delete-button,beta,h,OK,
+detail-delete-button,gamma,h,OK,
+detail-delete-button,epsilon,i,OK,
+detail-delete-button,alpha,i,OK,
+detail-delete-button,delta,i,OK,
+detail-delete-button,beta,i,OK,
+detail-delete-button,gamma,i,OK,
+detail-delete-button,epsilon,j,OK,
+detail-delete-button,alpha,j,OK,
+detail-delete-button,delta,j,OK,
+detail-delete-button,beta,j,OK,
+detail-delete-button,gamma,j,OK,
+detail-delete-button,epsilon,k,OK,
+detail-delete-button,alpha,k,OK,
+detail-delete-button,delta,k,OK,
+detail-delete-button,beta,k,OK,
+detail-delete-button,gamma,k,OK,
+detail-not-found,alpha,a,KO,Target element has no attributes
+detail-not-found,delta,a,KO,Target element has no attributes
+detail-not-found,beta,a,KO,Target element has no attributes
+detail-not-found,alpha,b,KO,Target element has no valid candidate attributes
+detail-not-found,delta,b,KO,Target element has no valid candidate attributes
+detail-not-found,beta,b,KO,Target element has no attributes
+detail-not-found,alpha,c,KO,Target element has no id attribute
+detail-not-found,delta,c,KO,Target element has no id attribute
+detail-not-found,beta,c,KO,Target element has no id attribute
+detail-not-found,alpha,d,OK,
+detail-not-found,delta,d,KO,Target element text content is empty
+detail-not-found,beta,d,OK,
+detail-not-found,alpha,e,KO,Target element text content is empty
+detail-not-found,delta,e,KO,Target element text content is empty
+detail-not-found,beta,e,OK,
+detail-not-found,alpha,f,OK,
+detail-not-found,delta,f,OK,
+detail-not-found,beta,f,KO,Target element with body tag cannot be mutated
+detail-not-found,alpha,g,OK,
+detail-not-found,delta,g,OK,
+detail-not-found,beta,g,OK,
+detail-not-found,alpha,h,OK,
+detail-not-found,delta,h,OK,
+detail-not-found,beta,h,OK,
+detail-not-found,alpha,i,OK,
+detail-not-found,delta,i,OK,
+detail-not-found,beta,i,KO,Target element with body tag cannot be mutated
+detail-not-found,alpha,j,OK,
+detail-not-found,delta,j,OK,
+detail-not-found,beta,j,KO,Target element with body tag cannot be mutated
+detail-not-found,alpha,k,OK,
+detail-not-found,delta,k,OK,
+detail-not-found,beta,k,KO,Target element with body tag cannot be mutated
+catalog-favorites-filter,alpha,a,OK,
+catalog-favorites-filter,delta,a,OK,
+catalog-favorites-filter,beta,a,KO,Target element has no attributes
+catalog-favorites-filter,gamma,a,KO,Target element has no attributes
+catalog-favorites-filter,alpha,b,OK,
+catalog-favorites-filter,delta,b,OK,
+catalog-favorites-filter,beta,b,KO,Target element has no valid candidate attributes
+catalog-favorites-filter,gamma,b,KO,Target element has no valid candidate attributes
+catalog-favorites-filter,alpha,c,KO,Target element has no id attribute
+catalog-favorites-filter,delta,c,KO,Target element has no id attribute
+catalog-favorites-filter,beta,c,KO,Target element has no id attribute
+catalog-favorites-filter,gamma,c,KO,Target element has no id attribute
+catalog-favorites-filter,alpha,d,OK,
+catalog-favorites-filter,delta,d,KO,Target element text content is empty
+catalog-favorites-filter,beta,d,KO,Target element text content is empty
+catalog-favorites-filter,gamma,d,OK,
+catalog-favorites-filter,alpha,e,OK,
+catalog-favorites-filter,delta,e,KO,Target element text content is empty
+catalog-favorites-filter,beta,e,KO,Target element text content is empty
+catalog-favorites-filter,gamma,e,OK,
+catalog-favorites-filter,alpha,f,OK,
+catalog-favorites-filter,delta,f,OK,
+catalog-favorites-filter,beta,f,OK,
+catalog-favorites-filter,gamma,f,OK,
+catalog-favorites-filter,alpha,g,OK,
+catalog-favorites-filter,delta,g,OK,
+catalog-favorites-filter,beta,g,OK,
+catalog-favorites-filter,gamma,g,OK,
+catalog-favorites-filter,alpha,h,OK,
+catalog-favorites-filter,delta,h,OK,
+catalog-favorites-filter,beta,h,OK,
+catalog-favorites-filter,gamma,h,OK,
+catalog-favorites-filter,alpha,i,OK,
+catalog-favorites-filter,delta,i,OK,
+catalog-favorites-filter,beta,i,OK,
+catalog-favorites-filter,gamma,i,OK,
+catalog-favorites-filter,alpha,j,OK,
+catalog-favorites-filter,delta,j,OK,
+catalog-favorites-filter,beta,j,OK,
+catalog-favorites-filter,gamma,j,OK,
+catalog-favorites-filter,alpha,k,OK,
+catalog-favorites-filter,delta,k,OK,
+catalog-favorites-filter,beta,k,OK,
+catalog-favorites-filter,gamma,k,OK,
+card-favorite-toggle,alpha,a,OK,
+card-favorite-toggle,delta,a,KO,Target element has no attributes
+card-favorite-toggle,beta,a,OK,
+card-favorite-toggle,alpha,b,OK,
+card-favorite-toggle,delta,b,KO,Target element has no valid candidate attributes
+card-favorite-toggle,beta,b,OK,
+card-favorite-toggle,alpha,c,KO,Target element has no id attribute
+card-favorite-toggle,delta,c,KO,Target element has no id attribute
+card-favorite-toggle,beta,c,KO,Target element has no id attribute
+card-favorite-toggle,alpha,d,OK,
+card-favorite-toggle,delta,d,KO,Target element text content is empty
+card-favorite-toggle,beta,d,KO,Target element text content is empty
+card-favorite-toggle,alpha,e,OK,
+card-favorite-toggle,delta,e,KO,Target element text content is empty
+card-favorite-toggle,beta,e,KO,Target element text content is empty
+card-favorite-toggle,alpha,f,OK,
+card-favorite-toggle,delta,f,OK,
+card-favorite-toggle,beta,f,KO,The parent is null or empty
+card-favorite-toggle,alpha,g,OK,
+card-favorite-toggle,delta,g,OK,
+card-favorite-toggle,beta,g,OK,
+card-favorite-toggle,alpha,h,OK,
+card-favorite-toggle,delta,h,OK,
+card-favorite-toggle,beta,h,OK,
+card-favorite-toggle,alpha,i,OK,
+card-favorite-toggle,delta,i,OK,
+card-favorite-toggle,beta,i,OK,
+card-favorite-toggle,alpha,j,OK,
+card-favorite-toggle,delta,j,OK,
+card-favorite-toggle,beta,j,OK,
+card-favorite-toggle,alpha,k,OK,
+card-favorite-toggle,delta,k,OK,
+card-favorite-toggle,beta,k,OK,
+detail-favorite,epsilon,a,OK,
+detail-favorite,alpha,a,OK,
+detail-favorite,delta,a,OK,
+detail-favorite,beta,a,KO,Target element has no attributes
+detail-favorite,gamma,a,KO,Target element has no attributes
+detail-favorite,epsilon,b,OK,
+detail-favorite,alpha,b,OK,
+detail-favorite,delta,b,OK,
+detail-favorite,beta,b,KO,Target element has no valid candidate attributes
+detail-favorite,gamma,b,KO,Target element has no valid candidate attributes
+detail-favorite,epsilon,c,KO,Target element has no id attribute
+detail-favorite,alpha,c,KO,Target element has no id attribute
+detail-favorite,delta,c,KO,Target element has no id attribute
+detail-favorite,beta,c,KO,Target element has no id attribute
+detail-favorite,gamma,c,KO,Target element has no id attribute
+detail-favorite,epsilon,d,KO,Target element text content is empty
+detail-favorite,alpha,d,OK,
+detail-favorite,delta,d,OK,
+detail-favorite,beta,d,KO,Target element text content is empty
+detail-favorite,gamma,d,KO,Target element text content is empty
+detail-favorite,epsilon,e,KO,Target element text content is empty
+detail-favorite,alpha,e,OK,
+detail-favorite,delta,e,OK,
+detail-favorite,beta,e,KO,Target element text content is empty
+detail-favorite,gamma,e,KO,Target element text content is empty
+detail-favorite,epsilon,f,OK,
+detail-favorite,alpha,f,OK,
+detail-favorite,delta,f,OK,
+detail-favorite,beta,f,OK,
+detail-favorite,gamma,f,OK,
+detail-favorite,epsilon,g,OK,
+detail-favorite,alpha,g,OK,
+detail-favorite,delta,g,OK,
+detail-favorite,beta,g,OK,
+detail-favorite,gamma,g,OK,
+detail-favorite,epsilon,h,OK,
+detail-favorite,alpha,h,OK,
+detail-favorite,delta,h,OK,
+detail-favorite,beta,h,OK,
+detail-favorite,gamma,h,OK,
+detail-favorite,epsilon,i,OK,
+detail-favorite,alpha,i,OK,
+detail-favorite,delta,i,OK,
+detail-favorite,beta,i,OK,
+detail-favorite,gamma,i,OK,
+detail-favorite,epsilon,j,OK,
+detail-favorite,alpha,j,OK,
+detail-favorite,delta,j,OK,
+detail-favorite,beta,j,OK,
+detail-favorite,gamma,j,OK,
+detail-favorite,epsilon,k,OK,
+detail-favorite,alpha,k,OK,
+detail-favorite,delta,k,OK,
+detail-favorite,beta,k,OK,
+detail-favorite,gamma,k,OK,
+review-item,alpha,a,KO,Target element has no attributes
+review-item,beta,a,KO,Target element has no attributes
+review-item,gamma,a,KO,Target element has no attributes
+review-item,alpha,b,KO,Target element has no valid candidate attributes
+review-item,beta,b,KO,Target element has no valid candidate attributes
+review-item,gamma,b,KO,Target element has no valid candidate attributes
+review-item,alpha,c,KO,Target element has no id attribute
+review-item,beta,c,KO,Target element has no id attribute
+review-item,gamma,c,KO,Target element has no id attribute
+review-item,alpha,d,KO,Target element text content is empty
+review-item,beta,d,OK,
+review-item,gamma,d,KO,Target element text content is empty
+review-item,alpha,e,KO,Target element text content is empty
+review-item,beta,e,OK,
+review-item,gamma,e,KO,Target element text content is empty
+review-item,alpha,f,KO,The parent is null or empty
+review-item,beta,f,OK,
+review-item,gamma,f,KO,The parent is null or empty
+review-item,alpha,g,OK,
+review-item,beta,g,OK,
+review-item,gamma,g,OK,
+review-item,alpha,h,OK,
+review-item,beta,h,OK,
+review-item,gamma,h,OK,
+review-item,alpha,i,OK,
+review-item,beta,i,OK,
+review-item,gamma,i,OK,
+review-item,alpha,j,OK,
+review-item,beta,j,OK,
+review-item,gamma,j,OK,
+review-item,alpha,k,OK,
+review-item,beta,k,OK,
+review-item,gamma,k,OK,
+review-field-author,alpha,a,OK,
+review-field-author,delta,a,KO,Target element has no attributes
+review-field-author,beta,a,KO,Target element has no attributes
+review-field-author,gamma,a,KO,Target element has no attributes
+review-field-author,alpha,b,OK,
+review-field-author,delta,b,KO,Target element has no valid candidate attributes
+review-field-author,beta,b,KO,Target element has no valid candidate attributes
+review-field-author,gamma,b,KO,Target element has no valid candidate attributes
+review-field-author,alpha,c,OK,
+review-field-author,delta,c,KO,Target element has no id attribute
+review-field-author,beta,c,KO,Target element has no id attribute
+review-field-author,gamma,c,KO,Target element has no id attribute
+review-field-author,alpha,d,KO,Target element has no child nodes
+review-field-author,delta,d,OK,
+review-field-author,beta,d,KO,Target element text content is empty
+review-field-author,gamma,d,KO,Target element text content is empty
+review-field-author,alpha,e,KO,Target element has no child nodes
+review-field-author,delta,e,OK,
+review-field-author,beta,e,KO,Target element text content is empty
+review-field-author,gamma,e,KO,Target element text content is empty
+review-field-author,alpha,f,OK,
+review-field-author,delta,f,OK,
+review-field-author,beta,f,OK,
+review-field-author,gamma,f,OK,
+review-field-author,alpha,g,OK,
+review-field-author,delta,g,OK,
+review-field-author,beta,g,OK,
+review-field-author,gamma,g,OK,
+review-field-author,alpha,h,OK,
+review-field-author,delta,h,OK,
+review-field-author,beta,h,OK,
+review-field-author,gamma,h,OK,
+review-field-author,alpha,i,OK,
+review-field-author,delta,i,OK,
+review-field-author,beta,i,OK,
+review-field-author,gamma,i,OK,
+review-field-author,alpha,j,OK,
+review-field-author,delta,j,OK,
+review-field-author,beta,j,OK,
+review-field-author,gamma,j,OK,
+review-field-author,alpha,k,OK,
+review-field-author,delta,k,OK,
+review-field-author,beta,k,OK,
+review-field-author,gamma,k,OK,
+review-submit,alpha,a,OK,
+review-submit,beta,a,KO,Target element has no attributes
+review-submit,gamma,a,OK,
+review-submit,alpha,b,OK,
+review-submit,beta,b,KO,Target element has no valid candidate attributes
+review-submit,gamma,b,OK,
+review-submit,alpha,c,KO,Target element has no id attribute
+review-submit,beta,c,KO,Target element has no id attribute
+review-submit,gamma,c,KO,Target element has no id attribute
+review-submit,alpha,d,OK,
+review-submit,beta,d,KO,Target element text content is empty
+review-submit,gamma,d,KO,Target element text content is empty
+review-submit,alpha,e,OK,
+review-submit,beta,e,KO,Target element text content is empty
+review-submit,gamma,e,KO,Target element text content is empty
+review-submit,alpha,f,KO,The parent is null or empty
+review-submit,beta,f,OK,
+review-submit,gamma,f,OK,
+review-submit,alpha,g,OK,
+review-submit,beta,g,OK,
+review-submit,gamma,g,OK,
+review-submit,alpha,h,OK,
+review-submit,beta,h,OK,
+review-submit,gamma,h,OK,
+review-submit,alpha,i,OK,
+review-submit,beta,i,OK,
+review-submit,gamma,i,OK,
+review-submit,alpha,j,OK,
+review-submit,beta,j,OK,
+review-submit,gamma,j,OK,
+review-submit,alpha,k,OK,
+review-submit,beta,k,OK,
+review-submit,gamma,k,OK,
+review-remove,alpha,a,OK,
+review-remove,delta,a,KO,Target element has no attributes
+review-remove,beta,a,KO,Target element has no attributes
+review-remove,gamma,a,KO,Target element has no attributes
+review-remove,alpha,b,OK,
+review-remove,delta,b,KO,Target element has no valid candidate attributes
+review-remove,beta,b,KO,Target element has no valid candidate attributes
+review-remove,gamma,b,KO,Target element has no valid candidate attributes
+review-remove,alpha,c,KO,Target element has no id attribute
+review-remove,delta,c,KO,Target element has no id attribute
+review-remove,beta,c,KO,Target element has no id attribute
+review-remove,gamma,c,KO,Target element has no id attribute
+review-remove,alpha,d,OK,
+review-remove,delta,d,OK,
+review-remove,beta,d,KO,Target element text content is empty
+review-remove,gamma,d,KO,Target element text content is empty
+review-remove,alpha,e,OK,
+review-remove,delta,e,OK,
+review-remove,beta,e,KO,Target element text content is empty
+review-remove,gamma,e,KO,Target element text content is empty
+review-remove,alpha,f,OK,
+review-remove,delta,f,OK,
+review-remove,beta,f,OK,
+review-remove,gamma,f,KO,The parent is null or empty
+review-remove,alpha,g,OK,
+review-remove,delta,g,OK,
+review-remove,beta,g,OK,
+review-remove,gamma,g,OK,
+review-remove,alpha,h,OK,
+review-remove,delta,h,OK,
+review-remove,beta,h,OK,
+review-remove,gamma,h,OK,
+review-remove,alpha,i,OK,
+review-remove,delta,i,OK,
+review-remove,beta,i,OK,
+review-remove,gamma,i,OK,
+review-remove,alpha,j,OK,
+review-remove,delta,j,OK,
+review-remove,beta,j,OK,
+review-remove,gamma,j,OK,
+review-remove,alpha,k,OK,
+review-remove,delta,k,OK,
+review-remove,beta,k,OK,
+review-remove,gamma,k,OK,
+stat-total-value,alpha,a,KO,Target element has no attributes
+stat-total-value,delta,a,KO,Target element has no attributes
+stat-total-value,beta,a,KO,Target element has no attributes
+stat-total-value,gamma,a,KO,Target element has no attributes
+stat-total-value,alpha,b,KO,Target element has no valid candidate attributes
+stat-total-value,delta,b,KO,Target element has no valid candidate attributes
+stat-total-value,beta,b,KO,Target element has no valid candidate attributes
+stat-total-value,gamma,b,KO,Target element has no valid candidate attributes
+stat-total-value,alpha,c,KO,Target element has no id attribute
+stat-total-value,delta,c,KO,Target element has no id attribute
+stat-total-value,beta,c,KO,Target element has no id attribute
+stat-total-value,gamma,c,KO,Target element has no id attribute
+stat-total-value,alpha,d,OK,
+stat-total-value,delta,d,OK,
+stat-total-value,beta,d,KO,Target element text content is empty
+stat-total-value,gamma,d,KO,Target element text content is empty
+stat-total-value,alpha,e,OK,
+stat-total-value,delta,e,OK,
+stat-total-value,beta,e,KO,Target element text content is empty
+stat-total-value,gamma,e,KO,Target element text content is empty
+stat-total-value,alpha,f,OK,
+stat-total-value,delta,f,OK,
+stat-total-value,beta,f,OK,
+stat-total-value,gamma,f,OK,
+stat-total-value,alpha,g,OK,
+stat-total-value,delta,g,OK,
+stat-total-value,beta,g,OK,
+stat-total-value,gamma,g,OK,
+stat-total-value,alpha,h,OK,
+stat-total-value,delta,h,OK,
+stat-total-value,beta,h,OK,
+stat-total-value,gamma,h,OK,
+stat-total-value,alpha,i,OK,
+stat-total-value,delta,i,OK,
+stat-total-value,beta,i,OK,
+stat-total-value,gamma,i,OK,
+stat-total-value,alpha,j,OK,
+stat-total-value,delta,j,OK,
+stat-total-value,beta,j,OK,
+stat-total-value,gamma,j,OK,
+stat-total-value,alpha,k,OK,
+stat-total-value,delta,k,OK,
+stat-total-value,beta,k,OK,
+stat-total-value,gamma,k,OK,
+genre-row,epsilon,a,OK,
+genre-row,alpha,a,OK,
+genre-row,beta,a,KO,Target element has no attributes
+genre-row,gamma,a,OK,
+genre-row,epsilon,b,OK,
+genre-row,alpha,b,OK,
+genre-row,beta,b,KO,Target element has no valid candidate attributes
+genre-row,gamma,b,OK,
+genre-row,epsilon,c,KO,Target element has no id attribute
+genre-row,alpha,c,KO,Target element has no id attribute
+genre-row,beta,c,KO,Target element has no id attribute
+genre-row,gamma,c,KO,Target element has no id attribute
+genre-row,epsilon,d,KO,Target element text content is empty
+genre-row,alpha,d,KO,Target element text content is empty
+genre-row,beta,d,OK,
+genre-row,gamma,d,KO,Target element text content is empty
+genre-row,epsilon,e,KO,Target element text content is empty
+genre-row,alpha,e,KO,Target element text content is empty
+genre-row,beta,e,OK,
+genre-row,gamma,e,KO,Target element text content is empty
+genre-row,epsilon,f,OK,
+genre-row,alpha,f,KO,The parent is null or empty
+genre-row,beta,f,KO,The parent is null or empty
+genre-row,gamma,f,OK,
+genre-row,epsilon,g,OK,
+genre-row,alpha,g,OK,
+genre-row,beta,g,OK,
+genre-row,gamma,g,OK,
+genre-row,epsilon,h,OK,
+genre-row,alpha,h,OK,
+genre-row,beta,h,OK,
+genre-row,gamma,h,OK,
+genre-row,epsilon,i,OK,
+genre-row,alpha,i,OK,
+genre-row,beta,i,OK,
+genre-row,gamma,i,OK,
+genre-row,epsilon,j,OK,
+genre-row,alpha,j,OK,
+genre-row,beta,j,OK,
+genre-row,gamma,j,OK,
+genre-row,epsilon,k,OK,
+genre-row,alpha,k,OK,
+genre-row,beta,k,OK,
+genre-row,gamma,k,OK,
+top-row,epsilon,a,OK,
+top-row,alpha,a,KO,Target element has no attributes
+top-row,beta,a,KO,Target element has no attributes
+top-row,gamma,a,KO,Target element has no attributes
+top-row,epsilon,b,OK,
+top-row,alpha,b,KO,Target element has no valid candidate attributes
+top-row,beta,b,KO,Target element has no attributes
+top-row,gamma,b,KO,Target element has no valid candidate attributes
+top-row,epsilon,c,KO,Target element has no id attribute
+top-row,alpha,c,KO,Target element has no id attribute
+top-row,beta,c,KO,Target element has no id attribute
+top-row,gamma,c,KO,Target element has no id attribute
+top-row,epsilon,d,KO,Target element text content is empty
+top-row,alpha,d,KO,Target element text content is empty
+top-row,beta,d,OK,
+top-row,gamma,d,KO,Target element text content is empty
+top-row,epsilon,e,KO,Target element text content is empty
+top-row,alpha,e,KO,Target element text content is empty
+top-row,beta,e,OK,
+top-row,gamma,e,KO,Target element text content is empty
+top-row,epsilon,f,OK,
+top-row,alpha,f,KO,The parent is null or empty
+top-row,beta,f,OK,
+top-row,gamma,f,KO,The parent is null or empty
+top-row,epsilon,g,OK,
+top-row,alpha,g,OK,
+top-row,beta,g,OK,
+top-row,gamma,g,OK,
+top-row,epsilon,h,OK,
+top-row,alpha,h,OK,
+top-row,beta,h,OK,
+top-row,gamma,h,OK,
+top-row,epsilon,i,OK,
+top-row,alpha,i,OK,
+top-row,beta,i,OK,
+top-row,gamma,i,OK,
+top-row,epsilon,j,OK,
+top-row,alpha,j,OK,
+top-row,beta,j,OK,
+top-row,gamma,j,OK,
+top-row,epsilon,k,OK,
+top-row,alpha,k,OK,
+top-row,beta,k,OK,
+top-row,gamma,k,OK,
+top-title,epsilon,a,OK,
+top-title,alpha,a,OK,
+top-title,beta,a,KO,Target element has no attributes
+top-title,gamma,a,KO,Target element has no attributes
+top-title,epsilon,b,OK,
+top-title,alpha,b,OK,
+top-title,beta,b,KO,Target element has no attributes
+top-title,gamma,b,KO,Target element has no valid candidate attributes
+top-title,epsilon,c,KO,Target element has no id attribute
+top-title,alpha,c,KO,Target element has no id attribute
+top-title,beta,c,KO,Target element has no id attribute
+top-title,gamma,c,KO,Target element has no id attribute
+top-title,epsilon,d,KO,Target element text content is empty
+top-title,alpha,d,OK,
+top-title,beta,d,KO,Target element has no child text nodes
+top-title,gamma,d,KO,Target element text content is empty
+top-title,epsilon,e,KO,Target element text content is empty
+top-title,alpha,e,OK,
+top-title,beta,e,KO,Target element has no child text nodes
+top-title,gamma,e,KO,Target element text content is empty
+top-title,epsilon,f,OK,
+top-title,alpha,f,KO,The parent is null or empty
+top-title,beta,f,OK,
+top-title,gamma,f,KO,The parent is null or empty
+top-title,epsilon,g,OK,
+top-title,alpha,g,OK,
+top-title,beta,g,OK,
+top-title,gamma,g,OK,
+top-title,epsilon,h,OK,
+top-title,alpha,h,OK,
+top-title,beta,h,OK,
+top-title,gamma,h,OK,
+top-title,epsilon,i,OK,
+top-title,alpha,i,OK,
+top-title,beta,i,OK,
+top-title,gamma,i,OK,
+top-title,epsilon,j,OK,
+top-title,alpha,j,OK,
+top-title,beta,j,OK,
+top-title,gamma,j,OK,
+top-title,epsilon,k,OK,
+top-title,alpha,k,OK,
+top-title,beta,k,OK,
+top-title,gamma,k,OK,
+field-title,alpha,a,OK,
+field-title,delta,a,KO,Target element has no attributes
+field-title,beta,a,KO,Target element has no attributes
+field-title,gamma,a,OK,
+field-title,alpha,b,OK,
+field-title,delta,b,KO,Target element has no valid candidate attributes
+field-title,beta,b,KO,Target element has no valid candidate attributes
+field-title,gamma,b,OK,
+field-title,alpha,c,OK,
+field-title,delta,c,KO,Target element has no id attribute
+field-title,beta,c,KO,Target element has no id attribute
+field-title,gamma,c,KO,Target element has no id attribute
+field-title,alpha,d,KO,Target element has no child nodes
+field-title,delta,d,OK,
+field-title,beta,d,KO,Target element text content is empty
+field-title,gamma,d,KO,Target element text content is empty
+field-title,alpha,e,KO,Target element has no child nodes
+field-title,delta,e,OK,
+field-title,beta,e,KO,Target element text content is empty
+field-title,gamma,e,KO,Target element text content is empty
+field-title,alpha,f,OK,
+field-title,delta,f,OK,
+field-title,beta,f,OK,
+field-title,gamma,f,OK,
+field-title,alpha,g,OK,
+field-title,delta,g,OK,
+field-title,beta,g,OK,
+field-title,gamma,g,OK,
+field-title,alpha,h,OK,
+field-title,delta,h,OK,
+field-title,beta,h,OK,
+field-title,gamma,h,OK,
+field-title,alpha,i,OK,
+field-title,delta,i,OK,
+field-title,beta,i,OK,
+field-title,gamma,i,OK,
+field-title,alpha,j,OK,
+field-title,delta,j,OK,
+field-title,beta,j,OK,
+field-title,gamma,j,OK,
+field-title,alpha,k,OK,
+field-title,delta,k,OK,
+field-title,beta,k,OK,
+field-title,gamma,k,OK,
+form-submit,alpha,a,OK,
+form-submit,delta,a,OK,
+form-submit,beta,a,KO,Target element has no attributes
+form-submit,gamma,a,OK,
+form-submit,alpha,b,OK,
+form-submit,delta,b,OK,
+form-submit,beta,b,KO,Target element has no valid candidate attributes
+form-submit,gamma,b,OK,
+form-submit,alpha,c,KO,Target element has no id attribute
+form-submit,delta,c,KO,Target element has no id attribute
+form-submit,beta,c,KO,Target element has no id attribute
+form-submit,gamma,c,KO,Target element has no id attribute
+form-submit,alpha,d,OK,
+form-submit,delta,d,OK,
+form-submit,beta,d,KO,Target element text content is empty
+form-submit,gamma,d,KO,Target element text content is empty
+form-submit,alpha,e,OK,
+form-submit,delta,e,OK,
+form-submit,beta,e,KO,Target element text content is empty
+form-submit,gamma,e,KO,Target element text content is empty
+form-submit,alpha,f,OK,
+form-submit,delta,f,OK,
+form-submit,beta,f,OK,
+form-submit,gamma,f,OK,
+form-submit,alpha,g,OK,
+form-submit,delta,g,OK,
+form-submit,beta,g,OK,
+form-submit,gamma,g,OK,
+form-submit,alpha,h,OK,
+form-submit,delta,h,OK,
+form-submit,beta,h,OK,
+form-submit,gamma,h,OK,
+form-submit,alpha,i,OK,
+form-submit,delta,i,OK,
+form-submit,beta,i,OK,
+form-submit,gamma,i,OK,
+form-submit,alpha,j,OK,
+form-submit,delta,j,OK,
+form-submit,beta,j,OK,
+form-submit,gamma,j,OK,
+form-submit,alpha,k,OK,
+form-submit,delta,k,OK,
+form-submit,beta,k,OK,
+form-submit,gamma,k,OK,
+cast-add,alpha,a,OK,
+cast-add,delta,a,KO,Target element has no attributes
+cast-add,beta,a,KO,Target element has no attributes
+cast-add,gamma,a,KO,Target element has no attributes
+cast-add,alpha,b,OK,
+cast-add,delta,b,KO,Target element has no valid candidate attributes
+cast-add,beta,b,KO,Target element has no valid candidate attributes
+cast-add,gamma,b,KO,Target element has no valid candidate attributes
+cast-add,alpha,c,KO,Target element has no id attribute
+cast-add,delta,c,KO,Target element has no id attribute
+cast-add,beta,c,KO,Target element has no id attribute
+cast-add,gamma,c,KO,Target element has no id attribute
+cast-add,alpha,d,OK,
+cast-add,delta,d,OK,
+cast-add,beta,d,KO,Target element text content is empty
+cast-add,gamma,d,KO,Target element text content is empty
+cast-add,alpha,e,OK,
+cast-add,delta,e,OK,
+cast-add,beta,e,KO,Target element text content is empty
+cast-add,gamma,e,KO,Target element text content is empty
+cast-add,alpha,f,OK,
+cast-add,delta,f,OK,
+cast-add,beta,f,OK,
+cast-add,gamma,f,OK,
+cast-add,alpha,g,OK,
+cast-add,delta,g,OK,
+cast-add,beta,g,OK,
+cast-add,gamma,g,OK,
+cast-add,alpha,h,OK,
+cast-add,delta,h,OK,
+cast-add,beta,h,OK,
+cast-add,gamma,h,OK,
+cast-add,alpha,i,OK,
+cast-add,delta,i,OK,
+cast-add,beta,i,OK,
+cast-add,gamma,i,OK,
+cast-add,alpha,j,OK,
+cast-add,delta,j,OK,
+cast-add,beta,j,OK,
+cast-add,gamma,j,OK,
+cast-add,alpha,k,OK,
+cast-add,delta,k,OK,
+cast-add,beta,k,OK,
+cast-add,gamma,k,OK,
+catalog-add-button,alpha,a,OK,
+catalog-add-button,delta,a,OK,
+catalog-add-button,beta,a,KO,Target element has no attributes
+catalog-add-button,gamma,a,KO,Target element has no attributes
+catalog-add-button,alpha,b,OK,
+catalog-add-button,delta,b,OK,
+catalog-add-button,beta,b,KO,Target element has no valid candidate attributes
+catalog-add-button,gamma,b,KO,Target element has no valid candidate attributes
+catalog-add-button,alpha,c,KO,Target element has no id attribute
+catalog-add-button,delta,c,KO,Target element has no id attribute
+catalog-add-button,beta,c,KO,Target element has no id attribute
+catalog-add-button,gamma,c,KO,Target element has no id attribute
+catalog-add-button,alpha,d,OK,
+catalog-add-button,delta,d,KO,Target element text content is empty
+catalog-add-button,beta,d,KO,Target element text content is empty
+catalog-add-button,gamma,d,OK,
+catalog-add-button,alpha,e,OK,
+catalog-add-button,delta,e,KO,Target element text content is empty
+catalog-add-button,beta,e,KO,Target element text content is empty
+catalog-add-button,gamma,e,KO,Target element text content is empty
+catalog-add-button,alpha,f,OK,
+catalog-add-button,delta,f,OK,
+catalog-add-button,beta,f,OK,
+catalog-add-button,gamma,f,OK,
+catalog-add-button,alpha,g,OK,
+catalog-add-button,delta,g,OK,
+catalog-add-button,beta,g,OK,
+catalog-add-button,gamma,g,OK,
+catalog-add-button,alpha,h,OK,
+catalog-add-button,delta,h,OK,
+catalog-add-button,beta,h,OK,
+catalog-add-button,gamma,h,OK,
+catalog-add-button,alpha,i,OK,
+catalog-add-button,delta,i,OK,
+catalog-add-button,beta,i,OK,
+catalog-add-button,gamma,i,OK,
+catalog-add-button,alpha,j,OK,
+catalog-add-button,delta,j,OK,
+catalog-add-button,beta,j,OK,
+catalog-add-button,gamma,j,OK,
+catalog-add-button,alpha,k,OK,
+catalog-add-button,delta,k,OK,
+catalog-add-button,beta,k,OK,
+catalog-add-button,gamma,k,OK,
+catalog-reset-button,alpha,a,OK,
+catalog-reset-button,delta,a,OK,
+catalog-reset-button,beta,a,KO,Target element has no attributes
+catalog-reset-button,gamma,a,KO,Target element has no attributes
+catalog-reset-button,alpha,b,OK,
+catalog-reset-button,delta,b,OK,
+catalog-reset-button,beta,b,KO,Target element has no valid candidate attributes
+catalog-reset-button,gamma,b,KO,Target element has no valid candidate attributes
+catalog-reset-button,alpha,c,KO,Target element has no id attribute
+catalog-reset-button,delta,c,KO,Target element has no id attribute
+catalog-reset-button,beta,c,KO,Target element has no id attribute
+catalog-reset-button,gamma,c,KO,Target element has no id attribute
+catalog-reset-button,alpha,d,OK,
+catalog-reset-button,delta,d,KO,Target element text content is empty
+catalog-reset-button,beta,d,KO,Target element text content is empty
+catalog-reset-button,gamma,d,OK,
+catalog-reset-button,alpha,e,OK,
+catalog-reset-button,delta,e,KO,Target element text content is empty
+catalog-reset-button,beta,e,KO,Target element text content is empty
+catalog-reset-button,gamma,e,KO,Target element text content is empty
+catalog-reset-button,alpha,f,OK,
+catalog-reset-button,delta,f,OK,
+catalog-reset-button,beta,f,OK,
+catalog-reset-button,gamma,f,OK,
+catalog-reset-button,alpha,g,OK,
+catalog-reset-button,delta,g,OK,
+catalog-reset-button,beta,g,OK,
+catalog-reset-button,gamma,g,OK,
+catalog-reset-button,alpha,h,OK,
+catalog-reset-button,delta,h,OK,
+catalog-reset-button,beta,h,OK,
+catalog-reset-button,gamma,h,OK,
+catalog-reset-button,alpha,i,OK,
+catalog-reset-button,delta,i,OK,
+catalog-reset-button,beta,i,OK,
+catalog-reset-button,gamma,i,OK,
+catalog-reset-button,alpha,j,OK,
+catalog-reset-button,delta,j,OK,
+catalog-reset-button,beta,j,OK,
+catalog-reset-button,gamma,j,OK,
+catalog-reset-button,alpha,k,OK,
+catalog-reset-button,delta,k,OK,
+catalog-reset-button,beta,k,OK,
+catalog-reset-button,gamma,k,OK,
+catalog-empty,alpha,a,KO,Target element has no attributes
+catalog-empty,delta,a,KO,Target element has no attributes
+catalog-empty,beta,a,KO,Target element has no attributes
+catalog-empty,alpha,b,KO,Target element has no valid candidate attributes
+catalog-empty,delta,b,KO,Target element has no valid candidate attributes
+catalog-empty,beta,b,KO,Target element has no valid candidate attributes
+catalog-empty,alpha,c,KO,Target element has no id attribute
+catalog-empty,delta,c,KO,Target element has no id attribute
+catalog-empty,beta,c,KO,Target element has no id attribute
+catalog-empty,alpha,d,OK,
+catalog-empty,delta,d,OK,
+catalog-empty,beta,d,KO,Target element text content is empty
+catalog-empty,alpha,e,OK,
+catalog-empty,delta,e,OK,
+catalog-empty,beta,e,OK,
+catalog-empty,alpha,f,OK,
+catalog-empty,delta,f,OK,
+catalog-empty,beta,f,OK,
+catalog-empty,alpha,g,OK,
+catalog-empty,delta,g,OK,
+catalog-empty,beta,g,OK,
+catalog-empty,alpha,h,OK,
+catalog-empty,delta,h,OK,
+catalog-empty,beta,h,OK,
+catalog-empty,alpha,i,OK,
+catalog-empty,delta,i,OK,
+catalog-empty,beta,i,OK,
+catalog-empty,alpha,j,OK,
+catalog-empty,delta,j,OK,
+catalog-empty,beta,j,OK,
+catalog-empty,alpha,k,OK,
+catalog-empty,delta,k,OK,
+catalog-empty,beta,k,OK,
+catalog-modal-confirm,alpha,a,OK,
+catalog-modal-confirm,delta,a,OK,
+catalog-modal-confirm,beta,a,KO,Target element has no attributes
+catalog-modal-confirm,gamma,a,OK,
+catalog-modal-confirm,alpha,b,OK,
+catalog-modal-confirm,delta,b,OK,
+catalog-modal-confirm,beta,b,KO,Target element has no valid candidate attributes
+catalog-modal-confirm,gamma,b,OK,
+catalog-modal-confirm,alpha,c,KO,Target element has no id attribute
+catalog-modal-confirm,delta,c,KO,Target element has no id attribute
+catalog-modal-confirm,beta,c,KO,Target element has no id attribute
+catalog-modal-confirm,gamma,c,KO,Target element has no id attribute
+catalog-modal-confirm,alpha,d,OK,
+catalog-modal-confirm,delta,d,OK,
+catalog-modal-confirm,beta,d,KO,Target element text content is empty
+catalog-modal-confirm,gamma,d,KO,Target element text content is empty
+catalog-modal-confirm,alpha,e,OK,
+catalog-modal-confirm,delta,e,OK,
+catalog-modal-confirm,beta,e,KO,Target element text content is empty
+catalog-modal-confirm,gamma,e,KO,Target element text content is empty
+catalog-modal-confirm,alpha,f,OK,
+catalog-modal-confirm,delta,f,OK,
+catalog-modal-confirm,beta,f,OK,
+catalog-modal-confirm,gamma,f,KO,The parent is null or empty
+catalog-modal-confirm,alpha,g,OK,
+catalog-modal-confirm,delta,g,OK,
+catalog-modal-confirm,beta,g,OK,
+catalog-modal-confirm,gamma,g,OK,
+catalog-modal-confirm,alpha,h,OK,
+catalog-modal-confirm,delta,h,OK,
+catalog-modal-confirm,beta,h,OK,
+catalog-modal-confirm,gamma,h,OK,
+catalog-modal-confirm,alpha,i,OK,
+catalog-modal-confirm,delta,i,OK,
+catalog-modal-confirm,beta,i,OK,
+catalog-modal-confirm,gamma,i,OK,
+catalog-modal-confirm,alpha,j,OK,
+catalog-modal-confirm,delta,j,OK,
+catalog-modal-confirm,beta,j,OK,
+catalog-modal-confirm,gamma,j,OK,
+catalog-modal-confirm,alpha,k,OK,
+catalog-modal-confirm,delta,k,OK,
+catalog-modal-confirm,beta,k,OK,
+catalog-modal-confirm,gamma,k,OK,
+card-meta,alpha,a,KO,Target element has no attributes
+card-meta,delta,a,KO,Target element has no attributes
+card-meta,beta,a,KO,Target element has no attributes
+card-meta,gamma,a,OK,
+card-meta,alpha,b,KO,Target element has no valid candidate attributes
+card-meta,delta,b,KO,Target element has no valid candidate attributes
+card-meta,beta,b,KO,Target element has no valid candidate attributes
+card-meta,gamma,b,OK,
+card-meta,alpha,c,KO,Target element has no id attribute
+card-meta,delta,c,KO,Target element has no id attribute
+card-meta,beta,c,KO,Target element has no id attribute
+card-meta,gamma,c,KO,Target element has no id attribute
+card-meta,alpha,d,OK,
+card-meta,delta,d,OK,
+card-meta,beta,d,KO,Target element text content is empty
+card-meta,gamma,d,KO,Target element text content is empty
+card-meta,alpha,e,OK,
+card-meta,delta,e,OK,
+card-meta,beta,e,KO,Target element text content is empty
+card-meta,gamma,e,KO,Target element text content is empty
+card-meta,alpha,f,OK,
+card-meta,delta,f,OK,
+card-meta,beta,f,OK,
+card-meta,gamma,f,KO,The parent is null or empty
+card-meta,alpha,g,OK,
+card-meta,delta,g,OK,
+card-meta,beta,g,OK,
+card-meta,gamma,g,OK,
+card-meta,alpha,h,OK,
+card-meta,delta,h,OK,
+card-meta,beta,h,OK,
+card-meta,gamma,h,OK,
+card-meta,alpha,i,OK,
+card-meta,delta,i,OK,
+card-meta,beta,i,OK,
+card-meta,gamma,i,OK,
+card-meta,alpha,j,OK,
+card-meta,delta,j,OK,
+card-meta,beta,j,OK,
+card-meta,gamma,j,OK,
+card-meta,alpha,k,OK,
+card-meta,delta,k,OK,
+card-meta,beta,k,OK,
+card-meta,gamma,k,OK,
+card-rating,alpha,a,KO,Target element has no attributes
+card-rating,delta,a,KO,Target element has no attributes
+card-rating,beta,a,KO,Target element has no attributes
+card-rating,gamma,a,OK,
+card-rating,alpha,b,KO,Target element has no valid candidate attributes
+card-rating,delta,b,KO,Target element has no valid candidate attributes
+card-rating,beta,b,KO,Target element has no valid candidate attributes
+card-rating,gamma,b,OK,
+card-rating,alpha,c,KO,Target element has no id attribute
+card-rating,delta,c,KO,Target element has no id attribute
+card-rating,beta,c,KO,Target element has no id attribute
+card-rating,gamma,c,KO,Target element has no id attribute
+card-rating,alpha,d,OK,
+card-rating,delta,d,OK,
+card-rating,beta,d,KO,Target element text content is empty
+card-rating,gamma,d,KO,Target element text content is empty
+card-rating,alpha,e,OK,
+card-rating,delta,e,OK,
+card-rating,beta,e,KO,Target element text content is empty
+card-rating,gamma,e,KO,Target element text content is empty
+card-rating,alpha,f,OK,
+card-rating,delta,f,OK,
+card-rating,beta,f,OK,
+card-rating,gamma,f,KO,The parent is null or empty
+card-rating,alpha,g,OK,
+card-rating,delta,g,OK,
+card-rating,beta,g,OK,
+card-rating,gamma,g,OK,
+card-rating,alpha,h,OK,
+card-rating,delta,h,OK,
+card-rating,beta,h,OK,
+card-rating,gamma,h,OK,
+card-rating,alpha,i,OK,
+card-rating,delta,i,OK,
+card-rating,beta,i,OK,
+card-rating,gamma,i,OK,
+card-rating,alpha,j,OK,
+card-rating,delta,j,OK,
+card-rating,beta,j,OK,
+card-rating,gamma,j,OK,
+card-rating,alpha,k,OK,
+card-rating,delta,k,OK,
+card-rating,beta,k,OK,
+card-rating,gamma,k,OK,
+card-poster,alpha,a,OK,
+card-poster,delta,a,OK,
+card-poster,beta,a,OK,
+card-poster,alpha,b,OK,
+card-poster,delta,b,OK,
+card-poster,beta,b,OK,
+card-poster,alpha,c,KO,Target element has no id attribute
+card-poster,delta,c,KO,Target element has no id attribute
+card-poster,beta,c,KO,Target element has no id attribute
+card-poster,alpha,d,KO,Target element text content is empty
+card-poster,delta,d,OK,
+card-poster,beta,d,KO,Target element text content is empty
+card-poster,alpha,e,KO,Target element text content is empty
+card-poster,delta,e,OK,
+card-poster,beta,e,KO,Target element text content is empty
+card-poster,alpha,f,OK,
+card-poster,delta,f,OK,
+card-poster,beta,f,KO,The parent is null or empty
+card-poster,alpha,g,OK,
+card-poster,delta,g,OK,
+card-poster,beta,g,OK,
+card-poster,alpha,h,OK,
+card-poster,delta,h,OK,
+card-poster,beta,h,OK,
+card-poster,alpha,i,OK,
+card-poster,delta,i,OK,
+card-poster,beta,i,OK,
+card-poster,alpha,j,OK,
+card-poster,delta,j,OK,
+card-poster,beta,j,OK,
+card-poster,alpha,k,OK,
+card-poster,delta,k,OK,
+card-poster,beta,k,OK,
+detail-title,epsilon,a,OK,
+detail-title,alpha,a,KO,Target element has no attributes
+detail-title,delta,a,KO,Target element has no attributes
+detail-title,beta,a,KO,Target element has no attributes
+detail-title,gamma,a,KO,Target element has no attributes
+detail-title,epsilon,b,OK,
+detail-title,alpha,b,KO,Target element has no valid candidate attributes
+detail-title,delta,b,KO,Target element has no valid candidate attributes
+detail-title,beta,b,KO,Target element has no valid candidate attributes
+detail-title,gamma,b,KO,Target element has no valid candidate attributes
+detail-title,epsilon,c,KO,Target element has no id attribute
+detail-title,alpha,c,KO,Target element has no id attribute
+detail-title,delta,c,KO,Target element has no id attribute
+detail-title,beta,c,KO,Target element has no id attribute
+detail-title,gamma,c,KO,Target element has no id attribute
+detail-title,epsilon,d,KO,Target element text content is empty
+detail-title,alpha,d,OK,
+detail-title,delta,d,OK,
+detail-title,beta,d,KO,Target element text content is empty
+detail-title,gamma,d,KO,Target element text content is empty
+detail-title,epsilon,e,KO,Target element text content is empty
+detail-title,alpha,e,OK,
+detail-title,delta,e,OK,
+detail-title,beta,e,KO,Target element text content is empty
+detail-title,gamma,e,KO,Target element text content is empty
+detail-title,epsilon,f,OK,
+detail-title,alpha,f,OK,
+detail-title,delta,f,OK,
+detail-title,beta,f,OK,
+detail-title,gamma,f,KO,The parent is null or empty
+detail-title,epsilon,g,OK,
+detail-title,alpha,g,OK,
+detail-title,delta,g,OK,
+detail-title,beta,g,OK,
+detail-title,gamma,g,OK,
+detail-title,epsilon,h,OK,
+detail-title,alpha,h,OK,
+detail-title,delta,h,OK,
+detail-title,beta,h,OK,
+detail-title,gamma,h,OK,
+detail-title,epsilon,i,OK,
+detail-title,alpha,i,OK,
+detail-title,delta,i,OK,
+detail-title,beta,i,OK,
+detail-title,gamma,i,OK,
+detail-title,epsilon,j,OK,
+detail-title,alpha,j,OK,
+detail-title,delta,j,OK,
+detail-title,beta,j,OK,
+detail-title,gamma,j,OK,
+detail-title,epsilon,k,OK,
+detail-title,alpha,k,OK,
+detail-title,delta,k,OK,
+detail-title,beta,k,OK,
+detail-title,gamma,k,OK,
+detail-synopsis,alpha,a,KO,Target element has no attributes
+detail-synopsis,delta,a,KO,Target element has no attributes
+detail-synopsis,beta,a,KO,Target element has no attributes
+detail-synopsis,gamma,a,KO,Target element has no attributes
+detail-synopsis,alpha,b,KO,Target element has no valid candidate attributes
+detail-synopsis,delta,b,KO,Target element has no valid candidate attributes
+detail-synopsis,beta,b,KO,Target element has no valid candidate attributes
+detail-synopsis,gamma,b,KO,Target element has no valid candidate attributes
+detail-synopsis,alpha,c,KO,Target element has no id attribute
+detail-synopsis,delta,c,KO,Target element has no id attribute
+detail-synopsis,beta,c,KO,Target element has no id attribute
+detail-synopsis,gamma,c,KO,Target element has no id attribute
+detail-synopsis,alpha,d,OK,
+detail-synopsis,delta,d,OK,
+detail-synopsis,beta,d,KO,Target element text content is empty
+detail-synopsis,gamma,d,KO,Target element text content is empty
+detail-synopsis,alpha,e,OK,
+detail-synopsis,delta,e,OK,
+detail-synopsis,beta,e,KO,Target element text content is empty
+detail-synopsis,gamma,e,KO,Target element text content is empty
+detail-synopsis,alpha,f,OK,
+detail-synopsis,delta,f,OK,
+detail-synopsis,beta,f,OK,
+detail-synopsis,gamma,f,OK,
+detail-synopsis,alpha,g,OK,
+detail-synopsis,delta,g,OK,
+detail-synopsis,beta,g,OK,
+detail-synopsis,gamma,g,OK,
+detail-synopsis,alpha,h,OK,
+detail-synopsis,delta,h,OK,
+detail-synopsis,beta,h,OK,
+detail-synopsis,gamma,h,OK,
+detail-synopsis,alpha,i,OK,
+detail-synopsis,delta,i,OK,
+detail-synopsis,beta,i,OK,
+detail-synopsis,gamma,i,OK,
+detail-synopsis,alpha,j,OK,
+detail-synopsis,delta,j,OK,
+detail-synopsis,beta,j,OK,
+detail-synopsis,gamma,j,OK,
+detail-synopsis,alpha,k,OK,
+detail-synopsis,delta,k,OK,
+detail-synopsis,beta,k,OK,
+detail-synopsis,gamma,k,OK,
+detail-edit-button,epsilon,a,OK,
+detail-edit-button,alpha,a,OK,
+detail-edit-button,delta,a,OK,
+detail-edit-button,beta,a,KO,Target element has no attributes
+detail-edit-button,gamma,a,KO,Target element has no attributes
+detail-edit-button,epsilon,b,OK,
+detail-edit-button,alpha,b,OK,
+detail-edit-button,delta,b,OK,
+detail-edit-button,beta,b,KO,Target element has no valid candidate attributes
+detail-edit-button,gamma,b,KO,Target element has no valid candidate attributes
+detail-edit-button,epsilon,c,KO,Target element has no id attribute
+detail-edit-button,alpha,c,KO,Target element has no id attribute
+detail-edit-button,delta,c,KO,Target element has no id attribute
+detail-edit-button,beta,c,KO,Target element has no id attribute
+detail-edit-button,gamma,c,KO,Target element has no id attribute
+detail-edit-button,epsilon,d,KO,Target element text content is empty
+detail-edit-button,alpha,d,OK,
+detail-edit-button,delta,d,OK,
+detail-edit-button,beta,d,KO,Target element text content is empty
+detail-edit-button,gamma,d,KO,Target element text content is empty
+detail-edit-button,epsilon,e,KO,Target element text content is empty
+detail-edit-button,alpha,e,OK,
+detail-edit-button,delta,e,OK,
+detail-edit-button,beta,e,KO,Target element text content is empty
+detail-edit-button,gamma,e,KO,Target element text content is empty
+detail-edit-button,epsilon,f,OK,
+detail-edit-button,alpha,f,OK,
+detail-edit-button,delta,f,OK,
+detail-edit-button,beta,f,OK,
+detail-edit-button,gamma,f,OK,
+detail-edit-button,epsilon,g,OK,
+detail-edit-button,alpha,g,OK,
+detail-edit-button,delta,g,OK,
+detail-edit-button,beta,g,OK,
+detail-edit-button,gamma,g,OK,
+detail-edit-button,epsilon,h,OK,
+detail-edit-button,alpha,h,OK,
+detail-edit-button,delta,h,OK,
+detail-edit-button,beta,h,OK,
+detail-edit-button,gamma,h,OK,
+detail-edit-button,epsilon,i,OK,
+detail-edit-button,alpha,i,OK,
+detail-edit-button,delta,i,OK,
+detail-edit-button,beta,i,OK,
+detail-edit-button,gamma,i,OK,
+detail-edit-button,epsilon,j,OK,
+detail-edit-button,alpha,j,OK,
+detail-edit-button,delta,j,OK,
+detail-edit-button,beta,j,OK,
+detail-edit-button,gamma,j,OK,
+detail-edit-button,epsilon,k,OK,
+detail-edit-button,alpha,k,OK,
+detail-edit-button,delta,k,OK,
+detail-edit-button,beta,k,OK,
+detail-edit-button,gamma,k,OK,
+cast-name,alpha,a,KO,Target element has no attributes
+cast-name,delta,a,KO,Target element has no attributes
+cast-name,beta,a,KO,Target element has no attributes
+cast-name,alpha,b,KO,Target element has no valid candidate attributes
+cast-name,delta,b,KO,Target element has no valid candidate attributes
+cast-name,beta,b,KO,Target element has no valid candidate attributes
+cast-name,alpha,c,KO,Target element has no id attribute
+cast-name,delta,c,KO,Target element has no id attribute
+cast-name,beta,c,KO,Target element has no id attribute
+cast-name,alpha,d,OK,
+cast-name,delta,d,OK,
+cast-name,beta,d,KO,Target element text content is empty
+cast-name,alpha,e,OK,
+cast-name,delta,e,OK,
+cast-name,beta,e,KO,Target element text content is empty
+cast-name,alpha,f,OK,
+cast-name,delta,f,OK,
+cast-name,beta,f,KO,The parent is null or empty
+cast-name,alpha,g,OK,
+cast-name,delta,g,OK,
+cast-name,beta,g,OK,
+cast-name,alpha,h,OK,
+cast-name,delta,h,OK,
+cast-name,beta,h,OK,
+cast-name,alpha,i,OK,
+cast-name,delta,i,OK,
+cast-name,beta,i,OK,
+cast-name,alpha,j,OK,
+cast-name,delta,j,OK,
+cast-name,beta,j,OK,
+cast-name,alpha,k,OK,
+cast-name,delta,k,OK,
+cast-name,beta,k,OK,
+cast-role,alpha,a,KO,Target element has no attributes
+cast-role,delta,a,KO,Target element has no attributes
+cast-role,beta,a,KO,Target element has no attributes
+cast-role,alpha,b,KO,Target element has no valid candidate attributes
+cast-role,delta,b,KO,Target element has no valid candidate attributes
+cast-role,beta,b,KO,Target element has no valid candidate attributes
+cast-role,alpha,c,KO,Target element has no id attribute
+cast-role,delta,c,KO,Target element has no id attribute
+cast-role,beta,c,KO,Target element has no id attribute
+cast-role,alpha,d,OK,
+cast-role,delta,d,OK,
+cast-role,beta,d,KO,Target element text content is empty
+cast-role,alpha,e,OK,
+cast-role,delta,e,OK,
+cast-role,beta,e,KO,Target element text content is empty
+cast-role,alpha,f,OK,
+cast-role,delta,f,OK,
+cast-role,beta,f,KO,The parent is null or empty
+cast-role,alpha,g,OK,
+cast-role,delta,g,OK,
+cast-role,beta,g,OK,
+cast-role,alpha,h,OK,
+cast-role,delta,h,OK,
+cast-role,beta,h,OK,
+cast-role,alpha,i,OK,
+cast-role,delta,i,OK,
+cast-role,beta,i,OK,
+cast-role,alpha,j,OK,
+cast-role,delta,j,OK,
+cast-role,beta,j,OK,
+cast-role,alpha,k,OK,
+cast-role,delta,k,OK,
+cast-role,beta,k,OK,
+reviews-average,alpha,a,KO,Target element has no attributes
+reviews-average,delta,a,KO,Target element has no attributes
+reviews-average,beta,a,KO,Target element has no attributes
+reviews-average,gamma,a,KO,Target element has no attributes
+reviews-average,alpha,b,KO,Target element has no valid candidate attributes
+reviews-average,delta,b,KO,Target element has no valid candidate attributes
+reviews-average,beta,b,KO,Target element has no valid candidate attributes
+reviews-average,gamma,b,KO,Target element has no valid candidate attributes
+reviews-average,alpha,c,KO,Target element has no id attribute
+reviews-average,delta,c,KO,Target element has no id attribute
+reviews-average,beta,c,KO,Target element has no id attribute
+reviews-average,gamma,c,KO,Target element has no id attribute
+reviews-average,alpha,d,OK,
+reviews-average,delta,d,OK,
+reviews-average,beta,d,KO,Target element text content is empty
+reviews-average,gamma,d,KO,Target element text content is empty
+reviews-average,alpha,e,OK,
+reviews-average,delta,e,OK,
+reviews-average,beta,e,OK,
+reviews-average,gamma,e,KO,Target element text content is empty
+reviews-average,alpha,f,OK,
+reviews-average,delta,f,OK,
+reviews-average,beta,f,OK,
+reviews-average,gamma,f,KO,The parent is null or empty
+reviews-average,alpha,g,OK,
+reviews-average,delta,g,OK,
+reviews-average,beta,g,OK,
+reviews-average,gamma,g,OK,
+reviews-average,alpha,h,OK,
+reviews-average,delta,h,OK,
+reviews-average,beta,h,OK,
+reviews-average,gamma,h,OK,
+reviews-average,alpha,i,OK,
+reviews-average,delta,i,OK,
+reviews-average,beta,i,OK,
+reviews-average,gamma,i,OK,
+reviews-average,alpha,j,OK,
+reviews-average,delta,j,OK,
+reviews-average,beta,j,OK,
+reviews-average,gamma,j,OK,
+reviews-average,alpha,k,OK,
+reviews-average,delta,k,OK,
+reviews-average,beta,k,OK,
+reviews-average,gamma,k,OK,
+review-comment,alpha,a,KO,Target element has no attributes
+review-comment,delta,a,KO,Target element has no attributes
+review-comment,beta,a,KO,Target element has no attributes
+review-comment,gamma,a,KO,Target element has no attributes
+review-comment,alpha,b,KO,Target element has no valid candidate attributes
+review-comment,delta,b,KO,Target element has no valid candidate attributes
+review-comment,beta,b,KO,Target element has no valid candidate attributes
+review-comment,gamma,b,KO,Target element has no valid candidate attributes
+review-comment,alpha,c,KO,Target element has no id attribute
+review-comment,delta,c,KO,Target element has no id attribute
+review-comment,beta,c,KO,Target element has no id attribute
+review-comment,gamma,c,KO,Target element has no id attribute
+review-comment,alpha,d,OK,
+review-comment,delta,d,KO,Target element text content is empty
+review-comment,beta,d,KO,Target element text content is empty
+review-comment,gamma,d,OK,
+review-comment,alpha,e,OK,
+review-comment,delta,e,KO,Target element text content is empty
+review-comment,beta,e,KO,Target element text content is empty
+review-comment,gamma,e,OK,
+review-comment,alpha,f,OK,
+review-comment,delta,f,OK,
+review-comment,beta,f,KO,The parent is null or empty
+review-comment,gamma,f,OK,
+review-comment,alpha,g,OK,
+review-comment,delta,g,OK,
+review-comment,beta,g,OK,
+review-comment,gamma,g,OK,
+review-comment,alpha,h,OK,
+review-comment,delta,h,OK,
+review-comment,beta,h,OK,
+review-comment,gamma,h,OK,
+review-comment,alpha,i,OK,
+review-comment,delta,i,OK,
+review-comment,beta,i,OK,
+review-comment,gamma,i,OK,
+review-comment,alpha,j,OK,
+review-comment,delta,j,OK,
+review-comment,beta,j,OK,
+review-comment,gamma,j,OK,
+review-comment,alpha,k,OK,
+review-comment,delta,k,OK,
+review-comment,beta,k,OK,
+review-comment,gamma,k,OK,
+review-field-comment,alpha,a,OK,
+review-field-comment,delta,a,KO,Target element has no attributes
+review-field-comment,beta,a,KO,Target element has no attributes
+review-field-comment,gamma,a,OK,
+review-field-comment,alpha,b,OK,
+review-field-comment,delta,b,KO,Target element has no valid candidate attributes
+review-field-comment,beta,b,KO,Target element has no valid candidate attributes
+review-field-comment,gamma,b,OK,
+review-field-comment,alpha,c,OK,
+review-field-comment,delta,c,KO,Target element has no id attribute
+review-field-comment,beta,c,KO,Target element has no id attribute
+review-field-comment,gamma,c,KO,Target element has no id attribute
+review-field-comment,alpha,d,KO,Target element has no child nodes
+review-field-comment,delta,d,OK,
+review-field-comment,beta,d,OK,
+review-field-comment,gamma,d,KO,Target element text content is empty
+review-field-comment,alpha,e,KO,Target element has no child nodes
+review-field-comment,delta,e,OK,
+review-field-comment,beta,e,KO,Target element text content is empty
+review-field-comment,gamma,e,KO,Target element text content is empty
+review-field-comment,alpha,f,OK,
+review-field-comment,delta,f,OK,
+review-field-comment,beta,f,OK,
+review-field-comment,gamma,f,OK,
+review-field-comment,alpha,g,OK,
+review-field-comment,delta,g,OK,
+review-field-comment,beta,g,OK,
+review-field-comment,gamma,g,OK,
+review-field-comment,alpha,h,OK,
+review-field-comment,delta,h,OK,
+review-field-comment,beta,h,OK,
+review-field-comment,gamma,h,OK,
+review-field-comment,alpha,i,OK,
+review-field-comment,delta,i,OK,
+review-field-comment,beta,i,OK,
+review-field-comment,gamma,i,OK,
+review-field-comment,alpha,j,OK,
+review-field-comment,delta,j,OK,
+review-field-comment,beta,j,OK,
+review-field-comment,gamma,j,OK,
+review-field-comment,alpha,k,OK,
+review-field-comment,delta,k,OK,
+review-field-comment,beta,k,OK,
+review-field-comment,gamma,k,OK,
+stats-heading,alpha,a,KO,Target element has no attributes
+stats-heading,delta,a,KO,Target element has no attributes
+stats-heading,beta,a,KO,Target element has no attributes
+stats-heading,alpha,b,KO,Target element has no valid candidate attributes
+stats-heading,delta,b,KO,Target element has no valid candidate attributes
+stats-heading,beta,b,KO,Target element has no valid candidate attributes
+stats-heading,alpha,c,KO,Target element has no id attribute
+stats-heading,delta,c,KO,Target element has no id attribute
+stats-heading,beta,c,KO,Target element has no id attribute
+stats-heading,alpha,d,OK,
+stats-heading,delta,d,KO,Target element text content is empty
+stats-heading,beta,d,KO,Target element text content is empty
+stats-heading,alpha,e,OK,
+stats-heading,delta,e,KO,Target element text content is empty
+stats-heading,beta,e,KO,Target element text content is empty
+stats-heading,alpha,f,OK,
+stats-heading,delta,f,OK,
+stats-heading,beta,f,KO,The parent is null or empty
+stats-heading,alpha,g,OK,
+stats-heading,delta,g,OK,
+stats-heading,beta,g,OK,
+stats-heading,alpha,h,OK,
+stats-heading,delta,h,OK,
+stats-heading,beta,h,OK,
+stats-heading,alpha,i,OK,
+stats-heading,delta,i,OK,
+stats-heading,beta,i,OK,
+stats-heading,alpha,j,OK,
+stats-heading,delta,j,OK,
+stats-heading,beta,j,OK,
+stats-heading,alpha,k,OK,
+stats-heading,delta,k,OK,
+stats-heading,beta,k,OK,
+genre-count,epsilon,a,OK,
+genre-count,alpha,a,KO,Target element has no attributes
+genre-count,delta,a,KO,Target element has no attributes
+genre-count,beta,a,OK,
+genre-count,gamma,a,KO,Target element has no attributes
+genre-count,epsilon,b,OK,
+genre-count,alpha,b,KO,Target element has no valid candidate attributes
+genre-count,delta,b,KO,Target element has no valid candidate attributes
+genre-count,beta,b,OK,
+genre-count,gamma,b,KO,Target element has no valid candidate attributes
+genre-count,epsilon,c,KO,Target element has no id attribute
+genre-count,alpha,c,KO,Target element has no id attribute
+genre-count,delta,c,KO,Target element has no id attribute
+genre-count,beta,c,KO,Target element has no id attribute
+genre-count,gamma,c,KO,Target element has no id attribute
+genre-count,epsilon,d,KO,Target element text content is empty
+genre-count,alpha,d,OK,
+genre-count,delta,d,KO,Target element text content is empty
+genre-count,beta,d,KO,Target element text content is empty
+genre-count,gamma,d,OK,
+genre-count,epsilon,e,KO,Target element text content is empty
+genre-count,alpha,e,OK,
+genre-count,delta,e,KO,Target element text content is empty
+genre-count,beta,e,KO,Target element text content is empty
+genre-count,gamma,e,OK,
+genre-count,epsilon,f,OK,
+genre-count,alpha,f,OK,
+genre-count,delta,f,OK,
+genre-count,beta,f,KO,The parent is null or empty
+genre-count,gamma,f,KO,The parent is null or empty
+genre-count,epsilon,g,OK,
+genre-count,alpha,g,OK,
+genre-count,delta,g,OK,
+genre-count,beta,g,OK,
+genre-count,gamma,g,OK,
+genre-count,epsilon,h,OK,
+genre-count,alpha,h,OK,
+genre-count,delta,h,OK,
+genre-count,beta,h,OK,
+genre-count,gamma,h,OK,
+genre-count,epsilon,i,OK,
+genre-count,alpha,i,OK,
+genre-count,delta,i,OK,
+genre-count,beta,i,OK,
+genre-count,gamma,i,OK,
+genre-count,epsilon,j,OK,
+genre-count,alpha,j,OK,
+genre-count,delta,j,OK,
+genre-count,beta,j,OK,
+genre-count,gamma,j,OK,
+genre-count,epsilon,k,OK,
+genre-count,alpha,k,OK,
+genre-count,delta,k,OK,
+genre-count,beta,k,OK,
+genre-count,gamma,k,OK,
+stat-favorites-value,alpha,a,KO,Target element has no attributes
+stat-favorites-value,delta,a,KO,Target element has no attributes
+stat-favorites-value,beta,a,KO,Target element has no attributes
+stat-favorites-value,gamma,a,KO,Target element has no attributes
+stat-favorites-value,alpha,b,KO,Target element has no valid candidate attributes
+stat-favorites-value,delta,b,KO,Target element has no valid candidate attributes
+stat-favorites-value,beta,b,KO,Target element has no valid candidate attributes
+stat-favorites-value,gamma,b,KO,Target element has no valid candidate attributes
+stat-favorites-value,alpha,c,KO,Target element has no id attribute
+stat-favorites-value,delta,c,KO,Target element has no id attribute
+stat-favorites-value,beta,c,KO,Target element has no id attribute
+stat-favorites-value,gamma,c,KO,Target element has no id attribute
+stat-favorites-value,alpha,d,OK,
+stat-favorites-value,delta,d,OK,
+stat-favorites-value,beta,d,KO,Target element text content is empty
+stat-favorites-value,gamma,d,KO,Target element text content is empty
+stat-favorites-value,alpha,e,OK,
+stat-favorites-value,delta,e,OK,
+stat-favorites-value,beta,e,KO,Target element text content is empty
+stat-favorites-value,gamma,e,KO,Target element text content is empty
+stat-favorites-value,alpha,f,OK,
+stat-favorites-value,delta,f,OK,
+stat-favorites-value,beta,f,OK,
+stat-favorites-value,gamma,f,OK,
+stat-favorites-value,alpha,g,OK,
+stat-favorites-value,delta,g,OK,
+stat-favorites-value,beta,g,OK,
+stat-favorites-value,gamma,g,OK,
+stat-favorites-value,alpha,h,OK,
+stat-favorites-value,delta,h,OK,
+stat-favorites-value,beta,h,OK,
+stat-favorites-value,gamma,h,OK,
+stat-favorites-value,alpha,i,OK,
+stat-favorites-value,delta,i,OK,
+stat-favorites-value,beta,i,OK,
+stat-favorites-value,gamma,i,OK,
+stat-favorites-value,alpha,j,OK,
+stat-favorites-value,delta,j,OK,
+stat-favorites-value,beta,j,OK,
+stat-favorites-value,gamma,j,OK,
+stat-favorites-value,alpha,k,OK,
+stat-favorites-value,delta,k,OK,
+stat-favorites-value,beta,k,OK,
+stat-favorites-value,gamma,k,OK,
+field-year,epsilon,a,OK,
+field-year,alpha,a,OK,
+field-year,delta,a,KO,Target element has no attributes
+field-year,beta,a,KO,Target element has no attributes
+field-year,gamma,a,KO,Target element has no attributes
+field-year,epsilon,b,OK,
+field-year,alpha,b,OK,
+field-year,delta,b,KO,Target element has no valid candidate attributes
+field-year,beta,b,KO,Target element has no valid candidate attributes
+field-year,gamma,b,KO,Target element has no valid candidate attributes
+field-year,epsilon,c,KO,Target element has no id attribute
+field-year,alpha,c,OK,
+field-year,delta,c,KO,Target element has no id attribute
+field-year,beta,c,KO,Target element has no id attribute
+field-year,gamma,c,KO,Target element has no id attribute
+field-year,epsilon,d,KO,Target element text content is empty
+field-year,alpha,d,KO,Target element has no child nodes
+field-year,delta,d,OK,
+field-year,beta,d,OK,
+field-year,gamma,d,KO,Target element text content is empty
+field-year,epsilon,e,KO,Target element text content is empty
+field-year,alpha,e,KO,Target element has no child nodes
+field-year,delta,e,OK,
+field-year,beta,e,KO,Target element text content is empty
+field-year,gamma,e,KO,Target element text content is empty
+field-year,epsilon,f,OK,
+field-year,alpha,f,OK,
+field-year,delta,f,OK,
+field-year,beta,f,OK,
+field-year,gamma,f,KO,The parent is null or empty
+field-year,epsilon,g,OK,
+field-year,alpha,g,OK,
+field-year,delta,g,OK,
+field-year,beta,g,OK,
+field-year,gamma,g,OK,
+field-year,epsilon,h,OK,
+field-year,alpha,h,OK,
+field-year,delta,h,OK,
+field-year,beta,h,OK,
+field-year,gamma,h,OK,
+field-year,epsilon,i,OK,
+field-year,alpha,i,OK,
+field-year,delta,i,OK,
+field-year,beta,i,OK,
+field-year,gamma,i,OK,
+field-year,epsilon,j,OK,
+field-year,alpha,j,OK,
+field-year,delta,j,OK,
+field-year,beta,j,OK,
+field-year,gamma,j,OK,
+field-year,epsilon,k,OK,
+field-year,alpha,k,OK,
+field-year,delta,k,OK,
+field-year,beta,k,OK,
+field-year,gamma,k,OK,
+form-cancel,alpha,a,OK,
+form-cancel,delta,a,OK,
+form-cancel,beta,a,KO,Target element has no attributes
+form-cancel,gamma,a,OK,
+form-cancel,alpha,b,OK,
+form-cancel,delta,b,OK,
+form-cancel,beta,b,KO,Target element has no valid candidate attributes
+form-cancel,gamma,b,OK,
+form-cancel,alpha,c,KO,Target element has no id attribute
+form-cancel,delta,c,KO,Target element has no id attribute
+form-cancel,beta,c,KO,Target element has no id attribute
+form-cancel,gamma,c,KO,Target element has no id attribute
+form-cancel,alpha,d,OK,
+form-cancel,delta,d,OK,
+form-cancel,beta,d,KO,Target element text content is empty
+form-cancel,gamma,d,KO,Target element text content is empty
+form-cancel,alpha,e,OK,
+form-cancel,delta,e,OK,
+form-cancel,beta,e,KO,Target element text content is empty
+form-cancel,gamma,e,KO,Target element text content is empty
+form-cancel,alpha,f,OK,
+form-cancel,delta,f,OK,
+form-cancel,beta,f,OK,
+form-cancel,gamma,f,OK,
+form-cancel,alpha,g,OK,
+form-cancel,delta,g,OK,
+form-cancel,beta,g,OK,
+form-cancel,gamma,g,OK,
+form-cancel,alpha,h,OK,
+form-cancel,delta,h,OK,
+form-cancel,beta,h,OK,
+form-cancel,gamma,h,OK,
+form-cancel,alpha,i,OK,
+form-cancel,delta,i,OK,
+form-cancel,beta,i,OK,
+form-cancel,gamma,i,OK,
+form-cancel,alpha,j,OK,
+form-cancel,delta,j,OK,
+form-cancel,beta,j,OK,
+form-cancel,gamma,j,OK,
+form-cancel,alpha,k,OK,
+form-cancel,delta,k,OK,
+form-cancel,beta,k,OK,
+form-cancel,gamma,k,OK,
+cast-remove,alpha,a,OK,
+cast-remove,delta,a,OK,
+cast-remove,beta,a,OK,
+cast-remove,gamma,a,OK,
+cast-remove,alpha,b,OK,
+cast-remove,delta,b,OK,
+cast-remove,beta,b,OK,
+cast-remove,gamma,b,OK,
+cast-remove,alpha,c,KO,Target element has no id attribute
+cast-remove,delta,c,KO,Target element has no id attribute
+cast-remove,beta,c,KO,Target element has no id attribute
+cast-remove,gamma,c,KO,Target element has no id attribute
+cast-remove,alpha,d,OK,
+cast-remove,delta,d,KO,Target element has no child nodes
+cast-remove,beta,d,KO,Target element text content is empty
+cast-remove,gamma,d,OK,
+cast-remove,alpha,e,OK,
+cast-remove,delta,e,KO,Target element has no child nodes
+cast-remove,beta,e,KO,Target element text content is empty
+cast-remove,gamma,e,OK,
+cast-remove,alpha,f,OK,
+cast-remove,delta,f,OK,
+cast-remove,beta,f,OK,
+cast-remove,gamma,f,OK,
+cast-remove,alpha,g,OK,
+cast-remove,delta,g,OK,
+cast-remove,beta,g,OK,
+cast-remove,gamma,g,OK,
+cast-remove,alpha,h,OK,
+cast-remove,delta,h,OK,
+cast-remove,beta,h,OK,
+cast-remove,gamma,h,OK,
+cast-remove,alpha,i,OK,
+cast-remove,delta,i,OK,
+cast-remove,beta,i,OK,
+cast-remove,gamma,i,OK,
+cast-remove,alpha,j,OK,
+cast-remove,delta,j,OK,
+cast-remove,beta,j,OK,
+cast-remove,gamma,j,OK,
+cast-remove,alpha,k,OK,
+cast-remove,delta,k,OK,
+cast-remove,beta,k,OK,
+cast-remove,gamma,k,OK,

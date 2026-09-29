@@ -1,0 +1,23 @@
+######### START 1 - a #########
+<button type="button" class="btn btn-warning" (click)="store.clearDone()" x-test-clear-done>Clear bought items</button>
+######### END 1 - a #########
+######### START 2 - b #########
+<button class="btn" (click)="store.clearDone()" x-test-clear-done>Clear bought items</button>
+######### END 2 - b #########
+######### START 3 - c #########
+<button type="button" data-btn="btn" (click)="store.clearDone()" x-test-clear-done>Clear bought items</button>
+######### END 3 - c #########
+######### START 4 - d #########
+<button type="button" class="btn" (click)="store.clearDone()" x-test-clear-done>Clear bought</button>
+######### END 4 - d #########
+######### START 5 - e #########
+<button type="button" class="btn" (click)="store.clearDone()" x-test-clear-done> </button>
+######### END 5 - e #########
+######### START 6 - j #########
+<div type="button" class="btn" (click)="store.clearDone()" x-test-clear-done>Clear bought items</div>
+######### END 6 - j #########
+######### START 7 - k #########
+<div>
+  <button type="button" class="btn" (click)="store.clearDone()" x-test-clear-done>Clear bought items</button>
+</div>
+######### END 7 - k #########

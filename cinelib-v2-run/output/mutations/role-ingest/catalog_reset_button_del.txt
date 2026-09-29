@@ -1,0 +1,32 @@
+######### START 1 - a #########
+<div class="view-toggle" role="group" aria-label="View mode" x-test-view-switch>
+      <button type="button" class="view-btn" [class.active]="view() === 'grid'" [attr.aria-pressed]="view() === 'grid'" (click)="setView('grid')" x-test-view-grid>Grid</button>
+      <button type="button" class="view-btn" [class.active]="view() === 'list'" [attr.aria-pressed]="view() === 'list'" (click)="setView('list')" x-test-view-list>List</button>
+    </div>
+######### END 1 - a #########
+######### START 1 - b #########
+<div class="view-switch" role="group" x-test-view-switch>
+      <button type="button" class="view-btn" [class.active]="view() === 'grid'" [attr.aria-pressed]="view() === 'grid'" (click)="setView('grid')" x-test-view-grid>Grid</button>
+      <button type="button" class="view-btn" [class.active]="view() === 'list'" [attr.aria-pressed]="view() === 'list'" (click)="setView('list')" x-test-view-list>List</button>
+    </div>
+######### END 1 - b #########
+######### START 1 - c #########
+<div class="view-switch" role="group" data-label="View mode" x-test-view-switch>
+      <button type="button" class="view-btn" [class.active]="view() === 'grid'" [attr.aria-pressed]="view() === 'grid'" (click)="setView('grid')" x-test-view-grid>Grid</button>
+      <button type="button" class="view-btn" [class.active]="view() === 'list'" [attr.aria-pressed]="view() === 'list'" (click)="setView('list')" x-test-view-list>List</button>
+    </div>
+######### END 1 - c #########
+######### START 1 - j #########
+<section class="view-switch" role="group" aria-label="View mode" x-test-view-switch>
+      <button type="button" class="view-btn" [class.active]="view() === 'grid'" [attr.aria-pressed]="view() === 'grid'" (click)="setView('grid')" x-test-view-grid>Grid</button>
+      <button type="button" class="view-btn" [class.active]="view() === 'list'" [attr.aria-pressed]="view() === 'list'" (click)="setView('list')" x-test-view-list>List</button>
+    </section>
+######### END 1 - j #########
+######### START 1 - k #########
+<div>
+<div class="view-switch" role="group" aria-label="View mode" x-test-view-switch>
+      <button type="button" class="view-btn" [class.active]="view() === 'grid'" [attr.aria-pressed]="view() === 'grid'" (click)="setView('grid')" x-test-view-grid>Grid</button>
+      <button type="button" class="view-btn" [class.active]="view() === 'list'" [attr.aria-pressed]="view() === 'list'" (click)="setView('list')" x-test-view-list>List</button>
+    </div>
+</div>
+######### END 1 - k #########

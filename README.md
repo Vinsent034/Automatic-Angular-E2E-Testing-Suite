@@ -15,26 +15,39 @@ Università degli Studi di Napoli Federico II, A.A. 2025–2026).
 
 - **`llm-generator`** — mutant generation delegated to a language model, anchored to the
   taxonomy of 11 mutation operators × 5 structural roles, so that every mutant produced maps
-  to a known category. Four operating modes: direct API, prompt dump, snippet ingest, dry run.
+  to a known category. Operating modes: direct API, prompt dump, response ingest, dry run;
+  operators f, g, h (pure moves) are generated mechanically. Duplicates are discarded at ingest.
 - **`MutationPorter`** (in `common`) — export and re-import of mutant sets as readable text
   files, so they can be inspected and edited outside the database.
-- **Two purpose-built subject applications** (CineLib, FlowBoard), designed so that all eleven
-  operators find the structural conditions to be instantiated.
-- **[`mutazioni-generate/`](mutazioni-generate/)** — the complete set of **6,470 mutants**
-  produced across four campaigns, exported in readable form and browsable directly here.
+- **[`applicazioni-soggetto/`](applicazioni-soggetto)** — the three purpose-built Angular subject
+  applications (CineLib, FlowBoard, CookBook), designed so that all eleven operators and all five
+  roles can be exercised.
+- **[`mutazioni-generate/`](mutazioni-generate)** — the **8,978 mutants** used in the six
+  campaigns, exported in readable form and browsable directly here.
+- **[`RIPRODURRE-LE-CAMPAGNE.md`](RIPRODURRE-LE-CAMPAGNE.md)** — step-by-step guide (in Italian)
+  to regenerate the mutants, rerun the tests with the seven locator strategies and recompute the
+  measures. The prompts and the model responses used in the thesis are kept in each campaign
+  folder, so the LLM mutants can be rebuilt without querying the model again.
 
-**Headline result** — the language-based generator produced valid mutants in 88.4% and 95.2%
-of cases on the two subjects, against 79.4% and 41.5% for the static technique. More
-importantly, the static generator's yield varies by nearly forty percentage points across
-subjects while the language-based one stays within seven: measuring a generator on a single
-application is not informative.
+**Headline result** — on all three subjects the language-based generator produced a higher
+share of valid mutants than the static one (88.0–95.6% against 72.9–82.3%, an advantage of
+11.7 to 18.1 percentage points), and far fewer uninformative test runs (1.3–2.8% against
+10.2–24.1%). The robustness ranking is stable at its extremes: absolute locators are always the
+most fragile, ROBULA+ the most robust among the strategies that do not use test attributes.
 
-| Campaign | Subject | Technique | Mutants | Valid |
-|---|---|---|---|---|
-| [`cinelib-llm`](mutazioni-generate/cinelib-llm) | CineLib | LLM | 1,263 | 713 / 807 |
-| [`cinelib-static`](mutazioni-generate/cinelib-static) | CineLib | static | 1,142 | 907 / 1,142 |
-| [`flowboard-llm`](mutazioni-generate/flowboard-llm) | FlowBoard | LLM | 1,225 | 1,166 / 1,225 |
-| [`flowboard-static`](mutazioni-generate/flowboard-static) | FlowBoard | static | 2,840 | 1,180 / 2,840 |
+| Campaign | Subject | Technique | Mutants | Valid | Campaign folder |
+|---|---|---|---|---|---|
+| [`cinelib-llm`](mutazioni-generate/cinelib-llm) | CineLib | LLM | 944 | 831 | `cinelib-v2-run/` |
+| [`cinelib-static`](mutazioni-generate/cinelib-static) | CineLib | static | 944 | 688 | `cinelib-v2-static-run/` |
+| [`flowboard-llm`](mutazioni-generate/flowboard-llm) | FlowBoard | LLM | 1,559 | 1,491 | `flowboard-v2-run/` |
+| [`flowboard-static`](mutazioni-generate/flowboard-static) | FlowBoard | static | 2,148 | 1,664 | `flowboard-v2-static-run/` |
+| [`cookbook-llm`](mutazioni-generate/cookbook-llm) | CookBook | LLM | 1,929 | 1,813 | `cookbook-run/` |
+| [`cookbook-static`](mutazioni-generate/cookbook-static) | CookBook | static | 1,454 | 1,197 | `cookbook-static-run/` |
+
+Static counts exclude duplicate mutants (see `mutazioni-generate/README.md`). Folders such as
+`cinelib-static-run/`, `flowboard-run/`, `flowboard-static-run/` and `output/` hold earlier
+campaigns (July 2026, previous version of the subjects) and are kept for history only; they are
+not used in the thesis results.
 
 The original documentation below still applies to the shared parts of the tool.
 
@@ -51,7 +64,8 @@ The project relies on a modular architecture:
 |   ├── 📁 llm-generator    // Mutation generator via LLM prompts
 |   └── 📁 static-generator // Mutation generator using static analysis
 ├── 📁 mutation-tester      // Module to execute automatic tests on generated mutations
-├── 📁 mutazioni-generate   // The 6,470 generated mutants, exported in readable form
+├── 📁 applicazioni-soggetto // The three subject applications (CineLib, FlowBoard, CookBook)
+├── 📁 mutazioni-generate   // The 8,978 mutants of the six campaigns, in readable form
 ├── generator-config.json   // Main configuration file for the suite
 └── pom.xml                 // Main Maven module file
 ```

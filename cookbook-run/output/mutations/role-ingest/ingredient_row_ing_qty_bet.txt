@@ -1,0 +1,48 @@
+######### START 1 - a #########
+<p class="ing-line-main">
+    <span class="ing-qty" [attr.x-test-ing-qty]="ingredient().id">{{ store.formatQty(ingredient().quantity * store.scaleFactor()) }}</span>
+    <span class="ing-unit">{{ ingredient().unit }}</span>
+    <span class="ing-name" [attr.x-test-ing-name]="ingredient().id">{{ ingredient().name }}</span>
+    <em class="ing-optional">{{ ingredient().optional ? '(optional)' : '' }}</em>
+  </p>
+######### END 1 - a #########
+######### START 2 - b #########
+<p>
+    <span class="ing-qty" [attr.x-test-ing-qty]="ingredient().id">{{ store.formatQty(ingredient().quantity * store.scaleFactor()) }}</span>
+    <span class="ing-unit">{{ ingredient().unit }}</span>
+    <span class="ing-name" [attr.x-test-ing-name]="ingredient().id">{{ ingredient().name }}</span>
+    <em class="ing-optional">{{ ingredient().optional ? '(optional)' : '' }}</em>
+  </p>
+######### END 2 - b #########
+######### START 3 - c #########
+<p data-ingline="ing-line">
+    <span class="ing-qty" [attr.x-test-ing-qty]="ingredient().id">{{ store.formatQty(ingredient().quantity * store.scaleFactor()) }}</span>
+    <span class="ing-unit">{{ ingredient().unit }}</span>
+    <span class="ing-name" [attr.x-test-ing-name]="ingredient().id">{{ ingredient().name }}</span>
+    <em class="ing-optional">{{ ingredient().optional ? '(optional)' : '' }}</em>
+  </p>
+######### END 3 - c #########
+######### START 4 - i #########
+<span class="ing-qty" [attr.x-test-ing-qty]="ingredient().id">{{ store.formatQty(ingredient().quantity * store.scaleFactor()) }}</span>
+    <span class="ing-unit">{{ ingredient().unit }}</span>
+    <span class="ing-name" [attr.x-test-ing-name]="ingredient().id">{{ ingredient().name }}</span>
+    <em class="ing-optional">{{ ingredient().optional ? '(optional)' : '' }}</em>
+######### END 4 - i #########
+######### START 5 - j #########
+<div class="ing-line">
+    <span class="ing-qty" [attr.x-test-ing-qty]="ingredient().id">{{ store.formatQty(ingredient().quantity * store.scaleFactor()) }}</span>
+    <span class="ing-unit">{{ ingredient().unit }}</span>
+    <span class="ing-name" [attr.x-test-ing-name]="ingredient().id">{{ ingredient().name }}</span>
+    <em class="ing-optional">{{ ingredient().optional ? '(optional)' : '' }}</em>
+  </div>
+######### END 5 - j #########
+######### START 6 - k #########
+<section>
+  <p class="ing-line">
+    <span class="ing-qty" [attr.x-test-ing-qty]="ingredient().id">{{ store.formatQty(ingredient().quantity * store.scaleFactor()) }}</span>
+    <span class="ing-unit">{{ ingredient().unit }}</span>
+    <span class="ing-name" [attr.x-test-ing-name]="ingredient().id">{{ ingredient().name }}</span>
+    <em class="ing-optional">{{ ingredient().optional ? '(optional)' : '' }}</em>
+  </p>
+</section>
+######### END 6 - k #########

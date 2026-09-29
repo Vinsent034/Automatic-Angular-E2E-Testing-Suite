@@ -1,0 +1,84 @@
+######### START 1 - a #########
+<div class="card-content">
+        <p class="card-facts">
+          <span class="card-time" [attr.x-test-card-time]="recipe().id">{{ recipe().prepMinutes + recipe().cookMinutes }} min</span>
+          <span class="card-dot">·</span>
+          <span class="card-difficulty">{{ recipe().difficulty }}</span>
+        </p>
+        <ul class="card-tags">
+          @for (tag of recipe().tags; track tag) {
+            <li class="tag">{{ tag }}</li>
+          }
+        </ul>
+      </div>
+######### END 1 - a #########
+######### START 2 - b #########
+<div>
+        <p class="card-facts">
+          <span class="card-time" [attr.x-test-card-time]="recipe().id">{{ recipe().prepMinutes + recipe().cookMinutes }} min</span>
+          <span class="card-dot">·</span>
+          <span class="card-difficulty">{{ recipe().difficulty }}</span>
+        </p>
+        <ul class="card-tags">
+          @for (tag of recipe().tags; track tag) {
+            <li class="tag">{{ tag }}</li>
+          }
+        </ul>
+      </div>
+######### END 2 - b #########
+######### START 3 - c #########
+<div data-body="card-body">
+        <p class="card-facts">
+          <span class="card-time" [attr.x-test-card-time]="recipe().id">{{ recipe().prepMinutes + recipe().cookMinutes }} min</span>
+          <span class="card-dot">·</span>
+          <span class="card-difficulty">{{ recipe().difficulty }}</span>
+        </p>
+        <ul class="card-tags">
+          @for (tag of recipe().tags; track tag) {
+            <li class="tag">{{ tag }}</li>
+          }
+        </ul>
+      </div>
+######### END 3 - c #########
+######### START 4 - i #########
+<p class="card-facts">
+          <span class="card-time" [attr.x-test-card-time]="recipe().id">{{ recipe().prepMinutes + recipe().cookMinutes }} min</span>
+          <span class="card-dot">·</span>
+          <span class="card-difficulty">{{ recipe().difficulty }}</span>
+        </p>
+        <ul class="card-tags">
+          @for (tag of recipe().tags; track tag) {
+            <li class="tag">{{ tag }}</li>
+          }
+        </ul>
+######### END 4 - i #########
+######### START 5 - j #########
+<section class="card-body">
+        <p class="card-facts">
+          <span class="card-time" [attr.x-test-card-time]="recipe().id">{{ recipe().prepMinutes + recipe().cookMinutes }} min</span>
+          <span class="card-dot">·</span>
+          <span class="card-difficulty">{{ recipe().difficulty }}</span>
+        </p>
+        <ul class="card-tags">
+          @for (tag of recipe().tags; track tag) {
+            <li class="tag">{{ tag }}</li>
+          }
+        </ul>
+      </section>
+######### END 5 - j #########
+######### START 6 - k #########
+<div class="card-body-wrap">
+  <div class="card-body">
+        <p class="card-facts">
+          <span class="card-time" [attr.x-test-card-time]="recipe().id">{{ recipe().prepMinutes + recipe().cookMinutes }} min</span>
+          <span class="card-dot">·</span>
+          <span class="card-difficulty">{{ recipe().difficulty }}</span>
+        </p>
+        <ul class="card-tags">
+          @for (tag of recipe().tags; track tag) {
+            <li class="tag">{{ tag }}</li>
+          }
+        </ul>
+      </div>
+</div>
+######### END 6 - k #########

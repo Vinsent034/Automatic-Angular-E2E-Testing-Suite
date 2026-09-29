@@ -1,0 +1,23 @@
+######### START 1 - a #########
+<h2 class="page-heading-title" x-test-detail-page-title>Card detail</h2>
+######### END 1 - a #########
+######### START 1 - b #########
+<h2 x-test-detail-page-title>Card detail</h2>
+######### END 1 - b #########
+######### START 1 - c #########
+<h2 data-class="page-title" x-test-detail-page-title>Card detail</h2>
+######### END 1 - c #########
+######### START 1 - d #########
+<h2 class="page-title" x-test-detail-page-title>Card overview</h2>
+######### END 1 - d #########
+######### START 1 - e #########
+<h2 class="page-title" x-test-detail-page-title> </h2>
+######### END 1 - e #########
+######### START 1 - j #########
+<h3 class="page-title" x-test-detail-page-title>Card detail</h3>
+######### END 1 - j #########
+######### START 1 - k #########
+<div class="page-title-wrapper">
+  <h2 class="page-title" x-test-detail-page-title>Card detail</h2>
+</div>
+######### END 1 - k #########

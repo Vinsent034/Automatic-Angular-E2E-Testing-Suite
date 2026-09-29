@@ -1,0 +1,85 @@
+######### START 1 - d #########
+<tbody>
+          @for (card of store.cards(); track card.id) {
+            <tr class="stats-row" [attr.data-card-id]="card.id" [attr.data-priority]="card.priority" [attr.x-test-stat-row]="card.id">
+              <td class="cell-id">#{{ card.id }}</td>
+              <td class="cell-title">{{ card.title }}</td>
+              <td class="cell-priority">{{ card.priority }}</td>
+              <td class="cell-assignee">{{ card.assignee }}</td>
+              <td class="cell-column">{{ card.columnId }}</td>
+            </tr>
+          } @empty {
+            <tr class="stats-row-empty">
+              <td colspan="5" class="cell-empty" x-test-stats-empty>Nothing to display</td>
+            </tr>
+          }
+        </tbody>
+######### END 1 - d #########
+######### START 1 - e #########
+<tbody>
+          @for (card of store.cards(); track card.id) {
+            <tr class="stats-row" [attr.data-card-id]="card.id" [attr.data-priority]="card.priority" [attr.x-test-stat-row]="card.id">
+              <td class="cell-id">#{{ card.id }}</td>
+              <td class="cell-title">{{ card.title }}</td>
+              <td class="cell-priority">{{ card.priority }}</td>
+              <td class="cell-assignee">{{ card.assignee }}</td>
+              <td class="cell-column">{{ card.columnId }}</td>
+            </tr>
+          } @empty {
+            <tr class="stats-row-empty">
+              <td colspan="5" class="cell-empty" x-test-stats-empty> </td>
+            </tr>
+          }
+        </tbody>
+######### END 1 - e #########
+######### START 1 - i #########
+@for (card of store.cards(); track card.id) {
+            <tr class="stats-row" [attr.data-card-id]="card.id" [attr.data-priority]="card.priority" [attr.x-test-stat-row]="card.id">
+              <td class="cell-id">#{{ card.id }}</td>
+              <td class="cell-title">{{ card.title }}</td>
+              <td class="cell-priority">{{ card.priority }}</td>
+              <td class="cell-assignee">{{ card.assignee }}</td>
+              <td class="cell-column">{{ card.columnId }}</td>
+            </tr>
+          } @empty {
+            <tr class="stats-row-empty">
+              <td colspan="5" class="cell-empty" x-test-stats-empty>No cards on the board</td>
+            </tr>
+          }
+######### END 1 - i #########
+######### START 1 - j #########
+<div>
+          @for (card of store.cards(); track card.id) {
+            <tr class="stats-row" [attr.data-card-id]="card.id" [attr.data-priority]="card.priority" [attr.x-test-stat-row]="card.id">
+              <td class="cell-id">#{{ card.id }}</td>
+              <td class="cell-title">{{ card.title }}</td>
+              <td class="cell-priority">{{ card.priority }}</td>
+              <td class="cell-assignee">{{ card.assignee }}</td>
+              <td class="cell-column">{{ card.columnId }}</td>
+            </tr>
+          } @empty {
+            <tr class="stats-row-empty">
+              <td colspan="5" class="cell-empty" x-test-stats-empty>No cards on the board</td>
+            </tr>
+          }
+        </div>
+######### END 1 - j #########
+######### START 1 - k #########
+<div class="tbody-wrap">
+  <tbody>
+          @for (card of store.cards(); track card.id) {
+            <tr class="stats-row" [attr.data-card-id]="card.id" [attr.data-priority]="card.priority" [attr.x-test-stat-row]="card.id">
+              <td class="cell-id">#{{ card.id }}</td>
+              <td class="cell-title">{{ card.title }}</td>
+              <td class="cell-priority">{{ card.priority }}</td>
+              <td class="cell-assignee">{{ card.assignee }}</td>
+              <td class="cell-column">{{ card.columnId }}</td>
+            </tr>
+          } @empty {
+            <tr class="stats-row-empty">
+              <td colspan="5" class="cell-empty" x-test-stats-empty>No cards on the board</td>
+            </tr>
+          }
+        </tbody>
+</div>
+######### END 1 - k #########

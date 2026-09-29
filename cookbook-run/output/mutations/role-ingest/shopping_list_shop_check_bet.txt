@@ -1,0 +1,36 @@
+######### START 1 - a #########
+<label class="shop-check-alt">
+                <input type="checkbox" class="shop-box" [checked]="item.done" (change)="store.toggleShopping(item.id)" [attr.aria-label]="'Bought ' + item.name" [attr.x-test-shop-check]="item.id">
+                <span class="shop-text">{{ store.formatQty(item.quantity) }} {{ item.unit }} {{ item.name }}</span>
+              </label>
+######### END 1 - a #########
+######### START 2 - b #########
+<label>
+                <input type="checkbox" class="shop-box" [checked]="item.done" (change)="store.toggleShopping(item.id)" [attr.aria-label]="'Bought ' + item.name" [attr.x-test-shop-check]="item.id">
+                <span class="shop-text">{{ store.formatQty(item.quantity) }} {{ item.unit }} {{ item.name }}</span>
+              </label>
+######### END 2 - b #########
+######### START 3 - c #########
+<label data-check="shop-check">
+                <input type="checkbox" class="shop-box" [checked]="item.done" (change)="store.toggleShopping(item.id)" [attr.aria-label]="'Bought ' + item.name" [attr.x-test-shop-check]="item.id">
+                <span class="shop-text">{{ store.formatQty(item.quantity) }} {{ item.unit }} {{ item.name }}</span>
+              </label>
+######### END 3 - c #########
+######### START 4 - i #########
+<input type="checkbox" class="shop-box" [checked]="item.done" (change)="store.toggleShopping(item.id)" [attr.aria-label]="'Bought ' + item.name" [attr.x-test-shop-check]="item.id">
+                <span class="shop-text">{{ store.formatQty(item.quantity) }} {{ item.unit }} {{ item.name }}</span>
+######### END 4 - i #########
+######### START 5 - j #########
+<div class="shop-check">
+                <input type="checkbox" class="shop-box" [checked]="item.done" (change)="store.toggleShopping(item.id)" [attr.aria-label]="'Bought ' + item.name" [attr.x-test-shop-check]="item.id">
+                <span class="shop-text">{{ store.formatQty(item.quantity) }} {{ item.unit }} {{ item.name }}</span>
+              </div>
+######### END 5 - j #########
+######### START 6 - k #########
+<div>
+  <label class="shop-check">
+                <input type="checkbox" class="shop-box" [checked]="item.done" (change)="store.toggleShopping(item.id)" [attr.aria-label]="'Bought ' + item.name" [attr.x-test-shop-check]="item.id">
+                <span class="shop-text">{{ store.formatQty(item.quantity) }} {{ item.unit }} {{ item.name }}</span>
+              </label>
+</div>
+######### END 6 - k #########

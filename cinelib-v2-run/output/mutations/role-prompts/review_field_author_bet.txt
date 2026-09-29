@@ -1,0 +1,31 @@
+# TARGET: review-field-author  (x-test-review-field-author)
+# ROLE: beta-parent   FILE: C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib/src/app/reviews/reviews.component.html
+# Mutate ONLY this element. For each operator below, output the element's MUTATED outerHTML.
+# Rules: result valid Angular 19; NEVER add/remove/rename/alter any x-test* attribute;
+#        apply ONLY the requested operator; the element must really differ from the original.
+
+ROLE ELEMENT (original):
+<div class="field">
+        <label for="review-author" class="field-label">Your name</label>
+        <input id="review-author" type="text" formControlName="author" class="field-input" x-test-review-field-author>
+        @if (showError('author')) {
+          <p class="field-error" x-test-review-error-author>Name is required.</p>
+        }
+      </div>
+
+OPERATORS TO APPLY (one block each, body = mutated element outerHTML):
+- a (Attribute Value Modification): Change the VALUE of an existing attribute on an element, keeping the same attribute name.  [before: <tag attr="value">text</tag> -> after: <tag attr="newValue">text</tag>]
+- b (Attribute Removal): Remove an existing (non-essential) attribute from an element.  [before: <tag attr="value">text</tag> -> after: <tag>text</tag>]
+- c (Attribute Identifier Modification): Rename an existing attribute (change the attribute name, keep its value).  [before: <tag attr="value">text</tag> -> after: <tag newAttr="value">text</tag>]
+- d (Text Content Modification): Change the visible text content of an element.  [before: <tag attr="value">text</tag> -> after: <tag attr="value">newText</tag>]
+- e (Text Content Removal): Remove/empty the visible text content of an element.  [before: <tag attr="value">text</tag> -> after: <tag attr="value"> </tag>]
+- i (HTML Tag Removal): Remove an element's tag but keep its text/children (unwrap).  [before: <tag attr="value">text</tag> -> after: text]
+- j (HTML Tag Type Modification): Change the tag name of an element (e.g. div -> section), keeping attributes and content.  [before: <tag attr="value">text</tag> -> after: <newTag attr="value">text</newTag>]
+- k (HTML Tag Insertion): Insert a new wrapper/container tag around an existing element (add a hierarchy level).  [before: <tag attr="value">text</tag> -> after: <wrapper>
+  <tag attr="value">text</tag>
+</wrapper>]
+
+OUTPUT FORMAT (only these blocks, {op} = operator id):
+######### START 1 - {op} #########
+<mutated element>
+######### END 1 - {op} #########

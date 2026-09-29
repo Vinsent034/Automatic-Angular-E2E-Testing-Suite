@@ -1,0 +1,110 @@
+{
+ "S1_Search": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-recipe-list[1]/section[1]/div[2]/div[1]/label[1]/input[1]",
+  "Robula": "//input[@id='search-input']",
+  "RobulaPlus": "//*[@id='search-input']",
+  "HookBased": "//*[@x-test-search]"
+ },
+ "S1_Card": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-recipe-list[1]/section[1]/div[4]/ul[1]/li[1]/app-recipe-card[1]/article[1]/div[1]/div[1]",
+  "Robula": "//div[@class='card-inner']",
+  "RobulaPlus": "//*[@class='card-inner']",
+  "HookBased": "//*[@x-test-card='2']"
+ },
+ "S1_CardTitle": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-recipe-list[1]/section[1]/div[4]/ul[1]/li[1]/app-recipe-card[1]/article[1]/div[1]/div[1]/header[1]/div[1]/a[1]/h2[1]",
+  "Robula": "//h2",
+  "RobulaPlus": "//h2",
+  "HookBased": "//*[@x-test-card-title='2']"
+ },
+ "S2_VegOnly": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-recipe-list[1]/section[1]/div[2]/div[3]/label[1]/input[1]",
+  "Robula": "//input[@id='veg-only']",
+  "RobulaPlus": "//*[@id='veg-only']",
+  "HookBased": "//*[@x-test-veg-only]"
+ },
+ "S2_CourseFilter": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-recipe-list[1]/section[1]/div[2]/div[2]/label[1]/select[1]",
+  "Robula": "//select[@id='course-filter']",
+  "RobulaPlus": "//*[@id='course-filter']",
+  "HookBased": "//*[@x-test-course-filter]"
+ },
+ "S2_ResultCount": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-recipe-list[1]/section[1]/div[3]/p[1]/span[1]",
+  "Robula": "//span[@data-kind='filtered']",
+  "RobulaPlus": "//*[@data-kind='filtered']",
+  "HookBased": "//*[@x-test-result-count]"
+ },
+ "S3_DetailTitle": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-recipe-detail[1]/article[1]/header[1]/div[1]/h1[1]",
+  "Robula": "//h1",
+  "RobulaPlus": "//h1",
+  "HookBased": "//*[@x-test-detail-title]"
+ },
+ "S3_Servings": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-recipe-detail[1]/article[1]/div[1]/app-panel[1]/section[1]/div[1]/div[1]/label[1]/input[1]",
+  "Robula": "//input",
+  "RobulaPlus": "//input",
+  "HookBased": "//*[@x-test-servings]"
+ },
+ "S3_IngQty": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-recipe-detail[1]/article[1]/div[1]/app-panel[1]/section[1]/div[1]/ul[1]/li[1]/app-ingredient-row[1]/div[1]/p[1]/span[1]",
+  "Robula": "//div[@data-ingredient-id='1']/*/span[@class='ing-qty']",
+  "RobulaPlus": "//*[contains(text(),'400')]",
+  "HookBased": "//*[@x-test-ing-qty='1']"
+ },
+ "S4_FormTitle": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-recipe-form[1]/section[1]/form[1]/div[1]/div[1]/div[1]/input[1]",
+  "Robula": "//input[@id='f-title']",
+  "RobulaPlus": "//*[@id='f-title']",
+  "HookBased": "//*[@x-test-f-title]"
+ },
+ "S4_FormCourse": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-recipe-form[1]/section[1]/form[1]/div[1]/div[2]/div[1]/select[1]",
+  "Robula": "//select[@id='f-course']",
+  "RobulaPlus": "//*[@id='f-course']",
+  "HookBased": "//*[@x-test-f-course]"
+ },
+ "S4_FormSubmit": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-recipe-form[1]/section[1]/form[1]/div[2]/div[1]/button[1]",
+  "Robula": "//button[@type='submit']",
+  "RobulaPlus": "//*[contains(text(),'Create recipe')]",
+  "HookBased": "//*[@x-test-f-submit]"
+ },
+ "S5_OpenCount": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-shopping-list[1]/section[1]/div[2]/p[1]/span[1]",
+  "Robula": "//span[@data-kind='open']",
+  "RobulaPlus": "//*[@data-kind='open']",
+  "HookBased": "//*[@x-test-open-count]"
+ },
+ "S5_ShopCheck": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-shopping-list[1]/section[1]/div[3]/div[1]/ul[1]/li[1]/label[1]/input[1]",
+  "Robula": "//input[@aria-label='Bought Arborio rice']",
+  "RobulaPlus": "//*[@aria-label='Bought Arborio rice']",
+  "HookBased": "//*[@x-test-shop-check='1']"
+ },
+ "S5_ClearDone": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-shopping-list[1]/section[1]/div[4]/div[1]/button[1]",
+  "Robula": "//button[@class='btn']",
+  "RobulaPlus": "//*[contains(text(),'Clear bought items')]",
+  "HookBased": "//*[@x-test-clear-done]"
+ },
+ "S6_StatTotal": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-stats[1]/section[1]/div[2]/div[1]/div[1]/span[1]",
+  "Robula": "//div[@data-stat='total']/*/span[@class='stat-value']",
+  "RobulaPlus": "//*[@class='stat-body']/*[contains(text(),'8')]",
+  "HookBased": "//*[@x-test-stat-total]"
+ },
+ "S6_CourseCountMain": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-stats[1]/section[1]/div[3]/app-panel[1]/section[1]/div[1]/div[1]/div[2]/span[2]",
+  "Robula": "//div[@data-course='main']/span[@class='course-count']",
+  "RobulaPlus": "//*[@data-course='main']/*[@class='course-count']",
+  "HookBased": "//*[@x-test-course-count='main']"
+ },
+ "S6_FooterVersion": {
+  "Absolute": "/html[1]/body[1]/app-root[1]/div[1]/footer[1]/div[1]/p[2]/span[2]",
+  "Robula": "//span[@class='footer-version']",
+  "RobulaPlus": "//*[contains(text(),'v1.0')]",
+  "HookBased": "//*[@x-test-footer-version]"
+ }
+}

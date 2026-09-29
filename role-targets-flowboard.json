@@ -1,12 +1,12 @@
 {
   "_comment": "Target 11x5 (LLM_ROLE) per FlowBoard (Kanban board). Ancorati ai 6 scenari E2E (e2e/board.spec.ts + SCENARIOS-flowboard.md). Elementi con x-test STATICO usano targetAttr='x-test-...'; il componente card e x-test-stat-row usano binding dinamico, quindi targetAttr='[attr.x-test-...]' (nome grezzo nell'HTML). Differenza vs CineLib: qui l'operatore h (cross-template) compila -> tutti gli 11 operatori.",
   "app": "flowboard",
-  "appRoot": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board",
+  "appRoot": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board",
   "targets": [
     {
       "id": "board-title",
       "targetAttr": "x-test-board-title",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/board/board.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/board/board.component.html",
       "tests": [
         "S6: shell shows board title"
       ]
@@ -14,7 +14,7 @@
     {
       "id": "board-demo-badge",
       "targetAttr": "x-test-demo-badge",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/board/board.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/board/board.component.html",
       "tests": [
         "S1: board intro"
       ]
@@ -22,7 +22,7 @@
     {
       "id": "board-hint-banner",
       "targetAttr": "x-test-hint-banner",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/board/board.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/board/board.component.html",
       "tests": [
         "S1: board intro"
       ]
@@ -30,7 +30,7 @@
     {
       "id": "board-search",
       "targetAttr": "x-test-search",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/board/board.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/board/board.component.html",
       "tests": [
         "S1: search filters by title"
       ]
@@ -38,7 +38,7 @@
     {
       "id": "board-search-label",
       "targetAttr": "x-test-search-label",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/board/board.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/board/board.component.html",
       "tests": [
         "S1: search"
       ]
@@ -46,7 +46,7 @@
     {
       "id": "board-filter-priority",
       "targetAttr": "x-test-filter-priority",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/board/board.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/board/board.component.html",
       "tests": [
         "S1: priority filter"
       ]
@@ -54,7 +54,7 @@
     {
       "id": "board-priority-label",
       "targetAttr": "x-test-priority-label",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/board/board.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/board/board.component.html",
       "tests": [
         "S1: priority filter"
       ]
@@ -62,7 +62,7 @@
     {
       "id": "board-filter-assignee",
       "targetAttr": "x-test-filter-assignee",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/board/board.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/board/board.component.html",
       "tests": [
         "S1: assignee filter"
       ]
@@ -70,7 +70,7 @@
     {
       "id": "board-assignee-label",
       "targetAttr": "x-test-assignee-label",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/board/board.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/board/board.component.html",
       "tests": [
         "S1: assignee filter"
       ]
@@ -78,7 +78,7 @@
     {
       "id": "board-filtered-count",
       "targetAttr": "x-test-filtered-count",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/board/board.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/board/board.component.html",
       "tests": [
         "S1: matching count"
       ]
@@ -86,7 +86,7 @@
     {
       "id": "board-matching-label",
       "targetAttr": "x-test-matching-label",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/board/board.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/board/board.component.html",
       "tests": [
         "S1: matching"
       ]
@@ -94,7 +94,7 @@
     {
       "id": "board-add-card",
       "targetAttr": "x-test-add-card",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/board/board.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/board/board.component.html",
       "tests": [
         "S1: add card"
       ]
@@ -102,7 +102,7 @@
     {
       "id": "board-reset",
       "targetAttr": "x-test-reset",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/board/board.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/board/board.component.html",
       "tests": [
         "S6: reset board"
       ]
@@ -110,7 +110,7 @@
     {
       "id": "board-columns",
       "targetAttr": "x-test-columns",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/board/board.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/board/board.component.html",
       "tests": [
         "S2: columns grid"
       ]
@@ -118,7 +118,7 @@
     {
       "id": "board-column-title",
       "targetAttr": "x-test-column-title",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/board/board.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/board/board.component.html",
       "tests": [
         "S2: column header"
       ]
@@ -126,7 +126,7 @@
     {
       "id": "board-column-count",
       "targetAttr": "x-test-column-count",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/board/board.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/board/board.component.html",
       "tests": [
         "S2: column count updates on move"
       ]
@@ -134,7 +134,7 @@
     {
       "id": "header-total-badge",
       "targetAttr": "x-test-total-badge",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/header/header.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/header/header.component.html",
       "tests": [
         "S1: total badge"
       ]
@@ -142,7 +142,7 @@
     {
       "id": "header-app-title",
       "targetAttr": "x-test-app-title",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/header/header.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/header/header.component.html",
       "tests": [
         "S6: brand"
       ]
@@ -150,7 +150,7 @@
     {
       "id": "header-app-tagline",
       "targetAttr": "x-test-app-tagline",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/header/header.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/header/header.component.html",
       "tests": [
         "S6: brand"
       ]
@@ -158,7 +158,7 @@
     {
       "id": "header-brand-icon",
       "targetAttr": "x-test-brand-icon",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/header/header.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/header/header.component.html",
       "tests": [
         "S6: brand"
       ]
@@ -166,7 +166,7 @@
     {
       "id": "header-nav-board",
       "targetAttr": "x-test-nav-board",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/header/header.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/header/header.component.html",
       "tests": [
         "S6: nav to board"
       ]
@@ -174,7 +174,7 @@
     {
       "id": "header-nav-stats",
       "targetAttr": "x-test-nav-stats",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/header/header.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/header/header.component.html",
       "tests": [
         "S5: nav to stats"
       ]
@@ -182,7 +182,7 @@
     {
       "id": "header-new-card",
       "targetAttr": "x-test-new-card",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/header/header.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/header/header.component.html",
       "tests": [
         "S3: new card"
       ]
@@ -190,7 +190,7 @@
     {
       "id": "card-root",
       "targetAttr": "[attr.x-test-card]",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card/card.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card/card.component.html",
       "tests": [
         "S2: card element"
       ]
@@ -198,7 +198,7 @@
     {
       "id": "card-id",
       "targetAttr": "[attr.x-test-card-id]",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card/card.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card/card.component.html",
       "tests": [
         "S2: card id"
       ]
@@ -206,7 +206,7 @@
     {
       "id": "card-title",
       "targetAttr": "[attr.x-test-card-title]",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card/card.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card/card.component.html",
       "tests": [
         "S1: card title"
       ]
@@ -214,7 +214,7 @@
     {
       "id": "card-priority",
       "targetAttr": "[attr.x-test-card-priority]",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card/card.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card/card.component.html",
       "tests": [
         "S1: card priority"
       ]
@@ -222,7 +222,7 @@
     {
       "id": "card-assignee",
       "targetAttr": "[attr.x-test-card-assignee]",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card/card.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card/card.component.html",
       "tests": [
         "S1: card assignee"
       ]
@@ -230,7 +230,7 @@
     {
       "id": "card-tags",
       "targetAttr": "[attr.x-test-card-tags]",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card/card.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card/card.component.html",
       "tests": [
         "S1: card tags"
       ]
@@ -238,7 +238,7 @@
     {
       "id": "card-move",
       "targetAttr": "[attr.x-test-card-move]",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card/card.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card/card.component.html",
       "tests": [
         "S2: move menu"
       ]
@@ -246,7 +246,7 @@
     {
       "id": "card-open",
       "targetAttr": "[attr.x-test-card-open]",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card/card.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card/card.component.html",
       "tests": [
         "S4: open detail"
       ]
@@ -254,7 +254,7 @@
     {
       "id": "card-edit",
       "targetAttr": "[attr.x-test-card-edit]",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card/card.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card/card.component.html",
       "tests": [
         "S4: edit link"
       ]
@@ -262,7 +262,7 @@
     {
       "id": "card-delete",
       "targetAttr": "[attr.x-test-card-delete]",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card/card.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card/card.component.html",
       "tests": [
         "S4: delete button"
       ]
@@ -270,7 +270,7 @@
     {
       "id": "column-card-list",
       "targetAttr": "x-test-card-list",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/column/column.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/column/column.component.html",
       "tests": [
         "S2: column card list"
       ]
@@ -278,7 +278,7 @@
     {
       "id": "column-empty-message",
       "targetAttr": "x-test-empty-message",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/column/column.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/column/column.component.html",
       "tests": [
         "S2: empty column"
       ]
@@ -286,7 +286,7 @@
     {
       "id": "form-root",
       "targetAttr": "x-test-form",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
       "tests": [
         "S3: create card"
       ]
@@ -294,7 +294,7 @@
     {
       "id": "form-title",
       "targetAttr": "x-test-form-title",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
       "tests": [
         "S3: title field"
       ]
@@ -302,7 +302,7 @@
     {
       "id": "form-title-label",
       "targetAttr": "x-test-form-title-label",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
       "tests": [
         "S3: title label"
       ]
@@ -310,7 +310,7 @@
     {
       "id": "form-description",
       "targetAttr": "x-test-form-description",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
       "tests": [
         "S3: description field"
       ]
@@ -318,7 +318,7 @@
     {
       "id": "form-priority",
       "targetAttr": "x-test-form-priority",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
       "tests": [
         "S3: priority select"
       ]
@@ -326,7 +326,7 @@
     {
       "id": "form-assignee",
       "targetAttr": "x-test-form-assignee",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
       "tests": [
         "S3: assignee field"
       ]
@@ -334,7 +334,7 @@
     {
       "id": "form-column",
       "targetAttr": "x-test-form-column",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
       "tests": [
         "S3: column select"
       ]
@@ -342,7 +342,7 @@
     {
       "id": "form-tags",
       "targetAttr": "x-test-form-tags",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
       "tests": [
         "S3: tags field"
       ]
@@ -350,7 +350,7 @@
     {
       "id": "form-submit",
       "targetAttr": "x-test-form-submit",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
       "tests": [
         "S3: submit"
       ]
@@ -358,7 +358,7 @@
     {
       "id": "form-cancel",
       "targetAttr": "x-test-form-cancel",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
       "tests": [
         "S3: cancel"
       ]
@@ -366,7 +366,7 @@
     {
       "id": "form-back",
       "targetAttr": "x-test-form-back",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
       "tests": [
         "S3: back"
       ]
@@ -374,7 +374,7 @@
     {
       "id": "form-actions",
       "targetAttr": "x-test-form-actions",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
       "tests": [
         "S3: actions"
       ]
@@ -382,7 +382,7 @@
     {
       "id": "detail-title",
       "targetAttr": "x-test-detail-title",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
       "tests": [
         "S4: detail title"
       ]
@@ -390,7 +390,7 @@
     {
       "id": "detail-id",
       "targetAttr": "x-test-detail-id",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
       "tests": [
         "S4: detail id"
       ]
@@ -398,7 +398,7 @@
     {
       "id": "detail-priority",
       "targetAttr": "x-test-detail-priority",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
       "tests": [
         "S4: detail priority"
       ]
@@ -406,7 +406,7 @@
     {
       "id": "detail-description",
       "targetAttr": "x-test-detail-description",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
       "tests": [
         "S4: detail description"
       ]
@@ -414,7 +414,7 @@
     {
       "id": "detail-assignee",
       "targetAttr": "x-test-detail-assignee",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
       "tests": [
         "S4: detail assignee"
       ]
@@ -422,7 +422,7 @@
     {
       "id": "detail-column",
       "targetAttr": "x-test-detail-column",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
       "tests": [
         "S4: detail column"
       ]
@@ -430,7 +430,7 @@
     {
       "id": "detail-tags",
       "targetAttr": "x-test-detail-tags",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
       "tests": [
         "S4: detail tags"
       ]
@@ -438,7 +438,7 @@
     {
       "id": "detail-edit",
       "targetAttr": "x-test-detail-edit",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
       "tests": [
         "S4: detail edit"
       ]
@@ -446,7 +446,7 @@
     {
       "id": "detail-delete",
       "targetAttr": "x-test-detail-delete",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
       "tests": [
         "S4: detail delete"
       ]
@@ -454,7 +454,7 @@
     {
       "id": "detail-back",
       "targetAttr": "x-test-detail-back",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
       "tests": [
         "S4: detail back"
       ]
@@ -462,7 +462,7 @@
     {
       "id": "detail-page-title",
       "targetAttr": "x-test-detail-page-title",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
       "tests": [
         "S4: detail page title"
       ]
@@ -470,7 +470,7 @@
     {
       "id": "stat-total",
       "targetAttr": "x-test-stat-total",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/stats/stats.component.html",
       "tests": [
         "S5: total"
       ]
@@ -478,7 +478,7 @@
     {
       "id": "stat-backlog",
       "targetAttr": "x-test-stat-backlog",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/stats/stats.component.html",
       "tests": [
         "S5: backlog count"
       ]
@@ -486,7 +486,7 @@
     {
       "id": "stat-inprogress",
       "targetAttr": "x-test-stat-inprogress",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/stats/stats.component.html",
       "tests": [
         "S5: inprogress count"
       ]
@@ -494,7 +494,7 @@
     {
       "id": "stat-review",
       "targetAttr": "x-test-stat-review",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/stats/stats.component.html",
       "tests": [
         "S5: review count"
       ]
@@ -502,7 +502,7 @@
     {
       "id": "stat-done",
       "targetAttr": "x-test-stat-done",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/stats/stats.component.html",
       "tests": [
         "S5: done count"
       ]
@@ -510,7 +510,7 @@
     {
       "id": "stat-high",
       "targetAttr": "x-test-stat-high",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/stats/stats.component.html",
       "tests": [
         "S5: high count"
       ]
@@ -518,7 +518,7 @@
     {
       "id": "stat-medium",
       "targetAttr": "x-test-stat-medium",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/stats/stats.component.html",
       "tests": [
         "S5: medium count"
       ]
@@ -526,7 +526,7 @@
     {
       "id": "stat-low",
       "targetAttr": "x-test-stat-low",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/stats/stats.component.html",
       "tests": [
         "S5: low count"
       ]
@@ -534,7 +534,7 @@
     {
       "id": "stats-title",
       "targetAttr": "x-test-stats-title",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/stats/stats.component.html",
       "tests": [
         "S5: stats title"
       ]
@@ -542,7 +542,7 @@
     {
       "id": "stats-table",
       "targetAttr": "x-test-stats-table",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/stats/stats.component.html",
       "tests": [
         "S5: table"
       ]
@@ -550,7 +550,7 @@
     {
       "id": "stats-th-title",
       "targetAttr": "x-test-stats-th-title",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/stats/stats.component.html",
       "tests": [
         "S5: table header"
       ]
@@ -558,7 +558,7 @@
     {
       "id": "stat-row",
       "targetAttr": "[attr.x-test-stat-row]",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/stats/stats.component.html",
       "tests": [
         "S5: table row"
       ]
@@ -566,7 +566,7 @@
     {
       "id": "footer-brand",
       "targetAttr": "x-test-footer-brand",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/app.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/app.component.html",
       "tests": [
         "S6: footer brand"
       ]
@@ -574,7 +574,7 @@
     {
       "id": "footer-note",
       "targetAttr": "x-test-footer-note",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/app.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/app.component.html",
       "tests": [
         "S6: footer note"
       ]
@@ -582,7 +582,7 @@
     {
       "id": "footer-version",
       "targetAttr": "x-test-footer-version",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/app.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/app.component.html",
       "tests": [
         "S6: footer version"
       ]
@@ -590,7 +590,7 @@
     {
       "id": "app-main",
       "targetAttr": "x-test-main",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/app.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/app.component.html",
       "tests": [
         "S6: main region"
       ]
@@ -598,7 +598,7 @@
     {
       "id": "toast-message",
       "targetAttr": "x-test-toast",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/toast/toast.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/toast/toast.component.html",
       "tests": [
         "S4/S6: toast message"
       ]
@@ -606,7 +606,7 @@
     {
       "id": "toast-label",
       "targetAttr": "x-test-toast-label",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/toast/toast.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/toast/toast.component.html",
       "tests": [
         "S4/S6: toast label"
       ]
@@ -614,7 +614,7 @@
     {
       "id": "auto-board-board",
       "targetAttr": "x-test-board",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/board/board.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/board/board.component.html",
       "tests": [
         "extended target (board)"
       ]
@@ -622,7 +622,7 @@
     {
       "id": "auto-board-board-intro",
       "targetAttr": "x-test-board-intro",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/board/board.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/board/board.component.html",
       "tests": [
         "extended target (board)"
       ]
@@ -630,7 +630,7 @@
     {
       "id": "auto-board-toolbar",
       "targetAttr": "x-test-toolbar",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/board/board.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/board/board.component.html",
       "tests": [
         "extended target (board)"
       ]
@@ -638,7 +638,7 @@
     {
       "id": "auto-board-toolbar-search",
       "targetAttr": "x-test-toolbar-search",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/board/board.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/board/board.component.html",
       "tests": [
         "extended target (board)"
       ]
@@ -646,7 +646,7 @@
     {
       "id": "auto-board-toolbar-priority",
       "targetAttr": "x-test-toolbar-priority",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/board/board.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/board/board.component.html",
       "tests": [
         "extended target (board)"
       ]
@@ -654,7 +654,7 @@
     {
       "id": "auto-board-toolbar-assignee",
       "targetAttr": "x-test-toolbar-assignee",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/board/board.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/board/board.component.html",
       "tests": [
         "extended target (board)"
       ]
@@ -662,7 +662,7 @@
     {
       "id": "auto-board-toolbar-info",
       "targetAttr": "x-test-toolbar-info",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/board/board.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/board/board.component.html",
       "tests": [
         "extended target (board)"
       ]
@@ -670,7 +670,7 @@
     {
       "id": "auto-board-toolbar-actions",
       "targetAttr": "x-test-toolbar-actions",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/board/board.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/board/board.component.html",
       "tests": [
         "extended target (board)"
       ]
@@ -678,7 +678,7 @@
     {
       "id": "auto-board-column",
       "targetAttr": "x-test-column",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/board/board.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/board/board.component.html",
       "tests": [
         "extended target (board)"
       ]
@@ -686,7 +686,7 @@
     {
       "id": "auto-header-header",
       "targetAttr": "x-test-header",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/header/header.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/header/header.component.html",
       "tests": [
         "extended target (header)"
       ]
@@ -694,7 +694,7 @@
     {
       "id": "auto-header-brand",
       "targetAttr": "x-test-brand",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/header/header.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/header/header.component.html",
       "tests": [
         "extended target (header)"
       ]
@@ -702,7 +702,7 @@
     {
       "id": "auto-header-header-stats",
       "targetAttr": "x-test-header-stats",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/header/header.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/header/header.component.html",
       "tests": [
         "extended target (header)"
       ]
@@ -710,7 +710,7 @@
     {
       "id": "auto-header-total-label",
       "targetAttr": "x-test-total-label",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/header/header.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/header/header.component.html",
       "tests": [
         "extended target (header)"
       ]
@@ -718,7 +718,7 @@
     {
       "id": "auto-header-nav",
       "targetAttr": "x-test-nav",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/header/header.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/header/header.component.html",
       "tests": [
         "extended target (header)"
       ]
@@ -726,7 +726,7 @@
     {
       "id": "auto-card-form-card-form",
       "targetAttr": "x-test-card-form",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
       "tests": [
         "extended target (card-form)"
       ]
@@ -734,7 +734,7 @@
     {
       "id": "auto-card-form-form-heading",
       "targetAttr": "x-test-form-heading",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
       "tests": [
         "extended target (card-form)"
       ]
@@ -742,7 +742,7 @@
     {
       "id": "auto-card-form-form-title-edit",
       "targetAttr": "x-test-form-title-edit",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
       "tests": [
         "extended target (card-form)"
       ]
@@ -750,7 +750,7 @@
     {
       "id": "auto-card-form-form-title-new",
       "targetAttr": "x-test-form-title-new",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
       "tests": [
         "extended target (card-form)"
       ]
@@ -758,7 +758,7 @@
     {
       "id": "auto-card-form-form-field-title",
       "targetAttr": "x-test-form-field-title",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
       "tests": [
         "extended target (card-form)"
       ]
@@ -766,7 +766,7 @@
     {
       "id": "auto-card-form-form-field-description",
       "targetAttr": "x-test-form-field-description",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
       "tests": [
         "extended target (card-form)"
       ]
@@ -774,7 +774,7 @@
     {
       "id": "auto-card-form-form-description-label",
       "targetAttr": "x-test-form-description-label",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
       "tests": [
         "extended target (card-form)"
       ]
@@ -782,7 +782,7 @@
     {
       "id": "auto-card-form-form-field-priority",
       "targetAttr": "x-test-form-field-priority",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
       "tests": [
         "extended target (card-form)"
       ]
@@ -790,7 +790,7 @@
     {
       "id": "auto-card-form-form-priority-label",
       "targetAttr": "x-test-form-priority-label",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
       "tests": [
         "extended target (card-form)"
       ]
@@ -798,7 +798,7 @@
     {
       "id": "auto-card-form-form-field-assignee",
       "targetAttr": "x-test-form-field-assignee",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
       "tests": [
         "extended target (card-form)"
       ]
@@ -806,7 +806,7 @@
     {
       "id": "auto-card-form-form-assignee-label",
       "targetAttr": "x-test-form-assignee-label",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
       "tests": [
         "extended target (card-form)"
       ]
@@ -814,7 +814,7 @@
     {
       "id": "auto-card-form-form-field-column",
       "targetAttr": "x-test-form-field-column",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
       "tests": [
         "extended target (card-form)"
       ]
@@ -822,7 +822,7 @@
     {
       "id": "auto-card-form-form-column-label",
       "targetAttr": "x-test-form-column-label",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
       "tests": [
         "extended target (card-form)"
       ]
@@ -830,7 +830,7 @@
     {
       "id": "auto-card-form-form-field-tags",
       "targetAttr": "x-test-form-field-tags",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
       "tests": [
         "extended target (card-form)"
       ]
@@ -838,7 +838,7 @@
     {
       "id": "auto-card-form-form-tags-label",
       "targetAttr": "x-test-form-tags-label",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-form/card-form.component.html",
       "tests": [
         "extended target (card-form)"
       ]
@@ -846,7 +846,7 @@
     {
       "id": "auto-card-detail-card-detail",
       "targetAttr": "x-test-card-detail",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
       "tests": [
         "extended target (card-detail)"
       ]
@@ -854,7 +854,7 @@
     {
       "id": "auto-card-detail-detail-heading",
       "targetAttr": "x-test-detail-heading",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
       "tests": [
         "extended target (card-detail)"
       ]
@@ -862,7 +862,7 @@
     {
       "id": "auto-card-detail-detail-card",
       "targetAttr": "x-test-detail-card",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
       "tests": [
         "extended target (card-detail)"
       ]
@@ -870,7 +870,7 @@
     {
       "id": "auto-card-detail-detail-description-row",
       "targetAttr": "x-test-detail-description-row",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
       "tests": [
         "extended target (card-detail)"
       ]
@@ -878,7 +878,7 @@
     {
       "id": "auto-card-detail-detail-description-label",
       "targetAttr": "x-test-detail-description-label",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
       "tests": [
         "extended target (card-detail)"
       ]
@@ -886,7 +886,7 @@
     {
       "id": "auto-card-detail-detail-assignee-row",
       "targetAttr": "x-test-detail-assignee-row",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
       "tests": [
         "extended target (card-detail)"
       ]
@@ -894,7 +894,7 @@
     {
       "id": "auto-card-detail-detail-assignee-label",
       "targetAttr": "x-test-detail-assignee-label",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
       "tests": [
         "extended target (card-detail)"
       ]
@@ -902,7 +902,7 @@
     {
       "id": "auto-card-detail-detail-column-row",
       "targetAttr": "x-test-detail-column-row",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
       "tests": [
         "extended target (card-detail)"
       ]
@@ -910,7 +910,7 @@
     {
       "id": "auto-card-detail-detail-column-label",
       "targetAttr": "x-test-detail-column-label",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
       "tests": [
         "extended target (card-detail)"
       ]
@@ -918,7 +918,7 @@
     {
       "id": "auto-card-detail-detail-tags-row",
       "targetAttr": "x-test-detail-tags-row",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
       "tests": [
         "extended target (card-detail)"
       ]
@@ -926,7 +926,7 @@
     {
       "id": "auto-card-detail-detail-tags-label",
       "targetAttr": "x-test-detail-tags-label",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
       "tests": [
         "extended target (card-detail)"
       ]
@@ -934,7 +934,7 @@
     {
       "id": "auto-card-detail-detail-no-tags",
       "targetAttr": "x-test-detail-no-tags",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
       "tests": [
         "extended target (card-detail)"
       ]
@@ -942,7 +942,7 @@
     {
       "id": "auto-card-detail-detail-actions",
       "targetAttr": "x-test-detail-actions",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
       "tests": [
         "extended target (card-detail)"
       ]
@@ -950,7 +950,7 @@
     {
       "id": "auto-card-detail-detail-not-found",
       "targetAttr": "x-test-detail-not-found",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
       "tests": [
         "extended target (card-detail)"
       ]
@@ -958,7 +958,7 @@
     {
       "id": "auto-card-detail-detail-not-found-message",
       "targetAttr": "x-test-detail-not-found-message",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
       "tests": [
         "extended target (card-detail)"
       ]
@@ -966,7 +966,7 @@
     {
       "id": "auto-card-detail-detail-not-found-back",
       "targetAttr": "x-test-detail-not-found-back",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card-detail/card-detail.component.html",
       "tests": [
         "extended target (card-detail)"
       ]
@@ -974,7 +974,7 @@
     {
       "id": "auto-stats-stats",
       "targetAttr": "x-test-stats",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/stats/stats.component.html",
       "tests": [
         "extended target (stats)"
       ]
@@ -982,7 +982,7 @@
     {
       "id": "auto-stats-stats-heading",
       "targetAttr": "x-test-stats-heading",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/stats/stats.component.html",
       "tests": [
         "extended target (stats)"
       ]
@@ -990,7 +990,7 @@
     {
       "id": "auto-stats-stats-back",
       "targetAttr": "x-test-stats-back",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/stats/stats.component.html",
       "tests": [
         "extended target (stats)"
       ]
@@ -998,7 +998,7 @@
     {
       "id": "auto-stats-stats-cards",
       "targetAttr": "x-test-stats-cards",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/stats/stats.component.html",
       "tests": [
         "extended target (stats)"
       ]
@@ -1006,7 +1006,7 @@
     {
       "id": "auto-stats-stat-total-card",
       "targetAttr": "x-test-stat-total-card",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/stats/stats.component.html",
       "tests": [
         "extended target (stats)"
       ]
@@ -1014,7 +1014,7 @@
     {
       "id": "auto-stats-stat-total-label",
       "targetAttr": "x-test-stat-total-label",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/stats/stats.component.html",
       "tests": [
         "extended target (stats)"
       ]
@@ -1022,7 +1022,7 @@
     {
       "id": "auto-stats-stat-backlog-card",
       "targetAttr": "x-test-stat-backlog-card",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/stats/stats.component.html",
       "tests": [
         "extended target (stats)"
       ]
@@ -1030,7 +1030,7 @@
     {
       "id": "auto-stats-stat-backlog-label",
       "targetAttr": "x-test-stat-backlog-label",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/stats/stats.component.html",
       "tests": [
         "extended target (stats)"
       ]
@@ -1038,7 +1038,7 @@
     {
       "id": "auto-stats-stat-inprogress-card",
       "targetAttr": "x-test-stat-inprogress-card",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/stats/stats.component.html",
       "tests": [
         "extended target (stats)"
       ]
@@ -1046,7 +1046,7 @@
     {
       "id": "auto-stats-stat-inprogress-label",
       "targetAttr": "x-test-stat-inprogress-label",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/stats/stats.component.html",
       "tests": [
         "extended target (stats)"
       ]
@@ -1054,7 +1054,7 @@
     {
       "id": "auto-stats-stat-review-card",
       "targetAttr": "x-test-stat-review-card",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/stats/stats.component.html",
       "tests": [
         "extended target (stats)"
       ]
@@ -1062,7 +1062,7 @@
     {
       "id": "auto-stats-stat-review-label",
       "targetAttr": "x-test-stat-review-label",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/stats/stats.component.html",
       "tests": [
         "extended target (stats)"
       ]
@@ -1070,7 +1070,7 @@
     {
       "id": "auto-stats-stat-done-card",
       "targetAttr": "x-test-stat-done-card",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/stats/stats.component.html",
       "tests": [
         "extended target (stats)"
       ]
@@ -1078,7 +1078,7 @@
     {
       "id": "auto-stats-stat-done-label",
       "targetAttr": "x-test-stat-done-label",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/stats/stats.component.html",
       "tests": [
         "extended target (stats)"
       ]
@@ -1086,7 +1086,7 @@
     {
       "id": "auto-stats-stat-high-card",
       "targetAttr": "x-test-stat-high-card",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/stats/stats.component.html",
       "tests": [
         "extended target (stats)"
       ]
@@ -1094,7 +1094,7 @@
     {
       "id": "auto-stats-stat-high-label",
       "targetAttr": "x-test-stat-high-label",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/stats/stats.component.html",
       "tests": [
         "extended target (stats)"
       ]
@@ -1102,7 +1102,7 @@
     {
       "id": "auto-stats-stat-medium-card",
       "targetAttr": "x-test-stat-medium-card",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/stats/stats.component.html",
       "tests": [
         "extended target (stats)"
       ]
@@ -1110,7 +1110,7 @@
     {
       "id": "auto-stats-stat-medium-label",
       "targetAttr": "x-test-stat-medium-label",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/stats/stats.component.html",
       "tests": [
         "extended target (stats)"
       ]
@@ -1118,7 +1118,7 @@
     {
       "id": "auto-stats-stat-low-card",
       "targetAttr": "x-test-stat-low-card",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/stats/stats.component.html",
       "tests": [
         "extended target (stats)"
       ]
@@ -1126,7 +1126,7 @@
     {
       "id": "auto-stats-stat-low-label",
       "targetAttr": "x-test-stat-low-label",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/stats/stats.component.html",
       "tests": [
         "extended target (stats)"
       ]
@@ -1134,7 +1134,7 @@
     {
       "id": "auto-stats-stats-table-section",
       "targetAttr": "x-test-stats-table-section",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/stats/stats.component.html",
       "tests": [
         "extended target (stats)"
       ]
@@ -1142,7 +1142,7 @@
     {
       "id": "auto-stats-stats-table-title",
       "targetAttr": "x-test-stats-table-title",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/stats/stats.component.html",
       "tests": [
         "extended target (stats)"
       ]
@@ -1150,7 +1150,7 @@
     {
       "id": "auto-stats-stats-th-id",
       "targetAttr": "x-test-stats-th-id",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/stats/stats.component.html",
       "tests": [
         "extended target (stats)"
       ]
@@ -1158,7 +1158,7 @@
     {
       "id": "auto-stats-stats-th-priority",
       "targetAttr": "x-test-stats-th-priority",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/stats/stats.component.html",
       "tests": [
         "extended target (stats)"
       ]
@@ -1166,7 +1166,7 @@
     {
       "id": "auto-stats-stats-th-assignee",
       "targetAttr": "x-test-stats-th-assignee",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/stats/stats.component.html",
       "tests": [
         "extended target (stats)"
       ]
@@ -1174,7 +1174,7 @@
     {
       "id": "auto-stats-stats-th-column",
       "targetAttr": "x-test-stats-th-column",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/stats/stats.component.html",
       "tests": [
         "extended target (stats)"
       ]
@@ -1182,7 +1182,7 @@
     {
       "id": "auto-stats-stats-empty",
       "targetAttr": "x-test-stats-empty",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/stats/stats.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/stats/stats.component.html",
       "tests": [
         "extended target (stats)"
       ]
@@ -1190,7 +1190,7 @@
     {
       "id": "auto-app-app",
       "targetAttr": "x-test-app",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/app.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/app.component.html",
       "tests": [
         "extended target (app)"
       ]
@@ -1198,7 +1198,7 @@
     {
       "id": "auto-app-footer",
       "targetAttr": "x-test-footer",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/app.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/app.component.html",
       "tests": [
         "extended target (app)"
       ]
@@ -1206,7 +1206,7 @@
     {
       "id": "auto-toast-toast-bar",
       "targetAttr": "x-test-toast-bar",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/toast/toast.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/toast/toast.component.html",
       "tests": [
         "extended target (toast)"
       ]
@@ -1214,7 +1214,7 @@
     {
       "id": "auto-toast-toast-icon",
       "targetAttr": "x-test-toast-icon",
-      "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board/src/app/toast/toast.component.html",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/toast/toast.component.html",
       "tests": [
         "extended target (toast)"
       ]

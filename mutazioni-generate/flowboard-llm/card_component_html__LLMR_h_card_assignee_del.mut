@@ -3,7 +3,7 @@
 #name: h
 #type: LLM_ROLE
 #status: HELD
-######### FILE C:\Users\vince\OneDrive\Desktop\App tirocinio\Kanban board\src\app\card\card.component.html #########
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\Kanban board\src\app\card\card.component.html #########
 <article class="card" [attr.data-card-id]="card().id" [attr.data-priority]="card().priority" [attr.data-column]="card().columnId" [attr.aria-label]="'Card ' + card().title" [attr.x-test-card]="card().id">
   <header class="card-top">
     <span class="card-id" [attr.x-test-card-id]="card().id">#{{ card().id }}</span>
@@ -34,7 +34,7 @@
   </footer>
 </article>
 ######### END FILE #########
-######### FILE C:\Users\vince\OneDrive\Desktop\App tirocinio\Kanban board\src\app\board\board.component.html #########
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\Kanban board\src\app\board\board.component.html #########
 <section class="board-page" x-test-board>
   <div class="board-intro" x-test-board-intro>
     <h2 class="page-title" x-test-board-title>Project board</h2>

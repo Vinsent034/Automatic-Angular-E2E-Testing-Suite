@@ -1,0 +1,17 @@
+#mutation-id: LLMR_step_item_component_html_step_item_step_text_bet_c
+#element: step_item_component_html
+#name: c
+#type: LLM_ROLE
+#status: HELD
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\cookbook\src\app\step-item\step-item.component.html #########
+<div class="step" [attr.data-step]="step().n">
+  <div class="step-marker">
+    <span class="step-number" [attr.x-test-step-number]="step().n">{{ step().n }}</span>
+    <span class="step-dot" aria-hidden="true"></span>
+  </div>
+  <div data-content="step-content">
+    <p class="step-text" [attr.x-test-step-text]="step().n">{{ step().text }}</p>
+    <p class="step-time"><span class="step-minutes">{{ step().minutes }}</span> min</p>
+  </div>
+</div>
+######### END FILE #########

@@ -1,0 +1,17 @@
+######### START 1 - a #########
+<input type="search" class="search-input" placeholder="Search a movie…" [value]="query()" (input)="onSearch($any($event.target).value)" x-test-search-input>
+######### END 1 - a #########
+######### START 1 - b #########
+<input type="text" class="search-input" [value]="query()" (input)="onSearch($any($event.target).value)" x-test-search-input>
+######### END 1 - b #########
+######### START 1 - c #########
+<input type="text" class="search-input" data-placeholder="Search a movie…" [value]="query()" (input)="onSearch($any($event.target).value)" x-test-search-input>
+######### END 1 - c #########
+######### START 1 - j #########
+<textarea type="text" class="search-input" placeholder="Search a movie…" [value]="query()" (input)="onSearch($any($event.target).value)" x-test-search-input></textarea>
+######### END 1 - j #########
+######### START 1 - k #########
+<div>
+<input type="text" class="search-input" placeholder="Search a movie…" [value]="query()" (input)="onSearch($any($event.target).value)" x-test-search-input>
+</div>
+######### END 1 - k #########

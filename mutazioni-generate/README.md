@@ -1,33 +1,50 @@
 # Mutazioni generate
 
-Questa cartella contiene **l'insieme completo dei mutanti prodotti** nelle quattro campagne
-di generazione descritte nel Capitolo 4 della tesi, in una forma testuale direttamente
-leggibile: ogni mutazione è un file `.mut` apribile con un qualsiasi editor e consultabile
-online senza scaricare nulla.
+Questa cartella contiene **i mutanti usati negli esperimenti** della tesi (Capitolo 4), nelle
+sei campagne di generazione: due tecniche (statica e linguistica) su tre applicazioni
+(CineLib, FlowBoard, CookBook). Ogni mutazione è un file `.mut`, apribile con qualsiasi editor
+e consultabile online senza scaricare nulla.
 
-Gli stessi mutanti risiedono nelle basi di dati SQLite delle rispettive cartelle di campagna
-(`mutations.db`), che però non sono versionate e non sono ispezionabili senza strumenti
-dedicati. I file presenti qui ne sono l'esportazione, prodotta dalla funzione di interscambio
-descritta nel § 2.5.3 della tesi.
+Gli stessi mutanti si trovano nelle basi di dati SQLite delle cartelle di campagna
+(`mutations.db`), che non sono versionate perché non si leggono senza strumenti appositi. I file
+qui sono la loro esportazione, fatta con la funzione descritta nel § 2.5.3 della tesi.
 
 ## Contenuto
 
-| Cartella | Soggetto | Tecnica | Mutanti |
-|---|---|---|---|
-| `cinelib-llm/` | CineLib | modello linguistico | 1 263 |
-| `cinelib-static/` | CineLib | analisi statica | 1 142 |
-| `flowboard-llm/` | FlowBoard | modello linguistico | 1 225 |
-| `flowboard-static/` | FlowBoard | analisi statica | 2 840 |
+| Cartella | Soggetto | Tecnica | Mutanti | Validi | Campagna di origine |
+|---|---|---|---|---|---|
+| [`cinelib-llm/`](cinelib-llm) | CineLib | linguistica | 944 | 831 | `cinelib-v2-run/` |
+| [`cinelib-static/`](cinelib-static) | CineLib | statica | 944 | 688 | `cinelib-v2-static-run/` |
+| [`flowboard-llm/`](flowboard-llm) | FlowBoard | linguistica | 1 559 | 1 491 | `flowboard-v2-run/` |
+| [`flowboard-static/`](flowboard-static) | FlowBoard | statica | 2 148 | 1 664 | `flowboard-v2-static-run/` |
+| [`cookbook-llm/`](cookbook-llm) | CookBook | linguistica | 1 929 | 1 813 | `cookbook-run/` |
+| [`cookbook-static/`](cookbook-static) | CookBook | statica | 1 454 | 1 197 | `cookbook-static-run/` |
 
-**Totale: 6 470 mutanti.**
+**Totale: 8 978 mutanti** (4 432 linguistici, 4 546 statici).
 
-> Nota su `cinelib-llm`: la cartella contiene i 1 263 mutanti presenti nella base di dati,
-> mentre le misure riportate nella tesi si riferiscono ai **807** effettivamente sottoposti
-> alla campagna di collaudo. La differenza è costituita da mutanti generati in fasi
-> successive e non inclusi nella verifica; il criterio è dichiarato nel § 4.1 della tesi.
+**Duplicati del generatore statico.** Il generatore statico produce anche mutanti identici fra
+loro (§ 3.5.2 della tesi). Qui ci sono solo i mutanti **distinti**: 310 duplicati su CineLib,
+2 115 su FlowBoard e 49 su CookBook non sono ripetuti. L'elenco completo, con il mutante
+identico a cui ciascun duplicato corrisponde, è in `mappa-duplicati.json` nelle cartelle di
+campagna di CineLib e FlowBoard. I mutanti linguistici non hanno duplicati: lo strumento li
+scarta al momento dell'acquisizione (§ 2.4.6).
 
-In ogni cartella il file `manifest.csv` elenca le mutazioni con il rispettivo identificativo,
-elemento bersaglio, operatore applicato, tecnica e nome del file corrispondente.
+**Esiti dei test.** Il campo `status` dei file indica solo lo stato interno dello strumento.
+Gli esiti dei test (per mutante e per strategia) sono nei file `output/tests/batches-*.csv`
+delle cartelle di campagna.
+
+In ogni cartella il file `manifest.csv` elenca le mutazioni con identificativo, elemento,
+operatore, tecnica, stato e nome del file.
+
+## Nomi dei file
+
+- **Linguistici** — `<template>__<identificativo>.mut`. L'identificativo contiene template,
+  bersaglio, ruolo e operatore, per esempio
+  `LLMR_card_component_html_card_title_alf_a` = bersaglio `card-title`, ruolo α (bersaglio),
+  operatore `a`. Ruoli: `alf` α bersaglio, `bet` β padre, `gam` γ antenato, `del` δ fratello,
+  `eps` ε componente.
+- **Statici** — `<ruolo>__<bersaglio>__<operatore>.mut`, per esempio
+  `beta__card-title__d.mut`.
 
 ## Formato di un file `.mut`
 
@@ -42,37 +59,37 @@ elemento bersaglio, operatore applicato, tecnica e nome del file corrispondente.
 ######### END FILE #########
 ```
 
-L'intestazione riporta gli attributi anagrafici della mutazione:
+L'intestazione riporta i dati della mutazione:
 
-- `mutation-id` — chiave logica, che codifica bersaglio, ruolo strutturale e operatore;
-- `element` — template o componente su cui la mutazione insiste;
-- `name` — operatore applicato, secondo gli identificativi `a`–`k` del modello (§ 1.4.2);
-- `type` — tecnica di generazione impiegata;
-- `status` — stato di avanzamento del collaudo.
+- `mutation-id` — nome logico;
+- `element` — template (linguistici) o ruolo (statici);
+- `name` — operatore `a`–`k` (linguistici) o bersaglio (statici);
+- `type` — `LLM_ROLE` per i linguistici, nome della regola per gli statici;
+- `status` — stato interno dello strumento.
 
-Seguono uno o più blocchi `FILE`, ciascuno con il percorso del file coinvolto e il suo
-contenuto dopo l'applicazione della mutazione. La presenza di più blocchi rappresenta le
-mutazioni che interessano due template distinti, come richiesto dall'operatore `h`.
+Nei mutanti statici gli stessi dati stanno in campi diversi (§ 2.5.1 della tesi): l'operatore
+è in `mutation-id`, il ruolo in `element`, il bersaglio in `name`.
+
+Seguono uno o più blocchi `FILE`, ciascuno con il percorso di un file coinvolto e il suo
+contenuto dopo la mutazione. Due blocchi indicano una mutazione su due template, come
+richiede l'operatore `h`.
 
 ## Come leggere le mutazioni
 
-Il modo più rapido per vedere **che cosa** una mutazione ha cambiato è confrontare il
-contenuto del blocco `FILE` con il template originale dell'applicazione corrispondente.
-Poiché ogni mutante altera un solo elemento, la differenza è di norma una singola riga.
+Per vedere **che cosa** ha cambiato una mutazione, si confronta il blocco `FILE` con il
+template originale in [`../applicazioni-soggetto/`](../applicazioni-soggetto). Ogni mutante
+modifica un solo elemento, quindi di solito cambia una sola riga. Un esempio, con lo stesso
+elemento sottoposto a operatori diversi, è nel § 2.4.4 della tesi (Tabella 2.4).
 
-Un esempio di lettura, con lo stesso elemento sottoposto a operatori diversi, è riportato
-nel § 2.4.4 della tesi (Tabella 2.4).
-
-## Reimportazione
-
-I file possono essere modificati e reintrodotti nella base di dati, per correggere o
-personalizzare un mutante senza rigenerare l'intero insieme:
+## Esportazione e reimportazione
 
 ```
 java -cp "<classpath>" org.unina.data.MutationPorter export <cartella> [tipo]
 java -cp "<classpath>" org.unina.data.MutationPorter import <cartella>
 ```
 
-Il comando va eseguito dalla cartella che contiene il `mutations.db` di riferimento.
-La reimportazione riconosce le mutazioni già presenti dalla loro chiave logica e ne
-sostituisce il contenuto, senza generare duplicati.
+Il comando va lanciato dalla cartella che contiene il `mutations.db` di riferimento; il
+classpath comprende `mutation-generator/common/target/classes` e un jar con il driver SQLite
+(per esempio quello di `llm-generator`). La reimportazione riconosce le mutazioni dal loro
+`mutation-id` e ne sostituisce il contenuto. Poiché nei mutanti statici il `mutation-id` è
+solo la lettera dell'operatore, la reimportazione va usata sui mutanti linguistici.

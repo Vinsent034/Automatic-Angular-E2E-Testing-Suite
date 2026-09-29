@@ -1,0 +1,26 @@
+######### START 1 - a #########
+<span class="stat-label-alt">Average minutes</span>
+######### END 1 - a #########
+######### START 2 - b #########
+<span>Average minutes</span>
+######### END 2 - b #########
+######### START 3 - c #########
+<span data-label="stat-label">Average minutes</span>
+######### END 3 - c #########
+######### START 4 - d #########
+<span class="stat-label">Mean minutes</span>
+######### END 4 - d #########
+######### START 5 - e #########
+<span class="stat-label"> </span>
+######### END 5 - e #########
+######### START 6 - i #########
+Average minutes
+######### END 6 - i #########
+######### START 7 - j #########
+<small class="stat-label">Average minutes</small>
+######### END 7 - j #########
+######### START 8 - k #########
+<span>
+  <span class="stat-label">Average minutes</span>
+</span>
+######### END 8 - k #########

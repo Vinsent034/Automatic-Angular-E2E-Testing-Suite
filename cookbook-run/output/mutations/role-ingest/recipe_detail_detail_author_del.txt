@@ -1,0 +1,26 @@
+######### START 1 - a #########
+<span class="detail-rating-alt">★ {{ recipe.rating }}</span>
+######### END 1 - a #########
+######### START 2 - b #########
+<span>★ {{ recipe.rating }}</span>
+######### END 2 - b #########
+######### START 3 - c #########
+<span data-rating="detail-rating">★ {{ recipe.rating }}</span>
+######### END 3 - c #########
+######### START 4 - d #########
+<span class="detail-rating">Rating {{ recipe.rating }}</span>
+######### END 4 - d #########
+######### START 5 - e #########
+<span class="detail-rating"> </span>
+######### END 5 - e #########
+######### START 6 - i #########
+★ {{ recipe.rating }}
+######### END 6 - i #########
+######### START 7 - j #########
+<small class="detail-rating">★ {{ recipe.rating }}</small>
+######### END 7 - j #########
+######### START 8 - k #########
+<span>
+  <span class="detail-rating">★ {{ recipe.rating }}</span>
+</span>
+######### END 8 - k #########

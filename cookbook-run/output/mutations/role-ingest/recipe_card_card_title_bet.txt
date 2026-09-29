@@ -1,0 +1,36 @@
+######### START 1 - a #########
+<a class="card-link-main" [routerLink]="['/recipe', recipe().id]">
+            <h2 class="card-title" [attr.x-test-card-title]="recipe().id">{{ recipe().title }}</h2>
+            <span class="card-course">{{ recipe().course }}</span>
+          </a>
+######### END 1 - a #########
+######### START 2 - b #########
+<a [routerLink]="['/recipe', recipe().id]">
+            <h2 class="card-title" [attr.x-test-card-title]="recipe().id">{{ recipe().title }}</h2>
+            <span class="card-course">{{ recipe().course }}</span>
+          </a>
+######### END 2 - b #########
+######### START 3 - c #########
+<a data-cardlink="card-link" [routerLink]="['/recipe', recipe().id]">
+            <h2 class="card-title" [attr.x-test-card-title]="recipe().id">{{ recipe().title }}</h2>
+            <span class="card-course">{{ recipe().course }}</span>
+          </a>
+######### END 3 - c #########
+######### START 4 - i #########
+<h2 class="card-title" [attr.x-test-card-title]="recipe().id">{{ recipe().title }}</h2>
+            <span class="card-course">{{ recipe().course }}</span>
+######### END 4 - i #########
+######### START 5 - j #########
+<div class="card-link" [routerLink]="['/recipe', recipe().id]">
+            <h2 class="card-title" [attr.x-test-card-title]="recipe().id">{{ recipe().title }}</h2>
+            <span class="card-course">{{ recipe().course }}</span>
+          </div>
+######### END 5 - j #########
+######### START 6 - k #########
+<div>
+  <a class="card-link" [routerLink]="['/recipe', recipe().id]">
+            <h2 class="card-title" [attr.x-test-card-title]="recipe().id">{{ recipe().title }}</h2>
+            <span class="card-course">{{ recipe().course }}</span>
+          </a>
+</div>
+######### END 6 - k #########

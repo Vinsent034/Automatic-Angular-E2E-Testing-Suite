@@ -1,0 +1,42 @@
+######### START 1 - a #########
+<p class="card-meta">
+          <span class="card-time" [attr.x-test-card-time]="recipe().id">{{ recipe().prepMinutes + recipe().cookMinutes }} min</span>
+          <span class="card-dot">·</span>
+          <span class="card-difficulty">{{ recipe().difficulty }}</span>
+        </p>
+######### END 1 - a #########
+######### START 2 - b #########
+<p>
+          <span class="card-time" [attr.x-test-card-time]="recipe().id">{{ recipe().prepMinutes + recipe().cookMinutes }} min</span>
+          <span class="card-dot">·</span>
+          <span class="card-difficulty">{{ recipe().difficulty }}</span>
+        </p>
+######### END 2 - b #########
+######### START 3 - c #########
+<p data-facts="card-facts">
+          <span class="card-time" [attr.x-test-card-time]="recipe().id">{{ recipe().prepMinutes + recipe().cookMinutes }} min</span>
+          <span class="card-dot">·</span>
+          <span class="card-difficulty">{{ recipe().difficulty }}</span>
+        </p>
+######### END 3 - c #########
+######### START 4 - i #########
+<span class="card-time" [attr.x-test-card-time]="recipe().id">{{ recipe().prepMinutes + recipe().cookMinutes }} min</span>
+          <span class="card-dot">·</span>
+          <span class="card-difficulty">{{ recipe().difficulty }}</span>
+######### END 4 - i #########
+######### START 5 - j #########
+<div class="card-facts">
+          <span class="card-time" [attr.x-test-card-time]="recipe().id">{{ recipe().prepMinutes + recipe().cookMinutes }} min</span>
+          <span class="card-dot">·</span>
+          <span class="card-difficulty">{{ recipe().difficulty }}</span>
+        </div>
+######### END 5 - j #########
+######### START 6 - k #########
+<div class="card-facts-wrap">
+  <p class="card-facts">
+          <span class="card-time" [attr.x-test-card-time]="recipe().id">{{ recipe().prepMinutes + recipe().cookMinutes }} min</span>
+          <span class="card-dot">·</span>
+          <span class="card-difficulty">{{ recipe().difficulty }}</span>
+        </p>
+</div>
+######### END 6 - k #########

@@ -1,0 +1,25 @@
+#mutation-id: h
+#element: beta
+#name: ingredient-row-ing-qty
+#type: tag_mov_temp_mut
+#status: COMPLETE
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\cookbook\src\app\ingredient-row\ingredient-row.component.html #########
+<div class="ingredient-row" [attr.data-ingredient-id]="ingredient().id" [class.is-optional]="ingredient().optional">
+  <span class="ing-bullet" aria-hidden="true">•</span>
+  
+</div>
+######### END FILE #########
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\cookbook\src\app\step-item\step-item.component.html #########
+<div class="step" [attr.data-step]="step().n">
+ <div class="step-marker">
+  <span class="step-number" [attr.x-test-step-number]="step().n">{{ step().n }}</span> <span class="step-dot" aria-hidden="true"></span>
+ </div>
+ <div class="step-content">
+  <p class="step-text" [attr.x-test-step-text]="step().n">{{ step().text }}</p>
+  <p class="step-time">
+   <p class="ing-line"><span class="ing-qty" [attr.x-test-ing-qty]="ingredient().id">{{ store.formatQty(ingredient().quantity * store.scaleFactor()) }}</span> <span class="ing-unit">{{ ingredient().unit }}</span> <span class="ing-name" [attr.x-test-ing-name]="ingredient().id">{{ ingredient().name }}</span> <em class="ing-optional">{{ ingredient().optional ? '(optional)' : '' }}</em></p>
+   <span class="step-minutes">{{ step().minutes }}</span> min
+  </p>
+ </div>
+</div>
+######### END FILE #########

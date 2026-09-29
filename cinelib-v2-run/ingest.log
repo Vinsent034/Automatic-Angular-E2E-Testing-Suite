@@ -1,0 +1,105 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.sqlite.SQLiteJDBCLoader in an unnamed module (file:/C:/Users/vince/OneDrive/Desktop/Universit%c3%a0/Tirocinio/progetto/Automatic-Angular-E2E-Testing-Suite/mutation-generator/llm-generator/target/llm-generator-1.0.0-jar-with-dependencies-eps.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+LLM generator | ROLE 11x5 mode (INGEST snippets) | 45 targets x 8 operators x 5 roles | model=claude-opus-4-8
+
+============= catalog-result-count (x-test-result-count in catalog.component.html) =============
+
+============= catalog-search-input (x-test-search-input in catalog.component.html) =============
+
+============= catalog-filter-genre (x-test-filter-genre in catalog.component.html) =============
+
+============= catalog-sort (x-test-sort in catalog.component.html) =============
+
+============= catalog-view-list (x-test-view-list in catalog.component.html) =============
+
+============= card-title (x-test-card-title in movie-card.component.html) =============
+
+============= detail-meta (x-test-detail-meta in movie-detail.component.html) =============
+
+============= cast-row (x-test-cast-row in cast-row.component.html) =============
+
+============= detail-delete-button (x-test-delete-button in movie-detail.component.html) =============
+
+============= detail-not-found (x-test-not-found in movie-detail.component.html) =============
+
+============= catalog-favorites-filter (x-test-favorites-filter in catalog.component.html) =============
+
+============= card-favorite-toggle (x-test-favorite-toggle in movie-card.component.html) =============
+
+============= detail-favorite (x-test-detail-favorite in movie-detail.component.html) =============
+
+============= review-item (x-test-review-item in reviews.component.html) =============
+
+============= review-field-author (x-test-review-field-author in reviews.component.html) =============
+
+============= review-submit (x-test-review-submit in reviews.component.html) =============
+
+============= review-remove (x-test-review-remove in reviews.component.html) =============
+
+============= stat-total-value (x-test-stat-total-value in stats.component.html) =============
+
+============= genre-row (x-test-genre-row in stats.component.html) =============
+
+============= top-row (x-test-top-row in stats.component.html) =============
+
+============= top-title (x-test-top-title in stats.component.html) =============
+
+============= field-title (x-test-field-title in movie-form.component.html) =============
+
+============= form-submit (x-test-form-submit in movie-form.component.html) =============
+
+============= cast-add (x-test-cast-add in movie-form.component.html) =============
+
+============= catalog-add-button (x-test-add-button in catalog.component.html) =============
+
+============= catalog-reset-button (x-test-reset-button in catalog.component.html) =============
+
+============= catalog-empty (x-test-empty in catalog.component.html) =============
+
+============= catalog-modal-confirm (x-test-modal-confirm in catalog.component.html) =============
+
+============= card-meta (x-test-card-meta in movie-card.component.html) =============
+
+============= card-rating (x-test-card-rating in movie-card.component.html) =============
+
+============= card-poster (x-test-card-poster in movie-card.component.html) =============
+
+============= detail-title (x-test-detail-title in movie-detail.component.html) =============
+
+============= detail-synopsis (x-test-synopsis in movie-detail.component.html) =============
+
+============= detail-edit-button (x-test-edit-button in movie-detail.component.html) =============
+
+============= cast-name (x-test-cast-name in cast-row.component.html) =============
+
+============= cast-role (x-test-cast-role in cast-row.component.html) =============
+
+============= reviews-average (x-test-reviews-average in reviews.component.html) =============
+
+============= review-comment (x-test-review-comment in reviews.component.html) =============
+
+============= review-field-comment (x-test-review-field-comment in reviews.component.html) =============
+
+============= stats-heading (x-test-stats-heading in stats.component.html) =============
+
+============= genre-count (x-test-genre-count in stats.component.html) =============
+
+============= stat-favorites-value (x-test-stat-favorites-value in stats.component.html) =============
+
+============= field-year (x-test-field-year in movie-form.component.html) =============
+
+============= form-cancel (x-test-form-cancel in movie-form.component.html) =============
+
+============= cast-remove (x-test-cast-remove in movie-form.component.html) =============
+
+==============================================
+DONE (role 11x5). Saved: 666 | Rejected: 391 | NA: 743 | Applicable: 1057
+Matrix: output/mutations/role-mutations-matrix.csv
+Per-test report: output/mutations/role-per-test-report.csv
+Checkpoint: NOT running the mutation-tester. Stop for review.

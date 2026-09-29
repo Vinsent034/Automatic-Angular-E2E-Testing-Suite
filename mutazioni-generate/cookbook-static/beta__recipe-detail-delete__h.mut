@@ -1,0 +1,127 @@
+#mutation-id: h
+#element: beta
+#name: recipe-detail-delete
+#type: tag_mov_temp_mut
+#status: COMPLETE
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\cookbook\src\app\recipe-detail\recipe-detail.component.html #########
+@if (store.selected(); as recipe) {
+  <article class="detail-page" [attr.data-recipe-id]="recipe.id" [attr.data-course]="recipe.course">
+    <header class="detail-head">
+      <div class="detail-title-row">
+        <h1 class="detail-title" x-test-detail-title>{{ recipe.title }}</h1>
+        <span class="detail-course">{{ recipe.course }}</span>
+      </div>
+      <p class="detail-byline">
+        <span class="detail-author" x-test-detail-author>{{ recipe.author }}</span>
+        <span class="detail-rating">★ {{ recipe.rating }}</span>
+      </p>
+    </header>
+
+    <div class="detail-grid">
+      <app-panel heading="Ingredients" note="quantities follow the servings">
+        <div class="servings-box">
+          <label class="servings-field" for="servings-input">
+            <span class="field-label">Servings</span>
+            <input id="servings-input" class="input servings-input" type="number" min="1" max="24" [value]="store.servingsShown()" (change)="onServings($event)" x-test-servings>
+            <small class="servings-hint">recipe default: {{ recipe.servings }}</small>
+          </label>
+        </div>
+        <ul class="ingredient-list" aria-label="Ingredients">
+          @for (ingredient of recipe.ingredients; track ingredient.id) {
+            <li class="ingredient-slot">
+              <app-ingredient-row [ingredient]="ingredient"></app-ingredient-row>
+            </li>
+          }
+        </ul>
+      </app-panel>
+
+      <app-panel heading="Method" note="step by step">
+        <ol class="step-list" aria-label="Method">
+          @for (step of recipe.steps; track step.n) {
+            <li class="step-slot">
+              <app-step-item [step]="step"></app-step-item>
+            </li>
+          }
+        </ol>
+      </app-panel>
+
+      <app-panel heading="Nutrition" note="per serving">
+        <dl class="nutrition-grid">
+          <div class="nutri-row" data-nutrient="kcal">
+            <dt class="nutri-key">Energy</dt>
+            <dd class="nutri-val" x-test-kcal>{{ recipe.nutrition.kcal }}</dd>
+            <dd class="nutri-unit">kcal</dd>
+          </div>
+          <div class="nutri-row" data-nutrient="protein">
+            <dt class="nutri-key">Protein</dt>
+            <dd class="nutri-val" x-test-protein>{{ recipe.nutrition.protein }}</dd>
+            <dd class="nutri-unit">g</dd>
+          </div>
+          <div class="nutri-row" data-nutrient="carbs">
+            <dt class="nutri-key">Carbohydrates</dt>
+            <dd class="nutri-val">{{ recipe.nutrition.carbs }}</dd>
+            <dd class="nutri-unit">g</dd>
+          </div>
+          <div class="nutri-row" data-nutrient="fat">
+            <dt class="nutri-key">Fat</dt>
+            <dd class="nutri-val">{{ recipe.nutrition.fat }}</dd>
+            <dd class="nutri-unit">g</dd>
+          </div>
+        </dl>
+      </app-panel>
+    </div>
+
+    <footer class="detail-actions">
+      <div class="action-group">
+        <button type="button" class="btn btn-primary" (click)="store.addToShopping(recipe.id)" x-test-add-shopping>Add to shopping list</button>
+        <span class="action-note">{{ store.servingsShown() }} servings</span>
+      </div>
+      
+    </footer>
+  </article>
+} @else {
+  <div class="not-found-page">
+    <div class="not-found-box">
+      <p class="nf-text" x-test-not-found>Recipe not found</p>
+      <a class="btn btn-primary nf-back" routerLink="/">Back to recipes</a>
+    </div>
+  </div>
+}
+######### END FILE #########
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\cookbook\src\app\shopping-list\shopping-list.component.html #########
+<section class="shopping-page">
+ <div class="page-head">
+  <div class="title-block">
+   <h1 class="page-title" x-test-shopping-title>Shopping list</h1>
+   <p class="page-sub">Ingredients added from the recipes</p>
+  </div>
+ </div>
+ <div class="shopping-summary">
+  <p class="summary-line"><span class="summary-value" data-kind="open" x-test-open-count>{{ store.shoppingOpenCount() }}</span> <span class="summary-label">to buy</span></p>
+  <p class="summary-line"><span class="summary-value" data-kind="done" x-test-done-count>{{ store.shoppingDoneCount() }}</span> <span class="summary-label">bought</span></p>
+ </div>
+ <div class="shopping-body">
+  @if (store.shoppingGroups().length === 0) {
+  <div class="empty-box">
+   <p class="empty-text" x-test-shopping-empty>Your shopping list is empty</p>
+   <p class="empty-hint">Open a recipe and add its ingredients</p>
+  </div>
+  } @for (group of store.shoppingGroups(); track group.recipeId) {
+  <div class="shop-group" [attr.data-recipe-id]="group.recipeId">
+   <h2 class="group-title"><span class="group-name">{{ group.title }}</span> <span class="group-count">{{ group.items.length }}</span></h2>
+   <ul class="shop-items">
+    @for (item of group.items; track item.id) {
+    <li class="shop-item" [class.is-done]="item.done" [attr.data-item-id]="item.id"><label class="shop-check"> <input type="checkbox" class="shop-box" [checked]="item.done" (change)="store.toggleShopping(item.id)" [attr.aria-label]="'Bought ' + item.name" [attr.x-test-shop-check]="item.id"> <span class="shop-text">{{ store.formatQty(item.quantity) }} {{ item.unit }} {{ item.name }}</span> </label></li>
+    }
+   </ul>
+  </div>
+  }
+ </div>
+ <div class="shopping-actions">
+  <div class="action-group">
+   <button type="button" class="btn" (click)="store.clearDone()" x-test-clear-done>Clear bought items</button>
+   <span class="action-note">removes the checked lines</span>
+  </div>
+ </div>
+</section>
+######### END FILE #########

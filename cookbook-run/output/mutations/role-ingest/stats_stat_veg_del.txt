@@ -1,0 +1,26 @@
+######### START 1 - a #########
+<span class="stat-label-alt">Vegetarian</span>
+######### END 1 - a #########
+######### START 2 - b #########
+<span>Vegetarian</span>
+######### END 2 - b #########
+######### START 3 - c #########
+<span data-label="stat-label">Vegetarian</span>
+######### END 3 - c #########
+######### START 4 - d #########
+<span class="stat-label">Veg recipes</span>
+######### END 4 - d #########
+######### START 5 - e #########
+<span class="stat-label"> </span>
+######### END 5 - e #########
+######### START 6 - i #########
+Vegetarian
+######### END 6 - i #########
+######### START 7 - j #########
+<small class="stat-label">Vegetarian</small>
+######### END 7 - j #########
+######### START 8 - k #########
+<span>
+  <span class="stat-label">Vegetarian</span>
+</span>
+######### END 8 - k #########

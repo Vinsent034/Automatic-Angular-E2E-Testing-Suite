@@ -1,0 +1,56 @@
+{
+ "S5_OpenCount": {
+  "Absolute": {
+   "count": 1,
+   "same": true
+  },
+  "Robula": {
+   "count": 1,
+   "same": true
+  },
+  "RobulaPlus": {
+   "count": 1,
+   "same": true
+  },
+  "HookBased": {
+   "count": 1,
+   "same": true
+  }
+ },
+ "S5_ShopCheck": {
+  "Absolute": {
+   "count": 1,
+   "same": true
+  },
+  "Robula": {
+   "count": 1,
+   "same": true
+  },
+  "RobulaPlus": {
+   "count": 1,
+   "same": true
+  },
+  "HookBased": {
+   "count": 1,
+   "same": true
+  }
+ },
+ "S5_ClearDone": {
+  "Absolute": {
+   "count": 1,
+   "same": true
+  },
+  "Robula": {
+   "count": 1,
+   "same": true
+  },
+  "RobulaPlus": {
+   "count": 1,
+   "same": true
+  },
+  "HookBased": {
+   "count": 1,
+   "same": true
+  }
+ }
+}

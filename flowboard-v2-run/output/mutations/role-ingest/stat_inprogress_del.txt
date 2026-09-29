@@ -1,0 +1,23 @@
+######### START 1 - a #########
+<span class="stat-label-text" x-test-stat-inprogress-label>In Progress</span>
+######### END 1 - a #########
+######### START 1 - b #########
+<span x-test-stat-inprogress-label>In Progress</span>
+######### END 1 - b #########
+######### START 1 - c #########
+<span data-class="stat-label" x-test-stat-inprogress-label>In Progress</span>
+######### END 1 - c #########
+######### START 1 - d #########
+<span class="stat-label" x-test-stat-inprogress-label>Ongoing</span>
+######### END 1 - d #########
+######### START 1 - e #########
+<span class="stat-label" x-test-stat-inprogress-label> </span>
+######### END 1 - e #########
+######### START 1 - j #########
+<div class="stat-label" x-test-stat-inprogress-label>In Progress</div>
+######### END 1 - j #########
+######### START 1 - k #########
+<span class="stat-label-wrap">
+  <span class="stat-label" x-test-stat-inprogress-label>In Progress</span>
+</span>
+######### END 1 - k #########

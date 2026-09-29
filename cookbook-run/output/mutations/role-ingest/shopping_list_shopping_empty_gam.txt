@@ -1,0 +1,224 @@
+######### START 1 - a #########
+<div class="shopping-body-alt">
+    @if (store.shoppingGroups().length === 0) {
+      <div class="empty-box">
+        <p class="empty-text" x-test-shopping-empty>Your shopping list is empty</p>
+        <p class="empty-hint">Open a recipe and add its ingredients</p>
+      </div>
+    }
+    @for (group of store.shoppingGroups(); track group.recipeId) {
+      <div class="shop-group" [attr.data-recipe-id]="group.recipeId">
+        <h2 class="group-title">
+          <span class="group-name">{{ group.title }}</span>
+          <span class="group-count">{{ group.items.length }}</span>
+        </h2>
+        <ul class="shop-items">
+          @for (item of group.items; track item.id) {
+            <li class="shop-item" [class.is-done]="item.done" [attr.data-item-id]="item.id">
+              <label class="shop-check">
+                <input type="checkbox" class="shop-box" [checked]="item.done" (change)="store.toggleShopping(item.id)" [attr.aria-label]="'Bought ' + item.name" [attr.x-test-shop-check]="item.id">
+                <span class="shop-text">{{ store.formatQty(item.quantity) }} {{ item.unit }} {{ item.name }}</span>
+              </label>
+            </li>
+          }
+        </ul>
+      </div>
+    }
+  </div>
+######### END 1 - a #########
+######### START 2 - b #########
+<div>
+    @if (store.shoppingGroups().length === 0) {
+      <div class="empty-box">
+        <p class="empty-text" x-test-shopping-empty>Your shopping list is empty</p>
+        <p class="empty-hint">Open a recipe and add its ingredients</p>
+      </div>
+    }
+    @for (group of store.shoppingGroups(); track group.recipeId) {
+      <div class="shop-group" [attr.data-recipe-id]="group.recipeId">
+        <h2 class="group-title">
+          <span class="group-name">{{ group.title }}</span>
+          <span class="group-count">{{ group.items.length }}</span>
+        </h2>
+        <ul class="shop-items">
+          @for (item of group.items; track item.id) {
+            <li class="shop-item" [class.is-done]="item.done" [attr.data-item-id]="item.id">
+              <label class="shop-check">
+                <input type="checkbox" class="shop-box" [checked]="item.done" (change)="store.toggleShopping(item.id)" [attr.aria-label]="'Bought ' + item.name" [attr.x-test-shop-check]="item.id">
+                <span class="shop-text">{{ store.formatQty(item.quantity) }} {{ item.unit }} {{ item.name }}</span>
+              </label>
+            </li>
+          }
+        </ul>
+      </div>
+    }
+  </div>
+######### END 2 - b #########
+######### START 3 - c #########
+<div data-body="shopping-body">
+    @if (store.shoppingGroups().length === 0) {
+      <div class="empty-box">
+        <p class="empty-text" x-test-shopping-empty>Your shopping list is empty</p>
+        <p class="empty-hint">Open a recipe and add its ingredients</p>
+      </div>
+    }
+    @for (group of store.shoppingGroups(); track group.recipeId) {
+      <div class="shop-group" [attr.data-recipe-id]="group.recipeId">
+        <h2 class="group-title">
+          <span class="group-name">{{ group.title }}</span>
+          <span class="group-count">{{ group.items.length }}</span>
+        </h2>
+        <ul class="shop-items">
+          @for (item of group.items; track item.id) {
+            <li class="shop-item" [class.is-done]="item.done" [attr.data-item-id]="item.id">
+              <label class="shop-check">
+                <input type="checkbox" class="shop-box" [checked]="item.done" (change)="store.toggleShopping(item.id)" [attr.aria-label]="'Bought ' + item.name" [attr.x-test-shop-check]="item.id">
+                <span class="shop-text">{{ store.formatQty(item.quantity) }} {{ item.unit }} {{ item.name }}</span>
+              </label>
+            </li>
+          }
+        </ul>
+      </div>
+    }
+  </div>
+######### END 3 - c #########
+######### START 4 - d #########
+<div class="shopping-body">
+    @if (store.shoppingGroups().length === 0) {
+      <div class="empty-box">
+        <p class="empty-text" x-test-shopping-empty>Your shopping list is empty</p>
+        <p class="empty-hint">Add ingredients from a recipe</p>
+      </div>
+    }
+    @for (group of store.shoppingGroups(); track group.recipeId) {
+      <div class="shop-group" [attr.data-recipe-id]="group.recipeId">
+        <h2 class="group-title">
+          <span class="group-name">{{ group.title }}</span>
+          <span class="group-count">{{ group.items.length }}</span>
+        </h2>
+        <ul class="shop-items">
+          @for (item of group.items; track item.id) {
+            <li class="shop-item" [class.is-done]="item.done" [attr.data-item-id]="item.id">
+              <label class="shop-check">
+                <input type="checkbox" class="shop-box" [checked]="item.done" (change)="store.toggleShopping(item.id)" [attr.aria-label]="'Bought ' + item.name" [attr.x-test-shop-check]="item.id">
+                <span class="shop-text">{{ store.formatQty(item.quantity) }} {{ item.unit }} {{ item.name }}</span>
+              </label>
+            </li>
+          }
+        </ul>
+      </div>
+    }
+  </div>
+######### END 4 - d #########
+######### START 5 - e #########
+<div class="shopping-body">
+    @if (store.shoppingGroups().length === 0) {
+      <div class="empty-box">
+        <p class="empty-text" x-test-shopping-empty> </p>
+        <p class="empty-hint"> </p>
+      </div>
+    }
+    @for (group of store.shoppingGroups(); track group.recipeId) {
+      <div class="shop-group" [attr.data-recipe-id]="group.recipeId">
+        <h2 class="group-title">
+          <span class="group-name"> </span>
+          <span class="group-count"> </span>
+        </h2>
+        <ul class="shop-items">
+          @for (item of group.items; track item.id) {
+            <li class="shop-item" [class.is-done]="item.done" [attr.data-item-id]="item.id">
+              <label class="shop-check">
+                <input type="checkbox" class="shop-box" [checked]="item.done" (change)="store.toggleShopping(item.id)" [attr.aria-label]="'Bought ' + item.name" [attr.x-test-shop-check]="item.id">
+                <span class="shop-text"> </span>
+              </label>
+            </li>
+          }
+        </ul>
+      </div>
+    }
+  </div>
+######### END 5 - e #########
+######### START 6 - i #########
+@if (store.shoppingGroups().length === 0) {
+      <div class="empty-box">
+        <p class="empty-text" x-test-shopping-empty>Your shopping list is empty</p>
+        <p class="empty-hint">Open a recipe and add its ingredients</p>
+      </div>
+    }
+    @for (group of store.shoppingGroups(); track group.recipeId) {
+      <div class="shop-group" [attr.data-recipe-id]="group.recipeId">
+        <h2 class="group-title">
+          <span class="group-name">{{ group.title }}</span>
+          <span class="group-count">{{ group.items.length }}</span>
+        </h2>
+        <ul class="shop-items">
+          @for (item of group.items; track item.id) {
+            <li class="shop-item" [class.is-done]="item.done" [attr.data-item-id]="item.id">
+              <label class="shop-check">
+                <input type="checkbox" class="shop-box" [checked]="item.done" (change)="store.toggleShopping(item.id)" [attr.aria-label]="'Bought ' + item.name" [attr.x-test-shop-check]="item.id">
+                <span class="shop-text">{{ store.formatQty(item.quantity) }} {{ item.unit }} {{ item.name }}</span>
+              </label>
+            </li>
+          }
+        </ul>
+      </div>
+    }
+######### END 6 - i #########
+######### START 7 - j #########
+<section class="shopping-body">
+    @if (store.shoppingGroups().length === 0) {
+      <div class="empty-box">
+        <p class="empty-text" x-test-shopping-empty>Your shopping list is empty</p>
+        <p class="empty-hint">Open a recipe and add its ingredients</p>
+      </div>
+    }
+    @for (group of store.shoppingGroups(); track group.recipeId) {
+      <div class="shop-group" [attr.data-recipe-id]="group.recipeId">
+        <h2 class="group-title">
+          <span class="group-name">{{ group.title }}</span>
+          <span class="group-count">{{ group.items.length }}</span>
+        </h2>
+        <ul class="shop-items">
+          @for (item of group.items; track item.id) {
+            <li class="shop-item" [class.is-done]="item.done" [attr.data-item-id]="item.id">
+              <label class="shop-check">
+                <input type="checkbox" class="shop-box" [checked]="item.done" (change)="store.toggleShopping(item.id)" [attr.aria-label]="'Bought ' + item.name" [attr.x-test-shop-check]="item.id">
+                <span class="shop-text">{{ store.formatQty(item.quantity) }} {{ item.unit }} {{ item.name }}</span>
+              </label>
+            </li>
+          }
+        </ul>
+      </div>
+    }
+  </section>
+######### END 7 - j #########
+######### START 8 - k #########
+<div>
+  <div class="shopping-body">
+    @if (store.shoppingGroups().length === 0) {
+      <div class="empty-box">
+        <p class="empty-text" x-test-shopping-empty>Your shopping list is empty</p>
+        <p class="empty-hint">Open a recipe and add its ingredients</p>
+      </div>
+    }
+    @for (group of store.shoppingGroups(); track group.recipeId) {
+      <div class="shop-group" [attr.data-recipe-id]="group.recipeId">
+        <h2 class="group-title">
+          <span class="group-name">{{ group.title }}</span>
+          <span class="group-count">{{ group.items.length }}</span>
+        </h2>
+        <ul class="shop-items">
+          @for (item of group.items; track item.id) {
+            <li class="shop-item" [class.is-done]="item.done" [attr.data-item-id]="item.id">
+              <label class="shop-check">
+                <input type="checkbox" class="shop-box" [checked]="item.done" (change)="store.toggleShopping(item.id)" [attr.aria-label]="'Bought ' + item.name" [attr.x-test-shop-check]="item.id">
+                <span class="shop-text">{{ store.formatQty(item.quantity) }} {{ item.unit }} {{ item.name }}</span>
+              </label>
+            </li>
+          }
+        </ul>
+      </div>
+    }
+  </div>
+</div>
+######### END 8 - k #########

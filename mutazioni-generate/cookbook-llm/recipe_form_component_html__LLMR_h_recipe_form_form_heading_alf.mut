@@ -1,0 +1,214 @@
+#mutation-id: LLMR_h_recipe_form_form_heading_alf
+#element: recipe_form_component_html
+#name: h
+#type: LLM_ROLE
+#status: HELD
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\cookbook\src\app\recipe-form\recipe-form.component.html #########
+<section class="form-page">
+  <div class="page-head">
+    <div class="title-block">
+      
+      <p class="page-sub">Everything is kept in memory</p>
+    </div>
+  </div>
+
+  <form class="recipe-form" (ngSubmit)="submit()">
+    <div class="form-grid">
+      <div class="form-field field-title">
+        <label class="field-label" for="f-title">Title</label>
+        <div class="control">
+          <input id="f-title" name="title" class="input" type="text" placeholder="Recipe title" [(ngModel)]="title" x-test-f-title>
+          <small class="help">shown on the card</small>
+        </div>
+      </div>
+
+      <div class="form-field field-course">
+        <label class="field-label" for="f-course">Course</label>
+        <div class="control">
+          <select id="f-course" name="course" class="input" [(ngModel)]="course" x-test-f-course>
+            <option value="starter">Starter</option>
+            <option value="main">Main</option>
+            <option value="side">Side</option>
+            <option value="dessert">Dessert</option>
+          </select>
+          <small class="help">used by the course filter</small>
+        </div>
+      </div>
+
+      <div class="form-field field-difficulty">
+        <label class="field-label" for="f-difficulty">Difficulty</label>
+        <div class="control">
+          <select id="f-difficulty" name="difficulty" class="input" [(ngModel)]="difficulty">
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+          </select>
+          <small class="help">shown on the card</small>
+        </div>
+      </div>
+
+      <div class="form-field field-servings">
+        <label class="field-label" for="f-servings">Servings</label>
+        <div class="control">
+          <input id="f-servings" name="servings" class="input" type="number" min="1" max="24" [(ngModel)]="servings" x-test-f-servings>
+          <small class="help">base for the quantities</small>
+        </div>
+      </div>
+
+      <div class="form-field field-times">
+        <label class="field-label" for="f-prep">Preparation and cooking (minutes)</label>
+        <div class="control control-pair">
+          <input id="f-prep" name="prepMinutes" class="input" type="number" min="0" [(ngModel)]="prepMinutes">
+          <input id="f-cook" name="cookMinutes" class="input" type="number" min="0" [(ngModel)]="cookMinutes">
+        </div>
+      </div>
+
+      <div class="form-field field-veg">
+        <span class="field-label">Diet</span>
+        <div class="control">
+          <label class="check" for="f-veg">
+            <input id="f-veg" name="vegetarian" type="checkbox" [(ngModel)]="vegetarian" x-test-f-veg>
+            <span class="check-label">Vegetarian</span>
+          </label>
+          <small class="help">used by the vegetarian filter</small>
+        </div>
+      </div>
+
+      <div class="form-field field-author">
+        <label class="field-label" for="f-author">Author</label>
+        <div class="control">
+          <input id="f-author" name="author" class="input" type="text" placeholder="Who wrote it" [(ngModel)]="author">
+          <small class="help">optional</small>
+        </div>
+      </div>
+
+      <div class="form-field field-tags">
+        <label class="field-label" for="f-tags">Tags</label>
+        <div class="control">
+          <input id="f-tags" name="tags" class="input" type="text" placeholder="e.g. pasta, quick" [(ngModel)]="tagsText" x-test-f-tags>
+          <small class="help">comma separated</small>
+        </div>
+      </div>
+    </div>
+
+    <app-panel heading="Ingredients" note="one per line: quantity unit name">
+      <div class="area-field">
+        <label class="field-label" for="f-ingredients">Ingredient list</label>
+        <div class="control">
+          <textarea id="f-ingredients" name="ingredients" rows="6" class="input" [(ngModel)]="ingredientsText" x-test-f-ingredients></textarea>
+          <small class="help">example: 200 g Spaghetti</small>
+        </div>
+      </div>
+    </app-panel>
+
+    <app-panel heading="Method" note="one step per line">
+      <div class="area-field">
+        <label class="field-label" for="f-steps">Steps</label>
+        <div class="control">
+          <textarea id="f-steps" name="steps" rows="5" class="input" [(ngModel)]="stepsText" x-test-f-steps></textarea>
+          <small class="help">they are numbered automatically</small>
+        </div>
+      </div>
+    </app-panel>
+
+    <div class="form-actions">
+      <div class="action-group">
+        <button type="submit" class="btn btn-primary" x-test-f-submit>{{ editing() ? 'Save changes' : 'Create recipe' }}</button>
+        <span class="action-note form-error">{{ error() }}</span>
+      </div>
+      <div class="action-group">
+        <a class="btn btn-ghost" routerLink="/">Cancel</a>
+      </div>
+    </div>
+  </form>
+</section>
+######### END FILE #########
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\cookbook\src\app\recipe-detail\recipe-detail.component.html #########
+@if (store.selected(); as recipe) {
+  <article class="detail-page" [attr.data-recipe-id]="recipe.id" [attr.data-course]="recipe.course">
+    <header class="detail-head">
+      <div class="detail-title-row">
+        <h1 class="detail-title" x-test-detail-title>{{ recipe.title }}</h1>
+        <span class="detail-course">{{ recipe.course }}</span>
+      </div>
+      <p class="detail-byline">
+        <span class="detail-author" x-test-detail-author>{{ recipe.author }}</span>
+        <span class="detail-rating">★ {{ recipe.rating }}</span>
+      </p>
+    </header>
+
+    <div class="detail-grid">
+      <app-panel heading="Ingredients" note="quantities follow the servings">
+        <div class="servings-box">
+          <label class="servings-field" for="servings-input">
+            <span class="field-label">Servings</span>
+            <input id="servings-input" class="input servings-input" type="number" min="1" max="24" [value]="store.servingsShown()" (change)="onServings($event)" x-test-servings>
+            <small class="servings-hint">recipe default: {{ recipe.servings }}</small>
+          </label>
+        </div>
+        <ul class="ingredient-list" aria-label="Ingredients">
+          @for (ingredient of recipe.ingredients; track ingredient.id) {
+            <li class="ingredient-slot">
+              <app-ingredient-row [ingredient]="ingredient"></app-ingredient-row>
+            </li>
+          }
+        </ul>
+      </app-panel>
+
+      <app-panel heading="Method" note="step by step">
+        <ol class="step-list" aria-label="Method">
+          @for (step of recipe.steps; track step.n) {
+            <li class="step-slot">
+              <app-step-item [step]="step"></app-step-item>
+            </li>
+          }
+        </ol>
+      </app-panel>
+
+      <app-panel heading="Nutrition" note="per serving">
+        <dl class="nutrition-grid">
+          <div class="nutri-row" data-nutrient="kcal">
+            <dt class="nutri-key">Energy</dt>
+            <dd class="nutri-val" x-test-kcal>{{ recipe.nutrition.kcal }}</dd>
+            <dd class="nutri-unit">kcal</dd>
+          </div>
+          <div class="nutri-row" data-nutrient="protein">
+            <dt class="nutri-key">Protein</dt>
+            <dd class="nutri-val" x-test-protein>{{ recipe.nutrition.protein }}</dd>
+            <dd class="nutri-unit">g</dd>
+          </div>
+          <div class="nutri-row" data-nutrient="carbs">
+            <dt class="nutri-key">Carbohydrates</dt>
+            <dd class="nutri-val">{{ recipe.nutrition.carbs }}</dd>
+            <dd class="nutri-unit">g</dd>
+          </div>
+          <div class="nutri-row" data-nutrient="fat">
+            <dt class="nutri-key">Fat</dt>
+            <dd class="nutri-val">{{ recipe.nutrition.fat }}</dd>
+            <dd class="nutri-unit">g</dd>
+          </div>
+        </dl>
+      </app-panel>
+    </div>
+
+    <footer class="detail-actions">
+      <div class="action-group">
+        <button type="button" class="btn btn-primary" (click)="store.addToShopping(recipe.id)" x-test-add-shopping>Add to shopping list</button>
+        <span class="action-note">{{ store.servingsShown() }} servings</span>
+      </div>
+      <div class="action-group">
+        <a class="btn" [routerLink]="['/recipe', recipe.id, 'edit']">Edit</a>
+        <button type="button" class="btn btn-danger" (click)="deleteAndGoBack(recipe.id)" x-test-delete>Delete recipe</button>
+      </div>
+    </footer>
+  </article>
+} @else {
+  <div class="not-found-page">
+    <div class="not-found-box">
+      <p class="nf-text" x-test-not-found>Recipe not found</p>
+      <a class="btn btn-primary nf-back" routerLink="/">Back to recipes</a>
+    </div>
+  </div>
+}
+<h1 class="page-title" x-test-form-heading>{{ editing() ? 'Edit recipe' : 'New recipe' }}</h1>
+######### END FILE #########

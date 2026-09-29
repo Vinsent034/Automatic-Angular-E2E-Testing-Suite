@@ -3,9 +3,12 @@
 #name: b
 #type: LLM_ROLE
 #status: HELD
-######### FILE C:\Users\vince\OneDrive\Desktop\App tirocinio\Kanban board\src\app\card\card.component.html #########
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\Kanban board\src\app\card\card.component.html #########
 <article class="card" [attr.data-card-id]="card().id" [attr.data-priority]="card().priority" [attr.data-column]="card().columnId" [attr.aria-label]="'Card ' + card().title" [attr.x-test-card]="card().id">
-  <header><span class="card-id" [attr.x-test-card-id]="card().id">#{{ card().id }}</span><span class="badge priority-badge" [attr.data-priority]="card().priority" [attr.x-test-card-priority]="card().id">{{ card().priority }}</span></header>
+  <header>
+    <span class="card-id" [attr.x-test-card-id]="card().id">#{{ card().id }}</span>
+    <span class="badge priority-badge" [attr.data-priority]="card().priority" [attr.x-test-card-priority]="card().id">{{ card().priority }}</span>
+  </header>
 
   <a class="card-title-link" [routerLink]="['/card', card().id]" [attr.x-test-card-open]="card().id">
     <h4 class="card-title" [attr.x-test-card-title]="card().id">{{ card().title }}</h4>

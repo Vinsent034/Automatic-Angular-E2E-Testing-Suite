@@ -1,0 +1,53 @@
+{
+ "S3_FormTitle": {
+  "Relative": {
+   "count": 1,
+   "same": true,
+   "first": true
+  },
+  "Katalon": {
+   "count": 1,
+   "same": true,
+   "first": true
+  },
+  "Selenium": {
+   "count": 1,
+   "same": true,
+   "first": true
+  }
+ },
+ "S3_FormPriority": {
+  "Relative": {
+   "count": 1,
+   "same": true,
+   "first": true
+  },
+  "Katalon": {
+   "count": 1,
+   "same": true,
+   "first": true
+  },
+  "Selenium": {
+   "count": 1,
+   "same": true,
+   "first": true
+  }
+ },
+ "S3_FormSubmit": {
+  "Relative": {
+   "count": 1,
+   "same": true,
+   "first": true
+  },
+  "Katalon": {
+   "count": 1,
+   "same": true,
+   "first": true
+  },
+  "Selenium": {
+   "count": 1,
+   "same": true,
+   "first": true
+  }
+ }
+}

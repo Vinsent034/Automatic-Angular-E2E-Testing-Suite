@@ -49,3 +49,13 @@ completed-tests/PlaySong/play_song.db
 ### Backup delle basi di dati (non versionati) ###
 mutations.db*
 *.db.bak*
+
+### Copie di sicurezza e file di lavoro (settembre 2026) ###
+*.db
+*.bak
+*.bak-*
+*.bak.*
+__pycache__/
+*.prima-della-verifica
+run-interrotto-prima-del-fix/
+classi-v1-backup/

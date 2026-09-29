@@ -1,0 +1,72 @@
+######### START 1 - a #########
+<div class="shopping-summary-alt">
+    <p class="summary-line">
+      <span class="summary-value" data-kind="open" x-test-open-count>{{ store.shoppingOpenCount() }}</span>
+      <span class="summary-label">to buy</span>
+    </p>
+    <p class="summary-line">
+      <span class="summary-value" data-kind="done" x-test-done-count>{{ store.shoppingDoneCount() }}</span>
+      <span class="summary-label">bought</span>
+    </p>
+  </div>
+######### END 1 - a #########
+######### START 2 - b #########
+<div>
+    <p class="summary-line">
+      <span class="summary-value" data-kind="open" x-test-open-count>{{ store.shoppingOpenCount() }}</span>
+      <span class="summary-label">to buy</span>
+    </p>
+    <p class="summary-line">
+      <span class="summary-value" data-kind="done" x-test-done-count>{{ store.shoppingDoneCount() }}</span>
+      <span class="summary-label">bought</span>
+    </p>
+  </div>
+######### END 2 - b #########
+######### START 3 - c #########
+<div data-summary="shopping-summary">
+    <p class="summary-line">
+      <span class="summary-value" data-kind="open" x-test-open-count>{{ store.shoppingOpenCount() }}</span>
+      <span class="summary-label">to buy</span>
+    </p>
+    <p class="summary-line">
+      <span class="summary-value" data-kind="done" x-test-done-count>{{ store.shoppingDoneCount() }}</span>
+      <span class="summary-label">bought</span>
+    </p>
+  </div>
+######### END 3 - c #########
+######### START 4 - i #########
+<p class="summary-line">
+      <span class="summary-value" data-kind="open" x-test-open-count>{{ store.shoppingOpenCount() }}</span>
+      <span class="summary-label">to buy</span>
+    </p>
+    <p class="summary-line">
+      <span class="summary-value" data-kind="done" x-test-done-count>{{ store.shoppingDoneCount() }}</span>
+      <span class="summary-label">bought</span>
+    </p>
+######### END 4 - i #########
+######### START 5 - j #########
+<section class="shopping-summary">
+    <p class="summary-line">
+      <span class="summary-value" data-kind="open" x-test-open-count>{{ store.shoppingOpenCount() }}</span>
+      <span class="summary-label">to buy</span>
+    </p>
+    <p class="summary-line">
+      <span class="summary-value" data-kind="done" x-test-done-count>{{ store.shoppingDoneCount() }}</span>
+      <span class="summary-label">bought</span>
+    </p>
+  </section>
+######### END 5 - j #########
+######### START 6 - k #########
+<div>
+  <div class="shopping-summary">
+    <p class="summary-line">
+      <span class="summary-value" data-kind="open" x-test-open-count>{{ store.shoppingOpenCount() }}</span>
+      <span class="summary-label">to buy</span>
+    </p>
+    <p class="summary-line">
+      <span class="summary-value" data-kind="done" x-test-done-count>{{ store.shoppingDoneCount() }}</span>
+      <span class="summary-label">bought</span>
+    </p>
+  </div>
+</div>
+######### END 6 - k #########

@@ -2,12 +2,14 @@
 #element: catalog_component_html
 #name: k
 #type: LLM_ROLE
-#status: COMPLETE
-######### FILE C:\Users\vince\OneDrive\Desktop\App tirocinio\cinelib\src\app\catalog\catalog.component.html #########
+#status: HELD
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\cinelib\src\app\catalog\catalog.component.html #########
 <section class="catalog" x-test-catalog>
   <div class="toolbar">
     <div class="search-box">
-      <div class="search-wrap"><input type="text" class="search-input" placeholder="Search a movie…" [value]="query()" (input)="onSearch($any($event.target).value)" x-test-search-input></div>
+      <div>
+<input type="text" class="search-input" placeholder="Search a movie…" [value]="query()" (input)="onSearch($any($event.target).value)" x-test-search-input>
+</div>
     </div>
     <select class="field-input filter-select" [value]="genre()" (change)="onGenre($any($event.target).value)" x-test-filter-genre>
       <option value="">All genres</option>

@@ -1,0 +1,54 @@
+# TARGET: card-root  ([attr.x-test-card])
+# ROLE: alpha-target   FILE: C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/card/card.component.html
+# Mutate ONLY this element. For each operator below, output the element's MUTATED outerHTML.
+# Rules: result valid Angular 19; NEVER add/remove/rename/alter any x-test* attribute;
+#        apply ONLY the requested operator; the element must really differ from the original.
+
+ROLE ELEMENT (original):
+<article class="card" [attr.data-card-id]="card().id" [attr.data-priority]="card().priority" [attr.data-column]="card().columnId" [attr.aria-label]="'Card ' + card().title" [attr.x-test-card]="card().id">
+  <header class="card-top">
+    <span class="card-id" [attr.x-test-card-id]="card().id">#{{ card().id }}</span>
+    <span class="badge priority-badge" [attr.data-priority]="card().priority" [attr.x-test-card-priority]="card().id">{{ card().priority }}</span>
+  </header>
+
+  <a class="card-title-link" [routerLink]="['/card', card().id]" [attr.x-test-card-open]="card().id">
+    <h4 class="card-title" [attr.x-test-card-title]="card().id">{{ card().title }}</h4>
+  </a>
+
+  <div class="card-meta">
+    <span class="card-assignee" [attr.data-assignee]="card().assignee" [attr.x-test-card-assignee]="card().id">{{ card().assignee }}</span>
+    <ul class="tag-list" [attr.x-test-card-tags]="card().id">
+      @for (tag of card().tags; track tag) {
+        <li class="tag" [attr.data-tag]="tag">{{ tag }}</li>
+      }
+    </ul>
+  </div>
+
+  <footer class="card-actions">
+    <label class="move-label">
+      <span class="move-caption">Move</span>
+      <select class="input select move-select" [value]="card().columnId" (change)="onMove($event)" [attr.x-test-card-move]="card().id">
+        <option value="backlog">Backlog</option>
+        <option value="inprogress">In Progress</option>
+        <option value="review">Review</option>
+        <option value="done">Done</option>
+      </select>
+    </label>
+    <a class="btn btn-small btn-ghost edit-btn" [routerLink]="['/card', card().id, 'edit']" [attr.x-test-card-edit]="card().id">Edit</a>
+    <button class="btn btn-small btn-danger delete-btn" type="button" (click)="store.removeCard(card().id)" [attr.x-test-card-delete]="card().id">Delete</button>
+  </footer>
+</article>
+
+OPERATORS TO APPLY (one block each, body = mutated element outerHTML):
+- a (Attribute Value Modification): Change the VALUE of an existing attribute on an element, keeping the same attribute name.  [before: <tag attr="value">text</tag> -> after: <tag attr="newValue">text</tag>]
+- b (Attribute Removal): Remove an existing (non-essential) attribute from an element.  [before: <tag attr="value">text</tag> -> after: <tag>text</tag>]
+- c (Attribute Identifier Modification): Rename an existing attribute (change the attribute name, keep its value).  [before: <tag attr="value">text</tag> -> after: <tag newAttr="value">text</tag>]
+- j (HTML Tag Type Modification): Change the tag name of an element (e.g. div -> section), keeping attributes and content.  [before: <tag attr="value">text</tag> -> after: <newTag attr="value">text</newTag>]
+- k (HTML Tag Insertion): Insert a new wrapper/container tag around an existing element (add a hierarchy level).  [before: <tag attr="value">text</tag> -> after: <wrapper>
+  <tag attr="value">text</tag>
+</wrapper>]
+
+OUTPUT FORMAT (only these blocks, {op} = operator id):
+######### START 1 - {op} #########
+<mutated element>
+######### END 1 - {op} #########

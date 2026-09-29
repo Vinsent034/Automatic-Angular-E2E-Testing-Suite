@@ -1,0 +1,26 @@
+######### START 1 - a #########
+<dd class="nutri-unit-alt">g</dd>
+######### END 1 - a #########
+######### START 2 - b #########
+<dd>g</dd>
+######### END 2 - b #########
+######### START 3 - c #########
+<dd data-unit="nutri-unit">g</dd>
+######### END 3 - c #########
+######### START 4 - d #########
+<dd class="nutri-unit">gram</dd>
+######### END 4 - d #########
+######### START 5 - e #########
+<dd class="nutri-unit"> </dd>
+######### END 5 - e #########
+######### START 6 - i #########
+g
+######### END 6 - i #########
+######### START 7 - j #########
+<span class="nutri-unit">g</span>
+######### END 7 - j #########
+######### START 8 - k #########
+<div>
+  <dd class="nutri-unit">g</dd>
+</div>
+######### END 8 - k #########

@@ -1,0 +1,2366 @@
+Nome,Elemento,Mutazione,Stato,Errore
+app-footer-brand,alpha,a,KO,Target element has no attributes
+app-footer-brand,delta,a,KO,Target element has no attributes
+app-footer-brand,beta,a,KO,Target element has no attributes
+app-footer-brand,gamma,a,KO,Target element has no attributes
+app-footer-brand,alpha,b,KO,Target element has no valid candidate attributes
+app-footer-brand,delta,b,KO,Target element has no valid candidate attributes
+app-footer-brand,beta,b,KO,Target element has no valid candidate attributes
+app-footer-brand,gamma,b,KO,Target element has no valid candidate attributes
+app-footer-brand,alpha,c,KO,Target element has no id attribute
+app-footer-brand,delta,c,KO,Target element has no id attribute
+app-footer-brand,beta,c,KO,Target element has no id attribute
+app-footer-brand,gamma,c,KO,Target element has no id attribute
+app-footer-brand,alpha,d,OK,
+app-footer-brand,delta,d,OK,
+app-footer-brand,beta,d,KO,Target element text content is empty
+app-footer-brand,gamma,d,KO,Target element text content is empty
+app-footer-brand,alpha,e,OK,
+app-footer-brand,delta,e,OK,
+app-footer-brand,beta,e,KO,Target element text content is empty
+app-footer-brand,gamma,e,KO,Target element text content is empty
+app-footer-brand,alpha,f,OK,
+app-footer-brand,delta,f,OK,
+app-footer-brand,beta,f,OK,
+app-footer-brand,gamma,f,KO,The parent is null or empty
+app-footer-brand,alpha,g,OK,
+app-footer-brand,delta,g,OK,
+app-footer-brand,beta,g,OK,
+app-footer-brand,gamma,g,OK,
+app-footer-brand,alpha,h,OK,
+app-footer-brand,delta,h,OK,
+app-footer-brand,beta,h,OK,
+app-footer-brand,gamma,h,OK,
+app-footer-brand,alpha,i,OK,
+app-footer-brand,delta,i,OK,
+app-footer-brand,beta,i,OK,
+app-footer-brand,gamma,i,OK,
+app-footer-brand,alpha,j,OK,
+app-footer-brand,delta,j,OK,
+app-footer-brand,beta,j,OK,
+app-footer-brand,gamma,j,OK,
+app-footer-brand,alpha,k,OK,
+app-footer-brand,delta,k,OK,
+app-footer-brand,beta,k,OK,
+app-footer-brand,gamma,k,OK,
+app-footer-version,alpha,a,KO,Target element has no attributes
+app-footer-version,delta,a,KO,Target element has no attributes
+app-footer-version,beta,a,KO,Target element has no attributes
+app-footer-version,gamma,a,KO,Target element has no attributes
+app-footer-version,alpha,b,KO,Target element has no valid candidate attributes
+app-footer-version,delta,b,KO,Target element has no valid candidate attributes
+app-footer-version,beta,b,KO,Target element has no valid candidate attributes
+app-footer-version,gamma,b,KO,Target element has no valid candidate attributes
+app-footer-version,alpha,c,KO,Target element has no id attribute
+app-footer-version,delta,c,KO,Target element has no id attribute
+app-footer-version,beta,c,KO,Target element has no id attribute
+app-footer-version,gamma,c,KO,Target element has no id attribute
+app-footer-version,alpha,d,OK,
+app-footer-version,delta,d,OK,
+app-footer-version,beta,d,KO,Target element text content is empty
+app-footer-version,gamma,d,KO,Target element text content is empty
+app-footer-version,alpha,e,OK,
+app-footer-version,delta,e,OK,
+app-footer-version,beta,e,KO,Target element text content is empty
+app-footer-version,gamma,e,KO,Target element text content is empty
+app-footer-version,alpha,f,OK,
+app-footer-version,delta,f,OK,
+app-footer-version,beta,f,OK,
+app-footer-version,gamma,f,KO,The parent is null or empty
+app-footer-version,alpha,g,OK,
+app-footer-version,delta,g,OK,
+app-footer-version,beta,g,OK,
+app-footer-version,gamma,g,OK,
+app-footer-version,alpha,h,OK,
+app-footer-version,delta,h,OK,
+app-footer-version,beta,h,OK,
+app-footer-version,gamma,h,OK,
+app-footer-version,alpha,i,OK,
+app-footer-version,delta,i,OK,
+app-footer-version,beta,i,OK,
+app-footer-version,gamma,i,OK,
+app-footer-version,alpha,j,OK,
+app-footer-version,delta,j,OK,
+app-footer-version,beta,j,OK,
+app-footer-version,gamma,j,OK,
+app-footer-version,alpha,k,OK,
+app-footer-version,delta,k,OK,
+app-footer-version,beta,k,OK,
+app-footer-version,gamma,k,OK,
+header-brand-name,alpha,a,KO,Target element has no attributes
+header-brand-name,delta,a,OK,
+header-brand-name,beta,a,OK,
+header-brand-name,gamma,a,KO,Target element has no attributes
+header-brand-name,alpha,b,KO,Target element has no valid candidate attributes
+header-brand-name,delta,b,OK,
+header-brand-name,beta,b,OK,
+header-brand-name,gamma,b,KO,Target element has no valid candidate attributes
+header-brand-name,alpha,c,KO,Target element has no id attribute
+header-brand-name,delta,c,KO,Target element has no id attribute
+header-brand-name,beta,c,KO,Target element has no id attribute
+header-brand-name,gamma,c,KO,Target element has no id attribute
+header-brand-name,alpha,d,OK,
+header-brand-name,delta,d,OK,
+header-brand-name,beta,d,KO,Target element text content is empty
+header-brand-name,gamma,d,KO,Target element text content is empty
+header-brand-name,alpha,e,OK,
+header-brand-name,delta,e,OK,
+header-brand-name,beta,e,KO,Target element text content is empty
+header-brand-name,gamma,e,KO,Target element text content is empty
+header-brand-name,alpha,f,OK,
+header-brand-name,delta,f,OK,
+header-brand-name,beta,f,OK,
+header-brand-name,gamma,f,OK,
+header-brand-name,alpha,g,OK,
+header-brand-name,delta,g,OK,
+header-brand-name,beta,g,OK,
+header-brand-name,gamma,g,OK,
+header-brand-name,alpha,h,OK,
+header-brand-name,delta,h,OK,
+header-brand-name,beta,h,OK,
+header-brand-name,gamma,h,OK,
+header-brand-name,alpha,i,OK,
+header-brand-name,delta,i,OK,
+header-brand-name,beta,i,OK,
+header-brand-name,gamma,i,OK,
+header-brand-name,alpha,j,OK,
+header-brand-name,delta,j,OK,
+header-brand-name,beta,j,OK,
+header-brand-name,gamma,j,OK,
+header-brand-name,alpha,k,OK,
+header-brand-name,delta,k,OK,
+header-brand-name,beta,k,OK,
+header-brand-name,gamma,k,OK,
+header-nav-shopping,alpha,a,OK,
+header-nav-shopping,delta,a,OK,
+header-nav-shopping,beta,a,KO,Target element has no attributes
+header-nav-shopping,gamma,a,KO,Target element has no attributes
+header-nav-shopping,alpha,b,OK,
+header-nav-shopping,delta,b,OK,
+header-nav-shopping,beta,b,KO,Target element has no valid candidate attributes
+header-nav-shopping,gamma,b,KO,Target element has no valid candidate attributes
+header-nav-shopping,alpha,c,KO,Target element has no id attribute
+header-nav-shopping,delta,c,KO,Target element has no id attribute
+header-nav-shopping,beta,c,KO,Target element has no id attribute
+header-nav-shopping,gamma,c,KO,Target element has no id attribute
+header-nav-shopping,alpha,d,OK,
+header-nav-shopping,delta,d,OK,
+header-nav-shopping,beta,d,KO,Target element text content is empty
+header-nav-shopping,gamma,d,KO,Target element text content is empty
+header-nav-shopping,alpha,e,OK,
+header-nav-shopping,delta,e,OK,
+header-nav-shopping,beta,e,KO,Target element text content is empty
+header-nav-shopping,gamma,e,KO,Target element text content is empty
+header-nav-shopping,alpha,f,OK,
+header-nav-shopping,delta,f,OK,
+header-nav-shopping,beta,f,OK,
+header-nav-shopping,gamma,f,KO,The parent is null or empty
+header-nav-shopping,alpha,g,OK,
+header-nav-shopping,delta,g,OK,
+header-nav-shopping,beta,g,OK,
+header-nav-shopping,gamma,g,OK,
+header-nav-shopping,alpha,h,OK,
+header-nav-shopping,delta,h,OK,
+header-nav-shopping,beta,h,OK,
+header-nav-shopping,gamma,h,OK,
+header-nav-shopping,alpha,i,OK,
+header-nav-shopping,delta,i,OK,
+header-nav-shopping,beta,i,OK,
+header-nav-shopping,gamma,i,OK,
+header-nav-shopping,alpha,j,OK,
+header-nav-shopping,delta,j,OK,
+header-nav-shopping,beta,j,OK,
+header-nav-shopping,gamma,j,OK,
+header-nav-shopping,alpha,k,OK,
+header-nav-shopping,delta,k,OK,
+header-nav-shopping,beta,k,OK,
+header-nav-shopping,gamma,k,OK,
+header-nav-stats,alpha,a,OK,
+header-nav-stats,delta,a,KO,Target element has no attributes
+header-nav-stats,beta,a,KO,Target element has no attributes
+header-nav-stats,gamma,a,KO,Target element has no attributes
+header-nav-stats,alpha,b,OK,
+header-nav-stats,delta,b,KO,Target element has no valid candidate attributes
+header-nav-stats,beta,b,KO,Target element has no valid candidate attributes
+header-nav-stats,gamma,b,KO,Target element has no valid candidate attributes
+header-nav-stats,alpha,c,KO,Target element has no id attribute
+header-nav-stats,delta,c,KO,Target element has no id attribute
+header-nav-stats,beta,c,KO,Target element has no id attribute
+header-nav-stats,gamma,c,KO,Target element has no id attribute
+header-nav-stats,alpha,d,OK,
+header-nav-stats,delta,d,OK,
+header-nav-stats,beta,d,KO,Target element text content is empty
+header-nav-stats,gamma,d,KO,Target element text content is empty
+header-nav-stats,alpha,e,OK,
+header-nav-stats,delta,e,OK,
+header-nav-stats,beta,e,KO,Target element text content is empty
+header-nav-stats,gamma,e,KO,Target element text content is empty
+header-nav-stats,alpha,f,OK,
+header-nav-stats,delta,f,OK,
+header-nav-stats,beta,f,OK,
+header-nav-stats,gamma,f,KO,The parent is null or empty
+header-nav-stats,alpha,g,OK,
+header-nav-stats,delta,g,OK,
+header-nav-stats,beta,g,OK,
+header-nav-stats,gamma,g,OK,
+header-nav-stats,alpha,h,OK,
+header-nav-stats,delta,h,OK,
+header-nav-stats,beta,h,OK,
+header-nav-stats,gamma,h,OK,
+header-nav-stats,alpha,i,OK,
+header-nav-stats,delta,i,OK,
+header-nav-stats,beta,i,OK,
+header-nav-stats,gamma,i,OK,
+header-nav-stats,alpha,j,OK,
+header-nav-stats,delta,j,OK,
+header-nav-stats,beta,j,OK,
+header-nav-stats,gamma,j,OK,
+header-nav-stats,alpha,k,OK,
+header-nav-stats,delta,k,OK,
+header-nav-stats,beta,k,OK,
+header-nav-stats,gamma,k,OK,
+toast-toast-message,alpha,a,KO,Target element has no attributes
+toast-toast-message,delta,a,OK,
+toast-toast-message,beta,a,KO,Target element has no attributes
+toast-toast-message,gamma,a,OK,
+toast-toast-message,alpha,b,KO,Target element has no valid candidate attributes
+toast-toast-message,delta,b,OK,
+toast-toast-message,beta,b,KO,Target element has no valid candidate attributes
+toast-toast-message,gamma,b,OK,
+toast-toast-message,alpha,c,KO,Target element has no id attribute
+toast-toast-message,delta,c,KO,Target element has no id attribute
+toast-toast-message,beta,c,KO,Target element has no id attribute
+toast-toast-message,gamma,c,KO,Target element has no id attribute
+toast-toast-message,alpha,d,OK,
+toast-toast-message,delta,d,OK,
+toast-toast-message,beta,d,KO,Target element text content is empty
+toast-toast-message,gamma,d,KO,Target element text content is empty
+toast-toast-message,alpha,e,OK,
+toast-toast-message,delta,e,OK,
+toast-toast-message,beta,e,KO,Target element text content is empty
+toast-toast-message,gamma,e,KO,Target element text content is empty
+toast-toast-message,alpha,f,OK,
+toast-toast-message,delta,f,OK,
+toast-toast-message,beta,f,KO,The parent is null or empty
+toast-toast-message,gamma,f,KO,The parent is null or empty
+toast-toast-message,alpha,g,OK,
+toast-toast-message,delta,g,OK,
+toast-toast-message,beta,g,OK,
+toast-toast-message,gamma,g,OK,
+toast-toast-message,alpha,h,OK,
+toast-toast-message,delta,h,OK,
+toast-toast-message,beta,h,OK,
+toast-toast-message,gamma,h,OK,
+toast-toast-message,alpha,i,OK,
+toast-toast-message,delta,i,OK,
+toast-toast-message,beta,i,OK,
+toast-toast-message,gamma,i,OK,
+toast-toast-message,alpha,j,OK,
+toast-toast-message,delta,j,OK,
+toast-toast-message,beta,j,OK,
+toast-toast-message,gamma,j,OK,
+toast-toast-message,alpha,k,OK,
+toast-toast-message,delta,k,OK,
+toast-toast-message,beta,k,OK,
+toast-toast-message,gamma,k,OK,
+recipe-list-list-title,alpha,a,KO,Target element has no attributes
+recipe-list-list-title,delta,a,KO,Target element has no attributes
+recipe-list-list-title,beta,a,KO,Target element has no attributes
+recipe-list-list-title,gamma,a,KO,Target element has no attributes
+recipe-list-list-title,alpha,b,KO,Target element has no valid candidate attributes
+recipe-list-list-title,delta,b,KO,Target element has no valid candidate attributes
+recipe-list-list-title,beta,b,KO,Target element has no valid candidate attributes
+recipe-list-list-title,gamma,b,KO,Target element has no valid candidate attributes
+recipe-list-list-title,alpha,c,KO,Target element has no id attribute
+recipe-list-list-title,delta,c,KO,Target element has no id attribute
+recipe-list-list-title,beta,c,KO,Target element has no id attribute
+recipe-list-list-title,gamma,c,KO,Target element has no id attribute
+recipe-list-list-title,alpha,d,OK,
+recipe-list-list-title,delta,d,OK,
+recipe-list-list-title,beta,d,KO,Target element text content is empty
+recipe-list-list-title,gamma,d,KO,Target element text content is empty
+recipe-list-list-title,alpha,e,OK,
+recipe-list-list-title,delta,e,OK,
+recipe-list-list-title,beta,e,KO,Target element text content is empty
+recipe-list-list-title,gamma,e,KO,Target element text content is empty
+recipe-list-list-title,alpha,f,OK,
+recipe-list-list-title,delta,f,OK,
+recipe-list-list-title,beta,f,KO,The parent is null or empty
+recipe-list-list-title,gamma,f,OK,
+recipe-list-list-title,alpha,g,OK,
+recipe-list-list-title,delta,g,OK,
+recipe-list-list-title,beta,g,OK,
+recipe-list-list-title,gamma,g,OK,
+recipe-list-list-title,alpha,h,OK,
+recipe-list-list-title,delta,h,OK,
+recipe-list-list-title,beta,h,OK,
+recipe-list-list-title,gamma,h,OK,
+recipe-list-list-title,alpha,i,OK,
+recipe-list-list-title,delta,i,OK,
+recipe-list-list-title,beta,i,OK,
+recipe-list-list-title,gamma,i,OK,
+recipe-list-list-title,alpha,j,OK,
+recipe-list-list-title,delta,j,OK,
+recipe-list-list-title,beta,j,OK,
+recipe-list-list-title,gamma,j,OK,
+recipe-list-list-title,alpha,k,OK,
+recipe-list-list-title,delta,k,OK,
+recipe-list-list-title,beta,k,OK,
+recipe-list-list-title,gamma,k,OK,
+recipe-list-search,alpha,a,OK,
+recipe-list-search,delta,a,KO,Target element has no attributes
+recipe-list-search,beta,a,OK,
+recipe-list-search,gamma,a,KO,Target element has no attributes
+recipe-list-search,alpha,b,OK,
+recipe-list-search,delta,b,KO,Target element has no valid candidate attributes
+recipe-list-search,beta,b,OK,
+recipe-list-search,gamma,b,KO,Target element has no valid candidate attributes
+recipe-list-search,alpha,c,OK,
+recipe-list-search,delta,c,KO,Target element has no id attribute
+recipe-list-search,beta,c,KO,Target element has no id attribute
+recipe-list-search,gamma,c,KO,Target element has no id attribute
+recipe-list-search,alpha,d,KO,Target element has no child nodes
+recipe-list-search,delta,d,OK,
+recipe-list-search,beta,d,KO,Target element text content is empty
+recipe-list-search,gamma,d,KO,Target element text content is empty
+recipe-list-search,alpha,e,KO,Target element has no child nodes
+recipe-list-search,delta,e,OK,
+recipe-list-search,beta,e,KO,Target element text content is empty
+recipe-list-search,gamma,e,KO,Target element text content is empty
+recipe-list-search,alpha,f,OK,
+recipe-list-search,delta,f,OK,
+recipe-list-search,beta,f,KO,The parent is null or empty
+recipe-list-search,gamma,f,OK,
+recipe-list-search,alpha,g,OK,
+recipe-list-search,delta,g,OK,
+recipe-list-search,beta,g,OK,
+recipe-list-search,gamma,g,OK,
+recipe-list-search,alpha,h,OK,
+recipe-list-search,delta,h,OK,
+recipe-list-search,beta,h,OK,
+recipe-list-search,gamma,h,OK,
+recipe-list-search,alpha,i,OK,
+recipe-list-search,delta,i,OK,
+recipe-list-search,beta,i,OK,
+recipe-list-search,gamma,i,OK,
+recipe-list-search,alpha,j,OK,
+recipe-list-search,delta,j,OK,
+recipe-list-search,beta,j,OK,
+recipe-list-search,gamma,j,OK,
+recipe-list-search,alpha,k,OK,
+recipe-list-search,delta,k,OK,
+recipe-list-search,beta,k,OK,
+recipe-list-search,gamma,k,OK,
+recipe-list-course-filter,alpha,a,OK,
+recipe-list-course-filter,delta,a,KO,Target element has no attributes
+recipe-list-course-filter,beta,a,OK,
+recipe-list-course-filter,gamma,a,KO,Target element has no attributes
+recipe-list-course-filter,alpha,b,OK,
+recipe-list-course-filter,delta,b,KO,Target element has no valid candidate attributes
+recipe-list-course-filter,beta,b,OK,
+recipe-list-course-filter,gamma,b,KO,Target element has no valid candidate attributes
+recipe-list-course-filter,alpha,c,OK,
+recipe-list-course-filter,delta,c,KO,Target element has no id attribute
+recipe-list-course-filter,beta,c,KO,Target element has no id attribute
+recipe-list-course-filter,gamma,c,KO,Target element has no id attribute
+recipe-list-course-filter,alpha,d,KO,Target element text content is empty
+recipe-list-course-filter,delta,d,OK,
+recipe-list-course-filter,beta,d,KO,Target element text content is empty
+recipe-list-course-filter,gamma,d,KO,Target element text content is empty
+recipe-list-course-filter,alpha,e,KO,Target element text content is empty
+recipe-list-course-filter,delta,e,OK,
+recipe-list-course-filter,beta,e,KO,Target element text content is empty
+recipe-list-course-filter,gamma,e,KO,Target element text content is empty
+recipe-list-course-filter,alpha,f,OK,
+recipe-list-course-filter,delta,f,OK,
+recipe-list-course-filter,beta,f,KO,The parent is null or empty
+recipe-list-course-filter,gamma,f,OK,
+recipe-list-course-filter,alpha,g,OK,
+recipe-list-course-filter,delta,g,OK,
+recipe-list-course-filter,beta,g,OK,
+recipe-list-course-filter,gamma,g,OK,
+recipe-list-course-filter,alpha,h,OK,
+recipe-list-course-filter,delta,h,OK,
+recipe-list-course-filter,beta,h,OK,
+recipe-list-course-filter,gamma,h,OK,
+recipe-list-course-filter,alpha,i,OK,
+recipe-list-course-filter,delta,i,OK,
+recipe-list-course-filter,beta,i,OK,
+recipe-list-course-filter,gamma,i,OK,
+recipe-list-course-filter,alpha,j,OK,
+recipe-list-course-filter,delta,j,OK,
+recipe-list-course-filter,beta,j,OK,
+recipe-list-course-filter,gamma,j,OK,
+recipe-list-course-filter,alpha,k,OK,
+recipe-list-course-filter,delta,k,OK,
+recipe-list-course-filter,beta,k,OK,
+recipe-list-course-filter,gamma,k,OK,
+recipe-list-veg-only,alpha,a,OK,
+recipe-list-veg-only,delta,a,KO,Target element has no attributes
+recipe-list-veg-only,beta,a,OK,
+recipe-list-veg-only,gamma,a,KO,Target element has no attributes
+recipe-list-veg-only,alpha,b,OK,
+recipe-list-veg-only,delta,b,KO,Target element has no valid candidate attributes
+recipe-list-veg-only,beta,b,OK,
+recipe-list-veg-only,gamma,b,KO,Target element has no valid candidate attributes
+recipe-list-veg-only,alpha,c,OK,
+recipe-list-veg-only,delta,c,KO,Target element has no id attribute
+recipe-list-veg-only,beta,c,KO,Target element has no id attribute
+recipe-list-veg-only,gamma,c,KO,Target element has no id attribute
+recipe-list-veg-only,alpha,d,KO,Target element has no child nodes
+recipe-list-veg-only,delta,d,OK,
+recipe-list-veg-only,beta,d,KO,Target element text content is empty
+recipe-list-veg-only,gamma,d,KO,Target element text content is empty
+recipe-list-veg-only,alpha,e,KO,Target element has no child nodes
+recipe-list-veg-only,delta,e,OK,
+recipe-list-veg-only,beta,e,KO,Target element text content is empty
+recipe-list-veg-only,gamma,e,KO,Target element text content is empty
+recipe-list-veg-only,alpha,f,OK,
+recipe-list-veg-only,delta,f,OK,
+recipe-list-veg-only,beta,f,KO,The parent is null or empty
+recipe-list-veg-only,gamma,f,OK,
+recipe-list-veg-only,alpha,g,OK,
+recipe-list-veg-only,delta,g,OK,
+recipe-list-veg-only,beta,g,OK,
+recipe-list-veg-only,gamma,g,OK,
+recipe-list-veg-only,alpha,h,OK,
+recipe-list-veg-only,delta,h,OK,
+recipe-list-veg-only,beta,h,OK,
+recipe-list-veg-only,gamma,h,OK,
+recipe-list-veg-only,alpha,i,OK,
+recipe-list-veg-only,delta,i,OK,
+recipe-list-veg-only,beta,i,OK,
+recipe-list-veg-only,gamma,i,OK,
+recipe-list-veg-only,alpha,j,OK,
+recipe-list-veg-only,delta,j,OK,
+recipe-list-veg-only,beta,j,OK,
+recipe-list-veg-only,gamma,j,OK,
+recipe-list-veg-only,alpha,k,OK,
+recipe-list-veg-only,delta,k,OK,
+recipe-list-veg-only,beta,k,OK,
+recipe-list-veg-only,gamma,k,OK,
+recipe-list-sort,alpha,a,OK,
+recipe-list-sort,delta,a,KO,Target element has no attributes
+recipe-list-sort,beta,a,OK,
+recipe-list-sort,gamma,a,KO,Target element has no attributes
+recipe-list-sort,alpha,b,OK,
+recipe-list-sort,delta,b,KO,Target element has no valid candidate attributes
+recipe-list-sort,beta,b,OK,
+recipe-list-sort,gamma,b,KO,Target element has no valid candidate attributes
+recipe-list-sort,alpha,c,OK,
+recipe-list-sort,delta,c,KO,Target element has no id attribute
+recipe-list-sort,beta,c,KO,Target element has no id attribute
+recipe-list-sort,gamma,c,KO,Target element has no id attribute
+recipe-list-sort,alpha,d,KO,Target element text content is empty
+recipe-list-sort,delta,d,OK,
+recipe-list-sort,beta,d,KO,Target element text content is empty
+recipe-list-sort,gamma,d,KO,Target element text content is empty
+recipe-list-sort,alpha,e,KO,Target element text content is empty
+recipe-list-sort,delta,e,OK,
+recipe-list-sort,beta,e,KO,Target element text content is empty
+recipe-list-sort,gamma,e,KO,Target element text content is empty
+recipe-list-sort,alpha,f,OK,
+recipe-list-sort,delta,f,OK,
+recipe-list-sort,beta,f,KO,The parent is null or empty
+recipe-list-sort,gamma,f,OK,
+recipe-list-sort,alpha,g,OK,
+recipe-list-sort,delta,g,OK,
+recipe-list-sort,beta,g,OK,
+recipe-list-sort,gamma,g,OK,
+recipe-list-sort,alpha,h,OK,
+recipe-list-sort,delta,h,OK,
+recipe-list-sort,beta,h,OK,
+recipe-list-sort,gamma,h,OK,
+recipe-list-sort,alpha,i,OK,
+recipe-list-sort,delta,i,OK,
+recipe-list-sort,beta,i,OK,
+recipe-list-sort,gamma,i,OK,
+recipe-list-sort,alpha,j,OK,
+recipe-list-sort,delta,j,OK,
+recipe-list-sort,beta,j,OK,
+recipe-list-sort,gamma,j,OK,
+recipe-list-sort,alpha,k,OK,
+recipe-list-sort,delta,k,OK,
+recipe-list-sort,beta,k,OK,
+recipe-list-sort,gamma,k,OK,
+recipe-list-result-count,alpha,a,OK,
+recipe-list-result-count,delta,a,KO,Target element has no attributes
+recipe-list-result-count,beta,a,KO,Target element has no attributes
+recipe-list-result-count,gamma,a,KO,Target element has no attributes
+recipe-list-result-count,alpha,b,OK,
+recipe-list-result-count,delta,b,KO,Target element has no valid candidate attributes
+recipe-list-result-count,beta,b,KO,Target element has no valid candidate attributes
+recipe-list-result-count,gamma,b,KO,Target element has no valid candidate attributes
+recipe-list-result-count,alpha,c,KO,Target element has no id attribute
+recipe-list-result-count,delta,c,KO,Target element has no id attribute
+recipe-list-result-count,beta,c,KO,Target element has no id attribute
+recipe-list-result-count,gamma,c,KO,Target element has no id attribute
+recipe-list-result-count,alpha,d,OK,
+recipe-list-result-count,delta,d,OK,
+recipe-list-result-count,beta,d,KO,Target element text content is empty
+recipe-list-result-count,gamma,d,KO,Target element text content is empty
+recipe-list-result-count,alpha,e,OK,
+recipe-list-result-count,delta,e,OK,
+recipe-list-result-count,beta,e,KO,Target element text content is empty
+recipe-list-result-count,gamma,e,KO,Target element text content is empty
+recipe-list-result-count,alpha,f,OK,
+recipe-list-result-count,delta,f,OK,
+recipe-list-result-count,beta,f,OK,
+recipe-list-result-count,gamma,f,OK,
+recipe-list-result-count,alpha,g,OK,
+recipe-list-result-count,delta,g,OK,
+recipe-list-result-count,beta,g,OK,
+recipe-list-result-count,gamma,g,OK,
+recipe-list-result-count,alpha,h,OK,
+recipe-list-result-count,delta,h,OK,
+recipe-list-result-count,beta,h,OK,
+recipe-list-result-count,gamma,h,OK,
+recipe-list-result-count,alpha,i,OK,
+recipe-list-result-count,delta,i,OK,
+recipe-list-result-count,beta,i,OK,
+recipe-list-result-count,gamma,i,OK,
+recipe-list-result-count,alpha,j,OK,
+recipe-list-result-count,delta,j,OK,
+recipe-list-result-count,beta,j,OK,
+recipe-list-result-count,gamma,j,OK,
+recipe-list-result-count,alpha,k,OK,
+recipe-list-result-count,delta,k,OK,
+recipe-list-result-count,beta,k,OK,
+recipe-list-result-count,gamma,k,OK,
+recipe-list-add-recipe,alpha,a,OK,
+recipe-list-add-recipe,delta,a,OK,
+recipe-list-add-recipe,beta,a,KO,Target element has no attributes
+recipe-list-add-recipe,gamma,a,KO,Target element has no attributes
+recipe-list-add-recipe,alpha,b,OK,
+recipe-list-add-recipe,delta,b,OK,
+recipe-list-add-recipe,beta,b,KO,Target element has no valid candidate attributes
+recipe-list-add-recipe,gamma,b,KO,Target element has no valid candidate attributes
+recipe-list-add-recipe,alpha,c,KO,Target element has no id attribute
+recipe-list-add-recipe,delta,c,KO,Target element has no id attribute
+recipe-list-add-recipe,beta,c,KO,Target element has no id attribute
+recipe-list-add-recipe,gamma,c,KO,Target element has no id attribute
+recipe-list-add-recipe,alpha,d,OK,
+recipe-list-add-recipe,delta,d,OK,
+recipe-list-add-recipe,beta,d,KO,Target element text content is empty
+recipe-list-add-recipe,gamma,d,KO,Target element text content is empty
+recipe-list-add-recipe,alpha,e,OK,
+recipe-list-add-recipe,delta,e,OK,
+recipe-list-add-recipe,beta,e,KO,Target element text content is empty
+recipe-list-add-recipe,gamma,e,KO,Target element text content is empty
+recipe-list-add-recipe,alpha,f,OK,
+recipe-list-add-recipe,delta,f,OK,
+recipe-list-add-recipe,beta,f,OK,
+recipe-list-add-recipe,gamma,f,OK,
+recipe-list-add-recipe,alpha,g,OK,
+recipe-list-add-recipe,delta,g,OK,
+recipe-list-add-recipe,beta,g,OK,
+recipe-list-add-recipe,gamma,g,OK,
+recipe-list-add-recipe,alpha,h,OK,
+recipe-list-add-recipe,delta,h,OK,
+recipe-list-add-recipe,beta,h,OK,
+recipe-list-add-recipe,gamma,h,OK,
+recipe-list-add-recipe,alpha,i,OK,
+recipe-list-add-recipe,delta,i,OK,
+recipe-list-add-recipe,beta,i,OK,
+recipe-list-add-recipe,gamma,i,OK,
+recipe-list-add-recipe,alpha,j,OK,
+recipe-list-add-recipe,delta,j,OK,
+recipe-list-add-recipe,beta,j,OK,
+recipe-list-add-recipe,gamma,j,OK,
+recipe-list-add-recipe,alpha,k,OK,
+recipe-list-add-recipe,delta,k,OK,
+recipe-list-add-recipe,beta,k,OK,
+recipe-list-add-recipe,gamma,k,OK,
+recipe-list-empty,alpha,a,KO,Target element has no attributes
+recipe-list-empty,delta,a,KO,Target element has no attributes
+recipe-list-empty,beta,a,KO,Target element has no attributes
+recipe-list-empty,gamma,a,KO,Target element has no attributes
+recipe-list-empty,alpha,b,KO,Target element has no valid candidate attributes
+recipe-list-empty,delta,b,KO,Target element has no valid candidate attributes
+recipe-list-empty,beta,b,KO,Target element has no valid candidate attributes
+recipe-list-empty,gamma,b,KO,Target element has no valid candidate attributes
+recipe-list-empty,alpha,c,KO,Target element has no id attribute
+recipe-list-empty,delta,c,KO,Target element has no id attribute
+recipe-list-empty,beta,c,KO,Target element has no id attribute
+recipe-list-empty,gamma,c,KO,Target element has no id attribute
+recipe-list-empty,alpha,d,OK,
+recipe-list-empty,delta,d,OK,
+recipe-list-empty,beta,d,KO,Target element text content is empty
+recipe-list-empty,gamma,d,KO,Target element text content is empty
+recipe-list-empty,alpha,e,OK,
+recipe-list-empty,delta,e,OK,
+recipe-list-empty,beta,e,KO,Target element text content is empty
+recipe-list-empty,gamma,e,OK,
+recipe-list-empty,alpha,f,OK,
+recipe-list-empty,delta,f,OK,
+recipe-list-empty,beta,f,OK,
+recipe-list-empty,gamma,f,OK,
+recipe-list-empty,alpha,g,OK,
+recipe-list-empty,delta,g,OK,
+recipe-list-empty,beta,g,OK,
+recipe-list-empty,gamma,g,OK,
+recipe-list-empty,alpha,h,OK,
+recipe-list-empty,delta,h,OK,
+recipe-list-empty,beta,h,OK,
+recipe-list-empty,gamma,h,OK,
+recipe-list-empty,alpha,i,OK,
+recipe-list-empty,delta,i,OK,
+recipe-list-empty,beta,i,OK,
+recipe-list-empty,gamma,i,OK,
+recipe-list-empty,alpha,j,OK,
+recipe-list-empty,delta,j,OK,
+recipe-list-empty,beta,j,OK,
+recipe-list-empty,gamma,j,OK,
+recipe-list-empty,alpha,k,OK,
+recipe-list-empty,delta,k,OK,
+recipe-list-empty,beta,k,OK,
+recipe-list-empty,gamma,k,OK,
+recipe-card-card,alpha,a,OK,
+recipe-card-card,delta,a,KO,Target element has no attributes
+recipe-card-card,beta,a,KO,Target element has no attributes
+recipe-card-card,gamma,a,OK,
+recipe-card-card,alpha,b,OK,
+recipe-card-card,delta,b,KO,Target element has no valid candidate attributes
+recipe-card-card,beta,b,KO,Target element has no valid candidate attributes
+recipe-card-card,gamma,b,OK,
+recipe-card-card,alpha,c,KO,Target element has no id attribute
+recipe-card-card,delta,c,KO,Target element has no id attribute
+recipe-card-card,beta,c,KO,Target element has no id attribute
+recipe-card-card,gamma,c,KO,Target element has no id attribute
+recipe-card-card,alpha,d,KO,Target element text content is empty
+recipe-card-card,delta,d,OK,
+recipe-card-card,beta,d,KO,Target element text content is empty
+recipe-card-card,gamma,d,KO,Target element text content is empty
+recipe-card-card,alpha,e,KO,Target element text content is empty
+recipe-card-card,delta,e,OK,
+recipe-card-card,beta,e,KO,Target element text content is empty
+recipe-card-card,gamma,e,KO,Target element text content is empty
+recipe-card-card,alpha,f,OK,
+recipe-card-card,delta,f,OK,
+recipe-card-card,beta,f,KO,The parent is null or empty
+recipe-card-card,gamma,f,KO,The parent is null or empty
+recipe-card-card,alpha,g,OK,
+recipe-card-card,delta,g,OK,
+recipe-card-card,beta,g,OK,
+recipe-card-card,gamma,g,OK,
+recipe-card-card,alpha,h,OK,
+recipe-card-card,delta,h,OK,
+recipe-card-card,beta,h,OK,
+recipe-card-card,gamma,h,OK,
+recipe-card-card,alpha,i,OK,
+recipe-card-card,delta,i,OK,
+recipe-card-card,beta,i,OK,
+recipe-card-card,gamma,i,OK,
+recipe-card-card,alpha,j,OK,
+recipe-card-card,delta,j,OK,
+recipe-card-card,beta,j,OK,
+recipe-card-card,gamma,j,OK,
+recipe-card-card,alpha,k,OK,
+recipe-card-card,delta,k,OK,
+recipe-card-card,beta,k,OK,
+recipe-card-card,gamma,k,OK,
+recipe-card-card-title,alpha,a,OK,
+recipe-card-card-title,delta,a,KO,Target element has no attributes
+recipe-card-card-title,beta,a,OK,
+recipe-card-card-title,gamma,a,KO,Target element has no attributes
+recipe-card-card-title,alpha,b,OK,
+recipe-card-card-title,delta,b,KO,Target element has no valid candidate attributes
+recipe-card-card-title,beta,b,OK,
+recipe-card-card-title,gamma,b,KO,Target element has no valid candidate attributes
+recipe-card-card-title,alpha,c,KO,Target element has no id attribute
+recipe-card-card-title,delta,c,KO,Target element has no id attribute
+recipe-card-card-title,beta,c,KO,Target element has no id attribute
+recipe-card-card-title,gamma,c,KO,Target element has no id attribute
+recipe-card-card-title,alpha,d,OK,
+recipe-card-card-title,delta,d,OK,
+recipe-card-card-title,beta,d,KO,Target element text content is empty
+recipe-card-card-title,gamma,d,KO,Target element text content is empty
+recipe-card-card-title,alpha,e,OK,
+recipe-card-card-title,delta,e,OK,
+recipe-card-card-title,beta,e,KO,Target element text content is empty
+recipe-card-card-title,gamma,e,KO,Target element text content is empty
+recipe-card-card-title,alpha,f,OK,
+recipe-card-card-title,delta,f,OK,
+recipe-card-card-title,beta,f,OK,
+recipe-card-card-title,gamma,f,KO,The parent is null or empty
+recipe-card-card-title,alpha,g,OK,
+recipe-card-card-title,delta,g,OK,
+recipe-card-card-title,beta,g,OK,
+recipe-card-card-title,gamma,g,OK,
+recipe-card-card-title,alpha,h,OK,
+recipe-card-card-title,delta,h,OK,
+recipe-card-card-title,beta,h,OK,
+recipe-card-card-title,gamma,h,OK,
+recipe-card-card-title,alpha,i,OK,
+recipe-card-card-title,delta,i,OK,
+recipe-card-card-title,beta,i,OK,
+recipe-card-card-title,gamma,i,OK,
+recipe-card-card-title,alpha,j,OK,
+recipe-card-card-title,delta,j,OK,
+recipe-card-card-title,beta,j,OK,
+recipe-card-card-title,gamma,j,OK,
+recipe-card-card-title,alpha,k,OK,
+recipe-card-card-title,delta,k,OK,
+recipe-card-card-title,beta,k,OK,
+recipe-card-card-title,gamma,k,OK,
+recipe-card-card-fav,alpha,a,OK,
+recipe-card-card-fav,delta,a,OK,
+recipe-card-card-fav,beta,a,KO,Target element has no attributes
+recipe-card-card-fav,gamma,a,KO,Target element has no attributes
+recipe-card-card-fav,alpha,b,OK,
+recipe-card-card-fav,delta,b,OK,
+recipe-card-card-fav,beta,b,KO,Target element has no valid candidate attributes
+recipe-card-card-fav,gamma,b,KO,Target element has no valid candidate attributes
+recipe-card-card-fav,alpha,c,KO,Target element has no id attribute
+recipe-card-card-fav,delta,c,KO,Target element has no id attribute
+recipe-card-card-fav,beta,c,KO,Target element has no id attribute
+recipe-card-card-fav,gamma,c,KO,Target element has no id attribute
+recipe-card-card-fav,alpha,d,OK,
+recipe-card-card-fav,delta,d,KO,Target element text content is empty
+recipe-card-card-fav,beta,d,KO,Target element text content is empty
+recipe-card-card-fav,gamma,d,KO,Target element text content is empty
+recipe-card-card-fav,alpha,e,OK,
+recipe-card-card-fav,delta,e,KO,Target element text content is empty
+recipe-card-card-fav,beta,e,KO,Target element text content is empty
+recipe-card-card-fav,gamma,e,KO,Target element text content is empty
+recipe-card-card-fav,alpha,f,OK,
+recipe-card-card-fav,delta,f,OK,
+recipe-card-card-fav,beta,f,KO,The parent is null or empty
+recipe-card-card-fav,gamma,f,OK,
+recipe-card-card-fav,alpha,g,OK,
+recipe-card-card-fav,delta,g,OK,
+recipe-card-card-fav,beta,g,OK,
+recipe-card-card-fav,gamma,g,OK,
+recipe-card-card-fav,alpha,h,OK,
+recipe-card-card-fav,delta,h,OK,
+recipe-card-card-fav,beta,h,OK,
+recipe-card-card-fav,gamma,h,OK,
+recipe-card-card-fav,alpha,i,OK,
+recipe-card-card-fav,delta,i,OK,
+recipe-card-card-fav,beta,i,OK,
+recipe-card-card-fav,gamma,i,OK,
+recipe-card-card-fav,alpha,j,OK,
+recipe-card-card-fav,delta,j,OK,
+recipe-card-card-fav,beta,j,OK,
+recipe-card-card-fav,gamma,j,OK,
+recipe-card-card-fav,alpha,k,OK,
+recipe-card-card-fav,delta,k,OK,
+recipe-card-card-fav,beta,k,OK,
+recipe-card-card-fav,gamma,k,OK,
+recipe-card-card-time,alpha,a,OK,
+recipe-card-card-time,delta,a,KO,Target element has no attributes
+recipe-card-card-time,beta,a,KO,Target element has no attributes
+recipe-card-card-time,gamma,a,KO,Target element has no attributes
+recipe-card-card-time,alpha,b,OK,
+recipe-card-card-time,delta,b,KO,Target element has no valid candidate attributes
+recipe-card-card-time,beta,b,KO,Target element has no valid candidate attributes
+recipe-card-card-time,gamma,b,KO,Target element has no valid candidate attributes
+recipe-card-card-time,alpha,c,KO,Target element has no id attribute
+recipe-card-card-time,delta,c,KO,Target element has no id attribute
+recipe-card-card-time,beta,c,KO,Target element has no id attribute
+recipe-card-card-time,gamma,c,KO,Target element has no id attribute
+recipe-card-card-time,alpha,d,OK,
+recipe-card-card-time,delta,d,OK,
+recipe-card-card-time,beta,d,KO,Target element text content is empty
+recipe-card-card-time,gamma,d,KO,Target element text content is empty
+recipe-card-card-time,alpha,e,OK,
+recipe-card-card-time,delta,e,OK,
+recipe-card-card-time,beta,e,KO,Target element text content is empty
+recipe-card-card-time,gamma,e,KO,Target element text content is empty
+recipe-card-card-time,alpha,f,OK,
+recipe-card-card-time,delta,f,OK,
+recipe-card-card-time,beta,f,OK,
+recipe-card-card-time,gamma,f,OK,
+recipe-card-card-time,alpha,g,OK,
+recipe-card-card-time,delta,g,OK,
+recipe-card-card-time,beta,g,OK,
+recipe-card-card-time,gamma,g,OK,
+recipe-card-card-time,alpha,h,OK,
+recipe-card-card-time,delta,h,OK,
+recipe-card-card-time,beta,h,OK,
+recipe-card-card-time,gamma,h,OK,
+recipe-card-card-time,alpha,i,OK,
+recipe-card-card-time,delta,i,OK,
+recipe-card-card-time,beta,i,OK,
+recipe-card-card-time,gamma,i,OK,
+recipe-card-card-time,alpha,j,OK,
+recipe-card-card-time,delta,j,OK,
+recipe-card-card-time,beta,j,OK,
+recipe-card-card-time,gamma,j,OK,
+recipe-card-card-time,alpha,k,OK,
+recipe-card-card-time,delta,k,OK,
+recipe-card-card-time,beta,k,OK,
+recipe-card-card-time,gamma,k,OK,
+recipe-detail-detail-title,alpha,a,KO,Target element has no attributes
+recipe-detail-detail-title,delta,a,KO,Target element has no attributes
+recipe-detail-detail-title,beta,a,KO,Target element has no attributes
+recipe-detail-detail-title,gamma,a,KO,Target element has no attributes
+recipe-detail-detail-title,alpha,b,KO,Target element has no valid candidate attributes
+recipe-detail-detail-title,delta,b,KO,Target element has no valid candidate attributes
+recipe-detail-detail-title,beta,b,KO,Target element has no valid candidate attributes
+recipe-detail-detail-title,gamma,b,KO,Target element has no valid candidate attributes
+recipe-detail-detail-title,alpha,c,KO,Target element has no id attribute
+recipe-detail-detail-title,delta,c,KO,Target element has no id attribute
+recipe-detail-detail-title,beta,c,KO,Target element has no id attribute
+recipe-detail-detail-title,gamma,c,KO,Target element has no id attribute
+recipe-detail-detail-title,alpha,d,OK,
+recipe-detail-detail-title,delta,d,OK,
+recipe-detail-detail-title,beta,d,KO,Target element text content is empty
+recipe-detail-detail-title,gamma,d,KO,Target element text content is empty
+recipe-detail-detail-title,alpha,e,OK,
+recipe-detail-detail-title,delta,e,OK,
+recipe-detail-detail-title,beta,e,KO,Target element text content is empty
+recipe-detail-detail-title,gamma,e,KO,Target element text content is empty
+recipe-detail-detail-title,alpha,f,OK,
+recipe-detail-detail-title,delta,f,OK,
+recipe-detail-detail-title,beta,f,OK,
+recipe-detail-detail-title,gamma,f,OK,
+recipe-detail-detail-title,alpha,g,OK,
+recipe-detail-detail-title,delta,g,OK,
+recipe-detail-detail-title,beta,g,OK,
+recipe-detail-detail-title,gamma,g,OK,
+recipe-detail-detail-title,alpha,h,OK,
+recipe-detail-detail-title,delta,h,OK,
+recipe-detail-detail-title,beta,h,OK,
+recipe-detail-detail-title,gamma,h,OK,
+recipe-detail-detail-title,alpha,i,OK,
+recipe-detail-detail-title,delta,i,OK,
+recipe-detail-detail-title,beta,i,OK,
+recipe-detail-detail-title,gamma,i,OK,
+recipe-detail-detail-title,alpha,j,OK,
+recipe-detail-detail-title,delta,j,OK,
+recipe-detail-detail-title,beta,j,OK,
+recipe-detail-detail-title,gamma,j,OK,
+recipe-detail-detail-title,alpha,k,OK,
+recipe-detail-detail-title,delta,k,OK,
+recipe-detail-detail-title,beta,k,OK,
+recipe-detail-detail-title,gamma,k,OK,
+recipe-detail-detail-author,alpha,a,KO,Target element has no attributes
+recipe-detail-detail-author,delta,a,KO,Target element has no attributes
+recipe-detail-detail-author,beta,a,KO,Target element has no attributes
+recipe-detail-detail-author,gamma,a,KO,Target element has no attributes
+recipe-detail-detail-author,alpha,b,KO,Target element has no valid candidate attributes
+recipe-detail-detail-author,delta,b,KO,Target element has no valid candidate attributes
+recipe-detail-detail-author,beta,b,KO,Target element has no valid candidate attributes
+recipe-detail-detail-author,gamma,b,KO,Target element has no valid candidate attributes
+recipe-detail-detail-author,alpha,c,KO,Target element has no id attribute
+recipe-detail-detail-author,delta,c,KO,Target element has no id attribute
+recipe-detail-detail-author,beta,c,KO,Target element has no id attribute
+recipe-detail-detail-author,gamma,c,KO,Target element has no id attribute
+recipe-detail-detail-author,alpha,d,OK,
+recipe-detail-detail-author,delta,d,OK,
+recipe-detail-detail-author,beta,d,KO,Target element text content is empty
+recipe-detail-detail-author,gamma,d,KO,Target element text content is empty
+recipe-detail-detail-author,alpha,e,OK,
+recipe-detail-detail-author,delta,e,OK,
+recipe-detail-detail-author,beta,e,KO,Target element text content is empty
+recipe-detail-detail-author,gamma,e,KO,Target element text content is empty
+recipe-detail-detail-author,alpha,f,OK,
+recipe-detail-detail-author,delta,f,OK,
+recipe-detail-detail-author,beta,f,OK,
+recipe-detail-detail-author,gamma,f,OK,
+recipe-detail-detail-author,alpha,g,OK,
+recipe-detail-detail-author,delta,g,OK,
+recipe-detail-detail-author,beta,g,OK,
+recipe-detail-detail-author,gamma,g,OK,
+recipe-detail-detail-author,alpha,h,OK,
+recipe-detail-detail-author,delta,h,OK,
+recipe-detail-detail-author,beta,h,OK,
+recipe-detail-detail-author,gamma,h,OK,
+recipe-detail-detail-author,alpha,i,OK,
+recipe-detail-detail-author,delta,i,OK,
+recipe-detail-detail-author,beta,i,OK,
+recipe-detail-detail-author,gamma,i,OK,
+recipe-detail-detail-author,alpha,j,OK,
+recipe-detail-detail-author,delta,j,OK,
+recipe-detail-detail-author,beta,j,OK,
+recipe-detail-detail-author,gamma,j,OK,
+recipe-detail-detail-author,alpha,k,OK,
+recipe-detail-detail-author,delta,k,OK,
+recipe-detail-detail-author,beta,k,OK,
+recipe-detail-detail-author,gamma,k,OK,
+recipe-detail-servings,epsilon,a,OK,
+recipe-detail-servings,alpha,a,OK,
+recipe-detail-servings,delta,a,KO,Target element has no attributes
+recipe-detail-servings,beta,a,OK,
+recipe-detail-servings,gamma,a,KO,Target element has no attributes
+recipe-detail-servings,epsilon,b,OK,
+recipe-detail-servings,alpha,b,OK,
+recipe-detail-servings,delta,b,KO,Target element has no valid candidate attributes
+recipe-detail-servings,beta,b,OK,
+recipe-detail-servings,gamma,b,KO,Target element has no valid candidate attributes
+recipe-detail-servings,epsilon,c,KO,Target element has no id attribute
+recipe-detail-servings,alpha,c,OK,
+recipe-detail-servings,delta,c,KO,Target element has no id attribute
+recipe-detail-servings,beta,c,KO,Target element has no id attribute
+recipe-detail-servings,gamma,c,KO,Target element has no id attribute
+recipe-detail-servings,epsilon,d,KO,Target element text content is empty
+recipe-detail-servings,alpha,d,KO,Target element has no child nodes
+recipe-detail-servings,delta,d,OK,
+recipe-detail-servings,beta,d,KO,Target element text content is empty
+recipe-detail-servings,gamma,d,KO,Target element text content is empty
+recipe-detail-servings,epsilon,e,KO,Target element text content is empty
+recipe-detail-servings,alpha,e,KO,Target element has no child nodes
+recipe-detail-servings,delta,e,OK,
+recipe-detail-servings,beta,e,KO,Target element text content is empty
+recipe-detail-servings,gamma,e,KO,Target element text content is empty
+recipe-detail-servings,epsilon,f,OK,
+recipe-detail-servings,alpha,f,OK,
+recipe-detail-servings,delta,f,OK,
+recipe-detail-servings,beta,f,KO,The parent is null or empty
+recipe-detail-servings,gamma,f,OK,
+recipe-detail-servings,epsilon,g,OK,
+recipe-detail-servings,alpha,g,OK,
+recipe-detail-servings,delta,g,OK,
+recipe-detail-servings,beta,g,OK,
+recipe-detail-servings,gamma,g,OK,
+recipe-detail-servings,epsilon,h,OK,
+recipe-detail-servings,alpha,h,OK,
+recipe-detail-servings,delta,h,OK,
+recipe-detail-servings,beta,h,OK,
+recipe-detail-servings,gamma,h,OK,
+recipe-detail-servings,epsilon,i,OK,
+recipe-detail-servings,alpha,i,OK,
+recipe-detail-servings,delta,i,OK,
+recipe-detail-servings,beta,i,OK,
+recipe-detail-servings,gamma,i,OK,
+recipe-detail-servings,epsilon,j,OK,
+recipe-detail-servings,alpha,j,OK,
+recipe-detail-servings,delta,j,OK,
+recipe-detail-servings,beta,j,OK,
+recipe-detail-servings,gamma,j,OK,
+recipe-detail-servings,epsilon,k,OK,
+recipe-detail-servings,alpha,k,OK,
+recipe-detail-servings,delta,k,OK,
+recipe-detail-servings,beta,k,OK,
+recipe-detail-servings,gamma,k,OK,
+recipe-detail-kcal,epsilon,a,OK,
+recipe-detail-kcal,alpha,a,KO,Target element has no attributes
+recipe-detail-kcal,delta,a,KO,Target element has no attributes
+recipe-detail-kcal,beta,a,OK,
+recipe-detail-kcal,gamma,a,KO,Target element has no attributes
+recipe-detail-kcal,epsilon,b,OK,
+recipe-detail-kcal,alpha,b,KO,Target element has no valid candidate attributes
+recipe-detail-kcal,delta,b,KO,Target element has no valid candidate attributes
+recipe-detail-kcal,beta,b,OK,
+recipe-detail-kcal,gamma,b,KO,Target element has no valid candidate attributes
+recipe-detail-kcal,epsilon,c,KO,Target element has no id attribute
+recipe-detail-kcal,alpha,c,KO,Target element has no id attribute
+recipe-detail-kcal,delta,c,KO,Target element has no id attribute
+recipe-detail-kcal,beta,c,KO,Target element has no id attribute
+recipe-detail-kcal,gamma,c,KO,Target element has no id attribute
+recipe-detail-kcal,epsilon,d,KO,Target element text content is empty
+recipe-detail-kcal,alpha,d,OK,
+recipe-detail-kcal,delta,d,OK,
+recipe-detail-kcal,beta,d,KO,Target element text content is empty
+recipe-detail-kcal,gamma,d,KO,Target element text content is empty
+recipe-detail-kcal,epsilon,e,KO,Target element text content is empty
+recipe-detail-kcal,alpha,e,OK,
+recipe-detail-kcal,delta,e,OK,
+recipe-detail-kcal,beta,e,KO,Target element text content is empty
+recipe-detail-kcal,gamma,e,KO,Target element text content is empty
+recipe-detail-kcal,epsilon,f,OK,
+recipe-detail-kcal,alpha,f,OK,
+recipe-detail-kcal,delta,f,OK,
+recipe-detail-kcal,beta,f,OK,
+recipe-detail-kcal,gamma,f,KO,The parent is null or empty
+recipe-detail-kcal,epsilon,g,OK,
+recipe-detail-kcal,alpha,g,OK,
+recipe-detail-kcal,delta,g,OK,
+recipe-detail-kcal,beta,g,OK,
+recipe-detail-kcal,gamma,g,OK,
+recipe-detail-kcal,epsilon,h,OK,
+recipe-detail-kcal,alpha,h,OK,
+recipe-detail-kcal,delta,h,OK,
+recipe-detail-kcal,beta,h,OK,
+recipe-detail-kcal,gamma,h,OK,
+recipe-detail-kcal,epsilon,i,OK,
+recipe-detail-kcal,alpha,i,OK,
+recipe-detail-kcal,delta,i,OK,
+recipe-detail-kcal,beta,i,OK,
+recipe-detail-kcal,gamma,i,OK,
+recipe-detail-kcal,epsilon,j,OK,
+recipe-detail-kcal,alpha,j,OK,
+recipe-detail-kcal,delta,j,OK,
+recipe-detail-kcal,beta,j,OK,
+recipe-detail-kcal,gamma,j,OK,
+recipe-detail-kcal,epsilon,k,OK,
+recipe-detail-kcal,alpha,k,OK,
+recipe-detail-kcal,delta,k,OK,
+recipe-detail-kcal,beta,k,OK,
+recipe-detail-kcal,gamma,k,OK,
+recipe-detail-protein,epsilon,a,OK,
+recipe-detail-protein,alpha,a,KO,Target element has no attributes
+recipe-detail-protein,delta,a,KO,Target element has no attributes
+recipe-detail-protein,beta,a,OK,
+recipe-detail-protein,gamma,a,KO,Target element has no attributes
+recipe-detail-protein,epsilon,b,OK,
+recipe-detail-protein,alpha,b,KO,Target element has no valid candidate attributes
+recipe-detail-protein,delta,b,KO,Target element has no valid candidate attributes
+recipe-detail-protein,beta,b,OK,
+recipe-detail-protein,gamma,b,KO,Target element has no valid candidate attributes
+recipe-detail-protein,epsilon,c,KO,Target element has no id attribute
+recipe-detail-protein,alpha,c,KO,Target element has no id attribute
+recipe-detail-protein,delta,c,KO,Target element has no id attribute
+recipe-detail-protein,beta,c,KO,Target element has no id attribute
+recipe-detail-protein,gamma,c,KO,Target element has no id attribute
+recipe-detail-protein,epsilon,d,KO,Target element text content is empty
+recipe-detail-protein,alpha,d,OK,
+recipe-detail-protein,delta,d,OK,
+recipe-detail-protein,beta,d,KO,Target element text content is empty
+recipe-detail-protein,gamma,d,KO,Target element text content is empty
+recipe-detail-protein,epsilon,e,KO,Target element text content is empty
+recipe-detail-protein,alpha,e,OK,
+recipe-detail-protein,delta,e,OK,
+recipe-detail-protein,beta,e,KO,Target element text content is empty
+recipe-detail-protein,gamma,e,KO,Target element text content is empty
+recipe-detail-protein,epsilon,f,OK,
+recipe-detail-protein,alpha,f,OK,
+recipe-detail-protein,delta,f,OK,
+recipe-detail-protein,beta,f,OK,
+recipe-detail-protein,gamma,f,KO,The parent is null or empty
+recipe-detail-protein,epsilon,g,OK,
+recipe-detail-protein,alpha,g,OK,
+recipe-detail-protein,delta,g,OK,
+recipe-detail-protein,beta,g,OK,
+recipe-detail-protein,gamma,g,OK,
+recipe-detail-protein,epsilon,h,OK,
+recipe-detail-protein,alpha,h,OK,
+recipe-detail-protein,delta,h,OK,
+recipe-detail-protein,beta,h,OK,
+recipe-detail-protein,gamma,h,OK,
+recipe-detail-protein,epsilon,i,OK,
+recipe-detail-protein,alpha,i,OK,
+recipe-detail-protein,delta,i,OK,
+recipe-detail-protein,beta,i,OK,
+recipe-detail-protein,gamma,i,OK,
+recipe-detail-protein,epsilon,j,OK,
+recipe-detail-protein,alpha,j,OK,
+recipe-detail-protein,delta,j,OK,
+recipe-detail-protein,beta,j,OK,
+recipe-detail-protein,gamma,j,OK,
+recipe-detail-protein,epsilon,k,OK,
+recipe-detail-protein,alpha,k,OK,
+recipe-detail-protein,delta,k,OK,
+recipe-detail-protein,beta,k,OK,
+recipe-detail-protein,gamma,k,OK,
+recipe-detail-add-shopping,alpha,a,OK,
+recipe-detail-add-shopping,delta,a,KO,Target element has no attributes
+recipe-detail-add-shopping,beta,a,KO,Target element has no attributes
+recipe-detail-add-shopping,gamma,a,KO,Target element has no attributes
+recipe-detail-add-shopping,alpha,b,OK,
+recipe-detail-add-shopping,delta,b,KO,Target element has no valid candidate attributes
+recipe-detail-add-shopping,beta,b,KO,Target element has no valid candidate attributes
+recipe-detail-add-shopping,gamma,b,KO,Target element has no valid candidate attributes
+recipe-detail-add-shopping,alpha,c,KO,Target element has no id attribute
+recipe-detail-add-shopping,delta,c,KO,Target element has no id attribute
+recipe-detail-add-shopping,beta,c,KO,Target element has no id attribute
+recipe-detail-add-shopping,gamma,c,KO,Target element has no id attribute
+recipe-detail-add-shopping,alpha,d,OK,
+recipe-detail-add-shopping,delta,d,OK,
+recipe-detail-add-shopping,beta,d,KO,Target element text content is empty
+recipe-detail-add-shopping,gamma,d,KO,Target element text content is empty
+recipe-detail-add-shopping,alpha,e,OK,
+recipe-detail-add-shopping,delta,e,OK,
+recipe-detail-add-shopping,beta,e,KO,Target element text content is empty
+recipe-detail-add-shopping,gamma,e,KO,Target element text content is empty
+recipe-detail-add-shopping,alpha,f,OK,
+recipe-detail-add-shopping,delta,f,OK,
+recipe-detail-add-shopping,beta,f,OK,
+recipe-detail-add-shopping,gamma,f,OK,
+recipe-detail-add-shopping,alpha,g,OK,
+recipe-detail-add-shopping,delta,g,OK,
+recipe-detail-add-shopping,beta,g,OK,
+recipe-detail-add-shopping,gamma,g,OK,
+recipe-detail-add-shopping,alpha,h,OK,
+recipe-detail-add-shopping,delta,h,OK,
+recipe-detail-add-shopping,beta,h,OK,
+recipe-detail-add-shopping,gamma,h,OK,
+recipe-detail-add-shopping,alpha,i,OK,
+recipe-detail-add-shopping,delta,i,OK,
+recipe-detail-add-shopping,beta,i,OK,
+recipe-detail-add-shopping,gamma,i,OK,
+recipe-detail-add-shopping,alpha,j,OK,
+recipe-detail-add-shopping,delta,j,OK,
+recipe-detail-add-shopping,beta,j,OK,
+recipe-detail-add-shopping,gamma,j,OK,
+recipe-detail-add-shopping,alpha,k,OK,
+recipe-detail-add-shopping,delta,k,OK,
+recipe-detail-add-shopping,beta,k,OK,
+recipe-detail-add-shopping,gamma,k,OK,
+recipe-detail-delete,alpha,a,OK,
+recipe-detail-delete,delta,a,OK,
+recipe-detail-delete,beta,a,KO,Target element has no attributes
+recipe-detail-delete,gamma,a,KO,Target element has no attributes
+recipe-detail-delete,alpha,b,OK,
+recipe-detail-delete,delta,b,OK,
+recipe-detail-delete,beta,b,KO,Target element has no valid candidate attributes
+recipe-detail-delete,gamma,b,KO,Target element has no valid candidate attributes
+recipe-detail-delete,alpha,c,KO,Target element has no id attribute
+recipe-detail-delete,delta,c,KO,Target element has no id attribute
+recipe-detail-delete,beta,c,KO,Target element has no id attribute
+recipe-detail-delete,gamma,c,KO,Target element has no id attribute
+recipe-detail-delete,alpha,d,OK,
+recipe-detail-delete,delta,d,OK,
+recipe-detail-delete,beta,d,KO,Target element text content is empty
+recipe-detail-delete,gamma,d,KO,Target element text content is empty
+recipe-detail-delete,alpha,e,OK,
+recipe-detail-delete,delta,e,OK,
+recipe-detail-delete,beta,e,KO,Target element text content is empty
+recipe-detail-delete,gamma,e,KO,Target element text content is empty
+recipe-detail-delete,alpha,f,OK,
+recipe-detail-delete,delta,f,OK,
+recipe-detail-delete,beta,f,OK,
+recipe-detail-delete,gamma,f,OK,
+recipe-detail-delete,alpha,g,OK,
+recipe-detail-delete,delta,g,OK,
+recipe-detail-delete,beta,g,OK,
+recipe-detail-delete,gamma,g,OK,
+recipe-detail-delete,alpha,h,OK,
+recipe-detail-delete,delta,h,OK,
+recipe-detail-delete,beta,h,OK,
+recipe-detail-delete,gamma,h,OK,
+recipe-detail-delete,alpha,i,OK,
+recipe-detail-delete,delta,i,OK,
+recipe-detail-delete,beta,i,OK,
+recipe-detail-delete,gamma,i,OK,
+recipe-detail-delete,alpha,j,OK,
+recipe-detail-delete,delta,j,OK,
+recipe-detail-delete,beta,j,OK,
+recipe-detail-delete,gamma,j,OK,
+recipe-detail-delete,alpha,k,OK,
+recipe-detail-delete,delta,k,OK,
+recipe-detail-delete,beta,k,OK,
+recipe-detail-delete,gamma,k,OK,
+recipe-detail-not-found,alpha,a,KO,Target element has no attributes
+recipe-detail-not-found,delta,a,OK,
+recipe-detail-not-found,beta,a,KO,Target element has no attributes
+recipe-detail-not-found,gamma,a,KO,Target element has no attributes
+recipe-detail-not-found,alpha,b,KO,Target element has no valid candidate attributes
+recipe-detail-not-found,delta,b,OK,
+recipe-detail-not-found,beta,b,KO,Target element has no valid candidate attributes
+recipe-detail-not-found,gamma,b,KO,Target element has no valid candidate attributes
+recipe-detail-not-found,alpha,c,KO,Target element has no id attribute
+recipe-detail-not-found,delta,c,KO,Target element has no id attribute
+recipe-detail-not-found,beta,c,KO,Target element has no id attribute
+recipe-detail-not-found,gamma,c,KO,Target element has no id attribute
+recipe-detail-not-found,alpha,d,OK,
+recipe-detail-not-found,delta,d,OK,
+recipe-detail-not-found,beta,d,KO,Target element text content is empty
+recipe-detail-not-found,gamma,d,KO,Target element text content is empty
+recipe-detail-not-found,alpha,e,OK,
+recipe-detail-not-found,delta,e,OK,
+recipe-detail-not-found,beta,e,KO,Target element text content is empty
+recipe-detail-not-found,gamma,e,KO,Target element text content is empty
+recipe-detail-not-found,alpha,f,OK,
+recipe-detail-not-found,delta,f,OK,
+recipe-detail-not-found,beta,f,KO,The parent is null or empty
+recipe-detail-not-found,gamma,f,OK,
+recipe-detail-not-found,alpha,g,OK,
+recipe-detail-not-found,delta,g,OK,
+recipe-detail-not-found,beta,g,OK,
+recipe-detail-not-found,gamma,g,OK,
+recipe-detail-not-found,alpha,h,OK,
+recipe-detail-not-found,delta,h,OK,
+recipe-detail-not-found,beta,h,OK,
+recipe-detail-not-found,gamma,h,OK,
+recipe-detail-not-found,alpha,i,OK,
+recipe-detail-not-found,delta,i,OK,
+recipe-detail-not-found,beta,i,OK,
+recipe-detail-not-found,gamma,i,OK,
+recipe-detail-not-found,alpha,j,OK,
+recipe-detail-not-found,delta,j,OK,
+recipe-detail-not-found,beta,j,OK,
+recipe-detail-not-found,gamma,j,OK,
+recipe-detail-not-found,alpha,k,OK,
+recipe-detail-not-found,delta,k,OK,
+recipe-detail-not-found,beta,k,OK,
+recipe-detail-not-found,gamma,k,OK,
+ingredient-row-ing-qty,alpha,a,OK,
+ingredient-row-ing-qty,delta,a,KO,Target element has no attributes
+ingredient-row-ing-qty,beta,a,KO,Target element has no attributes
+ingredient-row-ing-qty,gamma,a,OK,
+ingredient-row-ing-qty,alpha,b,OK,
+ingredient-row-ing-qty,delta,b,KO,Target element has no valid candidate attributes
+ingredient-row-ing-qty,beta,b,KO,Target element has no valid candidate attributes
+ingredient-row-ing-qty,gamma,b,OK,
+ingredient-row-ing-qty,alpha,c,KO,Target element has no id attribute
+ingredient-row-ing-qty,delta,c,KO,Target element has no id attribute
+ingredient-row-ing-qty,beta,c,KO,Target element has no id attribute
+ingredient-row-ing-qty,gamma,c,KO,Target element has no id attribute
+ingredient-row-ing-qty,alpha,d,OK,
+ingredient-row-ing-qty,delta,d,OK,
+ingredient-row-ing-qty,beta,d,KO,Target element text content is empty
+ingredient-row-ing-qty,gamma,d,KO,Target element text content is empty
+ingredient-row-ing-qty,alpha,e,OK,
+ingredient-row-ing-qty,delta,e,OK,
+ingredient-row-ing-qty,beta,e,KO,Target element text content is empty
+ingredient-row-ing-qty,gamma,e,KO,Target element text content is empty
+ingredient-row-ing-qty,alpha,f,OK,
+ingredient-row-ing-qty,delta,f,OK,
+ingredient-row-ing-qty,beta,f,OK,
+ingredient-row-ing-qty,gamma,f,KO,The parent is null or empty
+ingredient-row-ing-qty,alpha,g,OK,
+ingredient-row-ing-qty,delta,g,OK,
+ingredient-row-ing-qty,beta,g,OK,
+ingredient-row-ing-qty,gamma,g,OK,
+ingredient-row-ing-qty,alpha,h,OK,
+ingredient-row-ing-qty,delta,h,OK,
+ingredient-row-ing-qty,beta,h,OK,
+ingredient-row-ing-qty,gamma,h,OK,
+ingredient-row-ing-qty,alpha,i,OK,
+ingredient-row-ing-qty,delta,i,OK,
+ingredient-row-ing-qty,beta,i,OK,
+ingredient-row-ing-qty,gamma,i,OK,
+ingredient-row-ing-qty,alpha,j,OK,
+ingredient-row-ing-qty,delta,j,OK,
+ingredient-row-ing-qty,beta,j,OK,
+ingredient-row-ing-qty,gamma,j,OK,
+ingredient-row-ing-qty,alpha,k,OK,
+ingredient-row-ing-qty,delta,k,OK,
+ingredient-row-ing-qty,beta,k,OK,
+ingredient-row-ing-qty,gamma,k,OK,
+ingredient-row-ing-name,alpha,a,OK,
+ingredient-row-ing-name,delta,a,KO,Target element has no attributes
+ingredient-row-ing-name,beta,a,KO,Target element has no attributes
+ingredient-row-ing-name,gamma,a,OK,
+ingredient-row-ing-name,alpha,b,OK,
+ingredient-row-ing-name,delta,b,KO,Target element has no valid candidate attributes
+ingredient-row-ing-name,beta,b,KO,Target element has no valid candidate attributes
+ingredient-row-ing-name,gamma,b,OK,
+ingredient-row-ing-name,alpha,c,KO,Target element has no id attribute
+ingredient-row-ing-name,delta,c,KO,Target element has no id attribute
+ingredient-row-ing-name,beta,c,KO,Target element has no id attribute
+ingredient-row-ing-name,gamma,c,KO,Target element has no id attribute
+ingredient-row-ing-name,alpha,d,OK,
+ingredient-row-ing-name,delta,d,OK,
+ingredient-row-ing-name,beta,d,KO,Target element text content is empty
+ingredient-row-ing-name,gamma,d,KO,Target element text content is empty
+ingredient-row-ing-name,alpha,e,OK,
+ingredient-row-ing-name,delta,e,OK,
+ingredient-row-ing-name,beta,e,KO,Target element text content is empty
+ingredient-row-ing-name,gamma,e,KO,Target element text content is empty
+ingredient-row-ing-name,alpha,f,OK,
+ingredient-row-ing-name,delta,f,OK,
+ingredient-row-ing-name,beta,f,OK,
+ingredient-row-ing-name,gamma,f,KO,The parent is null or empty
+ingredient-row-ing-name,alpha,g,OK,
+ingredient-row-ing-name,delta,g,OK,
+ingredient-row-ing-name,beta,g,OK,
+ingredient-row-ing-name,gamma,g,OK,
+ingredient-row-ing-name,alpha,h,OK,
+ingredient-row-ing-name,delta,h,OK,
+ingredient-row-ing-name,beta,h,OK,
+ingredient-row-ing-name,gamma,h,OK,
+ingredient-row-ing-name,alpha,i,OK,
+ingredient-row-ing-name,delta,i,OK,
+ingredient-row-ing-name,beta,i,OK,
+ingredient-row-ing-name,gamma,i,OK,
+ingredient-row-ing-name,alpha,j,OK,
+ingredient-row-ing-name,delta,j,OK,
+ingredient-row-ing-name,beta,j,OK,
+ingredient-row-ing-name,gamma,j,OK,
+ingredient-row-ing-name,alpha,k,OK,
+ingredient-row-ing-name,delta,k,OK,
+ingredient-row-ing-name,beta,k,OK,
+ingredient-row-ing-name,gamma,k,OK,
+step-item-step-number,alpha,a,OK,
+step-item-step-number,delta,a,OK,
+step-item-step-number,beta,a,KO,Target element has no attributes
+step-item-step-number,gamma,a,OK,
+step-item-step-number,alpha,b,OK,
+step-item-step-number,delta,b,OK,
+step-item-step-number,beta,b,KO,Target element has no valid candidate attributes
+step-item-step-number,gamma,b,OK,
+step-item-step-number,alpha,c,KO,Target element has no id attribute
+step-item-step-number,delta,c,KO,Target element has no id attribute
+step-item-step-number,beta,c,KO,Target element has no id attribute
+step-item-step-number,gamma,c,KO,Target element has no id attribute
+step-item-step-number,alpha,d,OK,
+step-item-step-number,delta,d,KO,Target element has no child nodes
+step-item-step-number,beta,d,KO,Target element text content is empty
+step-item-step-number,gamma,d,KO,Target element text content is empty
+step-item-step-number,alpha,e,OK,
+step-item-step-number,delta,e,KO,Target element has no child nodes
+step-item-step-number,beta,e,KO,Target element text content is empty
+step-item-step-number,gamma,e,KO,Target element text content is empty
+step-item-step-number,alpha,f,OK,
+step-item-step-number,delta,f,OK,
+step-item-step-number,beta,f,OK,
+step-item-step-number,gamma,f,KO,The parent is null or empty
+step-item-step-number,alpha,g,OK,
+step-item-step-number,delta,g,OK,
+step-item-step-number,beta,g,OK,
+step-item-step-number,gamma,g,OK,
+step-item-step-number,alpha,h,OK,
+step-item-step-number,delta,h,OK,
+step-item-step-number,beta,h,OK,
+step-item-step-number,gamma,h,OK,
+step-item-step-number,alpha,i,OK,
+step-item-step-number,delta,i,OK,
+step-item-step-number,beta,i,OK,
+step-item-step-number,gamma,i,OK,
+step-item-step-number,alpha,j,OK,
+step-item-step-number,delta,j,OK,
+step-item-step-number,beta,j,OK,
+step-item-step-number,gamma,j,OK,
+step-item-step-number,alpha,k,OK,
+step-item-step-number,delta,k,OK,
+step-item-step-number,beta,k,OK,
+step-item-step-number,gamma,k,OK,
+step-item-step-text,alpha,a,OK,
+step-item-step-text,delta,a,KO,Target element has no attributes
+step-item-step-text,beta,a,KO,Target element has no attributes
+step-item-step-text,gamma,a,OK,
+step-item-step-text,alpha,b,OK,
+step-item-step-text,delta,b,KO,Target element has no valid candidate attributes
+step-item-step-text,beta,b,KO,Target element has no valid candidate attributes
+step-item-step-text,gamma,b,OK,
+step-item-step-text,alpha,c,KO,Target element has no id attribute
+step-item-step-text,delta,c,KO,Target element has no id attribute
+step-item-step-text,beta,c,KO,Target element has no id attribute
+step-item-step-text,gamma,c,KO,Target element has no id attribute
+step-item-step-text,alpha,d,OK,
+step-item-step-text,delta,d,OK,
+step-item-step-text,beta,d,KO,Target element text content is empty
+step-item-step-text,gamma,d,KO,Target element text content is empty
+step-item-step-text,alpha,e,OK,
+step-item-step-text,delta,e,OK,
+step-item-step-text,beta,e,KO,Target element text content is empty
+step-item-step-text,gamma,e,KO,Target element text content is empty
+step-item-step-text,alpha,f,OK,
+step-item-step-text,delta,f,OK,
+step-item-step-text,beta,f,OK,
+step-item-step-text,gamma,f,KO,The parent is null or empty
+step-item-step-text,alpha,g,OK,
+step-item-step-text,delta,g,OK,
+step-item-step-text,beta,g,OK,
+step-item-step-text,gamma,g,OK,
+step-item-step-text,alpha,h,OK,
+step-item-step-text,delta,h,OK,
+step-item-step-text,beta,h,OK,
+step-item-step-text,gamma,h,OK,
+step-item-step-text,alpha,i,OK,
+step-item-step-text,delta,i,OK,
+step-item-step-text,beta,i,OK,
+step-item-step-text,gamma,i,OK,
+step-item-step-text,alpha,j,OK,
+step-item-step-text,delta,j,OK,
+step-item-step-text,beta,j,OK,
+step-item-step-text,gamma,j,OK,
+step-item-step-text,alpha,k,OK,
+step-item-step-text,delta,k,OK,
+step-item-step-text,beta,k,OK,
+step-item-step-text,gamma,k,OK,
+recipe-form-form-heading,alpha,a,KO,Target element has no attributes
+recipe-form-form-heading,delta,a,KO,Target element has no attributes
+recipe-form-form-heading,beta,a,KO,Target element has no attributes
+recipe-form-form-heading,gamma,a,KO,Target element has no attributes
+recipe-form-form-heading,alpha,b,KO,Target element has no valid candidate attributes
+recipe-form-form-heading,delta,b,KO,Target element has no valid candidate attributes
+recipe-form-form-heading,beta,b,KO,Target element has no valid candidate attributes
+recipe-form-form-heading,gamma,b,KO,Target element has no valid candidate attributes
+recipe-form-form-heading,alpha,c,KO,Target element has no id attribute
+recipe-form-form-heading,delta,c,KO,Target element has no id attribute
+recipe-form-form-heading,beta,c,KO,Target element has no id attribute
+recipe-form-form-heading,gamma,c,KO,Target element has no id attribute
+recipe-form-form-heading,alpha,d,OK,
+recipe-form-form-heading,delta,d,OK,
+recipe-form-form-heading,beta,d,KO,Target element text content is empty
+recipe-form-form-heading,gamma,d,KO,Target element text content is empty
+recipe-form-form-heading,alpha,e,OK,
+recipe-form-form-heading,delta,e,OK,
+recipe-form-form-heading,beta,e,KO,Target element text content is empty
+recipe-form-form-heading,gamma,e,KO,Target element text content is empty
+recipe-form-form-heading,alpha,f,OK,
+recipe-form-form-heading,delta,f,OK,
+recipe-form-form-heading,beta,f,KO,The parent is null or empty
+recipe-form-form-heading,gamma,f,OK,
+recipe-form-form-heading,alpha,g,OK,
+recipe-form-form-heading,delta,g,OK,
+recipe-form-form-heading,beta,g,OK,
+recipe-form-form-heading,gamma,g,OK,
+recipe-form-form-heading,alpha,h,OK,
+recipe-form-form-heading,delta,h,OK,
+recipe-form-form-heading,beta,h,OK,
+recipe-form-form-heading,gamma,h,OK,
+recipe-form-form-heading,alpha,i,OK,
+recipe-form-form-heading,delta,i,OK,
+recipe-form-form-heading,beta,i,OK,
+recipe-form-form-heading,gamma,i,OK,
+recipe-form-form-heading,alpha,j,OK,
+recipe-form-form-heading,delta,j,OK,
+recipe-form-form-heading,beta,j,OK,
+recipe-form-form-heading,gamma,j,OK,
+recipe-form-form-heading,alpha,k,OK,
+recipe-form-form-heading,delta,k,OK,
+recipe-form-form-heading,beta,k,OK,
+recipe-form-form-heading,gamma,k,OK,
+recipe-form-f-title,alpha,a,OK,
+recipe-form-f-title,delta,a,KO,Target element has no attributes
+recipe-form-f-title,beta,a,KO,Target element has no attributes
+recipe-form-f-title,gamma,a,KO,Target element has no attributes
+recipe-form-f-title,alpha,b,OK,
+recipe-form-f-title,delta,b,KO,Target element has no valid candidate attributes
+recipe-form-f-title,beta,b,KO,Target element has no valid candidate attributes
+recipe-form-f-title,gamma,b,KO,Target element has no valid candidate attributes
+recipe-form-f-title,alpha,c,OK,
+recipe-form-f-title,delta,c,KO,Target element has no id attribute
+recipe-form-f-title,beta,c,KO,Target element has no id attribute
+recipe-form-f-title,gamma,c,KO,Target element has no id attribute
+recipe-form-f-title,alpha,d,KO,Target element has no child nodes
+recipe-form-f-title,delta,d,OK,
+recipe-form-f-title,beta,d,KO,Target element text content is empty
+recipe-form-f-title,gamma,d,KO,Target element text content is empty
+recipe-form-f-title,alpha,e,KO,Target element has no child nodes
+recipe-form-f-title,delta,e,OK,
+recipe-form-f-title,beta,e,KO,Target element text content is empty
+recipe-form-f-title,gamma,e,KO,Target element text content is empty
+recipe-form-f-title,alpha,f,OK,
+recipe-form-f-title,delta,f,OK,
+recipe-form-f-title,beta,f,OK,
+recipe-form-f-title,gamma,f,OK,
+recipe-form-f-title,alpha,g,OK,
+recipe-form-f-title,delta,g,OK,
+recipe-form-f-title,beta,g,OK,
+recipe-form-f-title,gamma,g,OK,
+recipe-form-f-title,alpha,h,OK,
+recipe-form-f-title,delta,h,OK,
+recipe-form-f-title,beta,h,OK,
+recipe-form-f-title,gamma,h,OK,
+recipe-form-f-title,alpha,i,OK,
+recipe-form-f-title,delta,i,OK,
+recipe-form-f-title,beta,i,OK,
+recipe-form-f-title,gamma,i,OK,
+recipe-form-f-title,alpha,j,OK,
+recipe-form-f-title,delta,j,OK,
+recipe-form-f-title,beta,j,OK,
+recipe-form-f-title,gamma,j,OK,
+recipe-form-f-title,alpha,k,OK,
+recipe-form-f-title,delta,k,OK,
+recipe-form-f-title,beta,k,OK,
+recipe-form-f-title,gamma,k,OK,
+recipe-form-f-course,alpha,a,OK,
+recipe-form-f-course,delta,a,KO,Target element has no attributes
+recipe-form-f-course,beta,a,KO,Target element has no attributes
+recipe-form-f-course,gamma,a,KO,Target element has no attributes
+recipe-form-f-course,alpha,b,OK,
+recipe-form-f-course,delta,b,KO,Target element has no valid candidate attributes
+recipe-form-f-course,beta,b,KO,Target element has no valid candidate attributes
+recipe-form-f-course,gamma,b,KO,Target element has no valid candidate attributes
+recipe-form-f-course,alpha,c,OK,
+recipe-form-f-course,delta,c,KO,Target element has no id attribute
+recipe-form-f-course,beta,c,KO,Target element has no id attribute
+recipe-form-f-course,gamma,c,KO,Target element has no id attribute
+recipe-form-f-course,alpha,d,KO,Target element text content is empty
+recipe-form-f-course,delta,d,OK,
+recipe-form-f-course,beta,d,KO,Target element text content is empty
+recipe-form-f-course,gamma,d,KO,Target element text content is empty
+recipe-form-f-course,alpha,e,KO,Target element text content is empty
+recipe-form-f-course,delta,e,OK,
+recipe-form-f-course,beta,e,KO,Target element text content is empty
+recipe-form-f-course,gamma,e,KO,Target element text content is empty
+recipe-form-f-course,alpha,f,OK,
+recipe-form-f-course,delta,f,OK,
+recipe-form-f-course,beta,f,OK,
+recipe-form-f-course,gamma,f,OK,
+recipe-form-f-course,alpha,g,OK,
+recipe-form-f-course,delta,g,OK,
+recipe-form-f-course,beta,g,OK,
+recipe-form-f-course,gamma,g,OK,
+recipe-form-f-course,alpha,h,OK,
+recipe-form-f-course,delta,h,OK,
+recipe-form-f-course,beta,h,OK,
+recipe-form-f-course,gamma,h,OK,
+recipe-form-f-course,alpha,i,OK,
+recipe-form-f-course,delta,i,OK,
+recipe-form-f-course,beta,i,OK,
+recipe-form-f-course,gamma,i,OK,
+recipe-form-f-course,alpha,j,OK,
+recipe-form-f-course,delta,j,OK,
+recipe-form-f-course,beta,j,OK,
+recipe-form-f-course,gamma,j,OK,
+recipe-form-f-course,alpha,k,OK,
+recipe-form-f-course,delta,k,OK,
+recipe-form-f-course,beta,k,OK,
+recipe-form-f-course,gamma,k,OK,
+recipe-form-f-servings,alpha,a,OK,
+recipe-form-f-servings,delta,a,KO,Target element has no attributes
+recipe-form-f-servings,beta,a,KO,Target element has no attributes
+recipe-form-f-servings,gamma,a,KO,Target element has no attributes
+recipe-form-f-servings,alpha,b,OK,
+recipe-form-f-servings,delta,b,KO,Target element has no valid candidate attributes
+recipe-form-f-servings,beta,b,KO,Target element has no valid candidate attributes
+recipe-form-f-servings,gamma,b,KO,Target element has no valid candidate attributes
+recipe-form-f-servings,alpha,c,OK,
+recipe-form-f-servings,delta,c,KO,Target element has no id attribute
+recipe-form-f-servings,beta,c,KO,Target element has no id attribute
+recipe-form-f-servings,gamma,c,KO,Target element has no id attribute
+recipe-form-f-servings,alpha,d,KO,Target element has no child nodes
+recipe-form-f-servings,delta,d,OK,
+recipe-form-f-servings,beta,d,KO,Target element text content is empty
+recipe-form-f-servings,gamma,d,KO,Target element text content is empty
+recipe-form-f-servings,alpha,e,KO,Target element has no child nodes
+recipe-form-f-servings,delta,e,OK,
+recipe-form-f-servings,beta,e,KO,Target element text content is empty
+recipe-form-f-servings,gamma,e,KO,Target element text content is empty
+recipe-form-f-servings,alpha,f,OK,
+recipe-form-f-servings,delta,f,OK,
+recipe-form-f-servings,beta,f,OK,
+recipe-form-f-servings,gamma,f,OK,
+recipe-form-f-servings,alpha,g,OK,
+recipe-form-f-servings,delta,g,OK,
+recipe-form-f-servings,beta,g,OK,
+recipe-form-f-servings,gamma,g,OK,
+recipe-form-f-servings,alpha,h,OK,
+recipe-form-f-servings,delta,h,OK,
+recipe-form-f-servings,beta,h,OK,
+recipe-form-f-servings,gamma,h,OK,
+recipe-form-f-servings,alpha,i,OK,
+recipe-form-f-servings,delta,i,OK,
+recipe-form-f-servings,beta,i,OK,
+recipe-form-f-servings,gamma,i,OK,
+recipe-form-f-servings,alpha,j,OK,
+recipe-form-f-servings,delta,j,OK,
+recipe-form-f-servings,beta,j,OK,
+recipe-form-f-servings,gamma,j,OK,
+recipe-form-f-servings,alpha,k,OK,
+recipe-form-f-servings,delta,k,OK,
+recipe-form-f-servings,beta,k,OK,
+recipe-form-f-servings,gamma,k,OK,
+recipe-form-f-veg,alpha,a,OK,
+recipe-form-f-veg,delta,a,KO,Target element has no attributes
+recipe-form-f-veg,beta,a,OK,
+recipe-form-f-veg,gamma,a,KO,Target element has no attributes
+recipe-form-f-veg,alpha,b,OK,
+recipe-form-f-veg,delta,b,KO,Target element has no valid candidate attributes
+recipe-form-f-veg,beta,b,OK,
+recipe-form-f-veg,gamma,b,KO,Target element has no valid candidate attributes
+recipe-form-f-veg,alpha,c,OK,
+recipe-form-f-veg,delta,c,KO,Target element has no id attribute
+recipe-form-f-veg,beta,c,KO,Target element has no id attribute
+recipe-form-f-veg,gamma,c,KO,Target element has no id attribute
+recipe-form-f-veg,alpha,d,KO,Target element has no child nodes
+recipe-form-f-veg,delta,d,OK,
+recipe-form-f-veg,beta,d,KO,Target element text content is empty
+recipe-form-f-veg,gamma,d,KO,Target element text content is empty
+recipe-form-f-veg,alpha,e,KO,Target element has no child nodes
+recipe-form-f-veg,delta,e,OK,
+recipe-form-f-veg,beta,e,KO,Target element text content is empty
+recipe-form-f-veg,gamma,e,KO,Target element text content is empty
+recipe-form-f-veg,alpha,f,OK,
+recipe-form-f-veg,delta,f,OK,
+recipe-form-f-veg,beta,f,OK,
+recipe-form-f-veg,gamma,f,OK,
+recipe-form-f-veg,alpha,g,OK,
+recipe-form-f-veg,delta,g,OK,
+recipe-form-f-veg,beta,g,OK,
+recipe-form-f-veg,gamma,g,OK,
+recipe-form-f-veg,alpha,h,OK,
+recipe-form-f-veg,delta,h,OK,
+recipe-form-f-veg,beta,h,OK,
+recipe-form-f-veg,gamma,h,OK,
+recipe-form-f-veg,alpha,i,OK,
+recipe-form-f-veg,delta,i,OK,
+recipe-form-f-veg,beta,i,OK,
+recipe-form-f-veg,gamma,i,OK,
+recipe-form-f-veg,alpha,j,OK,
+recipe-form-f-veg,delta,j,OK,
+recipe-form-f-veg,beta,j,OK,
+recipe-form-f-veg,gamma,j,OK,
+recipe-form-f-veg,alpha,k,OK,
+recipe-form-f-veg,delta,k,OK,
+recipe-form-f-veg,beta,k,OK,
+recipe-form-f-veg,gamma,k,OK,
+recipe-form-f-tags,alpha,a,OK,
+recipe-form-f-tags,delta,a,KO,Target element has no attributes
+recipe-form-f-tags,beta,a,KO,Target element has no attributes
+recipe-form-f-tags,gamma,a,KO,Target element has no attributes
+recipe-form-f-tags,alpha,b,OK,
+recipe-form-f-tags,delta,b,KO,Target element has no valid candidate attributes
+recipe-form-f-tags,beta,b,KO,Target element has no valid candidate attributes
+recipe-form-f-tags,gamma,b,KO,Target element has no valid candidate attributes
+recipe-form-f-tags,alpha,c,OK,
+recipe-form-f-tags,delta,c,KO,Target element has no id attribute
+recipe-form-f-tags,beta,c,KO,Target element has no id attribute
+recipe-form-f-tags,gamma,c,KO,Target element has no id attribute
+recipe-form-f-tags,alpha,d,KO,Target element has no child nodes
+recipe-form-f-tags,delta,d,OK,
+recipe-form-f-tags,beta,d,KO,Target element text content is empty
+recipe-form-f-tags,gamma,d,KO,Target element text content is empty
+recipe-form-f-tags,alpha,e,KO,Target element has no child nodes
+recipe-form-f-tags,delta,e,OK,
+recipe-form-f-tags,beta,e,KO,Target element text content is empty
+recipe-form-f-tags,gamma,e,KO,Target element text content is empty
+recipe-form-f-tags,alpha,f,OK,
+recipe-form-f-tags,delta,f,OK,
+recipe-form-f-tags,beta,f,OK,
+recipe-form-f-tags,gamma,f,OK,
+recipe-form-f-tags,alpha,g,OK,
+recipe-form-f-tags,delta,g,OK,
+recipe-form-f-tags,beta,g,OK,
+recipe-form-f-tags,gamma,g,OK,
+recipe-form-f-tags,alpha,h,OK,
+recipe-form-f-tags,delta,h,OK,
+recipe-form-f-tags,beta,h,OK,
+recipe-form-f-tags,gamma,h,OK,
+recipe-form-f-tags,alpha,i,OK,
+recipe-form-f-tags,delta,i,OK,
+recipe-form-f-tags,beta,i,OK,
+recipe-form-f-tags,gamma,i,OK,
+recipe-form-f-tags,alpha,j,OK,
+recipe-form-f-tags,delta,j,OK,
+recipe-form-f-tags,beta,j,OK,
+recipe-form-f-tags,gamma,j,OK,
+recipe-form-f-tags,alpha,k,OK,
+recipe-form-f-tags,delta,k,OK,
+recipe-form-f-tags,beta,k,OK,
+recipe-form-f-tags,gamma,k,OK,
+recipe-form-f-ingredients,epsilon,a,OK,
+recipe-form-f-ingredients,alpha,a,OK,
+recipe-form-f-ingredients,delta,a,KO,Target element has no attributes
+recipe-form-f-ingredients,beta,a,KO,Target element has no attributes
+recipe-form-f-ingredients,gamma,a,KO,Target element has no attributes
+recipe-form-f-ingredients,epsilon,b,OK,
+recipe-form-f-ingredients,alpha,b,OK,
+recipe-form-f-ingredients,delta,b,KO,Target element has no valid candidate attributes
+recipe-form-f-ingredients,beta,b,KO,Target element has no valid candidate attributes
+recipe-form-f-ingredients,gamma,b,KO,Target element has no valid candidate attributes
+recipe-form-f-ingredients,epsilon,c,KO,Target element has no id attribute
+recipe-form-f-ingredients,alpha,c,OK,
+recipe-form-f-ingredients,delta,c,KO,Target element has no id attribute
+recipe-form-f-ingredients,beta,c,KO,Target element has no id attribute
+recipe-form-f-ingredients,gamma,c,KO,Target element has no id attribute
+recipe-form-f-ingredients,epsilon,d,KO,Target element text content is empty
+recipe-form-f-ingredients,alpha,d,KO,Target element has no child nodes
+recipe-form-f-ingredients,delta,d,OK,
+recipe-form-f-ingredients,beta,d,KO,Target element text content is empty
+recipe-form-f-ingredients,gamma,d,KO,Target element text content is empty
+recipe-form-f-ingredients,epsilon,e,KO,Target element text content is empty
+recipe-form-f-ingredients,alpha,e,KO,Target element has no child nodes
+recipe-form-f-ingredients,delta,e,OK,
+recipe-form-f-ingredients,beta,e,KO,Target element text content is empty
+recipe-form-f-ingredients,gamma,e,KO,Target element text content is empty
+recipe-form-f-ingredients,epsilon,f,OK,
+recipe-form-f-ingredients,alpha,f,OK,
+recipe-form-f-ingredients,delta,f,OK,
+recipe-form-f-ingredients,beta,f,OK,
+recipe-form-f-ingredients,gamma,f,KO,The parent is null or empty
+recipe-form-f-ingredients,epsilon,g,OK,
+recipe-form-f-ingredients,alpha,g,OK,
+recipe-form-f-ingredients,delta,g,OK,
+recipe-form-f-ingredients,beta,g,OK,
+recipe-form-f-ingredients,gamma,g,OK,
+recipe-form-f-ingredients,epsilon,h,OK,
+recipe-form-f-ingredients,alpha,h,OK,
+recipe-form-f-ingredients,delta,h,OK,
+recipe-form-f-ingredients,beta,h,OK,
+recipe-form-f-ingredients,gamma,h,OK,
+recipe-form-f-ingredients,epsilon,i,OK,
+recipe-form-f-ingredients,alpha,i,OK,
+recipe-form-f-ingredients,delta,i,OK,
+recipe-form-f-ingredients,beta,i,OK,
+recipe-form-f-ingredients,gamma,i,OK,
+recipe-form-f-ingredients,epsilon,j,OK,
+recipe-form-f-ingredients,alpha,j,OK,
+recipe-form-f-ingredients,delta,j,OK,
+recipe-form-f-ingredients,beta,j,OK,
+recipe-form-f-ingredients,gamma,j,OK,
+recipe-form-f-ingredients,epsilon,k,OK,
+recipe-form-f-ingredients,alpha,k,OK,
+recipe-form-f-ingredients,delta,k,OK,
+recipe-form-f-ingredients,beta,k,OK,
+recipe-form-f-ingredients,gamma,k,OK,
+recipe-form-f-steps,epsilon,a,OK,
+recipe-form-f-steps,alpha,a,OK,
+recipe-form-f-steps,delta,a,KO,Target element has no attributes
+recipe-form-f-steps,beta,a,KO,Target element has no attributes
+recipe-form-f-steps,gamma,a,KO,Target element has no attributes
+recipe-form-f-steps,epsilon,b,OK,
+recipe-form-f-steps,alpha,b,OK,
+recipe-form-f-steps,delta,b,KO,Target element has no valid candidate attributes
+recipe-form-f-steps,beta,b,KO,Target element has no valid candidate attributes
+recipe-form-f-steps,gamma,b,KO,Target element has no valid candidate attributes
+recipe-form-f-steps,epsilon,c,KO,Target element has no id attribute
+recipe-form-f-steps,alpha,c,OK,
+recipe-form-f-steps,delta,c,KO,Target element has no id attribute
+recipe-form-f-steps,beta,c,KO,Target element has no id attribute
+recipe-form-f-steps,gamma,c,KO,Target element has no id attribute
+recipe-form-f-steps,epsilon,d,KO,Target element text content is empty
+recipe-form-f-steps,alpha,d,KO,Target element has no child nodes
+recipe-form-f-steps,delta,d,OK,
+recipe-form-f-steps,beta,d,KO,Target element text content is empty
+recipe-form-f-steps,gamma,d,KO,Target element text content is empty
+recipe-form-f-steps,epsilon,e,KO,Target element text content is empty
+recipe-form-f-steps,alpha,e,KO,Target element has no child nodes
+recipe-form-f-steps,delta,e,OK,
+recipe-form-f-steps,beta,e,KO,Target element text content is empty
+recipe-form-f-steps,gamma,e,KO,Target element text content is empty
+recipe-form-f-steps,epsilon,f,OK,
+recipe-form-f-steps,alpha,f,OK,
+recipe-form-f-steps,delta,f,OK,
+recipe-form-f-steps,beta,f,OK,
+recipe-form-f-steps,gamma,f,KO,The parent is null or empty
+recipe-form-f-steps,epsilon,g,OK,
+recipe-form-f-steps,alpha,g,OK,
+recipe-form-f-steps,delta,g,OK,
+recipe-form-f-steps,beta,g,OK,
+recipe-form-f-steps,gamma,g,OK,
+recipe-form-f-steps,epsilon,h,OK,
+recipe-form-f-steps,alpha,h,OK,
+recipe-form-f-steps,delta,h,OK,
+recipe-form-f-steps,beta,h,OK,
+recipe-form-f-steps,gamma,h,OK,
+recipe-form-f-steps,epsilon,i,OK,
+recipe-form-f-steps,alpha,i,OK,
+recipe-form-f-steps,delta,i,OK,
+recipe-form-f-steps,beta,i,OK,
+recipe-form-f-steps,gamma,i,OK,
+recipe-form-f-steps,epsilon,j,OK,
+recipe-form-f-steps,alpha,j,OK,
+recipe-form-f-steps,delta,j,OK,
+recipe-form-f-steps,beta,j,OK,
+recipe-form-f-steps,gamma,j,OK,
+recipe-form-f-steps,epsilon,k,OK,
+recipe-form-f-steps,alpha,k,OK,
+recipe-form-f-steps,delta,k,OK,
+recipe-form-f-steps,beta,k,OK,
+recipe-form-f-steps,gamma,k,OK,
+recipe-form-f-submit,alpha,a,OK,
+recipe-form-f-submit,delta,a,KO,Target element has no attributes
+recipe-form-f-submit,beta,a,KO,Target element has no attributes
+recipe-form-f-submit,gamma,a,KO,Target element has no attributes
+recipe-form-f-submit,alpha,b,OK,
+recipe-form-f-submit,delta,b,KO,Target element has no valid candidate attributes
+recipe-form-f-submit,beta,b,KO,Target element has no valid candidate attributes
+recipe-form-f-submit,gamma,b,KO,Target element has no valid candidate attributes
+recipe-form-f-submit,alpha,c,KO,Target element has no id attribute
+recipe-form-f-submit,delta,c,KO,Target element has no id attribute
+recipe-form-f-submit,beta,c,KO,Target element has no id attribute
+recipe-form-f-submit,gamma,c,KO,Target element has no id attribute
+recipe-form-f-submit,alpha,d,OK,
+recipe-form-f-submit,delta,d,OK,
+recipe-form-f-submit,beta,d,KO,Target element text content is empty
+recipe-form-f-submit,gamma,d,KO,Target element text content is empty
+recipe-form-f-submit,alpha,e,OK,
+recipe-form-f-submit,delta,e,OK,
+recipe-form-f-submit,beta,e,KO,Target element text content is empty
+recipe-form-f-submit,gamma,e,KO,Target element text content is empty
+recipe-form-f-submit,alpha,f,OK,
+recipe-form-f-submit,delta,f,OK,
+recipe-form-f-submit,beta,f,OK,
+recipe-form-f-submit,gamma,f,OK,
+recipe-form-f-submit,alpha,g,OK,
+recipe-form-f-submit,delta,g,OK,
+recipe-form-f-submit,beta,g,OK,
+recipe-form-f-submit,gamma,g,OK,
+recipe-form-f-submit,alpha,h,OK,
+recipe-form-f-submit,delta,h,OK,
+recipe-form-f-submit,beta,h,OK,
+recipe-form-f-submit,gamma,h,OK,
+recipe-form-f-submit,alpha,i,OK,
+recipe-form-f-submit,delta,i,OK,
+recipe-form-f-submit,beta,i,OK,
+recipe-form-f-submit,gamma,i,OK,
+recipe-form-f-submit,alpha,j,OK,
+recipe-form-f-submit,delta,j,OK,
+recipe-form-f-submit,beta,j,OK,
+recipe-form-f-submit,gamma,j,OK,
+recipe-form-f-submit,alpha,k,OK,
+recipe-form-f-submit,delta,k,OK,
+recipe-form-f-submit,beta,k,OK,
+recipe-form-f-submit,gamma,k,OK,
+shopping-list-shopping-title,alpha,a,KO,Target element has no attributes
+shopping-list-shopping-title,delta,a,KO,Target element has no attributes
+shopping-list-shopping-title,beta,a,KO,Target element has no attributes
+shopping-list-shopping-title,gamma,a,KO,Target element has no attributes
+shopping-list-shopping-title,alpha,b,KO,Target element has no valid candidate attributes
+shopping-list-shopping-title,delta,b,KO,Target element has no valid candidate attributes
+shopping-list-shopping-title,beta,b,KO,Target element has no valid candidate attributes
+shopping-list-shopping-title,gamma,b,KO,Target element has no valid candidate attributes
+shopping-list-shopping-title,alpha,c,KO,Target element has no id attribute
+shopping-list-shopping-title,delta,c,KO,Target element has no id attribute
+shopping-list-shopping-title,beta,c,KO,Target element has no id attribute
+shopping-list-shopping-title,gamma,c,KO,Target element has no id attribute
+shopping-list-shopping-title,alpha,d,OK,
+shopping-list-shopping-title,delta,d,OK,
+shopping-list-shopping-title,beta,d,KO,Target element text content is empty
+shopping-list-shopping-title,gamma,d,KO,Target element text content is empty
+shopping-list-shopping-title,alpha,e,OK,
+shopping-list-shopping-title,delta,e,OK,
+shopping-list-shopping-title,beta,e,KO,Target element text content is empty
+shopping-list-shopping-title,gamma,e,KO,Target element text content is empty
+shopping-list-shopping-title,alpha,f,OK,
+shopping-list-shopping-title,delta,f,OK,
+shopping-list-shopping-title,beta,f,KO,The parent is null or empty
+shopping-list-shopping-title,gamma,f,OK,
+shopping-list-shopping-title,alpha,g,KO,No candidate components found
+shopping-list-shopping-title,delta,g,KO,No candidate components found
+shopping-list-shopping-title,beta,g,KO,No candidate components found
+shopping-list-shopping-title,gamma,g,KO,No candidate components found
+shopping-list-shopping-title,alpha,h,OK,
+shopping-list-shopping-title,delta,h,OK,
+shopping-list-shopping-title,beta,h,OK,
+shopping-list-shopping-title,gamma,h,OK,
+shopping-list-shopping-title,alpha,i,OK,
+shopping-list-shopping-title,delta,i,OK,
+shopping-list-shopping-title,beta,i,OK,
+shopping-list-shopping-title,gamma,i,OK,
+shopping-list-shopping-title,alpha,j,OK,
+shopping-list-shopping-title,delta,j,OK,
+shopping-list-shopping-title,beta,j,OK,
+shopping-list-shopping-title,gamma,j,OK,
+shopping-list-shopping-title,alpha,k,OK,
+shopping-list-shopping-title,delta,k,OK,
+shopping-list-shopping-title,beta,k,OK,
+shopping-list-shopping-title,gamma,k,OK,
+shopping-list-open-count,alpha,a,OK,
+shopping-list-open-count,delta,a,KO,Target element has no attributes
+shopping-list-open-count,beta,a,KO,Target element has no attributes
+shopping-list-open-count,gamma,a,KO,Target element has no attributes
+shopping-list-open-count,alpha,b,OK,
+shopping-list-open-count,delta,b,KO,Target element has no valid candidate attributes
+shopping-list-open-count,beta,b,KO,Target element has no valid candidate attributes
+shopping-list-open-count,gamma,b,KO,Target element has no valid candidate attributes
+shopping-list-open-count,alpha,c,KO,Target element has no id attribute
+shopping-list-open-count,delta,c,KO,Target element has no id attribute
+shopping-list-open-count,beta,c,KO,Target element has no id attribute
+shopping-list-open-count,gamma,c,KO,Target element has no id attribute
+shopping-list-open-count,alpha,d,OK,
+shopping-list-open-count,delta,d,OK,
+shopping-list-open-count,beta,d,KO,Target element text content is empty
+shopping-list-open-count,gamma,d,KO,Target element text content is empty
+shopping-list-open-count,alpha,e,OK,
+shopping-list-open-count,delta,e,OK,
+shopping-list-open-count,beta,e,KO,Target element text content is empty
+shopping-list-open-count,gamma,e,KO,Target element text content is empty
+shopping-list-open-count,alpha,f,OK,
+shopping-list-open-count,delta,f,OK,
+shopping-list-open-count,beta,f,OK,
+shopping-list-open-count,gamma,f,OK,
+shopping-list-open-count,alpha,g,KO,No candidate components found
+shopping-list-open-count,delta,g,KO,No candidate components found
+shopping-list-open-count,beta,g,KO,No candidate components found
+shopping-list-open-count,gamma,g,KO,No candidate components found
+shopping-list-open-count,alpha,h,OK,
+shopping-list-open-count,delta,h,OK,
+shopping-list-open-count,beta,h,OK,
+shopping-list-open-count,gamma,h,OK,
+shopping-list-open-count,alpha,i,OK,
+shopping-list-open-count,delta,i,OK,
+shopping-list-open-count,beta,i,OK,
+shopping-list-open-count,gamma,i,OK,
+shopping-list-open-count,alpha,j,OK,
+shopping-list-open-count,delta,j,OK,
+shopping-list-open-count,beta,j,OK,
+shopping-list-open-count,gamma,j,OK,
+shopping-list-open-count,alpha,k,OK,
+shopping-list-open-count,delta,k,OK,
+shopping-list-open-count,beta,k,OK,
+shopping-list-open-count,gamma,k,OK,
+shopping-list-done-count,alpha,a,OK,
+shopping-list-done-count,delta,a,KO,Target element has no attributes
+shopping-list-done-count,beta,a,KO,Target element has no attributes
+shopping-list-done-count,gamma,a,KO,Target element has no attributes
+shopping-list-done-count,alpha,b,OK,
+shopping-list-done-count,delta,b,KO,Target element has no valid candidate attributes
+shopping-list-done-count,beta,b,KO,Target element has no valid candidate attributes
+shopping-list-done-count,gamma,b,KO,Target element has no valid candidate attributes
+shopping-list-done-count,alpha,c,KO,Target element has no id attribute
+shopping-list-done-count,delta,c,KO,Target element has no id attribute
+shopping-list-done-count,beta,c,KO,Target element has no id attribute
+shopping-list-done-count,gamma,c,KO,Target element has no id attribute
+shopping-list-done-count,alpha,d,OK,
+shopping-list-done-count,delta,d,OK,
+shopping-list-done-count,beta,d,KO,Target element text content is empty
+shopping-list-done-count,gamma,d,KO,Target element text content is empty
+shopping-list-done-count,alpha,e,OK,
+shopping-list-done-count,delta,e,OK,
+shopping-list-done-count,beta,e,KO,Target element text content is empty
+shopping-list-done-count,gamma,e,KO,Target element text content is empty
+shopping-list-done-count,alpha,f,OK,
+shopping-list-done-count,delta,f,OK,
+shopping-list-done-count,beta,f,OK,
+shopping-list-done-count,gamma,f,OK,
+shopping-list-done-count,alpha,g,KO,No candidate components found
+shopping-list-done-count,delta,g,KO,No candidate components found
+shopping-list-done-count,beta,g,KO,No candidate components found
+shopping-list-done-count,gamma,g,KO,No candidate components found
+shopping-list-done-count,alpha,h,OK,
+shopping-list-done-count,delta,h,OK,
+shopping-list-done-count,beta,h,OK,
+shopping-list-done-count,gamma,h,OK,
+shopping-list-done-count,alpha,i,OK,
+shopping-list-done-count,delta,i,OK,
+shopping-list-done-count,beta,i,OK,
+shopping-list-done-count,gamma,i,OK,
+shopping-list-done-count,alpha,j,OK,
+shopping-list-done-count,delta,j,OK,
+shopping-list-done-count,beta,j,OK,
+shopping-list-done-count,gamma,j,OK,
+shopping-list-done-count,alpha,k,OK,
+shopping-list-done-count,delta,k,OK,
+shopping-list-done-count,beta,k,OK,
+shopping-list-done-count,gamma,k,OK,
+shopping-list-shopping-empty,alpha,a,KO,Target element has no attributes
+shopping-list-shopping-empty,delta,a,KO,Target element has no attributes
+shopping-list-shopping-empty,beta,a,KO,Target element has no attributes
+shopping-list-shopping-empty,gamma,a,KO,Target element has no attributes
+shopping-list-shopping-empty,alpha,b,KO,Target element has no valid candidate attributes
+shopping-list-shopping-empty,delta,b,KO,Target element has no valid candidate attributes
+shopping-list-shopping-empty,beta,b,KO,Target element has no valid candidate attributes
+shopping-list-shopping-empty,gamma,b,KO,Target element has no valid candidate attributes
+shopping-list-shopping-empty,alpha,c,KO,Target element has no id attribute
+shopping-list-shopping-empty,delta,c,KO,Target element has no id attribute
+shopping-list-shopping-empty,beta,c,KO,Target element has no id attribute
+shopping-list-shopping-empty,gamma,c,KO,Target element has no id attribute
+shopping-list-shopping-empty,alpha,d,OK,
+shopping-list-shopping-empty,delta,d,OK,
+shopping-list-shopping-empty,beta,d,KO,Target element text content is empty
+shopping-list-shopping-empty,gamma,d,OK,
+shopping-list-shopping-empty,alpha,e,OK,
+shopping-list-shopping-empty,delta,e,OK,
+shopping-list-shopping-empty,beta,e,KO,Target element text content is empty
+shopping-list-shopping-empty,gamma,e,OK,
+shopping-list-shopping-empty,alpha,f,OK,
+shopping-list-shopping-empty,delta,f,OK,
+shopping-list-shopping-empty,beta,f,OK,
+shopping-list-shopping-empty,gamma,f,OK,
+shopping-list-shopping-empty,alpha,g,KO,No candidate components found
+shopping-list-shopping-empty,delta,g,KO,No candidate components found
+shopping-list-shopping-empty,beta,g,KO,No candidate components found
+shopping-list-shopping-empty,gamma,g,KO,No candidate components found
+shopping-list-shopping-empty,alpha,h,OK,
+shopping-list-shopping-empty,delta,h,OK,
+shopping-list-shopping-empty,beta,h,OK,
+shopping-list-shopping-empty,gamma,h,OK,
+shopping-list-shopping-empty,alpha,i,OK,
+shopping-list-shopping-empty,delta,i,OK,
+shopping-list-shopping-empty,beta,i,OK,
+shopping-list-shopping-empty,gamma,i,OK,
+shopping-list-shopping-empty,alpha,j,OK,
+shopping-list-shopping-empty,delta,j,OK,
+shopping-list-shopping-empty,beta,j,OK,
+shopping-list-shopping-empty,gamma,j,OK,
+shopping-list-shopping-empty,alpha,k,OK,
+shopping-list-shopping-empty,delta,k,OK,
+shopping-list-shopping-empty,beta,k,OK,
+shopping-list-shopping-empty,gamma,k,OK,
+shopping-list-shop-check,alpha,a,OK,
+shopping-list-shop-check,delta,a,KO,Target element has no attributes
+shopping-list-shop-check,beta,a,KO,Target element has no attributes
+shopping-list-shop-check,gamma,a,OK,
+shopping-list-shop-check,alpha,b,OK,
+shopping-list-shop-check,delta,b,KO,Target element has no valid candidate attributes
+shopping-list-shop-check,beta,b,KO,Target element has no valid candidate attributes
+shopping-list-shop-check,gamma,b,OK,
+shopping-list-shop-check,alpha,c,KO,Target element has no id attribute
+shopping-list-shop-check,delta,c,KO,Target element has no id attribute
+shopping-list-shop-check,beta,c,KO,Target element has no id attribute
+shopping-list-shop-check,gamma,c,KO,Target element has no id attribute
+shopping-list-shop-check,alpha,d,KO,Target element has no child nodes
+shopping-list-shop-check,delta,d,OK,
+shopping-list-shop-check,beta,d,KO,Target element text content is empty
+shopping-list-shop-check,gamma,d,KO,Target element text content is empty
+shopping-list-shop-check,alpha,e,KO,Target element has no child nodes
+shopping-list-shop-check,delta,e,OK,
+shopping-list-shop-check,beta,e,KO,Target element text content is empty
+shopping-list-shop-check,gamma,e,KO,Target element text content is empty
+shopping-list-shop-check,alpha,f,OK,
+shopping-list-shop-check,delta,f,OK,
+shopping-list-shop-check,beta,f,KO,The parent is null or empty
+shopping-list-shop-check,gamma,f,KO,The parent is null or empty
+shopping-list-shop-check,alpha,g,KO,No candidate components found
+shopping-list-shop-check,delta,g,KO,No candidate components found
+shopping-list-shop-check,beta,g,KO,No candidate components found
+shopping-list-shop-check,gamma,g,KO,No candidate components found
+shopping-list-shop-check,alpha,h,OK,
+shopping-list-shop-check,delta,h,OK,
+shopping-list-shop-check,beta,h,OK,
+shopping-list-shop-check,gamma,h,OK,
+shopping-list-shop-check,alpha,i,OK,
+shopping-list-shop-check,delta,i,OK,
+shopping-list-shop-check,beta,i,OK,
+shopping-list-shop-check,gamma,i,OK,
+shopping-list-shop-check,alpha,j,OK,
+shopping-list-shop-check,delta,j,OK,
+shopping-list-shop-check,beta,j,OK,
+shopping-list-shop-check,gamma,j,OK,
+shopping-list-shop-check,alpha,k,OK,
+shopping-list-shop-check,delta,k,OK,
+shopping-list-shop-check,beta,k,OK,
+shopping-list-shop-check,gamma,k,OK,
+shopping-list-clear-done,alpha,a,OK,
+shopping-list-clear-done,delta,a,KO,Target element has no attributes
+shopping-list-clear-done,beta,a,KO,Target element has no attributes
+shopping-list-clear-done,gamma,a,KO,Target element has no attributes
+shopping-list-clear-done,alpha,b,OK,
+shopping-list-clear-done,delta,b,KO,Target element has no valid candidate attributes
+shopping-list-clear-done,beta,b,KO,Target element has no valid candidate attributes
+shopping-list-clear-done,gamma,b,KO,Target element has no valid candidate attributes
+shopping-list-clear-done,alpha,c,KO,Target element has no id attribute
+shopping-list-clear-done,delta,c,KO,Target element has no id attribute
+shopping-list-clear-done,beta,c,KO,Target element has no id attribute
+shopping-list-clear-done,gamma,c,KO,Target element has no id attribute
+shopping-list-clear-done,alpha,d,OK,
+shopping-list-clear-done,delta,d,OK,
+shopping-list-clear-done,beta,d,KO,Target element text content is empty
+shopping-list-clear-done,gamma,d,KO,Target element text content is empty
+shopping-list-clear-done,alpha,e,OK,
+shopping-list-clear-done,delta,e,OK,
+shopping-list-clear-done,beta,e,KO,Target element text content is empty
+shopping-list-clear-done,gamma,e,KO,Target element text content is empty
+shopping-list-clear-done,alpha,f,OK,
+shopping-list-clear-done,delta,f,OK,
+shopping-list-clear-done,beta,f,KO,The parent is null or empty
+shopping-list-clear-done,gamma,f,OK,
+shopping-list-clear-done,alpha,g,KO,No candidate components found
+shopping-list-clear-done,delta,g,KO,No candidate components found
+shopping-list-clear-done,beta,g,KO,No candidate components found
+shopping-list-clear-done,gamma,g,KO,No candidate components found
+shopping-list-clear-done,alpha,h,OK,
+shopping-list-clear-done,delta,h,OK,
+shopping-list-clear-done,beta,h,OK,
+shopping-list-clear-done,gamma,h,OK,
+shopping-list-clear-done,alpha,i,OK,
+shopping-list-clear-done,delta,i,OK,
+shopping-list-clear-done,beta,i,OK,
+shopping-list-clear-done,gamma,i,OK,
+shopping-list-clear-done,alpha,j,OK,
+shopping-list-clear-done,delta,j,OK,
+shopping-list-clear-done,beta,j,OK,
+shopping-list-clear-done,gamma,j,OK,
+shopping-list-clear-done,alpha,k,OK,
+shopping-list-clear-done,delta,k,OK,
+shopping-list-clear-done,beta,k,OK,
+shopping-list-clear-done,gamma,k,OK,
+stats-stats-title,alpha,a,KO,Target element has no attributes
+stats-stats-title,delta,a,KO,Target element has no attributes
+stats-stats-title,beta,a,KO,Target element has no attributes
+stats-stats-title,gamma,a,KO,Target element has no attributes
+stats-stats-title,alpha,b,KO,Target element has no valid candidate attributes
+stats-stats-title,delta,b,KO,Target element has no valid candidate attributes
+stats-stats-title,beta,b,KO,Target element has no valid candidate attributes
+stats-stats-title,gamma,b,KO,Target element has no valid candidate attributes
+stats-stats-title,alpha,c,KO,Target element has no id attribute
+stats-stats-title,delta,c,KO,Target element has no id attribute
+stats-stats-title,beta,c,KO,Target element has no id attribute
+stats-stats-title,gamma,c,KO,Target element has no id attribute
+stats-stats-title,alpha,d,OK,
+stats-stats-title,delta,d,OK,
+stats-stats-title,beta,d,KO,Target element text content is empty
+stats-stats-title,gamma,d,KO,Target element text content is empty
+stats-stats-title,alpha,e,OK,
+stats-stats-title,delta,e,OK,
+stats-stats-title,beta,e,KO,Target element text content is empty
+stats-stats-title,gamma,e,KO,Target element text content is empty
+stats-stats-title,alpha,f,OK,
+stats-stats-title,delta,f,OK,
+stats-stats-title,beta,f,KO,The parent is null or empty
+stats-stats-title,gamma,f,OK,
+stats-stats-title,alpha,g,OK,
+stats-stats-title,delta,g,OK,
+stats-stats-title,beta,g,OK,
+stats-stats-title,gamma,g,OK,
+stats-stats-title,alpha,h,OK,
+stats-stats-title,delta,h,OK,
+stats-stats-title,beta,h,OK,
+stats-stats-title,gamma,h,OK,
+stats-stats-title,alpha,i,OK,
+stats-stats-title,delta,i,OK,
+stats-stats-title,beta,i,OK,
+stats-stats-title,gamma,i,OK,
+stats-stats-title,alpha,j,OK,
+stats-stats-title,delta,j,OK,
+stats-stats-title,beta,j,OK,
+stats-stats-title,gamma,j,OK,
+stats-stats-title,alpha,k,OK,
+stats-stats-title,delta,k,OK,
+stats-stats-title,beta,k,OK,
+stats-stats-title,gamma,k,OK,
+stats-stat-total,alpha,a,KO,Target element has no attributes
+stats-stat-total,delta,a,KO,Target element has no attributes
+stats-stat-total,beta,a,KO,Target element has no attributes
+stats-stat-total,gamma,a,OK,
+stats-stat-total,alpha,b,KO,Target element has no valid candidate attributes
+stats-stat-total,delta,b,KO,Target element has no valid candidate attributes
+stats-stat-total,beta,b,KO,Target element has no valid candidate attributes
+stats-stat-total,gamma,b,OK,
+stats-stat-total,alpha,c,KO,Target element has no id attribute
+stats-stat-total,delta,c,KO,Target element has no id attribute
+stats-stat-total,beta,c,KO,Target element has no id attribute
+stats-stat-total,gamma,c,KO,Target element has no id attribute
+stats-stat-total,alpha,d,OK,
+stats-stat-total,delta,d,OK,
+stats-stat-total,beta,d,KO,Target element text content is empty
+stats-stat-total,gamma,d,KO,Target element text content is empty
+stats-stat-total,alpha,e,OK,
+stats-stat-total,delta,e,OK,
+stats-stat-total,beta,e,KO,Target element text content is empty
+stats-stat-total,gamma,e,KO,Target element text content is empty
+stats-stat-total,alpha,f,OK,
+stats-stat-total,delta,f,OK,
+stats-stat-total,beta,f,KO,The parent is null or empty
+stats-stat-total,gamma,f,OK,
+stats-stat-total,alpha,g,OK,
+stats-stat-total,delta,g,OK,
+stats-stat-total,beta,g,OK,
+stats-stat-total,gamma,g,OK,
+stats-stat-total,alpha,h,OK,
+stats-stat-total,delta,h,OK,
+stats-stat-total,beta,h,OK,
+stats-stat-total,gamma,h,OK,
+stats-stat-total,alpha,i,OK,
+stats-stat-total,delta,i,OK,
+stats-stat-total,beta,i,OK,
+stats-stat-total,gamma,i,OK,
+stats-stat-total,alpha,j,OK,
+stats-stat-total,delta,j,OK,
+stats-stat-total,beta,j,OK,
+stats-stat-total,gamma,j,OK,
+stats-stat-total,alpha,k,OK,
+stats-stat-total,delta,k,OK,
+stats-stat-total,beta,k,OK,
+stats-stat-total,gamma,k,OK,
+stats-stat-veg,alpha,a,KO,Target element has no attributes
+stats-stat-veg,delta,a,KO,Target element has no attributes
+stats-stat-veg,beta,a,KO,Target element has no attributes
+stats-stat-veg,gamma,a,OK,
+stats-stat-veg,alpha,b,KO,Target element has no valid candidate attributes
+stats-stat-veg,delta,b,KO,Target element has no valid candidate attributes
+stats-stat-veg,beta,b,KO,Target element has no valid candidate attributes
+stats-stat-veg,gamma,b,OK,
+stats-stat-veg,alpha,c,KO,Target element has no id attribute
+stats-stat-veg,delta,c,KO,Target element has no id attribute
+stats-stat-veg,beta,c,KO,Target element has no id attribute
+stats-stat-veg,gamma,c,KO,Target element has no id attribute
+stats-stat-veg,alpha,d,OK,
+stats-stat-veg,delta,d,OK,
+stats-stat-veg,beta,d,KO,Target element text content is empty
+stats-stat-veg,gamma,d,KO,Target element text content is empty
+stats-stat-veg,alpha,e,OK,
+stats-stat-veg,delta,e,OK,
+stats-stat-veg,beta,e,KO,Target element text content is empty
+stats-stat-veg,gamma,e,KO,Target element text content is empty
+stats-stat-veg,alpha,f,OK,
+stats-stat-veg,delta,f,OK,
+stats-stat-veg,beta,f,KO,The parent is null or empty
+stats-stat-veg,gamma,f,OK,
+stats-stat-veg,alpha,g,OK,
+stats-stat-veg,delta,g,OK,
+stats-stat-veg,beta,g,OK,
+stats-stat-veg,gamma,g,OK,
+stats-stat-veg,alpha,h,OK,
+stats-stat-veg,delta,h,OK,
+stats-stat-veg,beta,h,OK,
+stats-stat-veg,gamma,h,OK,
+stats-stat-veg,alpha,i,OK,
+stats-stat-veg,delta,i,OK,
+stats-stat-veg,beta,i,OK,
+stats-stat-veg,gamma,i,OK,
+stats-stat-veg,alpha,j,OK,
+stats-stat-veg,delta,j,OK,
+stats-stat-veg,beta,j,OK,
+stats-stat-veg,gamma,j,OK,
+stats-stat-veg,alpha,k,OK,
+stats-stat-veg,delta,k,OK,
+stats-stat-veg,beta,k,OK,
+stats-stat-veg,gamma,k,OK,
+stats-stat-time,alpha,a,KO,Target element has no attributes
+stats-stat-time,delta,a,KO,Target element has no attributes
+stats-stat-time,beta,a,KO,Target element has no attributes
+stats-stat-time,gamma,a,OK,
+stats-stat-time,alpha,b,KO,Target element has no valid candidate attributes
+stats-stat-time,delta,b,KO,Target element has no valid candidate attributes
+stats-stat-time,beta,b,KO,Target element has no valid candidate attributes
+stats-stat-time,gamma,b,OK,
+stats-stat-time,alpha,c,KO,Target element has no id attribute
+stats-stat-time,delta,c,KO,Target element has no id attribute
+stats-stat-time,beta,c,KO,Target element has no id attribute
+stats-stat-time,gamma,c,KO,Target element has no id attribute
+stats-stat-time,alpha,d,OK,
+stats-stat-time,delta,d,OK,
+stats-stat-time,beta,d,KO,Target element text content is empty
+stats-stat-time,gamma,d,KO,Target element text content is empty
+stats-stat-time,alpha,e,OK,
+stats-stat-time,delta,e,OK,
+stats-stat-time,beta,e,KO,Target element text content is empty
+stats-stat-time,gamma,e,KO,Target element text content is empty
+stats-stat-time,alpha,f,OK,
+stats-stat-time,delta,f,OK,
+stats-stat-time,beta,f,KO,The parent is null or empty
+stats-stat-time,gamma,f,OK,
+stats-stat-time,alpha,g,OK,
+stats-stat-time,delta,g,OK,
+stats-stat-time,beta,g,OK,
+stats-stat-time,gamma,g,OK,
+stats-stat-time,alpha,h,OK,
+stats-stat-time,delta,h,OK,
+stats-stat-time,beta,h,OK,
+stats-stat-time,gamma,h,OK,
+stats-stat-time,alpha,i,OK,
+stats-stat-time,delta,i,OK,
+stats-stat-time,beta,i,OK,
+stats-stat-time,gamma,i,OK,
+stats-stat-time,alpha,j,OK,
+stats-stat-time,delta,j,OK,
+stats-stat-time,beta,j,OK,
+stats-stat-time,gamma,j,OK,
+stats-stat-time,alpha,k,OK,
+stats-stat-time,delta,k,OK,
+stats-stat-time,beta,k,OK,
+stats-stat-time,gamma,k,OK,
+stats-stat-fav,alpha,a,KO,Target element has no attributes
+stats-stat-fav,delta,a,KO,Target element has no attributes
+stats-stat-fav,beta,a,KO,Target element has no attributes
+stats-stat-fav,gamma,a,OK,
+stats-stat-fav,alpha,b,KO,Target element has no valid candidate attributes
+stats-stat-fav,delta,b,KO,Target element has no valid candidate attributes
+stats-stat-fav,beta,b,KO,Target element has no valid candidate attributes
+stats-stat-fav,gamma,b,OK,
+stats-stat-fav,alpha,c,KO,Target element has no id attribute
+stats-stat-fav,delta,c,KO,Target element has no id attribute
+stats-stat-fav,beta,c,KO,Target element has no id attribute
+stats-stat-fav,gamma,c,KO,Target element has no id attribute
+stats-stat-fav,alpha,d,OK,
+stats-stat-fav,delta,d,OK,
+stats-stat-fav,beta,d,KO,Target element text content is empty
+stats-stat-fav,gamma,d,KO,Target element text content is empty
+stats-stat-fav,alpha,e,OK,
+stats-stat-fav,delta,e,OK,
+stats-stat-fav,beta,e,KO,Target element text content is empty
+stats-stat-fav,gamma,e,KO,Target element text content is empty
+stats-stat-fav,alpha,f,OK,
+stats-stat-fav,delta,f,OK,
+stats-stat-fav,beta,f,KO,The parent is null or empty
+stats-stat-fav,gamma,f,OK,
+stats-stat-fav,alpha,g,OK,
+stats-stat-fav,delta,g,OK,
+stats-stat-fav,beta,g,OK,
+stats-stat-fav,gamma,g,OK,
+stats-stat-fav,alpha,h,OK,
+stats-stat-fav,delta,h,OK,
+stats-stat-fav,beta,h,OK,
+stats-stat-fav,gamma,h,OK,
+stats-stat-fav,alpha,i,OK,
+stats-stat-fav,delta,i,OK,
+stats-stat-fav,beta,i,OK,
+stats-stat-fav,gamma,i,OK,
+stats-stat-fav,alpha,j,OK,
+stats-stat-fav,delta,j,OK,
+stats-stat-fav,beta,j,OK,
+stats-stat-fav,gamma,j,OK,
+stats-stat-fav,alpha,k,OK,
+stats-stat-fav,delta,k,OK,
+stats-stat-fav,beta,k,OK,
+stats-stat-fav,gamma,k,OK,
+stats-course-count,epsilon,a,OK,
+stats-course-count,alpha,a,OK,
+stats-course-count,delta,a,OK,
+stats-course-count,beta,a,OK,
+stats-course-count,gamma,a,OK,
+stats-course-count,epsilon,b,OK,
+stats-course-count,alpha,b,OK,
+stats-course-count,delta,b,OK,
+stats-course-count,beta,b,OK,
+stats-course-count,gamma,b,OK,
+stats-course-count,epsilon,c,KO,Target element has no id attribute
+stats-course-count,alpha,c,KO,Target element has no id attribute
+stats-course-count,delta,c,KO,Target element has no id attribute
+stats-course-count,beta,c,KO,Target element has no id attribute
+stats-course-count,gamma,c,KO,Target element has no id attribute
+stats-course-count,epsilon,d,KO,Target element text content is empty
+stats-course-count,alpha,d,OK,
+stats-course-count,delta,d,OK,
+stats-course-count,beta,d,KO,Target element text content is empty
+stats-course-count,gamma,d,OK,
+stats-course-count,epsilon,e,KO,Target element text content is empty
+stats-course-count,alpha,e,OK,
+stats-course-count,delta,e,OK,
+stats-course-count,beta,e,KO,Target element text content is empty
+stats-course-count,gamma,e,OK,
+stats-course-count,epsilon,f,OK,
+stats-course-count,alpha,f,OK,
+stats-course-count,delta,f,OK,
+stats-course-count,beta,f,KO,The parent is null or empty
+stats-course-count,gamma,f,KO,The parent is null or empty
+stats-course-count,epsilon,g,OK,
+stats-course-count,alpha,g,OK,
+stats-course-count,delta,g,OK,
+stats-course-count,beta,g,OK,
+stats-course-count,gamma,g,OK,
+stats-course-count,epsilon,h,OK,
+stats-course-count,alpha,h,OK,
+stats-course-count,delta,h,OK,
+stats-course-count,beta,h,OK,
+stats-course-count,gamma,h,OK,
+stats-course-count,epsilon,i,OK,
+stats-course-count,alpha,i,OK,
+stats-course-count,delta,i,OK,
+stats-course-count,beta,i,OK,
+stats-course-count,gamma,i,OK,
+stats-course-count,epsilon,j,OK,
+stats-course-count,alpha,j,OK,
+stats-course-count,delta,j,OK,
+stats-course-count,beta,j,OK,
+stats-course-count,gamma,j,OK,
+stats-course-count,epsilon,k,OK,
+stats-course-count,alpha,k,OK,
+stats-course-count,delta,k,OK,
+stats-course-count,beta,k,OK,
+stats-course-count,gamma,k,OK,
+stats-top-title,epsilon,a,OK,
+stats-top-title,alpha,a,OK,
+stats-top-title,delta,a,KO,Target element has no attributes
+stats-top-title,beta,a,OK,
+stats-top-title,gamma,a,KO,Target element has no attributes
+stats-top-title,epsilon,b,OK,
+stats-top-title,alpha,b,OK,
+stats-top-title,delta,b,KO,Target element has no valid candidate attributes
+stats-top-title,beta,b,OK,
+stats-top-title,gamma,b,KO,Target element has no valid candidate attributes
+stats-top-title,epsilon,c,KO,Target element has no id attribute
+stats-top-title,alpha,c,KO,Target element has no id attribute
+stats-top-title,delta,c,KO,Target element has no id attribute
+stats-top-title,beta,c,KO,Target element has no id attribute
+stats-top-title,gamma,c,KO,Target element has no id attribute
+stats-top-title,epsilon,d,KO,Target element text content is empty
+stats-top-title,alpha,d,OK,
+stats-top-title,delta,d,OK,
+stats-top-title,beta,d,KO,Target element text content is empty
+stats-top-title,gamma,d,OK,
+stats-top-title,epsilon,e,KO,Target element text content is empty
+stats-top-title,alpha,e,OK,
+stats-top-title,delta,e,OK,
+stats-top-title,beta,e,KO,Target element text content is empty
+stats-top-title,gamma,e,OK,
+stats-top-title,epsilon,f,OK,
+stats-top-title,alpha,f,OK,
+stats-top-title,delta,f,OK,
+stats-top-title,beta,f,KO,The parent is null or empty
+stats-top-title,gamma,f,KO,The parent is null or empty
+stats-top-title,epsilon,g,OK,
+stats-top-title,alpha,g,OK,
+stats-top-title,delta,g,OK,
+stats-top-title,beta,g,OK,
+stats-top-title,gamma,g,OK,
+stats-top-title,epsilon,h,OK,
+stats-top-title,alpha,h,OK,
+stats-top-title,delta,h,OK,
+stats-top-title,beta,h,OK,
+stats-top-title,gamma,h,OK,
+stats-top-title,epsilon,i,OK,
+stats-top-title,alpha,i,OK,
+stats-top-title,delta,i,OK,
+stats-top-title,beta,i,OK,
+stats-top-title,gamma,i,OK,
+stats-top-title,epsilon,j,OK,
+stats-top-title,alpha,j,OK,
+stats-top-title,delta,j,OK,
+stats-top-title,beta,j,OK,
+stats-top-title,gamma,j,OK,
+stats-top-title,epsilon,k,OK,
+stats-top-title,alpha,k,OK,
+stats-top-title,delta,k,OK,
+stats-top-title,beta,k,OK,
+stats-top-title,gamma,k,OK,

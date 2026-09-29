@@ -1,0 +1,53 @@
+{
+ "S3_DetailTitle": {
+  "Relative": {
+   "count": 1,
+   "same": true,
+   "first": true
+  },
+  "Katalon": {
+   "count": 1,
+   "same": true,
+   "first": true
+  },
+  "Selenium": {
+   "count": 1,
+   "same": true,
+   "first": true
+  }
+ },
+ "S3_Servings": {
+  "Relative": {
+   "count": 1,
+   "same": true,
+   "first": true
+  },
+  "Katalon": {
+   "count": 1,
+   "same": true,
+   "first": true
+  },
+  "Selenium": {
+   "count": 1,
+   "same": true,
+   "first": true
+  }
+ },
+ "S3_IngQty": {
+  "Relative": {
+   "count": 1,
+   "same": true,
+   "first": true
+  },
+  "Katalon": {
+   "count": 1,
+   "same": true,
+   "first": true
+  },
+  "Selenium": {
+   "count": 1,
+   "same": true,
+   "first": true
+  }
+ }
+}

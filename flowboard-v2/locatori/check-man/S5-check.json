@@ -1,0 +1,53 @@
+{
+ "S5_StatTotal": {
+  "Relative": {
+   "count": 1,
+   "same": true,
+   "first": true
+  },
+  "Katalon": {
+   "count": 1,
+   "same": true,
+   "first": true
+  },
+  "Selenium": {
+   "count": 1,
+   "same": true,
+   "first": true
+  }
+ },
+ "S5_StatBacklog": {
+  "Relative": {
+   "count": 1,
+   "same": true,
+   "first": true
+  },
+  "Katalon": {
+   "count": 1,
+   "same": true,
+   "first": true
+  },
+  "Selenium": {
+   "count": 1,
+   "same": true,
+   "first": true
+  }
+ },
+ "S5_StatRow3": {
+  "Relative": {
+   "count": 1,
+   "same": true,
+   "first": true
+  },
+  "Katalon": {
+   "count": 1,
+   "same": true,
+   "first": true
+  },
+  "Selenium": {
+   "count": 1,
+   "same": true,
+   "first": true
+  }
+ }
+}

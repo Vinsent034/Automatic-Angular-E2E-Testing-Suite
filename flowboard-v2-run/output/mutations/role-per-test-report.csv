@@ -1,0 +1,153 @@
+Test,Target,Applicable,Saved,Rejected,NA
+S6: shell shows board title,board-title,24,24,0,16
+S1: board intro,board-demo-badge,24,7,17,16
+S1: board intro,board-hint-banner,24,0,24,16
+S1: search filters by title,board-search,22,22,0,18
+S1: search,board-search-label,22,0,22,18
+S1: priority filter,board-filter-priority,22,17,5,18
+S1: priority filter,board-priority-label,22,0,22,18
+S1: assignee filter,board-filter-assignee,24,19,5,16
+S1: assignee filter,board-assignee-label,24,0,24,16
+S1: matching count,board-filtered-count,24,19,5,16
+S1: matching,board-matching-label,24,0,24,16
+S1: add card,board-add-card,24,19,5,16
+S6: reset board,board-reset,24,0,24,16
+S2: columns grid,board-columns,15,5,10,25
+S2: column header,board-column-title,25,25,0,15
+S2: column count updates on move,board-column-count,25,0,25,15
+S1: total badge,header-total-badge,25,25,0,15
+S6: brand,header-app-title,25,19,6,15
+S6: brand,header-app-tagline,25,0,25,15
+S6: brand,header-brand-icon,25,7,18,15
+S6: nav to board,header-nav-board,25,19,6,15
+S5: nav to stats,header-nav-stats,25,7,18,15
+S3: new card,header-new-card,25,0,25,15
+S2: card element,card-root,5,5,0,35
+S2: card id,card-id,27,21,6,13
+S1: card title,card-title,19,14,5,21
+S1: card priority,card-priority,27,0,27,13
+S1: card assignee,card-assignee,27,22,5,13
+S1: card tags,card-tags,27,0,27,13
+S2: move menu,card-move,26,26,0,14
+S4: open detail,card-open,17,0,17,23
+S4: edit link,card-edit,27,16,11,13
+S4: delete button,card-delete,27,0,27,13
+S2: column card list,column-card-list,7,7,0,33
+S2: empty column,column-empty-message,20,12,8,20
+S3: create card,form-root,17,17,0,23
+S3: title field,form-title,22,17,5,18
+S3: title label,form-title-label,22,0,22,18
+S3: description field,form-description,22,17,5,18
+S3: priority select,form-priority,29,29,0,11
+S3: assignee field,form-assignee,29,17,12,11
+S3: column select,form-column,29,17,12,11
+S3: tags field,form-tags,22,17,5,18
+S3: submit,form-submit,24,21,3,16
+S3: cancel,form-cancel,24,0,24,16
+S3: back,form-back,26,14,12,14
+S3: actions,form-actions,20,1,19,20
+S4: detail title,detail-title,25,25,0,15
+S4: detail id,detail-id,25,7,18,15
+S4: detail priority,detail-priority,25,0,25,15
+S4: detail description,detail-description,31,31,0,9
+S4: detail assignee,detail-assignee,31,19,12,9
+S4: detail column,detail-column,31,19,12,9
+S4: detail tags,detail-tags,31,19,12,9
+S4: detail edit,detail-edit,24,19,5,16
+S4: detail delete,detail-delete,24,0,24,16
+S4: detail back,detail-back,26,24,2,14
+S4: detail page title,detail-page-title,26,0,26,14
+S5: total,stat-total,24,24,0,16
+S5: backlog count,stat-backlog,24,19,5,16
+S5: inprogress count,stat-inprogress,24,19,5,16
+S5: review count,stat-review,24,19,5,16
+S5: done count,stat-done,24,19,5,16
+S5: high count,stat-high,24,19,5,16
+S5: medium count,stat-medium,24,19,5,16
+S5: low count,stat-low,24,19,5,16
+S5: stats title,stats-title,24,24,0,16
+S5: table,stats-table,22,15,7,18
+S5: table header,stats-th-title,26,0,26,14
+S5: table row,stat-row,28,5,23,12
+S6: footer brand,footer-brand,26,26,0,14
+S6: footer note,footer-note,26,15,11,14
+S6: footer version,footer-version,26,7,19,14
+S6: main region,app-main,13,12,1,27
+S4/S6: toast message,toast-message,19,19,0,21
+S4/S6: toast label,toast-label,19,0,19,21
+extended target (board),auto-board-board,5,1,4,35
+extended target (board),auto-board-board-intro,15,7,8,25
+extended target (board),auto-board-toolbar,15,4,11,25
+extended target (board),auto-board-toolbar-search,20,5,15,20
+extended target (board),auto-board-toolbar-priority,20,2,18,20
+extended target (board),auto-board-toolbar-assignee,20,2,18,20
+extended target (board),auto-board-toolbar-info,20,2,18,20
+extended target (board),auto-board-toolbar-actions,20,0,20,20
+extended target (board),auto-board-column,20,9,11,20
+extended target (header),auto-header-header,5,5,0,35
+extended target (header),auto-header-brand,21,0,21,19
+extended target (header),auto-header-header-stats,21,0,21,19
+extended target (header),auto-header-total-label,25,0,25,15
+extended target (header),auto-header-nav,21,0,21,19
+extended target (card-form),auto-card-form-card-form,5,0,5,35
+extended target (card-form),auto-card-form-form-heading,17,0,17,23
+extended target (card-form),auto-card-form-form-title-edit,26,8,18,14
+extended target (card-form),auto-card-form-form-title-new,26,1,25,14
+extended target (card-form),auto-card-form-form-field-title,20,0,20,20
+extended target (card-form),auto-card-form-form-field-description,21,0,21,19
+extended target (card-form),auto-card-form-form-description-label,22,1,21,18
+extended target (card-form),auto-card-form-form-field-priority,28,0,28,12
+extended target (card-form),auto-card-form-form-priority-label,29,0,29,11
+extended target (card-form),auto-card-form-form-field-assignee,28,0,28,12
+extended target (card-form),auto-card-form-form-assignee-label,29,2,27,11
+extended target (card-form),auto-card-form-form-field-column,28,1,27,12
+extended target (card-form),auto-card-form-form-column-label,29,0,29,11
+extended target (card-form),auto-card-form-form-field-tags,20,0,20,20
+extended target (card-form),auto-card-form-form-tags-label,22,2,20,18
+extended target (card-detail),auto-card-detail-card-detail,7,0,7,33
+extended target (card-detail),auto-card-detail-detail-heading,17,0,17,23
+extended target (card-detail),auto-card-detail-detail-card,17,5,12,23
+extended target (card-detail),auto-card-detail-detail-description-row,28,0,28,12
+extended target (card-detail),auto-card-detail-detail-description-label,31,0,31,9
+extended target (card-detail),auto-card-detail-detail-assignee-row,28,0,28,12
+extended target (card-detail),auto-card-detail-detail-assignee-label,31,0,31,9
+extended target (card-detail),auto-card-detail-detail-column-row,28,0,28,12
+extended target (card-detail),auto-card-detail-detail-column-label,31,0,31,9
+extended target (card-detail),auto-card-detail-detail-tags-row,28,0,28,12
+extended target (card-detail),auto-card-detail-detail-tags-label,31,0,31,9
+extended target (card-detail),auto-card-detail-detail-no-tags,33,13,20,7
+extended target (card-detail),auto-card-detail-detail-actions,23,0,23,17
+extended target (card-detail),auto-card-detail-detail-not-found,17,0,17,23
+extended target (card-detail),auto-card-detail-detail-not-found-message,26,14,12,14
+extended target (card-detail),auto-card-detail-detail-not-found-back,26,0,26,14
+extended target (stats),auto-stats-stats,5,0,5,35
+extended target (stats),auto-stats-stats-heading,15,0,15,25
+extended target (stats),auto-stats-stats-back,24,2,22,16
+extended target (stats),auto-stats-stats-cards,15,0,15,25
+extended target (stats),auto-stats-stat-total-card,20,0,20,20
+extended target (stats),auto-stats-stat-total-label,24,2,22,16
+extended target (stats),auto-stats-stat-backlog-card,20,0,20,20
+extended target (stats),auto-stats-stat-backlog-label,24,1,23,16
+extended target (stats),auto-stats-stat-inprogress-card,20,0,20,20
+extended target (stats),auto-stats-stat-inprogress-label,24,1,23,16
+extended target (stats),auto-stats-stat-review-card,20,0,20,20
+extended target (stats),auto-stats-stat-review-label,24,2,22,16
+extended target (stats),auto-stats-stat-done-card,20,0,20,20
+extended target (stats),auto-stats-stat-done-label,24,2,22,16
+extended target (stats),auto-stats-stat-high-card,20,0,20,20
+extended target (stats),auto-stats-stat-high-label,24,2,22,16
+extended target (stats),auto-stats-stat-medium-card,20,0,20,20
+extended target (stats),auto-stats-stat-medium-label,24,2,22,16
+extended target (stats),auto-stats-stat-low-card,20,0,20,20
+extended target (stats),auto-stats-stat-low-label,24,2,22,16
+extended target (stats),auto-stats-stats-table-section,15,0,15,25
+extended target (stats),auto-stats-stats-table-title,23,7,16,17
+extended target (stats),auto-stats-stats-th-id,26,0,26,14
+extended target (stats),auto-stats-stats-th-priority,26,0,26,14
+extended target (stats),auto-stats-stats-th-assignee,26,0,26,14
+extended target (stats),auto-stats-stats-th-column,26,0,26,14
+extended target (stats),auto-stats-stats-empty,24,0,24,16
+extended target (app),auto-app-app,5,0,5,35
+extended target (app),auto-app-footer,13,0,13,27
+extended target (toast),auto-toast-toast-bar,5,0,5,35
+extended target (toast),auto-toast-toast-icon,19,7,12,21

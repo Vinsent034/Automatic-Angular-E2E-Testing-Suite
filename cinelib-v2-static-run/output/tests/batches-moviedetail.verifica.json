@@ -1,0 +1,14 @@
+{
+  "gruppo": "moviedetail",
+  "campagna": "static",
+  "completo": true,
+  "mutanti": 181,
+  "accettati": 181,
+  "in_sospeso": 0,
+  "classi_per_mutante": 7,
+  "giri": 1,
+  "inneschi": [],
+  "abbandonati": [],
+  "data": "2026-09-27 17:11:22",
+  "regola": "coda finale di >=2 non compilati = dev server incastrato; primo della coda valido, gli altri rieseguiti con dev server nuovo"
+}

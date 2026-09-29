@@ -1,0 +1,443 @@
+{
+  "_comment": "Target 11x5 (LLM_ROLE) per CookBook (ricettario, porta 4500). 52 bersagli progettati per i ruoli di contesto (regole R1-R4 del brief, BLOCCO-B-specifica.md par. 2). Ancorati ai 6 scenari E2E (e2e/cookbook.spec.ts + SCENARIOS-cookbook.md). x-test statico -> targetAttr='x-test-...'; binding dinamico -> targetAttr='[attr.x-test-...]'. Sette bersagli dentro <app-panel> (ruolo epsilon): servings, kcal, protein, f-ingredients, f-steps, course-count, top-title. Usare i jar *-eps.",
+  "app": "cookbook",
+  "appRoot": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook",
+  "targets": [
+    {
+      "id": "app-footer-brand",
+      "targetAttr": "x-test-footer-brand",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/app.component.html",
+      "tests": [
+        "S6: nessun caso Playwright diretto (bersaglio del gruppo)"
+      ]
+    },
+    {
+      "id": "app-footer-version",
+      "targetAttr": "x-test-footer-version",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/app.component.html",
+      "tests": [
+        "S6: footer version and navigation are in place"
+      ]
+    },
+    {
+      "id": "header-brand-name",
+      "targetAttr": "x-test-brand-name",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/header/header.component.html",
+      "tests": [
+        "S6: footer version and navigation are in place"
+      ]
+    },
+    {
+      "id": "header-nav-shopping",
+      "targetAttr": "x-test-nav-shopping",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/header/header.component.html",
+      "tests": [
+        "S5: adding recipe #1 from its page adds five lines"
+      ]
+    },
+    {
+      "id": "header-nav-stats",
+      "targetAttr": "x-test-nav-stats",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/header/header.component.html",
+      "tests": [
+        "S6: footer version and navigation are in place"
+      ]
+    },
+    {
+      "id": "toast-toast-message",
+      "targetAttr": "x-test-toast-message",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/toast/toast.component.html",
+      "tests": [
+        "S2: toggling a favorite updates aria-pressed and the toast",
+        "S5: adding recipe #1 from its page adds five lines"
+      ]
+    },
+    {
+      "id": "recipe-list-list-title",
+      "targetAttr": "x-test-list-title",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-list/recipe-list.component.html",
+      "tests": [
+        "S1/S2: nessun caso Playwright diretto (bersaglio del gruppo)"
+      ]
+    },
+    {
+      "id": "recipe-list-search",
+      "targetAttr": "x-test-search",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-list/recipe-list.component.html",
+      "tests": [
+        "S1: search \"risotto\" shows exactly one card, recipe #2",
+        "S1: search by tag \"oven\" shows recipes #6 and #8",
+        "S1: a search with no match shows the empty state"
+      ]
+    },
+    {
+      "id": "recipe-list-course-filter",
+      "targetAttr": "x-test-course-filter",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-list/recipe-list.component.html",
+      "tests": [
+        "S2: vegetarian desserts are only Tiramisu"
+      ]
+    },
+    {
+      "id": "recipe-list-veg-only",
+      "targetAttr": "x-test-veg-only",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-list/recipe-list.component.html",
+      "tests": [
+        "S2: vegetarian only leaves 6 recipes",
+        "S2: vegetarian desserts are only Tiramisu"
+      ]
+    },
+    {
+      "id": "recipe-list-sort",
+      "targetAttr": "x-test-sort",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-list/recipe-list.component.html",
+      "tests": [
+        "S2: sorting by rating puts Tiramisu first"
+      ]
+    },
+    {
+      "id": "recipe-list-result-count",
+      "targetAttr": "x-test-result-count",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-list/recipe-list.component.html",
+      "tests": [
+        "S1: search \"risotto\" shows exactly one card, recipe #2",
+        "S1: search by tag \"oven\" shows recipes #6 and #8",
+        "S2: vegetarian only leaves 6 recipes",
+        "S2: vegetarian desserts are only Tiramisu"
+      ]
+    },
+    {
+      "id": "recipe-list-add-recipe",
+      "targetAttr": "x-test-add-recipe",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-list/recipe-list.component.html",
+      "tests": [
+        "S1/S2: nessun caso Playwright diretto (bersaglio del gruppo)"
+      ]
+    },
+    {
+      "id": "recipe-list-empty",
+      "targetAttr": "x-test-empty",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-list/recipe-list.component.html",
+      "tests": [
+        "S1: a search with no match shows the empty state"
+      ]
+    },
+    {
+      "id": "recipe-card-card",
+      "targetAttr": "[attr.x-test-card]",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-card/recipe-card.component.html",
+      "tests": [
+        "S1: search \"risotto\" shows exactly one card, recipe #2",
+        "S1: search by tag \"oven\" shows recipes #6 and #8"
+      ]
+    },
+    {
+      "id": "recipe-card-card-title",
+      "targetAttr": "[attr.x-test-card-title]",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-card/recipe-card.component.html",
+      "tests": [
+        "S1: search \"risotto\" shows exactly one card, recipe #2",
+        "S2: vegetarian desserts are only Tiramisu"
+      ]
+    },
+    {
+      "id": "recipe-card-card-fav",
+      "targetAttr": "[attr.x-test-card-fav]",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-card/recipe-card.component.html",
+      "tests": [
+        "S2: toggling a favorite updates aria-pressed and the toast"
+      ]
+    },
+    {
+      "id": "recipe-card-card-time",
+      "targetAttr": "[attr.x-test-card-time]",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-card/recipe-card.component.html",
+      "tests": [
+        "S1/S2: nessun caso Playwright diretto (bersaglio del gruppo)"
+      ]
+    },
+    {
+      "id": "recipe-detail-detail-title",
+      "targetAttr": "x-test-detail-title",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-detail/recipe-detail.component.html",
+      "tests": [
+        "S3: detail of #1 shows title, author and six ingredients",
+        "S4: creating a recipe opens its detail page"
+      ]
+    },
+    {
+      "id": "recipe-detail-detail-author",
+      "targetAttr": "x-test-detail-author",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-detail/recipe-detail.component.html",
+      "tests": [
+        "S3: detail of #1 shows title, author and six ingredients"
+      ]
+    },
+    {
+      "id": "recipe-detail-servings",
+      "targetAttr": "x-test-servings",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-detail/recipe-detail.component.html",
+      "tests": [
+        "S3: changing servings from 2 to 4 doubles the quantities"
+      ]
+    },
+    {
+      "id": "recipe-detail-kcal",
+      "targetAttr": "x-test-kcal",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-detail/recipe-detail.component.html",
+      "tests": [
+        "S3: nutrition panel shows 520 kcal and 16 g of protein"
+      ]
+    },
+    {
+      "id": "recipe-detail-protein",
+      "targetAttr": "x-test-protein",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-detail/recipe-detail.component.html",
+      "tests": [
+        "S3: nutrition panel shows 520 kcal and 16 g of protein"
+      ]
+    },
+    {
+      "id": "recipe-detail-add-shopping",
+      "targetAttr": "x-test-add-shopping",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-detail/recipe-detail.component.html",
+      "tests": [
+        "S5: adding recipe #1 from its page adds five lines"
+      ]
+    },
+    {
+      "id": "recipe-detail-delete",
+      "targetAttr": "x-test-delete",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-detail/recipe-detail.component.html",
+      "tests": [
+        "S3: nessun caso Playwright diretto (bersaglio del gruppo)"
+      ]
+    },
+    {
+      "id": "recipe-detail-not-found",
+      "targetAttr": "x-test-not-found",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-detail/recipe-detail.component.html",
+      "tests": [
+        "S3: an unknown id shows the not-found state"
+      ]
+    },
+    {
+      "id": "ingredient-row-ing-qty",
+      "targetAttr": "[attr.x-test-ing-qty]",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/ingredient-row/ingredient-row.component.html",
+      "tests": [
+        "S3: changing servings from 2 to 4 doubles the quantities"
+      ]
+    },
+    {
+      "id": "ingredient-row-ing-name",
+      "targetAttr": "[attr.x-test-ing-name]",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/ingredient-row/ingredient-row.component.html",
+      "tests": [
+        "S3: changing servings from 2 to 4 doubles the quantities"
+      ]
+    },
+    {
+      "id": "step-item-step-number",
+      "targetAttr": "[attr.x-test-step-number]",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/step-item/step-item.component.html",
+      "tests": [
+        "S3: nessun caso Playwright diretto (bersaglio del gruppo)"
+      ]
+    },
+    {
+      "id": "step-item-step-text",
+      "targetAttr": "[attr.x-test-step-text]",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/step-item/step-item.component.html",
+      "tests": [
+        "S3: nessun caso Playwright diretto (bersaglio del gruppo)"
+      ]
+    },
+    {
+      "id": "recipe-form-form-heading",
+      "targetAttr": "x-test-form-heading",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-form/recipe-form.component.html",
+      "tests": [
+        "S4: the new-recipe form starts empty with \"Create recipe\"",
+        "S4: the edit form is pre-filled"
+      ]
+    },
+    {
+      "id": "recipe-form-f-title",
+      "targetAttr": "x-test-f-title",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-form/recipe-form.component.html",
+      "tests": [
+        "S4: the new-recipe form starts empty with \"Create recipe\"",
+        "S4: creating a recipe opens its detail page",
+        "S4: the edit form is pre-filled"
+      ]
+    },
+    {
+      "id": "recipe-form-f-course",
+      "targetAttr": "x-test-f-course",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-form/recipe-form.component.html",
+      "tests": [
+        "S4: creating a recipe opens its detail page"
+      ]
+    },
+    {
+      "id": "recipe-form-f-servings",
+      "targetAttr": "x-test-f-servings",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-form/recipe-form.component.html",
+      "tests": [
+        "S4: nessun caso Playwright diretto (bersaglio del gruppo)"
+      ]
+    },
+    {
+      "id": "recipe-form-f-veg",
+      "targetAttr": "x-test-f-veg",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-form/recipe-form.component.html",
+      "tests": [
+        "S4: nessun caso Playwright diretto (bersaglio del gruppo)"
+      ]
+    },
+    {
+      "id": "recipe-form-f-tags",
+      "targetAttr": "x-test-f-tags",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-form/recipe-form.component.html",
+      "tests": [
+        "S4: nessun caso Playwright diretto (bersaglio del gruppo)"
+      ]
+    },
+    {
+      "id": "recipe-form-f-ingredients",
+      "targetAttr": "x-test-f-ingredients",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-form/recipe-form.component.html",
+      "tests": [
+        "S4: creating a recipe opens its detail page"
+      ]
+    },
+    {
+      "id": "recipe-form-f-steps",
+      "targetAttr": "x-test-f-steps",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-form/recipe-form.component.html",
+      "tests": [
+        "S4: nessun caso Playwright diretto (bersaglio del gruppo)"
+      ]
+    },
+    {
+      "id": "recipe-form-f-submit",
+      "targetAttr": "x-test-f-submit",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-form/recipe-form.component.html",
+      "tests": [
+        "S4: the new-recipe form starts empty with \"Create recipe\"",
+        "S4: creating a recipe opens its detail page",
+        "S4: an empty title shows the required-field error",
+        "S4: the edit form is pre-filled"
+      ]
+    },
+    {
+      "id": "shopping-list-shopping-title",
+      "targetAttr": "x-test-shopping-title",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/shopping-list/shopping-list.component.html",
+      "tests": [
+        "S5: nessun caso Playwright diretto (bersaglio del gruppo)"
+      ]
+    },
+    {
+      "id": "shopping-list-open-count",
+      "targetAttr": "x-test-open-count",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/shopping-list/shopping-list.component.html",
+      "tests": [
+        "S5: the seed list has 2 lines to buy and 1 bought",
+        "S5: checking a line moves it to bought",
+        "S5: adding recipe #1 from its page adds five lines"
+      ]
+    },
+    {
+      "id": "shopping-list-done-count",
+      "targetAttr": "x-test-done-count",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/shopping-list/shopping-list.component.html",
+      "tests": [
+        "S5: the seed list has 2 lines to buy and 1 bought",
+        "S5: checking a line moves it to bought",
+        "S5: clearing bought items removes the checked lines"
+      ]
+    },
+    {
+      "id": "shopping-list-shopping-empty",
+      "targetAttr": "x-test-shopping-empty",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/shopping-list/shopping-list.component.html",
+      "tests": [
+        "S5: nessun caso Playwright diretto (bersaglio del gruppo)"
+      ]
+    },
+    {
+      "id": "shopping-list-shop-check",
+      "targetAttr": "[attr.x-test-shop-check]",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/shopping-list/shopping-list.component.html",
+      "tests": [
+        "S5: checking a line moves it to bought"
+      ]
+    },
+    {
+      "id": "shopping-list-clear-done",
+      "targetAttr": "x-test-clear-done",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/shopping-list/shopping-list.component.html",
+      "tests": [
+        "S5: clearing bought items removes the checked lines"
+      ]
+    },
+    {
+      "id": "stats-stats-title",
+      "targetAttr": "x-test-stats-title",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/stats/stats.component.html",
+      "tests": [
+        "S6: footer version and navigation are in place"
+      ]
+    },
+    {
+      "id": "stats-stat-total",
+      "targetAttr": "x-test-stat-total",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/stats/stats.component.html",
+      "tests": [
+        "S6: summary cards report the seed totals"
+      ]
+    },
+    {
+      "id": "stats-stat-veg",
+      "targetAttr": "x-test-stat-veg",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/stats/stats.component.html",
+      "tests": [
+        "S6: summary cards report the seed totals"
+      ]
+    },
+    {
+      "id": "stats-stat-time",
+      "targetAttr": "x-test-stat-time",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/stats/stats.component.html",
+      "tests": [
+        "S6: summary cards report the seed totals"
+      ]
+    },
+    {
+      "id": "stats-stat-fav",
+      "targetAttr": "x-test-stat-fav",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/stats/stats.component.html",
+      "tests": [
+        "S6: summary cards report the seed totals"
+      ]
+    },
+    {
+      "id": "stats-course-count",
+      "targetAttr": "[attr.x-test-course-count]",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/stats/stats.component.html",
+      "tests": [
+        "S6: recipes by course: main 3, starter 2, side 1, dessert 2"
+      ]
+    },
+    {
+      "id": "stats-top-title",
+      "targetAttr": "[attr.x-test-top-title]",
+      "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/stats/stats.component.html",
+      "tests": [
+        "S6: the best rated recipe is Tiramisu"
+      ]
+    }
+  ]
+}

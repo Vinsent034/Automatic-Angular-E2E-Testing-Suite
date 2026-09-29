@@ -1,0 +1,6 @@
+{
+  "seed": "1234",
+  "repositoryRootPath": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook",
+  "npmRunCommand": "npm start -- --port 4500",
+  "mutations": []
+}

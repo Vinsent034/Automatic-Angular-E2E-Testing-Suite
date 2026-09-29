@@ -1,0 +1,47 @@
+######### START 1 - a #########
+<select id="course-filter" class="input course-select-lg" [value]="store.courseFilter()" (change)="onCourse($event)" x-test-course-filter>
+          <option value="all">All courses</option>
+          <option value="starter">Starter</option>
+          <option value="main">Main</option>
+          <option value="side">Side</option>
+          <option value="dessert">Dessert</option>
+        </select>
+######### END 1 - a #########
+######### START 2 - b #########
+<select class="input course-select" [value]="store.courseFilter()" (change)="onCourse($event)" x-test-course-filter>
+          <option value="all">All courses</option>
+          <option value="starter">Starter</option>
+          <option value="main">Main</option>
+          <option value="side">Side</option>
+          <option value="dessert">Dessert</option>
+        </select>
+######### END 2 - b #########
+######### START 3 - c #########
+<select id="course-filter" data-select="input course-select" [value]="store.courseFilter()" (change)="onCourse($event)" x-test-course-filter>
+          <option value="all">All courses</option>
+          <option value="starter">Starter</option>
+          <option value="main">Main</option>
+          <option value="side">Side</option>
+          <option value="dessert">Dessert</option>
+        </select>
+######### END 3 - c #########
+######### START 4 - j #########
+<textarea id="course-filter" class="input course-select" [value]="store.courseFilter()" (change)="onCourse($event)" x-test-course-filter>
+          <option value="all">All courses</option>
+          <option value="starter">Starter</option>
+          <option value="main">Main</option>
+          <option value="side">Side</option>
+          <option value="dessert">Dessert</option>
+        </textarea>
+######### END 4 - j #########
+######### START 5 - k #########
+<div>
+  <select id="course-filter" class="input course-select" [value]="store.courseFilter()" (change)="onCourse($event)" x-test-course-filter>
+          <option value="all">All courses</option>
+          <option value="starter">Starter</option>
+          <option value="main">Main</option>
+          <option value="side">Side</option>
+          <option value="dessert">Dessert</option>
+        </select>
+</div>
+######### END 5 - k #########

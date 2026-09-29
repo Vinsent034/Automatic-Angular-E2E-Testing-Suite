@@ -1,0 +1,26 @@
+######### START 1 - a #########
+<small class="servings-hint-alt">recipe default: {{ recipe.servings }}</small>
+######### END 1 - a #########
+######### START 2 - b #########
+<small>recipe default: {{ recipe.servings }}</small>
+######### END 2 - b #########
+######### START 3 - c #########
+<small data-hint="servings-hint">recipe default: {{ recipe.servings }}</small>
+######### END 3 - c #########
+######### START 4 - d #########
+<small class="servings-hint">serves {{ recipe.servings }}</small>
+######### END 4 - d #########
+######### START 5 - e #########
+<small class="servings-hint"> </small>
+######### END 5 - e #########
+######### START 6 - i #########
+recipe default: {{ recipe.servings }}
+######### END 6 - i #########
+######### START 7 - j #########
+<span class="servings-hint">recipe default: {{ recipe.servings }}</span>
+######### END 7 - j #########
+######### START 8 - k #########
+<span>
+  <small class="servings-hint">recipe default: {{ recipe.servings }}</small>
+</span>
+######### END 8 - k #########

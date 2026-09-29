@@ -1,0 +1,23 @@
+######### START 1 - a #########
+<p class="hint-banner-text" x-test-hint-banner>Use the Move menu on a card to change column</p>
+######### END 1 - a #########
+######### START 1 - b #########
+<p x-test-hint-banner>Use the Move menu on a card to change column</p>
+######### END 1 - b #########
+######### START 1 - c #########
+<p data-class="hint-banner" x-test-hint-banner>Use the Move menu on a card to change column</p>
+######### END 1 - c #########
+######### START 1 - d #########
+<p class="hint-banner" x-test-hint-banner>Drag cards between columns to change status</p>
+######### END 1 - d #########
+######### START 1 - e #########
+<p class="hint-banner" x-test-hint-banner> </p>
+######### END 1 - e #########
+######### START 1 - j #########
+<div class="hint-banner" x-test-hint-banner>Use the Move menu on a card to change column</div>
+######### END 1 - j #########
+######### START 1 - k #########
+<div class="hint-banner-wrap">
+  <p class="hint-banner" x-test-hint-banner>Use the Move menu on a card to change column</p>
+</div>
+######### END 1 - k #########

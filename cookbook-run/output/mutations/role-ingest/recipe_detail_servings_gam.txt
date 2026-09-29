@@ -1,0 +1,54 @@
+######### START 1 - a #########
+<div class="servings-box-alt">
+          <label class="servings-field" for="servings-input">
+            <span class="field-label">Servings</span>
+            <input id="servings-input" class="input servings-input" type="number" min="1" max="24" [value]="store.servingsShown()" (change)="onServings($event)" x-test-servings>
+            <small class="servings-hint">recipe default: {{ recipe.servings }}</small>
+          </label>
+        </div>
+######### END 1 - a #########
+######### START 2 - b #########
+<div>
+          <label class="servings-field" for="servings-input">
+            <span class="field-label">Servings</span>
+            <input id="servings-input" class="input servings-input" type="number" min="1" max="24" [value]="store.servingsShown()" (change)="onServings($event)" x-test-servings>
+            <small class="servings-hint">recipe default: {{ recipe.servings }}</small>
+          </label>
+        </div>
+######### END 2 - b #########
+######### START 3 - c #########
+<div data-box="servings-box">
+          <label class="servings-field" for="servings-input">
+            <span class="field-label">Servings</span>
+            <input id="servings-input" class="input servings-input" type="number" min="1" max="24" [value]="store.servingsShown()" (change)="onServings($event)" x-test-servings>
+            <small class="servings-hint">recipe default: {{ recipe.servings }}</small>
+          </label>
+        </div>
+######### END 3 - c #########
+######### START 4 - i #########
+<label class="servings-field" for="servings-input">
+            <span class="field-label">Servings</span>
+            <input id="servings-input" class="input servings-input" type="number" min="1" max="24" [value]="store.servingsShown()" (change)="onServings($event)" x-test-servings>
+            <small class="servings-hint">recipe default: {{ recipe.servings }}</small>
+          </label>
+######### END 4 - i #########
+######### START 5 - j #########
+<section class="servings-box">
+          <label class="servings-field" for="servings-input">
+            <span class="field-label">Servings</span>
+            <input id="servings-input" class="input servings-input" type="number" min="1" max="24" [value]="store.servingsShown()" (change)="onServings($event)" x-test-servings>
+            <small class="servings-hint">recipe default: {{ recipe.servings }}</small>
+          </label>
+        </section>
+######### END 5 - j #########
+######### START 6 - k #########
+<div>
+  <div class="servings-box">
+          <label class="servings-field" for="servings-input">
+            <span class="field-label">Servings</span>
+            <input id="servings-input" class="input servings-input" type="number" min="1" max="24" [value]="store.servingsShown()" (change)="onServings($event)" x-test-servings>
+            <small class="servings-hint">recipe default: {{ recipe.servings }}</small>
+          </label>
+        </div>
+</div>
+######### END 6 - k #########

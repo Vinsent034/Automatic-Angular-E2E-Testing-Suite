@@ -1,0 +1,37 @@
+######### START 1 - a #########
+<div class="brand-block" x-test-brand>
+      <span class="brand-icon" aria-hidden="true" x-test-brand-icon>▤</span>
+      <h1 class="brand-name" x-test-app-title>FlowBoard</h1>
+      <span class="brand-tagline" x-test-app-tagline>Kanban demo board</span>
+    </div>
+######### END 1 - a #########
+######### START 1 - b #########
+<div x-test-brand>
+      <span class="brand-icon" aria-hidden="true" x-test-brand-icon>▤</span>
+      <h1 class="brand-name" x-test-app-title>FlowBoard</h1>
+      <span class="brand-tagline" x-test-app-tagline>Kanban demo board</span>
+    </div>
+######### END 1 - b #########
+######### START 1 - c #########
+<div data-class="brand" x-test-brand>
+      <span class="brand-icon" aria-hidden="true" x-test-brand-icon>▤</span>
+      <h1 class="brand-name" x-test-app-title>FlowBoard</h1>
+      <span class="brand-tagline" x-test-app-tagline>Kanban demo board</span>
+    </div>
+######### END 1 - c #########
+######### START 1 - j #########
+<section class="brand" x-test-brand>
+      <span class="brand-icon" aria-hidden="true" x-test-brand-icon>▤</span>
+      <h1 class="brand-name" x-test-app-title>FlowBoard</h1>
+      <span class="brand-tagline" x-test-app-tagline>Kanban demo board</span>
+    </section>
+######### END 1 - j #########
+######### START 1 - k #########
+<div class="brand-wrapper">
+    <div class="brand" x-test-brand>
+      <span class="brand-icon" aria-hidden="true" x-test-brand-icon>▤</span>
+      <h1 class="brand-name" x-test-app-title>FlowBoard</h1>
+      <span class="brand-tagline" x-test-app-tagline>Kanban demo board</span>
+    </div>
+</div>
+######### END 1 - k #########

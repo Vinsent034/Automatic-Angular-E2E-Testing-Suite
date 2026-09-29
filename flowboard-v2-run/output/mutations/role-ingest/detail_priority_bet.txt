@@ -1,0 +1,42 @@
+######### START 1 - a #########
+<header class="detail-head">
+        <span class="card-id detail-id" x-test-detail-id>#{{ store.selectedCard()?.id }}</span>
+        <h3 class="detail-title" x-test-detail-title>{{ store.selectedCard()?.title }}</h3>
+        <span class="badge priority-badge" [attr.data-priority]="store.selectedCard()?.priority" x-test-detail-priority>{{ store.selectedCard()?.priority }}</span>
+      </header>
+######### END 1 - a #########
+######### START 1 - b #########
+<header>
+        <span class="card-id detail-id" x-test-detail-id>#{{ store.selectedCard()?.id }}</span>
+        <h3 class="detail-title" x-test-detail-title>{{ store.selectedCard()?.title }}</h3>
+        <span class="badge priority-badge" [attr.data-priority]="store.selectedCard()?.priority" x-test-detail-priority>{{ store.selectedCard()?.priority }}</span>
+      </header>
+######### END 1 - b #########
+######### START 1 - c #########
+<header data-class="detail-header">
+        <span class="card-id detail-id" x-test-detail-id>#{{ store.selectedCard()?.id }}</span>
+        <h3 class="detail-title" x-test-detail-title>{{ store.selectedCard()?.title }}</h3>
+        <span class="badge priority-badge" [attr.data-priority]="store.selectedCard()?.priority" x-test-detail-priority>{{ store.selectedCard()?.priority }}</span>
+      </header>
+######### END 1 - c #########
+######### START 1 - i #########
+<span class="card-id detail-id" x-test-detail-id>#{{ store.selectedCard()?.id }}</span>
+        <h3 class="detail-title" x-test-detail-title>{{ store.selectedCard()?.title }}</h3>
+        <span class="badge priority-badge" [attr.data-priority]="store.selectedCard()?.priority" x-test-detail-priority>{{ store.selectedCard()?.priority }}</span>
+######### END 1 - i #########
+######### START 1 - j #########
+<div class="detail-header">
+        <span class="card-id detail-id" x-test-detail-id>#{{ store.selectedCard()?.id }}</span>
+        <h3 class="detail-title" x-test-detail-title>{{ store.selectedCard()?.title }}</h3>
+        <span class="badge priority-badge" [attr.data-priority]="store.selectedCard()?.priority" x-test-detail-priority>{{ store.selectedCard()?.priority }}</span>
+      </div>
+######### END 1 - j #########
+######### START 1 - k #########
+<div class="detail-header-wrapper">
+      <header class="detail-header">
+        <span class="card-id detail-id" x-test-detail-id>#{{ store.selectedCard()?.id }}</span>
+        <h3 class="detail-title" x-test-detail-title>{{ store.selectedCard()?.title }}</h3>
+        <span class="badge priority-badge" [attr.data-priority]="store.selectedCard()?.priority" x-test-detail-priority>{{ store.selectedCard()?.priority }}</span>
+      </header>
+</div>
+######### END 1 - k #########

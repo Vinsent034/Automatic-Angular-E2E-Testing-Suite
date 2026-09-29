@@ -1,0 +1,26 @@
+######### START 1 - a #########
+<small class="help-alt">base for the quantities</small>
+######### END 1 - a #########
+######### START 2 - b #########
+<small>base for the quantities</small>
+######### END 2 - b #########
+######### START 3 - c #########
+<small data-help="help">base for the quantities</small>
+######### END 3 - c #########
+######### START 4 - d #########
+<small class="help">used to scale amounts</small>
+######### END 4 - d #########
+######### START 5 - e #########
+<small class="help"> </small>
+######### END 5 - e #########
+######### START 6 - i #########
+base for the quantities
+######### END 6 - i #########
+######### START 7 - j #########
+<span class="help">base for the quantities</span>
+######### END 7 - j #########
+######### START 8 - k #########
+<span>
+  <small class="help">base for the quantities</small>
+</span>
+######### END 8 - k #########

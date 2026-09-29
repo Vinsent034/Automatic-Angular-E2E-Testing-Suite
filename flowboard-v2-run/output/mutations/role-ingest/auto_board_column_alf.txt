@@ -1,0 +1,47 @@
+######### START 1 - a #########
+<section class="board-column" data-column="backlog" role="listitem" aria-label="Backlog column" x-test-column="backlog">
+      <header class="column-header">
+        <h3 class="column-title" x-test-column-title="backlog">Backlog</h3>
+        <span class="badge column-count" data-column="backlog" x-test-column-count="backlog">{{ store.backlogCount() }}</span>
+      </header>
+      <app-column colId="backlog" />
+    </section>
+######### END 1 - a #########
+######### START 1 - b #########
+<section class="column" data-column="backlog" role="listitem" x-test-column="backlog">
+      <header class="column-header">
+        <h3 class="column-title" x-test-column-title="backlog">Backlog</h3>
+        <span class="badge column-count" data-column="backlog" x-test-column-count="backlog">{{ store.backlogCount() }}</span>
+      </header>
+      <app-column colId="backlog" />
+    </section>
+######### END 1 - b #########
+######### START 1 - c #########
+<section class="column" data-column="backlog" data-role="listitem" aria-label="Backlog column" x-test-column="backlog">
+      <header class="column-header">
+        <h3 class="column-title" x-test-column-title="backlog">Backlog</h3>
+        <span class="badge column-count" data-column="backlog" x-test-column-count="backlog">{{ store.backlogCount() }}</span>
+      </header>
+      <app-column colId="backlog" />
+    </section>
+######### END 1 - c #########
+######### START 1 - j #########
+<div class="column" data-column="backlog" role="listitem" aria-label="Backlog column" x-test-column="backlog">
+      <header class="column-header">
+        <h3 class="column-title" x-test-column-title="backlog">Backlog</h3>
+        <span class="badge column-count" data-column="backlog" x-test-column-count="backlog">{{ store.backlogCount() }}</span>
+      </header>
+      <app-column colId="backlog" />
+    </div>
+######### END 1 - j #########
+######### START 1 - k #########
+<div class="column-wrapper">
+<section class="column" data-column="backlog" role="listitem" aria-label="Backlog column" x-test-column="backlog">
+      <header class="column-header">
+        <h3 class="column-title" x-test-column-title="backlog">Backlog</h3>
+        <span class="badge column-count" data-column="backlog" x-test-column-count="backlog">{{ store.backlogCount() }}</span>
+      </header>
+      <app-column colId="backlog" />
+    </section>
+</div>
+######### END 1 - k #########

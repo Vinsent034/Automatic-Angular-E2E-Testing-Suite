@@ -1,0 +1,19 @@
+#mutation-id: g
+#element: gamma
+#name: stats-title
+#type: tag_mov_html_mut
+#status: COMPLETE
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\Kanban board\src\app\stats\stats.component.html #########
+
+######### END FILE #########
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\Kanban board\src\app\panel\panel.component.html #########
+<section class="panel">
+ <header class="panel-head">
+  <h4 class="panel-heading">{{ heading() }}</h4>
+  <span class="panel-note">{{ note() }}</span>
+ </header>
+ <div class="panel-body">
+  <ng-content></ng-content>
+ </div>
+</section>
+######### END FILE #########

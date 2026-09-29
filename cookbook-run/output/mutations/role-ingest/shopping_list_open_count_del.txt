@@ -1,0 +1,26 @@
+######### START 1 - a #########
+<span class="summary-label-alt">to buy</span>
+######### END 1 - a #########
+######### START 2 - b #########
+<span>to buy</span>
+######### END 2 - b #########
+######### START 3 - c #########
+<span data-label="summary-label">to buy</span>
+######### END 3 - c #########
+######### START 4 - d #########
+<span class="summary-label">remaining</span>
+######### END 4 - d #########
+######### START 5 - e #########
+<span class="summary-label"> </span>
+######### END 5 - e #########
+######### START 6 - i #########
+to buy
+######### END 6 - i #########
+######### START 7 - j #########
+<small class="summary-label">to buy</small>
+######### END 7 - j #########
+######### START 8 - k #########
+<span>
+  <span class="summary-label">to buy</span>
+</span>
+######### END 8 - k #########

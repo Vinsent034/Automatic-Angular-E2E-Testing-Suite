@@ -1,0 +1,23 @@
+######### START 1 - a #########
+<a routerLink="/movie/create" class="btn btn-primary" x-test-add-button>Add movie</a>
+######### END 1 - a #########
+######### START 1 - b #########
+<a routerLink="/movie/new" x-test-add-button>Add movie</a>
+######### END 1 - b #########
+######### START 1 - c #########
+<a routerLink="/movie/new" data-btn="btn btn-primary" x-test-add-button>Add movie</a>
+######### END 1 - c #########
+######### START 1 - d #########
+<a routerLink="/movie/new" class="btn btn-primary" x-test-add-button>New movie</a>
+######### END 1 - d #########
+######### START 1 - e #########
+<a routerLink="/movie/new" class="btn btn-primary" x-test-add-button> </a>
+######### END 1 - e #########
+######### START 1 - j #########
+<button routerLink="/movie/new" class="btn btn-primary" x-test-add-button>Add movie</button>
+######### END 1 - j #########
+######### START 1 - k #########
+<div>
+<a routerLink="/movie/new" class="btn btn-primary" x-test-add-button>Add movie</a>
+</div>
+######### END 1 - k #########

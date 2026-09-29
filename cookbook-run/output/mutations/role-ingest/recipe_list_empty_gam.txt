@@ -1,0 +1,136 @@
+######### START 1 - a #########
+<div class="list-body-alt">
+    @if (store.filteredCount() === 0) {
+      <div class="empty-box">
+        <p class="empty-text" x-test-empty>No recipes match your filters.</p>
+        <p class="empty-hint">Try another search or course</p>
+      </div>
+    }
+    <ul class="recipe-grid" aria-label="Recipes">
+      @for (recipe of store.filtered(); track recipe.id) {
+        <li class="recipe-slot">
+          <app-recipe-card [recipe]="recipe"></app-recipe-card>
+        </li>
+      }
+    </ul>
+  </div>
+######### END 1 - a #########
+######### START 2 - b #########
+<div>
+    @if (store.filteredCount() === 0) {
+      <div class="empty-box">
+        <p class="empty-text" x-test-empty>No recipes match your filters.</p>
+        <p class="empty-hint">Try another search or course</p>
+      </div>
+    }
+    <ul class="recipe-grid" aria-label="Recipes">
+      @for (recipe of store.filtered(); track recipe.id) {
+        <li class="recipe-slot">
+          <app-recipe-card [recipe]="recipe"></app-recipe-card>
+        </li>
+      }
+    </ul>
+  </div>
+######### END 2 - b #########
+######### START 3 - c #########
+<div data-body="list-body">
+    @if (store.filteredCount() === 0) {
+      <div class="empty-box">
+        <p class="empty-text" x-test-empty>No recipes match your filters.</p>
+        <p class="empty-hint">Try another search or course</p>
+      </div>
+    }
+    <ul class="recipe-grid" aria-label="Recipes">
+      @for (recipe of store.filtered(); track recipe.id) {
+        <li class="recipe-slot">
+          <app-recipe-card [recipe]="recipe"></app-recipe-card>
+        </li>
+      }
+    </ul>
+  </div>
+######### END 3 - c #########
+######### START 4 - d #########
+<div class="list-body">
+    @if (store.filteredCount() === 0) {
+      <div class="empty-box">
+        <p class="empty-text" x-test-empty>No recipes match your filters.</p>
+        <p class="empty-hint">Adjust your filters</p>
+      </div>
+    }
+    <ul class="recipe-grid" aria-label="Recipes">
+      @for (recipe of store.filtered(); track recipe.id) {
+        <li class="recipe-slot">
+          <app-recipe-card [recipe]="recipe"></app-recipe-card>
+        </li>
+      }
+    </ul>
+  </div>
+######### END 4 - d #########
+######### START 5 - e #########
+<div class="list-body">
+    @if (store.filteredCount() === 0) {
+      <div class="empty-box">
+        <p class="empty-text" x-test-empty> </p>
+        <p class="empty-hint"> </p>
+      </div>
+    }
+    <ul class="recipe-grid" aria-label="Recipes">
+      @for (recipe of store.filtered(); track recipe.id) {
+        <li class="recipe-slot">
+          <app-recipe-card [recipe]="recipe"></app-recipe-card>
+        </li>
+      }
+    </ul>
+  </div>
+######### END 5 - e #########
+######### START 6 - i #########
+@if (store.filteredCount() === 0) {
+      <div class="empty-box">
+        <p class="empty-text" x-test-empty>No recipes match your filters.</p>
+        <p class="empty-hint">Try another search or course</p>
+      </div>
+    }
+    <ul class="recipe-grid" aria-label="Recipes">
+      @for (recipe of store.filtered(); track recipe.id) {
+        <li class="recipe-slot">
+          <app-recipe-card [recipe]="recipe"></app-recipe-card>
+        </li>
+      }
+    </ul>
+######### END 6 - i #########
+######### START 7 - j #########
+<section class="list-body">
+    @if (store.filteredCount() === 0) {
+      <div class="empty-box">
+        <p class="empty-text" x-test-empty>No recipes match your filters.</p>
+        <p class="empty-hint">Try another search or course</p>
+      </div>
+    }
+    <ul class="recipe-grid" aria-label="Recipes">
+      @for (recipe of store.filtered(); track recipe.id) {
+        <li class="recipe-slot">
+          <app-recipe-card [recipe]="recipe"></app-recipe-card>
+        </li>
+      }
+    </ul>
+  </section>
+######### END 7 - j #########
+######### START 8 - k #########
+<div>
+  <div class="list-body">
+    @if (store.filteredCount() === 0) {
+      <div class="empty-box">
+        <p class="empty-text" x-test-empty>No recipes match your filters.</p>
+        <p class="empty-hint">Try another search or course</p>
+      </div>
+    }
+    <ul class="recipe-grid" aria-label="Recipes">
+      @for (recipe of store.filtered(); track recipe.id) {
+        <li class="recipe-slot">
+          <app-recipe-card [recipe]="recipe"></app-recipe-card>
+        </li>
+      }
+    </ul>
+  </div>
+</div>
+######### END 8 - k #########

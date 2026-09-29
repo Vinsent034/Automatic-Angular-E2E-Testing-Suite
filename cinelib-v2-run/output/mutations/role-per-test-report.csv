@@ -1,0 +1,51 @@
+Test,Target,Applicable,Saved,Rejected,NA
+catalog: shows the full sample catalog on load,catalog-result-count,21,20,1,19
+catalog: search filters by title,catalog-search-input,17,17,0,23
+catalog: search filters by genre keyword,catalog-search-input,17,17,0,23
+catalog: empty search shows the empty state,catalog-search-input,17,17,0,23
+catalog: genre dropdown narrows the grid,catalog-filter-genre,25,14,11,15
+catalog: sort by top rated puts the highest rating first,catalog-sort,25,7,18,15
+catalog: list view toggle changes the grid layout class,catalog-view-list,25,25,0,15
+detail: navigating from a card opens the matching movie,card-title,18,18,0,22
+"detail: detail meta line carries year, genre, runtime and rating",detail-meta,33,33,0,7
+detail: cast list renders every member,cast-row,5,5,0,35
+detail: delete shows a confirm modal and cancel keeps the movie,detail-delete-button,32,20,12,8
+detail: confirming delete removes the movie and returns to the catalog,detail-delete-button,32,20,12,8
+detail: unknown id shows the not-found state,detail-not-found,12,12,0,28
+favorites: seed catalog starts with three favorites,catalog-favorites-filter,25,7,18,15
+favorites: favorites-only filter narrows the catalog,catalog-favorites-filter,25,7,18,15
+favorites: toggling a favorite on a card updates aria-pressed and shows a toast,card-favorite-toggle,18,12,6,22
+favorites: favorite toggled on the detail page is reflected in the label,detail-favorite,32,7,25,8
+reviews: seed movie shows its reviews and average,review-item,17,17,0,23
+reviews: adding a review appends it to the list and recomputes the average,review-field-author,26,26,0,14
+reviews: submitting an empty review shows validation errors,review-submit,18,18,0,22
+reviews: removing a review drops it from the list,review-remove,25,20,5,15
+stats: summary cards report the seed totals,stat-total-value,25,25,0,15
+stats: genre bars list each distinct genre (.genre-bar-row),genre-row,24,18,6,16
+stats: top-rated table is ordered by rating descending,top-row,18,12,6,22
+stats: a top-rated title links to its detail page,top-title,18,9,9,22
+form: creating a movie navigates to its new detail page (getByLabel Title),field-title,25,25,0,15
+form: editing an existing movie pre-fills and saves changes,field-title,25,25,0,15
+form: submitting an empty form surfaces required-field errors,form-submit,25,20,5,15
+form: adding then removing a cast member updates the editor rows,cast-add,27,27,0,13
+extended target (catalog),catalog-add-button,25,1,24,15
+extended target (catalog),catalog-reset-button,25,7,18,15
+extended target (catalog),catalog-empty,21,5,16,19
+extended target (catalog),catalog-modal-confirm,25,25,0,15
+extended target (movie-card),card-meta,25,14,11,15
+extended target (movie-card),card-rating,25,0,25,15
+extended target (movie-card),card-poster,17,5,12,23
+extended target (movie-detail),detail-title,32,7,25,8
+extended target (movie-detail),detail-synopsis,26,26,0,14
+extended target (movie-detail),detail-edit-button,32,0,32,8
+extended target (cast-row),cast-name,19,14,5,21
+extended target (cast-row),cast-role,19,0,19,21
+extended target (reviews),reviews-average,26,21,5,14
+extended target (reviews),review-comment,25,6,19,15
+extended target (reviews),review-field-comment,25,20,5,15
+extended target (stats),stats-heading,17,12,5,23
+extended target (stats),genre-count,31,13,18,9
+extended target (stats),stat-favorites-value,25,20,5,15
+extended target (form),field-year,32,32,0,8
+extended target (form),form-cancel,25,0,25,15
+extended target (form),cast-remove,24,24,0,16

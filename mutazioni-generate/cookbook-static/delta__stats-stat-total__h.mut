@@ -1,0 +1,104 @@
+#mutation-id: h
+#element: delta
+#name: stats-stat-total
+#type: tag_mov_temp_mut
+#status: COMPLETE
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\cookbook\src\app\stats\stats.component.html #########
+<section class="stats-page">
+  <div class="page-head">
+    <div class="title-block">
+      <h1 class="page-title" x-test-stats-title>Statistics</h1>
+      <p class="page-sub">Computed from the recipes in memory</p>
+    </div>
+  </div>
+
+  <div class="stat-cards">
+    <div class="stat-card" data-stat="total">
+      <div class="stat-body">
+        <span class="stat-value" x-test-stat-total>{{ store.totalRecipes() }}</span>
+        
+      </div>
+    </div>
+    <div class="stat-card" data-stat="vegetarian">
+      <div class="stat-body">
+        <span class="stat-value" x-test-stat-veg>{{ store.vegetarianCount() }}</span>
+        <span class="stat-label">Vegetarian</span>
+      </div>
+    </div>
+    <div class="stat-card" data-stat="time">
+      <div class="stat-body">
+        <span class="stat-value" x-test-stat-time>{{ store.averageMinutes() }}</span>
+        <span class="stat-label">Average minutes</span>
+      </div>
+    </div>
+    <div class="stat-card" data-stat="favorites">
+      <div class="stat-body">
+        <span class="stat-value" x-test-stat-fav>{{ store.favoriteCount() }}</span>
+        <span class="stat-label">Favorites</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="stats-panels">
+    <app-panel heading="Recipes by course" note="share of the whole collection">
+      <div class="course-table" role="table" aria-label="Recipes by course">
+        @for (stat of store.courseStats(); track stat.course) {
+          <div class="course-row" role="row" [attr.data-course]="stat.course">
+            <span class="course-name" role="cell">{{ stat.course }}</span>
+            <span class="course-count" role="cell" [attr.x-test-course-count]="stat.course">{{ stat.count }}</span>
+            <span class="course-share" role="cell">{{ stat.share }}%</span>
+          </div>
+        }
+      </div>
+    </app-panel>
+
+    <app-panel heading="Top rated" note="best three">
+      <ol class="top-list">
+        @for (recipe of store.topRated(); track recipe.id) {
+          <li class="top-item" [attr.data-recipe-id]="recipe.id">
+            <a class="top-link" [routerLink]="['/recipe', recipe.id]" [attr.x-test-top-title]="recipe.id">{{ recipe.title }}</a>
+            <span class="top-rating">★ {{ recipe.rating }}</span>
+          </li>
+        }
+      </ol>
+    </app-panel>
+  </div>
+</section>
+######### END FILE #########
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\cookbook\src\app\shopping-list\shopping-list.component.html #########
+<section class="shopping-page">
+ <div class="page-head">
+  <div class="title-block">
+   <h1 class="page-title" x-test-shopping-title>Shopping list</h1>
+   <p class="page-sub">Ingredients added from the recipes</p>
+  </div>
+ </div>
+ <div class="shopping-summary">
+  <p class="summary-line"><span class="summary-value" data-kind="open" x-test-open-count>{{ store.shoppingOpenCount() }}</span> <span class="summary-label">to buy</span></p>
+  <p class="summary-line"><span class="summary-value" data-kind="done" x-test-done-count>{{ store.shoppingDoneCount() }}</span> <span class="summary-label">bought</span></p>
+ </div>
+ <div class="shopping-body">
+  @if (store.shoppingGroups().length === 0) {
+  <div class="empty-box">
+   <p class="empty-text" x-test-shopping-empty><span class="stat-label">Recipes</span>Your shopping list is empty</p>
+   <p class="empty-hint">Open a recipe and add its ingredients</p>
+  </div>
+  } @for (group of store.shoppingGroups(); track group.recipeId) {
+  <div class="shop-group" [attr.data-recipe-id]="group.recipeId">
+   <h2 class="group-title"><span class="group-name">{{ group.title }}</span> <span class="group-count">{{ group.items.length }}</span></h2>
+   <ul class="shop-items">
+    @for (item of group.items; track item.id) {
+    <li class="shop-item" [class.is-done]="item.done" [attr.data-item-id]="item.id"><label class="shop-check"> <input type="checkbox" class="shop-box" [checked]="item.done" (change)="store.toggleShopping(item.id)" [attr.aria-label]="'Bought ' + item.name" [attr.x-test-shop-check]="item.id"> <span class="shop-text">{{ store.formatQty(item.quantity) }} {{ item.unit }} {{ item.name }}</span> </label></li>
+    }
+   </ul>
+  </div>
+  }
+ </div>
+ <div class="shopping-actions">
+  <div class="action-group">
+   <button type="button" class="btn" (click)="store.clearDone()" x-test-clear-done>Clear bought items</button>
+   <span class="action-note">removes the checked lines</span>
+  </div>
+ </div>
+</section>
+######### END FILE #########

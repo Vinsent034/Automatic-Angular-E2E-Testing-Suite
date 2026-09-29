@@ -1,0 +1,26 @@
+######### START 1 - a #########
+<p class="step-text-alt" [attr.x-test-step-text]="step().n">{{ step().text }}</p>
+######### END 1 - a #########
+######### START 2 - b #########
+<p [attr.x-test-step-text]="step().n">{{ step().text }}</p>
+######### END 2 - b #########
+######### START 3 - c #########
+<p data-text="step-text" [attr.x-test-step-text]="step().n">{{ step().text }}</p>
+######### END 3 - c #########
+######### START 4 - d #########
+<p class="step-text" [attr.x-test-step-text]="step().n">Step description</p>
+######### END 4 - d #########
+######### START 5 - e #########
+<p class="step-text" [attr.x-test-step-text]="step().n"> </p>
+######### END 5 - e #########
+######### START 6 - i #########
+{{ step().text }}
+######### END 6 - i #########
+######### START 7 - j #########
+<div class="step-text" [attr.x-test-step-text]="step().n">{{ step().text }}</div>
+######### END 7 - j #########
+######### START 8 - k #########
+<div>
+  <p class="step-text" [attr.x-test-step-text]="step().n">{{ step().text }}</p>
+</div>
+######### END 8 - k #########

@@ -3,7 +3,7 @@
 #name: j
 #type: LLM_ROLE
 #status: HELD
-######### FILE C:\Users\vince\OneDrive\Desktop\App tirocinio\Kanban board\src\app\card\card.component.html #########
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\Kanban board\src\app\card\card.component.html #########
 <article class="card" [attr.data-card-id]="card().id" [attr.data-priority]="card().priority" [attr.data-column]="card().columnId" [attr.aria-label]="'Card ' + card().title" [attr.x-test-card]="card().id">
   <header class="card-top">
     <span class="card-id" [attr.x-test-card-id]="card().id">#{{ card().id }}</span>
@@ -25,7 +25,7 @@
 
   <footer class="card-actions">
     <label class="move-label">
-      <label class="move-caption">Move</label>
+      <div class="move-caption">Move</div>
       <select class="input select move-select" [value]="card().columnId" (change)="onMove($event)" [attr.x-test-card-move]="card().id">
         <option value="backlog">Backlog</option>
         <option value="inprogress">In Progress</option>

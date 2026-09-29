@@ -1,0 +1,76 @@
+#mutation-id: f
+#element: beta
+#name: stat-favorites-value
+#type: tag_mov_container_mut
+#status: COMPLETE
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\cinelib\src\app\stats\stats.component.html #########
+<section class="stats-page" x-test-stats>
+  <h1 class="form-heading" x-test-stats-heading>Statistics</h1>
+
+  <div class="stat-cards" x-test-stat-cards><div class="stat-card" x-test-stat-favorites>
+      <span class="stat-value" x-test-stat-favorites-value>{{ favoriteCount() }}</span>
+      <span class="stat-label">Favorites</span>
+    </div>
+    <div class="stat-card" x-test-stat-total>
+      <span class="stat-value" x-test-stat-total-value>{{ total() }}</span>
+      <span class="stat-label">Movies</span>
+    </div>
+    <div class="stat-card" x-test-stat-average>
+      <span class="stat-value" x-test-stat-average-value>★ {{ averageRating() }}</span>
+      <span class="stat-label">Average rating</span>
+    </div>
+    <div class="stat-card" x-test-stat-runtime>
+      <span class="stat-value" x-test-stat-runtime-value>{{ averageRuntime() }}'</span>
+      <span class="stat-label">Average runtime</span>
+    </div>
+    
+    <div class="stat-card" x-test-stat-reviews>
+      <span class="stat-value" x-test-stat-reviews-value>{{ reviewCount() }}</span>
+      <span class="stat-label">Reviews</span>
+    </div>
+  </div>
+
+  <section class="detail-section">
+    <h2 class="section-title">Movies by genre</h2>
+    <app-panel heading="Genres" note="share of the catalog">
+      <div class="genre-bars" x-test-genre-bars>
+        @for (g of genreStats(); track g.genre) {
+          <div class="genre-bar-row" x-test-genre-row [attr.data-genre]="g.genre">
+            <span class="genre-bar-label" x-test-genre-label>{{ g.genre }}</span>
+            <div class="genre-bar-track">
+              <div class="genre-bar-fill" [style.width.%]="g.share"></div>
+            </div>
+            <span class="genre-bar-count" x-test-genre-count>{{ g.count }}</span>
+          </div>
+        }
+      </div>
+    </app-panel>
+  </section>
+
+  <section class="detail-section">
+    <h2 class="section-title">Top rated</h2>
+    <app-panel heading="Ranking" note="best rated first">
+      <table class="stats-table" x-test-top-table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Title</th>
+            <th>Year</th>
+            <th>Rating</th>
+          </tr>
+        </thead>
+        <tbody>
+          @for (movie of topRated(); track movie.id; let i = $index) {
+            <tr x-test-top-row>
+              <td>{{ i + 1 }}</td>
+              <td><a [routerLink]="['/movie', movie.id]" class="stats-link" x-test-top-title>{{ movie.title }}</a></td>
+              <td>{{ movie.year }}</td>
+              <td class="stats-rating">★ {{ movie.rating }}</td>
+            </tr>
+          }
+        </tbody>
+      </table>
+    </app-panel>
+  </section>
+</section>
+######### END FILE #########

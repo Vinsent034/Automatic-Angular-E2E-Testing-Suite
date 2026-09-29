@@ -1,0 +1,47 @@
+######### START 1 - a #########
+<div class="toast-bar-alt" role="status" aria-live="polite">
+    <div class="toast-box">
+      <span class="toast-icon" aria-hidden="true">i</span>
+      <p class="toast-message" x-test-toast-message>{{ store.toast() }}</p>
+      <button type="button" class="toast-close" aria-label="Dismiss message" (click)="store.toast.set('')">×</button>
+    </div>
+  </div>
+######### END 1 - a #########
+######### START 2 - b #########
+<div class="toast-bar" role="status">
+    <div class="toast-box">
+      <span class="toast-icon" aria-hidden="true">i</span>
+      <p class="toast-message" x-test-toast-message>{{ store.toast() }}</p>
+      <button type="button" class="toast-close" aria-label="Dismiss message" (click)="store.toast.set('')">×</button>
+    </div>
+  </div>
+######### END 2 - b #########
+######### START 3 - c #########
+<div data-bar="toast-bar" role="status" aria-live="polite">
+    <div class="toast-box">
+      <span class="toast-icon" aria-hidden="true">i</span>
+      <p class="toast-message" x-test-toast-message>{{ store.toast() }}</p>
+      <button type="button" class="toast-close" aria-label="Dismiss message" (click)="store.toast.set('')">×</button>
+    </div>
+  </div>
+######### END 3 - c #########
+######### START 4 - j #########
+<section class="toast-bar" role="status" aria-live="polite">
+    <div class="toast-box">
+      <span class="toast-icon" aria-hidden="true">i</span>
+      <p class="toast-message" x-test-toast-message>{{ store.toast() }}</p>
+      <button type="button" class="toast-close" aria-label="Dismiss message" (click)="store.toast.set('')">×</button>
+    </div>
+  </section>
+######### END 4 - j #########
+######### START 5 - k #########
+<div>
+  <div class="toast-bar" role="status" aria-live="polite">
+    <div class="toast-box">
+      <span class="toast-icon" aria-hidden="true">i</span>
+      <p class="toast-message" x-test-toast-message>{{ store.toast() }}</p>
+      <button type="button" class="toast-close" aria-label="Dismiss message" (click)="store.toast.set('')">×</button>
+    </div>
+  </div>
+</div>
+######### END 5 - k #########

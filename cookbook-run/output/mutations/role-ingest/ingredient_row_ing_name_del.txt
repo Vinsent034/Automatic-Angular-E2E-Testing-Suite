@@ -1,0 +1,26 @@
+######### START 1 - a #########
+<em class="ing-optional-alt">{{ ingredient().optional ? '(optional)' : '' }}</em>
+######### END 1 - a #########
+######### START 2 - b #########
+<em>{{ ingredient().optional ? '(optional)' : '' }}</em>
+######### END 2 - b #########
+######### START 3 - c #########
+<em data-optional="ing-optional">{{ ingredient().optional ? '(optional)' : '' }}</em>
+######### END 3 - c #########
+######### START 4 - d #########
+<em class="ing-optional">optional</em>
+######### END 4 - d #########
+######### START 5 - e #########
+<em class="ing-optional"> </em>
+######### END 5 - e #########
+######### START 6 - i #########
+{{ ingredient().optional ? '(optional)' : '' }}
+######### END 6 - i #########
+######### START 7 - j #########
+<i class="ing-optional">{{ ingredient().optional ? '(optional)' : '' }}</i>
+######### END 7 - j #########
+######### START 8 - k #########
+<span>
+  <em class="ing-optional">{{ ingredient().optional ? '(optional)' : '' }}</em>
+</span>
+######### END 8 - k #########

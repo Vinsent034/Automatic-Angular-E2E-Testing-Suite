@@ -1,0 +1,54 @@
+######### START 1 - a #########
+<div class="form-field field-servings-alt">
+        <label class="field-label" for="f-servings">Servings</label>
+        <div class="control">
+          <input id="f-servings" name="servings" class="input" type="number" min="1" max="24" [(ngModel)]="servings" x-test-f-servings>
+          <small class="help">base for the quantities</small>
+        </div>
+      </div>
+######### END 1 - a #########
+######### START 2 - b #########
+<div>
+        <label class="field-label" for="f-servings">Servings</label>
+        <div class="control">
+          <input id="f-servings" name="servings" class="input" type="number" min="1" max="24" [(ngModel)]="servings" x-test-f-servings>
+          <small class="help">base for the quantities</small>
+        </div>
+      </div>
+######### END 2 - b #########
+######### START 3 - c #########
+<div data-field="form-field field-servings">
+        <label class="field-label" for="f-servings">Servings</label>
+        <div class="control">
+          <input id="f-servings" name="servings" class="input" type="number" min="1" max="24" [(ngModel)]="servings" x-test-f-servings>
+          <small class="help">base for the quantities</small>
+        </div>
+      </div>
+######### END 3 - c #########
+######### START 4 - i #########
+<label class="field-label" for="f-servings">Servings</label>
+        <div class="control">
+          <input id="f-servings" name="servings" class="input" type="number" min="1" max="24" [(ngModel)]="servings" x-test-f-servings>
+          <small class="help">base for the quantities</small>
+        </div>
+######### END 4 - i #########
+######### START 5 - j #########
+<section class="form-field field-servings">
+        <label class="field-label" for="f-servings">Servings</label>
+        <div class="control">
+          <input id="f-servings" name="servings" class="input" type="number" min="1" max="24" [(ngModel)]="servings" x-test-f-servings>
+          <small class="help">base for the quantities</small>
+        </div>
+      </section>
+######### END 5 - j #########
+######### START 6 - k #########
+<div>
+  <div class="form-field field-servings">
+        <label class="field-label" for="f-servings">Servings</label>
+        <div class="control">
+          <input id="f-servings" name="servings" class="input" type="number" min="1" max="24" [(ngModel)]="servings" x-test-f-servings>
+          <small class="help">base for the quantities</small>
+        </div>
+      </div>
+</div>
+######### END 6 - k #########

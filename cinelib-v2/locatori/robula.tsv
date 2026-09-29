@@ -1,0 +1,16 @@
+Name	Robula	RobulaPlus
+CS_Search	//input	//input
+CS_Card	//div[@class='movie-card movie-card-grid is-favorite']	//*[@class='movie-card movie-card-grid is-favorite']
+CS_CardTitle	//h2	//h2
+MD_Title	//h1	//h1
+MD_CastRow2	//app-cast-row[2]/*	//*[2]/*[@class='cast-row']
+MD_CastName2	//app-cast-row[2]/*/span[@class='cast-name']	//*[contains(text(),'Sam Whitfield')]
+MF_Title	//input[@id='title']	//*[@id='title']
+MF_Genre	//select	//select
+MF_Submit	//button[@type='submit']	//*[contains(text(),'Create movie')]
+RV_Average	//span[@class='reviews-average']	//*[contains(text(),'★ 4.7')]
+RV_Author1	//li[1]/*/span[@class='review-author']	//*[contains(text(),'Dario')]
+RV_Submit	//button[@type='submit']	//*[contains(text(),'Post review')]
+ST_Total	//div[1]/span[@class='stat-value']	//span[contains(text(),'8')]
+ST_TopTitle1	//a[@ng-reflect-router-link='/movie,3']	//*[contains(text(),'Quiet Harbor')]
+ST_GenreCount1	//div[@data-genre='Adventure']/span[@class='genre-bar-count']	//*[@data-genre='Adventure']/*[contains(text(),'2')]

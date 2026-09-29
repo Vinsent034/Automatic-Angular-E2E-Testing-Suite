@@ -1,0 +1,97 @@
+{
+ "S1_Search": {
+  "Relative": "//input[@id='search-input']",
+  "Katalon": "id=search-input",
+  "Selenium": "id=search-input"
+ },
+ "S1_Card": {
+  "Relative": "//div[@class='card-inner']",
+  "Katalon": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reset'])[1]/following::div[3]",
+  "Selenium": "css=.card-inner"
+ },
+ "S1_CardTitle": {
+  "Relative": "//h2[normalize-space()='Mushroom Risotto']",
+  "Katalon": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reset'])[1]/following::h2[1]",
+  "Selenium": "css=.card-title"
+ },
+ "S2_VegOnly": {
+  "Relative": "//input[@id='veg-only']",
+  "Katalon": "id=veg-only",
+  "Selenium": "id=veg-only"
+ },
+ "S2_CourseFilter": {
+  "Relative": "//select[@id='course-filter']",
+  "Katalon": "id=course-filter",
+  "Selenium": "id=course-filter"
+ },
+ "S2_ResultCount": {
+  "Relative": "//span[@class='result-count']",
+  "Katalon": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='ascending time, descending rating'])[1]/following::span[1]",
+  "Selenium": "css=.result-count"
+ },
+ "S3_DetailTitle": {
+  "Relative": "//h1[normalize-space()='Tomato Pasta']",
+  "Katalon": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='numbers'])[1]/following::h1[1]",
+  "Selenium": "css=.detail-title"
+ },
+ "S3_Servings": {
+  "Relative": "//input[@id='servings-input']",
+  "Katalon": "id=servings-input",
+  "Selenium": "id=servings-input"
+ },
+ "S3_IngQty": {
+  "Relative": "//span[normalize-space()='400']",
+  "Katalon": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='recipe default: 2'])[1]/following::span[2]",
+  "Selenium": "css=.ingredient-slot:nth-child(1) .ing-qty"
+ },
+ "S4_FormTitle": {
+  "Relative": "//input[@id='f-title']",
+  "Katalon": "id=f-title",
+  "Selenium": "id=f-title"
+ },
+ "S4_FormCourse": {
+  "Relative": "//select[@id='f-course']",
+  "Katalon": "id=f-course",
+  "Selenium": "id=f-course"
+ },
+ "S4_FormSubmit": {
+  "Relative": "//button[normalize-space()='Create recipe']",
+  "Katalon": "xpath=//button[@type='submit']",
+  "Selenium": "css=.btn-primary"
+ },
+ "S5_OpenCount": {
+  "Relative": "css=span[data-kind='open']",
+  "Katalon": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Shopping list'])[1]/following::span[1]",
+  "Selenium": "css=.summary-line:nth-child(1) > .summary-value"
+ },
+ "_note": {
+  "S5_OpenCount.Relative": "SelectorsHub Rel XPath era //span[@class='summary-value'][normalize-space()='2']: legato al valore, dopo la spunta (2->1) il test lo rilegge e troverebbe il conteggio 'bought' (1->2). Usato il Rel cssSelector proposto dallo stesso SelectorsHub (precedente: FlowBoard S5_StatRow3).",
+  "S5_ShopCheck.Katalon": "Corrisponde a 3 caselle; la prima (quella usata da Selenium findElement) e' quella giusta. Registrato cosi' come prodotto da Katalon.",
+  "S5_ClearDone.Katalon": "Corrisponde a 2 pulsanti (l'altro e' la chiusura del toast, piu' avanti nel DOM); il primo e' quello giusto."
+ },
+ "S5_ShopCheck": {
+  "Relative": "//input[@aria-label='Bought Arborio rice']",
+  "Katalon": "xpath=//input[@type='checkbox']",
+  "Selenium": "css=.shop-item:nth-child(1) .shop-box"
+ },
+ "S5_ClearDone": {
+  "Relative": "//button[normalize-space()='Clear bought items']",
+  "Katalon": "xpath=//button[@type='button']",
+  "Selenium": "css=.btn"
+ },
+ "S6_StatTotal": {
+  "Relative": "//span[normalize-space()='8']",
+  "Katalon": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Statistics'])[1]/following::span[1]",
+  "Selenium": "css=.stat-card:nth-child(1) .stat-value"
+ },
+ "S6_CourseCountMain": {
+  "Relative": "//span[@role='cell'][normalize-space()='3']",
+  "Katalon": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='main'])[1]/following::span[1]",
+  "Selenium": "css=.course-row:nth-child(2) > .course-count"
+ },
+ "S6_FooterVersion": {
+  "Relative": "//span[@class='footer-version']",
+  "Katalon": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Version'])[1]/following::span[1]",
+  "Selenium": "css=.footer-version"
+ }
+}

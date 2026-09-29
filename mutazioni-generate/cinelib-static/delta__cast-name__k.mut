@@ -1,0 +1,12 @@
+#mutation-id: k
+#element: delta
+#name: cast-name
+#type: tag_ins_mut
+#status: COMPLETE
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\cinelib\src\app\cast-row\cast-row.component.html #########
+<div class="cast-row" x-test-cast-row>
+  <span class="cast-avatar" aria-hidden="true">{{ member().name.charAt(0) }}</span>
+  <span class="cast-name" x-test-cast-name>{{ member().name }}</span>
+  <span class="cast-role" x-test-cast-role>{{ member().role }}</span><div class="inserted-sibling"></div>
+</div>
+######### END FILE #########

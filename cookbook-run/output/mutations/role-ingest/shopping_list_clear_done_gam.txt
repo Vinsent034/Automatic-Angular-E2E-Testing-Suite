@@ -1,0 +1,48 @@
+######### START 1 - a #########
+<div class="shopping-actions-alt">
+    <div class="action-group">
+      <button type="button" class="btn" (click)="store.clearDone()" x-test-clear-done>Clear bought items</button>
+      <span class="action-note">removes the checked lines</span>
+    </div>
+  </div>
+######### END 1 - a #########
+######### START 2 - b #########
+<div>
+    <div class="action-group">
+      <button type="button" class="btn" (click)="store.clearDone()" x-test-clear-done>Clear bought items</button>
+      <span class="action-note">removes the checked lines</span>
+    </div>
+  </div>
+######### END 2 - b #########
+######### START 3 - c #########
+<div data-actions="shopping-actions">
+    <div class="action-group">
+      <button type="button" class="btn" (click)="store.clearDone()" x-test-clear-done>Clear bought items</button>
+      <span class="action-note">removes the checked lines</span>
+    </div>
+  </div>
+######### END 3 - c #########
+######### START 4 - i #########
+<div class="action-group">
+      <button type="button" class="btn" (click)="store.clearDone()" x-test-clear-done>Clear bought items</button>
+      <span class="action-note">removes the checked lines</span>
+    </div>
+######### END 4 - i #########
+######### START 5 - j #########
+<section class="shopping-actions">
+    <div class="action-group">
+      <button type="button" class="btn" (click)="store.clearDone()" x-test-clear-done>Clear bought items</button>
+      <span class="action-note">removes the checked lines</span>
+    </div>
+  </section>
+######### END 5 - j #########
+######### START 6 - k #########
+<div>
+  <div class="shopping-actions">
+    <div class="action-group">
+      <button type="button" class="btn" (click)="store.clearDone()" x-test-clear-done>Clear bought items</button>
+      <span class="action-note">removes the checked lines</span>
+    </div>
+  </div>
+</div>
+######### END 6 - k #########

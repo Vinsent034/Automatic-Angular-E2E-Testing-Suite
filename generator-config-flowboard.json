@@ -1,6 +1,6 @@
 {
   "seed": "1234",
-  "repositoryRootPath": "C:/Users/vince/OneDrive/Desktop/App tirocinio/Kanban board",
+  "repositoryRootPath": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board",
   "npmRunCommand": "npm start -- --port 4400",
   "mutations": []
 }

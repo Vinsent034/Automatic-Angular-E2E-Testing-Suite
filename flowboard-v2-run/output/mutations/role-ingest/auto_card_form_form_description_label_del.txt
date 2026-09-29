@@ -1,0 +1,17 @@
+######### START 1 - a #########
+<textarea id="field-description" name="description" class="input form-description-field" rows="4" placeholder="What is this card about?" [(ngModel)]="description" x-test-form-description></textarea>
+######### END 1 - a #########
+######### START 1 - b #########
+<textarea id="field-description" name="description" class="input form-description" placeholder="What is this card about?" [(ngModel)]="description" x-test-form-description></textarea>
+######### END 1 - b #########
+######### START 1 - c #########
+<textarea id="field-description" name="description" class="input form-description" rows="4" data-placeholder="What is this card about?" [(ngModel)]="description" x-test-form-description></textarea>
+######### END 1 - c #########
+######### START 1 - j #########
+<input id="field-description" name="description" class="input form-description" rows="4" placeholder="What is this card about?" [(ngModel)]="description" x-test-form-description>
+######### END 1 - j #########
+######### START 1 - k #########
+<div class="textarea-wrap">
+  <textarea id="field-description" name="description" class="input form-description" rows="4" placeholder="What is this card about?" [(ngModel)]="description" x-test-form-description></textarea>
+</div>
+######### END 1 - k #########

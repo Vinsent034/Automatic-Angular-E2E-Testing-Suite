@@ -1,0 +1,42 @@
+######### START 1 - a #########
+<div class="not-found-page-alt">
+    <div class="not-found-box">
+      <p class="nf-text" x-test-not-found>Recipe not found</p>
+      <a class="btn btn-primary nf-back" routerLink="/">Back to recipes</a>
+    </div>
+  </div>
+######### END 1 - a #########
+######### START 2 - b #########
+<div>
+    <div class="not-found-box">
+      <p class="nf-text" x-test-not-found>Recipe not found</p>
+      <a class="btn btn-primary nf-back" routerLink="/">Back to recipes</a>
+    </div>
+  </div>
+######### END 2 - b #########
+######### START 3 - c #########
+<div data-page="not-found-page">
+    <div class="not-found-box">
+      <p class="nf-text" x-test-not-found>Recipe not found</p>
+      <a class="btn btn-primary nf-back" routerLink="/">Back to recipes</a>
+    </div>
+  </div>
+######### END 3 - c #########
+######### START 4 - j #########
+<section class="not-found-page">
+    <div class="not-found-box">
+      <p class="nf-text" x-test-not-found>Recipe not found</p>
+      <a class="btn btn-primary nf-back" routerLink="/">Back to recipes</a>
+    </div>
+  </section>
+######### END 4 - j #########
+######### START 5 - k #########
+<div>
+  <div class="not-found-page">
+    <div class="not-found-box">
+      <p class="nf-text" x-test-not-found>Recipe not found</p>
+      <a class="btn btn-primary nf-back" routerLink="/">Back to recipes</a>
+    </div>
+  </div>
+</div>
+######### END 5 - k #########

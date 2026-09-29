@@ -1,0 +1,23 @@
+######### START 1 - a #########
+<button type="submit" class="btn btn-cta" x-test-review-submit>Post review</button>
+######### END 1 - a #########
+######### START 1 - b #########
+<button class="btn btn-primary" x-test-review-submit>Post review</button>
+######### END 1 - b #########
+######### START 1 - c #########
+<button data-type="submit" class="btn btn-primary" x-test-review-submit>Post review</button>
+######### END 1 - c #########
+######### START 1 - d #########
+<button type="submit" class="btn btn-primary" x-test-review-submit>Submit review</button>
+######### END 1 - d #########
+######### START 1 - e #########
+<button type="submit" class="btn btn-primary" x-test-review-submit> </button>
+######### END 1 - e #########
+######### START 1 - j #########
+<a type="submit" class="btn btn-primary" x-test-review-submit>Post review</a>
+######### END 1 - j #########
+######### START 1 - k #########
+<span>
+<button type="submit" class="btn btn-primary" x-test-review-submit>Post review</button>
+</span>
+######### END 1 - k #########

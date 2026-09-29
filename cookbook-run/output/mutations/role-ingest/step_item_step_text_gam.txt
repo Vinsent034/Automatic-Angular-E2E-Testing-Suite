@@ -1,0 +1,62 @@
+######### START 1 - a #########
+<div class="step-main" [attr.data-step]="step().n">
+  <div class="step-marker">
+    <span class="step-number" [attr.x-test-step-number]="step().n">{{ step().n }}</span>
+    <span class="step-dot" aria-hidden="true"></span>
+  </div>
+  <div class="step-content">
+    <p class="step-text" [attr.x-test-step-text]="step().n">{{ step().text }}</p>
+    <p class="step-time"><span class="step-minutes">{{ step().minutes }}</span> min</p>
+  </div>
+</div>
+######### END 1 - a #########
+######### START 2 - b #########
+<div class="step">
+  <div class="step-marker">
+    <span class="step-number" [attr.x-test-step-number]="step().n">{{ step().n }}</span>
+    <span class="step-dot" aria-hidden="true"></span>
+  </div>
+  <div class="step-content">
+    <p class="step-text" [attr.x-test-step-text]="step().n">{{ step().text }}</p>
+    <p class="step-time"><span class="step-minutes">{{ step().minutes }}</span> min</p>
+  </div>
+</div>
+######### END 2 - b #########
+######### START 3 - c #########
+<div data-stepdiv="step" [attr.data-step]="step().n">
+  <div class="step-marker">
+    <span class="step-number" [attr.x-test-step-number]="step().n">{{ step().n }}</span>
+    <span class="step-dot" aria-hidden="true"></span>
+  </div>
+  <div class="step-content">
+    <p class="step-text" [attr.x-test-step-text]="step().n">{{ step().text }}</p>
+    <p class="step-time"><span class="step-minutes">{{ step().minutes }}</span> min</p>
+  </div>
+</div>
+######### END 3 - c #########
+######### START 4 - j #########
+<article class="step" [attr.data-step]="step().n">
+  <div class="step-marker">
+    <span class="step-number" [attr.x-test-step-number]="step().n">{{ step().n }}</span>
+    <span class="step-dot" aria-hidden="true"></span>
+  </div>
+  <div class="step-content">
+    <p class="step-text" [attr.x-test-step-text]="step().n">{{ step().text }}</p>
+    <p class="step-time"><span class="step-minutes">{{ step().minutes }}</span> min</p>
+  </div>
+</article>
+######### END 4 - j #########
+######### START 5 - k #########
+<section>
+  <div class="step" [attr.data-step]="step().n">
+  <div class="step-marker">
+    <span class="step-number" [attr.x-test-step-number]="step().n">{{ step().n }}</span>
+    <span class="step-dot" aria-hidden="true"></span>
+  </div>
+  <div class="step-content">
+    <p class="step-text" [attr.x-test-step-text]="step().n">{{ step().text }}</p>
+    <p class="step-time"><span class="step-minutes">{{ step().minutes }}</span> min</p>
+  </div>
+</div>
+</section>
+######### END 5 - k #########

@@ -1,0 +1,137 @@
+{
+  "CS_Search": {
+    "Absolute": "/html[1]/body[1]/app-root[1]/main[1]/app-catalog[1]/section[1]/div[1]/div[1]/input[1]",
+    "Robula": "//input",
+    "RobulaPlus": "//input",
+    "HookBased": "//*[@x-test-search-input]",
+    "Selenium": "css=.search-input",
+    "Relative": "//input[@placeholder='Search a movie…']",
+    "Katalon": "xpath=//input[@type='text']"
+  },
+  "CS_Card": {
+    "Absolute": "/html[1]/body[1]/app-root[1]/main[1]/app-catalog[1]/section[1]/div[3]/app-movie-card[1]/div[1]",
+    "Robula": "//div[@class='movie-card movie-card-grid is-favorite']",
+    "RobulaPlus": "//*[@class='movie-card movie-card-grid is-favorite']",
+    "HookBased": "//*[@x-test-card]",
+    "Selenium": "css=.movie-card",
+    "Relative": "//div[@class='movie-card movie-card-grid is-favorite']",
+    "Katalon": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reset catalog'])[1]/following::div[2]"
+  },
+  "CS_CardTitle": {
+    "Absolute": "/html[1]/body[1]/app-root[1]/main[1]/app-catalog[1]/section[1]/div[3]/app-movie-card[1]/div[1]/div[1]/a[1]/h2[1]",
+    "Robula": "//h2",
+    "RobulaPlus": "//h2",
+    "HookBased": "//*[@x-test-card-title]",
+    "Selenium": "css=.card-title",
+    "Relative": "//h2[normalize-space()='Quiet Harbor']",
+    "Katalon": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='♥'])[1]/following::h2[1]"
+  },
+  "MD_Title": {
+    "Absolute": "/html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/app-panel[1]/section[1]/div[1]/header[1]/div[2]/h1[1]",
+    "Robula": "//h1",
+    "RobulaPlus": "//h1",
+    "HookBased": "//*[@x-test-detail-title]",
+    "Selenium": "css=.detail-title",
+    "Relative": "//h1[normalize-space()='Quiet Harbor']",
+    "Katalon": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Q'])[1]/following::h1[1]"
+  },
+  "MD_CastRow2": {
+    "Absolute": "/html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[2]/div[1]/app-cast-row[2]/div[1]",
+    "Robula": "//app-cast-row[2]/*",
+    "RobulaPlus": "//*[2]/*[@class='cast-row']",
+    "HookBased": "(//*[@x-test-cast-row])[2]",
+    "Selenium": "css=app-cast-row:nth-child(2) > .cast-row",
+    "Relative": "//body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[2]/div[1]/app-cast-row[2]/div[1]",
+    "Katalon": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Edie'])[1]/following::div[1]"
+  },
+  "MD_CastName2": {
+    "Absolute": "/html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[2]/div[1]/app-cast-row[2]/div[1]/span[2]",
+    "Robula": "//app-cast-row[2]/*/span[@class='cast-name']",
+    "RobulaPlus": "//*[contains(text(),'Sam Whitfield')]",
+    "HookBased": "(//*[@x-test-cast-name])[2]",
+    "Selenium": "css=app-cast-row:nth-child(2) .cast-name",
+    "Relative": "//span[normalize-space()='Sam Whitfield']",
+    "Katalon": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Edie'])[1]/following::span[2]"
+  },
+  "MF_Title": {
+    "Absolute": "/html[1]/body[1]/app-root[1]/main[1]/app-movie-form[1]/section[1]/form[1]/div[1]/input[1]",
+    "Robula": "//input[@id='title']",
+    "RobulaPlus": "//*[@id='title']",
+    "HookBased": "//*[@x-test-field-title]",
+    "Selenium": "id=title",
+    "Relative": "//input[@id='title']",
+    "Katalon": "id=title"
+  },
+  "MF_Genre": {
+    "Absolute": "/html[1]/body[1]/app-root[1]/main[1]/app-movie-form[1]/section[1]/form[1]/app-panel[1]/section[1]/div[1]/div[1]/div[2]/select[1]",
+    "Robula": "//select",
+    "RobulaPlus": "//select",
+    "HookBased": "//*[@x-test-field-genre]",
+    "Selenium": "id=genre",
+    "Relative": "//select[@id='genre']",
+    "Katalon": "id=genre"
+  },
+  "MF_Submit": {
+    "Absolute": "/html[1]/body[1]/app-root[1]/main[1]/app-movie-form[1]/section[1]/form[1]/div[6]/button[1]",
+    "Robula": "//button[@type='submit']",
+    "RobulaPlus": "//*[contains(text(),'Create movie')]",
+    "HookBased": "//*[@x-test-form-submit]",
+    "Selenium": "css=.btn-primary",
+    "Relative": "//button[normalize-space()='Create movie']",
+    "Katalon": "xpath=//button[@type='submit']"
+  },
+  "RV_Average": {
+    "Absolute": "/html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[3]/app-reviews[1]/div[1]/div[1]/span[1]",
+    "Robula": "//span[@class='reviews-average']",
+    "RobulaPlus": "//*[contains(text(),'★ 4.7')]",
+    "HookBased": "//*[@x-test-reviews-average]",
+    "Selenium": "css=.reviews-average",
+    "Relative": "//span[@class='reviews-average']",
+    "Katalon": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reviews'])[1]/following::span[1]"
+  },
+  "RV_Author1": {
+    "Absolute": "/html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[3]/app-reviews[1]/div[1]/ul[1]/li[1]/div[1]/span[1]",
+    "Robula": "//li[1]/*/span[@class='review-author']",
+    "RobulaPlus": "//*[contains(text(),'Dario')]",
+    "HookBased": "(//*[@x-test-review-author])[1]",
+    "Selenium": "css=.review-item:nth-child(1) .review-author",
+    "Relative": "//span[normalize-space()='Dario']",
+    "Katalon": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='★ 4.7'])[1]/following::span[2]"
+  },
+  "RV_Submit": {
+    "Absolute": "/html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[3]/app-reviews[1]/div[1]/form[1]/div[3]/button[1]",
+    "Robula": "//button[@type='submit']",
+    "RobulaPlus": "//*[contains(text(),'Post review')]",
+    "HookBased": "//*[@x-test-review-submit]",
+    "Selenium": "css=.btn-primary",
+    "Relative": "//button[normalize-space()='Post review']",
+    "Katalon": "xpath=//button[@type='submit']"
+  },
+  "ST_Total": {
+    "Absolute": "/html[1]/body[1]/app-root[1]/main[1]/app-stats[1]/section[1]/div[1]/div[1]/span[1]",
+    "Robula": "//div[1]/span[@class='stat-value']",
+    "RobulaPlus": "//span[contains(text(),'8')]",
+    "HookBased": "//*[@x-test-stat-total-value]",
+    "Selenium": "css=.stat-card:nth-child(1) > .stat-value",
+    "Relative": "//span[normalize-space()='8']",
+    "Katalon": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Statistics'])[2]/following::span[1]"
+  },
+  "ST_TopTitle1": {
+    "Absolute": "/html[1]/body[1]/app-root[1]/main[1]/app-stats[1]/section[1]/section[2]/app-panel[1]/section[1]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/a[1]",
+    "Robula": "//a[@ng-reflect-router-link='/movie,3']",
+    "RobulaPlus": "//*[contains(text(),'Quiet Harbor')]",
+    "HookBased": "(//*[@x-test-top-title])[1]",
+    "Selenium": "linkText=Quiet Harbor",
+    "Relative": "//a[normalize-space()='Quiet Harbor']",
+    "Katalon": "link=Quiet Harbor"
+  },
+  "ST_GenreCount1": {
+    "Absolute": "/html[1]/body[1]/app-root[1]/main[1]/app-stats[1]/section[1]/section[1]/app-panel[1]/section[1]/div[1]/div[1]/div[1]/span[2]",
+    "Robula": "//div[@data-genre='Adventure']/span[@class='genre-bar-count']",
+    "RobulaPlus": "//*[@data-genre='Adventure']/*[contains(text(),'2')]",
+    "HookBased": "(//*[@x-test-genre-count])[1]",
+    "Selenium": "css=.genre-bar-row:nth-child(1) > .genre-bar-count",
+    "Relative": "//div[@data-genre='Adventure']//span[@class='genre-bar-count'][normalize-space()='2']",
+    "Katalon": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Adventure'])[1]/following::span[1]"
+  }
+}

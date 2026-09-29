@@ -1,7 +1,7 @@
 import sqlite3, subprocess, os, time, shutil, ntpath
 from collections import defaultdict
 
-SUITE = "C:/Users/vince/OneDrive/Desktop/Tirocinio/progetto/Automatic-Angular-E2E-Testing-Suite"
+SUITE = "C:/Users/vince/OneDrive/Desktop/Università/Tirocinio/progetto/Automatic-Angular-E2E-Testing-Suite"
 RUN   = SUITE + "/flowboard-static-run"
 TDBASE= SUITE + "/flowboard-run"          # test-dir riusate
 DB    = RUN + "/mutations.db"

@@ -1,0 +1,19 @@
+Name	Robula	RobulaPlus
+S1_Search	//input	//input
+S1_Card	//article	//article
+S1_CardTitle	//h4	//h4
+S2_ColumnCount	//span[@data-column='backlog']	//*[@data-column='backlog' and @class='badge column-count']
+S2_CardMove	//article[@data-card-id='1']/*/*/select	//*[@data-card-id='1']/*/*/select
+S2_ColumnInprogress	//section[@data-column='inprogress']	//*[@aria-label='In Progress column']
+S3_FormTitle	//input[@id='field-title']	//*[@id='field-title']
+S3_FormPriority	//select[@id='field-priority']	//*[@id='field-priority']
+S3_FormSubmit	//button	//button
+S4_DetailTitle	//h3	//h3
+S4_DetailAssignee	//span[@class='detail-assignee']	//*[contains(text(),'Marco')]
+S4_DetailDelete	//button	//button
+S5_StatTotal	//div[@data-stat='total']/span[@class='stat-value']	//*[@data-stat='total']/*[contains(text(),'10')]
+S5_StatBacklog	//div[@data-stat='backlog']/span[@class='stat-value']	//*[@data-stat='backlog']/*[contains(text(),'4')]
+S5_StatRow3	//tr[@data-card-id='3']	//*[@data-card-id='3']
+S6_NavStats	//a[@routerlink='/stats']	//*[contains(text(),'Stats')]
+S6_TotalBadge	//span[@data-kind='total']	//*[@data-kind='total']
+S6_FooterVersion	//span[@class='footer-version']	//*[contains(text(),'v1.0')]

@@ -1,0 +1,144 @@
+######### START 1 - a #########
+<dl class="nutrition-grid-alt">
+          <div class="nutri-row" data-nutrient="kcal">
+            <dt class="nutri-key">Energy</dt>
+            <dd class="nutri-val" x-test-kcal>{{ recipe.nutrition.kcal }}</dd>
+            <dd class="nutri-unit">kcal</dd>
+          </div>
+          <div class="nutri-row" data-nutrient="protein">
+            <dt class="nutri-key">Protein</dt>
+            <dd class="nutri-val" x-test-protein>{{ recipe.nutrition.protein }}</dd>
+            <dd class="nutri-unit">g</dd>
+          </div>
+          <div class="nutri-row" data-nutrient="carbs">
+            <dt class="nutri-key">Carbohydrates</dt>
+            <dd class="nutri-val">{{ recipe.nutrition.carbs }}</dd>
+            <dd class="nutri-unit">g</dd>
+          </div>
+          <div class="nutri-row" data-nutrient="fat">
+            <dt class="nutri-key">Fat</dt>
+            <dd class="nutri-val">{{ recipe.nutrition.fat }}</dd>
+            <dd class="nutri-unit">g</dd>
+          </div>
+        </dl>
+######### END 1 - a #########
+######### START 2 - b #########
+<dl>
+          <div class="nutri-row" data-nutrient="kcal">
+            <dt class="nutri-key">Energy</dt>
+            <dd class="nutri-val" x-test-kcal>{{ recipe.nutrition.kcal }}</dd>
+            <dd class="nutri-unit">kcal</dd>
+          </div>
+          <div class="nutri-row" data-nutrient="protein">
+            <dt class="nutri-key">Protein</dt>
+            <dd class="nutri-val" x-test-protein>{{ recipe.nutrition.protein }}</dd>
+            <dd class="nutri-unit">g</dd>
+          </div>
+          <div class="nutri-row" data-nutrient="carbs">
+            <dt class="nutri-key">Carbohydrates</dt>
+            <dd class="nutri-val">{{ recipe.nutrition.carbs }}</dd>
+            <dd class="nutri-unit">g</dd>
+          </div>
+          <div class="nutri-row" data-nutrient="fat">
+            <dt class="nutri-key">Fat</dt>
+            <dd class="nutri-val">{{ recipe.nutrition.fat }}</dd>
+            <dd class="nutri-unit">g</dd>
+          </div>
+        </dl>
+######### END 2 - b #########
+######### START 3 - c #########
+<dl data-grid="nutrition-grid">
+          <div class="nutri-row" data-nutrient="kcal">
+            <dt class="nutri-key">Energy</dt>
+            <dd class="nutri-val" x-test-kcal>{{ recipe.nutrition.kcal }}</dd>
+            <dd class="nutri-unit">kcal</dd>
+          </div>
+          <div class="nutri-row" data-nutrient="protein">
+            <dt class="nutri-key">Protein</dt>
+            <dd class="nutri-val" x-test-protein>{{ recipe.nutrition.protein }}</dd>
+            <dd class="nutri-unit">g</dd>
+          </div>
+          <div class="nutri-row" data-nutrient="carbs">
+            <dt class="nutri-key">Carbohydrates</dt>
+            <dd class="nutri-val">{{ recipe.nutrition.carbs }}</dd>
+            <dd class="nutri-unit">g</dd>
+          </div>
+          <div class="nutri-row" data-nutrient="fat">
+            <dt class="nutri-key">Fat</dt>
+            <dd class="nutri-val">{{ recipe.nutrition.fat }}</dd>
+            <dd class="nutri-unit">g</dd>
+          </div>
+        </dl>
+######### END 3 - c #########
+######### START 4 - i #########
+<div class="nutri-row" data-nutrient="kcal">
+            <dt class="nutri-key">Energy</dt>
+            <dd class="nutri-val" x-test-kcal>{{ recipe.nutrition.kcal }}</dd>
+            <dd class="nutri-unit">kcal</dd>
+          </div>
+          <div class="nutri-row" data-nutrient="protein">
+            <dt class="nutri-key">Protein</dt>
+            <dd class="nutri-val" x-test-protein>{{ recipe.nutrition.protein }}</dd>
+            <dd class="nutri-unit">g</dd>
+          </div>
+          <div class="nutri-row" data-nutrient="carbs">
+            <dt class="nutri-key">Carbohydrates</dt>
+            <dd class="nutri-val">{{ recipe.nutrition.carbs }}</dd>
+            <dd class="nutri-unit">g</dd>
+          </div>
+          <div class="nutri-row" data-nutrient="fat">
+            <dt class="nutri-key">Fat</dt>
+            <dd class="nutri-val">{{ recipe.nutrition.fat }}</dd>
+            <dd class="nutri-unit">g</dd>
+          </div>
+######### END 4 - i #########
+######### START 5 - j #########
+<div class="nutrition-grid">
+          <div class="nutri-row" data-nutrient="kcal">
+            <dt class="nutri-key">Energy</dt>
+            <dd class="nutri-val" x-test-kcal>{{ recipe.nutrition.kcal }}</dd>
+            <dd class="nutri-unit">kcal</dd>
+          </div>
+          <div class="nutri-row" data-nutrient="protein">
+            <dt class="nutri-key">Protein</dt>
+            <dd class="nutri-val" x-test-protein>{{ recipe.nutrition.protein }}</dd>
+            <dd class="nutri-unit">g</dd>
+          </div>
+          <div class="nutri-row" data-nutrient="carbs">
+            <dt class="nutri-key">Carbohydrates</dt>
+            <dd class="nutri-val">{{ recipe.nutrition.carbs }}</dd>
+            <dd class="nutri-unit">g</dd>
+          </div>
+          <div class="nutri-row" data-nutrient="fat">
+            <dt class="nutri-key">Fat</dt>
+            <dd class="nutri-val">{{ recipe.nutrition.fat }}</dd>
+            <dd class="nutri-unit">g</dd>
+          </div>
+        </div>
+######### END 5 - j #########
+######### START 6 - k #########
+<div>
+  <dl class="nutrition-grid">
+          <div class="nutri-row" data-nutrient="kcal">
+            <dt class="nutri-key">Energy</dt>
+            <dd class="nutri-val" x-test-kcal>{{ recipe.nutrition.kcal }}</dd>
+            <dd class="nutri-unit">kcal</dd>
+          </div>
+          <div class="nutri-row" data-nutrient="protein">
+            <dt class="nutri-key">Protein</dt>
+            <dd class="nutri-val" x-test-protein>{{ recipe.nutrition.protein }}</dd>
+            <dd class="nutri-unit">g</dd>
+          </div>
+          <div class="nutri-row" data-nutrient="carbs">
+            <dt class="nutri-key">Carbohydrates</dt>
+            <dd class="nutri-val">{{ recipe.nutrition.carbs }}</dd>
+            <dd class="nutri-unit">g</dd>
+          </div>
+          <div class="nutri-row" data-nutrient="fat">
+            <dt class="nutri-key">Fat</dt>
+            <dd class="nutri-val">{{ recipe.nutrition.fat }}</dd>
+            <dd class="nutri-unit">g</dd>
+          </div>
+        </dl>
+</div>
+######### END 6 - k #########

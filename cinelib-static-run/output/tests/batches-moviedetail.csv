@@ -1,1463 +1,1707 @@
 Name,Id,Locator,Tag,Status,Error
 detail-edit-button,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+detail-edit-button,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-edit-button,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-edit-button,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-edit-button,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-edit-button,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-edit-button,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
-detail-title,mutation_f_tag_mov_container_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+detail-title,mutation_f_tag_mov_container_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 150Current browser version is 153.0.8010.48 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe Host info: host: 'È_MIO'  ip: '192.168.1.10'
+detail-title,mutation_f_tag_mov_container_mut_gamma,HookXPathTest,gamma,PASSED,null
 detail-title,mutation_f_tag_mov_container_mut_gamma,KatalonXPathTest,gamma,PASSED,null
 detail-title,mutation_f_tag_mov_container_mut_gamma,RelativeXPathTest,gamma,PASSED,null
 detail-title,mutation_f_tag_mov_container_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
 detail-title,mutation_f_tag_mov_container_mut_gamma,RobulaXPathTest,gamma,PASSED,null
 detail-title,mutation_f_tag_mov_container_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
 detail-edit-button,mutation_a_attr_val_mod_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+detail-edit-button,mutation_a_attr_val_mod_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-edit-button,mutation_a_attr_val_mod_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-edit-button,mutation_a_attr_val_mod_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-edit-button,mutation_a_attr_val_mod_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-edit-button,mutation_a_attr_val_mod_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-edit-button,mutation_a_attr_val_mod_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-delete-button,mutation_d_text_cont_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+detail-delete-button,mutation_d_text_cont_mod_mut_delta,HookXPathTest,delta,PASSED,null
 detail-delete-button,mutation_d_text_cont_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
 detail-delete-button,mutation_d_text_cont_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
 detail-delete-button,mutation_d_text_cont_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 detail-delete-button,mutation_d_text_cont_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
 detail-delete-button,mutation_d_text_cont_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
 detail-title,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+detail-title,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,PASSED,null
 detail-title,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
 detail-title,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
 detail-title,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 detail-title,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
 detail-title,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
 detail-title,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+detail-title,mutation_k_tag_ins_mut_gamma,HookXPathTest,gamma,PASSED,null
 detail-title,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,PASSED,null
 detail-title,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,PASSED,null
 detail-title,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
 detail-title,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,PASSED,null
 detail-title,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
 detail-meta,mutation_f_tag_mov_container_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+detail-meta,mutation_f_tag_mov_container_mut_gamma,HookXPathTest,gamma,PASSED,null
 detail-meta,mutation_f_tag_mov_container_mut_gamma,KatalonXPathTest,gamma,PASSED,null
 detail-meta,mutation_f_tag_mov_container_mut_gamma,RelativeXPathTest,gamma,PASSED,null
 detail-meta,mutation_f_tag_mov_container_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
 detail-meta,mutation_f_tag_mov_container_mut_gamma,RobulaXPathTest,gamma,PASSED,null
 detail-meta,mutation_f_tag_mov_container_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
 detail-edit-button,mutation_f_tag_mov_container_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+detail-edit-button,mutation_f_tag_mov_container_mut_alpha,HookXPathTest,alpha,PASSED,null
 detail-edit-button,mutation_f_tag_mov_container_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 detail-edit-button,mutation_f_tag_mov_container_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 detail-edit-button,mutation_f_tag_mov_container_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 detail-edit-button,mutation_f_tag_mov_container_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 detail-edit-button,mutation_f_tag_mov_container_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 cast-role,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+cast-role,mutation_h_tag_mov_temp_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 cast-role,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 cast-role,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 cast-role,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 cast-role,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 cast-role,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 cast-row,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,FAILED,expected:<1> but was:<0>
+cast-row,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,FAILED,expected:<1> but was:<0>
 cast-row,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 cast-row,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,FAILED,expected:<1> but was:<0>
 cast-row,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,expected:<1> but was:<0>
 cast-row,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,FAILED,expected:<1> but was:<3>
 cast-row,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-title,mutation_f_tag_mov_container_mut_beta,AbsoluteXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/header[1]/div[2]/h1[1] (tried for 5 second(s) with 500 milliseconds interval)
+detail-title,mutation_f_tag_mov_container_mut_beta,HookXPathTest,beta,PASSED,null
 detail-title,mutation_f_tag_mov_container_mut_beta,KatalonXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Q'])[1]/following::h1[1] (tried for 5 second(s) with 500 milliseconds interval)
 detail-title,mutation_f_tag_mov_container_mut_beta,RelativeXPathTest,beta,PASSED,null
 detail-title,mutation_f_tag_mov_container_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 detail-title,mutation_f_tag_mov_container_mut_beta,RobulaXPathTest,beta,PASSED,null
 detail-title,mutation_f_tag_mov_container_mut_beta,SeleniumXPathTest,beta,PASSED,null
 detail-favorite,mutation_a_attr_val_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+detail-favorite,mutation_a_attr_val_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
 detail-favorite,mutation_a_attr_val_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 detail-favorite,mutation_a_attr_val_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 detail-favorite,mutation_a_attr_val_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 detail-favorite,mutation_a_attr_val_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 detail-favorite,mutation_a_attr_val_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 detail-title,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+detail-title,mutation_i_tag_rem_mut_delta,HookXPathTest,delta,PASSED,null
 detail-title,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
 detail-title,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
 detail-title,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 detail-title,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
 detail-title,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
 detail-delete-button,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+detail-delete-button,mutation_f_tag_mov_container_mut_delta,HookXPathTest,delta,PASSED,null
 detail-delete-button,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,PASSED,null
 detail-delete-button,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,PASSED,null
 detail-delete-button,mutation_f_tag_mov_container_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 detail-delete-button,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,PASSED,null
 detail-delete-button,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,PASSED,null
 detail-favorite,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+detail-favorite,mutation_k_tag_ins_mut_gamma,HookXPathTest,gamma,PASSED,null
 detail-favorite,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,PASSED,null
 detail-favorite,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,PASSED,null
 detail-favorite,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
 detail-favorite,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,PASSED,null
 detail-favorite,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
 detail-edit-button,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+detail-edit-button,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
 detail-edit-button,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 detail-edit-button,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 detail-edit-button,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 detail-edit-button,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 detail-edit-button,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 cast-name,mutation_e_text_cont_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+cast-name,mutation_e_text_cont_rem_mut_delta,HookXPathTest,delta,PASSED,null
 cast-name,mutation_e_text_cont_rem_mut_delta,KatalonXPathTest,delta,FAILED,expected:<1> but was:<0>
 cast-name,mutation_e_text_cont_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
 cast-name,mutation_e_text_cont_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 cast-name,mutation_e_text_cont_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
 cast-name,mutation_e_text_cont_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
 cast-row,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+cast-row,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,PASSED,null
 cast-row,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 cast-row,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 cast-row,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 cast-row,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,FAILED,expected:<1> but was:<2>
 cast-row,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 detail-meta,mutation_f_tag_mov_container_mut_beta,AbsoluteXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/header[1]/div[2]/h1[1] (tried for 5 second(s) with 500 milliseconds interval)
+detail-meta,mutation_f_tag_mov_container_mut_beta,HookXPathTest,beta,PASSED,null
 detail-meta,mutation_f_tag_mov_container_mut_beta,KatalonXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Q'])[1]/following::h1[1] (tried for 5 second(s) with 500 milliseconds interval)
 detail-meta,mutation_f_tag_mov_container_mut_beta,RelativeXPathTest,beta,PASSED,null
 detail-meta,mutation_f_tag_mov_container_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 detail-meta,mutation_f_tag_mov_container_mut_beta,RobulaXPathTest,beta,PASSED,null
 detail-meta,mutation_f_tag_mov_container_mut_beta,SeleniumXPathTest,beta,PASSED,null
 detail-not-found,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+detail-not-found,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
 detail-not-found,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 detail-not-found,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 detail-not-found,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 detail-not-found,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 detail-not-found,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 cast-role,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+cast-role,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 cast-role,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 cast-role,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 cast-role,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 cast-role,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 cast-role,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-favorite,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+detail-favorite,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-favorite,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-favorite,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-favorite,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-favorite,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-favorite,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-delete-button,mutation_d_text_cont_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+detail-delete-button,mutation_d_text_cont_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
 detail-delete-button,mutation_d_text_cont_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 detail-delete-button,mutation_d_text_cont_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 detail-delete-button,mutation_d_text_cont_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 detail-delete-button,mutation_d_text_cont_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 detail-delete-button,mutation_d_text_cont_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 detail-title,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/header[1]/div[2]/h1[1] (tried for 5 second(s) with 500 milliseconds interval)
+detail-title,mutation_j_tag_type_mod_mut_gamma,HookXPathTest,gamma,PASSED,null
 detail-title,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,PASSED,null
 detail-title,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,PASSED,null
 detail-title,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
 detail-title,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
 detail-title,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
 detail-favorite,mutation_f_tag_mov_container_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/header[1]/div[2]/h1[1] (tried for 5 second(s) with 500 milliseconds interval)
+detail-favorite,mutation_f_tag_mov_container_mut_gamma,HookXPathTest,gamma,PASSED,null
 detail-favorite,mutation_f_tag_mov_container_mut_gamma,KatalonXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Q'])[1]/following::h1[1] (tried for 5 second(s) with 500 milliseconds interval)
 detail-favorite,mutation_f_tag_mov_container_mut_gamma,RelativeXPathTest,gamma,PASSED,null
 detail-favorite,mutation_f_tag_mov_container_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
 detail-favorite,mutation_f_tag_mov_container_mut_gamma,RobulaXPathTest,gamma,PASSED,null
 detail-favorite,mutation_f_tag_mov_container_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
 detail-edit-button,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+detail-edit-button,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-edit-button,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-edit-button,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-edit-button,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-edit-button,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-edit-button,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-title,mutation_e_text_cont_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+detail-title,mutation_e_text_cont_rem_mut_delta,HookXPathTest,delta,PASSED,null
 detail-title,mutation_e_text_cont_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
 detail-title,mutation_e_text_cont_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
 detail-title,mutation_e_text_cont_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 detail-title,mutation_e_text_cont_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
 detail-title,mutation_e_text_cont_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
 detail-favorite,mutation_g_tag_mov_html_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+detail-favorite,mutation_g_tag_mov_html_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 detail-favorite,mutation_g_tag_mov_html_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 detail-favorite,mutation_g_tag_mov_html_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 detail-favorite,mutation_g_tag_mov_html_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 detail-favorite,mutation_g_tag_mov_html_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 detail-favorite,mutation_g_tag_mov_html_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 detail-delete-button,mutation_a_attr_val_mod_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+detail-delete-button,mutation_a_attr_val_mod_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-delete-button,mutation_a_attr_val_mod_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-delete-button,mutation_a_attr_val_mod_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-delete-button,mutation_a_attr_val_mod_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-delete-button,mutation_a_attr_val_mod_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-delete-button,mutation_a_attr_val_mod_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-edit-button,mutation_d_text_cont_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+detail-edit-button,mutation_d_text_cont_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
 detail-edit-button,mutation_d_text_cont_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 detail-edit-button,mutation_d_text_cont_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 detail-edit-button,mutation_d_text_cont_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 detail-edit-button,mutation_d_text_cont_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 detail-edit-button,mutation_d_text_cont_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 detail-meta,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+detail-meta,mutation_h_tag_mov_temp_mut_gamma,HookXPathTest,gamma,PASSED,null
 detail-meta,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,PASSED,null
 detail-meta,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,PASSED,null
 detail-meta,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
 detail-meta,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,PASSED,null
 detail-meta,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
 detail-meta,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/header[1]/div[2]/h1[1] (tried for 5 second(s) with 500 milliseconds interval)
+detail-meta,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,PASSED,null
 detail-meta,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
 detail-meta,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
 detail-meta,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 detail-meta,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
 detail-meta,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,PASSED,null
 cast-name,mutation_g_tag_mov_html_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+cast-name,mutation_g_tag_mov_html_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 cast-name,mutation_g_tag_mov_html_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 cast-name,mutation_g_tag_mov_html_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 cast-name,mutation_g_tag_mov_html_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 cast-name,mutation_g_tag_mov_html_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 cast-name,mutation_g_tag_mov_html_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 cast-name,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+cast-name,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 cast-name,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 cast-name,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 cast-name,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 cast-name,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 cast-name,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-title,mutation_g_tag_mov_html_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+detail-title,mutation_g_tag_mov_html_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-title,mutation_g_tag_mov_html_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-title,mutation_g_tag_mov_html_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-title,mutation_g_tag_mov_html_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-title,mutation_g_tag_mov_html_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-title,mutation_g_tag_mov_html_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-edit-button,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+detail-edit-button,mutation_f_tag_mov_container_mut_delta,HookXPathTest,delta,PASSED,null
 detail-edit-button,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,PASSED,null
 detail-edit-button,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,PASSED,null
 detail-edit-button,mutation_f_tag_mov_container_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 detail-edit-button,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,PASSED,null
 detail-edit-button,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,PASSED,null
 detail-delete-button,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/header[1]/div[2]/h1[1] (tried for 5 second(s) with 500 milliseconds interval)
+detail-delete-button,mutation_j_tag_type_mod_mut_gamma,HookXPathTest,gamma,PASSED,null
 detail-delete-button,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,PASSED,null
 detail-delete-button,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,PASSED,null
 detail-delete-button,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
 detail-delete-button,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
 detail-delete-button,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
 cast-role,mutation_e_text_cont_rem_mut_delta,AbsoluteXPathTest,delta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/header[1]/div[2]/h1[1] (tried for 5 second(s) with 500 milliseconds interval)
+cast-role,mutation_e_text_cont_rem_mut_delta,HookXPathTest,delta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x-test-detail-title] (tried for 5 second(s) with 500 milliseconds interval)
 cast-role,mutation_e_text_cont_rem_mut_delta,KatalonXPathTest,delta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Q'])[1]/following::h1[1] (tried for 5 second(s) with 500 milliseconds interval)
 cast-role,mutation_e_text_cont_rem_mut_delta,RelativeXPathTest,delta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1[normalize-space()='Quiet Harbor'] (tried for 5 second(s) with 500 milliseconds interval)
 cast-role,mutation_e_text_cont_rem_mut_delta,RobulaPlusXPathTest,delta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1 (tried for 5 second(s) with 500 milliseconds interval)
 cast-role,mutation_e_text_cont_rem_mut_delta,RobulaXPathTest,delta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1 (tried for 5 second(s) with 500 milliseconds interval)
 cast-role,mutation_e_text_cont_rem_mut_delta,SeleniumXPathTest,delta,FAILED,Expected condition failed: waiting for visibility of element located by By.cssSelector: .detail-title (tried for 5 second(s) with 500 milliseconds interval)
 detail-delete-button,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/header[1]/div[2]/h1[1] (tried for 5 second(s) with 500 milliseconds interval)
+detail-delete-button,mutation_i_tag_rem_mut_gamma,HookXPathTest,gamma,PASSED,null
 detail-delete-button,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,PASSED,null
 detail-delete-button,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,PASSED,null
 detail-delete-button,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
 detail-delete-button,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
 detail-delete-button,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
 detail-synopsis,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+detail-synopsis,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
 detail-synopsis,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 detail-synopsis,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 detail-synopsis,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 detail-synopsis,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 detail-synopsis,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 detail-edit-button,mutation_d_text_cont_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+detail-edit-button,mutation_d_text_cont_mod_mut_delta,HookXPathTest,delta,PASSED,null
 detail-edit-button,mutation_d_text_cont_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
 detail-edit-button,mutation_d_text_cont_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
 detail-edit-button,mutation_d_text_cont_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 detail-edit-button,mutation_d_text_cont_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
 detail-edit-button,mutation_d_text_cont_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
 cast-role,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/header[1]/div[2]/h1[1] (tried for 5 second(s) with 500 milliseconds interval)
+cast-role,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x-test-detail-title] (tried for 5 second(s) with 500 milliseconds interval)
 cast-role,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Q'])[1]/following::h1[1] (tried for 5 second(s) with 500 milliseconds interval)
 cast-role,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1[normalize-space()='Quiet Harbor'] (tried for 5 second(s) with 500 milliseconds interval)
 cast-role,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1 (tried for 5 second(s) with 500 milliseconds interval)
 cast-role,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1 (tried for 5 second(s) with 500 milliseconds interval)
 cast-role,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.cssSelector: .detail-title (tried for 5 second(s) with 500 milliseconds interval)
 detail-not-found,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+detail-not-found,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-not-found,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-not-found,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-not-found,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-not-found,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-not-found,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 cast-name,mutation_e_text_cont_rem_mut_alpha,AbsoluteXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/header[1]/div[2]/h1[1] (tried for 5 second(s) with 500 milliseconds interval)
+cast-name,mutation_e_text_cont_rem_mut_alpha,HookXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x-test-detail-title] (tried for 5 second(s) with 500 milliseconds interval)
 cast-name,mutation_e_text_cont_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Q'])[1]/following::h1[1] (tried for 5 second(s) with 500 milliseconds interval)
 cast-name,mutation_e_text_cont_rem_mut_alpha,RelativeXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1[normalize-space()='Quiet Harbor'] (tried for 5 second(s) with 500 milliseconds interval)
 cast-name,mutation_e_text_cont_rem_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1 (tried for 5 second(s) with 500 milliseconds interval)
 cast-name,mutation_e_text_cont_rem_mut_alpha,RobulaXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1 (tried for 5 second(s) with 500 milliseconds interval)
 cast-name,mutation_e_text_cont_rem_mut_alpha,SeleniumXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.cssSelector: .detail-title (tried for 5 second(s) with 500 milliseconds interval)
 detail-meta,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+detail-meta,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
 detail-meta,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 detail-meta,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 detail-meta,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 detail-meta,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 detail-meta,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 detail-synopsis,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/header[1]/div[2]/h1[1] (tried for 5 second(s) with 500 milliseconds interval)
+detail-synopsis,mutation_j_tag_type_mod_mut_gamma,HookXPathTest,gamma,PASSED,null
 detail-synopsis,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,PASSED,null
 detail-synopsis,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,FAILED,expected:<1> but was:<0>
 detail-synopsis,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
 detail-synopsis,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
 detail-synopsis,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
 detail-favorite,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+detail-favorite,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,PASSED,null
 detail-favorite,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 detail-favorite,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 detail-favorite,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 detail-favorite,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 detail-favorite,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 cast-role,mutation_g_tag_mov_html_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+cast-role,mutation_g_tag_mov_html_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 cast-role,mutation_g_tag_mov_html_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 cast-role,mutation_g_tag_mov_html_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 cast-role,mutation_g_tag_mov_html_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 cast-role,mutation_g_tag_mov_html_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 cast-role,mutation_g_tag_mov_html_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-not-found,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+detail-not-found,mutation_i_tag_rem_mut_delta,HookXPathTest,delta,PASSED,null
 detail-not-found,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
 detail-not-found,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
 detail-not-found,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 detail-not-found,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
 detail-not-found,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
 detail-delete-button,mutation_b_attr_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+detail-delete-button,mutation_b_attr_rem_mut_delta,HookXPathTest,delta,PASSED,null
 detail-delete-button,mutation_b_attr_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
 detail-delete-button,mutation_b_attr_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
 detail-delete-button,mutation_b_attr_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 detail-delete-button,mutation_b_attr_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
 detail-delete-button,mutation_b_attr_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
 detail-edit-button,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+detail-edit-button,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,PASSED,null
 detail-edit-button,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,PASSED,null
 detail-edit-button,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,PASSED,null
 detail-edit-button,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 detail-edit-button,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,PASSED,null
 detail-edit-button,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,PASSED,null
 detail-title,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+detail-title,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,PASSED,null
 detail-title,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 detail-title,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 detail-title,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 detail-title,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 detail-title,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 cast-name,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/header[1]/div[2]/h1[1] (tried for 5 second(s) with 500 milliseconds interval)
+cast-name,mutation_f_tag_mov_container_mut_delta,HookXPathTest,delta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x-test-detail-title] (tried for 5 second(s) with 500 milliseconds interval)
 cast-name,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Q'])[1]/following::h1[1] (tried for 5 second(s) with 500 milliseconds interval)
 cast-name,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1[normalize-space()='Quiet Harbor'] (tried for 5 second(s) with 500 milliseconds interval)
 cast-name,mutation_f_tag_mov_container_mut_delta,RobulaPlusXPathTest,delta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1 (tried for 5 second(s) with 500 milliseconds interval)
 cast-name,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1 (tried for 5 second(s) with 500 milliseconds interval)
 cast-name,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,FAILED,Expected condition failed: waiting for visibility of element located by By.cssSelector: .detail-title (tried for 5 second(s) with 500 milliseconds interval)
 detail-synopsis,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+detail-synopsis,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-synopsis,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-synopsis,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-synopsis,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-synopsis,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-synopsis,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-synopsis,mutation_d_text_cont_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+detail-synopsis,mutation_d_text_cont_mod_mut_delta,HookXPathTest,delta,PASSED,null
 detail-synopsis,mutation_d_text_cont_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
 detail-synopsis,mutation_d_text_cont_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
 detail-synopsis,mutation_d_text_cont_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 detail-synopsis,mutation_d_text_cont_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
 detail-synopsis,mutation_d_text_cont_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
 detail-synopsis,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+detail-synopsis,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
 detail-synopsis,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 detail-synopsis,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 detail-synopsis,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 detail-synopsis,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 detail-synopsis,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
-detail-not-found,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/header[1]/div[2]/h1[1] (tried for 5 second(s) with 500 milliseconds interval)
-detail-not-found,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Q'])[1]/following::h1[1] (tried for 5 second(s) with 500 milliseconds interval)
-detail-not-found,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1[normalize-space()='Quiet Harbor'] (tried for 5 second(s) with 500 milliseconds interval)
-detail-not-found,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1 (tried for 5 second(s) with 500 milliseconds interval)
-detail-not-found,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1 (tried for 5 second(s) with 500 milliseconds interval)
-detail-not-found,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.cssSelector: .detail-title (tried for 5 second(s) with 500 milliseconds interval)
+detail-not-found,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+detail-not-found,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+detail-not-found,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+detail-not-found,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+detail-not-found,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+detail-not-found,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+detail-not-found,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-favorite,mutation_a_attr_val_mod_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+detail-favorite,mutation_a_attr_val_mod_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-favorite,mutation_a_attr_val_mod_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-favorite,mutation_a_attr_val_mod_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-favorite,mutation_a_attr_val_mod_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-favorite,mutation_a_attr_val_mod_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-favorite,mutation_a_attr_val_mod_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-meta,mutation_g_tag_mov_html_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+detail-meta,mutation_g_tag_mov_html_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-meta,mutation_g_tag_mov_html_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-meta,mutation_g_tag_mov_html_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-meta,mutation_g_tag_mov_html_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-meta,mutation_g_tag_mov_html_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-meta,mutation_g_tag_mov_html_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 cast-role,mutation_d_text_cont_mod_mut_alpha,AbsoluteXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/header[1]/div[2]/h1[1] (tried for 5 second(s) with 500 milliseconds interval)
+cast-role,mutation_d_text_cont_mod_mut_alpha,HookXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x-test-detail-title] (tried for 5 second(s) with 500 milliseconds interval)
 cast-role,mutation_d_text_cont_mod_mut_alpha,KatalonXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Q'])[1]/following::h1[1] (tried for 5 second(s) with 500 milliseconds interval)
 cast-role,mutation_d_text_cont_mod_mut_alpha,RelativeXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1[normalize-space()='Quiet Harbor'] (tried for 5 second(s) with 500 milliseconds interval)
 cast-role,mutation_d_text_cont_mod_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1 (tried for 5 second(s) with 500 milliseconds interval)
 cast-role,mutation_d_text_cont_mod_mut_alpha,RobulaXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1 (tried for 5 second(s) with 500 milliseconds interval)
 cast-role,mutation_d_text_cont_mod_mut_alpha,SeleniumXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.cssSelector: .detail-title (tried for 5 second(s) with 500 milliseconds interval)
 detail-synopsis,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+detail-synopsis,mutation_k_tag_ins_mut_delta,HookXPathTest,delta,PASSED,null
 detail-synopsis,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,PASSED,null
 detail-synopsis,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,PASSED,null
 detail-synopsis,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 detail-synopsis,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,PASSED,null
 detail-synopsis,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,PASSED,null
 cast-name,mutation_d_text_cont_mod_mut_alpha,AbsoluteXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/header[1]/div[2]/h1[1] (tried for 5 second(s) with 500 milliseconds interval)
+cast-name,mutation_d_text_cont_mod_mut_alpha,HookXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x-test-detail-title] (tried for 5 second(s) with 500 milliseconds interval)
 cast-name,mutation_d_text_cont_mod_mut_alpha,KatalonXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Q'])[1]/following::h1[1] (tried for 5 second(s) with 500 milliseconds interval)
 cast-name,mutation_d_text_cont_mod_mut_alpha,RelativeXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1[normalize-space()='Quiet Harbor'] (tried for 5 second(s) with 500 milliseconds interval)
 cast-name,mutation_d_text_cont_mod_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1 (tried for 5 second(s) with 500 milliseconds interval)
 cast-name,mutation_d_text_cont_mod_mut_alpha,RobulaXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1 (tried for 5 second(s) with 500 milliseconds interval)
 cast-name,mutation_d_text_cont_mod_mut_alpha,SeleniumXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.cssSelector: .detail-title (tried for 5 second(s) with 500 milliseconds interval)
 detail-title,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+detail-title,mutation_f_tag_mov_container_mut_delta,HookXPathTest,delta,PASSED,null
 detail-title,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,PASSED,null
 detail-title,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,PASSED,null
 detail-title,mutation_f_tag_mov_container_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 detail-title,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,PASSED,null
 detail-title,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,PASSED,null
 cast-role,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/header[1]/div[2]/h1[1] (tried for 5 second(s) with 500 milliseconds interval)
+cast-role,mutation_j_tag_type_mod_mut_delta,HookXPathTest,delta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x-test-detail-title] (tried for 5 second(s) with 500 milliseconds interval)
 cast-role,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Q'])[1]/following::h1[1] (tried for 5 second(s) with 500 milliseconds interval)
 cast-role,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1[normalize-space()='Quiet Harbor'] (tried for 5 second(s) with 500 milliseconds interval)
 cast-role,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1 (tried for 5 second(s) with 500 milliseconds interval)
 cast-role,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1 (tried for 5 second(s) with 500 milliseconds interval)
 cast-role,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,FAILED,Expected condition failed: waiting for visibility of element located by By.cssSelector: .detail-title (tried for 5 second(s) with 500 milliseconds interval)
 detail-delete-button,mutation_f_tag_mov_container_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/header[1]/div[2]/h1[1] (tried for 5 second(s) with 500 milliseconds interval)
+detail-delete-button,mutation_f_tag_mov_container_mut_gamma,HookXPathTest,gamma,PASSED,null
 detail-delete-button,mutation_f_tag_mov_container_mut_gamma,KatalonXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Q'])[1]/following::h1[1] (tried for 5 second(s) with 500 milliseconds interval)
 detail-delete-button,mutation_f_tag_mov_container_mut_gamma,RelativeXPathTest,gamma,PASSED,null
 detail-delete-button,mutation_f_tag_mov_container_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
 detail-delete-button,mutation_f_tag_mov_container_mut_gamma,RobulaXPathTest,gamma,PASSED,null
 detail-delete-button,mutation_f_tag_mov_container_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
 detail-meta,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+detail-meta,mutation_f_tag_mov_container_mut_delta,HookXPathTest,delta,PASSED,null
 detail-meta,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,PASSED,null
 detail-meta,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,PASSED,null
 detail-meta,mutation_f_tag_mov_container_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 detail-meta,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,PASSED,null
 detail-meta,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,PASSED,null
 detail-synopsis,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/header[1]/div[2]/h1[1] (tried for 5 second(s) with 500 milliseconds interval)
+detail-synopsis,mutation_i_tag_rem_mut_gamma,HookXPathTest,gamma,PASSED,null
 detail-synopsis,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,PASSED,null
 detail-synopsis,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,FAILED,expected:<1> but was:<0>
 detail-synopsis,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
 detail-synopsis,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
 detail-synopsis,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
 detail-delete-button,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+detail-delete-button,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-delete-button,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-delete-button,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-delete-button,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-delete-button,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-delete-button,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-edit-button,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+detail-edit-button,mutation_k_tag_ins_mut_delta,HookXPathTest,delta,PASSED,null
 detail-edit-button,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,PASSED,null
 detail-edit-button,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,PASSED,null
 detail-edit-button,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 detail-edit-button,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,PASSED,null
 detail-edit-button,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,PASSED,null
 detail-edit-button,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/header[1]/div[2]/h1[1] (tried for 5 second(s) with 500 milliseconds interval)
+detail-edit-button,mutation_j_tag_type_mod_mut_gamma,HookXPathTest,gamma,PASSED,null
 detail-edit-button,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,PASSED,null
 detail-edit-button,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,PASSED,null
 detail-edit-button,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
 detail-edit-button,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
 detail-edit-button,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
 detail-meta,mutation_e_text_cont_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+detail-meta,mutation_e_text_cont_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
 detail-meta,mutation_e_text_cont_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 detail-meta,mutation_e_text_cont_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 detail-meta,mutation_e_text_cont_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 detail-meta,mutation_e_text_cont_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 detail-meta,mutation_e_text_cont_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 cast-name,mutation_d_text_cont_mod_mut_delta,AbsoluteXPathTest,delta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/header[1]/div[2]/h1[1] (tried for 5 second(s) with 500 milliseconds interval)
+cast-name,mutation_d_text_cont_mod_mut_delta,HookXPathTest,delta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x-test-detail-title] (tried for 5 second(s) with 500 milliseconds interval)
 cast-name,mutation_d_text_cont_mod_mut_delta,KatalonXPathTest,delta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Q'])[1]/following::h1[1] (tried for 5 second(s) with 500 milliseconds interval)
 cast-name,mutation_d_text_cont_mod_mut_delta,RelativeXPathTest,delta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1[normalize-space()='Quiet Harbor'] (tried for 5 second(s) with 500 milliseconds interval)
 cast-name,mutation_d_text_cont_mod_mut_delta,RobulaPlusXPathTest,delta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1 (tried for 5 second(s) with 500 milliseconds interval)
 cast-name,mutation_d_text_cont_mod_mut_delta,RobulaXPathTest,delta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1 (tried for 5 second(s) with 500 milliseconds interval)
 cast-name,mutation_d_text_cont_mod_mut_delta,SeleniumXPathTest,delta,FAILED,Expected condition failed: waiting for visibility of element located by By.cssSelector: .detail-title (tried for 5 second(s) with 500 milliseconds interval)
 detail-not-found,mutation_g_tag_mov_html_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+detail-not-found,mutation_g_tag_mov_html_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-not-found,mutation_g_tag_mov_html_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-not-found,mutation_g_tag_mov_html_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-not-found,mutation_g_tag_mov_html_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-not-found,mutation_g_tag_mov_html_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-not-found,mutation_g_tag_mov_html_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 cast-name,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/header[1]/div[2]/h1[1] (tried for 5 second(s) with 500 milliseconds interval)
+cast-name,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x-test-detail-title] (tried for 5 second(s) with 500 milliseconds interval)
 cast-name,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Q'])[1]/following::h1[1] (tried for 5 second(s) with 500 milliseconds interval)
 cast-name,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1[normalize-space()='Quiet Harbor'] (tried for 5 second(s) with 500 milliseconds interval)
 cast-name,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1 (tried for 5 second(s) with 500 milliseconds interval)
 cast-name,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1 (tried for 5 second(s) with 500 milliseconds interval)
 cast-name,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.cssSelector: .detail-title (tried for 5 second(s) with 500 milliseconds interval)
 detail-synopsis,mutation_g_tag_mov_html_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+detail-synopsis,mutation_g_tag_mov_html_mut_delta,HookXPathTest,delta,PASSED,null
 detail-synopsis,mutation_g_tag_mov_html_mut_delta,KatalonXPathTest,delta,PASSED,null
 detail-synopsis,mutation_g_tag_mov_html_mut_delta,RelativeXPathTest,delta,PASSED,null
 detail-synopsis,mutation_g_tag_mov_html_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 detail-synopsis,mutation_g_tag_mov_html_mut_delta,RobulaXPathTest,delta,PASSED,null
 detail-synopsis,mutation_g_tag_mov_html_mut_delta,SeleniumXPathTest,delta,PASSED,null
 detail-edit-button,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+detail-edit-button,mutation_j_tag_type_mod_mut_delta,HookXPathTest,delta,PASSED,null
 detail-edit-button,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
 detail-edit-button,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
 detail-edit-button,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 detail-edit-button,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
 detail-edit-button,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
 detail-not-found,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+detail-not-found,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,PASSED,null
 detail-not-found,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 detail-not-found,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 detail-not-found,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 detail-not-found,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 detail-not-found,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 detail-title,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/header[1]/div[2]/h1[1] (tried for 5 second(s) with 500 milliseconds interval)
+detail-title,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x-test-detail-title] (tried for 5 second(s) with 500 milliseconds interval)
 detail-title,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Q'])[1]/following::h1[1] (tried for 5 second(s) with 500 milliseconds interval)
 detail-title,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1[normalize-space()='Quiet Harbor'] (tried for 5 second(s) with 500 milliseconds interval)
 detail-title,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1 (tried for 5 second(s) with 500 milliseconds interval)
 detail-title,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1 (tried for 5 second(s) with 500 milliseconds interval)
 detail-title,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.cssSelector: .detail-title (tried for 5 second(s) with 500 milliseconds interval)
 cast-role,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/header[1]/div[2]/h1[1] (tried for 5 second(s) with 500 milliseconds interval)
+cast-role,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x-test-detail-title] (tried for 5 second(s) with 500 milliseconds interval)
 cast-role,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Q'])[1]/following::h1[1] (tried for 5 second(s) with 500 milliseconds interval)
 cast-role,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1[normalize-space()='Quiet Harbor'] (tried for 5 second(s) with 500 milliseconds interval)
 cast-role,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1 (tried for 5 second(s) with 500 milliseconds interval)
 cast-role,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1 (tried for 5 second(s) with 500 milliseconds interval)
 cast-role,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.cssSelector: .detail-title (tried for 5 second(s) with 500 milliseconds interval)
 detail-favorite,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+detail-favorite,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
 detail-favorite,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 detail-favorite,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 detail-favorite,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 detail-favorite,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 detail-favorite,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 detail-meta,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+detail-meta,mutation_h_tag_mov_temp_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-meta,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-meta,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-meta,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-meta,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-meta,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-synopsis,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+detail-synopsis,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-synopsis,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-synopsis,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-synopsis,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-synopsis,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-synopsis,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-edit-button,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+detail-edit-button,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,PASSED,null
 detail-edit-button,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
 detail-edit-button,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
 detail-edit-button,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 detail-edit-button,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
 detail-edit-button,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
 detail-favorite,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+detail-favorite,mutation_f_tag_mov_container_mut_delta,HookXPathTest,delta,PASSED,null
 detail-favorite,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,PASSED,null
 detail-favorite,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,PASSED,null
 detail-favorite,mutation_f_tag_mov_container_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 detail-favorite,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,PASSED,null
 detail-favorite,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,PASSED,null
 detail-delete-button,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/header[1]/div[2]/h1[1] (tried for 5 second(s) with 500 milliseconds interval)
+detail-delete-button,mutation_h_tag_mov_temp_mut_gamma,HookXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x-test-detail-title] (tried for 5 second(s) with 500 milliseconds interval)
 detail-delete-button,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Q'])[1]/following::h1[1] (tried for 5 second(s) with 500 milliseconds interval)
 detail-delete-button,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1[normalize-space()='Quiet Harbor'] (tried for 5 second(s) with 500 milliseconds interval)
 detail-delete-button,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1 (tried for 5 second(s) with 500 milliseconds interval)
 detail-delete-button,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1 (tried for 5 second(s) with 500 milliseconds interval)
 detail-delete-button,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.cssSelector: .detail-title (tried for 5 second(s) with 500 milliseconds interval)
 cast-role,mutation_d_text_cont_mod_mut_delta,AbsoluteXPathTest,delta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/header[1]/div[2]/h1[1] (tried for 5 second(s) with 500 milliseconds interval)
+cast-role,mutation_d_text_cont_mod_mut_delta,HookXPathTest,delta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x-test-detail-title] (tried for 5 second(s) with 500 milliseconds interval)
 cast-role,mutation_d_text_cont_mod_mut_delta,KatalonXPathTest,delta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Q'])[1]/following::h1[1] (tried for 5 second(s) with 500 milliseconds interval)
 cast-role,mutation_d_text_cont_mod_mut_delta,RelativeXPathTest,delta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1[normalize-space()='Quiet Harbor'] (tried for 5 second(s) with 500 milliseconds interval)
 cast-role,mutation_d_text_cont_mod_mut_delta,RobulaPlusXPathTest,delta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1 (tried for 5 second(s) with 500 milliseconds interval)
 cast-role,mutation_d_text_cont_mod_mut_delta,RobulaXPathTest,delta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1 (tried for 5 second(s) with 500 milliseconds interval)
 cast-role,mutation_d_text_cont_mod_mut_delta,SeleniumXPathTest,delta,FAILED,Expected condition failed: waiting for visibility of element located by By.cssSelector: .detail-title (tried for 5 second(s) with 500 milliseconds interval)
 detail-title,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+detail-title,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,PASSED,null
 detail-title,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 detail-title,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 detail-title,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 detail-title,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 detail-title,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 detail-delete-button,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+detail-delete-button,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-delete-button,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-delete-button,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-delete-button,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-delete-button,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-delete-button,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-synopsis,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,FAILED,expected:<1> but was:<0>
+detail-synopsis,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,PASSED,null
 detail-synopsis,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
 detail-synopsis,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,FAILED,expected:<1> but was:<0>
 detail-synopsis,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 detail-synopsis,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
 detail-synopsis,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,PASSED,null
 cast-role,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/header[1]/div[2]/h1[1] (tried for 5 second(s) with 500 milliseconds interval)
+cast-role,mutation_f_tag_mov_container_mut_delta,HookXPathTest,delta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x-test-detail-title] (tried for 5 second(s) with 500 milliseconds interval)
 cast-role,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Q'])[1]/following::h1[1] (tried for 5 second(s) with 500 milliseconds interval)
 cast-role,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1[normalize-space()='Quiet Harbor'] (tried for 5 second(s) with 500 milliseconds interval)
 cast-role,mutation_f_tag_mov_container_mut_delta,RobulaPlusXPathTest,delta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1 (tried for 5 second(s) with 500 milliseconds interval)
 cast-role,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1 (tried for 5 second(s) with 500 milliseconds interval)
 cast-role,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,FAILED,Expected condition failed: waiting for visibility of element located by By.cssSelector: .detail-title (tried for 5 second(s) with 500 milliseconds interval)
 detail-meta,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+detail-meta,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-meta,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-meta,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-meta,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-meta,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-meta,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-not-found,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+detail-not-found,mutation_j_tag_type_mod_mut_delta,HookXPathTest,delta,PASSED,null
 detail-not-found,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
 detail-not-found,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
 detail-not-found,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 detail-not-found,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
 detail-not-found,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
 detail-favorite,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+detail-favorite,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-favorite,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-favorite,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-favorite,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-favorite,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-favorite,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-edit-button,mutation_e_text_cont_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+detail-edit-button,mutation_e_text_cont_rem_mut_delta,HookXPathTest,delta,PASSED,null
 detail-edit-button,mutation_e_text_cont_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
 detail-edit-button,mutation_e_text_cont_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
 detail-edit-button,mutation_e_text_cont_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 detail-edit-button,mutation_e_text_cont_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
 detail-edit-button,mutation_e_text_cont_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
 cast-row,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+cast-row,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 cast-row,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 cast-row,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 cast-row,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 cast-row,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 cast-row,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-synopsis,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/header[1]/div[2]/h1[1] (tried for 5 second(s) with 500 milliseconds interval)
+detail-synopsis,mutation_h_tag_mov_temp_mut_gamma,HookXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x-test-detail-title] (tried for 5 second(s) with 500 milliseconds interval)
 detail-synopsis,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Q'])[1]/following::h1[1] (tried for 5 second(s) with 500 milliseconds interval)
 detail-synopsis,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1[normalize-space()='Quiet Harbor'] (tried for 5 second(s) with 500 milliseconds interval)
 detail-synopsis,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1 (tried for 5 second(s) with 500 milliseconds interval)
 detail-synopsis,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1 (tried for 5 second(s) with 500 milliseconds interval)
 detail-synopsis,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.cssSelector: .detail-title (tried for 5 second(s) with 500 milliseconds interval)
 detail-delete-button,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+detail-delete-button,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,PASSED,null
 detail-delete-button,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 detail-delete-button,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 detail-delete-button,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 detail-delete-button,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 detail-delete-button,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 detail-title,mutation_d_text_cont_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+detail-title,mutation_d_text_cont_mod_mut_delta,HookXPathTest,delta,PASSED,null
 detail-title,mutation_d_text_cont_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
 detail-title,mutation_d_text_cont_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
 detail-title,mutation_d_text_cont_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 detail-title,mutation_d_text_cont_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
 detail-title,mutation_d_text_cont_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
 detail-synopsis,mutation_f_tag_mov_container_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+detail-synopsis,mutation_f_tag_mov_container_mut_beta,HookXPathTest,beta,PASSED,null
 detail-synopsis,mutation_f_tag_mov_container_mut_beta,KatalonXPathTest,beta,PASSED,null
 detail-synopsis,mutation_f_tag_mov_container_mut_beta,RelativeXPathTest,beta,PASSED,null
 detail-synopsis,mutation_f_tag_mov_container_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 detail-synopsis,mutation_f_tag_mov_container_mut_beta,RobulaXPathTest,beta,PASSED,null
 detail-synopsis,mutation_f_tag_mov_container_mut_beta,SeleniumXPathTest,beta,PASSED,null
 detail-delete-button,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+detail-delete-button,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
 detail-delete-button,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 detail-delete-button,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 detail-delete-button,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 detail-delete-button,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 detail-delete-button,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 detail-meta,mutation_g_tag_mov_html_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+detail-meta,mutation_g_tag_mov_html_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 detail-meta,mutation_g_tag_mov_html_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 detail-meta,mutation_g_tag_mov_html_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 detail-meta,mutation_g_tag_mov_html_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 detail-meta,mutation_g_tag_mov_html_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 detail-meta,mutation_g_tag_mov_html_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 detail-edit-button,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+detail-edit-button,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,PASSED,null
 detail-edit-button,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,PASSED,null
 detail-edit-button,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,PASSED,null
 detail-edit-button,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 detail-edit-button,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,PASSED,null
 detail-edit-button,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,PASSED,null
 detail-title,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+detail-title,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-title,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-title,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-title,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-title,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-title,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 cast-name,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/header[1]/div[2]/h1[1] (tried for 5 second(s) with 500 milliseconds interval)
+cast-name,mutation_k_tag_ins_mut_delta,HookXPathTest,delta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x-test-detail-title] (tried for 5 second(s) with 500 milliseconds interval)
 cast-name,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Q'])[1]/following::h1[1] (tried for 5 second(s) with 500 milliseconds interval)
 cast-name,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1[normalize-space()='Quiet Harbor'] (tried for 5 second(s) with 500 milliseconds interval)
 cast-name,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1 (tried for 5 second(s) with 500 milliseconds interval)
 cast-name,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1 (tried for 5 second(s) with 500 milliseconds interval)
 cast-name,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,FAILED,Expected condition failed: waiting for visibility of element located by By.cssSelector: .detail-title (tried for 5 second(s) with 500 milliseconds interval)
 detail-favorite,mutation_e_text_cont_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+detail-favorite,mutation_e_text_cont_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
 detail-favorite,mutation_e_text_cont_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 detail-favorite,mutation_e_text_cont_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 detail-favorite,mutation_e_text_cont_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 detail-favorite,mutation_e_text_cont_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 detail-favorite,mutation_e_text_cont_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 detail-edit-button,mutation_g_tag_mov_html_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+detail-edit-button,mutation_g_tag_mov_html_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-edit-button,mutation_g_tag_mov_html_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-edit-button,mutation_g_tag_mov_html_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-edit-button,mutation_g_tag_mov_html_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-edit-button,mutation_g_tag_mov_html_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-edit-button,mutation_g_tag_mov_html_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-meta,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+detail-meta,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-meta,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-meta,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-meta,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-meta,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-meta,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-not-found,mutation_e_text_cont_rem_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+detail-not-found,mutation_e_text_cont_rem_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-not-found,mutation_e_text_cont_rem_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-not-found,mutation_e_text_cont_rem_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-not-found,mutation_e_text_cont_rem_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-not-found,mutation_e_text_cont_rem_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-not-found,mutation_e_text_cont_rem_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-edit-button,mutation_e_text_cont_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+detail-edit-button,mutation_e_text_cont_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
 detail-edit-button,mutation_e_text_cont_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 detail-edit-button,mutation_e_text_cont_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 detail-edit-button,mutation_e_text_cont_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 detail-edit-button,mutation_e_text_cont_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 detail-edit-button,mutation_e_text_cont_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 detail-synopsis,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+detail-synopsis,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,PASSED,null
 detail-synopsis,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
 detail-synopsis,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
 detail-synopsis,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 detail-synopsis,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
 detail-synopsis,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
 detail-meta,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+detail-meta,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,PASSED,null
 detail-meta,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
 detail-meta,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
 detail-meta,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 detail-meta,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
 detail-meta,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
 detail-favorite,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+detail-favorite,mutation_h_tag_mov_temp_mut_delta,HookXPathTest,delta,PASSED,null
 detail-favorite,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,PASSED,null
 detail-favorite,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,PASSED,null
 detail-favorite,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 detail-favorite,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,PASSED,null
 detail-favorite,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,PASSED,null
 detail-edit-button,mutation_b_attr_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+detail-edit-button,mutation_b_attr_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
 detail-edit-button,mutation_b_attr_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 detail-edit-button,mutation_b_attr_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 detail-edit-button,mutation_b_attr_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 detail-edit-button,mutation_b_attr_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 detail-edit-button,mutation_b_attr_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 cast-row,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+cast-row,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 cast-row,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 cast-row,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 cast-row,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 cast-row,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 cast-row,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-delete-button,mutation_e_text_cont_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+detail-delete-button,mutation_e_text_cont_rem_mut_delta,HookXPathTest,delta,PASSED,null
 detail-delete-button,mutation_e_text_cont_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
 detail-delete-button,mutation_e_text_cont_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
 detail-delete-button,mutation_e_text_cont_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 detail-delete-button,mutation_e_text_cont_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
 detail-delete-button,mutation_e_text_cont_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
 cast-role,mutation_f_tag_mov_container_mut_alpha,AbsoluteXPathTest,alpha,FAILED,expected:<S[am Whitfield]> but was:<S[]>
+cast-role,mutation_f_tag_mov_container_mut_alpha,HookXPathTest,alpha,PASSED,null
 cast-role,mutation_f_tag_mov_container_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<[Sam Whitfield]> but was:<[Nora Hale]>
 cast-role,mutation_f_tag_mov_container_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 cast-role,mutation_f_tag_mov_container_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 cast-role,mutation_f_tag_mov_container_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 cast-role,mutation_f_tag_mov_container_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 detail-favorite,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+detail-favorite,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-favorite,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-favorite,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-favorite,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-favorite,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-favorite,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-delete-button,mutation_g_tag_mov_html_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/header[1]/div[2]/h1[1] (tried for 5 second(s) with 500 milliseconds interval)
+detail-delete-button,mutation_g_tag_mov_html_mut_gamma,HookXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x-test-detail-title] (tried for 5 second(s) with 500 milliseconds interval)
 detail-delete-button,mutation_g_tag_mov_html_mut_gamma,KatalonXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Q'])[1]/following::h1[1] (tried for 5 second(s) with 500 milliseconds interval)
 detail-delete-button,mutation_g_tag_mov_html_mut_gamma,RelativeXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1[normalize-space()='Quiet Harbor'] (tried for 5 second(s) with 500 milliseconds interval)
 detail-delete-button,mutation_g_tag_mov_html_mut_gamma,RobulaPlusXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1 (tried for 5 second(s) with 500 milliseconds interval)
 detail-delete-button,mutation_g_tag_mov_html_mut_gamma,RobulaXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1 (tried for 5 second(s) with 500 milliseconds interval)
 detail-delete-button,mutation_g_tag_mov_html_mut_gamma,SeleniumXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.cssSelector: .detail-title (tried for 5 second(s) with 500 milliseconds interval)
 detail-favorite,mutation_d_text_cont_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+detail-favorite,mutation_d_text_cont_mod_mut_delta,HookXPathTest,delta,PASSED,null
 detail-favorite,mutation_d_text_cont_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
 detail-favorite,mutation_d_text_cont_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
 detail-favorite,mutation_d_text_cont_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 detail-favorite,mutation_d_text_cont_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
 detail-favorite,mutation_d_text_cont_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
 detail-favorite,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+detail-favorite,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,PASSED,null
 detail-favorite,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
 detail-favorite,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
 detail-favorite,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 detail-favorite,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
 detail-favorite,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
 detail-meta,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+detail-meta,mutation_i_tag_rem_mut_delta,HookXPathTest,delta,PASSED,null
 detail-meta,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
 detail-meta,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
 detail-meta,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 detail-meta,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
 detail-meta,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
 detail-synopsis,mutation_e_text_cont_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+detail-synopsis,mutation_e_text_cont_rem_mut_delta,HookXPathTest,delta,PASSED,null
 detail-synopsis,mutation_e_text_cont_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
 detail-synopsis,mutation_e_text_cont_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
 detail-synopsis,mutation_e_text_cont_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 detail-synopsis,mutation_e_text_cont_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
 detail-synopsis,mutation_e_text_cont_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
 detail-edit-button,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+detail-edit-button,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,PASSED,null
 detail-edit-button,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 detail-edit-button,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 detail-edit-button,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 detail-edit-button,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 detail-edit-button,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 detail-favorite,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/header[1]/div[2]/h1[1] (tried for 5 second(s) with 500 milliseconds interval)
+detail-favorite,mutation_h_tag_mov_temp_mut_gamma,HookXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x-test-detail-title] (tried for 5 second(s) with 500 milliseconds interval)
 detail-favorite,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Q'])[1]/following::h1[1] (tried for 5 second(s) with 500 milliseconds interval)
 detail-favorite,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1[normalize-space()='Quiet Harbor'] (tried for 5 second(s) with 500 milliseconds interval)
 detail-favorite,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1 (tried for 5 second(s) with 500 milliseconds interval)
 detail-favorite,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1 (tried for 5 second(s) with 500 milliseconds interval)
 detail-favorite,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.cssSelector: .detail-title (tried for 5 second(s) with 500 milliseconds interval)
 detail-meta,mutation_d_text_cont_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+detail-meta,mutation_d_text_cont_mod_mut_delta,HookXPathTest,delta,PASSED,null
 detail-meta,mutation_d_text_cont_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
 detail-meta,mutation_d_text_cont_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
 detail-meta,mutation_d_text_cont_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 detail-meta,mutation_d_text_cont_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
 detail-meta,mutation_d_text_cont_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
 detail-not-found,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+detail-not-found,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,PASSED,null
 detail-not-found,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 detail-not-found,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 detail-not-found,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 detail-not-found,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 detail-not-found,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 detail-delete-button,mutation_a_attr_val_mod_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+detail-delete-button,mutation_a_attr_val_mod_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-delete-button,mutation_a_attr_val_mod_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-delete-button,mutation_a_attr_val_mod_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-delete-button,mutation_a_attr_val_mod_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-delete-button,mutation_a_attr_val_mod_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-delete-button,mutation_a_attr_val_mod_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-delete-button,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+detail-delete-button,mutation_h_tag_mov_temp_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-delete-button,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-delete-button,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-delete-button,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-delete-button,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-delete-button,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-title,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+detail-title,mutation_h_tag_mov_temp_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 detail-title,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 detail-title,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 detail-title,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 detail-title,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 detail-title,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 cast-role,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+cast-role,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,PASSED,null
 cast-role,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
 cast-role,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
 cast-role,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 cast-role,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,FAILED,expected:<1> but was:<2>
 cast-role,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
 detail-title,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/header[1]/div[2]/h1[1] (tried for 5 second(s) with 500 milliseconds interval)
+detail-title,mutation_i_tag_rem_mut_gamma,HookXPathTest,gamma,PASSED,null
 detail-title,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,PASSED,null
 detail-title,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,PASSED,null
 detail-title,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
 detail-title,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
 detail-title,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
 cast-role,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+cast-role,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,PASSED,null
 cast-role,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<1> but was:<0>
 cast-role,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 cast-role,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 cast-role,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 cast-role,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 cast-role,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,FAILED,expected:<1> but was:<0>
+cast-role,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,FAILED,expected:<1> but was:<0>
 cast-role,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,FAILED,expected:<1> but was:<0>
 cast-role,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,FAILED,expected:<1> but was:<0>
 cast-role,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,FAILED,expected:<1> but was:<0>
 cast-role,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,FAILED,expected:<1> but was:<0>
 cast-role,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,FAILED,expected:<1> but was:<0>
 detail-title,mutation_d_text_cont_mod_mut_alpha,AbsoluteXPathTest,alpha,FAILED,expected:<[]Quiet Harbor> but was:<[[The following text has been mutated] ]Quiet Harbor>
+detail-title,mutation_d_text_cont_mod_mut_alpha,HookXPathTest,alpha,FAILED,expected:<[]Quiet Harbor> but was:<[[The following text has been mutated] ]Quiet Harbor>
 detail-title,mutation_d_text_cont_mod_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<[]Quiet Harbor> but was:<[[The following text has been mutated] ]Quiet Harbor>
 detail-title,mutation_d_text_cont_mod_mut_alpha,RelativeXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1[normalize-space()='Quiet Harbor'] (tried for 5 second(s) with 500 milliseconds interval)
 detail-title,mutation_d_text_cont_mod_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,expected:<[]Quiet Harbor> but was:<[[The following text has been mutated] ]Quiet Harbor>
 detail-title,mutation_d_text_cont_mod_mut_alpha,RobulaXPathTest,alpha,FAILED,expected:<[]Quiet Harbor> but was:<[[The following text has been mutated] ]Quiet Harbor>
 detail-title,mutation_d_text_cont_mod_mut_alpha,SeleniumXPathTest,alpha,FAILED,expected:<[]Quiet Harbor> but was:<[[The following text has been mutated] ]Quiet Harbor>
 detail-title,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/header[1]/div[2]/h1[1] (tried for 5 second(s) with 500 milliseconds interval)
+detail-title,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
 detail-title,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Q'])[1]/following::h1[1] (tried for 5 second(s) with 500 milliseconds interval)
 detail-title,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1[normalize-space()='Quiet Harbor'] (tried for 5 second(s) with 500 milliseconds interval)
 detail-title,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1 (tried for 5 second(s) with 500 milliseconds interval)
 detail-title,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1 (tried for 5 second(s) with 500 milliseconds interval)
 detail-title,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 detail-delete-button,mutation_g_tag_mov_html_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+detail-delete-button,mutation_g_tag_mov_html_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-delete-button,mutation_g_tag_mov_html_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-delete-button,mutation_g_tag_mov_html_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-delete-button,mutation_g_tag_mov_html_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-delete-button,mutation_g_tag_mov_html_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-delete-button,mutation_g_tag_mov_html_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-meta,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/header[1]/div[2]/h1[1] (tried for 5 second(s) with 500 milliseconds interval)
+detail-meta,mutation_j_tag_type_mod_mut_gamma,HookXPathTest,gamma,PASSED,null
 detail-meta,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,PASSED,null
 detail-meta,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,PASSED,null
 detail-meta,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
 detail-meta,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
 detail-meta,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
 detail-delete-button,mutation_e_text_cont_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+detail-delete-button,mutation_e_text_cont_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
 detail-delete-button,mutation_e_text_cont_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 detail-delete-button,mutation_e_text_cont_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 detail-delete-button,mutation_e_text_cont_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 detail-delete-button,mutation_e_text_cont_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 detail-delete-button,mutation_e_text_cont_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 cast-name,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,FAILED,expected:<1> but was:<0>
+cast-name,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,PASSED,null
 cast-name,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,FAILED,expected:<S[am Whitfield]> but was:<S[]>
 cast-name,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,FAILED,expected:<1> but was:<0>
 cast-name,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 cast-name,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
 cast-name,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
 detail-meta,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/header[1]/div[2]/h1[1] (tried for 5 second(s) with 500 milliseconds interval)
+detail-meta,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,PASSED,null
 detail-meta,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
 detail-meta,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
 detail-meta,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 detail-meta,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
 detail-meta,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
 detail-edit-button,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+detail-edit-button,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
 detail-edit-button,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 detail-edit-button,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 detail-edit-button,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 detail-edit-button,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 detail-edit-button,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 detail-delete-button,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+detail-delete-button,mutation_i_tag_rem_mut_delta,HookXPathTest,delta,PASSED,null
 detail-delete-button,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
 detail-delete-button,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
 detail-delete-button,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 detail-delete-button,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
 detail-delete-button,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
 cast-name,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+cast-name,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 cast-name,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 cast-name,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 cast-name,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 cast-name,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 cast-name,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-title,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+detail-title,mutation_j_tag_type_mod_mut_delta,HookXPathTest,delta,PASSED,null
 detail-title,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
 detail-title,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
 detail-title,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 detail-title,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
 detail-title,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
 cast-role,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+cast-role,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 cast-role,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 cast-role,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 cast-role,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 cast-role,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 cast-role,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-favorite,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/header[1]/div[2]/h1[1] (tried for 5 second(s) with 500 milliseconds interval)
+detail-favorite,mutation_j_tag_type_mod_mut_gamma,HookXPathTest,gamma,PASSED,null
 detail-favorite,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,PASSED,null
 detail-favorite,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,PASSED,null
 detail-favorite,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
 detail-favorite,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
 detail-favorite,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
 detail-title,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+detail-title,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-title,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-title,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-title,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-title,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-title,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 cast-name,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,FAILED,expected:<[Sam Whitfield]> but was:<[Joel]>
+cast-name,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
 cast-name,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<[Sam Whitfield]> but was:<[Joel]>
 cast-name,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//span[normalize-space()='Sam Whitfield']"}
 cast-name,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 cast-name,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//app-cast-row[2]/*/span[@class='cast-name']"}
 cast-name,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 detail-favorite,mutation_b_attr_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+detail-favorite,mutation_b_attr_rem_mut_delta,HookXPathTest,delta,PASSED,null
 detail-favorite,mutation_b_attr_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
 detail-favorite,mutation_b_attr_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
 detail-favorite,mutation_b_attr_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 detail-favorite,mutation_b_attr_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
 detail-favorite,mutation_b_attr_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
 detail-edit-button,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+detail-edit-button,mutation_h_tag_mov_temp_mut_delta,HookXPathTest,delta,PASSED,null
 detail-edit-button,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Q'])[1]/following::h1[1] (tried for 5 second(s) with 500 milliseconds interval)
 detail-edit-button,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,PASSED,null
 detail-edit-button,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 detail-edit-button,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,PASSED,null
 detail-edit-button,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,PASSED,null
 detail-meta,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+detail-meta,mutation_k_tag_ins_mut_gamma,HookXPathTest,gamma,PASSED,null
 detail-meta,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,PASSED,null
 detail-meta,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,PASSED,null
 detail-meta,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
 detail-meta,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,PASSED,null
 detail-meta,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
 detail-meta,mutation_d_text_cont_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+detail-meta,mutation_d_text_cont_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
 detail-meta,mutation_d_text_cont_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 detail-meta,mutation_d_text_cont_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 detail-meta,mutation_d_text_cont_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 detail-meta,mutation_d_text_cont_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 detail-meta,mutation_d_text_cont_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 detail-title,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/header[1]/div[2]/h1[1] (tried for 5 second(s) with 500 milliseconds interval)
+detail-title,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,PASSED,null
 detail-title,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
 detail-title,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
 detail-title,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 detail-title,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
 detail-title,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
 detail-edit-button,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+detail-edit-button,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,PASSED,null
 detail-edit-button,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 detail-edit-button,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 detail-edit-button,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 detail-edit-button,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 detail-edit-button,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 cast-role,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,FAILED,expected:<1> but was:<0>
+cast-role,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,FAILED,expected:<1> but was:<0>
 cast-role,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
 cast-role,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,FAILED,expected:<1> but was:<0>
 cast-role,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,FAILED,expected:<1> but was:<0>
 cast-role,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,FAILED,expected:<1> but was:<3>
 cast-role,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,FAILED,expected:<1> but was:<0>
 detail-title,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/header[1]/div[2]/h1[1] (tried for 5 second(s) with 500 milliseconds interval)
+detail-title,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,PASSED,null
 detail-title,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
 detail-title,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
 detail-title,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 detail-title,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
 detail-title,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,PASSED,null
 detail-favorite,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+detail-favorite,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,PASSED,null
 detail-favorite,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
 detail-favorite,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
 detail-favorite,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 detail-favorite,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
 detail-favorite,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
 detail-favorite,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/header[1]/div[2]/h1[1] (tried for 5 second(s) with 500 milliseconds interval)
+detail-favorite,mutation_i_tag_rem_mut_gamma,HookXPathTest,gamma,PASSED,null
 detail-favorite,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,PASSED,null
 detail-favorite,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,PASSED,null
 detail-favorite,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
 detail-favorite,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
 detail-favorite,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
 cast-name,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+cast-name,mutation_i_tag_rem_mut_delta,HookXPathTest,delta,PASSED,null
 cast-name,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,FAILED,expected:<1> but was:<0>
 cast-name,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
 cast-name,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 cast-name,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
 cast-name,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
 detail-favorite,mutation_f_tag_mov_container_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+detail-favorite,mutation_f_tag_mov_container_mut_beta,HookXPathTest,beta,PASSED,null
 detail-favorite,mutation_f_tag_mov_container_mut_beta,KatalonXPathTest,beta,PASSED,null
 detail-favorite,mutation_f_tag_mov_container_mut_beta,RelativeXPathTest,beta,PASSED,null
 detail-favorite,mutation_f_tag_mov_container_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 detail-favorite,mutation_f_tag_mov_container_mut_beta,RobulaXPathTest,beta,PASSED,null
 detail-favorite,mutation_f_tag_mov_container_mut_beta,SeleniumXPathTest,beta,PASSED,null
 detail-edit-button,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/header[1]/div[2]/h1[1] (tried for 5 second(s) with 500 milliseconds interval)
+detail-edit-button,mutation_i_tag_rem_mut_gamma,HookXPathTest,gamma,PASSED,null
 detail-edit-button,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,PASSED,null
 detail-edit-button,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,PASSED,null
 detail-edit-button,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
 detail-edit-button,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
 detail-edit-button,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
 detail-not-found,mutation_d_text_cont_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+detail-not-found,mutation_d_text_cont_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
 detail-not-found,mutation_d_text_cont_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 detail-not-found,mutation_d_text_cont_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 detail-not-found,mutation_d_text_cont_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 detail-not-found,mutation_d_text_cont_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 detail-not-found,mutation_d_text_cont_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 detail-delete-button,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+detail-delete-button,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,PASSED,null
 detail-delete-button,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,PASSED,null
 detail-delete-button,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,PASSED,null
 detail-delete-button,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 detail-delete-button,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,PASSED,null
 detail-delete-button,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,PASSED,null
 detail-favorite,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+detail-favorite,mutation_j_tag_type_mod_mut_delta,HookXPathTest,delta,PASSED,null
 detail-favorite,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
 detail-favorite,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
 detail-favorite,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 detail-favorite,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
 detail-favorite,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
 cast-row,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+cast-row,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 cast-row,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 cast-row,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 cast-row,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 cast-row,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 cast-row,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 cast-role,mutation_e_text_cont_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+cast-role,mutation_e_text_cont_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
 cast-role,mutation_e_text_cont_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<1> but was:<0>
 cast-role,mutation_e_text_cont_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 cast-role,mutation_e_text_cont_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 cast-role,mutation_e_text_cont_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 cast-role,mutation_e_text_cont_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 detail-meta,mutation_f_tag_mov_container_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+detail-meta,mutation_f_tag_mov_container_mut_alpha,HookXPathTest,alpha,PASSED,null
 detail-meta,mutation_f_tag_mov_container_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 detail-meta,mutation_f_tag_mov_container_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 detail-meta,mutation_f_tag_mov_container_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 detail-meta,mutation_f_tag_mov_container_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 detail-meta,mutation_f_tag_mov_container_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 detail-favorite,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+detail-favorite,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
 detail-favorite,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 detail-favorite,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 detail-favorite,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 detail-favorite,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 detail-favorite,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 cast-row,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,FAILED,expected:<1> but was:<0>
+cast-row,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
 cast-row,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<S[am Whitfield]> but was:<S[]>
 cast-row,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,FAILED,expected:<1> but was:<0>
 cast-row,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 cast-row,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 cast-row,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 detail-delete-button,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+detail-delete-button,mutation_k_tag_ins_mut_delta,HookXPathTest,delta,PASSED,null
 detail-delete-button,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,PASSED,null
 detail-delete-button,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,PASSED,null
 detail-delete-button,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 detail-delete-button,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,PASSED,null
 detail-delete-button,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,PASSED,null
 detail-synopsis,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+detail-synopsis,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,PASSED,null
 detail-synopsis,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 detail-synopsis,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 detail-synopsis,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 detail-synopsis,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 detail-synopsis,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 detail-edit-button,mutation_b_attr_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+detail-edit-button,mutation_b_attr_rem_mut_delta,HookXPathTest,delta,PASSED,null
 detail-edit-button,mutation_b_attr_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
 detail-edit-button,mutation_b_attr_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
 detail-edit-button,mutation_b_attr_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 detail-edit-button,mutation_b_attr_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
 detail-edit-button,mutation_b_attr_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
 detail-delete-button,mutation_b_attr_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+detail-delete-button,mutation_b_attr_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
 detail-delete-button,mutation_b_attr_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 detail-delete-button,mutation_b_attr_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 detail-delete-button,mutation_b_attr_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 detail-delete-button,mutation_b_attr_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 detail-delete-button,mutation_b_attr_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 detail-delete-button,mutation_f_tag_mov_container_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+detail-delete-button,mutation_f_tag_mov_container_mut_beta,HookXPathTest,beta,PASSED,null
 detail-delete-button,mutation_f_tag_mov_container_mut_beta,KatalonXPathTest,beta,PASSED,null
 detail-delete-button,mutation_f_tag_mov_container_mut_beta,RelativeXPathTest,beta,PASSED,null
 detail-delete-button,mutation_f_tag_mov_container_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 detail-delete-button,mutation_f_tag_mov_container_mut_beta,RobulaXPathTest,beta,PASSED,null
 detail-delete-button,mutation_f_tag_mov_container_mut_beta,SeleniumXPathTest,beta,PASSED,null
 detail-meta,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+detail-meta,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
 detail-meta,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 detail-meta,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 detail-meta,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 detail-meta,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 detail-meta,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 detail-edit-button,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+detail-edit-button,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,PASSED,null
 detail-edit-button,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
 detail-edit-button,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
 detail-edit-button,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 detail-edit-button,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
 detail-edit-button,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,PASSED,null
 detail-delete-button,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+detail-delete-button,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,PASSED,null
 detail-delete-button,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
 detail-delete-button,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
 detail-delete-button,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 detail-delete-button,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
 detail-delete-button,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
 detail-favorite,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+detail-favorite,mutation_k_tag_ins_mut_delta,HookXPathTest,delta,PASSED,null
 detail-favorite,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,PASSED,null
 detail-favorite,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,PASSED,null
 detail-favorite,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 detail-favorite,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,PASSED,null
 detail-favorite,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,PASSED,null
 detail-synopsis,mutation_g_tag_mov_html_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/header[1]/div[2]/h1[1] (tried for 5 second(s) with 500 milliseconds interval)
+detail-synopsis,mutation_g_tag_mov_html_mut_gamma,HookXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x-test-detail-title] (tried for 5 second(s) with 500 milliseconds interval)
 detail-synopsis,mutation_g_tag_mov_html_mut_gamma,KatalonXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Q'])[1]/following::h1[1] (tried for 5 second(s) with 500 milliseconds interval)
 detail-synopsis,mutation_g_tag_mov_html_mut_gamma,RelativeXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1[normalize-space()='Quiet Harbor'] (tried for 5 second(s) with 500 milliseconds interval)
 detail-synopsis,mutation_g_tag_mov_html_mut_gamma,RobulaPlusXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1 (tried for 5 second(s) with 500 milliseconds interval)
 detail-synopsis,mutation_g_tag_mov_html_mut_gamma,RobulaXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1 (tried for 5 second(s) with 500 milliseconds interval)
 detail-synopsis,mutation_g_tag_mov_html_mut_gamma,SeleniumXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.cssSelector: .detail-title (tried for 5 second(s) with 500 milliseconds interval)
 detail-delete-button,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+detail-delete-button,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,PASSED,null
 detail-delete-button,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
 detail-delete-button,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
 detail-delete-button,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 detail-delete-button,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
 detail-delete-button,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,PASSED,null
 cast-name,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+cast-name,mutation_j_tag_type_mod_mut_delta,HookXPathTest,delta,PASSED,null
 cast-name,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
 cast-name,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
 cast-name,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 cast-name,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
 cast-name,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
 detail-synopsis,mutation_d_text_cont_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+detail-synopsis,mutation_d_text_cont_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
 detail-synopsis,mutation_d_text_cont_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 detail-synopsis,mutation_d_text_cont_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 detail-synopsis,mutation_d_text_cont_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 detail-synopsis,mutation_d_text_cont_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 detail-synopsis,mutation_d_text_cont_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 cast-name,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+cast-name,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,PASSED,null
 cast-name,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
 cast-name,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
 cast-name,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 cast-name,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,FAILED,expected:<1> but was:<2>
 cast-name,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
 detail-delete-button,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+detail-delete-button,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
 detail-delete-button,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 detail-delete-button,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 detail-delete-button,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 detail-delete-button,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 detail-delete-button,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 detail-synopsis,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+detail-synopsis,mutation_j_tag_type_mod_mut_delta,HookXPathTest,delta,PASSED,null
 detail-synopsis,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
 detail-synopsis,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
 detail-synopsis,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 detail-synopsis,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
 detail-synopsis,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
 detail-meta,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+detail-meta,mutation_k_tag_ins_mut_delta,HookXPathTest,delta,PASSED,null
 detail-meta,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,PASSED,null
 detail-meta,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,PASSED,null
 detail-meta,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 detail-meta,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,PASSED,null
 detail-meta,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,PASSED,null
 detail-synopsis,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+detail-synopsis,mutation_i_tag_rem_mut_delta,HookXPathTest,delta,PASSED,null
 detail-synopsis,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
 detail-synopsis,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
 detail-synopsis,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 detail-synopsis,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
 detail-synopsis,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
 detail-not-found,mutation_f_tag_mov_container_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+detail-not-found,mutation_f_tag_mov_container_mut_alpha,HookXPathTest,alpha,PASSED,null
 detail-not-found,mutation_f_tag_mov_container_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 detail-not-found,mutation_f_tag_mov_container_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 detail-not-found,mutation_f_tag_mov_container_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 detail-not-found,mutation_f_tag_mov_container_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 detail-not-found,mutation_f_tag_mov_container_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 detail-edit-button,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+detail-edit-button,mutation_i_tag_rem_mut_delta,HookXPathTest,delta,PASSED,null
 detail-edit-button,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
 detail-edit-button,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
 detail-edit-button,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 detail-edit-button,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
 detail-edit-button,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
 cast-role,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,FAILED,expected:<[Sam Whitfield]> but was:<[Joel]>
+cast-role,mutation_i_tag_rem_mut_delta,HookXPathTest,delta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(//*[@x-test-cast-name])[2]"}
 cast-role,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,FAILED,expected:<[Sam Whitfield]> but was:<[Joel]>
 cast-role,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//span[normalize-space()='Sam Whitfield']"}
 cast-role,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,FAILED,expected:<S[am Whitfield]> but was:<S[Sam WhitfieldJoel]>
 cast-role,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//app-cast-row[2]/*/span[@class='cast-name']"}
 cast-role,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":"app-cast-row:nth-child(2) .cast-name"}
 detail-title,mutation_g_tag_mov_html_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+detail-title,mutation_g_tag_mov_html_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 detail-title,mutation_g_tag_mov_html_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 detail-title,mutation_g_tag_mov_html_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 detail-title,mutation_g_tag_mov_html_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 detail-title,mutation_g_tag_mov_html_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 detail-title,mutation_g_tag_mov_html_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 detail-not-found,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+detail-not-found,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,PASSED,null
 detail-not-found,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 detail-not-found,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 detail-not-found,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 detail-not-found,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 detail-not-found,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 cast-name,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+cast-name,mutation_h_tag_mov_temp_mut_delta,HookXPathTest,delta,PASSED,null
 cast-name,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,FAILED,expected:<1> but was:<0>
 cast-name,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,PASSED,null
 cast-name,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 cast-name,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,PASSED,null
 cast-name,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,PASSED,null
 detail-synopsis,mutation_f_tag_mov_container_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+detail-synopsis,mutation_f_tag_mov_container_mut_alpha,HookXPathTest,alpha,PASSED,null
 detail-synopsis,mutation_f_tag_mov_container_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 detail-synopsis,mutation_f_tag_mov_container_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 detail-synopsis,mutation_f_tag_mov_container_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 detail-synopsis,mutation_f_tag_mov_container_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 detail-synopsis,mutation_f_tag_mov_container_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 cast-name,mutation_f_tag_mov_container_mut_alpha,AbsoluteXPathTest,alpha,FAILED,expected:<S[am Whitfield]> but was:<S[]>
+cast-name,mutation_f_tag_mov_container_mut_alpha,HookXPathTest,alpha,PASSED,null
 cast-name,mutation_f_tag_mov_container_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<S[am Whitfield]> but was:<S[]>
 cast-name,mutation_f_tag_mov_container_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 cast-name,mutation_f_tag_mov_container_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 cast-name,mutation_f_tag_mov_container_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 cast-name,mutation_f_tag_mov_container_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 cast-name,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+cast-name,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,FAILED,expected:<[Sam Whitfield]> but was:<[Nora Hale]>
 cast-name,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,FAILED,expected:<[Sam Whitfield]> but was:<[Nora Hale]>
 cast-name,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,PASSED,null
 cast-name,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,FAILED,expected:<1> but was:<2>
 cast-name,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,FAILED,expected:<1> but was:<2>
 cast-name,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,FAILED,expected:<1> but was:<2>
 detail-favorite,mutation_e_text_cont_rem_mut_delta,AbsoluteXPathTest,delta,FAILED,expected:<1> but was:<0>
+detail-favorite,mutation_e_text_cont_rem_mut_delta,HookXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-favorite,mutation_e_text_cont_rem_mut_delta,KatalonXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-favorite,mutation_e_text_cont_rem_mut_delta,RelativeXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-favorite,mutation_e_text_cont_rem_mut_delta,RobulaPlusXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-favorite,mutation_e_text_cont_rem_mut_delta,RobulaXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-favorite,mutation_e_text_cont_rem_mut_delta,SeleniumXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-synopsis,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+detail-synopsis,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-synopsis,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-synopsis,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-synopsis,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-synopsis,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-synopsis,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-edit-button,mutation_f_tag_mov_container_mut_beta,AbsoluteXPathTest,beta,FAILED,expected:<1> but was:<0>
+detail-edit-button,mutation_f_tag_mov_container_mut_beta,HookXPathTest,beta,FAILED,expected:<1> but was:<0>
 detail-edit-button,mutation_f_tag_mov_container_mut_beta,KatalonXPathTest,beta,FAILED,expected:<1> but was:<0>
 detail-edit-button,mutation_f_tag_mov_container_mut_beta,RelativeXPathTest,beta,FAILED,expected:<1> but was:<0>
 detail-edit-button,mutation_f_tag_mov_container_mut_beta,RobulaPlusXPathTest,beta,FAILED,expected:<1> but was:<0>
 detail-edit-button,mutation_f_tag_mov_container_mut_beta,RobulaXPathTest,beta,FAILED,expected:<1> but was:<0>
 detail-edit-button,mutation_f_tag_mov_container_mut_beta,SeleniumXPathTest,beta,FAILED,expected:<1> but was:<0>
 detail-delete-button,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+detail-delete-button,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,PASSED,null
 detail-delete-button,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 detail-delete-button,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 detail-delete-button,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 detail-delete-button,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 detail-delete-button,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 detail-delete-button,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,FAILED,expected:<1> but was:<0>
+detail-delete-button,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,FAILED,expected:<1> but was:<0>
 detail-delete-button,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,FAILED,expected:<1> but was:<0>
 detail-delete-button,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,FAILED,expected:<1> but was:<0>
 detail-delete-button,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,FAILED,expected:<1> but was:<0>
 detail-delete-button,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,FAILED,expected:<1> but was:<0>
 detail-delete-button,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,FAILED,expected:<1> but was:<0>
 detail-favorite,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,FAILED,expected:<1> but was:<0>
+detail-favorite,mutation_i_tag_rem_mut_delta,HookXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-favorite,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-favorite,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-favorite,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-favorite,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-favorite,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-not-found,mutation_d_text_cont_mod_mut_beta,AbsoluteXPathTest,beta,FAILED,expected:<1> but was:<0>
+detail-not-found,mutation_d_text_cont_mod_mut_beta,HookXPathTest,beta,FAILED,expected:<1> but was:<0>
 detail-not-found,mutation_d_text_cont_mod_mut_beta,KatalonXPathTest,beta,FAILED,expected:<1> but was:<0>
 detail-not-found,mutation_d_text_cont_mod_mut_beta,RelativeXPathTest,beta,FAILED,expected:<1> but was:<0>
 detail-not-found,mutation_d_text_cont_mod_mut_beta,RobulaPlusXPathTest,beta,FAILED,expected:<1> but was:<0>
 detail-not-found,mutation_d_text_cont_mod_mut_beta,RobulaXPathTest,beta,FAILED,expected:<1> but was:<0>
 detail-not-found,mutation_d_text_cont_mod_mut_beta,SeleniumXPathTest,beta,FAILED,expected:<1> but was:<0>
 detail-title,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+detail-title,mutation_h_tag_mov_temp_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-title,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-title,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-title,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-title,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-title,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 cast-role,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+cast-role,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
 cast-role,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 cast-role,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 cast-role,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 cast-role,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 cast-role,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 detail-delete-button,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,FAILED,expected:<1> but was:<0>
+detail-delete-button,mutation_j_tag_type_mod_mut_delta,HookXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-delete-button,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-delete-button,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-delete-button,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-delete-button,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-delete-button,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-title,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,FAILED,expected:<1> but was:<0>
+detail-title,mutation_k_tag_ins_mut_delta,HookXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-title,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-title,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-title,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-title,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-title,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-edit-button,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+detail-edit-button,mutation_h_tag_mov_temp_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 detail-edit-button,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 detail-edit-button,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 detail-edit-button,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 detail-edit-button,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 detail-edit-button,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 detail-not-found,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,FAILED,expected:<1> but was:<0>
+detail-not-found,mutation_k_tag_ins_mut_delta,HookXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-not-found,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-not-found,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-not-found,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-not-found,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-not-found,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-meta,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/header[1]/div[2]/h1[1] (tried for 5 second(s) with 500 milliseconds interval)
+detail-meta,mutation_i_tag_rem_mut_gamma,HookXPathTest,gamma,FAILED,expected:<1> but was:<0>
 detail-meta,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,FAILED,expected:<1> but was:<0>
 detail-meta,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,FAILED,expected:<1> but was:<0>
 detail-meta,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,FAILED,expected:<1> but was:<0>
 detail-meta,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,FAILED,expected:<1> but was:<0>
 detail-meta,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,FAILED,expected:<1> but was:<0>
 detail-favorite,mutation_b_attr_rem_mut_alpha,AbsoluteXPathTest,alpha,FAILED,expected:<1> but was:<0>
+detail-favorite,mutation_b_attr_rem_mut_alpha,HookXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-favorite,mutation_b_attr_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-favorite,mutation_b_attr_rem_mut_alpha,RelativeXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-favorite,mutation_b_attr_rem_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-favorite,mutation_b_attr_rem_mut_alpha,RobulaXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-favorite,mutation_b_attr_rem_mut_alpha,SeleniumXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-synopsis,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,FAILED,expected:<1> but was:<0>
+detail-synopsis,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,FAILED,expected:<1> but was:<0>
 detail-synopsis,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,FAILED,expected:<1> but was:<0>
 detail-synopsis,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,FAILED,expected:<1> but was:<0>
 detail-synopsis,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,FAILED,expected:<1> but was:<0>
 detail-synopsis,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,FAILED,expected:<1> but was:<0>
 detail-synopsis,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,FAILED,expected:<1> but was:<0>
 cast-role,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+cast-role,mutation_k_tag_ins_mut_delta,HookXPathTest,delta,PASSED,null
 cast-role,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,PASSED,null
 cast-role,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,PASSED,null
 cast-role,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 cast-role,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,PASSED,null
 cast-role,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,PASSED,null
 detail-synopsis,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,FAILED,expected:<1> but was:<0>
+detail-synopsis,mutation_h_tag_mov_temp_mut_delta,HookXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-synopsis,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-synopsis,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-synopsis,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-synopsis,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-synopsis,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-edit-button,mutation_f_tag_mov_container_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/header[1]/div[2]/h1[1] (tried for 5 second(s) with 500 milliseconds interval)
+detail-edit-button,mutation_f_tag_mov_container_mut_gamma,HookXPathTest,gamma,FAILED,expected:<1> but was:<0>
 detail-edit-button,mutation_f_tag_mov_container_mut_gamma,KatalonXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Q'])[1]/following::h1[1] (tried for 5 second(s) with 500 milliseconds interval)
 detail-edit-button,mutation_f_tag_mov_container_mut_gamma,RelativeXPathTest,gamma,FAILED,expected:<1> but was:<0>
 detail-edit-button,mutation_f_tag_mov_container_mut_gamma,RobulaPlusXPathTest,gamma,FAILED,expected:<1> but was:<0>
 detail-edit-button,mutation_f_tag_mov_container_mut_gamma,RobulaXPathTest,gamma,FAILED,expected:<1> but was:<0>
 detail-edit-button,mutation_f_tag_mov_container_mut_gamma,SeleniumXPathTest,gamma,FAILED,expected:<1> but was:<0>
 detail-meta,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,FAILED,expected:<1> but was:<0>
+detail-meta,mutation_j_tag_type_mod_mut_delta,HookXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-meta,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-meta,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-meta,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-meta,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-meta,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-not-found,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,FAILED,expected:<1> but was:<0>
+detail-not-found,mutation_f_tag_mov_container_mut_delta,HookXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-not-found,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-not-found,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-not-found,mutation_f_tag_mov_container_mut_delta,RobulaPlusXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-not-found,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-not-found,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-synopsis,mutation_e_text_cont_rem_mut_alpha,AbsoluteXPathTest,alpha,FAILED,expected:<1> but was:<0>
+detail-synopsis,mutation_e_text_cont_rem_mut_alpha,HookXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-synopsis,mutation_e_text_cont_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-synopsis,mutation_e_text_cont_rem_mut_alpha,RelativeXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-synopsis,mutation_e_text_cont_rem_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-synopsis,mutation_e_text_cont_rem_mut_alpha,RobulaXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-synopsis,mutation_e_text_cont_rem_mut_alpha,SeleniumXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-meta,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+detail-meta,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-meta,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-meta,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-meta,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-meta,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-meta,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-synopsis,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,FAILED,expected:<1> but was:<0>
+detail-synopsis,mutation_k_tag_ins_mut_gamma,HookXPathTest,gamma,FAILED,expected:<1> but was:<0>
 detail-synopsis,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,FAILED,expected:<1> but was:<0>
 detail-synopsis,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,FAILED,expected:<1> but was:<0>
 detail-synopsis,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,FAILED,expected:<1> but was:<0>
 detail-synopsis,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,FAILED,expected:<1> but was:<0>
 detail-synopsis,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,FAILED,expected:<1> but was:<0>
 detail-delete-button,mutation_f_tag_mov_container_mut_alpha,AbsoluteXPathTest,alpha,FAILED,expected:<1> but was:<0>
+detail-delete-button,mutation_f_tag_mov_container_mut_alpha,HookXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-delete-button,mutation_f_tag_mov_container_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-delete-button,mutation_f_tag_mov_container_mut_alpha,RelativeXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-delete-button,mutation_f_tag_mov_container_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-delete-button,mutation_f_tag_mov_container_mut_alpha,RobulaXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-delete-button,mutation_f_tag_mov_container_mut_alpha,SeleniumXPathTest,alpha,FAILED,expected:<1> but was:<0>
 cast-name,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+cast-name,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 cast-name,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 cast-name,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 cast-name,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 cast-name,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 cast-name,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 cast-name,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+cast-name,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,PASSED,null
 cast-name,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 cast-name,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 cast-name,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 cast-name,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 cast-name,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 detail-not-found,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+detail-not-found,mutation_h_tag_mov_temp_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-not-found,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-not-found,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-not-found,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-not-found,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-not-found,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-meta,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+detail-meta,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-meta,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-meta,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-meta,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-meta,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-meta,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 detail-not-found,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,FAILED,expected:<1> but was:<0>
+detail-not-found,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-not-found,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-not-found,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-not-found,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-not-found,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-not-found,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-meta,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,FAILED,expected:<1> but was:<0>
+detail-meta,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-meta,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-meta,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-meta,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-meta,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-meta,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-synopsis,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,FAILED,expected:<1> but was:<0>
+detail-synopsis,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-synopsis,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-synopsis,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-synopsis,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-synopsis,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-synopsis,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-favorite,mutation_d_text_cont_mod_mut_alpha,AbsoluteXPathTest,alpha,FAILED,expected:<1> but was:<0>
+detail-favorite,mutation_d_text_cont_mod_mut_alpha,HookXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-favorite,mutation_d_text_cont_mod_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-favorite,mutation_d_text_cont_mod_mut_alpha,RelativeXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-favorite,mutation_d_text_cont_mod_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-favorite,mutation_d_text_cont_mod_mut_alpha,RobulaXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-favorite,mutation_d_text_cont_mod_mut_alpha,SeleniumXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-edit-button,mutation_a_attr_val_mod_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+detail-edit-button,mutation_a_attr_val_mod_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-edit-button,mutation_a_attr_val_mod_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-edit-button,mutation_a_attr_val_mod_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-edit-button,mutation_a_attr_val_mod_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-edit-button,mutation_a_attr_val_mod_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-edit-button,mutation_a_attr_val_mod_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 cast-name,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,FAILED,expected:<[Sam Whitfield]> but was:<[Joel]>
+cast-name,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(//*[@x-test-cast-name])[2]"}
 cast-name,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<[Sam Whitfield]> but was:<[Joel]>
 cast-name,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//span[normalize-space()='Sam Whitfield']"}
 cast-name,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,expected:<S[am Whitfield]> but was:<S[Sam WhitfieldJoel]>
 cast-name,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//app-cast-row[2]/*/span[@class='cast-name']"}
 cast-name,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":"app-cast-row:nth-child(2) .cast-name"}
 cast-role,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+cast-role,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,PASSED,null
 cast-role,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 cast-role,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 cast-role,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 cast-role,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 cast-role,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 detail-favorite,mutation_f_tag_mov_container_mut_alpha,AbsoluteXPathTest,alpha,FAILED,expected:<1> but was:<0>
+detail-favorite,mutation_f_tag_mov_container_mut_alpha,HookXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-favorite,mutation_f_tag_mov_container_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-favorite,mutation_f_tag_mov_container_mut_alpha,RelativeXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-favorite,mutation_f_tag_mov_container_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-favorite,mutation_f_tag_mov_container_mut_alpha,RobulaXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-favorite,mutation_f_tag_mov_container_mut_alpha,SeleniumXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-title,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/header[1]/div[2]/h1[1] (tried for 5 second(s) with 500 milliseconds interval)
+detail-title,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x-test-detail-title] (tried for 5 second(s) with 500 milliseconds interval)
 detail-title,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Q'])[1]/following::h1[1] (tried for 5 second(s) with 500 milliseconds interval)
 detail-title,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1[normalize-space()='Quiet Harbor'] (tried for 5 second(s) with 500 milliseconds interval)
 detail-title,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1 (tried for 5 second(s) with 500 milliseconds interval)
 detail-title,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1 (tried for 5 second(s) with 500 milliseconds interval)
 detail-title,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.cssSelector: .detail-title (tried for 5 second(s) with 500 milliseconds interval)
 detail-title,mutation_f_tag_mov_container_mut_alpha,AbsoluteXPathTest,alpha,FAILED,expected:<1> but was:<0>
+detail-title,mutation_f_tag_mov_container_mut_alpha,HookXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-title,mutation_f_tag_mov_container_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-title,mutation_f_tag_mov_container_mut_alpha,RelativeXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-title,mutation_f_tag_mov_container_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-title,mutation_f_tag_mov_container_mut_alpha,RobulaXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-title,mutation_f_tag_mov_container_mut_alpha,SeleniumXPathTest,alpha,FAILED,expected:<1> but was:<0>
 detail-favorite,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,FAILED,expected:<1> but was:<0>
+detail-favorite,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,FAILED,expected:<1> but was:<0>
 detail-favorite,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,FAILED,expected:<1> but was:<0>
 detail-favorite,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,FAILED,expected:<1> but was:<0>
 detail-favorite,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,FAILED,expected:<1> but was:<0>
 detail-favorite,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,FAILED,expected:<1> but was:<0>
 detail-favorite,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,FAILED,expected:<1> but was:<0>
 detail-meta,mutation_e_text_cont_rem_mut_delta,AbsoluteXPathTest,delta,FAILED,expected:<1> but was:<0>
+detail-meta,mutation_e_text_cont_rem_mut_delta,HookXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-meta,mutation_e_text_cont_rem_mut_delta,KatalonXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-meta,mutation_e_text_cont_rem_mut_delta,RelativeXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-meta,mutation_e_text_cont_rem_mut_delta,RobulaPlusXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-meta,mutation_e_text_cont_rem_mut_delta,RobulaXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-meta,mutation_e_text_cont_rem_mut_delta,SeleniumXPathTest,delta,FAILED,expected:<1> but was:<0>
 detail-favorite,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+detail-favorite,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-favorite,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-favorite,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-favorite,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-favorite,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-favorite,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-edit-button,mutation_g_tag_mov_html_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+detail-edit-button,mutation_g_tag_mov_html_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 detail-edit-button,mutation_g_tag_mov_html_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 detail-edit-button,mutation_g_tag_mov_html_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 detail-edit-button,mutation_g_tag_mov_html_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 detail-edit-button,mutation_g_tag_mov_html_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 detail-edit-button,mutation_g_tag_mov_html_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 detail-delete-button,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,FAILED,expected:<1> but was:<0>
+detail-delete-button,mutation_k_tag_ins_mut_gamma,HookXPathTest,gamma,FAILED,expected:<1> but was:<0>
 detail-delete-button,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,FAILED,expected:<1> but was:<0>
 detail-delete-button,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,FAILED,expected:<1> but was:<0>
 detail-delete-button,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,FAILED,expected:<1> but was:<0>
 detail-delete-button,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,FAILED,expected:<1> but was:<0>
 detail-delete-button,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,FAILED,expected:<1> but was:<0>
 detail-title,mutation_e_text_cont_rem_mut_alpha,AbsoluteXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/header[1]/div[2]/h1[1] (tried for 5 second(s) with 500 milliseconds interval)
+detail-title,mutation_e_text_cont_rem_mut_alpha,HookXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x-test-detail-title] (tried for 5 second(s) with 500 milliseconds interval)
 detail-title,mutation_e_text_cont_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Q'])[1]/following::h1[1] (tried for 5 second(s) with 500 milliseconds interval)
 detail-title,mutation_e_text_cont_rem_mut_alpha,RelativeXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1[normalize-space()='Quiet Harbor'] (tried for 5 second(s) with 500 milliseconds interval)
 detail-title,mutation_e_text_cont_rem_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1 (tried for 5 second(s) with 500 milliseconds interval)
 detail-title,mutation_e_text_cont_rem_mut_alpha,RobulaXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //h1 (tried for 5 second(s) with 500 milliseconds interval)
 detail-title,mutation_e_text_cont_rem_mut_alpha,SeleniumXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.cssSelector: .detail-title (tried for 5 second(s) with 500 milliseconds interval)
 cast-row,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+cast-row,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 cast-row,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 cast-row,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 cast-row,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 cast-row,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 cast-row,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 detail-edit-button,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,FAILED,expected:<1> but was:<0>
+detail-edit-button,mutation_k_tag_ins_mut_gamma,HookXPathTest,gamma,FAILED,expected:<1> but was:<0>
 detail-edit-button,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,FAILED,expected:<1> but was:<0>
 detail-edit-button,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,FAILED,expected:<1> but was:<0>
 detail-edit-button,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,FAILED,expected:<1> but was:<0>
 detail-edit-button,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,FAILED,expected:<1> but was:<0>
 detail-edit-button,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,FAILED,expected:<1> but was:<0>
 detail-favorite,mutation_g_tag_mov_html_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+detail-favorite,mutation_g_tag_mov_html_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-favorite,mutation_g_tag_mov_html_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-favorite,mutation_g_tag_mov_html_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 detail-favorite,mutation_g_tag_mov_html_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.

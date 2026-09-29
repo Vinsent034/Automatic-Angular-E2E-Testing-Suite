@@ -1,0 +1,23 @@
+######### START 1 - a #########
+<p class="movie-meta" x-test-card-meta>{{ movie().year }} · {{ movie().genre }}</p>
+######### END 1 - a #########
+######### START 1 - b #########
+<p x-test-card-meta>{{ movie().year }} · {{ movie().genre }}</p>
+######### END 1 - b #########
+######### START 1 - c #########
+<p data-meta="card-meta" x-test-card-meta>{{ movie().year }} · {{ movie().genre }}</p>
+######### END 1 - c #########
+######### START 1 - d #########
+<p class="card-meta" x-test-card-meta>{{ movie().genre }} ({{ movie().year }})</p>
+######### END 1 - d #########
+######### START 1 - e #########
+<p class="card-meta" x-test-card-meta> </p>
+######### END 1 - e #########
+######### START 1 - j #########
+<span class="card-meta" x-test-card-meta>{{ movie().year }} · {{ movie().genre }}</span>
+######### END 1 - j #########
+######### START 1 - k #########
+<div>
+<p class="card-meta" x-test-card-meta>{{ movie().year }} · {{ movie().genre }}</p>
+</div>
+######### END 1 - k #########

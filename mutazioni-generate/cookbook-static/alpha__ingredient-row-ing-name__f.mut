@@ -1,0 +1,16 @@
+#mutation-id: f
+#element: alpha
+#name: ingredient-row-ing-name
+#type: tag_mov_container_mut
+#status: COMPLETE
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\cookbook\src\app\ingredient-row\ingredient-row.component.html #########
+<div class="ingredient-row" [attr.data-ingredient-id]="ingredient().id" [class.is-optional]="ingredient().optional">
+  <span class="ing-bullet" aria-hidden="true">•</span>
+  <p class="ing-line">
+    <span class="ing-name" [attr.x-test-ing-name]="ingredient().id">{{ ingredient().name }}</span><span class="ing-qty" [attr.x-test-ing-qty]="ingredient().id">{{ store.formatQty(ingredient().quantity * store.scaleFactor()) }}</span>
+    <span class="ing-unit">{{ ingredient().unit }}</span>
+    
+    <em class="ing-optional">{{ ingredient().optional ? '(optional)' : '' }}</em>
+  </p>
+</div>
+######### END FILE #########

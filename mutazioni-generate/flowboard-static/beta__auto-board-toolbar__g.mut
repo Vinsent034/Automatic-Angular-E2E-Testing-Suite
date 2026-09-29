@@ -1,0 +1,19 @@
+#mutation-id: g
+#element: beta
+#name: auto-board-toolbar
+#type: tag_mov_html_mut
+#status: COMPLETE
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\Kanban board\src\app\board\board.component.html #########
+
+######### END FILE #########
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\Kanban board\src\app\column\column.component.html #########
+<ul class="card-list" [attr.data-column]="colId()" x-test-card-list>
+ @for (card of store.cardsByColumn()(colId()); track card.id) {
+ <li class="card-slot"><app-card [card]="card"> </app-card></li>
+ } @empty {
+ <li class="empty-slot">
+  <p class="empty-message" x-test-empty-message>No cards here</p>
+ </li>
+ }
+</ul>
+######### END FILE #########

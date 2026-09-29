@@ -1,0 +1,42 @@
+######### START 1 - a #########
+<select id="priority-filter" class="input select priority-filter-box" [value]="store.priorityFilter()" (change)="onPriorityFilter($event)" x-test-filter-priority>
+        <option value="all">All</option>
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+      </select>
+######### END 1 - a #########
+######### START 1 - b #########
+<select id="priority-filter" [value]="store.priorityFilter()" (change)="onPriorityFilter($event)" x-test-filter-priority>
+        <option value="all">All</option>
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+      </select>
+######### END 1 - b #########
+######### START 1 - c #########
+<select id="priority-filter" data-class="input select priority-filter" [value]="store.priorityFilter()" (change)="onPriorityFilter($event)" x-test-filter-priority>
+        <option value="all">All</option>
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+      </select>
+######### END 1 - c #########
+######### START 1 - j #########
+<textarea id="priority-filter" class="input select priority-filter" [value]="store.priorityFilter()" (change)="onPriorityFilter($event)" x-test-filter-priority>
+        <option value="all">All</option>
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+      </textarea>
+######### END 1 - j #########
+######### START 1 - k #########
+<div class="select-wrap">
+  <select id="priority-filter" class="input select priority-filter" [value]="store.priorityFilter()" (change)="onPriorityFilter($event)" x-test-filter-priority>
+        <option value="all">All</option>
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+      </select>
+</div>
+######### END 1 - k #########

@@ -1,0 +1,137 @@
+#mutation-id: h
+#element: beta
+#name: board-column-count
+#type: tag_mov_temp_mut
+#status: COMPLETE
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\Kanban board\src\app\board\board.component.html #########
+<section class="board-page" x-test-board>
+  <div class="board-intro" x-test-board-intro>
+    <h2 class="page-title" x-test-board-title>Project board</h2>
+    <span class="badge badge-demo" data-kind="demo" x-test-demo-badge>Board demo</span>
+    <p class="hint-banner" x-test-hint-banner>Use the Move menu on a card to change column</p>
+  </div>
+
+  <div class="toolbar" role="toolbar" aria-label="Board toolbar" x-test-toolbar>
+    <div class="toolbar-group toolbar-search" role="search" x-test-toolbar-search>
+      <label class="field-label" for="search-input" x-test-search-label>Search</label>
+      <input id="search-input" class="input search-input" type="text" placeholder="Filter by title…" [value]="store.searchText()" (input)="onSearch($event)" x-test-search>
+    </div>
+
+    <div class="toolbar-group toolbar-priority" x-test-toolbar-priority>
+      <label class="field-label" for="priority-filter" x-test-priority-label>Priority</label>
+      <select id="priority-filter" class="input select priority-filter" [value]="store.priorityFilter()" (change)="onPriorityFilter($event)" x-test-filter-priority>
+        <option value="all">All</option>
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+      </select>
+    </div>
+
+    <div class="toolbar-group toolbar-assignee" x-test-toolbar-assignee>
+      <label class="field-label" for="assignee-filter" x-test-assignee-label>Assignee</label>
+      <select id="assignee-filter" class="input select assignee-filter" [value]="store.assigneeFilter()" (change)="onAssigneeFilter($event)" x-test-filter-assignee>
+        <option value="all">All</option>
+        @for (person of store.assignees(); track person) {
+          <option [value]="person">{{ person }}</option>
+        }
+      </select>
+    </div>
+
+    <div class="toolbar-group toolbar-info" x-test-toolbar-info>
+      <span class="matching-label" x-test-matching-label>Matching</span>
+      <span class="badge badge-filtered" data-kind="filtered" x-test-filtered-count>{{ store.filteredCount() }}</span>
+    </div>
+
+    <div class="toolbar-group toolbar-actions" x-test-toolbar-actions>
+      <a class="btn btn-primary add-card-btn" routerLink="/card/new" role="button" x-test-add-card>Add card</a>
+      <button class="btn btn-ghost reset-btn" type="button" (click)="store.reset()" x-test-reset>Reset board</button>
+    </div>
+  </div>
+
+  <div class="board-grid" role="list" aria-label="Board columns" x-test-columns>
+    <section class="column" data-column="backlog" role="listitem" aria-label="Backlog column" x-test-column="backlog">
+      
+      <app-column colId="backlog">
+    </app-column></section>
+
+    <section class="column" data-column="inprogress" role="listitem" aria-label="In Progress column" x-test-column="inprogress">
+      <header class="column-header">
+        <h3 class="column-title" x-test-column-title="inprogress">In Progress</h3>
+        <span class="badge column-count" data-column="inprogress" x-test-column-count="inprogress">{{ store.inProgressCount() }}</span>
+      </header>
+      <app-column colId="inprogress">
+    </app-column></section>
+
+    <section class="column" data-column="review" role="listitem" aria-label="Review column" x-test-column="review">
+      <header class="column-header">
+        <h3 class="column-title" x-test-column-title="review">Review</h3>
+        <span class="badge column-count" data-column="review" x-test-column-count="review">{{ store.reviewCount() }}</span>
+      </header>
+      <app-column colId="review">
+    </app-column></section>
+
+    <section class="column" data-column="done" role="listitem" aria-label="Done column" x-test-column="done">
+      <header class="column-header">
+        <h3 class="column-title" x-test-column-title="done">Done</h3>
+        <span class="badge column-count" data-column="done" x-test-column-count="done">{{ store.doneCount() }}</span>
+      </header>
+      <app-column colId="done">
+    </app-column></section>
+  </div>
+</section>
+######### END FILE #########
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\Kanban board\src\app\card-detail\card-detail.component.html #########
+<section class="detail-page" x-test-card-detail>
+ <div class="page-heading" x-test-detail-heading>
+  <h2 class="page-title" x-test-detail-page-title>Card detail</h2>
+  <a class="btn btn-ghost back-btn" routerLink="/" x-test-detail-back>Back to board</a>
+ </div>
+ @if (store.selectedCard()) {
+ <article class="detail-card" [attr.data-card-id]="store.selectedCard()?.id" [attr.data-priority]="store.selectedCard()?.priority" x-test-detail-card>
+  <header class="detail-header">
+   <span class="card-id detail-id" x-test-detail-id>#{{ store.selectedCard()?.id }}</span>
+   <h3 class="detail-title" x-test-detail-title>{{ store.selectedCard()?.title }}</h3>
+   <span class="badge priority-badge" [attr.data-priority]="store.selectedCard()?.priority" x-test-detail-priority>
+    <header class="column-header">
+     <h3 class="column-title" x-test-column-title="backlog">Backlog</h3>
+     <span class="badge column-count" data-column="backlog" x-test-column-count="backlog">{{ store.backlogCount() }}</span>
+    </header>{{ store.selectedCard()?.priority }}
+   </span>
+  </header>
+  <app-panel heading="Details" note="card fields">
+   <div class="detail-body">
+    <div class="detail-row" x-test-detail-description-row>
+     <span class="detail-label" x-test-detail-description-label>Description</span>
+     <p class="detail-description" x-test-detail-description>{{ store.selectedCard()?.description }}</p>
+    </div>
+    <div class="detail-row" x-test-detail-assignee-row>
+     <span class="detail-label" x-test-detail-assignee-label>Assignee</span> <span class="detail-assignee" [attr.data-assignee]="store.selectedCard()?.assignee" x-test-detail-assignee>{{ store.selectedCard()?.assignee }}</span>
+    </div>
+    <div class="detail-row" x-test-detail-column-row>
+     <span class="detail-label" x-test-detail-column-label>Column</span> <span class="detail-column" [attr.data-column]="store.selectedCard()?.columnId" x-test-detail-column>{{ store.selectedCard()?.columnId }}</span>
+    </div>
+    <div class="detail-row" x-test-detail-tags-row>
+     <span class="detail-label" x-test-detail-tags-label>Tags</span>
+     <ul class="tag-list detail-tags" x-test-detail-tags>
+      @for (tag of store.selectedCard()?.tags; track tag) {
+      <li class="tag" [attr.data-tag]="tag">{{ tag }}</li>
+      } @empty {
+      <li class="tag tag-empty" x-test-detail-no-tags>no tags</li>
+      }
+     </ul>
+    </div>
+   </div>
+  </app-panel>
+  <footer class="detail-actions" x-test-detail-actions>
+   <a class="btn btn-primary edit-btn" [routerLink]="['/card', store.selectedCard()?.id, 'edit']" x-test-detail-edit>Edit card</a>
+   <button class="btn btn-danger delete-btn" type="button" (click)="deleteAndGoBack()" x-test-detail-delete>Delete card</button>
+  </footer>
+ </article>
+ } @else {
+ <div class="not-found" x-test-detail-not-found>
+  <p class="not-found-message" x-test-detail-not-found-message>Card not found</p>
+  <a class="btn btn-primary" routerLink="/" x-test-detail-not-found-back>Go to board</a>
+ </div>
+ }
+</section>
+######### END FILE #########

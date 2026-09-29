@@ -1,0 +1,17 @@
+######### START 1 - a #########
+<textarea id="review-comment" formControlName="comment" rows="6" class="field-input" x-test-review-field-comment></textarea>
+######### END 1 - a #########
+######### START 1 - b #########
+<textarea id="review-comment" formControlName="comment" class="field-input" x-test-review-field-comment></textarea>
+######### END 1 - b #########
+######### START 1 - c #########
+<textarea id="review-comment" formControlName="comment" data-rows="3" class="field-input" x-test-review-field-comment></textarea>
+######### END 1 - c #########
+######### START 1 - j #########
+<input id="review-comment" formControlName="comment" rows="3" class="field-input" x-test-review-field-comment>
+######### END 1 - j #########
+######### START 1 - k #########
+<div>
+<textarea id="review-comment" formControlName="comment" rows="3" class="field-input" x-test-review-field-comment></textarea>
+</div>
+######### END 1 - k #########

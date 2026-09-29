@@ -1,6 +1,6 @@
 import sqlite3, subprocess, os, time, shutil, sys
 
-SUITE = "C:/Users/vince/OneDrive/Desktop/Tirocinio/progetto/Automatic-Angular-E2E-Testing-Suite"
+SUITE = "C:/Users/vince/OneDrive/Desktop/Università/Tirocinio/progetto/Automatic-Angular-E2E-Testing-Suite"
 RUN   = SUITE + "/flowboard-run"
 DB    = RUN + "/mutations.db"
 JAVA  = "C:/Program Files/Eclipse Adoptium/jdk-25.0.2.10-hotspot/bin/java.exe"

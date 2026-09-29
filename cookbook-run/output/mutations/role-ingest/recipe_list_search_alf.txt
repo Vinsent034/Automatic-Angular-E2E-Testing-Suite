@@ -1,0 +1,17 @@
+######### START 1 - a #########
+<input id="search-input" class="input search-input" type="text" placeholder="Search recipes…" [value]="store.search()" (input)="onSearch($event)" x-test-search>
+######### END 1 - a #########
+######### START 2 - b #########
+<input id="search-input" class="input search-input" type="text" [value]="store.search()" (input)="onSearch($event)" x-test-search>
+######### END 2 - b #########
+######### START 3 - c #########
+<input id="search-input" data-search="input search-input" type="text" placeholder="Search a recipe…" [value]="store.search()" (input)="onSearch($event)" x-test-search>
+######### END 3 - c #########
+######### START 4 - j #########
+<textarea id="search-input" class="input search-input" type="text" placeholder="Search a recipe…" [value]="store.search()" (input)="onSearch($event)" x-test-search></textarea>
+######### END 4 - j #########
+######### START 5 - k #########
+<div>
+  <input id="search-input" class="input search-input" type="text" placeholder="Search a recipe…" [value]="store.search()" (input)="onSearch($event)" x-test-search>
+</div>
+######### END 5 - k #########

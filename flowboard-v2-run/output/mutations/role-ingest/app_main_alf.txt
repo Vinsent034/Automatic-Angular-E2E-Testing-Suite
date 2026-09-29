@@ -1,0 +1,27 @@
+######### START 1 - a #########
+<main class="app-content" role="main" x-test-main>
+    <router-outlet />
+  </main>
+######### END 1 - a #########
+######### START 1 - b #########
+<main class="app-main" x-test-main>
+    <router-outlet />
+  </main>
+######### END 1 - b #########
+######### START 1 - c #########
+<main class="app-main" data-role="main" x-test-main>
+    <router-outlet />
+  </main>
+######### END 1 - c #########
+######### START 1 - j #########
+<section class="app-main" role="main" x-test-main>
+    <router-outlet />
+  </section>
+######### END 1 - j #########
+######### START 1 - k #########
+<div class="app-main-wrapper">
+  <main class="app-main" role="main" x-test-main>
+    <router-outlet />
+  </main>
+</div>
+######### END 1 - k #########

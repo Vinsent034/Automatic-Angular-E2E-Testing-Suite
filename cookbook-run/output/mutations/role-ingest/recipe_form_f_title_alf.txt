@@ -1,0 +1,17 @@
+######### START 1 - a #########
+<input id="f-title" name="title" class="input" type="text" placeholder="Enter recipe title" [(ngModel)]="title" x-test-f-title>
+######### END 1 - a #########
+######### START 2 - b #########
+<input id="f-title" name="title" class="input" type="text" [(ngModel)]="title" x-test-f-title>
+######### END 2 - b #########
+######### START 3 - c #########
+<input id="f-title" name="title" data-input="input" type="text" placeholder="Recipe title" [(ngModel)]="title" x-test-f-title>
+######### END 3 - c #########
+######### START 4 - j #########
+<textarea id="f-title" name="title" class="input" type="text" placeholder="Recipe title" [(ngModel)]="title" x-test-f-title></textarea>
+######### END 4 - j #########
+######### START 5 - k #########
+<div>
+  <input id="f-title" name="title" class="input" type="text" placeholder="Recipe title" [(ngModel)]="title" x-test-f-title>
+</div>
+######### END 5 - k #########

@@ -1,0 +1,36 @@
+######### START 1 - a #########
+<p class="result-line-alt">
+      <span class="result-count" data-kind="filtered" x-test-result-count>{{ store.filteredCount() }}</span>
+      <span class="result-label">recipes shown</span>
+    </p>
+######### END 1 - a #########
+######### START 2 - b #########
+<p>
+      <span class="result-count" data-kind="filtered" x-test-result-count>{{ store.filteredCount() }}</span>
+      <span class="result-label">recipes shown</span>
+    </p>
+######### END 2 - b #########
+######### START 3 - c #########
+<p data-line="result-line">
+      <span class="result-count" data-kind="filtered" x-test-result-count>{{ store.filteredCount() }}</span>
+      <span class="result-label">recipes shown</span>
+    </p>
+######### END 3 - c #########
+######### START 4 - i #########
+<span class="result-count" data-kind="filtered" x-test-result-count>{{ store.filteredCount() }}</span>
+      <span class="result-label">recipes shown</span>
+######### END 4 - i #########
+######### START 5 - j #########
+<div class="result-line">
+      <span class="result-count" data-kind="filtered" x-test-result-count>{{ store.filteredCount() }}</span>
+      <span class="result-label">recipes shown</span>
+    </div>
+######### END 5 - j #########
+######### START 6 - k #########
+<div>
+  <p class="result-line">
+      <span class="result-count" data-kind="filtered" x-test-result-count>{{ store.filteredCount() }}</span>
+      <span class="result-label">recipes shown</span>
+    </p>
+</div>
+######### END 6 - k #########

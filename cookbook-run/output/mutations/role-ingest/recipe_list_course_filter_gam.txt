@@ -1,0 +1,90 @@
+######### START 1 - a #########
+<div class="tool tool-course-alt">
+      <label class="field" for="course-filter">
+        <span class="field-label">Course</span>
+        <select id="course-filter" class="input course-select" [value]="store.courseFilter()" (change)="onCourse($event)" x-test-course-filter>
+          <option value="all">All courses</option>
+          <option value="starter">Starter</option>
+          <option value="main">Main</option>
+          <option value="side">Side</option>
+          <option value="dessert">Dessert</option>
+        </select>
+        <small class="field-hint">one course at a time</small>
+      </label>
+    </div>
+######### END 1 - a #########
+######### START 2 - b #########
+<div>
+      <label class="field" for="course-filter">
+        <span class="field-label">Course</span>
+        <select id="course-filter" class="input course-select" [value]="store.courseFilter()" (change)="onCourse($event)" x-test-course-filter>
+          <option value="all">All courses</option>
+          <option value="starter">Starter</option>
+          <option value="main">Main</option>
+          <option value="side">Side</option>
+          <option value="dessert">Dessert</option>
+        </select>
+        <small class="field-hint">one course at a time</small>
+      </label>
+    </div>
+######### END 2 - b #########
+######### START 3 - c #########
+<div data-tool="tool tool-course">
+      <label class="field" for="course-filter">
+        <span class="field-label">Course</span>
+        <select id="course-filter" class="input course-select" [value]="store.courseFilter()" (change)="onCourse($event)" x-test-course-filter>
+          <option value="all">All courses</option>
+          <option value="starter">Starter</option>
+          <option value="main">Main</option>
+          <option value="side">Side</option>
+          <option value="dessert">Dessert</option>
+        </select>
+        <small class="field-hint">one course at a time</small>
+      </label>
+    </div>
+######### END 3 - c #########
+######### START 4 - i #########
+<label class="field" for="course-filter">
+        <span class="field-label">Course</span>
+        <select id="course-filter" class="input course-select" [value]="store.courseFilter()" (change)="onCourse($event)" x-test-course-filter>
+          <option value="all">All courses</option>
+          <option value="starter">Starter</option>
+          <option value="main">Main</option>
+          <option value="side">Side</option>
+          <option value="dessert">Dessert</option>
+        </select>
+        <small class="field-hint">one course at a time</small>
+      </label>
+######### END 4 - i #########
+######### START 5 - j #########
+<section class="tool tool-course">
+      <label class="field" for="course-filter">
+        <span class="field-label">Course</span>
+        <select id="course-filter" class="input course-select" [value]="store.courseFilter()" (change)="onCourse($event)" x-test-course-filter>
+          <option value="all">All courses</option>
+          <option value="starter">Starter</option>
+          <option value="main">Main</option>
+          <option value="side">Side</option>
+          <option value="dessert">Dessert</option>
+        </select>
+        <small class="field-hint">one course at a time</small>
+      </label>
+    </section>
+######### END 5 - j #########
+######### START 6 - k #########
+<div>
+  <div class="tool tool-course">
+      <label class="field" for="course-filter">
+        <span class="field-label">Course</span>
+        <select id="course-filter" class="input course-select" [value]="store.courseFilter()" (change)="onCourse($event)" x-test-course-filter>
+          <option value="all">All courses</option>
+          <option value="starter">Starter</option>
+          <option value="main">Main</option>
+          <option value="side">Side</option>
+          <option value="dessert">Dessert</option>
+        </select>
+        <small class="field-hint">one course at a time</small>
+      </label>
+    </div>
+</div>
+######### END 6 - k #########

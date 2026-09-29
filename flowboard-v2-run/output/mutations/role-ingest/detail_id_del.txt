@@ -1,0 +1,23 @@
+######### START 1 - a #########
+<h3 class="detail-heading" x-test-detail-title>{{ store.selectedCard()?.title }}</h3>
+######### END 1 - a #########
+######### START 1 - b #########
+<h3 x-test-detail-title>{{ store.selectedCard()?.title }}</h3>
+######### END 1 - b #########
+######### START 1 - c #########
+<h3 data-class="detail-title" x-test-detail-title>{{ store.selectedCard()?.title }}</h3>
+######### END 1 - c #########
+######### START 1 - d #########
+<h3 class="detail-title" x-test-detail-title>Untitled</h3>
+######### END 1 - d #########
+######### START 1 - e #########
+<h3 class="detail-title" x-test-detail-title> </h3>
+######### END 1 - e #########
+######### START 1 - j #########
+<h2 class="detail-title" x-test-detail-title>{{ store.selectedCard()?.title }}</h2>
+######### END 1 - j #########
+######### START 1 - k #########
+<div class="detail-title-wrapper">
+  <h3 class="detail-title" x-test-detail-title>{{ store.selectedCard()?.title }}</h3>
+</div>
+######### END 1 - k #########

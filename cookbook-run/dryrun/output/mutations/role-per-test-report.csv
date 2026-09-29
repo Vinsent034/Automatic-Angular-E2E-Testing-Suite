@@ -1,0 +1,73 @@
+Test,Target,Applicable,Saved,Rejected,NA
+S6: nessun caso Playwright diretto (bersaglio del gruppo),app-footer-brand,34,0,0,21
+S6: footer version and navigation are in place,app-footer-version,34,0,0,21
+S6: footer version and navigation are in place,header-brand-name,35,0,0,20
+S5: adding recipe #1 from its page adds five lines,header-nav-shopping,34,0,0,21
+S6: footer version and navigation are in place,header-nav-stats,34,0,0,21
+S2: toggling a favorite updates aria-pressed and the toast,toast-toast-message,31,0,0,24
+S5: adding recipe #1 from its page adds five lines,toast-toast-message,31,0,0,24
+S1/S2: nessun caso Playwright diretto (bersaglio del gruppo),recipe-list-list-title,34,0,0,21
+"S1: search ""risotto"" shows exactly one card, recipe #2",recipe-list-search,32,0,0,23
+"S1: search by tag ""oven"" shows recipes #6 and #8",recipe-list-search,32,0,0,23
+S1: a search with no match shows the empty state,recipe-list-search,32,0,0,23
+S2: vegetarian desserts are only Tiramisu,recipe-list-course-filter,32,0,0,23
+S2: vegetarian only leaves 6 recipes,recipe-list-veg-only,32,0,0,23
+S2: vegetarian desserts are only Tiramisu,recipe-list-veg-only,32,0,0,23
+S2: sorting by rating puts Tiramisu first,recipe-list-sort,32,0,0,23
+"S1: search ""risotto"" shows exactly one card, recipe #2",recipe-list-result-count,35,0,0,20
+"S1: search by tag ""oven"" shows recipes #6 and #8",recipe-list-result-count,35,0,0,20
+S2: vegetarian only leaves 6 recipes,recipe-list-result-count,35,0,0,20
+S2: vegetarian desserts are only Tiramisu,recipe-list-result-count,35,0,0,20
+S1/S2: nessun caso Playwright diretto (bersaglio del gruppo),recipe-list-add-recipe,35,0,0,20
+S1: a search with no match shows the empty state,recipe-list-empty,37,0,0,18
+"S1: search ""risotto"" shows exactly one card, recipe #2",recipe-card-card,30,0,0,25
+"S1: search by tag ""oven"" shows recipes #6 and #8",recipe-card-card,30,0,0,25
+"S1: search ""risotto"" shows exactly one card, recipe #2",recipe-card-card-title,35,0,0,20
+S2: vegetarian desserts are only Tiramisu,recipe-card-card-title,35,0,0,20
+S2: toggling a favorite updates aria-pressed and the toast,recipe-card-card-fav,33,0,0,22
+S1/S2: nessun caso Playwright diretto (bersaglio del gruppo),recipe-card-card-time,36,0,0,19
+"S3: detail of #1 shows title, author and six ingredients",recipe-detail-detail-title,35,0,0,20
+S4: creating a recipe opens its detail page,recipe-detail-detail-title,35,0,0,20
+"S3: detail of #1 shows title, author and six ingredients",recipe-detail-detail-author,35,0,0,20
+S3: changing servings from 2 to 4 doubles the quantities,recipe-detail-servings,40,0,0,15
+S3: nutrition panel shows 520 kcal and 16 g of protein,recipe-detail-kcal,42,0,0,13
+S3: nutrition panel shows 520 kcal and 16 g of protein,recipe-detail-protein,42,0,0,13
+S5: adding recipe #1 from its page adds five lines,recipe-detail-add-shopping,35,0,0,20
+S3: nessun caso Playwright diretto (bersaglio del gruppo),recipe-detail-delete,35,0,0,20
+S3: an unknown id shows the not-found state,recipe-detail-not-found,32,0,0,23
+S3: changing servings from 2 to 4 doubles the quantities,ingredient-row-ing-qty,33,0,0,22
+S3: changing servings from 2 to 4 doubles the quantities,ingredient-row-ing-name,33,0,0,22
+S3: nessun caso Playwright diretto (bersaglio del gruppo),step-item-step-number,31,0,0,24
+S3: nessun caso Playwright diretto (bersaglio del gruppo),step-item-step-text,33,0,0,22
+"S4: the new-recipe form starts empty with ""Create recipe""",recipe-form-form-heading,34,0,0,21
+S4: the edit form is pre-filled,recipe-form-form-heading,34,0,0,21
+"S4: the new-recipe form starts empty with ""Create recipe""",recipe-form-f-title,33,0,0,22
+S4: creating a recipe opens its detail page,recipe-form-f-title,33,0,0,22
+S4: the edit form is pre-filled,recipe-form-f-title,33,0,0,22
+S4: creating a recipe opens its detail page,recipe-form-f-course,33,0,0,22
+S4: nessun caso Playwright diretto (bersaglio del gruppo),recipe-form-f-servings,33,0,0,22
+S4: nessun caso Playwright diretto (bersaglio del gruppo),recipe-form-f-veg,33,0,0,22
+S4: nessun caso Playwright diretto (bersaglio del gruppo),recipe-form-f-tags,33,0,0,22
+S4: creating a recipe opens its detail page,recipe-form-f-ingredients,40,0,0,15
+S4: nessun caso Playwright diretto (bersaglio del gruppo),recipe-form-f-steps,40,0,0,15
+"S4: the new-recipe form starts empty with ""Create recipe""",recipe-form-f-submit,35,0,0,20
+S4: creating a recipe opens its detail page,recipe-form-f-submit,35,0,0,20
+S4: an empty title shows the required-field error,recipe-form-f-submit,35,0,0,20
+S4: the edit form is pre-filled,recipe-form-f-submit,35,0,0,20
+S5: nessun caso Playwright diretto (bersaglio del gruppo),shopping-list-shopping-title,34,0,0,21
+S5: the seed list has 2 lines to buy and 1 bought,shopping-list-open-count,35,0,0,20
+S5: checking a line moves it to bought,shopping-list-open-count,35,0,0,20
+S5: adding recipe #1 from its page adds five lines,shopping-list-open-count,35,0,0,20
+S5: the seed list has 2 lines to buy and 1 bought,shopping-list-done-count,35,0,0,20
+S5: checking a line moves it to bought,shopping-list-done-count,35,0,0,20
+S5: clearing bought items removes the checked lines,shopping-list-done-count,35,0,0,20
+S5: nessun caso Playwright diretto (bersaglio del gruppo),shopping-list-shopping-empty,37,0,0,18
+S5: checking a line moves it to bought,shopping-list-shop-check,32,0,0,23
+S5: clearing bought items removes the checked lines,shopping-list-clear-done,34,0,0,21
+S6: footer version and navigation are in place,stats-stats-title,34,0,0,21
+S6: summary cards report the seed totals,stats-stat-total,34,0,0,21
+S6: summary cards report the seed totals,stats-stat-veg,34,0,0,21
+S6: summary cards report the seed totals,stats-stat-time,34,0,0,21
+S6: summary cards report the seed totals,stats-stat-fav,34,0,0,21
+"S6: recipes by course: main 3, starter 2, side 1, dessert 2",stats-course-count,44,0,0,11
+S6: the best rated recipe is Tiramisu,stats-top-title,44,0,0,11

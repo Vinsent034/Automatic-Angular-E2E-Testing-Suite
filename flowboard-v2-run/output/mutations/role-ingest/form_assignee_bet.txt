@@ -1,0 +1,32 @@
+######### START 1 - a #########
+<div class="form-field-block" x-test-form-field-assignee>
+          <label class="field-label" for="field-assignee" x-test-form-assignee-label>Assignee</label>
+          <input id="field-assignee" name="assignee" class="input form-assignee" type="text" placeholder="Who works on it" [(ngModel)]="assignee" x-test-form-assignee>
+        </div>
+######### END 1 - a #########
+######### START 1 - b #########
+<div x-test-form-field-assignee>
+          <label class="field-label" for="field-assignee" x-test-form-assignee-label>Assignee</label>
+          <input id="field-assignee" name="assignee" class="input form-assignee" type="text" placeholder="Who works on it" [(ngModel)]="assignee" x-test-form-assignee>
+        </div>
+######### END 1 - b #########
+######### START 1 - c #########
+<div data-class="form-field" x-test-form-field-assignee>
+          <label class="field-label" for="field-assignee" x-test-form-assignee-label>Assignee</label>
+          <input id="field-assignee" name="assignee" class="input form-assignee" type="text" placeholder="Who works on it" [(ngModel)]="assignee" x-test-form-assignee>
+        </div>
+######### END 1 - c #########
+######### START 1 - j #########
+<section class="form-field" x-test-form-field-assignee>
+          <label class="field-label" for="field-assignee" x-test-form-assignee-label>Assignee</label>
+          <input id="field-assignee" name="assignee" class="input form-assignee" type="text" placeholder="Who works on it" [(ngModel)]="assignee" x-test-form-assignee>
+        </section>
+######### END 1 - j #########
+######### START 1 - k #########
+<div class="form-field-wrap">
+  <div class="form-field" x-test-form-field-assignee>
+          <label class="field-label" for="field-assignee" x-test-form-assignee-label>Assignee</label>
+          <input id="field-assignee" name="assignee" class="input form-assignee" type="text" placeholder="Who works on it" [(ngModel)]="assignee" x-test-form-assignee>
+        </div>
+</div>
+######### END 1 - k #########

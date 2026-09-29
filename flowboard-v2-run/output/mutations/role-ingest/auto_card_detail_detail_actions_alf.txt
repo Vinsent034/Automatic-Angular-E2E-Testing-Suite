@@ -1,0 +1,32 @@
+######### START 1 - a #########
+<footer class="detail-footer" x-test-detail-actions>
+        <a class="btn btn-primary edit-btn" [routerLink]="['/card', store.selectedCard()?.id, 'edit']" x-test-detail-edit>Edit card</a>
+        <button class="btn btn-danger delete-btn" type="button" (click)="deleteAndGoBack()" x-test-detail-delete>Delete card</button>
+      </footer>
+######### END 1 - a #########
+######### START 1 - b #########
+<footer x-test-detail-actions>
+        <a class="btn btn-primary edit-btn" [routerLink]="['/card', store.selectedCard()?.id, 'edit']" x-test-detail-edit>Edit card</a>
+        <button class="btn btn-danger delete-btn" type="button" (click)="deleteAndGoBack()" x-test-detail-delete>Delete card</button>
+      </footer>
+######### END 1 - b #########
+######### START 1 - c #########
+<footer data-class="detail-actions" x-test-detail-actions>
+        <a class="btn btn-primary edit-btn" [routerLink]="['/card', store.selectedCard()?.id, 'edit']" x-test-detail-edit>Edit card</a>
+        <button class="btn btn-danger delete-btn" type="button" (click)="deleteAndGoBack()" x-test-detail-delete>Delete card</button>
+      </footer>
+######### END 1 - c #########
+######### START 1 - j #########
+<div class="detail-actions" x-test-detail-actions>
+        <a class="btn btn-primary edit-btn" [routerLink]="['/card', store.selectedCard()?.id, 'edit']" x-test-detail-edit>Edit card</a>
+        <button class="btn btn-danger delete-btn" type="button" (click)="deleteAndGoBack()" x-test-detail-delete>Delete card</button>
+      </div>
+######### END 1 - j #########
+######### START 1 - k #########
+<div class="detail-actions-wrapper">
+  <footer class="detail-actions" x-test-detail-actions>
+        <a class="btn btn-primary edit-btn" [routerLink]="['/card', store.selectedCard()?.id, 'edit']" x-test-detail-edit>Edit card</a>
+        <button class="btn btn-danger delete-btn" type="button" (click)="deleteAndGoBack()" x-test-detail-delete>Delete card</button>
+      </footer>
+</div>
+######### END 1 - k #########

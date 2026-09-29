@@ -1,0 +1,88 @@
+######### START 1 - a #########
+<div class="course-table-alt" role="table" aria-label="Recipes by course">
+        @for (stat of store.courseStats(); track stat.course) {
+          <div class="course-row" role="row" [attr.data-course]="stat.course">
+            <span class="course-name" role="cell">{{ stat.course }}</span>
+            <span class="course-count" role="cell" [attr.x-test-course-count]="stat.course">{{ stat.count }}</span>
+            <span class="course-share" role="cell">{{ stat.share }}%</span>
+          </div>
+        }
+      </div>
+######### END 1 - a #########
+######### START 2 - b #########
+<div class="course-table" role="table">
+        @for (stat of store.courseStats(); track stat.course) {
+          <div class="course-row" role="row" [attr.data-course]="stat.course">
+            <span class="course-name" role="cell">{{ stat.course }}</span>
+            <span class="course-count" role="cell" [attr.x-test-course-count]="stat.course">{{ stat.count }}</span>
+            <span class="course-share" role="cell">{{ stat.share }}%</span>
+          </div>
+        }
+      </div>
+######### END 2 - b #########
+######### START 3 - c #########
+<div data-table="course-table" role="table" aria-label="Recipes by course">
+        @for (stat of store.courseStats(); track stat.course) {
+          <div class="course-row" role="row" [attr.data-course]="stat.course">
+            <span class="course-name" role="cell">{{ stat.course }}</span>
+            <span class="course-count" role="cell" [attr.x-test-course-count]="stat.course">{{ stat.count }}</span>
+            <span class="course-share" role="cell">{{ stat.share }}%</span>
+          </div>
+        }
+      </div>
+######### END 3 - c #########
+######### START 4 - d #########
+<div class="course-table" role="table" aria-label="Recipes by course">
+        @for (stat of store.courseStats(); track stat.course) {
+          <div class="course-row" role="row" [attr.data-course]="stat.course">
+            <span class="course-name" role="cell">Course</span>
+            <span class="course-count" role="cell" [attr.x-test-course-count]="stat.course">{{ stat.count }}</span>
+            <span class="course-share" role="cell">{{ stat.share }}%</span>
+          </div>
+        }
+      </div>
+######### END 4 - d #########
+######### START 5 - e #########
+<div class="course-table" role="table" aria-label="Recipes by course">
+        @for (stat of store.courseStats(); track stat.course) {
+          <div class="course-row" role="row" [attr.data-course]="stat.course">
+            <span class="course-name" role="cell"> </span>
+            <span class="course-count" role="cell" [attr.x-test-course-count]="stat.course"> </span>
+            <span class="course-share" role="cell"> </span>
+          </div>
+        }
+      </div>
+######### END 5 - e #########
+######### START 6 - i #########
+@for (stat of store.courseStats(); track stat.course) {
+          <div class="course-row" role="row" [attr.data-course]="stat.course">
+            <span class="course-name" role="cell">{{ stat.course }}</span>
+            <span class="course-count" role="cell" [attr.x-test-course-count]="stat.course">{{ stat.count }}</span>
+            <span class="course-share" role="cell">{{ stat.share }}%</span>
+          </div>
+        }
+######### END 6 - i #########
+######### START 7 - j #########
+<section class="course-table" role="table" aria-label="Recipes by course">
+        @for (stat of store.courseStats(); track stat.course) {
+          <div class="course-row" role="row" [attr.data-course]="stat.course">
+            <span class="course-name" role="cell">{{ stat.course }}</span>
+            <span class="course-count" role="cell" [attr.x-test-course-count]="stat.course">{{ stat.count }}</span>
+            <span class="course-share" role="cell">{{ stat.share }}%</span>
+          </div>
+        }
+      </section>
+######### END 7 - j #########
+######### START 8 - k #########
+<div>
+  <div class="course-table" role="table" aria-label="Recipes by course">
+        @for (stat of store.courseStats(); track stat.course) {
+          <div class="course-row" role="row" [attr.data-course]="stat.course">
+            <span class="course-name" role="cell">{{ stat.course }}</span>
+            <span class="course-count" role="cell" [attr.x-test-course-count]="stat.course">{{ stat.count }}</span>
+            <span class="course-share" role="cell">{{ stat.share }}%</span>
+          </div>
+        }
+      </div>
+</div>
+######### END 8 - k #########

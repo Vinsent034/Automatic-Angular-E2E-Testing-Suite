@@ -1,0 +1,26 @@
+######### START 1 - a #########
+<button type="button" class="toast-close-alt" aria-label="Dismiss message" (click)="store.toast.set('')">×</button>
+######### END 1 - a #########
+######### START 2 - b #########
+<button type="button" class="toast-close" (click)="store.toast.set('')">×</button>
+######### END 2 - b #########
+######### START 3 - c #########
+<button type="button" data-close="toast-close" aria-label="Dismiss message" (click)="store.toast.set('')">×</button>
+######### END 3 - c #########
+######### START 4 - d #########
+<button type="button" class="toast-close" aria-label="Dismiss message" (click)="store.toast.set('')">Close</button>
+######### END 4 - d #########
+######### START 5 - e #########
+<button type="button" class="toast-close" aria-label="Dismiss message" (click)="store.toast.set('')"> </button>
+######### END 5 - e #########
+######### START 6 - i #########
+×
+######### END 6 - i #########
+######### START 7 - j #########
+<div type="button" class="toast-close" aria-label="Dismiss message" (click)="store.toast.set('')">×</div>
+######### END 7 - j #########
+######### START 8 - k #########
+<span>
+  <button type="button" class="toast-close" aria-label="Dismiss message" (click)="store.toast.set('')">×</button>
+</span>
+######### END 8 - k #########

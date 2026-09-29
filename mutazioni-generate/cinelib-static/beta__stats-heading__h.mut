@@ -1,0 +1,13 @@
+#mutation-id: h
+#element: beta
+#name: stats-heading
+#type: tag_mov_temp_mut
+#status: COMPLETE
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\cinelib\src\app\stats\stats.component.html #########
+
+######### END FILE #########
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\cinelib\src\app\cast-row\cast-row.component.html #########
+<div class="cast-row" x-test-cast-row>
+ <span class="cast-avatar" aria-hidden="true">{{ member().name.charAt(0) }}</span> <span class="cast-name" x-test-cast-name>{{ member().name }}</span> <span class="cast-role" x-test-cast-role>{{ member().role }}</span>
+</div>
+######### END FILE #########

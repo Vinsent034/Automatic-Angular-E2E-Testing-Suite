@@ -1,0 +1,56 @@
+######### START 1 - a #########
+<ul class="tags" [attr.x-test-card-tags]="card().id">
+      @for (tag of card().tags; track tag) {
+        <li class="tag" [attr.data-tag]="tag">{{ tag }}</li>
+      }
+    </ul>
+######### END 1 - a #########
+######### START 1 - b #########
+<ul [attr.x-test-card-tags]="card().id">
+      @for (tag of card().tags; track tag) {
+        <li class="tag" [attr.data-tag]="tag">{{ tag }}</li>
+      }
+    </ul>
+######### END 1 - b #########
+######### START 1 - c #########
+<ul data-class="tag-list" [attr.x-test-card-tags]="card().id">
+      @for (tag of card().tags; track tag) {
+        <li class="tag" [attr.data-tag]="tag">{{ tag }}</li>
+      }
+    </ul>
+######### END 1 - c #########
+######### START 1 - d #########
+<ul class="tag-list" [attr.x-test-card-tags]="card().id">
+      @for (tag of card().tags; track tag) {
+        <li class="tag" [attr.data-tag]="tag">#{{ tag }}</li>
+      }
+    </ul>
+######### END 1 - d #########
+######### START 1 - e #########
+<ul class="tag-list" [attr.x-test-card-tags]="card().id">
+      @for (tag of card().tags; track tag) {
+        <li class="tag" [attr.data-tag]="tag"> </li>
+      }
+    </ul>
+######### END 1 - e #########
+######### START 1 - i #########
+@for (tag of card().tags; track tag) {
+        <li class="tag" [attr.data-tag]="tag" [attr.x-test-card-tags]="card().id">{{ tag }}</li>
+      }
+######### END 1 - i #########
+######### START 1 - j #########
+<div class="tag-list" [attr.x-test-card-tags]="card().id">
+      @for (tag of card().tags; track tag) {
+        <li class="tag" [attr.data-tag]="tag">{{ tag }}</li>
+      }
+    </div>
+######### END 1 - j #########
+######### START 1 - k #########
+<div class="tag-list-wrap">
+  <ul class="tag-list" [attr.x-test-card-tags]="card().id">
+      @for (tag of card().tags; track tag) {
+        <li class="tag" [attr.data-tag]="tag">{{ tag }}</li>
+      }
+    </ul>
+</div>
+######### END 1 - k #########

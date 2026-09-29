@@ -1,0 +1,48 @@
+######### START 1 - a #########
+<div class="page-head-alt">
+    <div class="title-block">
+      <h1 class="page-title" x-test-shopping-title>Shopping list</h1>
+      <p class="page-sub">Ingredients added from the recipes</p>
+    </div>
+  </div>
+######### END 1 - a #########
+######### START 2 - b #########
+<div>
+    <div class="title-block">
+      <h1 class="page-title" x-test-shopping-title>Shopping list</h1>
+      <p class="page-sub">Ingredients added from the recipes</p>
+    </div>
+  </div>
+######### END 2 - b #########
+######### START 3 - c #########
+<div data-head="page-head">
+    <div class="title-block">
+      <h1 class="page-title" x-test-shopping-title>Shopping list</h1>
+      <p class="page-sub">Ingredients added from the recipes</p>
+    </div>
+  </div>
+######### END 3 - c #########
+######### START 4 - i #########
+<div class="title-block">
+      <h1 class="page-title" x-test-shopping-title>Shopping list</h1>
+      <p class="page-sub">Ingredients added from the recipes</p>
+    </div>
+######### END 4 - i #########
+######### START 5 - j #########
+<section class="page-head">
+    <div class="title-block">
+      <h1 class="page-title" x-test-shopping-title>Shopping list</h1>
+      <p class="page-sub">Ingredients added from the recipes</p>
+    </div>
+  </section>
+######### END 5 - j #########
+######### START 6 - k #########
+<div>
+  <div class="page-head">
+    <div class="title-block">
+      <h1 class="page-title" x-test-shopping-title>Shopping list</h1>
+      <p class="page-sub">Ingredients added from the recipes</p>
+    </div>
+  </div>
+</div>
+######### END 6 - k #########

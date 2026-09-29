@@ -1,0 +1,57 @@
+######### START 1 - a #########
+<div class="toolbar-group toolbar-prio" x-test-toolbar-priority>
+      <label class="field-label" for="priority-filter" x-test-priority-label>Priority</label>
+      <select id="priority-filter" class="input select priority-filter" [value]="store.priorityFilter()" (change)="onPriorityFilter($event)" x-test-filter-priority>
+        <option value="all">All</option>
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+      </select>
+    </div>
+######### END 1 - a #########
+######### START 1 - b #########
+<div x-test-toolbar-priority>
+      <label class="field-label" for="priority-filter" x-test-priority-label>Priority</label>
+      <select id="priority-filter" class="input select priority-filter" [value]="store.priorityFilter()" (change)="onPriorityFilter($event)" x-test-filter-priority>
+        <option value="all">All</option>
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+      </select>
+    </div>
+######### END 1 - b #########
+######### START 1 - c #########
+<div data-class="toolbar-group toolbar-priority" x-test-toolbar-priority>
+      <label class="field-label" for="priority-filter" x-test-priority-label>Priority</label>
+      <select id="priority-filter" class="input select priority-filter" [value]="store.priorityFilter()" (change)="onPriorityFilter($event)" x-test-filter-priority>
+        <option value="all">All</option>
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+      </select>
+    </div>
+######### END 1 - c #########
+######### START 1 - j #########
+<section class="toolbar-group toolbar-priority" x-test-toolbar-priority>
+      <label class="field-label" for="priority-filter" x-test-priority-label>Priority</label>
+      <select id="priority-filter" class="input select priority-filter" [value]="store.priorityFilter()" (change)="onPriorityFilter($event)" x-test-filter-priority>
+        <option value="all">All</option>
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+      </select>
+    </section>
+######### END 1 - j #########
+######### START 1 - k #########
+<div class="toolbar-priority-wrapper">
+  <div class="toolbar-group toolbar-priority" x-test-toolbar-priority>
+      <label class="field-label" for="priority-filter" x-test-priority-label>Priority</label>
+      <select id="priority-filter" class="input select priority-filter" [value]="store.priorityFilter()" (change)="onPriorityFilter($event)" x-test-filter-priority>
+        <option value="all">All</option>
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+      </select>
+    </div>
+</div>
+######### END 1 - k #########

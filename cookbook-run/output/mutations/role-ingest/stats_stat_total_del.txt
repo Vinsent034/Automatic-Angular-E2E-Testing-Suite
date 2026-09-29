@@ -1,0 +1,26 @@
+######### START 1 - a #########
+<span class="stat-label-alt">Recipes</span>
+######### END 1 - a #########
+######### START 2 - b #########
+<span>Recipes</span>
+######### END 2 - b #########
+######### START 3 - c #########
+<span data-label="stat-label">Recipes</span>
+######### END 3 - c #########
+######### START 4 - d #########
+<span class="stat-label">Total recipes</span>
+######### END 4 - d #########
+######### START 5 - e #########
+<span class="stat-label"> </span>
+######### END 5 - e #########
+######### START 6 - i #########
+Recipes
+######### END 6 - i #########
+######### START 7 - j #########
+<small class="stat-label">Recipes</small>
+######### END 7 - j #########
+######### START 8 - k #########
+<span>
+  <span class="stat-label">Recipes</span>
+</span>
+######### END 8 - k #########

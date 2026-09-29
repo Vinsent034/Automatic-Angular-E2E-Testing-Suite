@@ -1,0 +1,26 @@
+######### START 1 - a #########
+<span class="card-category">{{ recipe().course }}</span>
+######### END 1 - a #########
+######### START 2 - b #########
+<span>{{ recipe().course }}</span>
+######### END 2 - b #########
+######### START 3 - c #########
+<span data-course="card-course">{{ recipe().course }}</span>
+######### END 3 - c #########
+######### START 4 - d #########
+<span class="card-course">Course</span>
+######### END 4 - d #########
+######### START 5 - e #########
+<span class="card-course"> </span>
+######### END 5 - e #########
+######### START 6 - i #########
+{{ recipe().course }}
+######### END 6 - i #########
+######### START 7 - j #########
+<div class="card-course">{{ recipe().course }}</div>
+######### END 7 - j #########
+######### START 8 - k #########
+<span class="card-course-wrap">
+  <span class="card-course">{{ recipe().course }}</span>
+</span>
+######### END 8 - k #########

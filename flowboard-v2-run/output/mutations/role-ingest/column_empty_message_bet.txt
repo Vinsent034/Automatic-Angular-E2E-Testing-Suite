@@ -1,0 +1,30 @@
+######### START 1 - a #########
+<li class="empty-item">
+      <p class="empty-message" x-test-empty-message>No cards here</p>
+    </li>
+######### END 1 - a #########
+######### START 1 - b #########
+<li>
+      <p class="empty-message" x-test-empty-message>No cards here</p>
+    </li>
+######### END 1 - b #########
+######### START 1 - c #########
+<li data-class="empty-slot">
+      <p class="empty-message" x-test-empty-message>No cards here</p>
+    </li>
+######### END 1 - c #########
+######### START 1 - i #########
+<p class="empty-message" x-test-empty-message>No cards here</p>
+######### END 1 - i #########
+######### START 1 - j #########
+<div class="empty-slot">
+      <p class="empty-message" x-test-empty-message>No cards here</p>
+    </div>
+######### END 1 - j #########
+######### START 1 - k #########
+<li class="empty-slot-wrapper">
+    <li class="empty-slot">
+      <p class="empty-message" x-test-empty-message>No cards here</p>
+    </li>
+</li>
+######### END 1 - k #########

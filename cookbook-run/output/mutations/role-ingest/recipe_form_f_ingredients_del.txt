@@ -1,0 +1,26 @@
+######### START 1 - a #########
+<small class="help-alt">example: 200 g Spaghetti</small>
+######### END 1 - a #########
+######### START 2 - b #########
+<small>example: 200 g Spaghetti</small>
+######### END 2 - b #########
+######### START 3 - c #########
+<small data-help="help">example: 200 g Spaghetti</small>
+######### END 3 - c #########
+######### START 4 - d #########
+<small class="help">example: 2 eggs</small>
+######### END 4 - d #########
+######### START 5 - e #########
+<small class="help"> </small>
+######### END 5 - e #########
+######### START 6 - i #########
+example: 200 g Spaghetti
+######### END 6 - i #########
+######### START 7 - j #########
+<span class="help">example: 200 g Spaghetti</span>
+######### END 7 - j #########
+######### START 8 - k #########
+<span>
+  <small class="help">example: 200 g Spaghetti</small>
+</span>
+######### END 8 - k #########

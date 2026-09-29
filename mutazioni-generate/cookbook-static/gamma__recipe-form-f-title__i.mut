@@ -1,0 +1,125 @@
+#mutation-id: i
+#element: gamma
+#name: recipe-form-f-title
+#type: tag_rem_mut
+#status: COMPLETE
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\cookbook\src\app\recipe-form\recipe-form.component.html #########
+<section class="form-page">
+  <div class="page-head">
+    <div class="title-block">
+      <h1 class="page-title" x-test-form-heading>{{ editing() ? 'Edit recipe' : 'New recipe' }}</h1>
+      <p class="page-sub">Everything is kept in memory</p>
+    </div>
+  </div>
+
+  <form class="recipe-form" (ngSubmit)="submit()">
+    <div class="form-grid">
+      
+        <label class="field-label" for="f-title">Title</label>
+        <div class="control">
+          <input id="f-title" name="title" class="input" type="text" placeholder="Recipe title" [(ngModel)]="title" x-test-f-title>
+          <small class="help">shown on the card</small>
+        </div>
+      
+
+      <div class="form-field field-course">
+        <label class="field-label" for="f-course">Course</label>
+        <div class="control">
+          <select id="f-course" name="course" class="input" [(ngModel)]="course" x-test-f-course>
+            <option value="starter">Starter</option>
+            <option value="main">Main</option>
+            <option value="side">Side</option>
+            <option value="dessert">Dessert</option>
+          </select>
+          <small class="help">used by the course filter</small>
+        </div>
+      </div>
+
+      <div class="form-field field-difficulty">
+        <label class="field-label" for="f-difficulty">Difficulty</label>
+        <div class="control">
+          <select id="f-difficulty" name="difficulty" class="input" [(ngModel)]="difficulty">
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+          </select>
+          <small class="help">shown on the card</small>
+        </div>
+      </div>
+
+      <div class="form-field field-servings">
+        <label class="field-label" for="f-servings">Servings</label>
+        <div class="control">
+          <input id="f-servings" name="servings" class="input" type="number" min="1" max="24" [(ngModel)]="servings" x-test-f-servings>
+          <small class="help">base for the quantities</small>
+        </div>
+      </div>
+
+      <div class="form-field field-times">
+        <label class="field-label" for="f-prep">Preparation and cooking (minutes)</label>
+        <div class="control control-pair">
+          <input id="f-prep" name="prepMinutes" class="input" type="number" min="0" [(ngModel)]="prepMinutes">
+          <input id="f-cook" name="cookMinutes" class="input" type="number" min="0" [(ngModel)]="cookMinutes">
+        </div>
+      </div>
+
+      <div class="form-field field-veg">
+        <span class="field-label">Diet</span>
+        <div class="control">
+          <label class="check" for="f-veg">
+            <input id="f-veg" name="vegetarian" type="checkbox" [(ngModel)]="vegetarian" x-test-f-veg>
+            <span class="check-label">Vegetarian</span>
+          </label>
+          <small class="help">used by the vegetarian filter</small>
+        </div>
+      </div>
+
+      <div class="form-field field-author">
+        <label class="field-label" for="f-author">Author</label>
+        <div class="control">
+          <input id="f-author" name="author" class="input" type="text" placeholder="Who wrote it" [(ngModel)]="author">
+          <small class="help">optional</small>
+        </div>
+      </div>
+
+      <div class="form-field field-tags">
+        <label class="field-label" for="f-tags">Tags</label>
+        <div class="control">
+          <input id="f-tags" name="tags" class="input" type="text" placeholder="e.g. pasta, quick" [(ngModel)]="tagsText" x-test-f-tags>
+          <small class="help">comma separated</small>
+        </div>
+      </div>
+    </div>
+
+    <app-panel heading="Ingredients" note="one per line: quantity unit name">
+      <div class="area-field">
+        <label class="field-label" for="f-ingredients">Ingredient list</label>
+        <div class="control">
+          <textarea id="f-ingredients" name="ingredients" rows="6" class="input" [(ngModel)]="ingredientsText" x-test-f-ingredients></textarea>
+          <small class="help">example: 200 g Spaghetti</small>
+        </div>
+      </div>
+    </app-panel>
+
+    <app-panel heading="Method" note="one step per line">
+      <div class="area-field">
+        <label class="field-label" for="f-steps">Steps</label>
+        <div class="control">
+          <textarea id="f-steps" name="steps" rows="5" class="input" [(ngModel)]="stepsText" x-test-f-steps></textarea>
+          <small class="help">they are numbered automatically</small>
+        </div>
+      </div>
+    </app-panel>
+
+    <div class="form-actions">
+      <div class="action-group">
+        <button type="submit" class="btn btn-primary" x-test-f-submit>{{ editing() ? 'Save changes' : 'Create recipe' }}</button>
+        <span class="action-note form-error">{{ error() }}</span>
+      </div>
+      <div class="action-group">
+        <a class="btn btn-ghost" routerLink="/">Cancel</a>
+      </div>
+    </div>
+  </form>
+</section>
+######### END FILE #########

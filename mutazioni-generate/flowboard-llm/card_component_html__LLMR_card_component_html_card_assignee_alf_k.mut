@@ -3,7 +3,7 @@
 #name: k
 #type: LLM_ROLE
 #status: HELD
-######### FILE C:\Users\vince\OneDrive\Desktop\App tirocinio\Kanban board\src\app\card\card.component.html #########
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\Kanban board\src\app\card\card.component.html #########
 <article class="card" [attr.data-card-id]="card().id" [attr.data-priority]="card().priority" [attr.data-column]="card().columnId" [attr.aria-label]="'Card ' + card().title" [attr.x-test-card]="card().id">
   <header class="card-top">
     <span class="card-id" [attr.x-test-card-id]="card().id">#{{ card().id }}</span>
@@ -15,7 +15,9 @@
   </a>
 
   <div class="card-meta">
-    <div class="assignee-wrap"><span class="card-assignee" [attr.data-assignee]="card().assignee" [attr.x-test-card-assignee]="card().id">{{ card().assignee }}</span></div>
+    <span class="card-assignee-wrap">
+  <span class="card-assignee" [attr.data-assignee]="card().assignee" [attr.x-test-card-assignee]="card().id">{{ card().assignee }}</span>
+</span>
     <ul class="tag-list" [attr.x-test-card-tags]="card().id">
       @for (tag of card().tags; track tag) {
         <li class="tag" [attr.data-tag]="tag">{{ tag }}</li>

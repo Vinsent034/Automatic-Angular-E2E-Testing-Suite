@@ -1,0 +1,17 @@
+######### START 1 - a #########
+<input id="movie-title" type="text" formControlName="title" class="field-input" x-test-field-title>
+######### END 1 - a #########
+######### START 1 - b #########
+<input id="title" type="text" formControlName="title" x-test-field-title>
+######### END 1 - b #########
+######### START 1 - c #########
+<input data-id="title" type="text" formControlName="title" class="field-input" x-test-field-title>
+######### END 1 - c #########
+######### START 1 - j #########
+<textarea id="title" type="text" formControlName="title" class="field-input" x-test-field-title></textarea>
+######### END 1 - j #########
+######### START 1 - k #########
+<div>
+<input id="title" type="text" formControlName="title" class="field-input" x-test-field-title>
+</div>
+######### END 1 - k #########

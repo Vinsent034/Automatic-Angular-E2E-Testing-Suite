@@ -1,0 +1,71 @@
+#mutation-id: h
+#element: delta
+#name: shopping-list-shopping-title
+#type: tag_mov_temp_mut
+#status: COMPLETE
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\cookbook\src\app\shopping-list\shopping-list.component.html #########
+<section class="shopping-page">
+  <div class="page-head">
+    <div class="title-block">
+      <h1 class="page-title" x-test-shopping-title>Shopping list</h1>
+      
+    </div>
+  </div>
+
+  <div class="shopping-summary">
+    <p class="summary-line">
+      <span class="summary-value" data-kind="open" x-test-open-count>{{ store.shoppingOpenCount() }}</span>
+      <span class="summary-label">to buy</span>
+    </p>
+    <p class="summary-line">
+      <span class="summary-value" data-kind="done" x-test-done-count>{{ store.shoppingDoneCount() }}</span>
+      <span class="summary-label">bought</span>
+    </p>
+  </div>
+
+  <div class="shopping-body">
+    @if (store.shoppingGroups().length === 0) {
+      <div class="empty-box">
+        <p class="empty-text" x-test-shopping-empty>Your shopping list is empty</p>
+        <p class="empty-hint">Open a recipe and add its ingredients</p>
+      </div>
+    }
+    @for (group of store.shoppingGroups(); track group.recipeId) {
+      <div class="shop-group" [attr.data-recipe-id]="group.recipeId">
+        <h2 class="group-title">
+          <span class="group-name">{{ group.title }}</span>
+          <span class="group-count">{{ group.items.length }}</span>
+        </h2>
+        <ul class="shop-items">
+          @for (item of group.items; track item.id) {
+            <li class="shop-item" [class.is-done]="item.done" [attr.data-item-id]="item.id">
+              <label class="shop-check">
+                <input type="checkbox" class="shop-box" [checked]="item.done" (change)="store.toggleShopping(item.id)" [attr.aria-label]="'Bought ' + item.name" [attr.x-test-shop-check]="item.id">
+                <span class="shop-text">{{ store.formatQty(item.quantity) }} {{ item.unit }} {{ item.name }}</span>
+              </label>
+            </li>
+          }
+        </ul>
+      </div>
+    }
+  </div>
+
+  <div class="shopping-actions">
+    <div class="action-group">
+      <button type="button" class="btn" (click)="store.clearDone()" x-test-clear-done>Clear bought items</button>
+      <span class="action-note">removes the checked lines</span>
+    </div>
+  </div>
+</section>
+######### END FILE #########
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\cookbook\src\app\step-item\step-item.component.html #########
+<div class="step" [attr.data-step]="step().n">
+ <div class="step-marker">
+  <span class="step-number" [attr.x-test-step-number]="step().n">{{ step().n }}</span> <span class="step-dot" aria-hidden="true"></span>
+ </div>
+ <div class="step-content">
+  <p class="step-text" [attr.x-test-step-text]="step().n">{{ step().text }}</p>
+  <p class="step-time"><span class="step-minutes">{{ step().minutes }}</span> min</p>
+ </div>
+</div>
+######### END FILE #########

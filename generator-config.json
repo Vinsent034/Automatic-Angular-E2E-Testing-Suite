@@ -1,11 +1,11 @@
 {
   "seed": "1234",
-  "repositoryRootPath": "C:/Users/vince/OneDrive/Desktop/Tirocinio/angular-spotify",
+  "repositoryRootPath": "C:/Users/vince/OneDrive/Desktop/Università/Tirocinio/angular-spotify",
   "npmRunCommand": "npm start",
   "mutations": [
     {
       "name": "InputField",
-      "file_path": "C:/Users/vince/OneDrive/Desktop/Tirocinio/angular-spotify/libs/web/search/feature/src/lib/search.component.html",
+      "file_path": "C:/Users/vince/OneDrive/Desktop/Università/Tirocinio/angular-spotify/libs/web/search/feature/src/lib/search.component.html",
       "target_matcher": {
         "type": "class",
         "key": "",
@@ -14,7 +14,7 @@
     },
     {
       "name": "ArtistCard",
-      "file_path": "C:/Users/vince/OneDrive/Desktop/Tirocinio/angular-spotify/libs/web/search/feature/src/lib/search.component.html",
+      "file_path": "C:/Users/vince/OneDrive/Desktop/Università/Tirocinio/angular-spotify/libs/web/search/feature/src/lib/search.component.html",
       "target_matcher": {
         "type": "attribute",
         "key": "[roundedImage]",
@@ -23,7 +23,7 @@
     },
     {
       "name": "CardTitle",
-      "file_path": "C:/Users/vince/OneDrive/Desktop/Tirocinio/angular-spotify/libs/web/shared/ui/media/src/lib/card.component.html",
+      "file_path": "C:/Users/vince/OneDrive/Desktop/Università/Tirocinio/angular-spotify/libs/web/shared/ui/media/src/lib/card.component.html",
       "target_matcher": {
         "type": "class",
         "key": "",

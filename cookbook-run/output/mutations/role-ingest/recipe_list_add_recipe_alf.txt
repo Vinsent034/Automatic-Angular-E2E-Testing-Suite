@@ -1,0 +1,23 @@
+######### START 1 - a #########
+<a class="btn btn-secondary" routerLink="/recipe/new" role="button" x-test-add-recipe>New recipe</a>
+######### END 1 - a #########
+######### START 2 - b #########
+<a class="btn btn-primary" routerLink="/recipe/new" x-test-add-recipe>New recipe</a>
+######### END 2 - b #########
+######### START 3 - c #########
+<a data-btn="btn btn-primary" routerLink="/recipe/new" role="button" x-test-add-recipe>New recipe</a>
+######### END 3 - c #########
+######### START 4 - d #########
+<a class="btn btn-primary" routerLink="/recipe/new" role="button" x-test-add-recipe>Add recipe</a>
+######### END 4 - d #########
+######### START 5 - e #########
+<a class="btn btn-primary" routerLink="/recipe/new" role="button" x-test-add-recipe> </a>
+######### END 5 - e #########
+######### START 6 - j #########
+<button class="btn btn-primary" routerLink="/recipe/new" role="button" x-test-add-recipe>New recipe</button>
+######### END 6 - j #########
+######### START 7 - k #########
+<div>
+  <a class="btn btn-primary" routerLink="/recipe/new" role="button" x-test-add-recipe>New recipe</a>
+</div>
+######### END 7 - k #########

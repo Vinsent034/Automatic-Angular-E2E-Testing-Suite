@@ -1,0 +1,102 @@
+# TARGET: form-cancel  (x-test-form-cancel)
+# ROLE: gamma-ancestor   FILE: C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib/src/app/movie-form/movie-form.component.html
+# Mutate ONLY this element. For each operator below, output the element's MUTATED outerHTML.
+# Rules: result valid Angular 19; NEVER add/remove/rename/alter any x-test* attribute;
+#        apply ONLY the requested operator; the element must really differ from the original.
+
+ROLE ELEMENT (original):
+<form [formGroup]="form" (ngSubmit)="save()" class="movie-form" x-test-form>
+    <div class="field">
+      <label for="title" class="field-label">Title</label>
+      <input id="title" type="text" formControlName="title" class="field-input" x-test-field-title>
+      @if (showError('title')) {
+        <p class="field-error" x-test-error-title>Title is required.</p>
+      }
+    </div>
+
+    <app-panel heading="Classification" note="year, genre and rating">
+      <div class="field-row">
+        <div class="field">
+          <label for="year" class="field-label">Year</label>
+          <input id="year" type="number" formControlName="year" class="field-input" x-test-field-year>
+          @if (showError('year')) {
+            <p class="field-error" x-test-error-year>Enter a year between 1900 and 2100.</p>
+          }
+        </div>
+        <div class="field">
+          <label for="genre" class="field-label">Genre</label>
+          <select id="genre" formControlName="genre" class="field-input" x-test-field-genre>
+            @for (g of genres; track g) {
+              <option [value]="g">{{ g }}</option>
+            }
+          </select>
+        </div>
+        <div class="field">
+          <label for="rating" class="field-label">Rating</label>
+          <input id="rating" type="number" step="0.1" formControlName="rating" class="field-input" x-test-field-rating>
+          @if (showError('rating')) {
+            <p class="field-error" x-test-error-rating>Rating must be between 0 and 5.</p>
+          }
+        </div>
+      </div>
+    </app-panel>
+
+    <div class="field">
+      <label for="runtime" class="field-label">Runtime (minutes)</label>
+      <input id="runtime" type="number" formControlName="runtime" class="field-input" x-test-field-runtime>
+      @if (showError('runtime')) {
+        <p class="field-error" x-test-error-runtime>Runtime must be between 1 and 600 minutes.</p>
+      }
+    </div>
+
+    <div class="field">
+      <label for="director" class="field-label">Director</label>
+      <input id="director" type="text" formControlName="director" class="field-input" x-test-field-director>
+      @if (showError('director')) {
+        <p class="field-error" x-test-error-director>Director is required.</p>
+      }
+    </div>
+
+    <div class="field">
+      <label for="synopsis" class="field-label">Synopsis</label>
+      <textarea id="synopsis" formControlName="synopsis" rows="4" class="field-input" x-test-field-synopsis></textarea>
+    </div>
+
+    <div class="field">
+      <div class="cast-header">
+        <span class="field-label">Cast</span>
+        <button type="button" class="btn btn-small" (click)="addCast()" x-test-cast-add>+ Add member</button>
+      </div>
+
+      <div formArrayName="cast" class="cast-editor" x-test-cast-editor>
+        @for (member of cast.controls; track $index) {
+          <div class="cast-edit-row" [formGroupName]="$index" x-test-cast-edit-row>
+            <input type="text" formControlName="name" placeholder="Actor name" class="field-input" x-test-cast-name>
+            <input type="text" formControlName="role" placeholder="Role" class="field-input" x-test-cast-role>
+            <button type="button" class="btn btn-danger btn-small" (click)="removeCast($index)" x-test-cast-remove>Remove</button>
+          </div>
+        } @empty {
+          <p class="cast-empty">No cast members yet.</p>
+        }
+      </div>
+    </div>
+
+    <div class="form-actions">
+      <button type="submit" class="btn btn-primary" x-test-form-submit>{{ isEdit ? 'Save changes' : 'Create movie' }}</button>
+      <button type="button" class="btn" (click)="cancel()" x-test-form-cancel>Cancel</button>
+    </div>
+  </form>
+
+OPERATORS TO APPLY (one block each, body = mutated element outerHTML):
+- a (Attribute Value Modification): Change the VALUE of an existing attribute on an element, keeping the same attribute name.  [before: <tag attr="value">text</tag> -> after: <tag attr="newValue">text</tag>]
+- b (Attribute Removal): Remove an existing (non-essential) attribute from an element.  [before: <tag attr="value">text</tag> -> after: <tag>text</tag>]
+- c (Attribute Identifier Modification): Rename an existing attribute (change the attribute name, keep its value).  [before: <tag attr="value">text</tag> -> after: <tag newAttr="value">text</tag>]
+- j (HTML Tag Type Modification): Change the tag name of an element (e.g. div -> section), keeping attributes and content.  [before: <tag attr="value">text</tag> -> after: <newTag attr="value">text</newTag>]
+- k (HTML Tag Insertion): Insert a new wrapper/container tag around an existing element (add a hierarchy level).  [before: <tag attr="value">text</tag> -> after: <wrapper>
+  <tag attr="value">text</tag>
+</wrapper>]
+
+OUTPUT FORMAT (only these blocks, {op} = operator id):
+######### START 1 - {op} #########
+<mutated element>
+######### END 1 - {op} #########

@@ -1,0 +1,37 @@
+######### START 1 - a #########
+<nav class="primary-nav" role="navigation" aria-label="Main navigation" x-test-nav>
+      <a class="nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" x-test-nav-board>Board</a>
+      <a class="nav-link" routerLink="/stats" routerLinkActive="active" x-test-nav-stats>Stats</a>
+      <a class="btn btn-primary nav-new-card" routerLink="/card/new" role="button" x-test-new-card>New card</a>
+    </nav>
+######### END 1 - a #########
+######### START 1 - b #########
+<nav class="main-nav" role="navigation" x-test-nav>
+      <a class="nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" x-test-nav-board>Board</a>
+      <a class="nav-link" routerLink="/stats" routerLinkActive="active" x-test-nav-stats>Stats</a>
+      <a class="btn btn-primary nav-new-card" routerLink="/card/new" role="button" x-test-new-card>New card</a>
+    </nav>
+######### END 1 - b #########
+######### START 1 - c #########
+<nav class="main-nav" data-role="navigation" aria-label="Main navigation" x-test-nav>
+      <a class="nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" x-test-nav-board>Board</a>
+      <a class="nav-link" routerLink="/stats" routerLinkActive="active" x-test-nav-stats>Stats</a>
+      <a class="btn btn-primary nav-new-card" routerLink="/card/new" role="button" x-test-new-card>New card</a>
+    </nav>
+######### END 1 - c #########
+######### START 1 - j #########
+<div class="main-nav" role="navigation" aria-label="Main navigation" x-test-nav>
+      <a class="nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" x-test-nav-board>Board</a>
+      <a class="nav-link" routerLink="/stats" routerLinkActive="active" x-test-nav-stats>Stats</a>
+      <a class="btn btn-primary nav-new-card" routerLink="/card/new" role="button" x-test-new-card>New card</a>
+    </div>
+######### END 1 - j #########
+######### START 1 - k #########
+<div class="main-nav-wrapper">
+    <nav class="main-nav" role="navigation" aria-label="Main navigation" x-test-nav>
+      <a class="nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" x-test-nav-board>Board</a>
+      <a class="nav-link" routerLink="/stats" routerLinkActive="active" x-test-nav-stats>Stats</a>
+      <a class="btn btn-primary nav-new-card" routerLink="/card/new" role="button" x-test-new-card>New card</a>
+    </nav>
+</div>
+######### END 1 - k #########

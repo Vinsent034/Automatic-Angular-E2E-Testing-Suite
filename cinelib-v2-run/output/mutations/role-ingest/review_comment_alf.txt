@@ -1,0 +1,23 @@
+######### START 1 - a #########
+<p class="comment-text" x-test-review-comment>{{ review.comment }}</p>
+######### END 1 - a #########
+######### START 1 - b #########
+<p x-test-review-comment>{{ review.comment }}</p>
+######### END 1 - b #########
+######### START 1 - c #########
+<p data-comment="review-comment" x-test-review-comment>{{ review.comment }}</p>
+######### END 1 - c #########
+######### START 1 - d #########
+<p class="review-comment" x-test-review-comment>{{ review.comment }} (edited)</p>
+######### END 1 - d #########
+######### START 1 - e #########
+<p class="review-comment" x-test-review-comment> </p>
+######### END 1 - e #########
+######### START 1 - j #########
+<div class="review-comment" x-test-review-comment>{{ review.comment }}</div>
+######### END 1 - j #########
+######### START 1 - k #########
+<div>
+<p class="review-comment" x-test-review-comment>{{ review.comment }}</p>
+</div>
+######### END 1 - k #########

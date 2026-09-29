@@ -1,0 +1,23 @@
+######### START 1 - a #########
+<button class="btn btn-danger remove-btn" type="button" (click)="deleteAndGoBack()" x-test-detail-delete>Delete card</button>
+######### END 1 - a #########
+######### START 1 - b #########
+<button type="button" (click)="deleteAndGoBack()" x-test-detail-delete>Delete card</button>
+######### END 1 - b #########
+######### START 1 - c #########
+<button data-class="btn btn-danger delete-btn" type="button" (click)="deleteAndGoBack()" x-test-detail-delete>Delete card</button>
+######### END 1 - c #########
+######### START 1 - d #########
+<button class="btn btn-danger delete-btn" type="button" (click)="deleteAndGoBack()" x-test-detail-delete>Remove</button>
+######### END 1 - d #########
+######### START 1 - e #########
+<button class="btn btn-danger delete-btn" type="button" (click)="deleteAndGoBack()" x-test-detail-delete> </button>
+######### END 1 - e #########
+######### START 1 - j #########
+<div class="btn btn-danger delete-btn" type="button" (click)="deleteAndGoBack()" x-test-detail-delete>Delete card</div>
+######### END 1 - j #########
+######### START 1 - k #########
+<div class="detail-delete-wrapper">
+  <button class="btn btn-danger delete-btn" type="button" (click)="deleteAndGoBack()" x-test-detail-delete>Delete card</button>
+</div>
+######### END 1 - k #########

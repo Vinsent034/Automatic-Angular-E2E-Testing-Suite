@@ -3,7 +3,7 @@
 #name: b
 #type: LLM_ROLE
 #status: HELD
-######### FILE C:\Users\vince\OneDrive\Desktop\App tirocinio\Kanban board\src\app\board\board.component.html #########
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\Kanban board\src\app\board\board.component.html #########
 <section class="board-page" x-test-board>
   <div class="board-intro" x-test-board-intro>
     <h2 class="page-title" x-test-board-title>Project board</h2>
@@ -29,7 +29,12 @@
 
     <div class="toolbar-group toolbar-assignee" x-test-toolbar-assignee>
       <label class="field-label" for="assignee-filter" x-test-assignee-label>Assignee</label>
-      <select id="assignee-filter" [value]="store.assigneeFilter()" (change)="onAssigneeFilter($event)" x-test-filter-assignee><option value="all">All</option>@for (person of store.assignees(); track person) {<option [value]="person">{{ person }}</option>}</select>
+      <select id="assignee-filter" [value]="store.assigneeFilter()" (change)="onAssigneeFilter($event)" x-test-filter-assignee>
+        <option value="all">All</option>
+        @for (person of store.assignees(); track person) {
+          <option [value]="person">{{ person }}</option>
+        }
+      </select>
     </div>
 
     <div class="toolbar-group toolbar-info" x-test-toolbar-info>

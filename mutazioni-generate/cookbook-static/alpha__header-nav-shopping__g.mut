@@ -1,0 +1,48 @@
+#mutation-id: g
+#element: alpha
+#name: header-nav-shopping
+#type: tag_mov_html_mut
+#status: COMPLETE
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\cookbook\src\app\header\header.component.html #########
+<header class="app-header">
+  <div class="header-inner">
+    <div class="brand-block">
+      <a class="brand-link" routerLink="/">
+        <span class="brand-mark" aria-hidden="true">◆</span>
+        <span class="brand-name" x-test-brand-name>CookBook</span>
+      </a>
+      <span class="brand-tagline">Recipe demo</span>
+    </div>
+    <nav class="main-nav" aria-label="Main navigation">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Recipes</a>
+        </li>
+        <li class="nav-item">
+          
+          <span class="nav-badge" data-kind="shopping">{{ store.shoppingOpenCount() }}</span>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/stats" routerLinkActive="active" x-test-nav-stats>Stats</a>
+          <span class="nav-hint">numbers</span>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+######### END FILE #########
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\cookbook\src\app\app.component.html #########
+<div class="app-shell">
+ <app-header><a class="nav-link" routerLink="/shopping" routerLinkActive="active" x-test-nav-shopping>Shopping</a></app-header>
+ <main class="app-main" role="main">
+  <router-outlet></router-outlet>
+ </main>
+ <footer class="app-footer" role="contentinfo">
+  <div class="footer-inner">
+   <p class="footer-line"><span class="footer-brand" x-test-footer-brand>CookBook</span> <span class="footer-sep">·</span> <span class="footer-note">Fixed demo recipes, kept in memory only</span></p>
+   <p class="footer-line footer-meta"><span class="footer-label">Version</span> <span class="footer-version" x-test-footer-version>v1.0</span></p>
+  </div>
+ </footer>
+ <app-toast></app-toast>
+</div>
+######### END FILE #########

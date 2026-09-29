@@ -1,0 +1,36 @@
+######### START 1 - a #########
+<div class="step-content-alt">
+    <p class="step-text" [attr.x-test-step-text]="step().n">{{ step().text }}</p>
+    <p class="step-time"><span class="step-minutes">{{ step().minutes }}</span> min</p>
+  </div>
+######### END 1 - a #########
+######### START 2 - b #########
+<div>
+    <p class="step-text" [attr.x-test-step-text]="step().n">{{ step().text }}</p>
+    <p class="step-time"><span class="step-minutes">{{ step().minutes }}</span> min</p>
+  </div>
+######### END 2 - b #########
+######### START 3 - c #########
+<div data-content="step-content">
+    <p class="step-text" [attr.x-test-step-text]="step().n">{{ step().text }}</p>
+    <p class="step-time"><span class="step-minutes">{{ step().minutes }}</span> min</p>
+  </div>
+######### END 3 - c #########
+######### START 4 - i #########
+<p class="step-text" [attr.x-test-step-text]="step().n">{{ step().text }}</p>
+    <p class="step-time"><span class="step-minutes">{{ step().minutes }}</span> min</p>
+######### END 4 - i #########
+######### START 5 - j #########
+<section class="step-content">
+    <p class="step-text" [attr.x-test-step-text]="step().n">{{ step().text }}</p>
+    <p class="step-time"><span class="step-minutes">{{ step().minutes }}</span> min</p>
+  </section>
+######### END 5 - j #########
+######### START 6 - k #########
+<div>
+  <div class="step-content">
+    <p class="step-text" [attr.x-test-step-text]="step().n">{{ step().text }}</p>
+    <p class="step-time"><span class="step-minutes">{{ step().minutes }}</span> min</p>
+  </div>
+</div>
+######### END 6 - k #########

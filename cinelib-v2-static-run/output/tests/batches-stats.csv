@@ -1,0 +1,1093 @@
+Name,Id,Locator,Tag,Status,Error
+genre-row,mutation_a_attr_val_mod_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+genre-row,mutation_a_attr_val_mod_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+genre-row,mutation_a_attr_val_mod_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+genre-row,mutation_a_attr_val_mod_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+genre-row,mutation_a_attr_val_mod_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+genre-row,mutation_a_attr_val_mod_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+genre-row,mutation_a_attr_val_mod_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+stats-heading,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+stats-heading,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,PASSED,null
+stats-heading,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<[8]> but was:<[Adventure]>
+stats-heading,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+stats-heading,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+stats-heading,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+stats-heading,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+genre-row,mutation_d_text_cont_mod_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+genre-row,mutation_d_text_cont_mod_mut_beta,HookXPathTest,beta,PASSED,null
+genre-row,mutation_d_text_cont_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
+genre-row,mutation_d_text_cont_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
+genre-row,mutation_d_text_cont_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+genre-row,mutation_d_text_cont_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
+genre-row,mutation_d_text_cont_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
+genre-count,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+genre-row,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-stats[1]/section[1]/section[1]/app-panel[1]/section[1]/div[1]/div[1]/div[1]/span[2]"}
+genre-row,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
+genre-row,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+genre-row,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[@data-genre='Adventure']//span[@class='genre-bar-count'][normalize-space()='2']"}
+genre-row,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@data-genre='Adventure']/*[contains(text() '2')]"}
+genre-row,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[@data-genre='Adventure']/span[@class='genre-bar-count']"}
+genre-row,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".genre-bar-row:nth-child(1) > .genre-bar-count"}
+stats-heading,mutation_e_text_cont_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+stats-heading,mutation_e_text_cont_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
+stats-heading,mutation_e_text_cont_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Statistics'])[2]/following::span[1] (tried for 5 second(s) with 500 milliseconds interval)
+stats-heading,mutation_e_text_cont_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+stats-heading,mutation_e_text_cont_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+stats-heading,mutation_e_text_cont_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+stats-heading,mutation_e_text_cont_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+top-row,mutation_a_attr_val_mod_mut_epsilon,AbsoluteXPathTest,epsilon,PASSED,null
+top-row,mutation_a_attr_val_mod_mut_epsilon,HookXPathTest,epsilon,PASSED,null
+top-row,mutation_a_attr_val_mod_mut_epsilon,KatalonXPathTest,epsilon,PASSED,null
+top-row,mutation_a_attr_val_mod_mut_epsilon,RelativeXPathTest,epsilon,PASSED,null
+top-row,mutation_a_attr_val_mod_mut_epsilon,RobulaPlusXPathTest,epsilon,PASSED,null
+top-row,mutation_a_attr_val_mod_mut_epsilon,RobulaXPathTest,epsilon,PASSED,null
+top-row,mutation_a_attr_val_mod_mut_epsilon,SeleniumXPathTest,epsilon,PASSED,null
+genre-row,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+genre-row,mutation_h_tag_mov_temp_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+genre-row,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+genre-row,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+genre-row,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+genre-row,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+genre-row,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+top-title,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+top-title,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+top-title,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+top-title,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+top-title,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+top-title,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+top-title,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_d_text_cont_mod_mut_alpha,AbsoluteXPathTest,alpha,FAILED,expected:<[]2> but was:<[[The following text has been mutated] ]2>
+genre-count,mutation_d_text_cont_mod_mut_alpha,HookXPathTest,alpha,FAILED,expected:<[]2> but was:<[[The following text has been mutated] ]2>
+genre-count,mutation_d_text_cont_mod_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<[]2> but was:<[[The following text has been mutated] ]2>
+genre-count,mutation_d_text_cont_mod_mut_alpha,RelativeXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[@data-genre='Adventure']//span[@class='genre-bar-count'][normalize-space()='2']"}
+genre-count,mutation_d_text_cont_mod_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,expected:<[]2> but was:<[[The following text has been mutated] ]2>
+genre-count,mutation_d_text_cont_mod_mut_alpha,RobulaXPathTest,alpha,FAILED,expected:<[]2> but was:<[[The following text has been mutated] ]2>
+genre-count,mutation_d_text_cont_mod_mut_alpha,SeleniumXPathTest,alpha,FAILED,expected:<[]2> but was:<[[The following text has been mutated] ]2>
+stat-favorites-value,mutation_g_tag_mov_html_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-stats[1]/section[1]/div[1]/div[1]/span[1] (tried for 5 second(s) with 500 milliseconds interval)
+stat-favorites-value,mutation_g_tag_mov_html_mut_gamma,HookXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x-test-stat-total-value] (tried for 5 second(s) with 500 milliseconds interval)
+stat-favorites-value,mutation_g_tag_mov_html_mut_gamma,KatalonXPathTest,gamma,FAILED,expected:<[8]> but was:<[share of the catalog]>
+stat-favorites-value,mutation_g_tag_mov_html_mut_gamma,RelativeXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='8'] (tried for 5 second(s) with 500 milliseconds interval)
+stat-favorites-value,mutation_g_tag_mov_html_mut_gamma,RobulaPlusXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //span[contains(text() '8')] (tried for 5 second(s) with 500 milliseconds interval)
+stat-favorites-value,mutation_g_tag_mov_html_mut_gamma,RobulaXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //div[1]/span[@class='stat-value'] (tried for 5 second(s) with 500 milliseconds interval)
+stat-favorites-value,mutation_g_tag_mov_html_mut_gamma,SeleniumXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.cssSelector: .stat-card:nth-child(1) > .stat-value (tried for 5 second(s) with 500 milliseconds interval)
+stat-favorites-value,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+stat-favorites-value,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,PASSED,null
+stat-favorites-value,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+stat-favorites-value,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+stat-favorites-value,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+stat-favorites-value,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+stat-favorites-value,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+stat-total-value,mutation_g_tag_mov_html_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+stat-total-value,mutation_g_tag_mov_html_mut_delta,HookXPathTest,delta,PASSED,null
+stat-total-value,mutation_g_tag_mov_html_mut_delta,KatalonXPathTest,delta,PASSED,null
+stat-total-value,mutation_g_tag_mov_html_mut_delta,RelativeXPathTest,delta,PASSED,null
+stat-total-value,mutation_g_tag_mov_html_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+stat-total-value,mutation_g_tag_mov_html_mut_delta,RobulaXPathTest,delta,PASSED,null
+stat-total-value,mutation_g_tag_mov_html_mut_delta,SeleniumXPathTest,delta,PASSED,null
+stat-total-value,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,FAILED,expected:<[8]> but was:<[Movies]>
+stat-total-value,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+stat-total-value,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<[8]> but was:<[Movies]>
+stat-total-value,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='8'] (tried for 5 second(s) with 500 milliseconds interval)
+stat-total-value,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //span[contains(text() '8')] (tried for 5 second(s) with 500 milliseconds interval)
+stat-total-value,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //div[1]/span[@class='stat-value'] (tried for 5 second(s) with 500 milliseconds interval)
+stat-total-value,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+stat-favorites-value,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+stat-favorites-value,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
+stat-favorites-value,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+stat-favorites-value,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+stat-favorites-value,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+stat-favorites-value,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+stat-favorites-value,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+stats-heading,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+stats-heading,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+stats-heading,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+stats-heading,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+stats-heading,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+stats-heading,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+stats-heading,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+stat-total-value,mutation_d_text_cont_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+stat-total-value,mutation_d_text_cont_mod_mut_delta,HookXPathTest,delta,PASSED,null
+stat-total-value,mutation_d_text_cont_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
+stat-total-value,mutation_d_text_cont_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
+stat-total-value,mutation_d_text_cont_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+stat-total-value,mutation_d_text_cont_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
+stat-total-value,mutation_d_text_cont_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+top-row,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+top-row,mutation_k_tag_ins_mut_gamma,HookXPathTest,gamma,PASSED,null
+top-row,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+top-row,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+top-row,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+top-row,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+top-row,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+genre-row,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+genre-row,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+genre-row,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+genre-row,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+genre-row,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+genre-row,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+genre-row,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+top-row,mutation_d_text_cont_mod_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+top-row,mutation_d_text_cont_mod_mut_beta,HookXPathTest,beta,PASSED,null
+top-row,mutation_d_text_cont_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
+top-row,mutation_d_text_cont_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
+top-row,mutation_d_text_cont_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+top-row,mutation_d_text_cont_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
+top-row,mutation_d_text_cont_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
+genre-count,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+genre-count,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,PASSED,null
+genre-count,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+genre-count,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+genre-count,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+genre-count,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+genre-count,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+genre-row,mutation_f_tag_mov_container_mut_epsilon,AbsoluteXPathTest,epsilon,PASSED,null
+genre-row,mutation_f_tag_mov_container_mut_epsilon,HookXPathTest,epsilon,PASSED,null
+genre-row,mutation_f_tag_mov_container_mut_epsilon,KatalonXPathTest,epsilon,PASSED,null
+genre-row,mutation_f_tag_mov_container_mut_epsilon,RelativeXPathTest,epsilon,PASSED,null
+genre-row,mutation_f_tag_mov_container_mut_epsilon,RobulaPlusXPathTest,epsilon,PASSED,null
+genre-row,mutation_f_tag_mov_container_mut_epsilon,RobulaXPathTest,epsilon,PASSED,null
+genre-row,mutation_f_tag_mov_container_mut_epsilon,SeleniumXPathTest,epsilon,PASSED,null
+genre-count,mutation_h_tag_mov_temp_mut_epsilon,AbsoluteXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_h_tag_mov_temp_mut_epsilon,HookXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_h_tag_mov_temp_mut_epsilon,KatalonXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_h_tag_mov_temp_mut_epsilon,RelativeXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_h_tag_mov_temp_mut_epsilon,RobulaPlusXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_h_tag_mov_temp_mut_epsilon,RobulaXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_h_tag_mov_temp_mut_epsilon,SeleniumXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+stat-favorites-value,mutation_e_text_cont_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+stat-favorites-value,mutation_e_text_cont_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
+stat-favorites-value,mutation_e_text_cont_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+stat-favorites-value,mutation_e_text_cont_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+stat-favorites-value,mutation_e_text_cont_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+stat-favorites-value,mutation_e_text_cont_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+stat-favorites-value,mutation_e_text_cont_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+top-title,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+top-title,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+top-title,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+top-title,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+top-title,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+top-title,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+top-title,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+stat-favorites-value,mutation_d_text_cont_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+stat-favorites-value,mutation_d_text_cont_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+stat-favorites-value,mutation_d_text_cont_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+stat-favorites-value,mutation_d_text_cont_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+stat-favorites-value,mutation_d_text_cont_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+stat-favorites-value,mutation_d_text_cont_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+stat-favorites-value,mutation_d_text_cont_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+genre-row,mutation_j_tag_type_mod_mut_epsilon,AbsoluteXPathTest,epsilon,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-stats[1]/section[1]/section[1]/app-panel[1]/section[1]/div[1]/div[1]/div[1]/span[2]"}
+genre-row,mutation_j_tag_type_mod_mut_epsilon,HookXPathTest,epsilon,PASSED,null
+genre-row,mutation_j_tag_type_mod_mut_epsilon,KatalonXPathTest,epsilon,PASSED,null
+genre-row,mutation_j_tag_type_mod_mut_epsilon,RelativeXPathTest,epsilon,PASSED,null
+genre-row,mutation_j_tag_type_mod_mut_epsilon,RobulaPlusXPathTest,epsilon,PASSED,null
+genre-row,mutation_j_tag_type_mod_mut_epsilon,RobulaXPathTest,epsilon,PASSED,null
+genre-row,mutation_j_tag_type_mod_mut_epsilon,SeleniumXPathTest,epsilon,PASSED,null
+genre-count,mutation_e_text_cont_rem_mut_alpha,AbsoluteXPathTest,alpha,FAILED,expected:<[2]> but was:<[]>
+genre-count,mutation_e_text_cont_rem_mut_alpha,HookXPathTest,alpha,FAILED,expected:<[2]> but was:<[]>
+genre-count,mutation_e_text_cont_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<[2]> but was:<[]>
+genre-count,mutation_e_text_cont_rem_mut_alpha,RelativeXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[@data-genre='Adventure']//span[@class='genre-bar-count'][normalize-space()='2']"}
+genre-count,mutation_e_text_cont_rem_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@data-genre='Adventure']/*[contains(text() '2')]"}
+genre-count,mutation_e_text_cont_rem_mut_alpha,RobulaXPathTest,alpha,FAILED,expected:<[2]> but was:<[]>
+genre-count,mutation_e_text_cont_rem_mut_alpha,SeleniumXPathTest,alpha,FAILED,expected:<[2]> but was:<[]>
+genre-row,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+genre-row,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+genre-row,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+genre-row,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+genre-row,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+genre-row,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+genre-row,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_f_tag_mov_container_mut_alpha,AbsoluteXPathTest,alpha,FAILED,expected:<[2]> but was:<[Adventure]>
+genre-count,mutation_f_tag_mov_container_mut_alpha,HookXPathTest,alpha,PASSED,null
+genre-count,mutation_f_tag_mov_container_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+genre-count,mutation_f_tag_mov_container_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+genre-count,mutation_f_tag_mov_container_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+genre-count,mutation_f_tag_mov_container_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+genre-count,mutation_f_tag_mov_container_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+stat-total-value,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+stat-total-value,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+stat-total-value,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+stat-total-value,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+stat-total-value,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+stat-total-value,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+stat-total-value,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+top-title,mutation_d_text_cont_mod_mut_alpha,AbsoluteXPathTest,alpha,FAILED,expected:<[]Quiet Harbor> but was:<[[The following text has been mutated] ]Quiet Harbor>
+top-title,mutation_d_text_cont_mod_mut_alpha,HookXPathTest,alpha,FAILED,expected:<[]Quiet Harbor> but was:<[[The following text has been mutated] ]Quiet Harbor>
+top-title,mutation_d_text_cont_mod_mut_alpha,KatalonXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"link text" "selector":"Quiet Harbor"}
+top-title,mutation_d_text_cont_mod_mut_alpha,RelativeXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//a[normalize-space()='Quiet Harbor']"}
+top-title,mutation_d_text_cont_mod_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,expected:<[]Quiet Harbor> but was:<[[The following text has been mutated] ]Quiet Harbor>
+top-title,mutation_d_text_cont_mod_mut_alpha,RobulaXPathTest,alpha,FAILED,expected:<[]Quiet Harbor> but was:<[[The following text has been mutated] ]Quiet Harbor>
+top-title,mutation_d_text_cont_mod_mut_alpha,SeleniumXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"link text" "selector":"Quiet Harbor"}
+stat-favorites-value,mutation_e_text_cont_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+stat-favorites-value,mutation_e_text_cont_rem_mut_delta,HookXPathTest,delta,PASSED,null
+stat-favorites-value,mutation_e_text_cont_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+stat-favorites-value,mutation_e_text_cont_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+stat-favorites-value,mutation_e_text_cont_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+stat-favorites-value,mutation_e_text_cont_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+stat-favorites-value,mutation_e_text_cont_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+genre-row,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+genre-row,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,PASSED,null
+genre-row,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+genre-row,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+genre-row,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+genre-row,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+genre-row,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+stats-heading,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+stats-heading,mutation_f_tag_mov_container_mut_delta,HookXPathTest,delta,PASSED,null
+stats-heading,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,FAILED,expected:<[8]> but was:<[share of the catalog]>
+stats-heading,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,PASSED,null
+stats-heading,mutation_f_tag_mov_container_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+stats-heading,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,PASSED,null
+stats-heading,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,PASSED,null
+genre-row,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+genre-row,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+genre-row,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+genre-row,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+genre-row,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+genre-row,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+genre-row,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+stat-total-value,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+stat-total-value,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,PASSED,null
+stat-total-value,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
+stat-total-value,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
+stat-total-value,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+stat-total-value,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
+stat-total-value,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
+genre-row,mutation_i_tag_rem_mut_epsilon,AbsoluteXPathTest,epsilon,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-stats[1]/section[1]/section[1]/app-panel[1]/section[1]/div[1]/div[1]/div[1]/span[2]"}
+genre-row,mutation_i_tag_rem_mut_epsilon,HookXPathTest,epsilon,PASSED,null
+genre-row,mutation_i_tag_rem_mut_epsilon,KatalonXPathTest,epsilon,PASSED,null
+genre-row,mutation_i_tag_rem_mut_epsilon,RelativeXPathTest,epsilon,PASSED,null
+genre-row,mutation_i_tag_rem_mut_epsilon,RobulaPlusXPathTest,epsilon,PASSED,null
+genre-row,mutation_i_tag_rem_mut_epsilon,RobulaXPathTest,epsilon,PASSED,null
+genre-row,mutation_i_tag_rem_mut_epsilon,SeleniumXPathTest,epsilon,PASSED,null
+stat-total-value,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+stat-total-value,mutation_k_tag_ins_mut_delta,HookXPathTest,delta,PASSED,null
+stat-total-value,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,PASSED,null
+stat-total-value,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,PASSED,null
+stat-total-value,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+stat-total-value,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,PASSED,null
+stat-total-value,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,PASSED,null
+top-row,mutation_g_tag_mov_html_mut_epsilon,AbsoluteXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+top-row,mutation_g_tag_mov_html_mut_epsilon,HookXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+top-row,mutation_g_tag_mov_html_mut_epsilon,KatalonXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+top-row,mutation_g_tag_mov_html_mut_epsilon,RelativeXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+top-row,mutation_g_tag_mov_html_mut_epsilon,RobulaPlusXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+top-row,mutation_g_tag_mov_html_mut_epsilon,RobulaXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+top-row,mutation_g_tag_mov_html_mut_epsilon,SeleniumXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+stat-favorites-value,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+stat-favorites-value,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,PASSED,null
+stat-favorites-value,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+stat-favorites-value,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+stat-favorites-value,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+stat-favorites-value,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+stat-favorites-value,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+top-title,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+top-title,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,FAILED,stale element reference: stale element not found in the current frame
+top-title,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+top-title,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+top-title,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+top-title,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+top-title,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+stat-favorites-value,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+stat-favorites-value,mutation_f_tag_mov_container_mut_delta,HookXPathTest,delta,PASSED,null
+stat-favorites-value,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,PASSED,null
+stat-favorites-value,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,PASSED,null
+stat-favorites-value,mutation_f_tag_mov_container_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+stat-favorites-value,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,PASSED,null
+stat-favorites-value,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,PASSED,null
+stats-heading,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-stats[1]/section[1]/div[1]/div[1]/span[1] (tried for 5 second(s) with 500 milliseconds interval)
+stats-heading,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,PASSED,null
+stats-heading,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+stats-heading,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+stats-heading,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+stats-heading,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+stats-heading,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+genre-count,mutation_g_tag_mov_html_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_g_tag_mov_html_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_g_tag_mov_html_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_g_tag_mov_html_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_g_tag_mov_html_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_g_tag_mov_html_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_g_tag_mov_html_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+stats-heading,mutation_f_tag_mov_container_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+stats-heading,mutation_f_tag_mov_container_mut_alpha,HookXPathTest,alpha,PASSED,null
+stats-heading,mutation_f_tag_mov_container_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+stats-heading,mutation_f_tag_mov_container_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+stats-heading,mutation_f_tag_mov_container_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+stats-heading,mutation_f_tag_mov_container_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+stats-heading,mutation_f_tag_mov_container_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+genre-row,mutation_g_tag_mov_html_mut_gamma,AbsoluteXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-stats[1]/section[1]/section[1]/app-panel[1]/section[1]/div[1]/div[1]/div[1]/span[2]"}
+genre-row,mutation_g_tag_mov_html_mut_gamma,HookXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(//*[@x-test-genre-count])[1]"}
+genre-row,mutation_g_tag_mov_html_mut_gamma,KatalonXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Adventure'])[1]/following::span[1]"}
+genre-row,mutation_g_tag_mov_html_mut_gamma,RelativeXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[@data-genre='Adventure']//span[@class='genre-bar-count'][normalize-space()='2']"}
+genre-row,mutation_g_tag_mov_html_mut_gamma,RobulaPlusXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@data-genre='Adventure']/*[contains(text() '2')]"}
+genre-row,mutation_g_tag_mov_html_mut_gamma,RobulaXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[@data-genre='Adventure']/span[@class='genre-bar-count']"}
+genre-row,mutation_g_tag_mov_html_mut_gamma,SeleniumXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".genre-bar-row:nth-child(1) > .genre-bar-count"}
+genre-count,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,FAILED,expected:<[2]> but was:<[]>
+genre-count,mutation_j_tag_type_mod_mut_delta,HookXPathTest,delta,PASSED,null
+genre-count,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,FAILED,expected:<[2]> but was:<[]>
+genre-count,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
+genre-count,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+genre-count,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
+genre-count,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+top-title,mutation_h_tag_mov_temp_mut_epsilon,AbsoluteXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+top-title,mutation_h_tag_mov_temp_mut_epsilon,HookXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+top-title,mutation_h_tag_mov_temp_mut_epsilon,KatalonXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+top-title,mutation_h_tag_mov_temp_mut_epsilon,RelativeXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+top-title,mutation_h_tag_mov_temp_mut_epsilon,RobulaPlusXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+top-title,mutation_h_tag_mov_temp_mut_epsilon,RobulaXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+top-title,mutation_h_tag_mov_temp_mut_epsilon,SeleniumXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+stat-total-value,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,FAILED,expected:<[8]> but was:<[★ 4.3]>
+stat-total-value,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,PASSED,null
+stat-total-value,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
+stat-total-value,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
+stat-total-value,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+stat-total-value,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
+stat-total-value,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.cssSelector: .stat-card:nth-child(1) > .stat-value (tried for 5 second(s) with 500 milliseconds interval)
+stat-total-value,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+stat-total-value,mutation_j_tag_type_mod_mut_delta,HookXPathTest,delta,PASSED,null
+stat-total-value,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
+stat-total-value,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
+stat-total-value,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+stat-total-value,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
+stat-total-value,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+genre-row,mutation_b_attr_rem_mut_epsilon,AbsoluteXPathTest,epsilon,PASSED,null
+genre-row,mutation_b_attr_rem_mut_epsilon,HookXPathTest,epsilon,PASSED,null
+genre-row,mutation_b_attr_rem_mut_epsilon,KatalonXPathTest,epsilon,PASSED,null
+genre-row,mutation_b_attr_rem_mut_epsilon,RelativeXPathTest,epsilon,PASSED,null
+genre-row,mutation_b_attr_rem_mut_epsilon,RobulaPlusXPathTest,epsilon,PASSED,null
+genre-row,mutation_b_attr_rem_mut_epsilon,RobulaXPathTest,epsilon,PASSED,null
+genre-row,mutation_b_attr_rem_mut_epsilon,SeleniumXPathTest,epsilon,PASSED,null
+genre-count,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+stat-total-value,mutation_d_text_cont_mod_mut_alpha,AbsoluteXPathTest,alpha,FAILED,expected:<[]8> but was:<[[The following text has been mutated] ]8>
+stat-total-value,mutation_d_text_cont_mod_mut_alpha,HookXPathTest,alpha,FAILED,expected:<[]8> but was:<[[The following text has been mutated] ]8>
+stat-total-value,mutation_d_text_cont_mod_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<[]8> but was:<[[The following text has been mutated] ]8>
+stat-total-value,mutation_d_text_cont_mod_mut_alpha,RelativeXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='8'] (tried for 5 second(s) with 500 milliseconds interval)
+stat-total-value,mutation_d_text_cont_mod_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,expected:<[]8> but was:<[[The following text has been mutated] ]8>
+stat-total-value,mutation_d_text_cont_mod_mut_alpha,RobulaXPathTest,alpha,FAILED,expected:<[]8> but was:<[[The following text has been mutated] ]8>
+stat-total-value,mutation_d_text_cont_mod_mut_alpha,SeleniumXPathTest,alpha,FAILED,expected:<[]8> but was:<[[The following text has been mutated] ]8>
+stat-favorites-value,mutation_f_tag_mov_container_mut_beta,AbsoluteXPathTest,beta,FAILED,expected:<[8]> but was:<[3]>
+stat-favorites-value,mutation_f_tag_mov_container_mut_beta,HookXPathTest,beta,PASSED,null
+stat-favorites-value,mutation_f_tag_mov_container_mut_beta,KatalonXPathTest,beta,FAILED,expected:<[8]> but was:<[3]>
+stat-favorites-value,mutation_f_tag_mov_container_mut_beta,RelativeXPathTest,beta,PASSED,null
+stat-favorites-value,mutation_f_tag_mov_container_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+stat-favorites-value,mutation_f_tag_mov_container_mut_beta,RobulaXPathTest,beta,FAILED,expected:<[8]> but was:<[3]>
+stat-favorites-value,mutation_f_tag_mov_container_mut_beta,SeleniumXPathTest,beta,FAILED,expected:<[8]> but was:<[3]>
+top-row,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+top-row,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+top-row,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+top-row,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+top-row,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+top-row,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+top-row,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+stat-favorites-value,mutation_d_text_cont_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+stat-favorites-value,mutation_d_text_cont_mod_mut_delta,HookXPathTest,delta,PASSED,null
+stat-favorites-value,mutation_d_text_cont_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
+stat-favorites-value,mutation_d_text_cont_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
+stat-favorites-value,mutation_d_text_cont_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+stat-favorites-value,mutation_d_text_cont_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
+stat-favorites-value,mutation_d_text_cont_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+stats-heading,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-stats[1]/section[1]/div[1]/div[1]/span[1] (tried for 5 second(s) with 500 milliseconds interval)
+stats-heading,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,PASSED,null
+stats-heading,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
+stats-heading,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
+stats-heading,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+stats-heading,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
+stats-heading,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
+top-row,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-stats[1]/section[1]/section[2]/app-panel[1]/section[1]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/a[1]"}
+top-row,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(//*[@x-test-top-title])[1]"}
+top-row,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"link text" "selector":"Quiet Harbor"}
+top-row,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//a[normalize-space()='Quiet Harbor']"}
+top-row,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[contains(text() 'Quiet Harbor')]"}
+top-row,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//a[@ng-reflect-router-link='/movie 3']"}
+top-row,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"link text" "selector":"Quiet Harbor"}
+stats-heading,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+stats-heading,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
+stats-heading,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Statistics'])[2]/following::span[1] (tried for 5 second(s) with 500 milliseconds interval)
+stats-heading,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+stats-heading,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+stats-heading,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+stats-heading,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+top-title,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-stats[1]/section[1]/section[2]/app-panel[1]/section[1]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/a[1]"}
+top-title,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,PASSED,null
+top-title,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
+top-title,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
+top-title,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+top-title,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
+top-title,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
+top-row,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-stats[1]/section[1]/section[2]/app-panel[1]/section[1]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/a[1]"}
+top-row,mutation_i_tag_rem_mut_gamma,HookXPathTest,gamma,PASSED,null
+top-row,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+top-row,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+top-row,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+top-row,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+top-row,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+top-row,mutation_e_text_cont_rem_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+top-row,mutation_e_text_cont_rem_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+top-row,mutation_e_text_cont_rem_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+top-row,mutation_e_text_cont_rem_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+top-row,mutation_e_text_cont_rem_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+top-row,mutation_e_text_cont_rem_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+top-row,mutation_e_text_cont_rem_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+stats-heading,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+stats-heading,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+stats-heading,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+stats-heading,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+stats-heading,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+stats-heading,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+stats-heading,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+genre-row,mutation_e_text_cont_rem_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+genre-row,mutation_e_text_cont_rem_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+genre-row,mutation_e_text_cont_rem_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+genre-row,mutation_e_text_cont_rem_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+genre-row,mutation_e_text_cont_rem_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+genre-row,mutation_e_text_cont_rem_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+genre-row,mutation_e_text_cont_rem_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+top-row,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+top-row,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,PASSED,null
+top-row,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
+top-row,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
+top-row,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+top-row,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
+top-row,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
+stat-total-value,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-stats[1]/section[1]/div[1]/div[1]/span[1] (tried for 5 second(s) with 500 milliseconds interval)
+stat-total-value,mutation_j_tag_type_mod_mut_gamma,HookXPathTest,gamma,PASSED,null
+stat-total-value,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,FAILED,expected:<8[]> but was:<8[Movies★ 4.3Average rating113'Average runtime3Favorites10Reviews]>
+stat-total-value,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+stat-total-value,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+stat-total-value,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+stat-total-value,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+stat-total-value,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,FAILED,expected:<[8]> but was:<[Movies]>
+stat-total-value,mutation_f_tag_mov_container_mut_delta,HookXPathTest,delta,PASSED,null
+stat-total-value,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,FAILED,expected:<[8]> but was:<[Movies]>
+stat-total-value,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,PASSED,null
+stat-total-value,mutation_f_tag_mov_container_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+stat-total-value,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,PASSED,null
+stat-total-value,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,PASSED,null
+stats-heading,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+stats-heading,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,PASSED,null
+stats-heading,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
+stats-heading,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
+stats-heading,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+stats-heading,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
+stats-heading,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
+stats-heading,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-stats[1]/section[1]/div[1]/div[1]/span[1] (tried for 5 second(s) with 500 milliseconds interval)
+stats-heading,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,PASSED,null
+stats-heading,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
+stats-heading,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
+stats-heading,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+stats-heading,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
+stats-heading,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,PASSED,null
+genre-row,mutation_g_tag_mov_html_mut_epsilon,AbsoluteXPathTest,epsilon,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-stats[1]/section[1]/section[1]/app-panel[1]/section[1]/div[1]/div[1]/div[1]/span[2]"}
+genre-row,mutation_g_tag_mov_html_mut_epsilon,HookXPathTest,epsilon,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(//*[@x-test-genre-count])[1]"}
+genre-row,mutation_g_tag_mov_html_mut_epsilon,KatalonXPathTest,epsilon,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='Adventure'])[1]/following::span[1]"}
+genre-row,mutation_g_tag_mov_html_mut_epsilon,RelativeXPathTest,epsilon,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[@data-genre='Adventure']//span[@class='genre-bar-count'][normalize-space()='2']"}
+genre-row,mutation_g_tag_mov_html_mut_epsilon,RobulaPlusXPathTest,epsilon,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@data-genre='Adventure']/*[contains(text() '2')]"}
+genre-row,mutation_g_tag_mov_html_mut_epsilon,RobulaXPathTest,epsilon,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[@data-genre='Adventure']/span[@class='genre-bar-count']"}
+genre-row,mutation_g_tag_mov_html_mut_epsilon,SeleniumXPathTest,epsilon,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".genre-bar-row:nth-child(1) > .genre-bar-count"}
+top-row,mutation_i_tag_rem_mut_epsilon,AbsoluteXPathTest,epsilon,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-stats[1]/section[1]/section[2]/app-panel[1]/section[1]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/a[1]"}
+top-row,mutation_i_tag_rem_mut_epsilon,HookXPathTest,epsilon,PASSED,null
+top-row,mutation_i_tag_rem_mut_epsilon,KatalonXPathTest,epsilon,PASSED,null
+top-row,mutation_i_tag_rem_mut_epsilon,RelativeXPathTest,epsilon,PASSED,null
+top-row,mutation_i_tag_rem_mut_epsilon,RobulaPlusXPathTest,epsilon,PASSED,null
+top-row,mutation_i_tag_rem_mut_epsilon,RobulaXPathTest,epsilon,PASSED,null
+top-row,mutation_i_tag_rem_mut_epsilon,SeleniumXPathTest,epsilon,PASSED,null
+top-title,mutation_b_attr_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+top-title,mutation_b_attr_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
+top-title,mutation_b_attr_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+top-title,mutation_b_attr_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+top-title,mutation_b_attr_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+top-title,mutation_b_attr_rem_mut_alpha,RobulaXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//a[@ng-reflect-router-link='/movie 3']"}
+top-title,mutation_b_attr_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+genre-row,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+genre-row,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+genre-row,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+genre-row,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+genre-row,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+genre-row,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+genre-row,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+stat-favorites-value,mutation_g_tag_mov_html_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+stat-favorites-value,mutation_g_tag_mov_html_mut_delta,HookXPathTest,delta,PASSED,null
+stat-favorites-value,mutation_g_tag_mov_html_mut_delta,KatalonXPathTest,delta,PASSED,null
+stat-favorites-value,mutation_g_tag_mov_html_mut_delta,RelativeXPathTest,delta,PASSED,null
+stat-favorites-value,mutation_g_tag_mov_html_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+stat-favorites-value,mutation_g_tag_mov_html_mut_delta,RobulaXPathTest,delta,PASSED,null
+stat-favorites-value,mutation_g_tag_mov_html_mut_delta,SeleniumXPathTest,delta,PASSED,null
+genre-row,mutation_h_tag_mov_temp_mut_epsilon,AbsoluteXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+genre-row,mutation_h_tag_mov_temp_mut_epsilon,HookXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+genre-row,mutation_h_tag_mov_temp_mut_epsilon,KatalonXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+genre-row,mutation_h_tag_mov_temp_mut_epsilon,RelativeXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+genre-row,mutation_h_tag_mov_temp_mut_epsilon,RobulaPlusXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+genre-row,mutation_h_tag_mov_temp_mut_epsilon,RobulaXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+genre-row,mutation_h_tag_mov_temp_mut_epsilon,SeleniumXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+stat-favorites-value,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+stat-favorites-value,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,PASSED,null
+stat-favorites-value,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
+stat-favorites-value,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
+stat-favorites-value,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+stat-favorites-value,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
+stat-favorites-value,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
+genre-row,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-stats[1]/section[1]/section[1]/app-panel[1]/section[1]/div[1]/div[1]/div[1]/span[2]"}
+genre-row,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+genre-row,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+genre-row,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[@data-genre='Adventure']//span[@class='genre-bar-count'][normalize-space()='2']"}
+genre-row,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+genre-row,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[@data-genre='Adventure']/span[@class='genre-bar-count']"}
+genre-row,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+stat-favorites-value,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+stat-favorites-value,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+stat-favorites-value,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+stat-favorites-value,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+stat-favorites-value,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+stat-favorites-value,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+stat-favorites-value,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+stat-total-value,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-stats[1]/section[1]/div[1]/div[1]/span[1] (tried for 5 second(s) with 500 milliseconds interval)
+stat-total-value,mutation_i_tag_rem_mut_gamma,HookXPathTest,gamma,PASSED,null
+stat-total-value,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+stat-total-value,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+stat-total-value,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+stat-total-value,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+stat-total-value,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.cssSelector: .stat-card:nth-child(1) > .stat-value (tried for 5 second(s) with 500 milliseconds interval)
+top-row,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-stats[1]/section[1]/section[2]/app-panel[1]/section[1]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/a[1]"}
+top-row,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
+top-row,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+top-row,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+top-row,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+top-row,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+top-row,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+top-title,mutation_a_attr_val_mod_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+top-title,mutation_a_attr_val_mod_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+top-title,mutation_a_attr_val_mod_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+top-title,mutation_a_attr_val_mod_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+top-title,mutation_a_attr_val_mod_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+top-title,mutation_a_attr_val_mod_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+top-title,mutation_a_attr_val_mod_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+top-title,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-stats[1]/section[1]/section[2]/app-panel[1]/section[1]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/a[1]"}
+top-title,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(//*[@x-test-top-title])[1]"}
+top-title,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"link text" "selector":"Quiet Harbor"}
+top-title,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//a[normalize-space()='Quiet Harbor']"}
+top-title,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[contains(text() 'Quiet Harbor')]"}
+top-title,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//a[@ng-reflect-router-link='/movie 3']"}
+top-title,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"link text" "selector":"Quiet Harbor"}
+genre-count,mutation_a_attr_val_mod_mut_epsilon,AbsoluteXPathTest,epsilon,PASSED,null
+genre-count,mutation_a_attr_val_mod_mut_epsilon,HookXPathTest,epsilon,PASSED,null
+genre-count,mutation_a_attr_val_mod_mut_epsilon,KatalonXPathTest,epsilon,PASSED,null
+genre-count,mutation_a_attr_val_mod_mut_epsilon,RelativeXPathTest,epsilon,PASSED,null
+genre-count,mutation_a_attr_val_mod_mut_epsilon,RobulaPlusXPathTest,epsilon,PASSED,null
+genre-count,mutation_a_attr_val_mod_mut_epsilon,RobulaXPathTest,epsilon,PASSED,null
+genre-count,mutation_a_attr_val_mod_mut_epsilon,SeleniumXPathTest,epsilon,PASSED,null
+stat-total-value,mutation_g_tag_mov_html_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+stat-total-value,mutation_g_tag_mov_html_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+stat-total-value,mutation_g_tag_mov_html_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+stat-total-value,mutation_g_tag_mov_html_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+stat-total-value,mutation_g_tag_mov_html_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+stat-total-value,mutation_g_tag_mov_html_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+stat-total-value,mutation_g_tag_mov_html_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+stat-favorites-value,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+stat-favorites-value,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,PASSED,null
+stat-favorites-value,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+stat-favorites-value,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+stat-favorites-value,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+stat-favorites-value,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+stat-favorites-value,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+top-row,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-stats[1]/section[1]/section[2]/app-panel[1]/section[1]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/a[1]"}
+top-row,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(//*[@x-test-top-title])[1]"}
+top-row,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"link text" "selector":"Quiet Harbor"}
+top-row,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//a[normalize-space()='Quiet Harbor']"}
+top-row,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[contains(text() 'Quiet Harbor')]"}
+top-row,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//a[@ng-reflect-router-link='/movie 3']"}
+top-row,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"link text" "selector":"Quiet Harbor"}
+genre-count,mutation_g_tag_mov_html_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_g_tag_mov_html_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_g_tag_mov_html_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_g_tag_mov_html_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_g_tag_mov_html_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_g_tag_mov_html_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_g_tag_mov_html_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+stat-favorites-value,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+stat-favorites-value,mutation_h_tag_mov_temp_mut_delta,HookXPathTest,delta,PASSED,null
+stat-favorites-value,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,PASSED,null
+stat-favorites-value,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,PASSED,null
+stat-favorites-value,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+stat-favorites-value,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,PASSED,null
+stat-favorites-value,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,PASSED,null
+top-row,mutation_f_tag_mov_container_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+top-row,mutation_f_tag_mov_container_mut_beta,HookXPathTest,beta,PASSED,null
+top-row,mutation_f_tag_mov_container_mut_beta,KatalonXPathTest,beta,PASSED,null
+top-row,mutation_f_tag_mov_container_mut_beta,RelativeXPathTest,beta,PASSED,null
+top-row,mutation_f_tag_mov_container_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+top-row,mutation_f_tag_mov_container_mut_beta,RobulaXPathTest,beta,PASSED,null
+top-row,mutation_f_tag_mov_container_mut_beta,SeleniumXPathTest,beta,PASSED,null
+genre-row,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-stats[1]/section[1]/section[1]/app-panel[1]/section[1]/div[1]/div[1]/div[1]/span[2]"}
+genre-row,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,PASSED,null
+genre-row,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
+genre-row,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
+genre-row,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+genre-row,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
+genre-row,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
+stat-total-value,mutation_f_tag_mov_container_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+stat-total-value,mutation_f_tag_mov_container_mut_gamma,HookXPathTest,gamma,PASSED,null
+stat-total-value,mutation_f_tag_mov_container_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+stat-total-value,mutation_f_tag_mov_container_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+stat-total-value,mutation_f_tag_mov_container_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+stat-total-value,mutation_f_tag_mov_container_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+stat-total-value,mutation_f_tag_mov_container_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+genre-row,mutation_a_attr_val_mod_mut_epsilon,AbsoluteXPathTest,epsilon,PASSED,null
+genre-row,mutation_a_attr_val_mod_mut_epsilon,HookXPathTest,epsilon,PASSED,null
+genre-row,mutation_a_attr_val_mod_mut_epsilon,KatalonXPathTest,epsilon,PASSED,null
+genre-row,mutation_a_attr_val_mod_mut_epsilon,RelativeXPathTest,epsilon,PASSED,null
+genre-row,mutation_a_attr_val_mod_mut_epsilon,RobulaPlusXPathTest,epsilon,PASSED,null
+genre-row,mutation_a_attr_val_mod_mut_epsilon,RobulaXPathTest,epsilon,PASSED,null
+genre-row,mutation_a_attr_val_mod_mut_epsilon,SeleniumXPathTest,epsilon,PASSED,null
+top-row,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-stats[1]/section[1]/section[2]/app-panel[1]/section[1]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/a[1]"}
+top-row,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,PASSED,null
+top-row,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
+top-row,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
+top-row,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+top-row,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
+top-row,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
+top-row,mutation_b_attr_rem_mut_epsilon,AbsoluteXPathTest,epsilon,PASSED,null
+top-row,mutation_b_attr_rem_mut_epsilon,HookXPathTest,epsilon,PASSED,null
+top-row,mutation_b_attr_rem_mut_epsilon,KatalonXPathTest,epsilon,PASSED,null
+top-row,mutation_b_attr_rem_mut_epsilon,RelativeXPathTest,epsilon,PASSED,null
+top-row,mutation_b_attr_rem_mut_epsilon,RobulaPlusXPathTest,epsilon,PASSED,null
+top-row,mutation_b_attr_rem_mut_epsilon,RobulaXPathTest,epsilon,PASSED,null
+top-row,mutation_b_attr_rem_mut_epsilon,SeleniumXPathTest,epsilon,PASSED,null
+genre-count,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-stats[1]/section[1]/section[1]/app-panel[1]/section[1]/div[1]/div[1]/div[1]/span[2]"}
+genre-count,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(//*[@x-test-genre-count])[1]"}
+genre-count,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<[2]> but was:<[Drama]>
+genre-count,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[@data-genre='Adventure']//span[@class='genre-bar-count'][normalize-space()='2']"}
+genre-count,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@data-genre='Adventure']/*[contains(text() '2')]"}
+genre-count,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[@data-genre='Adventure']/span[@class='genre-bar-count']"}
+genre-count,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".genre-bar-row:nth-child(1) > .genre-bar-count"}
+top-title,mutation_f_tag_mov_container_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+top-title,mutation_f_tag_mov_container_mut_beta,HookXPathTest,beta,PASSED,null
+top-title,mutation_f_tag_mov_container_mut_beta,KatalonXPathTest,beta,PASSED,null
+top-title,mutation_f_tag_mov_container_mut_beta,RelativeXPathTest,beta,PASSED,null
+top-title,mutation_f_tag_mov_container_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+top-title,mutation_f_tag_mov_container_mut_beta,RobulaXPathTest,beta,PASSED,null
+top-title,mutation_f_tag_mov_container_mut_beta,SeleniumXPathTest,beta,PASSED,null
+stat-favorites-value,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+stat-favorites-value,mutation_i_tag_rem_mut_delta,HookXPathTest,delta,PASSED,null
+stat-favorites-value,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+stat-favorites-value,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+stat-favorites-value,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+stat-favorites-value,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+stat-favorites-value,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+top-title,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-stats[1]/section[1]/section[2]/app-panel[1]/section[1]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/a[1]"}
+top-title,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(//*[@x-test-top-title])[1]"}
+top-title,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"link text" "selector":"Quiet Harbor"}
+top-title,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//a[normalize-space()='Quiet Harbor']"}
+top-title,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+top-title,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//a[@ng-reflect-router-link='/movie 3']"}
+top-title,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"link text" "selector":"Quiet Harbor"}
+stat-total-value,mutation_e_text_cont_rem_mut_alpha,AbsoluteXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-stats[1]/section[1]/div[1]/div[1]/span[1] (tried for 5 second(s) with 500 milliseconds interval)
+stat-total-value,mutation_e_text_cont_rem_mut_alpha,HookXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x-test-stat-total-value] (tried for 5 second(s) with 500 milliseconds interval)
+stat-total-value,mutation_e_text_cont_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Statistics'])[2]/following::span[1] (tried for 5 second(s) with 500 milliseconds interval)
+stat-total-value,mutation_e_text_cont_rem_mut_alpha,RelativeXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='8'] (tried for 5 second(s) with 500 milliseconds interval)
+stat-total-value,mutation_e_text_cont_rem_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //span[contains(text() '8')] (tried for 5 second(s) with 500 milliseconds interval)
+stat-total-value,mutation_e_text_cont_rem_mut_alpha,RobulaXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //div[1]/span[@class='stat-value'] (tried for 5 second(s) with 500 milliseconds interval)
+stat-total-value,mutation_e_text_cont_rem_mut_alpha,SeleniumXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.cssSelector: .stat-card:nth-child(1) > .stat-value (tried for 5 second(s) with 500 milliseconds interval)
+stat-favorites-value,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+stat-favorites-value,mutation_k_tag_ins_mut_delta,HookXPathTest,delta,PASSED,null
+stat-favorites-value,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,PASSED,null
+stat-favorites-value,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,PASSED,null
+stat-favorites-value,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+stat-favorites-value,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,PASSED,null
+stat-favorites-value,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,PASSED,null
+top-row,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+top-row,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,PASSED,null
+top-row,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+top-row,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+top-row,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+top-row,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+top-row,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+genre-row,mutation_k_tag_ins_mut_epsilon,AbsoluteXPathTest,epsilon,PASSED,null
+genre-row,mutation_k_tag_ins_mut_epsilon,HookXPathTest,epsilon,PASSED,null
+genre-row,mutation_k_tag_ins_mut_epsilon,KatalonXPathTest,epsilon,PASSED,null
+genre-row,mutation_k_tag_ins_mut_epsilon,RelativeXPathTest,epsilon,PASSED,null
+genre-row,mutation_k_tag_ins_mut_epsilon,RobulaPlusXPathTest,epsilon,PASSED,null
+genre-row,mutation_k_tag_ins_mut_epsilon,RobulaXPathTest,epsilon,PASSED,null
+genre-row,mutation_k_tag_ins_mut_epsilon,SeleniumXPathTest,epsilon,PASSED,null
+top-row,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+top-row,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+top-row,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+top-row,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+top-row,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+top-row,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+top-row,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+stats-heading,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+stats-heading,mutation_h_tag_mov_temp_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+stats-heading,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+stats-heading,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+stats-heading,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+stats-heading,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+stats-heading,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+top-row,mutation_j_tag_type_mod_mut_epsilon,AbsoluteXPathTest,epsilon,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-stats[1]/section[1]/section[2]/app-panel[1]/section[1]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/a[1]"}
+top-row,mutation_j_tag_type_mod_mut_epsilon,HookXPathTest,epsilon,PASSED,null
+top-row,mutation_j_tag_type_mod_mut_epsilon,KatalonXPathTest,epsilon,PASSED,null
+top-row,mutation_j_tag_type_mod_mut_epsilon,RelativeXPathTest,epsilon,PASSED,null
+top-row,mutation_j_tag_type_mod_mut_epsilon,RobulaPlusXPathTest,epsilon,PASSED,null
+top-row,mutation_j_tag_type_mod_mut_epsilon,RobulaXPathTest,epsilon,PASSED,null
+top-row,mutation_j_tag_type_mod_mut_epsilon,SeleniumXPathTest,epsilon,PASSED,null
+genre-count,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-stats[1]/section[1]/section[1]/app-panel[1]/section[1]/div[1]/div[1]/div[1]/span[2]"}
+genre-count,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+genre-count,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<[2]> but was:<[Drama]>
+genre-count,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[@data-genre='Adventure']//span[@class='genre-bar-count'][normalize-space()='2']"}
+genre-count,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+genre-count,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[@data-genre='Adventure']/span[@class='genre-bar-count']"}
+genre-count,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+top-row,mutation_h_tag_mov_temp_mut_epsilon,AbsoluteXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+top-row,mutation_h_tag_mov_temp_mut_epsilon,HookXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+top-row,mutation_h_tag_mov_temp_mut_epsilon,KatalonXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+top-row,mutation_h_tag_mov_temp_mut_epsilon,RelativeXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+top-row,mutation_h_tag_mov_temp_mut_epsilon,RobulaPlusXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+top-row,mutation_h_tag_mov_temp_mut_epsilon,RobulaXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+top-row,mutation_h_tag_mov_temp_mut_epsilon,SeleniumXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+stat-favorites-value,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+stat-favorites-value,mutation_j_tag_type_mod_mut_delta,HookXPathTest,delta,PASSED,null
+stat-favorites-value,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
+stat-favorites-value,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
+stat-favorites-value,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+stat-favorites-value,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
+stat-favorites-value,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+stat-favorites-value,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+stat-favorites-value,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+stat-favorites-value,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+stat-favorites-value,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+stat-favorites-value,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+stat-favorites-value,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+stat-favorites-value,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+top-row,mutation_k_tag_ins_mut_epsilon,AbsoluteXPathTest,epsilon,PASSED,null
+top-row,mutation_k_tag_ins_mut_epsilon,HookXPathTest,epsilon,PASSED,null
+top-row,mutation_k_tag_ins_mut_epsilon,KatalonXPathTest,epsilon,PASSED,null
+top-row,mutation_k_tag_ins_mut_epsilon,RelativeXPathTest,epsilon,PASSED,null
+top-row,mutation_k_tag_ins_mut_epsilon,RobulaPlusXPathTest,epsilon,PASSED,null
+top-row,mutation_k_tag_ins_mut_epsilon,RobulaXPathTest,epsilon,PASSED,null
+top-row,mutation_k_tag_ins_mut_epsilon,SeleniumXPathTest,epsilon,PASSED,null
+genre-count,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_h_tag_mov_temp_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+stats-heading,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+stats-heading,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,PASSED,null
+stats-heading,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Statistics'])[2]/following::span[1] (tried for 5 second(s) with 500 milliseconds interval)
+stats-heading,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+stats-heading,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+stats-heading,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+stats-heading,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+stat-total-value,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,FAILED,expected:<[8]> but was:<[Movies]>
+stat-total-value,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x-test-stat-total-value] (tried for 5 second(s) with 500 milliseconds interval)
+stat-total-value,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<[8]> but was:<[Movies]>
+stat-total-value,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='8'] (tried for 5 second(s) with 500 milliseconds interval)
+stat-total-value,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //span[contains(text() '8')] (tried for 5 second(s) with 500 milliseconds interval)
+stat-total-value,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //div[1]/span[@class='stat-value'] (tried for 5 second(s) with 500 milliseconds interval)
+stat-total-value,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.cssSelector: .stat-card:nth-child(1) > .stat-value (tried for 5 second(s) with 500 milliseconds interval)
+top-title,mutation_g_tag_mov_html_mut_epsilon,AbsoluteXPathTest,epsilon,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-stats[1]/section[1]/section[2]/app-panel[1]/section[1]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/a[1]"}
+top-title,mutation_g_tag_mov_html_mut_epsilon,HookXPathTest,epsilon,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(//*[@x-test-top-title])[1]"}
+top-title,mutation_g_tag_mov_html_mut_epsilon,KatalonXPathTest,epsilon,FAILED,no such element: Unable to locate element: {"method":"link text" "selector":"Quiet Harbor"}
+top-title,mutation_g_tag_mov_html_mut_epsilon,RelativeXPathTest,epsilon,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//a[normalize-space()='Quiet Harbor']"}
+top-title,mutation_g_tag_mov_html_mut_epsilon,RobulaPlusXPathTest,epsilon,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[contains(text() 'Quiet Harbor')]"}
+top-title,mutation_g_tag_mov_html_mut_epsilon,RobulaXPathTest,epsilon,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//a[@ng-reflect-router-link='/movie 3']"}
+top-title,mutation_g_tag_mov_html_mut_epsilon,SeleniumXPathTest,epsilon,FAILED,no such element: Unable to locate element: {"method":"link text" "selector":"Quiet Harbor"}
+stat-total-value,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,FAILED,expected:<[8]> but was:<[★ 4.3]>
+stat-total-value,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,PASSED,null
+stat-total-value,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,FAILED,expected:<8[]> but was:<8[Movies]>
+stat-total-value,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
+stat-total-value,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+stat-total-value,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,FAILED,expected:<[8]> but was:<[★ 4.3]>
+stat-total-value,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
+top-title,mutation_g_tag_mov_html_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+top-title,mutation_g_tag_mov_html_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+top-title,mutation_g_tag_mov_html_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+top-title,mutation_g_tag_mov_html_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+top-title,mutation_g_tag_mov_html_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+top-title,mutation_g_tag_mov_html_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+top-title,mutation_g_tag_mov_html_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+stat-favorites-value,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+stat-favorites-value,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,PASSED,null
+stat-favorites-value,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
+stat-favorites-value,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
+stat-favorites-value,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+stat-favorites-value,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
+stat-favorites-value,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
+stat-total-value,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+stat-total-value,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,PASSED,null
+stat-total-value,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+stat-total-value,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+stat-total-value,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+stat-total-value,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+stat-total-value,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+top-row,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-stats[1]/section[1]/section[2]/app-panel[1]/section[1]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/a[1]"}
+top-row,mutation_j_tag_type_mod_mut_gamma,HookXPathTest,gamma,PASSED,null
+top-row,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+top-row,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+top-row,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+top-row,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+top-row,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+top-title,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-stats[1]/section[1]/section[2]/app-panel[1]/section[1]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/a[1]"}
+top-title,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+top-title,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"link text" "selector":"Quiet Harbor"}
+top-title,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//a[normalize-space()='Quiet Harbor']"}
+top-title,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+top-title,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//a[@ng-reflect-router-link='/movie 3']"}
+top-title,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"link text" "selector":"Quiet Harbor"}
+stat-favorites-value,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+stat-favorites-value,mutation_h_tag_mov_temp_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+stat-favorites-value,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+stat-favorites-value,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+stat-favorites-value,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+stat-favorites-value,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+stat-favorites-value,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+top-row,mutation_f_tag_mov_container_mut_epsilon,AbsoluteXPathTest,epsilon,PASSED,null
+top-row,mutation_f_tag_mov_container_mut_epsilon,HookXPathTest,epsilon,PASSED,null
+top-row,mutation_f_tag_mov_container_mut_epsilon,KatalonXPathTest,epsilon,PASSED,null
+top-row,mutation_f_tag_mov_container_mut_epsilon,RelativeXPathTest,epsilon,PASSED,null
+top-row,mutation_f_tag_mov_container_mut_epsilon,RobulaPlusXPathTest,epsilon,PASSED,null
+top-row,mutation_f_tag_mov_container_mut_epsilon,RobulaXPathTest,epsilon,PASSED,null
+top-row,mutation_f_tag_mov_container_mut_epsilon,SeleniumXPathTest,epsilon,PASSED,null
+stat-total-value,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+stat-total-value,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+stat-total-value,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+stat-total-value,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+stat-total-value,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+stat-total-value,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+stat-total-value,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+genre-count,mutation_i_tag_rem_mut_delta,HookXPathTest,delta,PASSED,null
+genre-count,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+genre-count,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+genre-count,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+genre-count,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+genre-count,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+genre-row,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+genre-row,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,PASSED,null
+genre-row,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
+genre-row,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
+genre-row,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+genre-row,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
+genre-row,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
+stat-total-value,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+stat-total-value,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+stat-total-value,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+stat-total-value,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+stat-total-value,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+stat-total-value,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+stat-total-value,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+genre-row,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-stats[1]/section[1]/section[1]/app-panel[1]/section[1]/div[1]/div[1]/div[1]/span[2]"}
+genre-row,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,PASSED,null
+genre-row,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
+genre-row,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
+genre-row,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+genre-row,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
+genre-row,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,PASSED,null
+top-title,mutation_e_text_cont_rem_mut_alpha,AbsoluteXPathTest,alpha,FAILED,expected:<[Quiet Harbor]> but was:<[]>
+top-title,mutation_e_text_cont_rem_mut_alpha,HookXPathTest,alpha,FAILED,expected:<[Quiet Harbor]> but was:<[]>
+top-title,mutation_e_text_cont_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"link text" "selector":"Quiet Harbor"}
+top-title,mutation_e_text_cont_rem_mut_alpha,RelativeXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//a[normalize-space()='Quiet Harbor']"}
+top-title,mutation_e_text_cont_rem_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[contains(text() 'Quiet Harbor')]"}
+top-title,mutation_e_text_cont_rem_mut_alpha,RobulaXPathTest,alpha,FAILED,expected:<[Quiet Harbor]> but was:<[]>
+top-title,mutation_e_text_cont_rem_mut_alpha,SeleniumXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"link text" "selector":"Quiet Harbor"}
+top-title,mutation_a_attr_val_mod_mut_epsilon,AbsoluteXPathTest,epsilon,PASSED,null
+top-title,mutation_a_attr_val_mod_mut_epsilon,HookXPathTest,epsilon,PASSED,null
+top-title,mutation_a_attr_val_mod_mut_epsilon,KatalonXPathTest,epsilon,PASSED,null
+top-title,mutation_a_attr_val_mod_mut_epsilon,RelativeXPathTest,epsilon,PASSED,null
+top-title,mutation_a_attr_val_mod_mut_epsilon,RobulaPlusXPathTest,epsilon,PASSED,null
+top-title,mutation_a_attr_val_mod_mut_epsilon,RobulaXPathTest,epsilon,PASSED,null
+top-title,mutation_a_attr_val_mod_mut_epsilon,SeleniumXPathTest,epsilon,PASSED,null
+stat-total-value,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+stat-total-value,mutation_i_tag_rem_mut_delta,HookXPathTest,delta,PASSED,null
+stat-total-value,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+stat-total-value,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+stat-total-value,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+stat-total-value,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+stat-total-value,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+stats-heading,mutation_g_tag_mov_html_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+stats-heading,mutation_g_tag_mov_html_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+stats-heading,mutation_g_tag_mov_html_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+stats-heading,mutation_g_tag_mov_html_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+stats-heading,mutation_g_tag_mov_html_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+stats-heading,mutation_g_tag_mov_html_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+stats-heading,mutation_g_tag_mov_html_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+top-title,mutation_b_attr_rem_mut_epsilon,AbsoluteXPathTest,epsilon,PASSED,null
+top-title,mutation_b_attr_rem_mut_epsilon,HookXPathTest,epsilon,PASSED,null
+top-title,mutation_b_attr_rem_mut_epsilon,KatalonXPathTest,epsilon,PASSED,null
+top-title,mutation_b_attr_rem_mut_epsilon,RelativeXPathTest,epsilon,PASSED,null
+top-title,mutation_b_attr_rem_mut_epsilon,RobulaPlusXPathTest,epsilon,PASSED,null
+top-title,mutation_b_attr_rem_mut_epsilon,RobulaXPathTest,epsilon,PASSED,null
+top-title,mutation_b_attr_rem_mut_epsilon,SeleniumXPathTest,epsilon,PASSED,null
+stat-total-value,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+stat-total-value,mutation_k_tag_ins_mut_gamma,HookXPathTest,gamma,PASSED,null
+stat-total-value,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+stat-total-value,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+stat-total-value,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+stat-total-value,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+stat-total-value,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+stat-favorites-value,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+stat-favorites-value,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+stat-favorites-value,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+stat-favorites-value,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+stat-favorites-value,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+stat-favorites-value,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+stat-favorites-value,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+genre-row,mutation_b_attr_rem_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+genre-row,mutation_b_attr_rem_mut_gamma,HookXPathTest,gamma,PASSED,null
+genre-row,mutation_b_attr_rem_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+genre-row,mutation_b_attr_rem_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+genre-row,mutation_b_attr_rem_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+genre-row,mutation_b_attr_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+genre-row,mutation_b_attr_rem_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+top-title,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+top-title,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+top-title,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+top-title,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+top-title,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+top-title,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+top-title,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+top-row,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+top-row,mutation_h_tag_mov_temp_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+top-row,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+top-row,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+top-row,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+top-row,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+top-row,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+genre-count,mutation_f_tag_mov_container_mut_delta,HookXPathTest,delta,PASSED,null
+genre-count,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,PASSED,null
+genre-count,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,PASSED,null
+genre-count,mutation_f_tag_mov_container_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+genre-count,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,PASSED,null
+genre-count,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,PASSED,null
+stat-favorites-value,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+stat-favorites-value,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,PASSED,null
+stat-favorites-value,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
+stat-favorites-value,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
+stat-favorites-value,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+stat-favorites-value,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
+stat-favorites-value,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,PASSED,null
+top-title,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-stats[1]/section[1]/section[2]/app-panel[1]/section[1]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/a[1]"}
+top-title,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,PASSED,null
+top-title,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
+top-title,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
+top-title,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+top-title,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
+top-title,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,PASSED,null
+genre-count,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+genre-count,mutation_k_tag_ins_mut_delta,HookXPathTest,delta,PASSED,null
+genre-count,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,PASSED,null
+genre-count,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,PASSED,null
+genre-count,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+genre-count,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,PASSED,null
+genre-count,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,PASSED,null
+top-row,mutation_g_tag_mov_html_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+top-row,mutation_g_tag_mov_html_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+top-row,mutation_g_tag_mov_html_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+top-row,mutation_g_tag_mov_html_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+top-row,mutation_g_tag_mov_html_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+top-row,mutation_g_tag_mov_html_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+top-row,mutation_g_tag_mov_html_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+stat-total-value,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,FAILED,expected:<[8]> but was:<[★ 4.3]>
+stat-total-value,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x-test-stat-total-value] (tried for 5 second(s) with 500 milliseconds interval)
+stat-total-value,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,FAILED,expected:<[8]> but was:<[★ 4.3]>
+stat-total-value,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='8'] (tried for 5 second(s) with 500 milliseconds interval)
+stat-total-value,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //span[contains(text() '8')] (tried for 5 second(s) with 500 milliseconds interval)
+stat-total-value,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,FAILED,expected:<[8]> but was:<[★ 4.3]>
+stat-total-value,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,FAILED,expected:<[8]> but was:<[★ 4.3]>
+genre-count,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+stats-heading,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-stats[1]/section[1]/div[1]/div[1]/span[1] (tried for 5 second(s) with 500 milliseconds interval)
+stats-heading,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x-test-stat-total-value] (tried for 5 second(s) with 500 milliseconds interval)
+stats-heading,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Statistics'])[2]/following::span[1] (tried for 5 second(s) with 500 milliseconds interval)
+stats-heading,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='8'] (tried for 5 second(s) with 500 milliseconds interval)
+stats-heading,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //span[contains(text() '8')] (tried for 5 second(s) with 500 milliseconds interval)
+stats-heading,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //div[1]/span[@class='stat-value'] (tried for 5 second(s) with 500 milliseconds interval)
+stats-heading,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.cssSelector: .stat-card:nth-child(1) > .stat-value (tried for 5 second(s) with 500 milliseconds interval)
+genre-count,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_h_tag_mov_temp_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+stat-total-value,mutation_e_text_cont_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+stat-total-value,mutation_e_text_cont_rem_mut_delta,HookXPathTest,delta,PASSED,null
+stat-total-value,mutation_e_text_cont_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+stat-total-value,mutation_e_text_cont_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+stat-total-value,mutation_e_text_cont_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+stat-total-value,mutation_e_text_cont_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+stat-total-value,mutation_e_text_cont_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+top-title,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+top-title,mutation_h_tag_mov_temp_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+top-title,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+top-title,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+top-title,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+top-title,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+top-title,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+top-title,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+top-title,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,PASSED,null
+top-title,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
+top-title,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
+top-title,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+top-title,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
+top-title,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
+stat-total-value,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+stat-total-value,mutation_h_tag_mov_temp_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+stat-total-value,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+stat-total-value,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+stat-total-value,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+stat-total-value,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+stat-total-value,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+top-row,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-stats[1]/section[1]/section[2]/app-panel[1]/section[1]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/a[1]"}
+top-row,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+top-row,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+top-row,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+top-row,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+top-row,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+top-row,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+top-row,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-stats[1]/section[1]/section[2]/app-panel[1]/section[1]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/a[1]"}
+top-row,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,PASSED,null
+top-row,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
+top-row,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
+top-row,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+top-row,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
+top-row,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,PASSED,null
+genre-count,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+genre-count,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+genre-row,mutation_b_attr_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+genre-row,mutation_b_attr_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
+genre-row,mutation_b_attr_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+genre-row,mutation_b_attr_rem_mut_alpha,RelativeXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[@data-genre='Adventure']//span[@class='genre-bar-count'][normalize-space()='2']"}
+genre-row,mutation_b_attr_rem_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@data-genre='Adventure']/*[contains(text() '2')]"}
+genre-row,mutation_b_attr_rem_mut_alpha,RobulaXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[@data-genre='Adventure']/span[@class='genre-bar-count']"}
+genre-row,mutation_b_attr_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+stats-heading,mutation_d_text_cont_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+stats-heading,mutation_d_text_cont_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+stats-heading,mutation_d_text_cont_mod_mut_alpha,KatalonXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Statistics'])[2]/following::span[1] (tried for 5 second(s) with 500 milliseconds interval)
+stats-heading,mutation_d_text_cont_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+stats-heading,mutation_d_text_cont_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+stats-heading,mutation_d_text_cont_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+stats-heading,mutation_d_text_cont_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null

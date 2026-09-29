@@ -1,0 +1,17 @@
+######### START 1 - a #########
+<input id="f-veg" name="veg" type="checkbox" [(ngModel)]="vegetarian" x-test-f-veg>
+######### END 1 - a #########
+######### START 2 - b #########
+<input name="vegetarian" type="checkbox" [(ngModel)]="vegetarian" x-test-f-veg>
+######### END 2 - b #########
+######### START 3 - c #########
+<input id="f-veg" data-name="vegetarian" type="checkbox" [(ngModel)]="vegetarian" x-test-f-veg>
+######### END 3 - c #########
+######### START 4 - j #########
+<textarea id="f-veg" name="vegetarian" type="checkbox" [(ngModel)]="vegetarian" x-test-f-veg></textarea>
+######### END 4 - j #########
+######### START 5 - k #########
+<div>
+  <input id="f-veg" name="vegetarian" type="checkbox" [(ngModel)]="vegetarian" x-test-f-veg>
+</div>
+######### END 5 - k #########

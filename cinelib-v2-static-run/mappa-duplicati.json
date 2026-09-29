@@ -1,0 +1,3413 @@
+{
+"nota": "duplicato (uuid) -> rappresentante identico (uuid) testato; per ricostruire la tabella con duplicati",
+"mappa": {
+"ae363c8e-276e-4885-aad3-7324aca4152f": "cac33d4a-85cc-4fbb-9fcf-3625b501b8a7",
+"5f27984f-aea4-439f-a566-2456b3830561": "bca9e20c-1b6f-491e-a70a-82acf6539ae2",
+"83ec79b6-b719-4aa0-b6e6-2c8ec859f638": "2123e52b-9de6-4b93-a7ac-db99bd93e3b1",
+"65147be0-67ae-4297-9853-2060f6ddc05e": "10022ea5-5d94-48de-97a8-7012794c8fb0",
+"06ec106c-cc89-4a19-8522-2b7f166b438a": "c35bd847-208c-4b51-9dbb-1a5a29bc9242",
+"dabbc40a-1b20-40ca-97f5-f7496e5da47b": "a1e5baff-b258-43ec-8078-23a12dbd7f97",
+"058793c1-1df4-4f05-80ee-31af3faf8fdc": "32174bf0-d746-48e1-9b20-f3bd9ed2786d",
+"54b1bbcc-8593-45e0-bb92-78b27d96b26c": "d84f508e-b82a-418e-815c-98728045f21e",
+"c16a997a-e10d-42f0-a01b-7b29572aeed0": "4dd0e24d-b5f2-4084-8036-706aef2e42b8",
+"54eaa8fd-28a2-4f88-9f9f-44885cb80c9d": "cac33d4a-85cc-4fbb-9fcf-3625b501b8a7",
+"25e49351-b188-49bb-a420-2ad04c0f7836": "7c51bd53-d521-4da2-85cb-9f95976e916b",
+"354fb6e2-6e1b-496c-9838-0df0fe984c79": "c8e87e0c-00a6-4f30-8f35-d48faa18ec01",
+"63f3a9a4-7c39-4a52-b652-017692315947": "10022ea5-5d94-48de-97a8-7012794c8fb0",
+"6fa85d86-579c-46d0-98ac-f1cd9cecc4a6": "c35bd847-208c-4b51-9dbb-1a5a29bc9242",
+"1d648a65-19d0-4b35-bdf2-1577ddc79843": "78d21c8a-226b-4913-a079-d6ffa76d0abf",
+"956ef101-3522-4b46-a58b-fa2b801566e0": "a1e5baff-b258-43ec-8078-23a12dbd7f97",
+"fc41fcd2-9bbb-433c-8892-bc512774586e": "32174bf0-d746-48e1-9b20-f3bd9ed2786d",
+"2ce7c5cc-b660-44a4-8dba-bbc3ed51f87a": "d9c740cd-8d29-478a-b797-240dbdb1af1f",
+"68783db5-19c8-4c7c-94a2-70775d098408": "d84f508e-b82a-418e-815c-98728045f21e",
+"48c8d74a-547b-431d-9d94-428d2f8bef2f": "4dd0e24d-b5f2-4084-8036-706aef2e42b8",
+"9f6f1751-7620-4bf5-a72c-02ce44c4617e": "01581c10-a019-40b0-aa1c-e77653122f46",
+"be04f255-e85a-4c15-8bf5-6638b2f6a800": "260d84fe-271e-44b8-9404-64ad338dfb1a",
+"4942ef3b-78fe-4942-902d-b3ab126d6cae": "fc676df3-ad5f-4096-9aa3-c38170dbf1cd",
+"191f2d6f-a9fc-4125-83db-58fe3e1ed68d": "ceae2b38-d90d-4d4e-94ab-0636dbbaa25a",
+"9fbbe2f0-751a-4eac-8402-d7137cdae047": "2ffb2e7e-20e8-48c1-ba94-855c036ee3dc",
+"652ba322-ecb7-4035-aa6f-76e12c337871": "8dbee799-9d5c-4411-8f10-f589eb36d283",
+"73536c1e-88a6-405f-ab3b-9a26b4bdab24": "1f6f0cc4-29e8-41a8-8f6f-c6411a98fa5b",
+"b1d9a473-b685-407c-b4b7-c2aca4439054": "7c2c206e-9baa-4264-8905-01181195bda9",
+"5206582c-009f-4ef5-9c32-82f66244788c": "ce1b5a4e-dac3-4c39-b596-73fa894c1f48",
+"fe54d591-ec69-48ec-9a01-1c9225656115": "7731a841-9ade-4344-a13f-32bb7beb80b3",
+"59ba48b7-966e-4622-bb8b-26e848a4efec": "c69938c1-1e0a-472c-8486-322d4ed4583c",
+"df88d5e2-d016-40eb-82fe-d722451798cc": "cac33d4a-85cc-4fbb-9fcf-3625b501b8a7",
+"a9f9501f-357e-48cb-abac-e446b915808f": "3d23766e-8dcd-469a-982d-4e3905d4a46f",
+"356ad634-51e9-443d-9ee0-4fe6a44debf5": "1100fa4d-0372-4bae-9dee-40026b3ad1ad",
+"bba736cd-f08a-444b-ae89-b32321784c80": "c6470bff-6e86-44fd-abcb-c27d6a26b87b",
+"82686710-48ec-49ee-a45f-0d1939f55509": "c35bd847-208c-4b51-9dbb-1a5a29bc9242",
+"a1b8efd7-e3fe-48f2-a348-c5ba743f755e": "e4b0bb55-bd9e-4473-b9bb-6ad776ab9cce",
+"92fb07cc-3c62-47eb-8a24-14feb7f5a89b": "3ae908b9-6e66-4d8c-9462-68566e9eaf1f",
+"ecad979e-d5a1-4305-9b2a-44132c393e92": "32174bf0-d746-48e1-9b20-f3bd9ed2786d",
+"55d40443-8fee-43df-b74e-eab40984dac8": "ef8eaff2-754f-467a-a229-bf44a7ac851b",
+"1d4f7a2c-b9ef-4d5e-b4c6-9586e99f251c": "1f903c0b-9c07-4fc6-b007-663098a82ce8",
+"2fc0e3f0-c10a-44e7-a5f7-8404d18e49ab": "4dd0e24d-b5f2-4084-8036-706aef2e42b8",
+"c1e9e477-0b22-45f9-b41f-da36fbef1dc5": "8ca66dbf-85b7-4bfe-ad18-a86089f4f45c",
+"cbb80d7d-4069-4e1e-b14f-80a80f1e184c": "3d8ffe5a-4743-4bb9-9741-539b9f272120",
+"42cff972-e1ca-41a8-baf0-6f4ec1464d11": "d4a95a5a-189f-49ab-afea-98910240a822",
+"76a3a298-af77-46f3-b897-9337a7e9350b": "939ad39e-ac68-46f3-a04b-a9270d023e9b",
+"156c1959-23c2-4b9a-bcdb-a782dc21af33": "5f0ce244-b51e-4637-add9-ff342638368a",
+"dcf4a292-7709-4868-bb2c-88661d6613dd": "d9176ad8-9c17-4ee3-baa8-a9d448b5d805",
+"200d1e80-cbed-47c4-a948-5218583a3b3c": "e6706bf4-ac88-43a8-96f0-3cee17556466",
+"5bbe9329-beff-47a3-afd3-7df3992afe8f": "00fc2a28-865b-4f22-b1ed-4a0566fce49f",
+"c4acf2cf-36ba-48c5-8798-6cc00ec87ffb": "fb0796b4-ce67-4bbf-a161-8428285250b5",
+"09cce32a-1329-4e1d-bbda-316a524d2c28": "fc9fbd3d-9fee-4997-9561-06cc516d3717",
+"110aa22a-f477-4b3f-8855-4388380c0b9a": "baf78722-3c91-484d-a383-9d540bf5cf53",
+"3e824d8d-dc8a-4fc7-a40b-9298b9b6d24d": "01581c10-a019-40b0-aa1c-e77653122f46",
+"fb26edd7-6ae4-4341-ab17-d1f6b9c87c53": "80d89c6b-8ce9-4e85-803a-9aca4f68ecc1",
+"99ecbc7a-c2da-4a27-9a58-dc7408c486d3": "91e671ba-f6fe-4484-b196-7504f50ae61c",
+"472f7f64-1695-479b-97cf-9549242c6ccb": "260d84fe-271e-44b8-9404-64ad338dfb1a",
+"812dc8fb-637c-4a9c-8a04-4eb5df64d3d9": "946eed12-6140-4186-84ee-68fcf43c59ed",
+"462f9ff8-f930-4ecb-9f8c-736ef7e588bc": "3f5ac9e9-b8c5-466d-b6ca-c73a83f78f6f",
+"9d0e0663-6330-4538-8afd-408f7d609606": "fc676df3-ad5f-4096-9aa3-c38170dbf1cd",
+"147d6567-a391-49cf-8a21-44f219c9b465": "ceae2b38-d90d-4d4e-94ab-0636dbbaa25a",
+"7d1c9c3b-89f3-439e-a8a6-98c081cfd67d": "58257193-f46c-4c29-a4e9-a04f5e0a0e67",
+"b2d957fe-bc5d-413f-bf17-5ffe4e90838d": "7c0927e2-9807-469a-a987-52cced9878c8",
+"5ed4695c-b71c-47d6-a869-3d6f0de7a008": "2ffb2e7e-20e8-48c1-ba94-855c036ee3dc",
+"0d6399ca-5fdd-43d4-994a-ed132d7a6a47": "8dbee799-9d5c-4411-8f10-f589eb36d283",
+"0de8639f-ae88-45c1-a9eb-61178b94aba4": "b5a0ac45-0619-4b2a-96b8-e01edf8b0073",
+"65d2bb53-0d28-452f-9f52-27893af02e0a": "f33fc481-1170-4a4e-a074-d5b7879eb718",
+"b055fb04-9b1f-43a5-93e8-db51326f80ca": "1f6f0cc4-29e8-41a8-8f6f-c6411a98fa5b",
+"6e76b456-209b-47d5-9c7b-a437d490c827": "c8bc383f-7c11-4fad-8a54-bd4ea6b94faf",
+"61ea4f45-4eb8-4884-85fe-46b6c7d9db1a": "d6a3cfa0-28ff-4737-869c-a67c265f1b46",
+"7cc459e4-89b2-4385-b5fa-72ad4941a216": "15d45869-c2fa-432a-a132-7fa39c4f1c43",
+"d606c351-d6cb-4981-a7cc-92e85125f351": "f1a974e7-2b71-4543-8839-84988746cfd0",
+"89747af7-fe14-49ad-b49e-1be48a18cade": "bc37b40d-73ff-4969-9171-dff6efd22356",
+"e9f71b89-03b5-4004-bbb6-509d7e6b2f04": "71dfae01-d82a-4300-82ec-ed55abb6d543",
+"75411072-be51-4558-a421-b2033dee493f": "32876e2a-2ee6-44f8-bf72-d2e99cfde5e4",
+"a2a1f4b0-97bd-4478-97b9-3ad9f506c18b": "6ff7734e-0544-4925-b5d7-90ed8bd666a7",
+"98d5268f-f00d-4edd-bee2-deee368c2016": "2a3b89a4-7910-402d-ab08-e059a68246fa",
+"23320a82-08a3-4e95-855b-71c627588412": "6ae54d7a-79a8-43c6-a9c8-b77d122f5954",
+"c415c3ac-6a51-48db-9040-7756edc04944": "8ac90e21-7bdb-4575-b882-11f7a31f5e4c",
+"47876b46-e7f6-4f6a-8008-dd69e31e51f6": "341d1847-4890-42c2-8e20-933763fd2363",
+"44527552-e2cd-4685-900b-fe3e25916f66": "49b2e3f5-8834-490a-b3c4-26f43b6bcabd",
+"99e81170-6218-4e98-9b3c-724d1a625b2c": "6aa91e89-574c-4c9b-b931-247b48361aaf",
+"1963f868-ffc0-4316-bd57-33c7cbfc825a": "c56ebd31-a54f-4720-95f4-5d017bc0eaf2",
+"d511efc3-49b6-4713-8a98-347fec26d25a": "1fac0533-0bb5-43fb-ae04-8c03f4e0ef05",
+"5dc68c27-e935-445f-92c4-de737036b714": "7d424ef1-fe0f-4f7d-b614-f80b1bfb0089",
+"bf3404df-a75a-418a-96ff-22cbdb37fc6c": "03ffe5b8-88f2-4d10-b006-fba886955de7",
+"9c55473b-badc-44d9-bc13-e58b2a1a0d38": "8e5a6085-bc8a-42b5-ac36-3b321cda8938",
+"5ad3db6c-d37e-4ecb-af18-4be4f0fe8721": "6641954d-206f-47a1-bae2-75cbd870ec72",
+"9fa8a19d-19ef-4026-a9b9-1dfba2a5a679": "245c4797-0572-4f8b-8227-c1dcfcb767f0",
+"bce70b9e-ad70-4cbe-a30c-05e84163b7d8": "811f576a-f853-4be3-a2e9-9196bdcf7e9f",
+"c1d00310-a527-43fc-a070-39db39958d17": "dd25cc96-9768-4481-96fa-4f98e0d52fbb",
+"5ee58cd2-a43c-424a-9179-161e0ad3e970": "68e54dc1-900f-4821-a3b3-1f1440264e74",
+"0b3d2f80-91a1-4387-bc7e-b9905035b523": "2b8f4f0f-4a2c-48f6-9482-5575e955d82e",
+"868a40bf-1fd0-4bf3-a8e4-e694aa691367": "ed3455b1-ea6e-4f72-9d90-caab17a639ba",
+"cff37e98-423c-49fa-aaa7-595a801cc422": "4300697c-964e-4a21-bacd-2ccb251f6855",
+"9b6ea9fd-fd31-47c3-9b13-420cd424e110": "da961b9b-b5d5-4e28-905f-8d5d57a0676f",
+"89d2cd67-a63c-4c6a-b7da-839b5f484710": "52914927-825e-4f41-bd5e-a3a5d322393b",
+"4c402c77-5487-466a-b6e0-dbd1e07b03bb": "cac33d4a-85cc-4fbb-9fcf-3625b501b8a7",
+"5d3803bd-10c2-420f-bd25-18b37312d45d": "0ed6a040-7972-459d-82a0-9106d23611d6",
+"25e623eb-9e03-418c-8955-8fbb3f41fc5d": "842f809e-67f4-4cdd-9360-37da3fce2554",
+"6e3780e6-b217-4f27-8e7d-1e2fc4c0bfb2": "30cdc755-852f-44a4-b89b-a70a47cc977e",
+"fb16a7e9-d873-48f8-aa5b-51425334a71e": "203b4c30-f389-4c95-9bb5-ef9e0f9b75e2",
+"eb10ac73-7323-4045-ab1c-fbea702793c8": "c8e87e0c-00a6-4f30-8f35-d48faa18ec01",
+"aa72005f-4d41-4aae-a187-5f5ed564d0e7": "10022ea5-5d94-48de-97a8-7012794c8fb0",
+"011a9d76-5790-4839-ab5e-1dda2bcf84b3": "c35bd847-208c-4b51-9dbb-1a5a29bc9242",
+"f6b92038-83fc-43b2-ab87-46ad4dcf8ae2": "6b041990-04c1-433d-a229-071fd320d1ec",
+"20b4d94d-1f89-47b2-98af-3ebde5d564ca": "78d21c8a-226b-4913-a079-d6ffa76d0abf",
+"a2df5fa8-1d9c-447e-9855-a07e7dcd2600": "a1e5baff-b258-43ec-8078-23a12dbd7f97",
+"19ebf6aa-5801-483d-8f80-ba86be17c1a0": "32174bf0-d746-48e1-9b20-f3bd9ed2786d",
+"f5e2a9d5-16a3-4c6d-badb-2295b73c30a6": "893d7707-00ad-42ef-b9f3-335af93597db",
+"d370b153-ef2c-4f05-94cf-1412f13888aa": "d9c740cd-8d29-478a-b797-240dbdb1af1f",
+"da7d322a-dcfc-45c0-b56f-696015716244": "d84f508e-b82a-418e-815c-98728045f21e",
+"cd0dbb50-bd6c-4605-b9ca-c8e495683741": "4dd0e24d-b5f2-4084-8036-706aef2e42b8",
+"f8d64b7f-c995-4015-9f94-7b5366d2a0b6": "0b540e7c-0c43-4b95-8039-dcccd2341421",
+"023251ed-a640-4ad3-bcd9-ea6f69df1ec6": "fd2bd989-c08f-448f-8596-a82749415601",
+"b60fa1bc-1582-46e1-a30f-903a3433f68d": "7731a841-9ade-4344-a13f-32bb7beb80b3",
+"a9fc724e-b0d5-4716-b46e-70b1901718d2": "c69938c1-1e0a-472c-8486-322d4ed4583c",
+"2fb5b7ae-2a6f-4dbc-9fda-566278b6959f": "cac33d4a-85cc-4fbb-9fcf-3625b501b8a7",
+"146c26d9-1154-4dd4-9960-daa54a08e5c5": "bca9e20c-1b6f-491e-a70a-82acf6539ae2",
+"d9b896df-95b3-4a53-a168-528be91ccf3a": "1100fa4d-0372-4bae-9dee-40026b3ad1ad",
+"df2c286c-d53a-4d40-89b2-0d17f7c40db1": "c6470bff-6e86-44fd-abcb-c27d6a26b87b",
+"c2d368ca-58d2-4f7d-b5e2-af3573a80970": "c35bd847-208c-4b51-9dbb-1a5a29bc9242",
+"81ebaa30-5663-417f-a917-80e9367ace22": "e4b0bb55-bd9e-4473-b9bb-6ad776ab9cce",
+"c99df38c-0613-446f-bdd8-0efe901769e9": "3ae908b9-6e66-4d8c-9462-68566e9eaf1f",
+"0ec144cd-366c-4a95-afed-8b1d933fa4d0": "32174bf0-d746-48e1-9b20-f3bd9ed2786d",
+"ed785bfa-9eea-4124-9830-6fd7af789928": "ef8eaff2-754f-467a-a229-bf44a7ac851b",
+"ee1d3d7c-4014-4b72-9cb9-b3565e35e2d9": "1f903c0b-9c07-4fc6-b007-663098a82ce8",
+"c2d77971-d474-4a56-b06b-b694b2a3fe6d": "4dd0e24d-b5f2-4084-8036-706aef2e42b8",
+"c35cf700-7c82-4015-aaae-a38f5c499931": "0c4e6d6d-eab2-4f7b-bdd2-7d87d8e4e97f",
+"b2db1c42-509d-448f-94f1-f9ba6fca5259": "466c064e-ba72-432d-b7ae-185907c7c142",
+"52cc8385-a1af-4bb7-bf77-b0f5ba5dc9f2": "cac33d4a-85cc-4fbb-9fcf-3625b501b8a7",
+"70f89313-0b16-4c2b-a167-570b9d316348": "bca9e20c-1b6f-491e-a70a-82acf6539ae2",
+"3bdc2659-e3f4-4d1a-abd8-ec33f1e5d545": "e0e85808-f85b-46a8-9b1e-2385c06b4758",
+"7277e53f-348c-4592-81ec-25a5dca23a3d": "c35bd847-208c-4b51-9dbb-1a5a29bc9242",
+"22f95936-77c8-4334-97f6-281aa63aa2d5": "fb8e25e2-c317-40b5-b38a-85969d0a54e1",
+"183482b4-2b93-4ce7-a065-6c1fb868c5cb": "32174bf0-d746-48e1-9b20-f3bd9ed2786d",
+"43c88d7c-89df-415f-a287-d7c6861e1bab": "48bdfe34-9bdd-4e99-b170-b3061052888e",
+"d7e2d810-5990-4785-a89c-99000c2f2247": "4dd0e24d-b5f2-4084-8036-706aef2e42b8",
+"a3a48642-bf83-4e22-921c-33c2d72c5897": "9791f4dc-df0f-4a07-be73-6ca9825ab6cb",
+"567bcc7d-eca8-41fe-92c0-25bbdb7c1ac3": "61ef20b5-3cf8-4e5d-8ce9-3277780d24e4",
+"9283637e-8ae8-4de7-9519-2ff8a6f89f15": "8ca66dbf-85b7-4bfe-ad18-a86089f4f45c",
+"91993cd0-0df8-4bae-9a94-8375992be0e4": "850e32de-1482-4ada-8d01-6f675a361a23",
+"cb2e4eb2-cb5c-4cfb-a484-04e84aec077e": "3d8ffe5a-4743-4bb9-9741-539b9f272120",
+"031502b3-e452-44a4-8227-6edf8df570a1": "fa1bfea6-19a2-43c4-b0ae-31080b6e9889",
+"4887ef26-53b3-4421-913e-74505dd0b3e4": "d4a95a5a-189f-49ab-afea-98910240a822",
+"b95bb4e6-6ab1-4bd1-8ad8-352e074b7c23": "517d992a-6d92-4b6d-8991-fcf7e8bf7a7b",
+"19bd8eb5-8d2e-4f49-8afb-d5ae820ad9c1": "9791f4dc-df0f-4a07-be73-6ca9825ab6cb",
+"6bbba87d-a377-42bf-b250-939b03bc68b0": "eb35e5a7-55cf-4d9f-84a6-e4ec8ca6ffc0",
+"89b4425c-eafb-4258-a590-1f94fafa47ae": "5409b08c-c094-4cae-9d99-f23c602e13f7",
+"ab808c79-1059-48cf-921d-0e96cec81e25": "c0506d0c-7b93-4556-815f-f9302390bbda",
+"34b83e76-8ba0-40c8-8a0e-cf808ba7459d": "57cb46aa-3b5d-4945-8e18-01e9c815646c",
+"8dd103a6-444f-4037-addc-004646f9e664": "d561c0cd-56b7-4d41-a5e3-460a4a6f611d",
+"57014bda-2d53-4b40-9cf9-655cdb4d8616": "0b9bf6d8-e758-4904-9667-6d391c1f47d5",
+"3ab5ca99-4836-4719-b1df-5765caf97d3b": "91d1e27e-13c8-4ee1-8682-2992b1f70875",
+"ed77ed63-6a47-48c4-a20d-e890f951def9": "6af70b95-ee0a-4e4b-8adb-d7f83ab8af20",
+"bf2c6c53-f312-45bd-b2ea-783ff2ebf544": "976f5f16-9779-47a4-8413-9d6295aa2e8d",
+"095decb4-59c3-463d-9ac3-e96a94eec077": "8ca66dbf-85b7-4bfe-ad18-a86089f4f45c",
+"6d68fbf5-01d6-4287-9209-0dbc54242bc5": "850e32de-1482-4ada-8d01-6f675a361a23",
+"93133190-0a77-4f83-8a52-f81bc8fcff95": "3b7a8a58-5cda-4e7d-8d7f-73da834989be",
+"ce6cd2c6-33c6-4979-a7ea-65a85e2398c8": "4d6bb6ea-f707-4272-8814-ede4ee3b4827",
+"d3ee263e-7d21-435c-9f92-b8b533ac83bd": "3d8ffe5a-4743-4bb9-9741-539b9f272120",
+"62fe2b62-e1c0-4d99-8420-31648a4e4513": "fa1bfea6-19a2-43c4-b0ae-31080b6e9889",
+"f8ee38e4-6303-4674-bd7c-aa5fc0681d5b": "79fc6ad1-bb3f-4d94-8d6b-54fb77fa8c80",
+"b886316f-5778-483d-9dfc-a27730171c7c": "2f72b28f-f9cf-4894-936f-98172a6584a6",
+"674178ef-584c-4b34-8230-cf8da7a5d517": "d4a95a5a-189f-49ab-afea-98910240a822",
+"97bd130c-72f1-474a-8ad0-e4478088c6aa": "517d992a-6d92-4b6d-8991-fcf7e8bf7a7b",
+"48320bf7-ef6b-4956-985d-4db38b1db372": "9791f4dc-df0f-4a07-be73-6ca9825ab6cb",
+"61aec6d0-5b3f-4409-bc44-a44ed8ada262": "cc956bdd-ed77-4451-bc93-a60788030cdc",
+"56bcaf25-afcc-4984-b33b-10522e05acc3": "84f19be4-d0fd-49b3-8a96-d24340ee373b",
+"66aace56-aee1-4349-91d0-ac3a508aa022": "f3bb49a6-d53b-4095-adf1-ae2c097edff9",
+"42ccfb39-27d6-4466-8530-94e0137bb580": "138e632a-c74c-4ec5-88ec-37d86e43b0b1",
+"30f1166e-58bb-4e22-b699-eba88380d2a3": "ade1d4b1-27f4-48f3-b4a1-81695ba1a48d",
+"d46784c3-14ec-4f03-84a7-1ff986a1fef4": "850e32de-1482-4ada-8d01-6f675a361a23",
+"1263d31e-ce45-4953-a343-c83b345f6c33": "0e7c7b2a-d7ce-4389-89a9-bb2dec5c2d4b",
+"735adb72-5cf7-49b3-8c00-5ed292d48722": "fa1bfea6-19a2-43c4-b0ae-31080b6e9889",
+"c0468f5a-bde3-494e-b406-64853e6cd1ab": "2721caee-c193-4cc7-b1f9-67f21b5318b2",
+"14fea6c0-e52f-4e02-bb92-40f8f2b66da2": "517d992a-6d92-4b6d-8991-fcf7e8bf7a7b",
+"3b8fa76e-4d16-450d-8c3a-b9831a418ea1": "939ad39e-ac68-46f3-a04b-a9270d023e9b",
+"05e29bd3-deba-4c4e-bc1d-8b18e0d90cfe": "4b2085c7-1940-41f0-9a97-bf1bcf811fcb",
+"70c44464-cb97-493f-99f2-55ee2bbd899e": "69455ce6-ed3f-45c1-bac7-028cb0f7918a",
+"4fd5ac60-8569-41bf-99f3-54441b4404ad": "38931044-c9ef-4abe-b4f2-f74a15da7471",
+"3d440c4a-a61a-4e69-87e8-3f8c7717856a": "0820358c-8b60-4d12-90f8-af0b4e91bea3",
+"ba117b03-ed16-4281-922e-f09cd805ad95": "01581c10-a019-40b0-aa1c-e77653122f46",
+"2b91f058-5ae6-4e42-8a61-a31858432969": "c62e356a-1855-4373-aced-ba5587a6918d",
+"d84bbe0f-f5f6-44df-87c5-94aa65ce160e": "080f4eed-b15f-4b96-a84d-9a17214ec76d",
+"0f4d4550-cdd5-4cf0-adf9-730d3b8a76e6": "260d84fe-271e-44b8-9404-64ad338dfb1a",
+"6ae8febf-ff7d-4e01-b144-0efd65bd4a19": "ceb60af6-01e9-4093-b5b9-1fa709d37688",
+"eec2b476-f7d1-4540-86c8-71eeb15f3dc8": "fc676df3-ad5f-4096-9aa3-c38170dbf1cd",
+"b92b55eb-0550-4443-8407-83490bab739d": "5c51ac43-0a40-478d-bef9-27aa195cf2df",
+"6327d905-5a35-456e-b890-82fc649c7734": "ceae2b38-d90d-4d4e-94ab-0636dbbaa25a",
+"4bf5485c-b6c7-46bf-aa9b-1baeecfc1eb6": "dd9b0fbc-c9ca-4a25-9e42-71b5fa719e49",
+"c3b9e314-c121-41d5-99b2-649b1f64de7d": "2ffb2e7e-20e8-48c1-ba94-855c036ee3dc",
+"80bcf9bf-7d3f-4a0f-ab94-ed74c1c6090c": "d076aacc-8811-40fa-a91f-79a74aafab25",
+"0c80dede-32e2-4d1d-8126-db276e447524": "8dbee799-9d5c-4411-8f10-f589eb36d283",
+"f0e6858b-56b4-47d1-8434-1688bc3c54dd": "620425ed-8ced-42a3-ade0-a276938a15fc",
+"53c7245f-aa22-4140-8461-da2372ea671a": "1f6f0cc4-29e8-41a8-8f6f-c6411a98fa5b",
+"db599f02-59e4-4b5a-94ab-f50ca4811218": "948d7ed9-6f4a-4129-9fe1-6e8e20196065",
+"beb570d7-0d90-463f-b216-fa8b1a87a842": "b46eb92c-3bbe-4b7a-bb8b-cc83bc273912",
+"6d64d103-3cf5-4ad9-9b3c-c82fc78791eb": "5f0ce244-b51e-4637-add9-ff342638368a",
+"50194cb4-72e6-4c9b-9a1d-c69a533a0343": "b1cbfa45-f3d8-4d8a-886c-ad30c6629fb5",
+"d63ab3d8-520d-4fca-874e-bcb0229f7db9": "d9176ad8-9c17-4ee3-baa8-a9d448b5d805",
+"097ba0e0-f403-4db2-b0ed-84b28d8ba0ec": "e6706bf4-ac88-43a8-96f0-3cee17556466",
+"00580971-e7fe-4f86-968e-2f628791ec7e": "00fc2a28-865b-4f22-b1ed-4a0566fce49f",
+"5595b79d-0b2a-461e-9263-a8543d0af18b": "c6723d7b-7e5c-4700-a5c1-7db882f4cf09",
+"3069e707-d8d6-4862-b990-48117b7d0925": "fb0796b4-ce67-4bbf-a161-8428285250b5",
+"d5f40f71-6212-44c0-9ad2-d2b724c839d5": "3e97d52d-7826-4d6e-a5fc-8da1d0931458",
+"7c21cf31-0366-4c14-a57f-a44bc9a70496": "fc9fbd3d-9fee-4997-9561-06cc516d3717",
+"dc1ada57-4584-4dd4-8262-8f8f10f132c1": "1a9123cd-3d65-44e6-9050-1f11af7e8f41",
+"c0c561fa-a394-4468-a994-6d63a9de6418": "f228ffdb-db20-4fac-8254-105ee97ccc54",
+"0fb974c6-81af-40cc-91d4-2fbf1eeebb0b": "01581c10-a019-40b0-aa1c-e77653122f46",
+"02e683d4-ca3f-4f2f-9072-61a3320340a3": "31acaa27-a77e-4f42-bf6d-9ec309f9f642",
+"872b9c0d-ef0e-448c-9ee9-f7d1ab3bdb73": "2499e906-5a9c-4f7e-8281-96bd907fa034",
+"2a58ea52-f733-4737-be7b-fa149503cbbe": "3a1c9408-c963-4505-bfcc-dd4c411960c8",
+"91b9c630-0863-487d-9e92-69802ecbe146": "260d84fe-271e-44b8-9404-64ad338dfb1a",
+"54e4f2d2-09e0-4dcd-a5b7-a8a44c83c965": "946eed12-6140-4186-84ee-68fcf43c59ed",
+"1166b8e0-4be3-470d-bc1f-0ea4cfbd3a9c": "951c57d5-723a-46fd-b1c7-1e9e7b3d9ff6",
+"b4156bde-0602-49fb-ae7f-b882a1f2eb30": "3f5ac9e9-b8c5-466d-b6ca-c73a83f78f6f",
+"00e1c9ff-a3f9-4a78-8d5c-5c180583c0f6": "fc676df3-ad5f-4096-9aa3-c38170dbf1cd",
+"1efde6d2-f866-4014-ab50-4a5add183c23": "ceae2b38-d90d-4d4e-94ab-0636dbbaa25a",
+"069026f3-0e60-4810-87b4-1d0279f4f653": "58257193-f46c-4c29-a4e9-a04f5e0a0e67",
+"40aae9cc-eae5-4a79-8477-bcd6eda808a2": "50d01c37-459e-4045-8ed7-00011720fddc",
+"0a2fbd20-608a-41cc-b31c-6f169e897319": "7c0927e2-9807-469a-a987-52cced9878c8",
+"7c5bb66c-91b8-439a-a846-f805e355d37c": "2ffb2e7e-20e8-48c1-ba94-855c036ee3dc",
+"f34f9e63-da9f-45a0-94c3-fee6a3ca48dd": "8dbee799-9d5c-4411-8f10-f589eb36d283",
+"6ad5c955-167b-420a-aa99-f42cbd6bf26d": "b5a0ac45-0619-4b2a-96b8-e01edf8b0073",
+"3ab0a2aa-7f6e-4ebe-b63c-431afc085c00": "20303de2-1beb-408f-9137-7302ccef9dd0",
+"983d96f8-4082-4650-ac5a-bcf46f610f48": "f33fc481-1170-4a4e-a074-d5b7879eb718",
+"a533dadb-a63e-4d03-84e8-af2d0e1b34c6": "1f6f0cc4-29e8-41a8-8f6f-c6411a98fa5b",
+"a0264dce-e618-4db5-a9a9-058b9a203740": "f1117894-db98-4a31-97ea-cb441298a40c",
+"c4d38877-cb6e-418b-ab26-c58f27cbbe81": "b2243f45-5e7b-4391-b330-1e71251ca5b7",
+"35aa1a22-a889-40da-a9e5-10d11b33195c": "639de593-19bc-4ed0-8da9-336168e65013",
+"ee936ebd-a5dd-4b7f-85df-4690567b8cd5": "6fd7250c-d5ee-477c-a6ad-2843831a15ba",
+"f8417b66-7030-44b6-8d51-e6bb3f7f4736": "5a949b88-b942-4777-9e1a-e0e827799eb5",
+"92eeee75-0f2a-463f-9c2e-66130308fa14": "4c8ac934-5ad4-4bd5-8c81-0bcd8b1ff22b",
+"4cbc896f-15f1-45a7-804f-22a80ba51309": "4600816c-49c0-4351-8879-209439dbe6be",
+"64225047-89f6-48dc-ace0-dd269f7edb51": "3a326553-1625-4221-b3dd-6d109bdfab57",
+"21627933-cf4e-4707-ae27-5e30713a79f1": "04eed86d-ee4a-4fb5-9eb9-dc3a787d1b12",
+"0d2a78e2-6507-4263-9ae7-997b8c118bac": "687eb23f-a749-4dbc-a1b5-f9fbbe69e818",
+"70e46ac5-46c5-43af-9f59-0aa2cfc3b81b": "b1d1039a-8781-47b2-8857-150ffe119e05",
+"77494f5e-1bc1-45e5-9890-a94a8f98b4e0": "f1117894-db98-4a31-97ea-cb441298a40c",
+"02cfb9e8-8548-4dd0-9850-0fabad6a190f": "8501bcb5-add0-42a3-864b-f9976cd8c6ce",
+"01d71b80-21da-43ae-9c20-a737b931a495": "6cec561d-f2ec-48e0-9ef4-115f4187e24b",
+"739754ab-b374-4e9c-8d9f-a5c0c6a32aab": "b2243f45-5e7b-4391-b330-1e71251ca5b7",
+"c5f35466-020a-450a-b983-e7f5fd638618": "f8fd8c2b-fa2f-427e-99ad-ef9c563df168",
+"5e42fbf4-5070-4dbb-a68c-8bf40e2ac644": "50396ae8-9941-40b0-8d16-eeb02c5e6463",
+"b35863f1-81e3-409e-857e-cd31165b1e2a": "639de593-19bc-4ed0-8da9-336168e65013",
+"23ea15be-3fa5-4238-a8cd-e0df2dbe581a": "0ab1d2ab-fcb9-4a36-a0d7-d5883bb15f5e",
+"fc325661-219b-49d2-aa0d-80b1682a40bb": "c52d4d39-975f-4948-8905-59fc90c95bcf",
+"dee3806c-c722-4d29-87b4-34c233fd6123": "dd8a1b64-3d68-4935-991f-91f242b1cc44",
+"d5496b47-8680-4108-a3e6-28ca73d388ba": "03136bbf-e425-493a-b123-ab893d5343dd",
+"157f8833-0519-481d-b464-353aabba2a96": "bc4e346f-a768-44b4-b3e7-a388028d6ff4",
+"1e331235-c20b-4d74-bac5-f87b18026b3b": "c8bc383f-7c11-4fad-8a54-bd4ea6b94faf",
+"f35ea269-07da-401e-96d7-0c0f72329d2e": "c5e22226-8611-42c8-acf9-3cf9d7b3d38b",
+"78969860-6d41-4330-a6fc-5ce5e6ae8a29": "54eaeefa-6c4f-472d-9eda-e1cf18d0d88c",
+"ae6c697a-4f6c-4b3a-98c0-dfd16c8e143e": "d6a3cfa0-28ff-4737-869c-a67c265f1b46",
+"7d2b317e-96d2-4926-9d0b-d8b92e151f2a": "83b3e5c0-f21b-4a16-8d4f-9644a90c2ce9",
+"19cb6329-a396-435c-96fb-0579e956eca8": "4debd149-d2d8-4a7a-b291-c4b4cdae15f2",
+"18d654b7-9644-4287-9080-5a0837cd70ec": "15d45869-c2fa-432a-a132-7fa39c4f1c43",
+"aca6dc27-f0a5-4331-b5a1-aafccd0dfb0b": "df4b7427-e236-4faf-a383-67eff1cefeb6",
+"18489f8c-2f2e-4e97-b91d-eea188f82d49": "ac30b19b-1a97-4e69-8449-fd3f2c7df611",
+"3266378a-5ea6-472e-aa9e-b53699e473bf": "7bd1e2c8-d98d-43f5-8011-6608e3f697c8",
+"5bb0ab62-c03a-4ffa-aa24-5ca0f1354ebc": "c3dca3a0-f6af-4725-a7c6-4736ed34a68a",
+"c2e7e796-801d-43c9-88bf-e7b4bf92afbc": "ac6c9788-330c-49d6-8b01-496ec478d9f4",
+"5014b5dd-2c56-4203-bb39-2ec2c14f2837": "637472de-2c64-4257-bff6-0069efa2a2ec",
+"418e1bf6-9503-4c7c-bd90-c5758e2c4660": "cef3fbb6-0139-48b6-997b-7592a100d62b",
+"4bacf48a-38fb-4dcd-89c0-333e744c7e42": "1ac9e590-e81b-4985-ae4e-aaf43baee611",
+"da0dfaeb-a23c-4984-a5e3-367af309eeb6": "36dee5c7-92c5-4384-b656-f08103ca8adb",
+"295dfdc8-72f2-4b7b-9e43-5b210b75c6e3": "77a80dc4-4b3a-4127-90f9-2d8c785e6372",
+"a70c76f3-b06b-4136-ac14-c8e185f0ebd4": "796f6ef7-ed68-4223-a248-71f2624ba4a7",
+"b6cb5541-1b59-40f7-85ee-70f7f527ea55": "9ee405d2-1f75-49bc-8d19-8b3ded3b78fa",
+"26745b48-ad3e-4f26-b108-781be88eb4ef": "fdf1a5c8-2b40-4047-aa12-05630df615d8",
+"636d97ff-63ac-4f01-864a-45f26c06814c": "85baa24d-79a1-4759-b4b2-9051b4810c18",
+"965d3a03-9ce9-47a4-af65-28d2bff6d574": "71dfae01-d82a-4300-82ec-ed55abb6d543",
+"69358d66-6f2f-4653-83a5-d1f7d23d2c11": "8aa49082-e0de-40dd-b6b5-7d13bd82fa43",
+"51f3ab57-300f-4f9b-b6aa-1a7a29895a1a": "32876e2a-2ee6-44f8-bf72-d2e99cfde5e4",
+"e37a3a02-03db-4379-8c28-bd75f08fcfd2": "8c761c4d-bb1a-4975-a9fd-3eeff812e8c7",
+"864bea32-d8da-4cbd-a336-3de803cca3f5": "d9ec2b17-be49-4d22-871f-f78ead82ae12",
+"d55355d9-cda2-4530-8a94-4f8d702783a5": "6ff7734e-0544-4925-b5d7-90ed8bd666a7",
+"00e7f44c-7401-44f0-89e2-18f162bba474": "a526820c-e25c-416e-bd33-37f968add3f7",
+"1a54937f-f6c2-40d7-a74f-036eb6d04e56": "01877a9d-ca83-4d49-8936-8bf688f6f298",
+"9170b4ec-ec6a-4b76-ae22-df0cc09b803c": "2a3b89a4-7910-402d-ab08-e059a68246fa",
+"509bc548-afd5-4442-9aed-a782577709c1": "9b8c98e7-d553-4495-ba37-f33202ac7861",
+"3ce7faac-3bea-4c6f-ae9c-109869dc3376": "7663c0c3-5dbd-4b7a-8663-4311085c374a",
+"e2060590-dbcf-4a6f-9fa5-29ee9013efb7": "8edbbb8c-ad9d-4378-9a79-04cb3716e5d8",
+"12272da9-fe04-4a43-96b2-51165593ffc2": "cef3fbb6-0139-48b6-997b-7592a100d62b",
+"57cd227c-04ae-40f1-99c6-3cc1cf1ab1c9": "1ac9e590-e81b-4985-ae4e-aaf43baee611",
+"7b2bfbd4-cc16-4906-858d-7c559b55c857": "36dee5c7-92c5-4384-b656-f08103ca8adb",
+"a2c786b6-8b95-4d3d-9391-d1cd33d188af": "019469a5-cc6a-4d91-91ff-cbdc89d808cf",
+"b3602fe9-0bf3-44ef-b44f-7576cc59c8e1": "d7168d49-772f-4f0a-988a-2c0c9b066f05",
+"1d17221e-162a-4757-bf65-151f34a4bd5b": "2afe73cd-4ffe-492f-b0e5-0b24669db7b8",
+"a8006685-8385-4e06-8039-40b9e40fbe1e": "05be95ea-b37a-4ae9-9d32-55d3b604e6cf",
+"5ba528e1-44e2-4fce-9874-eaa5f461c525": "b90a1af8-63f7-478b-aa58-c3303ec8ee4b",
+"40594fab-c5c3-46e9-b7bf-c47957137ea0": "f07ab48a-a1d9-4085-9fac-cfa21e6bddc6",
+"e8cf1c71-4b3f-40e8-a1a8-626c5b26ac0e": "057f2f94-51ea-4624-b0d3-a72cac9b2d37",
+"45f39f90-83d2-4c34-b41d-01d5a038e0ce": "a66cc3b4-d7ed-40ea-a091-3bfbe052705d",
+"f542d7d2-21db-4250-bc78-62e016335f87": "02b46a9d-53f9-441f-b800-1229feed5f4c",
+"acc355ef-156c-4852-81e2-0a7b7c305ab2": "07caea84-d253-44b0-b905-72e4e280faca",
+"0ac2feba-66ee-4089-8128-4ef6ee319cc6": "7d424ef1-fe0f-4f7d-b614-f80b1bfb0089",
+"9ce45ffb-5c6f-4d06-8a58-0e7361f3a335": "eeb495d5-643b-4448-bd50-30282ac61196",
+"35956160-97d0-4c64-ad4f-fbeaaac5c2fd": "f4c704e1-487c-4925-846e-782115fab0b4",
+"3f1c80e3-c73f-4268-9060-c34758f9ffe1": "6f6323d7-c18e-40b0-9ece-90d0860707d2",
+"8a987f03-ccff-4eb0-85da-4832740541b3": "8e5a6085-bc8a-42b5-ac36-3b321cda8938",
+"3160abfd-8dcb-41c5-9103-fff676a6be07": "d11a281a-1604-435f-8dfa-6488148e9a95",
+"6549c4ac-8260-43c9-bc98-3badecda201a": "621bf34f-21a2-4bdd-9739-dc51e297cd45",
+"612b5cc7-3c8b-415b-9f63-874264e8116f": "c67a7ddd-2973-42ae-a9f7-a4d0502ec44a",
+"b4b435da-6b84-4da2-b571-745ccd7d06fd": "6641954d-206f-47a1-bae2-75cbd870ec72",
+"f82aeb8e-c45f-4bd2-802d-6d11d25162c2": "b8aae135-6e3f-4a1a-a390-50b8d70b7a06",
+"ac04860d-6d82-41bb-aa10-0e7768ea859a": "e730e2f0-8e58-4b1c-a691-5bd600fe6249",
+"a3b71cf1-2d38-4a6a-b628-3596d0076eea": "4a4dfaaa-4c4c-4afb-90ae-26e2b901b522",
+"7f92adfc-1a34-46ca-99a3-d483190cc113": "245c4797-0572-4f8b-8227-c1dcfcb767f0"
+},
+"meta": {
+"4cbc896f-15f1-45a7-804f-22a80ba51309": [
+"delta",
+"cast-role",
+"text_cont_rem_mut",
+"e"
+],
+"cac33d4a-85cc-4fbb-9fcf-3625b501b8a7": [
+"beta",
+"catalog-result-count",
+"tag_mov_container_mut",
+"f"
+],
+"864bea32-d8da-4cbd-a336-3de803cca3f5": [
+"gamma",
+"genre-count",
+"tag_rem_mut",
+"i"
+],
+"a8006685-8385-4e06-8039-40b9e40fbe1e": [
+"delta",
+"form-cancel",
+"attr_rem_mut",
+"b"
+],
+"5f27984f-aea4-439f-a566-2456b3830561": [
+"gamma",
+"catalog-filter-genre",
+"tag_mov_html_mut",
+"g"
+],
+"110aa22a-f477-4b3f-8855-4388380c0b9a": [
+"beta",
+"detail-favorite",
+"tag_mov_container_mut",
+"f"
+],
+"a9fc724e-b0d5-4716-b46e-70b1901718d2": [
+"beta",
+"catalog-reset-button",
+"tag_mov_container_mut",
+"f"
+],
+"78d21c8a-226b-4913-a079-d6ffa76d0abf": [
+"delta",
+"catalog-filter-genre",
+"tag_type_mod_mut",
+"j"
+],
+"a2c786b6-8b95-4d3d-9391-d1cd33d188af": [
+"delta",
+"form-cancel",
+"attr_val_mod_mut",
+"a"
+],
+"dd8a1b64-3d68-4935-991f-91f242b1cc44": [
+"gamma",
+"review-item",
+"tag_ins_mut",
+"k"
+],
+"21627933-cf4e-4707-ae27-5e30713a79f1": [
+"delta",
+"cast-role",
+"tag_mov_container_mut",
+"f"
+],
+"34b83e76-8ba0-40c8-8a0e-cf808ba7459d": [
+"alpha",
+"card-rating",
+"text_cont_rem_mut",
+"e"
+],
+"56bcaf25-afcc-4984-b33b-10522e05acc3": [
+"delta",
+"card-poster",
+"text_cont_mod_mut",
+"d"
+],
+"a3b71cf1-2d38-4a6a-b628-3596d0076eea": [
+"beta",
+"form-cancel",
+"tag_ins_mut",
+"k"
+],
+"02e683d4-ca3f-4f2f-9072-61a3320340a3": [
+"alpha",
+"detail-edit-button",
+"tag_mov_html_mut",
+"g"
+],
+"f228ffdb-db20-4fac-8254-105ee97ccc54": [
+"alpha",
+"detail-delete-button",
+"tag_mov_container_mut",
+"f"
+],
+"cb2e4eb2-cb5c-4cfb-a484-04e84aec077e": [
+"beta",
+"card-meta",
+"tag_type_mod_mut",
+"j"
+],
+"d46784c3-14ec-4f03-84a7-1ff986a1fef4": [
+"beta",
+"card-poster",
+"tag_rem_mut",
+"i"
+],
+"69358d66-6f2f-4653-83a5-d1f7d23d2c11": [
+"epsilon",
+"genre-count",
+"tag_mov_html_mut",
+"g"
+],
+"ce1b5a4e-dac3-4c39-b596-73fa894c1f48": [
+"gamma",
+"catalog-sort",
+"text_cont_rem_mut",
+"e"
+],
+"b4b435da-6b84-4da2-b571-745ccd7d06fd": [
+"gamma",
+"form-cancel",
+"tag_type_mod_mut",
+"j"
+],
+"01877a9d-ca83-4d49-8936-8bf688f6f298": [
+"beta",
+"genre-row",
+"tag_type_mod_mut",
+"j"
+],
+"156c1959-23c2-4b9a-bcdb-a782dc21af33": [
+"delta",
+"detail-favorite",
+"attr_val_mod_mut",
+"a"
+],
+"1963f868-ffc0-4316-bd57-33c7cbfc825a": [
+"epsilon",
+"top-title",
+"tag_ins_mut",
+"k"
+],
+"ee936ebd-a5dd-4b7f-85df-4690567b8cd5": [
+"alpha",
+"cast-role",
+"text_cont_mod_mut",
+"d"
+],
+"b1d1039a-8781-47b2-8857-150ffe119e05": [
+"alpha",
+"cast-name",
+"tag_rem_mut",
+"i"
+],
+"812dc8fb-637c-4a9c-8a04-4eb5df64d3d9": [
+"delta",
+"detail-favorite",
+"tag_rem_mut",
+"i"
+],
+"687eb23f-a749-4dbc-a1b5-f9fbbe69e818": [
+"delta",
+"cast-name",
+"tag_rem_mut",
+"i"
+],
+"b1cbfa45-f3d8-4d8a-886c-ad30c6629fb5": [
+"alpha",
+"detail-delete-button",
+"attr_val_mod_mut",
+"a"
+],
+"eeb495d5-643b-4448-bd50-30282ac61196": [
+"delta",
+"form-submit",
+"tag_rem_mut",
+"i"
+],
+"09cce32a-1329-4e1d-bbda-316a524d2c28": [
+"epsilon",
+"detail-favorite",
+"tag_mov_container_mut",
+"f"
+],
+"850e32de-1482-4ada-8d01-6f675a361a23": [
+"beta",
+"card-favorite-toggle",
+"tag_rem_mut",
+"i"
+],
+"30cdc755-852f-44a4-b89b-a70a47cc977e": [
+"gamma",
+"catalog-favorites-filter",
+"tag_mov_html_mut",
+"g"
+],
+"93133190-0a77-4f83-8a52-f81bc8fcff95": [
+"alpha",
+"card-rating",
+"tag_type_mod_mut",
+"j"
+],
+"1100fa4d-0372-4bae-9dee-40026b3ad1ad": [
+"beta",
+"catalog-view-list",
+"tag_rem_mut",
+"i"
+],
+"6aa91e89-574c-4c9b-b931-247b48361aaf": [
+"alpha",
+"top-row",
+"tag_type_mod_mut",
+"j"
+],
+"00e7f44c-7401-44f0-89e2-18f162bba474": [
+"beta",
+"genre-count",
+"tag_type_mod_mut",
+"j"
+],
+"191f2d6f-a9fc-4125-83db-58fe3e1ed68d": [
+"epsilon",
+"detail-delete-button",
+"tag_type_mod_mut",
+"j"
+],
+"6e3780e6-b217-4f27-8e7d-1e2fc4c0bfb2": [
+"gamma",
+"catalog-add-button",
+"tag_mov_html_mut",
+"g"
+],
+"2f72b28f-f9cf-4894-936f-98172a6584a6": [
+"alpha",
+"card-meta",
+"tag_ins_mut",
+"k"
+],
+"1a9123cd-3d65-44e6-9050-1f11af7e8f41": [
+"delta",
+"detail-favorite",
+"tag_mov_container_mut",
+"f"
+],
+"75411072-be51-4558-a421-b2033dee493f": [
+"gamma",
+"genre-row",
+"tag_rem_mut",
+"i"
+],
+"b2d957fe-bc5d-413f-bf17-5ffe4e90838d": [
+"beta",
+"detail-favorite",
+"tag_type_mod_mut",
+"j"
+],
+"6e76b456-209b-47d5-9c7b-a437d490c827": [
+"gamma",
+"review-remove",
+"tag_rem_mut",
+"i"
+],
+"3b7a8a58-5cda-4e7d-8d7f-73da834989be": [
+"delta",
+"card-meta",
+"tag_type_mod_mut",
+"j"
+],
+"b6cb5541-1b59-40f7-85ee-70f7f527ea55": [
+"beta",
+"genre-count",
+"attr_rem_mut",
+"b"
+],
+"4600816c-49c0-4351-8879-209439dbe6be": [
+"alpha",
+"cast-name",
+"text_cont_rem_mut",
+"e"
+],
+"0d2a78e2-6507-4263-9ae7-997b8c118bac": [
+"alpha",
+"cast-role",
+"tag_rem_mut",
+"i"
+],
+"9ce45ffb-5c6f-4d06-8a58-0e7361f3a335": [
+"alpha",
+"form-cancel",
+"tag_rem_mut",
+"i"
+],
+"946eed12-6140-4186-84ee-68fcf43c59ed": [
+"delta",
+"detail-delete-button",
+"tag_rem_mut",
+"i"
+],
+"3ce7faac-3bea-4c6f-ae9c-109869dc3376": [
+"gamma",
+"genre-count",
+"tag_ins_mut",
+"k"
+],
+"a1e5baff-b258-43ec-8078-23a12dbd7f97": [
+"gamma",
+"catalog-search-input",
+"tag_type_mod_mut",
+"j"
+],
+"52914927-825e-4f41-bd5e-a3a5d322393b": [
+"alpha",
+"catalog-sort",
+"tag_mov_container_mut",
+"f"
+],
+"61ef20b5-3cf8-4e5d-8ce9-3277780d24e4": [
+"delta",
+"card-favorite-toggle",
+"tag_mov_container_mut",
+"f"
+],
+"91b9c630-0863-487d-9e92-69802ecbe146": [
+"epsilon",
+"detail-edit-button",
+"tag_rem_mut",
+"i"
+],
+"4fd5ac60-8569-41bf-99f3-54441b4404ad": [
+"delta",
+"detail-title",
+"text_cont_rem_mut",
+"e"
+],
+"36dee5c7-92c5-4384-b656-f08103ca8adb": [
+"gamma",
+"stat-total-value",
+"tag_ins_mut",
+"k"
+],
+"c0c561fa-a394-4468-a994-6d63a9de6418": [
+"delta",
+"detail-edit-button",
+"tag_mov_container_mut",
+"f"
+],
+"5bb0ab62-c03a-4ffa-aa24-5ca0f1354ebc": [
+"gamma",
+"review-field-comment",
+"tag_rem_mut",
+"i"
+],
+"ac30b19b-1a97-4e69-8449-fd3f2c7df611": [
+"gamma",
+"review-submit",
+"attr_val_mod_mut",
+"a"
+],
+"32876e2a-2ee6-44f8-bf72-d2e99cfde5e4": [
+"epsilon",
+"genre-row",
+"tag_rem_mut",
+"i"
+],
+"7277e53f-348c-4592-81ec-25a5dca23a3d": [
+"beta",
+"catalog-empty",
+"tag_rem_mut",
+"i"
+],
+"b8aae135-6e3f-4a1a-a390-50b8d70b7a06": [
+"delta",
+"form-submit",
+"tag_ins_mut",
+"k"
+],
+"92fb07cc-3c62-47eb-8a24-14feb7f5a89b": [
+"beta",
+"catalog-favorites-filter",
+"tag_type_mod_mut",
+"j"
+],
+"23320a82-08a3-4e95-855b-71c627588412": [
+"epsilon",
+"top-title",
+"tag_mov_container_mut",
+"f"
+],
+"1efde6d2-f866-4014-ab50-4a5add183c23": [
+"epsilon",
+"detail-edit-button",
+"tag_type_mod_mut",
+"j"
+],
+"2b8f4f0f-4a2c-48f6-9482-5575e955d82e": [
+"alpha",
+"catalog-sort",
+"attr_rem_mut",
+"b"
+],
+"6af70b95-ee0a-4e4b-8adb-d7f83ab8af20": [
+"delta",
+"card-meta",
+"tag_rem_mut",
+"i"
+],
+"76a3a298-af77-46f3-b897-9337a7e9350b": [
+"epsilon",
+"detail-favorite",
+"attr_val_mod_mut",
+"a"
+],
+"965d3a03-9ce9-47a4-af65-28d2bff6d574": [
+"epsilon",
+"genre-count",
+"tag_mov_container_mut",
+"f"
+],
+"472f7f64-1695-479b-97cf-9549242c6ccb": [
+"epsilon",
+"detail-favorite",
+"tag_rem_mut",
+"i"
+],
+"7c2c206e-9baa-4264-8905-01181195bda9": [
+"beta",
+"catalog-view-list",
+"attr_val_mod_mut",
+"a"
+],
+"2a58ea52-f733-4737-be7b-fa149503cbbe": [
+"gamma",
+"detail-edit-button",
+"tag_mov_temp_mut",
+"h"
+],
+"7d2b317e-96d2-4926-9d0b-d8b92e151f2a": [
+"gamma",
+"review-comment",
+"tag_type_mod_mut",
+"j"
+],
+"9170b4ec-ec6a-4b76-ae22-df0cc09b803c": [
+"epsilon",
+"genre-count",
+"tag_ins_mut",
+"k"
+],
+"a2df5fa8-1d9c-447e-9855-a07e7dcd2600": [
+"beta",
+"catalog-add-button",
+"tag_type_mod_mut",
+"j"
+],
+"8dbee799-9d5c-4411-8f10-f589eb36d283": [
+"epsilon",
+"detail-meta",
+"tag_ins_mut",
+"k"
+],
+"eec2b476-f7d1-4540-86c8-71eeb15f3dc8": [
+"beta",
+"detail-title",
+"tag_rem_mut",
+"i"
+],
+"c35bd847-208c-4b51-9dbb-1a5a29bc9242": [
+"beta",
+"catalog-result-count",
+"tag_rem_mut",
+"i"
+],
+"43c88d7c-89df-415f-a287-d7c6861e1bab": [
+"delta",
+"catalog-empty",
+"tag_ins_mut",
+"k"
+],
+"0b3d2f80-91a1-4387-bc7e-b9905035b523": [
+"delta",
+"catalog-add-button",
+"attr_rem_mut",
+"b"
+],
+"a0264dce-e618-4db5-a9a9-058b9a203740": [
+"beta",
+"cast-name",
+"tag_rem_mut",
+"i"
+],
+"5f0ce244-b51e-4637-add9-ff342638368a": [
+"delta",
+"detail-delete-button",
+"attr_val_mod_mut",
+"a"
+],
+"31acaa27-a77e-4f42-bf6d-9ec309f9f642": [
+"delta",
+"detail-delete-button",
+"tag_mov_html_mut",
+"g"
+],
+"6641954d-206f-47a1-bae2-75cbd870ec72": [
+"gamma",
+"field-title",
+"tag_type_mod_mut",
+"j"
+],
+"35956160-97d0-4c64-ad4f-fbeaaac5c2fd": [
+"delta",
+"form-cancel",
+"tag_rem_mut",
+"i"
+],
+"bce70b9e-ad70-4cbe-a30c-05e84163b7d8": [
+"alpha",
+"catalog-add-button",
+"attr_val_mod_mut",
+"a"
+],
+"f1117894-db98-4a31-97ea-cb441298a40c": [
+"alpha",
+"cast-row",
+"tag_rem_mut",
+"i"
+],
+"bca9e20c-1b6f-491e-a70a-82acf6539ae2": [
+"beta",
+"catalog-result-count",
+"tag_mov_html_mut",
+"g"
+],
+"d606c351-d6cb-4981-a7cc-92e85125f351": [
+"delta",
+"stat-total-value",
+"tag_mov_temp_mut",
+"h"
+],
+"d561c0cd-56b7-4d41-a5e3-460a4a6f611d": [
+"alpha",
+"card-meta",
+"text_cont_rem_mut",
+"e"
+],
+"4dd0e24d-b5f2-4084-8036-706aef2e42b8": [
+"beta",
+"catalog-result-count",
+"tag_ins_mut",
+"k"
+],
+"da0dfaeb-a23c-4984-a5e3-367af309eeb6": [
+"delta",
+"stats-heading",
+"tag_ins_mut",
+"k"
+],
+"c5f35466-020a-450a-b983-e7f5fd638618": [
+"alpha",
+"cast-role",
+"tag_ins_mut",
+"k"
+],
+"7cc459e4-89b2-4385-b5fa-72ad4941a216": [
+"gamma",
+"review-remove",
+"tag_ins_mut",
+"k"
+],
+"77a80dc4-4b3a-4127-90f9-2d8c785e6372": [
+"alpha",
+"genre-row",
+"attr_val_mod_mut",
+"a"
+],
+"3bdc2659-e3f4-4d1a-abd8-ec33f1e5d545": [
+"delta",
+"catalog-empty",
+"tag_rem_mut",
+"i"
+],
+"45f39f90-83d2-4c34-b41d-01d5a038e0ce": [
+"alpha",
+"form-cancel",
+"text_cont_rem_mut",
+"e"
+],
+"6fd7250c-d5ee-477c-a6ad-2843831a15ba": [
+"delta",
+"cast-name",
+"text_cont_mod_mut",
+"d"
+],
+"868a40bf-1fd0-4bf3-a8e4-e694aa691367": [
+"alpha",
+"catalog-add-button",
+"text_cont_mod_mut",
+"d"
+],
+"b60fa1bc-1582-46e1-a30f-903a3433f68d": [
+"delta",
+"catalog-reset-button",
+"tag_mov_container_mut",
+"f"
+],
+"b5a0ac45-0619-4b2a-96b8-e01edf8b0073": [
+"delta",
+"detail-delete-button",
+"tag_ins_mut",
+"k"
+],
+"183482b4-2b93-4ce7-a065-6c1fb868c5cb": [
+"beta",
+"catalog-empty",
+"tag_type_mod_mut",
+"j"
+],
+"3d8ffe5a-4743-4bb9-9741-539b9f272120": [
+"gamma",
+"card-title",
+"tag_type_mod_mut",
+"j"
+],
+"59ba48b7-966e-4622-bb8b-26e848a4efec": [
+"beta",
+"catalog-favorites-filter",
+"tag_mov_container_mut",
+"f"
+],
+"d7168d49-772f-4f0a-988a-2c0c9b066f05": [
+"gamma",
+"field-title",
+"attr_val_mod_mut",
+"a"
+],
+"61ea4f45-4eb8-4884-85fe-46b6c7d9db1a": [
+"gamma",
+"review-remove",
+"tag_type_mod_mut",
+"j"
+],
+"dd9b0fbc-c9ca-4a25-9e42-71b5fa719e49": [
+"alpha",
+"detail-meta",
+"tag_type_mod_mut",
+"j"
+],
+"7d1c9c3b-89f3-439e-a8a6-98c081cfd67d": [
+"delta",
+"detail-favorite",
+"tag_type_mod_mut",
+"j"
+],
+"9ee405d2-1f75-49bc-8d19-8b3ded3b78fa": [
+"alpha",
+"genre-row",
+"attr_rem_mut",
+"b"
+],
+"9791f4dc-df0f-4a07-be73-6ca9825ab6cb": [
+"beta",
+"card-favorite-toggle",
+"attr_val_mod_mut",
+"a"
+],
+"fc9fbd3d-9fee-4997-9561-06cc516d3717": [
+"epsilon",
+"detail-delete-button",
+"tag_mov_container_mut",
+"f"
+],
+"d3ee263e-7d21-435c-9f92-b8b533ac83bd": [
+"beta",
+"card-rating",
+"tag_type_mod_mut",
+"j"
+],
+"19ebf6aa-5801-483d-8f80-ba86be17c1a0": [
+"gamma",
+"catalog-add-button",
+"tag_type_mod_mut",
+"j"
+],
+"81ebaa30-5663-417f-a917-80e9367ace22": [
+"delta",
+"catalog-reset-button",
+"tag_type_mod_mut",
+"j"
+],
+"5e42fbf4-5070-4dbb-a68c-8bf40e2ac644": [
+"delta",
+"cast-role",
+"tag_ins_mut",
+"k"
+],
+"19cb6329-a396-435c-96fb-0579e956eca8": [
+"delta",
+"review-comment",
+"tag_ins_mut",
+"k"
+],
+"01581c10-a019-40b0-aa1c-e77653122f46": [
+"beta",
+"detail-meta",
+"tag_mov_container_mut",
+"f"
+],
+"05e29bd3-deba-4c4e-bc1d-8b18e0d90cfe": [
+"epsilon",
+"detail-title",
+"attr_rem_mut",
+"b"
+],
+"98d5268f-f00d-4edd-bee2-deee368c2016": [
+"gamma",
+"genre-row",
+"tag_ins_mut",
+"k"
+],
+"b4156bde-0602-49fb-ae7f-b882a1f2eb30": [
+"beta",
+"detail-edit-button",
+"tag_rem_mut",
+"i"
+],
+"146c26d9-1154-4dd4-9960-daa54a08e5c5": [
+"gamma",
+"catalog-reset-button",
+"tag_mov_html_mut",
+"g"
+],
+"26745b48-ad3e-4f26-b108-781be88eb4ef": [
+"gamma",
+"genre-count",
+"text_cont_mod_mut",
+"d"
+],
+"2b91f058-5ae6-4e42-8a61-a31858432969": [
+"delta",
+"detail-title",
+"tag_mov_html_mut",
+"g"
+],
+"e0e85808-f85b-46a8-9b1e-2385c06b4758": [
+"delta",
+"catalog-result-count",
+"tag_rem_mut",
+"i"
+],
+"c0506d0c-7b93-4556-815f-f9302390bbda": [
+"alpha",
+"card-meta",
+"text_cont_mod_mut",
+"d"
+],
+"4debd149-d2d8-4a7a-b291-c4b4cdae15f2": [
+"beta",
+"review-remove",
+"tag_ins_mut",
+"k"
+],
+"baf78722-3c91-484d-a383-9d540bf5cf53": [
+"beta",
+"detail-delete-button",
+"tag_mov_container_mut",
+"f"
+],
+"0b9bf6d8-e758-4904-9667-6d391c1f47d5": [
+"gamma",
+"card-title",
+"tag_mov_container_mut",
+"f"
+],
+"4300697c-964e-4a21-bacd-2ccb251f6855": [
+"delta",
+"catalog-sort",
+"text_cont_rem_mut",
+"e"
+],
+"db599f02-59e4-4b5a-94ab-f50ca4811218": [
+"gamma",
+"detail-title",
+"tag_ins_mut",
+"k"
+],
+"06ec106c-cc89-4a19-8522-2b7f166b438a": [
+"gamma",
+"catalog-filter-genre",
+"tag_rem_mut",
+"i"
+],
+"48c8d74a-547b-431d-9d94-428d2f8bef2f": [
+"gamma",
+"catalog-sort",
+"tag_ins_mut",
+"k"
+],
+"6d64d103-3cf5-4ad9-9b3c-c82fc78791eb": [
+"alpha",
+"detail-edit-button",
+"attr_val_mod_mut",
+"a"
+],
+"637472de-2c64-4257-bff6-0069efa2a2ec": [
+"gamma",
+"review-submit",
+"tag_ins_mut",
+"k"
+],
+"53c7245f-aa22-4140-8461-da2372ea671a": [
+"beta",
+"detail-title",
+"tag_ins_mut",
+"k"
+],
+"20b4d94d-1f89-47b2-98af-3ebde5d564ca": [
+"delta",
+"catalog-add-button",
+"tag_type_mod_mut",
+"j"
+],
+"b3602fe9-0bf3-44ef-b44f-7576cc59c8e1": [
+"gamma",
+"form-cancel",
+"attr_val_mod_mut",
+"a"
+],
+"4887ef26-53b3-4421-913e-74505dd0b3e4": [
+"beta",
+"card-meta",
+"tag_ins_mut",
+"k"
+],
+"89747af7-fe14-49ad-b49e-1be48a18cade": [
+"gamma",
+"genre-row",
+"attr_val_mod_mut",
+"a"
+],
+"0c80dede-32e2-4d1d-8126-db276e447524": [
+"epsilon",
+"detail-title",
+"tag_ins_mut",
+"k"
+],
+"ce6cd2c6-33c6-4979-a7ea-65a85e2398c8": [
+"delta",
+"card-rating",
+"tag_type_mod_mut",
+"j"
+],
+"55d40443-8fee-43df-b74e-eab40984dac8": [
+"delta",
+"catalog-favorites-filter",
+"tag_ins_mut",
+"k"
+],
+"99e81170-6218-4e98-9b3c-724d1a625b2c": [
+"gamma",
+"top-title",
+"tag_type_mod_mut",
+"j"
+],
+"89d2cd67-a63c-4c6a-b7da-839b5f484710": [
+"delta",
+"catalog-add-button",
+"tag_mov_container_mut",
+"f"
+],
+"57cd227c-04ae-40f1-99c6-3cc1cf1ab1c9": [
+"gamma",
+"stat-favorites-value",
+"tag_type_mod_mut",
+"j"
+],
+"58257193-f46c-4c29-a4e9-a04f5e0a0e67": [
+"delta",
+"detail-delete-button",
+"tag_type_mod_mut",
+"j"
+],
+"3ab5ca99-4836-4719-b1df-5765caf97d3b": [
+"delta",
+"card-rating",
+"tag_mov_html_mut",
+"g"
+],
+"14fea6c0-e52f-4e02-bb92-40f8f2b66da2": [
+"beta",
+"card-poster",
+"tag_ins_mut",
+"k"
+],
+"c3b9e314-c121-41d5-99b2-649b1f64de7d": [
+"beta",
+"detail-title",
+"tag_type_mod_mut",
+"j"
+],
+"bf3404df-a75a-418a-96ff-22cbdb37fc6c": [
+"gamma",
+"form-submit",
+"tag_mov_html_mut",
+"g"
+],
+"1fac0533-0bb5-43fb-ae04-8c03f4e0ef05": [
+"alpha",
+"top-row",
+"tag_ins_mut",
+"k"
+],
+"8aa49082-e0de-40dd-b6b5-7d13bd82fa43": [
+"gamma",
+"genre-row",
+"tag_mov_html_mut",
+"g"
+],
+"beb570d7-0d90-463f-b216-fa8b1a87a842": [
+"epsilon",
+"detail-edit-button",
+"attr_val_mod_mut",
+"a"
+],
+"011a9d76-5790-4839-ab5e-1dda2bcf84b3": [
+"gamma",
+"catalog-add-button",
+"tag_rem_mut",
+"i"
+],
+"66aace56-aee1-4349-91d0-ac3a508aa022": [
+"delta",
+"card-poster",
+"text_cont_rem_mut",
+"e"
+],
+"cd0dbb50-bd6c-4605-b9ca-c8e495683741": [
+"gamma",
+"catalog-add-button",
+"tag_ins_mut",
+"k"
+],
+"bc37b40d-73ff-4969-9171-dff6efd22356": [
+"epsilon",
+"genre-row",
+"attr_val_mod_mut",
+"a"
+],
+"20303de2-1beb-408f-9137-7302ccef9dd0": [
+"alpha",
+"detail-delete-button",
+"tag_ins_mut",
+"k"
+],
+"6f6323d7-c18e-40b0-9ece-90d0860707d2": [
+"beta",
+"form-submit",
+"tag_rem_mut",
+"i"
+],
+"92eeee75-0f2a-463f-9c2e-66130308fa14": [
+"alpha",
+"cast-role",
+"text_cont_rem_mut",
+"e"
+],
+"64225047-89f6-48dc-ace0-dd269f7edb51": [
+"alpha",
+"cast-role",
+"tag_mov_container_mut",
+"f"
+],
+"d84f508e-b82a-418e-815c-98728045f21e": [
+"gamma",
+"catalog-search-input",
+"tag_ins_mut",
+"k"
+],
+"83b3e5c0-f21b-4a16-8d4f-9644a90c2ce9": [
+"beta",
+"review-item",
+"tag_type_mod_mut",
+"j"
+],
+"295dfdc8-72f2-4b7b-9e43-5b210b75c6e3": [
+"beta",
+"genre-count",
+"attr_val_mod_mut",
+"a"
+],
+"3e97d52d-7826-4d6e-a5fc-8da1d0931458": [
+"alpha",
+"detail-delete-button",
+"text_cont_rem_mut",
+"e"
+],
+"ef8eaff2-754f-467a-a229-bf44a7ac851b": [
+"beta",
+"catalog-view-list",
+"tag_ins_mut",
+"k"
+],
+"18d654b7-9644-4287-9080-5a0837cd70ec": [
+"beta",
+"review-comment",
+"tag_ins_mut",
+"k"
+],
+"8dd103a6-444f-4037-addc-004646f9e664": [
+"delta",
+"card-rating",
+"text_cont_rem_mut",
+"e"
+],
+"c4acf2cf-36ba-48c5-8798-6cc00ec87ffb": [
+"delta",
+"detail-favorite",
+"text_cont_rem_mut",
+"e"
+],
+"9b8c98e7-d553-4495-ba37-f33202ac7861": [
+"alpha",
+"genre-row",
+"tag_ins_mut",
+"k"
+],
+"983d96f8-4082-4650-ac5a-bcf46f610f48": [
+"beta",
+"detail-edit-button",
+"tag_ins_mut",
+"k"
+],
+"dee3806c-c722-4d29-87b4-34c233fd6123": [
+"gamma",
+"reviews-average",
+"tag_ins_mut",
+"k"
+],
+"019469a5-cc6a-4d91-91ff-cbdc89d808cf": [
+"alpha",
+"form-submit",
+"attr_val_mod_mut",
+"a"
+],
+"c99df38c-0613-446f-bdd8-0efe901769e9": [
+"beta",
+"catalog-reset-button",
+"tag_type_mod_mut",
+"j"
+],
+"6549c4ac-8260-43c9-bc98-3badecda201a": [
+"delta",
+"form-cancel",
+"tag_type_mod_mut",
+"j"
+],
+"c69938c1-1e0a-472c-8486-322d4ed4583c": [
+"gamma",
+"catalog-view-list",
+"tag_mov_container_mut",
+"f"
+],
+"fb26edd7-6ae4-4341-ab17-d1f6b9c87c53": [
+"gamma",
+"detail-favorite",
+"tag_mov_html_mut",
+"g"
+],
+"80bcf9bf-7d3f-4a0f-ab94-ed74c1c6090c": [
+"gamma",
+"detail-title",
+"tag_type_mod_mut",
+"j"
+],
+"5d3803bd-10c2-420f-bd25-18b37312d45d": [
+"delta",
+"catalog-add-button",
+"tag_mov_html_mut",
+"g"
+],
+"19bd8eb5-8d2e-4f49-8afb-d5ae820ad9c1": [
+"gamma",
+"card-rating",
+"attr_val_mod_mut",
+"a"
+],
+"3b8fa76e-4d16-450d-8c3a-b9831a418ea1": [
+"epsilon",
+"detail-title",
+"attr_val_mod_mut",
+"a"
+],
+"6ae8febf-ff7d-4e01-b144-0efd65bd4a19": [
+"delta",
+"detail-title",
+"tag_rem_mut",
+"i"
+],
+"03ffe5b8-88f2-4d10-b006-fba886955de7": [
+"gamma",
+"field-title",
+"tag_mov_html_mut",
+"g"
+],
+"872b9c0d-ef0e-448c-9ee9-f7d1ab3bdb73": [
+"beta",
+"detail-edit-button",
+"tag_mov_html_mut",
+"g"
+],
+"3ab0a2aa-7f6e-4ebe-b63c-431afc085c00": [
+"delta",
+"detail-edit-button",
+"tag_ins_mut",
+"k"
+],
+"fd2bd989-c08f-448f-8596-a82749415601": [
+"beta",
+"catalog-result-count",
+"text_cont_mod_mut",
+"d"
+],
+"7d424ef1-fe0f-4f7d-b614-f80b1bfb0089": [
+"gamma",
+"field-title",
+"tag_mov_container_mut",
+"f"
+],
+"b90a1af8-63f7-478b-aa58-c3303ec8ee4b": [
+"gamma",
+"field-title",
+"attr_rem_mut",
+"b"
+],
+"462f9ff8-f930-4ecb-9f8c-736ef7e588bc": [
+"beta",
+"detail-favorite",
+"tag_rem_mut",
+"i"
+],
+"260d84fe-271e-44b8-9404-64ad338dfb1a": [
+"epsilon",
+"detail-meta",
+"tag_rem_mut",
+"i"
+],
+"6ff7734e-0544-4925-b5d7-90ed8bd666a7": [
+"epsilon",
+"genre-row",
+"tag_type_mod_mut",
+"j"
+],
+"eb35e5a7-55cf-4d9f-84a6-e4ec8ca6ffc0": [
+"beta",
+"card-favorite-toggle",
+"attr_rem_mut",
+"b"
+],
+"1e331235-c20b-4d74-bac5-f87b18026b3b": [
+"beta",
+"review-comment",
+"tag_rem_mut",
+"i"
+],
+"e2060590-dbcf-4a6f-9fa5-29ee9013efb7": [
+"gamma",
+"stat-favorites-value",
+"tag_mov_container_mut",
+"f"
+],
+"42cff972-e1ca-41a8-baf0-6f4ec1464d11": [
+"delta",
+"card-favorite-toggle",
+"tag_ins_mut",
+"k"
+],
+"3e824d8d-dc8a-4fc7-a40b-9298b9b6d24d": [
+"gamma",
+"detail-favorite",
+"tag_mov_container_mut",
+"f"
+],
+"031502b3-e452-44a4-8227-6edf8df570a1": [
+"gamma",
+"card-meta",
+"tag_type_mod_mut",
+"j"
+],
+"6ad5c955-167b-420a-aa99-f42cbd6bf26d": [
+"alpha",
+"detail-edit-button",
+"tag_ins_mut",
+"k"
+],
+"2afe73cd-4ffe-492f-b0e5-0b24669db7b8": [
+"delta",
+"form-submit",
+"attr_rem_mut",
+"b"
+],
+"da961b9b-b5d5-4e28-905f-8d5d57a0676f": [
+"delta",
+"catalog-sort",
+"tag_mov_container_mut",
+"f"
+],
+"54e4f2d2-09e0-4dcd-a5b7-a8a44c83c965": [
+"alpha",
+"detail-edit-button",
+"tag_rem_mut",
+"i"
+],
+"01d71b80-21da-43ae-9c20-a737b931a495": [
+"delta",
+"cast-role",
+"tag_type_mod_mut",
+"j"
+],
+"3d23766e-8dcd-469a-982d-4e3905d4a46f": [
+"beta",
+"catalog-view-list",
+"tag_mov_html_mut",
+"g"
+],
+"7c21cf31-0366-4c14-a57f-a44bc9a70496": [
+"epsilon",
+"detail-edit-button",
+"tag_mov_container_mut",
+"f"
+],
+"a533dadb-a63e-4d03-84e8-af2d0e1b34c6": [
+"gamma",
+"detail-edit-button",
+"tag_ins_mut",
+"k"
+],
+"2721caee-c193-4cc7-b1f9-67f21b5318b2": [
+"alpha",
+"card-favorite-toggle",
+"tag_ins_mut",
+"k"
+],
+"080f4eed-b15f-4b96-a84d-9a17214ec76d": [
+"beta",
+"detail-meta",
+"tag_mov_temp_mut",
+"h"
+],
+"44527552-e2cd-4685-900b-fe3e25916f66": [
+"epsilon",
+"top-title",
+"tag_type_mod_mut",
+"j"
+],
+"f8ee38e4-6303-4674-bd7c-aa5fc0681d5b": [
+"alpha",
+"card-rating",
+"tag_ins_mut",
+"k"
+],
+"54b1bbcc-8593-45e0-bb92-78b27d96b26c": [
+"beta",
+"catalog-filter-genre",
+"tag_ins_mut",
+"k"
+],
+"5014b5dd-2c56-4203-bb39-2ec2c14f2837": [
+"gamma",
+"review-field-comment",
+"tag_ins_mut",
+"k"
+],
+"a3a48642-bf83-4e22-921c-33c2d72c5897": [
+"gamma",
+"card-meta",
+"attr_val_mod_mut",
+"a"
+],
+"5a949b88-b942-4777-9e1a-e0e827799eb5": [
+"alpha",
+"cast-name",
+"text_cont_mod_mut",
+"d"
+],
+"c8e87e0c-00a6-4f30-8f35-d48faa18ec01": [
+"delta",
+"catalog-filter-genre",
+"tag_rem_mut",
+"i"
+],
+"ed785bfa-9eea-4124-9830-6fd7af789928": [
+"delta",
+"catalog-reset-button",
+"tag_ins_mut",
+"k"
+],
+"15d45869-c2fa-432a-a132-7fa39c4f1c43": [
+"alpha",
+"review-item",
+"tag_ins_mut",
+"k"
+],
+"c4d38877-cb6e-418b-ab26-c58f27cbbe81": [
+"beta",
+"cast-name",
+"tag_type_mod_mut",
+"j"
+],
+"245c4797-0572-4f8b-8227-c1dcfcb767f0": [
+"gamma",
+"field-title",
+"tag_ins_mut",
+"k"
+],
+"68783db5-19c8-4c7c-94a2-70775d098408": [
+"beta",
+"catalog-sort",
+"tag_ins_mut",
+"k"
+],
+"796f6ef7-ed68-4223-a248-71f2624ba4a7": [
+"gamma",
+"genre-row",
+"attr_rem_mut",
+"b"
+],
+"7c0927e2-9807-469a-a987-52cced9878c8": [
+"beta",
+"detail-delete-button",
+"tag_type_mod_mut",
+"j"
+],
+"d6a3cfa0-28ff-4737-869c-a67c265f1b46": [
+"alpha",
+"review-item",
+"tag_type_mod_mut",
+"j"
+],
+"ecad979e-d5a1-4305-9b2a-44132c393e92": [
+"gamma",
+"catalog-favorites-filter",
+"tag_type_mod_mut",
+"j"
+],
+"fc325661-219b-49d2-aa0d-80b1682a40bb": [
+"gamma",
+"reviews-average",
+"tag_type_mod_mut",
+"j"
+],
+"00e1c9ff-a3f9-4a78-8d5c-5c180583c0f6": [
+"gamma",
+"detail-edit-button",
+"tag_rem_mut",
+"i"
+],
+"12272da9-fe04-4a43-96b2-51165593ffc2": [
+"gamma",
+"stat-favorites-value",
+"tag_rem_mut",
+"i"
+],
+"54eaeefa-6c4f-472d-9eda-e1cf18d0d88c": [
+"beta",
+"review-remove",
+"tag_type_mod_mut",
+"j"
+],
+"2ffb2e7e-20e8-48c1-ba94-855c036ee3dc": [
+"beta",
+"detail-meta",
+"tag_type_mod_mut",
+"j"
+],
+"097ba0e0-f403-4db2-b0ed-84b28d8ba0ec": [
+"alpha",
+"detail-edit-button",
+"attr_rem_mut",
+"b"
+],
+"c16a997a-e10d-42f0-a01b-7b29572aeed0": [
+"gamma",
+"catalog-filter-genre",
+"tag_ins_mut",
+"k"
+],
+"40594fab-c5c3-46e9-b7bf-c47957137ea0": [
+"alpha",
+"form-cancel",
+"text_cont_mod_mut",
+"d"
+],
+"4c402c77-5487-466a-b6e0-dbd1e07b03bb": [
+"gamma",
+"catalog-add-button",
+"tag_mov_container_mut",
+"f"
+],
+"acc355ef-156c-4852-81e2-0a7b7c305ab2": [
+"alpha",
+"form-cancel",
+"tag_mov_container_mut",
+"f"
+],
+"bf2c6c53-f312-45bd-b2ea-783ff2ebf544": [
+"delta",
+"card-rating",
+"tag_rem_mut",
+"i"
+],
+"069026f3-0e60-4810-87b4-1d0279f4f653": [
+"alpha",
+"detail-edit-button",
+"tag_type_mod_mut",
+"j"
+],
+"893d7707-00ad-42ef-b9f3-335af93597db": [
+"delta",
+"catalog-sort",
+"tag_ins_mut",
+"k"
+],
+"4d6bb6ea-f707-4272-8814-ede4ee3b4827": [
+"alpha",
+"card-meta",
+"tag_type_mod_mut",
+"j"
+],
+"0ab1d2ab-fcb9-4a36-a0d7-d5883bb15f5e": [
+"gamma",
+"review-item",
+"tag_rem_mut",
+"i"
+],
+"636d97ff-63ac-4f01-864a-45f26c06814c": [
+"gamma",
+"genre-count",
+"text_cont_rem_mut",
+"e"
+],
+"d5f40f71-6212-44c0-9ad2-d2b724c839d5": [
+"delta",
+"detail-edit-button",
+"text_cont_rem_mut",
+"e"
+],
+"095decb4-59c3-463d-9ac3-e96a94eec077": [
+"beta",
+"card-rating",
+"tag_rem_mut",
+"i"
+],
+"3160abfd-8dcb-41c5-9103-fff676a6be07": [
+"alpha",
+"form-cancel",
+"tag_type_mod_mut",
+"j"
+],
+"9283637e-8ae8-4de7-9519-2ff8a6f89f15": [
+"beta",
+"card-meta",
+"tag_rem_mut",
+"i"
+],
+"d511efc3-49b6-4713-8a98-347fec26d25a": [
+"gamma",
+"top-title",
+"tag_ins_mut",
+"k"
+],
+"0b540e7c-0c43-4b95-8039-dcccd2341421": [
+"beta",
+"catalog-view-list",
+"attr_rem_mut",
+"b"
+],
+"3ae908b9-6e66-4d8c-9462-68566e9eaf1f": [
+"gamma",
+"catalog-view-list",
+"tag_type_mod_mut",
+"j"
+],
+"c0468f5a-bde3-494e-b406-64853e6cd1ab": [
+"delta",
+"card-poster",
+"tag_ins_mut",
+"k"
+],
+"91993cd0-0df8-4bae-9a94-8375992be0e4": [
+"gamma",
+"card-meta",
+"tag_rem_mut",
+"i"
+],
+"73536c1e-88a6-405f-ab3b-9a26b4bdab24": [
+"gamma",
+"detail-delete-button",
+"tag_ins_mut",
+"k"
+],
+"203b4c30-f389-4c95-9bb5-ef9e0f9b75e2": [
+"delta",
+"catalog-sort",
+"tag_rem_mut",
+"i"
+],
+"023251ed-a640-4ad3-bcd9-ea6f69df1ec6": [
+"gamma",
+"catalog-reset-button",
+"text_cont_mod_mut",
+"d"
+],
+"2499e906-5a9c-4f7e-8281-96bd907fa034": [
+"beta",
+"detail-favorite",
+"tag_mov_html_mut",
+"g"
+],
+"5ed4695c-b71c-47d6-a869-3d6f0de7a008": [
+"gamma",
+"detail-favorite",
+"tag_type_mod_mut",
+"j"
+],
+"d9b896df-95b3-4a53-a168-528be91ccf3a": [
+"delta",
+"catalog-reset-button",
+"tag_rem_mut",
+"i"
+],
+"4bacf48a-38fb-4dcd-89c0-333e744c7e42": [
+"delta",
+"stats-heading",
+"tag_type_mod_mut",
+"j"
+],
+"ac6c9788-330c-49d6-8b01-496ec478d9f4": [
+"gamma",
+"review-submit",
+"tag_type_mod_mut",
+"j"
+],
+"ade1d4b1-27f4-48f3-b4a1-81695ba1a48d": [
+"alpha",
+"card-favorite-toggle",
+"tag_rem_mut",
+"i"
+],
+"0c4e6d6d-eab2-4f7b-bdd2-7d87d8e4e97f": [
+"delta",
+"catalog-result-count",
+"text_cont_mod_mut",
+"d"
+],
+"d4a95a5a-189f-49ab-afea-98910240a822": [
+"gamma",
+"card-title",
+"tag_ins_mut",
+"k"
+],
+"02b46a9d-53f9-441f-b800-1229feed5f4c": [
+"alpha",
+"form-submit",
+"text_cont_rem_mut",
+"e"
+],
+"1d648a65-19d0-4b35-bdf2-1577ddc79843": [
+"alpha",
+"catalog-sort",
+"tag_type_mod_mut",
+"j"
+],
+"4c8ac934-5ad4-4bd5-8c81-0bcd8b1ff22b": [
+"delta",
+"cast-name",
+"text_cont_rem_mut",
+"e"
+],
+"ab808c79-1059-48cf-921d-0e96cec81e25": [
+"delta",
+"card-rating",
+"text_cont_mod_mut",
+"d"
+],
+"dcf4a292-7709-4868-bb2c-88661d6613dd": [
+"epsilon",
+"detail-favorite",
+"attr_rem_mut",
+"b"
+],
+"99ecbc7a-c2da-4a27-9a58-dc7408c486d3": [
+"epsilon",
+"detail-favorite",
+"tag_mov_temp_mut",
+"h"
+],
+"e9f71b89-03b5-4004-bbb6-509d7e6b2f04": [
+"gamma",
+"genre-row",
+"tag_mov_container_mut",
+"f"
+],
+"0ed6a040-7972-459d-82a0-9106d23611d6": [
+"delta",
+"catalog-filter-genre",
+"tag_mov_html_mut",
+"g"
+],
+"fe54d591-ec69-48ec-9a01-1c9225656115": [
+"delta",
+"catalog-favorites-filter",
+"tag_mov_container_mut",
+"f"
+],
+"52cc8385-a1af-4bb7-bf77-b0f5ba5dc9f2": [
+"beta",
+"catalog-empty",
+"tag_mov_container_mut",
+"f"
+],
+"91e671ba-f6fe-4484-b196-7504f50ae61c": [
+"epsilon",
+"detail-meta",
+"tag_mov_html_mut",
+"g"
+],
+"10022ea5-5d94-48de-97a8-7012794c8fb0": [
+"gamma",
+"catalog-search-input",
+"tag_rem_mut",
+"i"
+],
+"f8fd8c2b-fa2f-427e-99ad-ef9c563df168": [
+"delta",
+"cast-name",
+"tag_ins_mut",
+"k"
+],
+"e37a3a02-03db-4379-8c28-bd75f08fcfd2": [
+"beta",
+"genre-count",
+"tag_rem_mut",
+"i"
+],
+"dabbc40a-1b20-40ca-97f5-f7496e5da47b": [
+"beta",
+"catalog-filter-genre",
+"tag_type_mod_mut",
+"j"
+],
+"8ca66dbf-85b7-4bfe-ad18-a86089f4f45c": [
+"gamma",
+"card-title",
+"tag_rem_mut",
+"i"
+],
+"71dfae01-d82a-4300-82ec-ed55abb6d543": [
+"epsilon",
+"genre-row",
+"tag_mov_container_mut",
+"f"
+],
+"d5496b47-8680-4108-a3e6-28ca73d388ba": [
+"beta",
+"review-comment",
+"tag_mov_html_mut",
+"g"
+],
+"84f19be4-d0fd-49b3-8a96-d24340ee373b": [
+"alpha",
+"card-favorite-toggle",
+"text_cont_mod_mut",
+"d"
+],
+"4b2085c7-1940-41f0-9a97-bf1bcf811fcb": [
+"epsilon",
+"detail-delete-button",
+"attr_rem_mut",
+"b"
+],
+"f07ab48a-a1d9-4085-9fac-cfa21e6bddc6": [
+"delta",
+"form-submit",
+"text_cont_mod_mut",
+"d"
+],
+"147d6567-a391-49cf-8a21-44f219c9b465": [
+"epsilon",
+"detail-favorite",
+"tag_type_mod_mut",
+"j"
+],
+"0d6399ca-5fdd-43d4-994a-ed132d7a6a47": [
+"epsilon",
+"detail-favorite",
+"tag_ins_mut",
+"k"
+],
+"4942ef3b-78fe-4942-902d-b3ab126d6cae": [
+"gamma",
+"detail-delete-button",
+"tag_rem_mut",
+"i"
+],
+"00fc2a28-865b-4f22-b1ed-4a0566fce49f": [
+"delta",
+"detail-delete-button",
+"text_cont_mod_mut",
+"d"
+],
+"57cb46aa-3b5d-4945-8e18-01e9c815646c": [
+"delta",
+"card-meta",
+"text_cont_rem_mut",
+"e"
+],
+"b35863f1-81e3-409e-857e-cd31165b1e2a": [
+"beta",
+"cast-role",
+"tag_ins_mut",
+"k"
+],
+"1f6f0cc4-29e8-41a8-8f6f-c6411a98fa5b": [
+"beta",
+"detail-meta",
+"tag_ins_mut",
+"k"
+],
+"8501bcb5-add0-42a3-864b-f9976cd8c6ce": [
+"delta",
+"cast-name",
+"tag_type_mod_mut",
+"j"
+],
+"b886316f-5778-483d-9dfc-a27730171c7c": [
+"delta",
+"card-rating",
+"tag_ins_mut",
+"k"
+],
+"fdf1a5c8-2b40-4047-aa12-05630df615d8": [
+"beta",
+"genre-row",
+"text_cont_mod_mut",
+"d"
+],
+"517d992a-6d92-4b6d-8991-fcf7e8bf7a7b": [
+"beta",
+"card-favorite-toggle",
+"tag_ins_mut",
+"k"
+],
+"2a3b89a4-7910-402d-ab08-e059a68246fa": [
+"epsilon",
+"genre-row",
+"tag_ins_mut",
+"k"
+],
+"735adb72-5cf7-49b3-8c00-5ed292d48722": [
+"beta",
+"card-poster",
+"tag_type_mod_mut",
+"j"
+],
+"f0e6858b-56b4-47d1-8434-1688bc3c54dd": [
+"delta",
+"detail-title",
+"tag_ins_mut",
+"k"
+],
+"cef3fbb6-0139-48b6-997b-7592a100d62b": [
+"gamma",
+"stat-total-value",
+"tag_rem_mut",
+"i"
+],
+"c5e22226-8611-42c8-acf9-3cf9d7b3d38b": [
+"beta",
+"review-item",
+"tag_rem_mut",
+"i"
+],
+"356ad634-51e9-443d-9ee0-4fe6a44debf5": [
+"delta",
+"catalog-favorites-filter",
+"tag_rem_mut",
+"i"
+],
+"05be95ea-b37a-4ae9-9d32-55d3b604e6cf": [
+"alpha",
+"form-submit",
+"attr_rem_mut",
+"b"
+],
+"ae363c8e-276e-4885-aad3-7324aca4152f": [
+"gamma",
+"catalog-filter-genre",
+"tag_mov_container_mut",
+"f"
+],
+"25e623eb-9e03-418c-8955-8fbb3f41fc5d": [
+"beta",
+"catalog-add-button",
+"tag_mov_html_mut",
+"g"
+],
+"ae6c697a-4f6c-4b3a-98c0-dfd16c8e143e": [
+"beta",
+"review-comment",
+"tag_type_mod_mut",
+"j"
+],
+"d076aacc-8811-40fa-a91f-79a74aafab25": [
+"gamma",
+"detail-meta",
+"tag_type_mod_mut",
+"j"
+],
+"341d1847-4890-42c2-8e20-933763fd2363": [
+"alpha",
+"top-row",
+"tag_rem_mut",
+"i"
+],
+"79fc6ad1-bb3f-4d94-8d6b-54fb77fa8c80": [
+"delta",
+"card-meta",
+"tag_ins_mut",
+"k"
+],
+"3d440c4a-a61a-4e69-87e8-3f8c7717856a": [
+"delta",
+"detail-title",
+"tag_mov_container_mut",
+"f"
+],
+"5595b79d-0b2a-461e-9263-a8543d0af18b": [
+"delta",
+"detail-edit-button",
+"text_cont_mod_mut",
+"d"
+],
+"35aa1a22-a889-40da-a9e5-10d11b33195c": [
+"beta",
+"cast-name",
+"tag_ins_mut",
+"k"
+],
+"c52d4d39-975f-4948-8905-59fc90c95bcf": [
+"gamma",
+"review-item",
+"tag_type_mod_mut",
+"j"
+],
+"85baa24d-79a1-4759-b4b2-9051b4810c18": [
+"beta",
+"genre-row",
+"text_cont_rem_mut",
+"e"
+],
+"c1d00310-a527-43fc-a070-39db39958d17": [
+"delta",
+"catalog-add-button",
+"attr_val_mod_mut",
+"a"
+],
+"2123e52b-9de6-4b93-a7ac-db99bd93e3b1": [
+"alpha",
+"catalog-filter-genre",
+"tag_mov_html_mut",
+"g"
+],
+"c8bc383f-7c11-4fad-8a54-bd4ea6b94faf": [
+"alpha",
+"review-item",
+"tag_rem_mut",
+"i"
+],
+"138e632a-c74c-4ec5-88ec-37d86e43b0b1": [
+"gamma",
+"card-meta",
+"tag_mov_html_mut",
+"g"
+],
+"cbb80d7d-4069-4e1e-b14f-80a80f1e184c": [
+"delta",
+"card-favorite-toggle",
+"tag_type_mod_mut",
+"j"
+],
+"c62e356a-1855-4373-aced-ba5587a6918d": [
+"alpha",
+"detail-meta",
+"tag_mov_temp_mut",
+"h"
+],
+"058793c1-1df4-4f05-80ee-31af3faf8fdc": [
+"gamma",
+"catalog-filter-genre",
+"tag_type_mod_mut",
+"j"
+],
+"b46eb92c-3bbe-4b7a-bb8b-cc83bc273912": [
+"epsilon",
+"detail-delete-button",
+"attr_val_mod_mut",
+"a"
+],
+"c2d368ca-58d2-4f7d-b5e2-af3573a80970": [
+"gamma",
+"catalog-reset-button",
+"tag_rem_mut",
+"i"
+],
+"51f3ab57-300f-4f9b-b6aa-1a7a29895a1a": [
+"epsilon",
+"genre-count",
+"tag_rem_mut",
+"i"
+],
+"9fbbe2f0-751a-4eac-8402-d7137cdae047": [
+"gamma",
+"detail-delete-button",
+"tag_type_mod_mut",
+"j"
+],
+"b055fb04-9b1f-43a5-93e8-db51326f80ca": [
+"gamma",
+"detail-favorite",
+"tag_ins_mut",
+"k"
+],
+"70c44464-cb97-493f-99f2-55ee2bbd899e": [
+"delta",
+"detail-title",
+"text_cont_mod_mut",
+"d"
+],
+"ac04860d-6d82-41bb-aa10-0e7768ea859a": [
+"delta",
+"form-cancel",
+"tag_ins_mut",
+"k"
+],
+"7731a841-9ade-4344-a13f-32bb7beb80b3": [
+"beta",
+"catalog-view-list",
+"tag_mov_container_mut",
+"f"
+],
+"dc1ada57-4584-4dd4-8262-8f8f10f132c1": [
+"alpha",
+"detail-edit-button",
+"tag_mov_container_mut",
+"f"
+],
+"9c55473b-badc-44d9-bc13-e58b2a1a0d38": [
+"gamma",
+"form-submit",
+"tag_rem_mut",
+"i"
+],
+"ceae2b38-d90d-4d4e-94ab-0636dbbaa25a": [
+"epsilon",
+"detail-meta",
+"tag_type_mod_mut",
+"j"
+],
+"a70c76f3-b06b-4136-ac14-c8e185f0ebd4": [
+"epsilon",
+"genre-count",
+"attr_rem_mut",
+"b"
+],
+"c35cf700-7c82-4015-aaae-a38f5c499931": [
+"delta",
+"catalog-empty",
+"text_cont_mod_mut",
+"d"
+],
+"5ee58cd2-a43c-424a-9179-161e0ad3e970": [
+"alpha",
+"catalog-add-button",
+"attr_rem_mut",
+"b"
+],
+"f4c704e1-487c-4925-846e-782115fab0b4": [
+"alpha",
+"form-submit",
+"tag_rem_mut",
+"i"
+],
+"23ea15be-3fa5-4238-a8cd-e0df2dbe581a": [
+"gamma",
+"reviews-average",
+"tag_rem_mut",
+"i"
+],
+"951c57d5-723a-46fd-b1c7-1e9e7b3d9ff6": [
+"alpha",
+"detail-delete-button",
+"tag_rem_mut",
+"i"
+],
+"89b4425c-eafb-4258-a590-1f94fafa47ae": [
+"alpha",
+"card-rating",
+"text_cont_mod_mut",
+"d"
+],
+"0de8639f-ae88-45c1-a9eb-61178b94aba4": [
+"delta",
+"detail-favorite",
+"tag_ins_mut",
+"k"
+],
+"a66cc3b4-d7ed-40ea-a091-3bfbe052705d": [
+"delta",
+"form-submit",
+"text_cont_rem_mut",
+"e"
+],
+"cc956bdd-ed77-4451-bc93-a60788030cdc": [
+"gamma",
+"card-meta",
+"attr_rem_mut",
+"b"
+],
+"956ef101-3522-4b46-a58b-fa2b801566e0": [
+"beta",
+"catalog-sort",
+"tag_type_mod_mut",
+"j"
+],
+"6fa85d86-579c-46d0-98ac-f1cd9cecc4a6": [
+"gamma",
+"catalog-sort",
+"tag_rem_mut",
+"i"
+],
+"b1d9a473-b685-407c-b4b7-c2aca4439054": [
+"delta",
+"catalog-favorites-filter",
+"attr_val_mod_mut",
+"a"
+],
+"0f4d4550-cdd5-4cf0-adf9-730d3b8a76e6": [
+"epsilon",
+"detail-title",
+"tag_rem_mut",
+"i"
+],
+"65d2bb53-0d28-452f-9f52-27893af02e0a": [
+"beta",
+"detail-favorite",
+"tag_ins_mut",
+"k"
+],
+"6327d905-5a35-456e-b890-82fc649c7734": [
+"epsilon",
+"detail-title",
+"tag_type_mod_mut",
+"j"
+],
+"948d7ed9-6f4a-4129-9fe1-6e8e20196065": [
+"gamma",
+"detail-meta",
+"tag_ins_mut",
+"k"
+],
+"9b6ea9fd-fd31-47c3-9b13-420cd424e110": [
+"alpha",
+"catalog-add-button",
+"tag_mov_container_mut",
+"f"
+],
+"620425ed-8ced-42a3-ade0-a276938a15fc": [
+"alpha",
+"detail-meta",
+"tag_ins_mut",
+"k"
+],
+"8e5a6085-bc8a-42b5-ac36-3b321cda8938": [
+"gamma",
+"field-title",
+"tag_rem_mut",
+"i"
+],
+"d9c740cd-8d29-478a-b797-240dbdb1af1f": [
+"delta",
+"catalog-filter-genre",
+"tag_ins_mut",
+"k"
+],
+"b92b55eb-0550-4443-8407-83490bab739d": [
+"gamma",
+"detail-title",
+"tag_rem_mut",
+"i"
+],
+"1f903c0b-9c07-4fc6-b007-663098a82ce8": [
+"gamma",
+"catalog-view-list",
+"tag_ins_mut",
+"k"
+],
+"d7e2d810-5990-4785-a89c-99000c2f2247": [
+"beta",
+"catalog-empty",
+"tag_ins_mut",
+"k"
+],
+"7b2bfbd4-cc16-4906-858d-7c559b55c857": [
+"gamma",
+"stat-favorites-value",
+"tag_ins_mut",
+"k"
+],
+"fc41fcd2-9bbb-433c-8892-bc512774586e": [
+"gamma",
+"catalog-sort",
+"tag_type_mod_mut",
+"j"
+],
+"e6706bf4-ac88-43a8-96f0-3cee17556466": [
+"delta",
+"detail-delete-button",
+"attr_rem_mut",
+"b"
+],
+"d11a281a-1604-435f-8dfa-6488148e9a95": [
+"delta",
+"form-submit",
+"tag_type_mod_mut",
+"j"
+],
+"509bc548-afd5-4442-9aed-a782577709c1": [
+"beta",
+"genre-count",
+"tag_ins_mut",
+"k"
+],
+"fa1bfea6-19a2-43c4-b0ae-31080b6e9889": [
+"beta",
+"card-favorite-toggle",
+"tag_type_mod_mut",
+"j"
+],
+"c56ebd31-a54f-4720-95f4-5d017bc0eaf2": [
+"epsilon",
+"top-row",
+"tag_ins_mut",
+"k"
+],
+"82686710-48ec-49ee-a45f-0d1939f55509": [
+"gamma",
+"catalog-favorites-filter",
+"tag_rem_mut",
+"i"
+],
+"d84bbe0f-f5f6-44df-87c5-94aa65ce160e": [
+"beta",
+"detail-title",
+"tag_mov_html_mut",
+"g"
+],
+"00580971-e7fe-4f86-968e-2f628791ec7e": [
+"alpha",
+"detail-edit-button",
+"text_cont_mod_mut",
+"d"
+],
+"5ba528e1-44e2-4fce-9874-eaa5f461c525": [
+"gamma",
+"form-cancel",
+"attr_rem_mut",
+"b"
+],
+"42ccfb39-27d6-4466-8530-94e0137bb580": [
+"beta",
+"card-poster",
+"tag_mov_html_mut",
+"g"
+],
+"70e46ac5-46c5-43af-9f59-0aa2cfc3b81b": [
+"delta",
+"cast-role",
+"tag_rem_mut",
+"i"
+],
+"aca6dc27-f0a5-4331-b5a1-aafccd0dfb0b": [
+"gamma",
+"review-comment",
+"tag_ins_mut",
+"k"
+],
+"f3bb49a6-d53b-4095-adf1-ae2c097edff9": [
+"alpha",
+"card-favorite-toggle",
+"text_cont_rem_mut",
+"e"
+],
+"f33fc481-1170-4a4e-a074-d5b7879eb718": [
+"beta",
+"detail-delete-button",
+"tag_ins_mut",
+"k"
+],
+"e730e2f0-8e58-4b1c-a691-5bd600fe6249": [
+"alpha",
+"form-submit",
+"tag_ins_mut",
+"k"
+],
+"f6b92038-83fc-43b2-ab87-46ad4dcf8ae2": [
+"alpha",
+"catalog-add-button",
+"tag_type_mod_mut",
+"j"
+],
+"674178ef-584c-4b34-8230-cf8da7a5d517": [
+"beta",
+"card-rating",
+"tag_ins_mut",
+"k"
+],
+"a9f9501f-357e-48cb-abac-e446b915808f": [
+"delta",
+"catalog-favorites-filter",
+"tag_mov_html_mut",
+"g"
+],
+"6ae54d7a-79a8-43c6-a9c8-b77d122f5954": [
+"epsilon",
+"top-row",
+"tag_mov_container_mut",
+"f"
+],
+"30f1166e-58bb-4e22-b699-eba88380d2a3": [
+"delta",
+"card-poster",
+"tag_rem_mut",
+"i"
+],
+"157f8833-0519-481d-b464-353aabba2a96": [
+"delta",
+"review-comment",
+"tag_rem_mut",
+"i"
+],
+"c3dca3a0-f6af-4725-a7c6-4736ed34a68a": [
+"gamma",
+"review-submit",
+"tag_rem_mut",
+"i"
+],
+"54eaa8fd-28a2-4f88-9f9f-44885cb80c9d": [
+"gamma",
+"catalog-sort",
+"tag_mov_container_mut",
+"f"
+],
+"c2d77971-d474-4a56-b06b-b694b2a3fe6d": [
+"gamma",
+"catalog-reset-button",
+"tag_ins_mut",
+"k"
+],
+"bc4e346f-a768-44b4-b3e7-a388028d6ff4": [
+"beta",
+"review-remove",
+"tag_rem_mut",
+"i"
+],
+"e4b0bb55-bd9e-4473-b9bb-6ad776ab9cce": [
+"beta",
+"catalog-view-list",
+"tag_type_mod_mut",
+"j"
+],
+"6bbba87d-a377-42bf-b250-939b03bc68b0": [
+"gamma",
+"card-rating",
+"attr_rem_mut",
+"b"
+],
+"4bf5485c-b6c7-46bf-aa9b-1baeecfc1eb6": [
+"delta",
+"detail-title",
+"tag_type_mod_mut",
+"j"
+],
+"1d4f7a2c-b9ef-4d5e-b4c6-9586e99f251c": [
+"beta",
+"catalog-favorites-filter",
+"tag_ins_mut",
+"k"
+],
+"50396ae8-9941-40b0-8d16-eeb02c5e6463": [
+"alpha",
+"cast-name",
+"tag_ins_mut",
+"k"
+],
+"c67a7ddd-2973-42ae-a9f7-a4d0502ec44a": [
+"beta",
+"form-submit",
+"tag_type_mod_mut",
+"j"
+],
+"f8417b66-7030-44b6-8d51-e6bb3f7f4736": [
+"delta",
+"cast-role",
+"text_cont_mod_mut",
+"d"
+],
+"7663c0c3-5dbd-4b7a-8663-4311085c374a": [
+"beta",
+"genre-row",
+"tag_ins_mut",
+"k"
+],
+"2fb5b7ae-2a6f-4dbc-9fda-566278b6959f": [
+"gamma",
+"catalog-reset-button",
+"tag_mov_container_mut",
+"f"
+],
+"d55355d9-cda2-4530-8a94-4f8d702783a5": [
+"epsilon",
+"genre-count",
+"tag_type_mod_mut",
+"j"
+],
+"f35ea269-07da-401e-96d7-0c0f72329d2e": [
+"gamma",
+"review-comment",
+"tag_rem_mut",
+"i"
+],
+"aa72005f-4d41-4aae-a187-5f5ed564d0e7": [
+"beta",
+"catalog-add-button",
+"tag_rem_mut",
+"i"
+],
+"e8cf1c71-4b3f-40e8-a1a8-626c5b26ac0e": [
+"delta",
+"form-cancel",
+"text_cont_mod_mut",
+"d"
+],
+"811f576a-f853-4be3-a2e9-9196bdcf7e9f": [
+"delta",
+"catalog-sort",
+"attr_val_mod_mut",
+"a"
+],
+"ee1d3d7c-4014-4b72-9cb9-b3565e35e2d9": [
+"beta",
+"catalog-reset-button",
+"tag_ins_mut",
+"k"
+],
+"c6723d7b-7e5c-4700-a5c1-7db882f4cf09": [
+"alpha",
+"detail-delete-button",
+"text_cont_mod_mut",
+"d"
+],
+"c415c3ac-6a51-48db-9040-7756edc04944": [
+"epsilon",
+"top-title",
+"tag_rem_mut",
+"i"
+],
+"1a54937f-f6c2-40d7-a74f-036eb6d04e56": [
+"gamma",
+"genre-count",
+"tag_type_mod_mut",
+"j"
+],
+"0820358c-8b60-4d12-90f8-af0b4e91bea3": [
+"alpha",
+"detail-meta",
+"tag_mov_container_mut",
+"f"
+],
+"3a326553-1625-4221-b3dd-6d109bdfab57": [
+"delta",
+"cast-name",
+"tag_mov_container_mut",
+"f"
+],
+"2fc0e3f0-c10a-44e7-a5f7-8404d18e49ab": [
+"gamma",
+"catalog-favorites-filter",
+"tag_ins_mut",
+"k"
+],
+"65147be0-67ae-4297-9853-2060f6ddc05e": [
+"beta",
+"catalog-filter-genre",
+"tag_rem_mut",
+"i"
+],
+"eb10ac73-7323-4045-ab1c-fbea702793c8": [
+"delta",
+"catalog-add-button",
+"tag_rem_mut",
+"i"
+],
+"354fb6e2-6e1b-496c-9838-0df0fe984c79": [
+"alpha",
+"catalog-sort",
+"tag_rem_mut",
+"i"
+],
+"61aec6d0-5b3f-4409-bc44-a44ed8ada262": [
+"beta",
+"card-poster",
+"attr_rem_mut",
+"b"
+],
+"c6470bff-6e86-44fd-abcb-c27d6a26b87b": [
+"gamma",
+"catalog-view-list",
+"tag_rem_mut",
+"i"
+],
+"48320bf7-ef6b-4956-985d-4db38b1db372": [
+"beta",
+"card-poster",
+"attr_val_mod_mut",
+"a"
+],
+"f542d7d2-21db-4250-bc78-62e016335f87": [
+"delta",
+"form-cancel",
+"text_cont_rem_mut",
+"e"
+],
+"50d01c37-459e-4045-8ed7-00011720fddc": [
+"alpha",
+"detail-delete-button",
+"tag_type_mod_mut",
+"j"
+],
+"ba117b03-ed16-4281-922e-f09cd805ad95": [
+"beta",
+"detail-title",
+"tag_mov_container_mut",
+"f"
+],
+"5dc68c27-e935-445f-92c4-de737036b714": [
+"gamma",
+"form-submit",
+"tag_mov_container_mut",
+"f"
+],
+"40aae9cc-eae5-4a79-8477-bcd6eda808a2": [
+"delta",
+"detail-edit-button",
+"tag_type_mod_mut",
+"j"
+],
+"0e7c7b2a-d7ce-4389-89a9-bb2dec5c2d4b": [
+"alpha",
+"card-favorite-toggle",
+"tag_type_mod_mut",
+"j"
+],
+"a2a1f4b0-97bd-4478-97b9-3ad9f506c18b": [
+"gamma",
+"genre-row",
+"tag_type_mod_mut",
+"j"
+],
+"1166b8e0-4be3-470d-bc1f-0ea4cfbd3a9c": [
+"delta",
+"detail-edit-button",
+"tag_rem_mut",
+"i"
+],
+"8a987f03-ccff-4eb0-85da-4832740541b3": [
+"gamma",
+"form-cancel",
+"tag_rem_mut",
+"i"
+],
+"567bcc7d-eca8-41fe-92c0-25bbdb7c1ac3": [
+"beta",
+"card-meta",
+"tag_mov_container_mut",
+"f"
+],
+"50194cb4-72e6-4c9b-9a1d-c69a533a0343": [
+"delta",
+"detail-edit-button",
+"attr_val_mod_mut",
+"a"
+],
+"418e1bf6-9503-4c7c-bd90-c5758e2c4660": [
+"delta",
+"stats-heading",
+"tag_rem_mut",
+"i"
+],
+"f1a974e7-2b71-4543-8839-84988746cfd0": [
+"delta",
+"stat-total-value",
+"tag_mov_html_mut",
+"g"
+],
+"91d1e27e-13c8-4ee1-8682-2992b1f70875": [
+"alpha",
+"card-meta",
+"tag_mov_html_mut",
+"g"
+],
+"612b5cc7-3c8b-415b-9f63-874264e8116f": [
+"beta",
+"form-cancel",
+"tag_type_mod_mut",
+"j"
+],
+"fb8e25e2-c317-40b5-b38a-85969d0a54e1": [
+"delta",
+"catalog-result-count",
+"tag_type_mod_mut",
+"j"
+],
+"3a1c9408-c963-4505-bfcc-dd4c411960c8": [
+"gamma",
+"detail-favorite",
+"tag_mov_temp_mut",
+"h"
+],
+"32174bf0-d746-48e1-9b20-f3bd9ed2786d": [
+"beta",
+"catalog-result-count",
+"tag_type_mod_mut",
+"j"
+],
+"5206582c-009f-4ef5-9c32-82f66244788c": [
+"gamma",
+"catalog-favorites-filter",
+"text_cont_rem_mut",
+"e"
+],
+"70f89313-0b16-4c2b-a167-570b9d316348": [
+"beta",
+"catalog-empty",
+"tag_mov_html_mut",
+"g"
+],
+"f34f9e63-da9f-45a0-94c3-fee6a3ca48dd": [
+"epsilon",
+"detail-edit-button",
+"tag_ins_mut",
+"k"
+],
+"1263d31e-ce45-4953-a343-c83b345f6c33": [
+"delta",
+"card-poster",
+"tag_type_mod_mut",
+"j"
+],
+"62fe2b62-e1c0-4d99-8420-31648a4e4513": [
+"gamma",
+"card-rating",
+"tag_type_mod_mut",
+"j"
+],
+"18489f8c-2f2e-4e97-b91d-eea188f82d49": [
+"gamma",
+"review-field-comment",
+"attr_val_mod_mut",
+"a"
+],
+"f82aeb8e-c45f-4bd2-802d-6d11d25162c2": [
+"alpha",
+"form-cancel",
+"tag_ins_mut",
+"k"
+],
+"4a4dfaaa-4c4c-4afb-90ae-26e2b901b522": [
+"beta",
+"form-submit",
+"tag_ins_mut",
+"k"
+],
+"38931044-c9ef-4abe-b4f2-f74a15da7471": [
+"alpha",
+"detail-meta",
+"text_cont_rem_mut",
+"e"
+],
+"c2e7e796-801d-43c9-88bf-e7b4bf92afbc": [
+"gamma",
+"review-field-comment",
+"tag_type_mod_mut",
+"j"
+],
+"8c761c4d-bb1a-4975-a9fd-3eeff812e8c7": [
+"alpha",
+"genre-row",
+"tag_rem_mut",
+"i"
+],
+"9f6f1751-7620-4bf5-a72c-02ce44c4617e": [
+"gamma",
+"detail-delete-button",
+"tag_mov_container_mut",
+"f"
+],
+"5bbe9329-beff-47a3-afd3-7df3992afe8f": [
+"delta",
+"detail-favorite",
+"text_cont_mod_mut",
+"d"
+],
+"78969860-6d41-4330-a6fc-5ce5e6ae8a29": [
+"delta",
+"review-comment",
+"tag_type_mod_mut",
+"j"
+],
+"b2db1c42-509d-448f-94f1-f9ba6fca5259": [
+"delta",
+"catalog-empty",
+"text_cont_rem_mut",
+"e"
+],
+"3266378a-5ea6-472e-aa9e-b53699e473bf": [
+"gamma",
+"review-field-comment",
+"tag_mov_container_mut",
+"f"
+],
+"5409b08c-c094-4cae-9d99-f23c602e13f7": [
+"delta",
+"card-meta",
+"text_cont_mod_mut",
+"d"
+],
+"dd25cc96-9768-4481-96fa-4f98e0d52fbb": [
+"delta",
+"catalog-filter-genre",
+"attr_val_mod_mut",
+"a"
+],
+"2ce7c5cc-b660-44a4-8dba-bbc3ed51f87a": [
+"alpha",
+"catalog-sort",
+"tag_ins_mut",
+"k"
+],
+"5ad3db6c-d37e-4ecb-af18-4be4f0fe8721": [
+"gamma",
+"form-submit",
+"tag_type_mod_mut",
+"j"
+],
+"6d68fbf5-01d6-4287-9209-0dbc54242bc5": [
+"gamma",
+"card-rating",
+"tag_rem_mut",
+"i"
+],
+"77494f5e-1bc1-45e5-9890-a94a8f98b4e0": [
+"beta",
+"cast-role",
+"tag_rem_mut",
+"i"
+],
+"a526820c-e25c-416e-bd33-37f968add3f7": [
+"alpha",
+"genre-row",
+"tag_type_mod_mut",
+"j"
+],
+"a1b8efd7-e3fe-48f2-a348-c5ba743f755e": [
+"delta",
+"catalog-favorites-filter",
+"tag_type_mod_mut",
+"j"
+],
+"652ba322-ecb7-4035-aa6f-76e12c337871": [
+"epsilon",
+"detail-delete-button",
+"tag_ins_mut",
+"k"
+],
+"8ac90e21-7bdb-4575-b882-11f7a31f5e4c": [
+"epsilon",
+"top-row",
+"tag_rem_mut",
+"i"
+],
+"d9ec2b17-be49-4d22-871f-f78ead82ae12": [
+"beta",
+"genre-row",
+"tag_rem_mut",
+"i"
+],
+"5c51ac43-0a40-478d-bef9-27aa195cf2df": [
+"gamma",
+"detail-meta",
+"tag_rem_mut",
+"i"
+],
+"df88d5e2-d016-40eb-82fe-d722451798cc": [
+"gamma",
+"catalog-favorites-filter",
+"tag_mov_container_mut",
+"f"
+],
+"9fa8a19d-19ef-4026-a9b9-1dfba2a5a679": [
+"gamma",
+"form-submit",
+"tag_ins_mut",
+"k"
+],
+"976f5f16-9779-47a4-8413-9d6295aa2e8d": [
+"alpha",
+"card-meta",
+"tag_rem_mut",
+"i"
+],
+"ceb60af6-01e9-4093-b5b9-1fa709d37688": [
+"alpha",
+"detail-meta",
+"tag_rem_mut",
+"i"
+],
+"b2243f45-5e7b-4391-b330-1e71251ca5b7": [
+"alpha",
+"cast-row",
+"tag_type_mod_mut",
+"j"
+],
+"25e49351-b188-49bb-a420-2ad04c0f7836": [
+"delta",
+"catalog-sort",
+"tag_mov_temp_mut",
+"h"
+],
+"57014bda-2d53-4b40-9cf9-655cdb4d8616": [
+"beta",
+"card-rating",
+"tag_mov_container_mut",
+"f"
+],
+"739754ab-b374-4e9c-8d9f-a5c0c6a32aab": [
+"beta",
+"cast-role",
+"tag_type_mod_mut",
+"j"
+],
+"200d1e80-cbed-47c4-a948-5218583a3b3c": [
+"delta",
+"detail-favorite",
+"attr_rem_mut",
+"b"
+],
+"0fb974c6-81af-40cc-91d4-2fbf1eeebb0b": [
+"gamma",
+"detail-edit-button",
+"tag_mov_container_mut",
+"f"
+],
+"ed3455b1-ea6e-4f72-9d90-caab17a639ba": [
+"delta",
+"catalog-sort",
+"text_cont_mod_mut",
+"d"
+],
+"83ec79b6-b719-4aa0-b6e6-2c8ec859f638": [
+"alpha",
+"catalog-filter-genre",
+"tag_mov_temp_mut",
+"h"
+],
+"0ec144cd-366c-4a95-afed-8b1d933fa4d0": [
+"gamma",
+"catalog-reset-button",
+"tag_type_mod_mut",
+"j"
+],
+"6cec561d-f2ec-48e0-9ef4-115f4187e24b": [
+"alpha",
+"cast-name",
+"tag_type_mod_mut",
+"j"
+],
+"69455ce6-ed3f-45c1-bac7-028cb0f7918a": [
+"alpha",
+"detail-meta",
+"text_cont_mod_mut",
+"d"
+],
+"3f1c80e3-c73f-4268-9060-c34758f9ffe1": [
+"beta",
+"form-cancel",
+"tag_rem_mut",
+"i"
+],
+"49b2e3f5-8834-490a-b3c4-26f43b6bcabd": [
+"epsilon",
+"top-row",
+"tag_type_mod_mut",
+"j"
+],
+"47876b46-e7f6-4f6a-8008-dd69e31e51f6": [
+"gamma",
+"top-title",
+"tag_rem_mut",
+"i"
+],
+"d9176ad8-9c17-4ee3-baa8-a9d448b5d805": [
+"epsilon",
+"detail-meta",
+"attr_rem_mut",
+"b"
+],
+"80d89c6b-8ce9-4e85-803a-9aca4f68ecc1": [
+"gamma",
+"detail-delete-button",
+"tag_mov_html_mut",
+"g"
+],
+"07caea84-d253-44b0-b905-72e4e280faca": [
+"delta",
+"form-submit",
+"tag_mov_container_mut",
+"f"
+],
+"842f809e-67f4-4cdd-9360-37da3fce2554": [
+"gamma",
+"catalog-search-input",
+"tag_mov_html_mut",
+"g"
+],
+"c1e9e477-0b22-45f9-b41f-da36fbef1dc5": [
+"delta",
+"card-favorite-toggle",
+"tag_rem_mut",
+"i"
+],
+"9d0e0663-6330-4538-8afd-408f7d609606": [
+"gamma",
+"detail-favorite",
+"tag_rem_mut",
+"i"
+],
+"fb16a7e9-d873-48f8-aa5b-51425334a71e": [
+"alpha",
+"catalog-add-button",
+"tag_rem_mut",
+"i"
+],
+"939ad39e-ac68-46f3-a04b-a9270d023e9b": [
+"epsilon",
+"detail-meta",
+"attr_val_mod_mut",
+"a"
+],
+"04eed86d-ee4a-4fb5-9eb9-dc3a787d1b12": [
+"alpha",
+"cast-name",
+"tag_mov_container_mut",
+"f"
+],
+"fb0796b4-ce67-4bbf-a161-8428285250b5": [
+"delta",
+"detail-delete-button",
+"text_cont_rem_mut",
+"e"
+],
+"ed77ed63-6a47-48c4-a20d-e890f951def9": [
+"alpha",
+"card-rating",
+"tag_rem_mut",
+"i"
+],
+"bba736cd-f08a-444b-ae89-b32321784c80": [
+"beta",
+"catalog-favorites-filter",
+"tag_rem_mut",
+"i"
+],
+"df2c286c-d53a-4d40-89b2-0d17f7c40db1": [
+"beta",
+"catalog-reset-button",
+"tag_rem_mut",
+"i"
+],
+"22f95936-77c8-4334-97f6-281aa63aa2d5": [
+"delta",
+"catalog-empty",
+"tag_type_mod_mut",
+"j"
+],
+"d63ab3d8-520d-4fca-874e-bcb0229f7db9": [
+"epsilon",
+"detail-edit-button",
+"attr_rem_mut",
+"b"
+],
+"df4b7427-e236-4faf-a383-67eff1cefeb6": [
+"beta",
+"review-item",
+"tag_ins_mut",
+"k"
+],
+"f8d64b7f-c995-4015-9f94-7b5366d2a0b6": [
+"delta",
+"catalog-reset-button",
+"attr_rem_mut",
+"b"
+],
+"be04f255-e85a-4c15-8bf5-6638b2f6a800": [
+"epsilon",
+"detail-delete-button",
+"tag_rem_mut",
+"i"
+],
+"466c064e-ba72-432d-b7ae-185907c7c142": [
+"delta",
+"catalog-result-count",
+"text_cont_rem_mut",
+"e"
+],
+"1d17221e-162a-4757-bf65-151f34a4bd5b": [
+"alpha",
+"form-cancel",
+"attr_rem_mut",
+"b"
+],
+"97bd130c-72f1-474a-8ad0-e4478088c6aa": [
+"gamma",
+"card-rating",
+"tag_ins_mut",
+"k"
+],
+"0ac2feba-66ee-4089-8128-4ef6ee319cc6": [
+"gamma",
+"form-cancel",
+"tag_mov_container_mut",
+"f"
+],
+"63f3a9a4-7c39-4a52-b652-017692315947": [
+"beta",
+"catalog-sort",
+"tag_rem_mut",
+"i"
+],
+"0a2fbd20-608a-41cc-b31c-6f169e897319": [
+"beta",
+"detail-edit-button",
+"tag_type_mod_mut",
+"j"
+],
+"48bdfe34-9bdd-4e99-b170-b3061052888e": [
+"delta",
+"catalog-result-count",
+"tag_ins_mut",
+"k"
+],
+"68e54dc1-900f-4821-a3b3-1f1440264e74": [
+"delta",
+"catalog-sort",
+"attr_rem_mut",
+"b"
+],
+"d370b153-ef2c-4f05-94cf-1412f13888aa": [
+"delta",
+"catalog-add-button",
+"tag_ins_mut",
+"k"
+],
+"7f92adfc-1a34-46ca-99a3-d483190cc113": [
+"gamma",
+"form-cancel",
+"tag_ins_mut",
+"k"
+],
+"7bd1e2c8-d98d-43f5-8011-6608e3f697c8": [
+"gamma",
+"review-submit",
+"tag_mov_container_mut",
+"f"
+],
+"1ac9e590-e81b-4985-ae4e-aaf43baee611": [
+"gamma",
+"stat-total-value",
+"tag_type_mod_mut",
+"j"
+],
+"3069e707-d8d6-4862-b990-48117b7d0925": [
+"alpha",
+"detail-edit-button",
+"text_cont_rem_mut",
+"e"
+],
+"fc676df3-ad5f-4096-9aa3-c38170dbf1cd": [
+"beta",
+"detail-meta",
+"tag_rem_mut",
+"i"
+],
+"03136bbf-e425-493a-b123-ab893d5343dd": [
+"alpha",
+"review-item",
+"tag_mov_html_mut",
+"g"
+],
+"da7d322a-dcfc-45c0-b56f-696015716244": [
+"beta",
+"catalog-add-button",
+"tag_ins_mut",
+"k"
+],
+"7c51bd53-d521-4da2-85cb-9f95976e916b": [
+"delta",
+"catalog-sort",
+"tag_mov_html_mut",
+"g"
+],
+"639de593-19bc-4ed0-8da9-336168e65013": [
+"alpha",
+"cast-row",
+"tag_ins_mut",
+"k"
+],
+"b95bb4e6-6ab1-4bd1-8ad8-352e074b7c23": [
+"gamma",
+"card-meta",
+"tag_ins_mut",
+"k"
+],
+"6b041990-04c1-433d-a229-071fd320d1ec": [
+"delta",
+"catalog-sort",
+"tag_type_mod_mut",
+"j"
+],
+"cff37e98-423c-49fa-aaa7-595a801cc422": [
+"alpha",
+"catalog-add-button",
+"text_cont_rem_mut",
+"e"
+],
+"057f2f94-51ea-4624-b0d3-a72cac9b2d37": [
+"alpha",
+"form-submit",
+"text_cont_mod_mut",
+"d"
+],
+"8edbbb8c-ad9d-4378-9a79-04cb3716e5d8": [
+"delta",
+"stats-heading",
+"tag_mov_container_mut",
+"f"
+],
+"f5e2a9d5-16a3-4c6d-badb-2295b73c30a6": [
+"alpha",
+"catalog-add-button",
+"tag_ins_mut",
+"k"
+],
+"02cfb9e8-8548-4dd0-9850-0fabad6a190f": [
+"alpha",
+"cast-role",
+"tag_type_mod_mut",
+"j"
+],
+"621bf34f-21a2-4bdd-9739-dc51e297cd45": [
+"alpha",
+"form-submit",
+"tag_type_mod_mut",
+"j"
+],
+"7c5bb66c-91b8-439a-a846-f805e355d37c": [
+"gamma",
+"detail-edit-button",
+"tag_type_mod_mut",
+"j"
+],
+"3f5ac9e9-b8c5-466d-b6ca-c73a83f78f6f": [
+"beta",
+"detail-delete-button",
+"tag_rem_mut",
+"i"
+]
+}
+}

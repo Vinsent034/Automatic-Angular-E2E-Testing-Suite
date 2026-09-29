@@ -1,0 +1,475 @@
+{
+ "seed": "1234",
+ "repositoryRootPath": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook",
+ "npmRunCommand": "npm start -- --port 4500",
+ "mutations": [
+  {
+   "name": "app-footer-brand",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/app.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-footer-brand",
+    "value": ""
+   }
+  },
+  {
+   "name": "app-footer-version",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/app.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-footer-version",
+    "value": ""
+   }
+  },
+  {
+   "name": "header-brand-name",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/header/header.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-brand-name",
+    "value": ""
+   }
+  },
+  {
+   "name": "header-nav-shopping",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/header/header.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-nav-shopping",
+    "value": ""
+   }
+  },
+  {
+   "name": "header-nav-stats",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/header/header.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-nav-stats",
+    "value": ""
+   }
+  },
+  {
+   "name": "toast-toast-message",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/toast/toast.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-toast-message",
+    "value": ""
+   }
+  },
+  {
+   "name": "recipe-list-list-title",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-list/recipe-list.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-list-title",
+    "value": ""
+   }
+  },
+  {
+   "name": "recipe-list-search",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-list/recipe-list.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-search",
+    "value": ""
+   }
+  },
+  {
+   "name": "recipe-list-course-filter",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-list/recipe-list.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-course-filter",
+    "value": ""
+   }
+  },
+  {
+   "name": "recipe-list-veg-only",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-list/recipe-list.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-veg-only",
+    "value": ""
+   }
+  },
+  {
+   "name": "recipe-list-sort",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-list/recipe-list.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-sort",
+    "value": ""
+   }
+  },
+  {
+   "name": "recipe-list-result-count",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-list/recipe-list.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-result-count",
+    "value": ""
+   }
+  },
+  {
+   "name": "recipe-list-add-recipe",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-list/recipe-list.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-add-recipe",
+    "value": ""
+   }
+  },
+  {
+   "name": "recipe-list-empty",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-list/recipe-list.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-empty",
+    "value": ""
+   }
+  },
+  {
+   "name": "recipe-card-card",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-card/recipe-card.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "[attr.x-test-card]",
+    "value": ""
+   }
+  },
+  {
+   "name": "recipe-card-card-title",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-card/recipe-card.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "[attr.x-test-card-title]",
+    "value": ""
+   }
+  },
+  {
+   "name": "recipe-card-card-fav",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-card/recipe-card.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "[attr.x-test-card-fav]",
+    "value": ""
+   }
+  },
+  {
+   "name": "recipe-card-card-time",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-card/recipe-card.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "[attr.x-test-card-time]",
+    "value": ""
+   }
+  },
+  {
+   "name": "recipe-detail-detail-title",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-detail/recipe-detail.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-detail-title",
+    "value": ""
+   }
+  },
+  {
+   "name": "recipe-detail-detail-author",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-detail/recipe-detail.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-detail-author",
+    "value": ""
+   }
+  },
+  {
+   "name": "recipe-detail-servings",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-detail/recipe-detail.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-servings",
+    "value": ""
+   }
+  },
+  {
+   "name": "recipe-detail-kcal",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-detail/recipe-detail.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-kcal",
+    "value": ""
+   }
+  },
+  {
+   "name": "recipe-detail-protein",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-detail/recipe-detail.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-protein",
+    "value": ""
+   }
+  },
+  {
+   "name": "recipe-detail-add-shopping",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-detail/recipe-detail.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-add-shopping",
+    "value": ""
+   }
+  },
+  {
+   "name": "recipe-detail-delete",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-detail/recipe-detail.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-delete",
+    "value": ""
+   }
+  },
+  {
+   "name": "recipe-detail-not-found",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-detail/recipe-detail.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-not-found",
+    "value": ""
+   }
+  },
+  {
+   "name": "ingredient-row-ing-qty",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/ingredient-row/ingredient-row.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "[attr.x-test-ing-qty]",
+    "value": ""
+   }
+  },
+  {
+   "name": "ingredient-row-ing-name",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/ingredient-row/ingredient-row.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "[attr.x-test-ing-name]",
+    "value": ""
+   }
+  },
+  {
+   "name": "step-item-step-number",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/step-item/step-item.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "[attr.x-test-step-number]",
+    "value": ""
+   }
+  },
+  {
+   "name": "step-item-step-text",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/step-item/step-item.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "[attr.x-test-step-text]",
+    "value": ""
+   }
+  },
+  {
+   "name": "recipe-form-form-heading",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-form/recipe-form.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-form-heading",
+    "value": ""
+   }
+  },
+  {
+   "name": "recipe-form-f-title",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-form/recipe-form.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-f-title",
+    "value": ""
+   }
+  },
+  {
+   "name": "recipe-form-f-course",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-form/recipe-form.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-f-course",
+    "value": ""
+   }
+  },
+  {
+   "name": "recipe-form-f-servings",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-form/recipe-form.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-f-servings",
+    "value": ""
+   }
+  },
+  {
+   "name": "recipe-form-f-veg",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-form/recipe-form.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-f-veg",
+    "value": ""
+   }
+  },
+  {
+   "name": "recipe-form-f-tags",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-form/recipe-form.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-f-tags",
+    "value": ""
+   }
+  },
+  {
+   "name": "recipe-form-f-ingredients",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-form/recipe-form.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-f-ingredients",
+    "value": ""
+   }
+  },
+  {
+   "name": "recipe-form-f-steps",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-form/recipe-form.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-f-steps",
+    "value": ""
+   }
+  },
+  {
+   "name": "recipe-form-f-submit",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/recipe-form/recipe-form.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-f-submit",
+    "value": ""
+   }
+  },
+  {
+   "name": "shopping-list-shopping-title",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/shopping-list/shopping-list.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-shopping-title",
+    "value": ""
+   }
+  },
+  {
+   "name": "shopping-list-open-count",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/shopping-list/shopping-list.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-open-count",
+    "value": ""
+   }
+  },
+  {
+   "name": "shopping-list-done-count",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/shopping-list/shopping-list.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-done-count",
+    "value": ""
+   }
+  },
+  {
+   "name": "shopping-list-shopping-empty",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/shopping-list/shopping-list.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-shopping-empty",
+    "value": ""
+   }
+  },
+  {
+   "name": "shopping-list-shop-check",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/shopping-list/shopping-list.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "[attr.x-test-shop-check]",
+    "value": ""
+   }
+  },
+  {
+   "name": "shopping-list-clear-done",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/shopping-list/shopping-list.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-clear-done",
+    "value": ""
+   }
+  },
+  {
+   "name": "stats-stats-title",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-stats-title",
+    "value": ""
+   }
+  },
+  {
+   "name": "stats-stat-total",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-stat-total",
+    "value": ""
+   }
+  },
+  {
+   "name": "stats-stat-veg",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-stat-veg",
+    "value": ""
+   }
+  },
+  {
+   "name": "stats-stat-time",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-stat-time",
+    "value": ""
+   }
+  },
+  {
+   "name": "stats-stat-fav",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "x-test-stat-fav",
+    "value": ""
+   }
+  },
+  {
+   "name": "stats-course-count",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "[attr.x-test-course-count]",
+    "value": ""
+   }
+  },
+  {
+   "name": "stats-top-title",
+   "file_path": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/stats/stats.component.html",
+   "target_matcher": {
+    "type": "attribute",
+    "key": "[attr.x-test-top-title]",
+    "value": ""
+   }
+  }
+ ]
+}

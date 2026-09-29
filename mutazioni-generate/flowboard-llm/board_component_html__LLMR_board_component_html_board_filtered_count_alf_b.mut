@@ -3,7 +3,7 @@
 #name: b
 #type: LLM_ROLE
 #status: HELD
-######### FILE C:\Users\vince\OneDrive\Desktop\App tirocinio\Kanban board\src\app\board\board.component.html #########
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\Kanban board\src\app\board\board.component.html #########
 <section class="board-page" x-test-board>
   <div class="board-intro" x-test-board-intro>
     <h2 class="page-title" x-test-board-title>Project board</h2>
@@ -39,7 +39,7 @@
 
     <div class="toolbar-group toolbar-info" x-test-toolbar-info>
       <span class="matching-label" x-test-matching-label>Matching</span>
-      <span class="badge badge-filtered" x-test-filtered-count>{{ store.filteredCount() }}</span>
+      <span data-kind="filtered" x-test-filtered-count>{{ store.filteredCount() }}</span>
     </div>
 
     <div class="toolbar-group toolbar-actions" x-test-toolbar-actions>

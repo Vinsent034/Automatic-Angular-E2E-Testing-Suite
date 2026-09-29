@@ -1,0 +1,6433 @@
+Configuration loaded. Running the mutation engine.
+
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.sqlite.SQLiteJDBCLoader in an unnamed module (file:/C:/Users/vince/OneDrive/Desktop/Universit%c3%a0/Tirocinio/progetto/Automatic-Angular-E2E-Testing-Suite/mutation-generator/static-generator/target/static-generator-1.0.0-jar-with-dependencies-eps.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+============= catalog-result-count =============
+Applying mutation a to tag alpha
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag delta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag beta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation b to tag alpha
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag delta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag beta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation c to tag alpha
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag delta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag beta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation d to tag alpha
+Mutation applied: true
+---------
+Applying mutation d to tag delta
+Mutation applied: true
+---------
+Applying mutation d to tag beta
+Mutation applied: true
+---------
+Applying mutation e to tag alpha
+Mutation applied: true
+---------
+Applying mutation e to tag delta
+Mutation applied: true
+---------
+Applying mutation e to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation f to tag alpha
+Mutation applied: true
+---------
+Applying mutation f to tag delta
+Mutation applied: true
+---------
+Applying mutation f to tag beta
+Mutation applied: true
+---------
+Applying mutation g to tag alpha
+Mutation applied: true
+---------
+Applying mutation g to tag delta
+Mutation applied: true
+---------
+Applying mutation g to tag beta
+Mutation applied: true
+---------
+Applying mutation h to tag alpha
+Mutation applied: true
+---------
+Applying mutation h to tag delta
+Mutation applied: true
+---------
+Applying mutation h to tag beta
+Mutation applied: true
+---------
+Applying mutation i to tag alpha
+Mutation applied: true
+---------
+Applying mutation i to tag delta
+Mutation applied: true
+---------
+Applying mutation i to tag beta
+Mutation applied: true
+---------
+Applying mutation j to tag alpha
+Mutation applied: true
+---------
+Applying mutation j to tag delta
+Mutation applied: true
+---------
+Applying mutation j to tag beta
+Mutation applied: true
+---------
+Applying mutation k to tag alpha
+Mutation applied: true
+---------
+Applying mutation k to tag delta
+Mutation applied: true
+---------
+Applying mutation k to tag beta
+Mutation applied: true
+---------
+================================
+============= catalog-search-input =============
+Applying mutation a to tag alpha
+Mutation applied: true
+---------
+Applying mutation a to tag beta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag gamma
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation b to tag alpha
+Mutation applied: true
+---------
+Applying mutation b to tag beta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag gamma
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation c to tag alpha
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag beta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag gamma
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation d to tag alpha
+Mutation applied: false
+Error: Target element has no child nodes
+---------
+Applying mutation d to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag alpha
+Mutation applied: false
+Error: Target element has no child nodes
+---------
+Applying mutation e to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation f to tag alpha
+Mutation applied: false
+Error: The parent is null or empty
+---------
+Applying mutation f to tag beta
+Mutation applied: true
+---------
+Applying mutation f to tag gamma
+Mutation applied: true
+---------
+Applying mutation g to tag alpha
+Mutation applied: true
+---------
+Applying mutation g to tag beta
+Mutation applied: true
+---------
+Applying mutation g to tag gamma
+Mutation applied: true
+---------
+Applying mutation h to tag alpha
+Mutation applied: true
+---------
+Applying mutation h to tag beta
+Mutation applied: true
+---------
+Applying mutation h to tag gamma
+Mutation applied: true
+---------
+Applying mutation i to tag alpha
+Mutation applied: true
+---------
+Applying mutation i to tag beta
+Mutation applied: true
+---------
+Applying mutation i to tag gamma
+Mutation applied: true
+---------
+Applying mutation j to tag alpha
+Mutation applied: true
+---------
+Applying mutation j to tag beta
+Mutation applied: true
+---------
+Applying mutation j to tag gamma
+Mutation applied: true
+---------
+Applying mutation k to tag alpha
+Mutation applied: true
+---------
+Applying mutation k to tag beta
+Mutation applied: true
+---------
+Applying mutation k to tag gamma
+Mutation applied: true
+---------
+================================
+============= catalog-filter-genre =============
+Applying mutation a to tag alpha
+Mutation applied: true
+---------
+Applying mutation a to tag delta
+Mutation applied: true
+---------
+Applying mutation a to tag beta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag gamma
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation b to tag alpha
+Mutation applied: true
+---------
+Applying mutation b to tag delta
+Mutation applied: true
+---------
+Applying mutation b to tag beta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag gamma
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation c to tag alpha
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag delta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag beta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag gamma
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation d to tag alpha
+Mutation applied: true
+---------
+Applying mutation d to tag delta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag alpha
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag delta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation f to tag alpha
+Mutation applied: true
+---------
+Applying mutation f to tag delta
+Mutation applied: true
+---------
+Applying mutation f to tag beta
+Mutation applied: true
+---------
+Applying mutation f to tag gamma
+Mutation applied: true
+---------
+Applying mutation g to tag alpha
+Mutation applied: true
+---------
+Applying mutation g to tag delta
+Mutation applied: true
+---------
+Applying mutation g to tag beta
+Mutation applied: true
+---------
+Applying mutation g to tag gamma
+Mutation applied: true
+---------
+Applying mutation h to tag alpha
+Mutation applied: true
+---------
+Applying mutation h to tag delta
+Mutation applied: true
+---------
+Applying mutation h to tag beta
+Mutation applied: true
+---------
+Applying mutation h to tag gamma
+Mutation applied: true
+---------
+Applying mutation i to tag alpha
+Mutation applied: true
+---------
+Applying mutation i to tag delta
+Mutation applied: true
+---------
+Applying mutation i to tag beta
+Mutation applied: true
+---------
+Applying mutation i to tag gamma
+Mutation applied: true
+---------
+Applying mutation j to tag alpha
+Mutation applied: true
+---------
+Applying mutation j to tag delta
+Mutation applied: true
+---------
+Applying mutation j to tag beta
+Mutation applied: true
+---------
+Applying mutation j to tag gamma
+Mutation applied: true
+---------
+Applying mutation k to tag alpha
+Mutation applied: true
+---------
+Applying mutation k to tag delta
+Mutation applied: true
+---------
+Applying mutation k to tag beta
+Mutation applied: true
+---------
+Applying mutation k to tag gamma
+Mutation applied: true
+---------
+================================
+============= catalog-sort =============
+Applying mutation a to tag alpha
+Mutation applied: true
+---------
+Applying mutation a to tag delta
+Mutation applied: true
+---------
+Applying mutation a to tag beta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag gamma
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation b to tag alpha
+Mutation applied: true
+---------
+Applying mutation b to tag delta
+Mutation applied: true
+---------
+Applying mutation b to tag beta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag gamma
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation c to tag alpha
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag delta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag beta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag gamma
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation d to tag alpha
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag delta
+Mutation applied: true
+---------
+Applying mutation d to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag alpha
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag delta
+Mutation applied: true
+---------
+Applying mutation e to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag gamma
+Mutation applied: true
+---------
+Applying mutation f to tag alpha
+Mutation applied: true
+---------
+Applying mutation f to tag delta
+Mutation applied: true
+---------
+Applying mutation f to tag beta
+Mutation applied: true
+---------
+Applying mutation f to tag gamma
+Mutation applied: true
+---------
+Applying mutation g to tag alpha
+Mutation applied: true
+---------
+Applying mutation g to tag delta
+Mutation applied: true
+---------
+Applying mutation g to tag beta
+Mutation applied: true
+---------
+Applying mutation g to tag gamma
+Mutation applied: true
+---------
+Applying mutation h to tag alpha
+Mutation applied: true
+---------
+Applying mutation h to tag delta
+Mutation applied: true
+---------
+Applying mutation h to tag beta
+Mutation applied: true
+---------
+Applying mutation h to tag gamma
+Mutation applied: true
+---------
+Applying mutation i to tag alpha
+Mutation applied: true
+---------
+Applying mutation i to tag delta
+Mutation applied: true
+---------
+Applying mutation i to tag beta
+Mutation applied: true
+---------
+Applying mutation i to tag gamma
+Mutation applied: true
+---------
+Applying mutation j to tag alpha
+Mutation applied: true
+---------
+Applying mutation j to tag delta
+Mutation applied: true
+---------
+Applying mutation j to tag beta
+Mutation applied: true
+---------
+Applying mutation j to tag gamma
+Mutation applied: true
+---------
+Applying mutation k to tag alpha
+Mutation applied: true
+---------
+Applying mutation k to tag delta
+Mutation applied: true
+---------
+Applying mutation k to tag beta
+Mutation applied: true
+---------
+Applying mutation k to tag gamma
+Mutation applied: true
+---------
+================================
+============= catalog-view-list =============
+Applying mutation a to tag alpha
+Mutation applied: true
+---------
+Applying mutation a to tag delta
+Mutation applied: true
+---------
+Applying mutation a to tag beta
+Mutation applied: true
+---------
+Applying mutation a to tag gamma
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation b to tag alpha
+Mutation applied: true
+---------
+Applying mutation b to tag delta
+Mutation applied: true
+---------
+Applying mutation b to tag beta
+Mutation applied: true
+---------
+Applying mutation b to tag gamma
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation c to tag alpha
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag delta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag beta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag gamma
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation d to tag alpha
+Mutation applied: true
+---------
+Applying mutation d to tag delta
+Mutation applied: true
+---------
+Applying mutation d to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag alpha
+Mutation applied: true
+---------
+Applying mutation e to tag delta
+Mutation applied: true
+---------
+Applying mutation e to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation f to tag alpha
+Mutation applied: true
+---------
+Applying mutation f to tag delta
+Mutation applied: true
+---------
+Applying mutation f to tag beta
+Mutation applied: true
+---------
+Applying mutation f to tag gamma
+Mutation applied: true
+---------
+Applying mutation g to tag alpha
+Mutation applied: true
+---------
+Applying mutation g to tag delta
+Mutation applied: true
+---------
+Applying mutation g to tag beta
+Mutation applied: true
+---------
+Applying mutation g to tag gamma
+Mutation applied: true
+---------
+Applying mutation h to tag alpha
+Mutation applied: true
+---------
+Applying mutation h to tag delta
+Mutation applied: true
+---------
+Applying mutation h to tag beta
+Mutation applied: true
+---------
+Applying mutation h to tag gamma
+Mutation applied: true
+---------
+Applying mutation i to tag alpha
+Mutation applied: true
+---------
+Applying mutation i to tag delta
+Mutation applied: true
+---------
+Applying mutation i to tag beta
+Mutation applied: true
+---------
+Applying mutation i to tag gamma
+Mutation applied: true
+---------
+Applying mutation j to tag alpha
+Mutation applied: true
+---------
+Applying mutation j to tag delta
+Mutation applied: true
+---------
+Applying mutation j to tag beta
+Mutation applied: true
+---------
+Applying mutation j to tag gamma
+Mutation applied: true
+---------
+Applying mutation k to tag alpha
+Mutation applied: true
+---------
+Applying mutation k to tag delta
+Mutation applied: true
+---------
+Applying mutation k to tag beta
+Mutation applied: true
+---------
+Applying mutation k to tag gamma
+Mutation applied: true
+---------
+================================
+============= card-title =============
+Applying mutation a to tag alpha
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag beta
+Mutation applied: true
+---------
+Applying mutation a to tag gamma
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation b to tag alpha
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag beta
+Mutation applied: true
+---------
+Applying mutation b to tag gamma
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation c to tag alpha
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag beta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag gamma
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation d to tag alpha
+Mutation applied: true
+---------
+Applying mutation d to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag alpha
+Mutation applied: true
+---------
+Applying mutation e to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation f to tag alpha
+Mutation applied: false
+Error: The parent is null or empty
+---------
+Applying mutation f to tag beta
+Mutation applied: true
+---------
+Applying mutation f to tag gamma
+Mutation applied: true
+---------
+Applying mutation g to tag alpha
+Mutation applied: true
+---------
+Applying mutation g to tag beta
+Mutation applied: true
+---------
+Applying mutation g to tag gamma
+Mutation applied: true
+---------
+Applying mutation h to tag alpha
+Mutation applied: true
+---------
+Applying mutation h to tag beta
+Mutation applied: true
+---------
+Applying mutation h to tag gamma
+Mutation applied: true
+---------
+Applying mutation i to tag alpha
+Mutation applied: true
+---------
+Applying mutation i to tag beta
+Mutation applied: true
+---------
+Applying mutation i to tag gamma
+Mutation applied: true
+---------
+Applying mutation j to tag alpha
+Mutation applied: true
+---------
+Applying mutation j to tag beta
+Mutation applied: true
+---------
+Applying mutation j to tag gamma
+Mutation applied: true
+---------
+Applying mutation k to tag alpha
+Mutation applied: true
+---------
+Applying mutation k to tag beta
+Mutation applied: true
+---------
+Applying mutation k to tag gamma
+Mutation applied: true
+---------
+================================
+============= detail-meta =============
+Applying mutation a to tag epsilon
+Mutation applied: true
+---------
+Applying mutation a to tag alpha
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag delta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag beta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag gamma
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation b to tag epsilon
+Mutation applied: true
+---------
+Applying mutation b to tag alpha
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag delta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag beta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag gamma
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation c to tag epsilon
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag alpha
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag delta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag beta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag gamma
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation d to tag epsilon
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag alpha
+Mutation applied: true
+---------
+Applying mutation d to tag delta
+Mutation applied: true
+---------
+Applying mutation d to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag epsilon
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag alpha
+Mutation applied: true
+---------
+Applying mutation e to tag delta
+Mutation applied: true
+---------
+Applying mutation e to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation f to tag epsilon
+Mutation applied: true
+---------
+Applying mutation f to tag alpha
+Mutation applied: true
+---------
+Applying mutation f to tag delta
+Mutation applied: true
+---------
+Applying mutation f to tag beta
+Mutation applied: true
+---------
+Applying mutation f to tag gamma
+Mutation applied: false
+Error: The parent is null or empty
+---------
+Applying mutation g to tag epsilon
+Mutation applied: true
+---------
+Applying mutation g to tag alpha
+Mutation applied: true
+---------
+Applying mutation g to tag delta
+Mutation applied: true
+---------
+Applying mutation g to tag beta
+Mutation applied: true
+---------
+Applying mutation g to tag gamma
+Mutation applied: true
+---------
+Applying mutation h to tag epsilon
+Mutation applied: true
+---------
+Applying mutation h to tag alpha
+Mutation applied: true
+---------
+Applying mutation h to tag delta
+Mutation applied: true
+---------
+Applying mutation h to tag beta
+Mutation applied: true
+---------
+Applying mutation h to tag gamma
+Mutation applied: true
+---------
+Applying mutation i to tag epsilon
+Mutation applied: true
+---------
+Applying mutation i to tag alpha
+Mutation applied: true
+---------
+Applying mutation i to tag delta
+Mutation applied: true
+---------
+Applying mutation i to tag beta
+Mutation applied: true
+---------
+Applying mutation i to tag gamma
+Mutation applied: true
+---------
+Applying mutation j to tag epsilon
+Mutation applied: true
+---------
+Applying mutation j to tag alpha
+Mutation applied: true
+---------
+Applying mutation j to tag delta
+Mutation applied: true
+---------
+Applying mutation j to tag beta
+Mutation applied: true
+---------
+Applying mutation j to tag gamma
+Mutation applied: true
+---------
+Applying mutation k to tag epsilon
+Mutation applied: true
+---------
+Applying mutation k to tag alpha
+Mutation applied: true
+---------
+Applying mutation k to tag delta
+Mutation applied: true
+---------
+Applying mutation k to tag beta
+Mutation applied: true
+---------
+Applying mutation k to tag gamma
+Mutation applied: true
+---------
+================================
+============= cast-row =============
+Applying mutation a to tag alpha
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag beta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation b to tag alpha
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag beta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation c to tag alpha
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag beta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation d to tag alpha
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag alpha
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation f to tag alpha
+Mutation applied: false
+Error: The parent is null or empty
+---------
+Applying mutation f to tag beta
+Mutation applied: false
+Error: Target element with body tag cannot be mutated
+---------
+Applying mutation g to tag alpha
+Mutation applied: true
+---------
+Applying mutation g to tag beta
+Mutation applied: true
+---------
+Applying mutation h to tag alpha
+Mutation applied: true
+---------
+Applying mutation h to tag beta
+Mutation applied: true
+---------
+Applying mutation i to tag alpha
+Mutation applied: true
+---------
+Applying mutation i to tag beta
+Mutation applied: false
+Error: Target element with body tag cannot be mutated
+---------
+Applying mutation j to tag alpha
+Mutation applied: true
+---------
+Applying mutation j to tag beta
+Mutation applied: false
+Error: Target element with body tag cannot be mutated
+---------
+Applying mutation k to tag alpha
+Mutation applied: true
+---------
+Applying mutation k to tag beta
+Mutation applied: false
+Error: Target element with body tag cannot be mutated
+---------
+================================
+============= detail-delete-button =============
+Applying mutation a to tag epsilon
+Mutation applied: true
+---------
+Applying mutation a to tag alpha
+Mutation applied: true
+---------
+Applying mutation a to tag delta
+Mutation applied: true
+---------
+Applying mutation a to tag beta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag gamma
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation b to tag epsilon
+Mutation applied: true
+---------
+Applying mutation b to tag alpha
+Mutation applied: true
+---------
+Applying mutation b to tag delta
+Mutation applied: true
+---------
+Applying mutation b to tag beta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag gamma
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation c to tag epsilon
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag alpha
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag delta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag beta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag gamma
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation d to tag epsilon
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag alpha
+Mutation applied: true
+---------
+Applying mutation d to tag delta
+Mutation applied: true
+---------
+Applying mutation d to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag epsilon
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag alpha
+Mutation applied: true
+---------
+Applying mutation e to tag delta
+Mutation applied: true
+---------
+Applying mutation e to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation f to tag epsilon
+Mutation applied: true
+---------
+Applying mutation f to tag alpha
+Mutation applied: true
+---------
+Applying mutation f to tag delta
+Mutation applied: true
+---------
+Applying mutation f to tag beta
+Mutation applied: true
+---------
+Applying mutation f to tag gamma
+Mutation applied: true
+---------
+Applying mutation g to tag epsilon
+Mutation applied: true
+---------
+Applying mutation g to tag alpha
+Mutation applied: true
+---------
+Applying mutation g to tag delta
+Mutation applied: true
+---------
+Applying mutation g to tag beta
+Mutation applied: true
+---------
+Applying mutation g to tag gamma
+Mutation applied: true
+---------
+Applying mutation h to tag epsilon
+Mutation applied: true
+---------
+Applying mutation h to tag alpha
+Mutation applied: true
+---------
+Applying mutation h to tag delta
+Mutation applied: true
+---------
+Applying mutation h to tag beta
+Mutation applied: true
+---------
+Applying mutation h to tag gamma
+Mutation applied: true
+---------
+Applying mutation i to tag epsilon
+Mutation applied: true
+---------
+Applying mutation i to tag alpha
+Mutation applied: true
+---------
+Applying mutation i to tag delta
+Mutation applied: true
+---------
+Applying mutation i to tag beta
+Mutation applied: true
+---------
+Applying mutation i to tag gamma
+Mutation applied: true
+---------
+Applying mutation j to tag epsilon
+Mutation applied: true
+---------
+Applying mutation j to tag alpha
+Mutation applied: true
+---------
+Applying mutation j to tag delta
+Mutation applied: true
+---------
+Applying mutation j to tag beta
+Mutation applied: true
+---------
+Applying mutation j to tag gamma
+Mutation applied: true
+---------
+Applying mutation k to tag epsilon
+Mutation applied: true
+---------
+Applying mutation k to tag alpha
+Mutation applied: true
+---------
+Applying mutation k to tag delta
+Mutation applied: true
+---------
+Applying mutation k to tag beta
+Mutation applied: true
+---------
+Applying mutation k to tag gamma
+Mutation applied: true
+---------
+================================
+============= detail-not-found =============
+Applying mutation a to tag alpha
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag delta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag beta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation b to tag alpha
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag delta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag beta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation c to tag alpha
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag delta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag beta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation d to tag alpha
+Mutation applied: true
+---------
+Applying mutation d to tag delta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag beta
+Mutation applied: true
+---------
+Applying mutation e to tag alpha
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag delta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag beta
+Mutation applied: true
+---------
+Applying mutation f to tag alpha
+Mutation applied: true
+---------
+Applying mutation f to tag delta
+Mutation applied: true
+---------
+Applying mutation f to tag beta
+Mutation applied: false
+Error: Target element with body tag cannot be mutated
+---------
+Applying mutation g to tag alpha
+Mutation applied: true
+---------
+Applying mutation g to tag delta
+Mutation applied: true
+---------
+Applying mutation g to tag beta
+Mutation applied: true
+---------
+Applying mutation h to tag alpha
+Mutation applied: true
+---------
+Applying mutation h to tag delta
+Mutation applied: true
+---------
+Applying mutation h to tag beta
+Mutation applied: true
+---------
+Applying mutation i to tag alpha
+Mutation applied: true
+---------
+Applying mutation i to tag delta
+Mutation applied: true
+---------
+Applying mutation i to tag beta
+Mutation applied: false
+Error: Target element with body tag cannot be mutated
+---------
+Applying mutation j to tag alpha
+Mutation applied: true
+---------
+Applying mutation j to tag delta
+Mutation applied: true
+---------
+Applying mutation j to tag beta
+Mutation applied: false
+Error: Target element with body tag cannot be mutated
+---------
+Applying mutation k to tag alpha
+Mutation applied: true
+---------
+Applying mutation k to tag delta
+Mutation applied: true
+---------
+Applying mutation k to tag beta
+Mutation applied: false
+Error: Target element with body tag cannot be mutated
+---------
+================================
+============= catalog-favorites-filter =============
+Applying mutation a to tag alpha
+Mutation applied: true
+---------
+Applying mutation a to tag delta
+Mutation applied: true
+---------
+Applying mutation a to tag beta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag gamma
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation b to tag alpha
+Mutation applied: true
+---------
+Applying mutation b to tag delta
+Mutation applied: true
+---------
+Applying mutation b to tag beta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag gamma
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation c to tag alpha
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag delta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag beta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag gamma
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation d to tag alpha
+Mutation applied: true
+---------
+Applying mutation d to tag delta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag gamma
+Mutation applied: true
+---------
+Applying mutation e to tag alpha
+Mutation applied: true
+---------
+Applying mutation e to tag delta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag gamma
+Mutation applied: true
+---------
+Applying mutation f to tag alpha
+Mutation applied: true
+---------
+Applying mutation f to tag delta
+Mutation applied: true
+---------
+Applying mutation f to tag beta
+Mutation applied: true
+---------
+Applying mutation f to tag gamma
+Mutation applied: true
+---------
+Applying mutation g to tag alpha
+Mutation applied: true
+---------
+Applying mutation g to tag delta
+Mutation applied: true
+---------
+Applying mutation g to tag beta
+Mutation applied: true
+---------
+Applying mutation g to tag gamma
+Mutation applied: true
+---------
+Applying mutation h to tag alpha
+Mutation applied: true
+---------
+Applying mutation h to tag delta
+Mutation applied: true
+---------
+Applying mutation h to tag beta
+Mutation applied: true
+---------
+Applying mutation h to tag gamma
+Mutation applied: true
+---------
+Applying mutation i to tag alpha
+Mutation applied: true
+---------
+Applying mutation i to tag delta
+Mutation applied: true
+---------
+Applying mutation i to tag beta
+Mutation applied: true
+---------
+Applying mutation i to tag gamma
+Mutation applied: true
+---------
+Applying mutation j to tag alpha
+Mutation applied: true
+---------
+Applying mutation j to tag delta
+Mutation applied: true
+---------
+Applying mutation j to tag beta
+Mutation applied: true
+---------
+Applying mutation j to tag gamma
+Mutation applied: true
+---------
+Applying mutation k to tag alpha
+Mutation applied: true
+---------
+Applying mutation k to tag delta
+Mutation applied: true
+---------
+Applying mutation k to tag beta
+Mutation applied: true
+---------
+Applying mutation k to tag gamma
+Mutation applied: true
+---------
+================================
+============= card-favorite-toggle =============
+Applying mutation a to tag alpha
+Mutation applied: true
+---------
+Applying mutation a to tag delta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag beta
+Mutation applied: true
+---------
+Applying mutation b to tag alpha
+Mutation applied: true
+---------
+Applying mutation b to tag delta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag beta
+Mutation applied: true
+---------
+Applying mutation c to tag alpha
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag delta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag beta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation d to tag alpha
+Mutation applied: true
+---------
+Applying mutation d to tag delta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag alpha
+Mutation applied: true
+---------
+Applying mutation e to tag delta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation f to tag alpha
+Mutation applied: true
+---------
+Applying mutation f to tag delta
+Mutation applied: true
+---------
+Applying mutation f to tag beta
+Mutation applied: false
+Error: The parent is null or empty
+---------
+Applying mutation g to tag alpha
+Mutation applied: true
+---------
+Applying mutation g to tag delta
+Mutation applied: true
+---------
+Applying mutation g to tag beta
+Mutation applied: true
+---------
+Applying mutation h to tag alpha
+Mutation applied: true
+---------
+Applying mutation h to tag delta
+Mutation applied: true
+---------
+Applying mutation h to tag beta
+Mutation applied: true
+---------
+Applying mutation i to tag alpha
+Mutation applied: true
+---------
+Applying mutation i to tag delta
+Mutation applied: true
+---------
+Applying mutation i to tag beta
+Mutation applied: true
+---------
+Applying mutation j to tag alpha
+Mutation applied: true
+---------
+Applying mutation j to tag delta
+Mutation applied: true
+---------
+Applying mutation j to tag beta
+Mutation applied: true
+---------
+Applying mutation k to tag alpha
+Mutation applied: true
+---------
+Applying mutation k to tag delta
+Mutation applied: true
+---------
+Applying mutation k to tag beta
+Mutation applied: true
+---------
+================================
+============= detail-favorite =============
+Applying mutation a to tag epsilon
+Mutation applied: true
+---------
+Applying mutation a to tag alpha
+Mutation applied: true
+---------
+Applying mutation a to tag delta
+Mutation applied: true
+---------
+Applying mutation a to tag beta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag gamma
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation b to tag epsilon
+Mutation applied: true
+---------
+Applying mutation b to tag alpha
+Mutation applied: true
+---------
+Applying mutation b to tag delta
+Mutation applied: true
+---------
+Applying mutation b to tag beta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag gamma
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation c to tag epsilon
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag alpha
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag delta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag beta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag gamma
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation d to tag epsilon
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag alpha
+Mutation applied: true
+---------
+Applying mutation d to tag delta
+Mutation applied: true
+---------
+Applying mutation d to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag epsilon
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag alpha
+Mutation applied: true
+---------
+Applying mutation e to tag delta
+Mutation applied: true
+---------
+Applying mutation e to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation f to tag epsilon
+Mutation applied: true
+---------
+Applying mutation f to tag alpha
+Mutation applied: true
+---------
+Applying mutation f to tag delta
+Mutation applied: true
+---------
+Applying mutation f to tag beta
+Mutation applied: true
+---------
+Applying mutation f to tag gamma
+Mutation applied: true
+---------
+Applying mutation g to tag epsilon
+Mutation applied: true
+---------
+Applying mutation g to tag alpha
+Mutation applied: true
+---------
+Applying mutation g to tag delta
+Mutation applied: true
+---------
+Applying mutation g to tag beta
+Mutation applied: true
+---------
+Applying mutation g to tag gamma
+Mutation applied: true
+---------
+Applying mutation h to tag epsilon
+Mutation applied: true
+---------
+Applying mutation h to tag alpha
+Mutation applied: true
+---------
+Applying mutation h to tag delta
+Mutation applied: true
+---------
+Applying mutation h to tag beta
+Mutation applied: true
+---------
+Applying mutation h to tag gamma
+Mutation applied: true
+---------
+Applying mutation i to tag epsilon
+Mutation applied: true
+---------
+Applying mutation i to tag alpha
+Mutation applied: true
+---------
+Applying mutation i to tag delta
+Mutation applied: true
+---------
+Applying mutation i to tag beta
+Mutation applied: true
+---------
+Applying mutation i to tag gamma
+Mutation applied: true
+---------
+Applying mutation j to tag epsilon
+Mutation applied: true
+---------
+Applying mutation j to tag alpha
+Mutation applied: true
+---------
+Applying mutation j to tag delta
+Mutation applied: true
+---------
+Applying mutation j to tag beta
+Mutation applied: true
+---------
+Applying mutation j to tag gamma
+Mutation applied: true
+---------
+Applying mutation k to tag epsilon
+Mutation applied: true
+---------
+Applying mutation k to tag alpha
+Mutation applied: true
+---------
+Applying mutation k to tag delta
+Mutation applied: true
+---------
+Applying mutation k to tag beta
+Mutation applied: true
+---------
+Applying mutation k to tag gamma
+Mutation applied: true
+---------
+================================
+============= review-item =============
+Applying mutation a to tag alpha
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag beta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag gamma
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation b to tag alpha
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag beta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag gamma
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation c to tag alpha
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag beta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag gamma
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation d to tag alpha
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag beta
+Mutation applied: true
+---------
+Applying mutation d to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag alpha
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag beta
+Mutation applied: true
+---------
+Applying mutation e to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation f to tag alpha
+Mutation applied: false
+Error: The parent is null or empty
+---------
+Applying mutation f to tag beta
+Mutation applied: true
+---------
+Applying mutation f to tag gamma
+Mutation applied: false
+Error: The parent is null or empty
+---------
+Applying mutation g to tag alpha
+Mutation applied: true
+---------
+Applying mutation g to tag beta
+Mutation applied: true
+---------
+Applying mutation g to tag gamma
+Mutation applied: true
+---------
+Applying mutation h to tag alpha
+Mutation applied: true
+---------
+Applying mutation h to tag beta
+Mutation applied: true
+---------
+Applying mutation h to tag gamma
+Mutation applied: true
+---------
+Applying mutation i to tag alpha
+Mutation applied: true
+---------
+Applying mutation i to tag beta
+Mutation applied: true
+---------
+Applying mutation i to tag gamma
+Mutation applied: true
+---------
+Applying mutation j to tag alpha
+Mutation applied: true
+---------
+Applying mutation j to tag beta
+Mutation applied: true
+---------
+Applying mutation j to tag gamma
+Mutation applied: true
+---------
+Applying mutation k to tag alpha
+Mutation applied: true
+---------
+Applying mutation k to tag beta
+Mutation applied: true
+---------
+Applying mutation k to tag gamma
+Mutation applied: true
+---------
+================================
+============= review-field-author =============
+Applying mutation a to tag alpha
+Mutation applied: true
+---------
+Applying mutation a to tag delta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag beta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag gamma
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation b to tag alpha
+Mutation applied: true
+---------
+Applying mutation b to tag delta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag beta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag gamma
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation c to tag alpha
+Mutation applied: true
+---------
+Applying mutation c to tag delta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag beta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag gamma
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation d to tag alpha
+Mutation applied: false
+Error: Target element has no child nodes
+---------
+Applying mutation d to tag delta
+Mutation applied: true
+---------
+Applying mutation d to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag alpha
+Mutation applied: false
+Error: Target element has no child nodes
+---------
+Applying mutation e to tag delta
+Mutation applied: true
+---------
+Applying mutation e to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation f to tag alpha
+Mutation applied: true
+---------
+Applying mutation f to tag delta
+Mutation applied: true
+---------
+Applying mutation f to tag beta
+Mutation applied: true
+---------
+Applying mutation f to tag gamma
+Mutation applied: true
+---------
+Applying mutation g to tag alpha
+Mutation applied: true
+---------
+Applying mutation g to tag delta
+Mutation applied: true
+---------
+Applying mutation g to tag beta
+Mutation applied: true
+---------
+Applying mutation g to tag gamma
+Mutation applied: true
+---------
+Applying mutation h to tag alpha
+Mutation applied: true
+---------
+Applying mutation h to tag delta
+Mutation applied: true
+---------
+Applying mutation h to tag beta
+Mutation applied: true
+---------
+Applying mutation h to tag gamma
+Mutation applied: true
+---------
+Applying mutation i to tag alpha
+Mutation applied: true
+---------
+Applying mutation i to tag delta
+Mutation applied: true
+---------
+Applying mutation i to tag beta
+Mutation applied: true
+---------
+Applying mutation i to tag gamma
+Mutation applied: true
+---------
+Applying mutation j to tag alpha
+Mutation applied: true
+---------
+Applying mutation j to tag delta
+Mutation applied: true
+---------
+Applying mutation j to tag beta
+Mutation applied: true
+---------
+Applying mutation j to tag gamma
+Mutation applied: true
+---------
+Applying mutation k to tag alpha
+Mutation applied: true
+---------
+Applying mutation k to tag delta
+Mutation applied: true
+---------
+Applying mutation k to tag beta
+Mutation applied: true
+---------
+Applying mutation k to tag gamma
+Mutation applied: true
+---------
+================================
+============= review-submit =============
+Applying mutation a to tag alpha
+Mutation applied: true
+---------
+Applying mutation a to tag beta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag gamma
+Mutation applied: true
+---------
+Applying mutation b to tag alpha
+Mutation applied: true
+---------
+Applying mutation b to tag beta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag gamma
+Mutation applied: true
+---------
+Applying mutation c to tag alpha
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag beta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag gamma
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation d to tag alpha
+Mutation applied: true
+---------
+Applying mutation d to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag alpha
+Mutation applied: true
+---------
+Applying mutation e to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation f to tag alpha
+Mutation applied: false
+Error: The parent is null or empty
+---------
+Applying mutation f to tag beta
+Mutation applied: true
+---------
+Applying mutation f to tag gamma
+Mutation applied: true
+---------
+Applying mutation g to tag alpha
+Mutation applied: true
+---------
+Applying mutation g to tag beta
+Mutation applied: true
+---------
+Applying mutation g to tag gamma
+Mutation applied: true
+---------
+Applying mutation h to tag alpha
+Mutation applied: true
+---------
+Applying mutation h to tag beta
+Mutation applied: true
+---------
+Applying mutation h to tag gamma
+Mutation applied: true
+---------
+Applying mutation i to tag alpha
+Mutation applied: true
+---------
+Applying mutation i to tag beta
+Mutation applied: true
+---------
+Applying mutation i to tag gamma
+Mutation applied: true
+---------
+Applying mutation j to tag alpha
+Mutation applied: true
+---------
+Applying mutation j to tag beta
+Mutation applied: true
+---------
+Applying mutation j to tag gamma
+Mutation applied: true
+---------
+Applying mutation k to tag alpha
+Mutation applied: true
+---------
+Applying mutation k to tag beta
+Mutation applied: true
+---------
+Applying mutation k to tag gamma
+Mutation applied: true
+---------
+================================
+============= review-remove =============
+Applying mutation a to tag alpha
+Mutation applied: true
+---------
+Applying mutation a to tag delta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag beta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag gamma
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation b to tag alpha
+Mutation applied: true
+---------
+Applying mutation b to tag delta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag beta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag gamma
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation c to tag alpha
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag delta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag beta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag gamma
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation d to tag alpha
+Mutation applied: true
+---------
+Applying mutation d to tag delta
+Mutation applied: true
+---------
+Applying mutation d to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag alpha
+Mutation applied: true
+---------
+Applying mutation e to tag delta
+Mutation applied: true
+---------
+Applying mutation e to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation f to tag alpha
+Mutation applied: true
+---------
+Applying mutation f to tag delta
+Mutation applied: true
+---------
+Applying mutation f to tag beta
+Mutation applied: true
+---------
+Applying mutation f to tag gamma
+Mutation applied: false
+Error: The parent is null or empty
+---------
+Applying mutation g to tag alpha
+Mutation applied: true
+---------
+Applying mutation g to tag delta
+Mutation applied: true
+---------
+Applying mutation g to tag beta
+Mutation applied: true
+---------
+Applying mutation g to tag gamma
+Mutation applied: true
+---------
+Applying mutation h to tag alpha
+Mutation applied: true
+---------
+Applying mutation h to tag delta
+Mutation applied: true
+---------
+Applying mutation h to tag beta
+Mutation applied: true
+---------
+Applying mutation h to tag gamma
+Mutation applied: true
+---------
+Applying mutation i to tag alpha
+Mutation applied: true
+---------
+Applying mutation i to tag delta
+Mutation applied: true
+---------
+Applying mutation i to tag beta
+Mutation applied: true
+---------
+Applying mutation i to tag gamma
+Mutation applied: true
+---------
+Applying mutation j to tag alpha
+Mutation applied: true
+---------
+Applying mutation j to tag delta
+Mutation applied: true
+---------
+Applying mutation j to tag beta
+Mutation applied: true
+---------
+Applying mutation j to tag gamma
+Mutation applied: true
+---------
+Applying mutation k to tag alpha
+Mutation applied: true
+---------
+Applying mutation k to tag delta
+Mutation applied: true
+---------
+Applying mutation k to tag beta
+Mutation applied: true
+---------
+Applying mutation k to tag gamma
+Mutation applied: true
+---------
+================================
+============= stat-total-value =============
+Applying mutation a to tag alpha
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag delta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag beta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag gamma
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation b to tag alpha
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag delta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag beta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag gamma
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation c to tag alpha
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag delta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag beta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag gamma
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation d to tag alpha
+Mutation applied: true
+---------
+Applying mutation d to tag delta
+Mutation applied: true
+---------
+Applying mutation d to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag alpha
+Mutation applied: true
+---------
+Applying mutation e to tag delta
+Mutation applied: true
+---------
+Applying mutation e to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation f to tag alpha
+Mutation applied: true
+---------
+Applying mutation f to tag delta
+Mutation applied: true
+---------
+Applying mutation f to tag beta
+Mutation applied: true
+---------
+Applying mutation f to tag gamma
+Mutation applied: true
+---------
+Applying mutation g to tag alpha
+Mutation applied: true
+---------
+Applying mutation g to tag delta
+Mutation applied: true
+---------
+Applying mutation g to tag beta
+Mutation applied: true
+---------
+Applying mutation g to tag gamma
+Mutation applied: true
+---------
+Applying mutation h to tag alpha
+Mutation applied: true
+---------
+Applying mutation h to tag delta
+Mutation applied: true
+---------
+Applying mutation h to tag beta
+Mutation applied: true
+---------
+Applying mutation h to tag gamma
+Mutation applied: true
+---------
+Applying mutation i to tag alpha
+Mutation applied: true
+---------
+Applying mutation i to tag delta
+Mutation applied: true
+---------
+Applying mutation i to tag beta
+Mutation applied: true
+---------
+Applying mutation i to tag gamma
+Mutation applied: true
+---------
+Applying mutation j to tag alpha
+Mutation applied: true
+---------
+Applying mutation j to tag delta
+Mutation applied: true
+---------
+Applying mutation j to tag beta
+Mutation applied: true
+---------
+Applying mutation j to tag gamma
+Mutation applied: true
+---------
+Applying mutation k to tag alpha
+Mutation applied: true
+---------
+Applying mutation k to tag delta
+Mutation applied: true
+---------
+Applying mutation k to tag beta
+Mutation applied: true
+---------
+Applying mutation k to tag gamma
+Mutation applied: true
+---------
+================================
+============= genre-row =============
+Applying mutation a to tag epsilon
+Mutation applied: true
+---------
+Applying mutation a to tag alpha
+Mutation applied: true
+---------
+Applying mutation a to tag beta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag gamma
+Mutation applied: true
+---------
+Applying mutation b to tag epsilon
+Mutation applied: true
+---------
+Applying mutation b to tag alpha
+Mutation applied: true
+---------
+Applying mutation b to tag beta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag gamma
+Mutation applied: true
+---------
+Applying mutation c to tag epsilon
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag alpha
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag beta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag gamma
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation d to tag epsilon
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag alpha
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag beta
+Mutation applied: true
+---------
+Applying mutation d to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag epsilon
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag alpha
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag beta
+Mutation applied: true
+---------
+Applying mutation e to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation f to tag epsilon
+Mutation applied: true
+---------
+Applying mutation f to tag alpha
+Mutation applied: false
+Error: The parent is null or empty
+---------
+Applying mutation f to tag beta
+Mutation applied: false
+Error: The parent is null or empty
+---------
+Applying mutation f to tag gamma
+Mutation applied: true
+---------
+Applying mutation g to tag epsilon
+Mutation applied: true
+---------
+Applying mutation g to tag alpha
+Mutation applied: true
+---------
+Applying mutation g to tag beta
+Mutation applied: true
+---------
+Applying mutation g to tag gamma
+Mutation applied: true
+---------
+Applying mutation h to tag epsilon
+Mutation applied: true
+---------
+Applying mutation h to tag alpha
+Mutation applied: true
+---------
+Applying mutation h to tag beta
+Mutation applied: true
+---------
+Applying mutation h to tag gamma
+Mutation applied: true
+---------
+Applying mutation i to tag epsilon
+Mutation applied: true
+---------
+Applying mutation i to tag alpha
+Mutation applied: true
+---------
+Applying mutation i to tag beta
+Mutation applied: true
+---------
+Applying mutation i to tag gamma
+Mutation applied: true
+---------
+Applying mutation j to tag epsilon
+Mutation applied: true
+---------
+Applying mutation j to tag alpha
+Mutation applied: true
+---------
+Applying mutation j to tag beta
+Mutation applied: true
+---------
+Applying mutation j to tag gamma
+Mutation applied: true
+---------
+Applying mutation k to tag epsilon
+Mutation applied: true
+---------
+Applying mutation k to tag alpha
+Mutation applied: true
+---------
+Applying mutation k to tag beta
+Mutation applied: true
+---------
+Applying mutation k to tag gamma
+Mutation applied: true
+---------
+================================
+============= top-row =============
+Applying mutation a to tag epsilon
+Mutation applied: true
+---------
+Applying mutation a to tag alpha
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag beta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag gamma
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation b to tag epsilon
+Mutation applied: true
+---------
+Applying mutation b to tag alpha
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag beta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation b to tag gamma
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation c to tag epsilon
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag alpha
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag beta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag gamma
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation d to tag epsilon
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag alpha
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag beta
+Mutation applied: true
+---------
+Applying mutation d to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag epsilon
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag alpha
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag beta
+Mutation applied: true
+---------
+Applying mutation e to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation f to tag epsilon
+Mutation applied: true
+---------
+Applying mutation f to tag alpha
+Mutation applied: false
+Error: The parent is null or empty
+---------
+Applying mutation f to tag beta
+Mutation applied: true
+---------
+Applying mutation f to tag gamma
+Mutation applied: false
+Error: The parent is null or empty
+---------
+Applying mutation g to tag epsilon
+Mutation applied: true
+---------
+Applying mutation g to tag alpha
+Mutation applied: true
+---------
+Applying mutation g to tag beta
+Mutation applied: true
+---------
+Applying mutation g to tag gamma
+Mutation applied: true
+---------
+Applying mutation h to tag epsilon
+Mutation applied: true
+---------
+Applying mutation h to tag alpha
+Mutation applied: true
+---------
+Applying mutation h to tag beta
+Mutation applied: true
+---------
+Applying mutation h to tag gamma
+Mutation applied: true
+---------
+Applying mutation i to tag epsilon
+Mutation applied: true
+---------
+Applying mutation i to tag alpha
+Mutation applied: true
+---------
+Applying mutation i to tag beta
+Mutation applied: true
+---------
+Applying mutation i to tag gamma
+Mutation applied: true
+---------
+Applying mutation j to tag epsilon
+Mutation applied: true
+---------
+Applying mutation j to tag alpha
+Mutation applied: true
+---------
+Applying mutation j to tag beta
+Mutation applied: true
+---------
+Applying mutation j to tag gamma
+Mutation applied: true
+---------
+Applying mutation k to tag epsilon
+Mutation applied: true
+---------
+Applying mutation k to tag alpha
+Mutation applied: true
+---------
+Applying mutation k to tag beta
+Mutation applied: true
+---------
+Applying mutation k to tag gamma
+Mutation applied: true
+---------
+================================
+============= top-title =============
+Applying mutation a to tag epsilon
+Mutation applied: true
+---------
+Applying mutation a to tag alpha
+Mutation applied: true
+---------
+Applying mutation a to tag beta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag gamma
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation b to tag epsilon
+Mutation applied: true
+---------
+Applying mutation b to tag alpha
+Mutation applied: true
+---------
+Applying mutation b to tag beta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation b to tag gamma
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation c to tag epsilon
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag alpha
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag beta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag gamma
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation d to tag epsilon
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag alpha
+Mutation applied: true
+---------
+Applying mutation d to tag beta
+Mutation applied: false
+Error: Target element has no child text nodes
+---------
+Applying mutation d to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag epsilon
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag alpha
+Mutation applied: true
+---------
+Applying mutation e to tag beta
+Mutation applied: false
+Error: Target element has no child text nodes
+---------
+Applying mutation e to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation f to tag epsilon
+Mutation applied: true
+---------
+Applying mutation f to tag alpha
+Mutation applied: false
+Error: The parent is null or empty
+---------
+Applying mutation f to tag beta
+Mutation applied: true
+---------
+Applying mutation f to tag gamma
+Mutation applied: false
+Error: The parent is null or empty
+---------
+Applying mutation g to tag epsilon
+Mutation applied: true
+---------
+Applying mutation g to tag alpha
+Mutation applied: true
+---------
+Applying mutation g to tag beta
+Mutation applied: true
+---------
+Applying mutation g to tag gamma
+Mutation applied: true
+---------
+Applying mutation h to tag epsilon
+Mutation applied: true
+---------
+Applying mutation h to tag alpha
+Mutation applied: true
+---------
+Applying mutation h to tag beta
+Mutation applied: true
+---------
+Applying mutation h to tag gamma
+Mutation applied: true
+---------
+Applying mutation i to tag epsilon
+Mutation applied: true
+---------
+Applying mutation i to tag alpha
+Mutation applied: true
+---------
+Applying mutation i to tag beta
+Mutation applied: true
+---------
+Applying mutation i to tag gamma
+Mutation applied: true
+---------
+Applying mutation j to tag epsilon
+Mutation applied: true
+---------
+Applying mutation j to tag alpha
+Mutation applied: true
+---------
+Applying mutation j to tag beta
+Mutation applied: true
+---------
+Applying mutation j to tag gamma
+Mutation applied: true
+---------
+Applying mutation k to tag epsilon
+Mutation applied: true
+---------
+Applying mutation k to tag alpha
+Mutation applied: true
+---------
+Applying mutation k to tag beta
+Mutation applied: true
+---------
+Applying mutation k to tag gamma
+Mutation applied: true
+---------
+================================
+============= field-title =============
+Applying mutation a to tag alpha
+Mutation applied: true
+---------
+Applying mutation a to tag delta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag beta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag gamma
+Mutation applied: true
+---------
+Applying mutation b to tag alpha
+Mutation applied: true
+---------
+Applying mutation b to tag delta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag beta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag gamma
+Mutation applied: true
+---------
+Applying mutation c to tag alpha
+Mutation applied: true
+---------
+Applying mutation c to tag delta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag beta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag gamma
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation d to tag alpha
+Mutation applied: false
+Error: Target element has no child nodes
+---------
+Applying mutation d to tag delta
+Mutation applied: true
+---------
+Applying mutation d to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag alpha
+Mutation applied: false
+Error: Target element has no child nodes
+---------
+Applying mutation e to tag delta
+Mutation applied: true
+---------
+Applying mutation e to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation f to tag alpha
+Mutation applied: true
+---------
+Applying mutation f to tag delta
+Mutation applied: true
+---------
+Applying mutation f to tag beta
+Mutation applied: true
+---------
+Applying mutation f to tag gamma
+Mutation applied: true
+---------
+Applying mutation g to tag alpha
+Mutation applied: true
+---------
+Applying mutation g to tag delta
+Mutation applied: true
+---------
+Applying mutation g to tag beta
+Mutation applied: true
+---------
+Applying mutation g to tag gamma
+Mutation applied: true
+---------
+Applying mutation h to tag alpha
+Mutation applied: true
+---------
+Applying mutation h to tag delta
+Mutation applied: true
+---------
+Applying mutation h to tag beta
+Mutation applied: true
+---------
+Applying mutation h to tag gamma
+Mutation applied: true
+---------
+Applying mutation i to tag alpha
+Mutation applied: true
+---------
+Applying mutation i to tag delta
+Mutation applied: true
+---------
+Applying mutation i to tag beta
+Mutation applied: true
+---------
+Applying mutation i to tag gamma
+Mutation applied: true
+---------
+Applying mutation j to tag alpha
+Mutation applied: true
+---------
+Applying mutation j to tag delta
+Mutation applied: true
+---------
+Applying mutation j to tag beta
+Mutation applied: true
+---------
+Applying mutation j to tag gamma
+Mutation applied: true
+---------
+Applying mutation k to tag alpha
+Mutation applied: true
+---------
+Applying mutation k to tag delta
+Mutation applied: true
+---------
+Applying mutation k to tag beta
+Mutation applied: true
+---------
+Applying mutation k to tag gamma
+Mutation applied: true
+---------
+================================
+============= form-submit =============
+Applying mutation a to tag alpha
+Mutation applied: true
+---------
+Applying mutation a to tag delta
+Mutation applied: true
+---------
+Applying mutation a to tag beta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag gamma
+Mutation applied: true
+---------
+Applying mutation b to tag alpha
+Mutation applied: true
+---------
+Applying mutation b to tag delta
+Mutation applied: true
+---------
+Applying mutation b to tag beta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag gamma
+Mutation applied: true
+---------
+Applying mutation c to tag alpha
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag delta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag beta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag gamma
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation d to tag alpha
+Mutation applied: true
+---------
+Applying mutation d to tag delta
+Mutation applied: true
+---------
+Applying mutation d to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag alpha
+Mutation applied: true
+---------
+Applying mutation e to tag delta
+Mutation applied: true
+---------
+Applying mutation e to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation f to tag alpha
+Mutation applied: true
+---------
+Applying mutation f to tag delta
+Mutation applied: true
+---------
+Applying mutation f to tag beta
+Mutation applied: true
+---------
+Applying mutation f to tag gamma
+Mutation applied: true
+---------
+Applying mutation g to tag alpha
+Mutation applied: true
+---------
+Applying mutation g to tag delta
+Mutation applied: true
+---------
+Applying mutation g to tag beta
+Mutation applied: true
+---------
+Applying mutation g to tag gamma
+Mutation applied: true
+---------
+Applying mutation h to tag alpha
+Mutation applied: true
+---------
+Applying mutation h to tag delta
+Mutation applied: true
+---------
+Applying mutation h to tag beta
+Mutation applied: true
+---------
+Applying mutation h to tag gamma
+Mutation applied: true
+---------
+Applying mutation i to tag alpha
+Mutation applied: true
+---------
+Applying mutation i to tag delta
+Mutation applied: true
+---------
+Applying mutation i to tag beta
+Mutation applied: true
+---------
+Applying mutation i to tag gamma
+Mutation applied: true
+---------
+Applying mutation j to tag alpha
+Mutation applied: true
+---------
+Applying mutation j to tag delta
+Mutation applied: true
+---------
+Applying mutation j to tag beta
+Mutation applied: true
+---------
+Applying mutation j to tag gamma
+Mutation applied: true
+---------
+Applying mutation k to tag alpha
+Mutation applied: true
+---------
+Applying mutation k to tag delta
+Mutation applied: true
+---------
+Applying mutation k to tag beta
+Mutation applied: true
+---------
+Applying mutation k to tag gamma
+Mutation applied: true
+---------
+================================
+============= cast-add =============
+Applying mutation a to tag alpha
+Mutation applied: true
+---------
+Applying mutation a to tag delta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag beta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag gamma
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation b to tag alpha
+Mutation applied: true
+---------
+Applying mutation b to tag delta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag beta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag gamma
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation c to tag alpha
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag delta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag beta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag gamma
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation d to tag alpha
+Mutation applied: true
+---------
+Applying mutation d to tag delta
+Mutation applied: true
+---------
+Applying mutation d to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag alpha
+Mutation applied: true
+---------
+Applying mutation e to tag delta
+Mutation applied: true
+---------
+Applying mutation e to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation f to tag alpha
+Mutation applied: true
+---------
+Applying mutation f to tag delta
+Mutation applied: true
+---------
+Applying mutation f to tag beta
+Mutation applied: true
+---------
+Applying mutation f to tag gamma
+Mutation applied: true
+---------
+Applying mutation g to tag alpha
+Mutation applied: true
+---------
+Applying mutation g to tag delta
+Mutation applied: true
+---------
+Applying mutation g to tag beta
+Mutation applied: true
+---------
+Applying mutation g to tag gamma
+Mutation applied: true
+---------
+Applying mutation h to tag alpha
+Mutation applied: true
+---------
+Applying mutation h to tag delta
+Mutation applied: true
+---------
+Applying mutation h to tag beta
+Mutation applied: true
+---------
+Applying mutation h to tag gamma
+Mutation applied: true
+---------
+Applying mutation i to tag alpha
+Mutation applied: true
+---------
+Applying mutation i to tag delta
+Mutation applied: true
+---------
+Applying mutation i to tag beta
+Mutation applied: true
+---------
+Applying mutation i to tag gamma
+Mutation applied: true
+---------
+Applying mutation j to tag alpha
+Mutation applied: true
+---------
+Applying mutation j to tag delta
+Mutation applied: true
+---------
+Applying mutation j to tag beta
+Mutation applied: true
+---------
+Applying mutation j to tag gamma
+Mutation applied: true
+---------
+Applying mutation k to tag alpha
+Mutation applied: true
+---------
+Applying mutation k to tag delta
+Mutation applied: true
+---------
+Applying mutation k to tag beta
+Mutation applied: true
+---------
+Applying mutation k to tag gamma
+Mutation applied: true
+---------
+================================
+============= catalog-add-button =============
+Applying mutation a to tag alpha
+Mutation applied: true
+---------
+Applying mutation a to tag delta
+Mutation applied: true
+---------
+Applying mutation a to tag beta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag gamma
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation b to tag alpha
+Mutation applied: true
+---------
+Applying mutation b to tag delta
+Mutation applied: true
+---------
+Applying mutation b to tag beta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag gamma
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation c to tag alpha
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag delta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag beta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag gamma
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation d to tag alpha
+Mutation applied: true
+---------
+Applying mutation d to tag delta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag gamma
+Mutation applied: true
+---------
+Applying mutation e to tag alpha
+Mutation applied: true
+---------
+Applying mutation e to tag delta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation f to tag alpha
+Mutation applied: true
+---------
+Applying mutation f to tag delta
+Mutation applied: true
+---------
+Applying mutation f to tag beta
+Mutation applied: true
+---------
+Applying mutation f to tag gamma
+Mutation applied: true
+---------
+Applying mutation g to tag alpha
+Mutation applied: true
+---------
+Applying mutation g to tag delta
+Mutation applied: true
+---------
+Applying mutation g to tag beta
+Mutation applied: true
+---------
+Applying mutation g to tag gamma
+Mutation applied: true
+---------
+Applying mutation h to tag alpha
+Mutation applied: true
+---------
+Applying mutation h to tag delta
+Mutation applied: true
+---------
+Applying mutation h to tag beta
+Mutation applied: true
+---------
+Applying mutation h to tag gamma
+Mutation applied: true
+---------
+Applying mutation i to tag alpha
+Mutation applied: true
+---------
+Applying mutation i to tag delta
+Mutation applied: true
+---------
+Applying mutation i to tag beta
+Mutation applied: true
+---------
+Applying mutation i to tag gamma
+Mutation applied: true
+---------
+Applying mutation j to tag alpha
+Mutation applied: true
+---------
+Applying mutation j to tag delta
+Mutation applied: true
+---------
+Applying mutation j to tag beta
+Mutation applied: true
+---------
+Applying mutation j to tag gamma
+Mutation applied: true
+---------
+Applying mutation k to tag alpha
+Mutation applied: true
+---------
+Applying mutation k to tag delta
+Mutation applied: true
+---------
+Applying mutation k to tag beta
+Mutation applied: true
+---------
+Applying mutation k to tag gamma
+Mutation applied: true
+---------
+================================
+============= catalog-reset-button =============
+Applying mutation a to tag alpha
+Mutation applied: true
+---------
+Applying mutation a to tag delta
+Mutation applied: true
+---------
+Applying mutation a to tag beta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag gamma
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation b to tag alpha
+Mutation applied: true
+---------
+Applying mutation b to tag delta
+Mutation applied: true
+---------
+Applying mutation b to tag beta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag gamma
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation c to tag alpha
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag delta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag beta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag gamma
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation d to tag alpha
+Mutation applied: true
+---------
+Applying mutation d to tag delta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag gamma
+Mutation applied: true
+---------
+Applying mutation e to tag alpha
+Mutation applied: true
+---------
+Applying mutation e to tag delta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation f to tag alpha
+Mutation applied: true
+---------
+Applying mutation f to tag delta
+Mutation applied: true
+---------
+Applying mutation f to tag beta
+Mutation applied: true
+---------
+Applying mutation f to tag gamma
+Mutation applied: true
+---------
+Applying mutation g to tag alpha
+Mutation applied: true
+---------
+Applying mutation g to tag delta
+Mutation applied: true
+---------
+Applying mutation g to tag beta
+Mutation applied: true
+---------
+Applying mutation g to tag gamma
+Mutation applied: true
+---------
+Applying mutation h to tag alpha
+Mutation applied: true
+---------
+Applying mutation h to tag delta
+Mutation applied: true
+---------
+Applying mutation h to tag beta
+Mutation applied: true
+---------
+Applying mutation h to tag gamma
+Mutation applied: true
+---------
+Applying mutation i to tag alpha
+Mutation applied: true
+---------
+Applying mutation i to tag delta
+Mutation applied: true
+---------
+Applying mutation i to tag beta
+Mutation applied: true
+---------
+Applying mutation i to tag gamma
+Mutation applied: true
+---------
+Applying mutation j to tag alpha
+Mutation applied: true
+---------
+Applying mutation j to tag delta
+Mutation applied: true
+---------
+Applying mutation j to tag beta
+Mutation applied: true
+---------
+Applying mutation j to tag gamma
+Mutation applied: true
+---------
+Applying mutation k to tag alpha
+Mutation applied: true
+---------
+Applying mutation k to tag delta
+Mutation applied: true
+---------
+Applying mutation k to tag beta
+Mutation applied: true
+---------
+Applying mutation k to tag gamma
+Mutation applied: true
+---------
+================================
+============= catalog-empty =============
+Applying mutation a to tag alpha
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag delta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag beta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation b to tag alpha
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag delta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag beta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation c to tag alpha
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag delta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag beta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation d to tag alpha
+Mutation applied: true
+---------
+Applying mutation d to tag delta
+Mutation applied: true
+---------
+Applying mutation d to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag alpha
+Mutation applied: true
+---------
+Applying mutation e to tag delta
+Mutation applied: true
+---------
+Applying mutation e to tag beta
+Mutation applied: true
+---------
+Applying mutation f to tag alpha
+Mutation applied: true
+---------
+Applying mutation f to tag delta
+Mutation applied: true
+---------
+Applying mutation f to tag beta
+Mutation applied: true
+---------
+Applying mutation g to tag alpha
+Mutation applied: true
+---------
+Applying mutation g to tag delta
+Mutation applied: true
+---------
+Applying mutation g to tag beta
+Mutation applied: true
+---------
+Applying mutation h to tag alpha
+Mutation applied: true
+---------
+Applying mutation h to tag delta
+Mutation applied: true
+---------
+Applying mutation h to tag beta
+Mutation applied: true
+---------
+Applying mutation i to tag alpha
+Mutation applied: true
+---------
+Applying mutation i to tag delta
+Mutation applied: true
+---------
+Applying mutation i to tag beta
+Mutation applied: true
+---------
+Applying mutation j to tag alpha
+Mutation applied: true
+---------
+Applying mutation j to tag delta
+Mutation applied: true
+---------
+Applying mutation j to tag beta
+Mutation applied: true
+---------
+Applying mutation k to tag alpha
+Mutation applied: true
+---------
+Applying mutation k to tag delta
+Mutation applied: true
+---------
+Applying mutation k to tag beta
+Mutation applied: true
+---------
+================================
+============= catalog-modal-confirm =============
+Applying mutation a to tag alpha
+Mutation applied: true
+---------
+Applying mutation a to tag delta
+Mutation applied: true
+---------
+Applying mutation a to tag beta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag gamma
+Mutation applied: true
+---------
+Applying mutation b to tag alpha
+Mutation applied: true
+---------
+Applying mutation b to tag delta
+Mutation applied: true
+---------
+Applying mutation b to tag beta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag gamma
+Mutation applied: true
+---------
+Applying mutation c to tag alpha
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag delta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag beta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag gamma
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation d to tag alpha
+Mutation applied: true
+---------
+Applying mutation d to tag delta
+Mutation applied: true
+---------
+Applying mutation d to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag alpha
+Mutation applied: true
+---------
+Applying mutation e to tag delta
+Mutation applied: true
+---------
+Applying mutation e to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation f to tag alpha
+Mutation applied: true
+---------
+Applying mutation f to tag delta
+Mutation applied: true
+---------
+Applying mutation f to tag beta
+Mutation applied: true
+---------
+Applying mutation f to tag gamma
+Mutation applied: false
+Error: The parent is null or empty
+---------
+Applying mutation g to tag alpha
+Mutation applied: true
+---------
+Applying mutation g to tag delta
+Mutation applied: true
+---------
+Applying mutation g to tag beta
+Mutation applied: true
+---------
+Applying mutation g to tag gamma
+Mutation applied: true
+---------
+Applying mutation h to tag alpha
+Mutation applied: true
+---------
+Applying mutation h to tag delta
+Mutation applied: true
+---------
+Applying mutation h to tag beta
+Mutation applied: true
+---------
+Applying mutation h to tag gamma
+Mutation applied: true
+---------
+Applying mutation i to tag alpha
+Mutation applied: true
+---------
+Applying mutation i to tag delta
+Mutation applied: true
+---------
+Applying mutation i to tag beta
+Mutation applied: true
+---------
+Applying mutation i to tag gamma
+Mutation applied: true
+---------
+Applying mutation j to tag alpha
+Mutation applied: true
+---------
+Applying mutation j to tag delta
+Mutation applied: true
+---------
+Applying mutation j to tag beta
+Mutation applied: true
+---------
+Applying mutation j to tag gamma
+Mutation applied: true
+---------
+Applying mutation k to tag alpha
+Mutation applied: true
+---------
+Applying mutation k to tag delta
+Mutation applied: true
+---------
+Applying mutation k to tag beta
+Mutation applied: true
+---------
+Applying mutation k to tag gamma
+Mutation applied: true
+---------
+================================
+============= card-meta =============
+Applying mutation a to tag alpha
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag delta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag beta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag gamma
+Mutation applied: true
+---------
+Applying mutation b to tag alpha
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag delta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag beta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag gamma
+Mutation applied: true
+---------
+Applying mutation c to tag alpha
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag delta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag beta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag gamma
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation d to tag alpha
+Mutation applied: true
+---------
+Applying mutation d to tag delta
+Mutation applied: true
+---------
+Applying mutation d to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag alpha
+Mutation applied: true
+---------
+Applying mutation e to tag delta
+Mutation applied: true
+---------
+Applying mutation e to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation f to tag alpha
+Mutation applied: true
+---------
+Applying mutation f to tag delta
+Mutation applied: true
+---------
+Applying mutation f to tag beta
+Mutation applied: true
+---------
+Applying mutation f to tag gamma
+Mutation applied: false
+Error: The parent is null or empty
+---------
+Applying mutation g to tag alpha
+Mutation applied: true
+---------
+Applying mutation g to tag delta
+Mutation applied: true
+---------
+Applying mutation g to tag beta
+Mutation applied: true
+---------
+Applying mutation g to tag gamma
+Mutation applied: true
+---------
+Applying mutation h to tag alpha
+Mutation applied: true
+---------
+Applying mutation h to tag delta
+Mutation applied: true
+---------
+Applying mutation h to tag beta
+Mutation applied: true
+---------
+Applying mutation h to tag gamma
+Mutation applied: true
+---------
+Applying mutation i to tag alpha
+Mutation applied: true
+---------
+Applying mutation i to tag delta
+Mutation applied: true
+---------
+Applying mutation i to tag beta
+Mutation applied: true
+---------
+Applying mutation i to tag gamma
+Mutation applied: true
+---------
+Applying mutation j to tag alpha
+Mutation applied: true
+---------
+Applying mutation j to tag delta
+Mutation applied: true
+---------
+Applying mutation j to tag beta
+Mutation applied: true
+---------
+Applying mutation j to tag gamma
+Mutation applied: true
+---------
+Applying mutation k to tag alpha
+Mutation applied: true
+---------
+Applying mutation k to tag delta
+Mutation applied: true
+---------
+Applying mutation k to tag beta
+Mutation applied: true
+---------
+Applying mutation k to tag gamma
+Mutation applied: true
+---------
+================================
+============= card-rating =============
+Applying mutation a to tag alpha
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag delta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag beta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag gamma
+Mutation applied: true
+---------
+Applying mutation b to tag alpha
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag delta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag beta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag gamma
+Mutation applied: true
+---------
+Applying mutation c to tag alpha
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag delta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag beta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag gamma
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation d to tag alpha
+Mutation applied: true
+---------
+Applying mutation d to tag delta
+Mutation applied: true
+---------
+Applying mutation d to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag alpha
+Mutation applied: true
+---------
+Applying mutation e to tag delta
+Mutation applied: true
+---------
+Applying mutation e to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation f to tag alpha
+Mutation applied: true
+---------
+Applying mutation f to tag delta
+Mutation applied: true
+---------
+Applying mutation f to tag beta
+Mutation applied: true
+---------
+Applying mutation f to tag gamma
+Mutation applied: false
+Error: The parent is null or empty
+---------
+Applying mutation g to tag alpha
+Mutation applied: true
+---------
+Applying mutation g to tag delta
+Mutation applied: true
+---------
+Applying mutation g to tag beta
+Mutation applied: true
+---------
+Applying mutation g to tag gamma
+Mutation applied: true
+---------
+Applying mutation h to tag alpha
+Mutation applied: true
+---------
+Applying mutation h to tag delta
+Mutation applied: true
+---------
+Applying mutation h to tag beta
+Mutation applied: true
+---------
+Applying mutation h to tag gamma
+Mutation applied: true
+---------
+Applying mutation i to tag alpha
+Mutation applied: true
+---------
+Applying mutation i to tag delta
+Mutation applied: true
+---------
+Applying mutation i to tag beta
+Mutation applied: true
+---------
+Applying mutation i to tag gamma
+Mutation applied: true
+---------
+Applying mutation j to tag alpha
+Mutation applied: true
+---------
+Applying mutation j to tag delta
+Mutation applied: true
+---------
+Applying mutation j to tag beta
+Mutation applied: true
+---------
+Applying mutation j to tag gamma
+Mutation applied: true
+---------
+Applying mutation k to tag alpha
+Mutation applied: true
+---------
+Applying mutation k to tag delta
+Mutation applied: true
+---------
+Applying mutation k to tag beta
+Mutation applied: true
+---------
+Applying mutation k to tag gamma
+Mutation applied: true
+---------
+================================
+============= card-poster =============
+Applying mutation a to tag alpha
+Mutation applied: true
+---------
+Applying mutation a to tag delta
+Mutation applied: true
+---------
+Applying mutation a to tag beta
+Mutation applied: true
+---------
+Applying mutation b to tag alpha
+Mutation applied: true
+---------
+Applying mutation b to tag delta
+Mutation applied: true
+---------
+Applying mutation b to tag beta
+Mutation applied: true
+---------
+Applying mutation c to tag alpha
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag delta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag beta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation d to tag alpha
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag delta
+Mutation applied: true
+---------
+Applying mutation d to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag alpha
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag delta
+Mutation applied: true
+---------
+Applying mutation e to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation f to tag alpha
+Mutation applied: true
+---------
+Applying mutation f to tag delta
+Mutation applied: true
+---------
+Applying mutation f to tag beta
+Mutation applied: false
+Error: The parent is null or empty
+---------
+Applying mutation g to tag alpha
+Mutation applied: true
+---------
+Applying mutation g to tag delta
+Mutation applied: true
+---------
+Applying mutation g to tag beta
+Mutation applied: true
+---------
+Applying mutation h to tag alpha
+Mutation applied: true
+---------
+Applying mutation h to tag delta
+Mutation applied: true
+---------
+Applying mutation h to tag beta
+Mutation applied: true
+---------
+Applying mutation i to tag alpha
+Mutation applied: true
+---------
+Applying mutation i to tag delta
+Mutation applied: true
+---------
+Applying mutation i to tag beta
+Mutation applied: true
+---------
+Applying mutation j to tag alpha
+Mutation applied: true
+---------
+Applying mutation j to tag delta
+Mutation applied: true
+---------
+Applying mutation j to tag beta
+Mutation applied: true
+---------
+Applying mutation k to tag alpha
+Mutation applied: true
+---------
+Applying mutation k to tag delta
+Mutation applied: true
+---------
+Applying mutation k to tag beta
+Mutation applied: true
+---------
+================================
+============= detail-title =============
+Applying mutation a to tag epsilon
+Mutation applied: true
+---------
+Applying mutation a to tag alpha
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag delta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag beta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag gamma
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation b to tag epsilon
+Mutation applied: true
+---------
+Applying mutation b to tag alpha
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag delta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag beta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag gamma
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation c to tag epsilon
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag alpha
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag delta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag beta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag gamma
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation d to tag epsilon
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag alpha
+Mutation applied: true
+---------
+Applying mutation d to tag delta
+Mutation applied: true
+---------
+Applying mutation d to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag epsilon
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag alpha
+Mutation applied: true
+---------
+Applying mutation e to tag delta
+Mutation applied: true
+---------
+Applying mutation e to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation f to tag epsilon
+Mutation applied: true
+---------
+Applying mutation f to tag alpha
+Mutation applied: true
+---------
+Applying mutation f to tag delta
+Mutation applied: true
+---------
+Applying mutation f to tag beta
+Mutation applied: true
+---------
+Applying mutation f to tag gamma
+Mutation applied: false
+Error: The parent is null or empty
+---------
+Applying mutation g to tag epsilon
+Mutation applied: true
+---------
+Applying mutation g to tag alpha
+Mutation applied: true
+---------
+Applying mutation g to tag delta
+Mutation applied: true
+---------
+Applying mutation g to tag beta
+Mutation applied: true
+---------
+Applying mutation g to tag gamma
+Mutation applied: true
+---------
+Applying mutation h to tag epsilon
+Mutation applied: true
+---------
+Applying mutation h to tag alpha
+Mutation applied: true
+---------
+Applying mutation h to tag delta
+Mutation applied: true
+---------
+Applying mutation h to tag beta
+Mutation applied: true
+---------
+Applying mutation h to tag gamma
+Mutation applied: true
+---------
+Applying mutation i to tag epsilon
+Mutation applied: true
+---------
+Applying mutation i to tag alpha
+Mutation applied: true
+---------
+Applying mutation i to tag delta
+Mutation applied: true
+---------
+Applying mutation i to tag beta
+Mutation applied: true
+---------
+Applying mutation i to tag gamma
+Mutation applied: true
+---------
+Applying mutation j to tag epsilon
+Mutation applied: true
+---------
+Applying mutation j to tag alpha
+Mutation applied: true
+---------
+Applying mutation j to tag delta
+Mutation applied: true
+---------
+Applying mutation j to tag beta
+Mutation applied: true
+---------
+Applying mutation j to tag gamma
+Mutation applied: true
+---------
+Applying mutation k to tag epsilon
+Mutation applied: true
+---------
+Applying mutation k to tag alpha
+Mutation applied: true
+---------
+Applying mutation k to tag delta
+Mutation applied: true
+---------
+Applying mutation k to tag beta
+Mutation applied: true
+---------
+Applying mutation k to tag gamma
+Mutation applied: true
+---------
+================================
+============= detail-synopsis =============
+Applying mutation a to tag alpha
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag delta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag beta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag gamma
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation b to tag alpha
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag delta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag beta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag gamma
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation c to tag alpha
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag delta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag beta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag gamma
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation d to tag alpha
+Mutation applied: true
+---------
+Applying mutation d to tag delta
+Mutation applied: true
+---------
+Applying mutation d to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag alpha
+Mutation applied: true
+---------
+Applying mutation e to tag delta
+Mutation applied: true
+---------
+Applying mutation e to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation f to tag alpha
+Mutation applied: true
+---------
+Applying mutation f to tag delta
+Mutation applied: true
+---------
+Applying mutation f to tag beta
+Mutation applied: true
+---------
+Applying mutation f to tag gamma
+Mutation applied: true
+---------
+Applying mutation g to tag alpha
+Mutation applied: true
+---------
+Applying mutation g to tag delta
+Mutation applied: true
+---------
+Applying mutation g to tag beta
+Mutation applied: true
+---------
+Applying mutation g to tag gamma
+Mutation applied: true
+---------
+Applying mutation h to tag alpha
+Mutation applied: true
+---------
+Applying mutation h to tag delta
+Mutation applied: true
+---------
+Applying mutation h to tag beta
+Mutation applied: true
+---------
+Applying mutation h to tag gamma
+Mutation applied: true
+---------
+Applying mutation i to tag alpha
+Mutation applied: true
+---------
+Applying mutation i to tag delta
+Mutation applied: true
+---------
+Applying mutation i to tag beta
+Mutation applied: true
+---------
+Applying mutation i to tag gamma
+Mutation applied: true
+---------
+Applying mutation j to tag alpha
+Mutation applied: true
+---------
+Applying mutation j to tag delta
+Mutation applied: true
+---------
+Applying mutation j to tag beta
+Mutation applied: true
+---------
+Applying mutation j to tag gamma
+Mutation applied: true
+---------
+Applying mutation k to tag alpha
+Mutation applied: true
+---------
+Applying mutation k to tag delta
+Mutation applied: true
+---------
+Applying mutation k to tag beta
+Mutation applied: true
+---------
+Applying mutation k to tag gamma
+Mutation applied: true
+---------
+================================
+============= detail-edit-button =============
+Applying mutation a to tag epsilon
+Mutation applied: true
+---------
+Applying mutation a to tag alpha
+Mutation applied: true
+---------
+Applying mutation a to tag delta
+Mutation applied: true
+---------
+Applying mutation a to tag beta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag gamma
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation b to tag epsilon
+Mutation applied: true
+---------
+Applying mutation b to tag alpha
+Mutation applied: true
+---------
+Applying mutation b to tag delta
+Mutation applied: true
+---------
+Applying mutation b to tag beta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag gamma
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation c to tag epsilon
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag alpha
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag delta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag beta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag gamma
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation d to tag epsilon
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag alpha
+Mutation applied: true
+---------
+Applying mutation d to tag delta
+Mutation applied: true
+---------
+Applying mutation d to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag epsilon
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag alpha
+Mutation applied: true
+---------
+Applying mutation e to tag delta
+Mutation applied: true
+---------
+Applying mutation e to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation f to tag epsilon
+Mutation applied: true
+---------
+Applying mutation f to tag alpha
+Mutation applied: true
+---------
+Applying mutation f to tag delta
+Mutation applied: true
+---------
+Applying mutation f to tag beta
+Mutation applied: true
+---------
+Applying mutation f to tag gamma
+Mutation applied: true
+---------
+Applying mutation g to tag epsilon
+Mutation applied: true
+---------
+Applying mutation g to tag alpha
+Mutation applied: true
+---------
+Applying mutation g to tag delta
+Mutation applied: true
+---------
+Applying mutation g to tag beta
+Mutation applied: true
+---------
+Applying mutation g to tag gamma
+Mutation applied: true
+---------
+Applying mutation h to tag epsilon
+Mutation applied: true
+---------
+Applying mutation h to tag alpha
+Mutation applied: true
+---------
+Applying mutation h to tag delta
+Mutation applied: true
+---------
+Applying mutation h to tag beta
+Mutation applied: true
+---------
+Applying mutation h to tag gamma
+Mutation applied: true
+---------
+Applying mutation i to tag epsilon
+Mutation applied: true
+---------
+Applying mutation i to tag alpha
+Mutation applied: true
+---------
+Applying mutation i to tag delta
+Mutation applied: true
+---------
+Applying mutation i to tag beta
+Mutation applied: true
+---------
+Applying mutation i to tag gamma
+Mutation applied: true
+---------
+Applying mutation j to tag epsilon
+Mutation applied: true
+---------
+Applying mutation j to tag alpha
+Mutation applied: true
+---------
+Applying mutation j to tag delta
+Mutation applied: true
+---------
+Applying mutation j to tag beta
+Mutation applied: true
+---------
+Applying mutation j to tag gamma
+Mutation applied: true
+---------
+Applying mutation k to tag epsilon
+Mutation applied: true
+---------
+Applying mutation k to tag alpha
+Mutation applied: true
+---------
+Applying mutation k to tag delta
+Mutation applied: true
+---------
+Applying mutation k to tag beta
+Mutation applied: true
+---------
+Applying mutation k to tag gamma
+Mutation applied: true
+---------
+================================
+============= cast-name =============
+Applying mutation a to tag alpha
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag delta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag beta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation b to tag alpha
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag delta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag beta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation c to tag alpha
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag delta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag beta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation d to tag alpha
+Mutation applied: true
+---------
+Applying mutation d to tag delta
+Mutation applied: true
+---------
+Applying mutation d to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag alpha
+Mutation applied: true
+---------
+Applying mutation e to tag delta
+Mutation applied: true
+---------
+Applying mutation e to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation f to tag alpha
+Mutation applied: true
+---------
+Applying mutation f to tag delta
+Mutation applied: true
+---------
+Applying mutation f to tag beta
+Mutation applied: false
+Error: The parent is null or empty
+---------
+Applying mutation g to tag alpha
+Mutation applied: true
+---------
+Applying mutation g to tag delta
+Mutation applied: true
+---------
+Applying mutation g to tag beta
+Mutation applied: true
+---------
+Applying mutation h to tag alpha
+Mutation applied: true
+---------
+Applying mutation h to tag delta
+Mutation applied: true
+---------
+Applying mutation h to tag beta
+Mutation applied: true
+---------
+Applying mutation i to tag alpha
+Mutation applied: true
+---------
+Applying mutation i to tag delta
+Mutation applied: true
+---------
+Applying mutation i to tag beta
+Mutation applied: true
+---------
+Applying mutation j to tag alpha
+Mutation applied: true
+---------
+Applying mutation j to tag delta
+Mutation applied: true
+---------
+Applying mutation j to tag beta
+Mutation applied: true
+---------
+Applying mutation k to tag alpha
+Mutation applied: true
+---------
+Applying mutation k to tag delta
+Mutation applied: true
+---------
+Applying mutation k to tag beta
+Mutation applied: true
+---------
+================================
+============= cast-role =============
+Applying mutation a to tag alpha
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag delta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag beta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation b to tag alpha
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag delta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag beta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation c to tag alpha
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag delta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag beta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation d to tag alpha
+Mutation applied: true
+---------
+Applying mutation d to tag delta
+Mutation applied: true
+---------
+Applying mutation d to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag alpha
+Mutation applied: true
+---------
+Applying mutation e to tag delta
+Mutation applied: true
+---------
+Applying mutation e to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation f to tag alpha
+Mutation applied: true
+---------
+Applying mutation f to tag delta
+Mutation applied: true
+---------
+Applying mutation f to tag beta
+Mutation applied: false
+Error: The parent is null or empty
+---------
+Applying mutation g to tag alpha
+Mutation applied: true
+---------
+Applying mutation g to tag delta
+Mutation applied: true
+---------
+Applying mutation g to tag beta
+Mutation applied: true
+---------
+Applying mutation h to tag alpha
+Mutation applied: true
+---------
+Applying mutation h to tag delta
+Mutation applied: true
+---------
+Applying mutation h to tag beta
+Mutation applied: true
+---------
+Applying mutation i to tag alpha
+Mutation applied: true
+---------
+Applying mutation i to tag delta
+Mutation applied: true
+---------
+Applying mutation i to tag beta
+Mutation applied: true
+---------
+Applying mutation j to tag alpha
+Mutation applied: true
+---------
+Applying mutation j to tag delta
+Mutation applied: true
+---------
+Applying mutation j to tag beta
+Mutation applied: true
+---------
+Applying mutation k to tag alpha
+Mutation applied: true
+---------
+Applying mutation k to tag delta
+Mutation applied: true
+---------
+Applying mutation k to tag beta
+Mutation applied: true
+---------
+================================
+============= reviews-average =============
+Applying mutation a to tag alpha
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag delta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag beta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag gamma
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation b to tag alpha
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag delta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag beta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag gamma
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation c to tag alpha
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag delta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag beta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag gamma
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation d to tag alpha
+Mutation applied: true
+---------
+Applying mutation d to tag delta
+Mutation applied: true
+---------
+Applying mutation d to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag alpha
+Mutation applied: true
+---------
+Applying mutation e to tag delta
+Mutation applied: true
+---------
+Applying mutation e to tag beta
+Mutation applied: true
+---------
+Applying mutation e to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation f to tag alpha
+Mutation applied: true
+---------
+Applying mutation f to tag delta
+Mutation applied: true
+---------
+Applying mutation f to tag beta
+Mutation applied: true
+---------
+Applying mutation f to tag gamma
+Mutation applied: false
+Error: The parent is null or empty
+---------
+Applying mutation g to tag alpha
+Mutation applied: true
+---------
+Applying mutation g to tag delta
+Mutation applied: true
+---------
+Applying mutation g to tag beta
+Mutation applied: true
+---------
+Applying mutation g to tag gamma
+Mutation applied: true
+---------
+Applying mutation h to tag alpha
+Mutation applied: true
+---------
+Applying mutation h to tag delta
+Mutation applied: true
+---------
+Applying mutation h to tag beta
+Mutation applied: true
+---------
+Applying mutation h to tag gamma
+Mutation applied: true
+---------
+Applying mutation i to tag alpha
+Mutation applied: true
+---------
+Applying mutation i to tag delta
+Mutation applied: true
+---------
+Applying mutation i to tag beta
+Mutation applied: true
+---------
+Applying mutation i to tag gamma
+Mutation applied: true
+---------
+Applying mutation j to tag alpha
+Mutation applied: true
+---------
+Applying mutation j to tag delta
+Mutation applied: true
+---------
+Applying mutation j to tag beta
+Mutation applied: true
+---------
+Applying mutation j to tag gamma
+Mutation applied: true
+---------
+Applying mutation k to tag alpha
+Mutation applied: true
+---------
+Applying mutation k to tag delta
+Mutation applied: true
+---------
+Applying mutation k to tag beta
+Mutation applied: true
+---------
+Applying mutation k to tag gamma
+Mutation applied: true
+---------
+================================
+============= review-comment =============
+Applying mutation a to tag alpha
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag delta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag beta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag gamma
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation b to tag alpha
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag delta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag beta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag gamma
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation c to tag alpha
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag delta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag beta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag gamma
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation d to tag alpha
+Mutation applied: true
+---------
+Applying mutation d to tag delta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag gamma
+Mutation applied: true
+---------
+Applying mutation e to tag alpha
+Mutation applied: true
+---------
+Applying mutation e to tag delta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag gamma
+Mutation applied: true
+---------
+Applying mutation f to tag alpha
+Mutation applied: true
+---------
+Applying mutation f to tag delta
+Mutation applied: true
+---------
+Applying mutation f to tag beta
+Mutation applied: false
+Error: The parent is null or empty
+---------
+Applying mutation f to tag gamma
+Mutation applied: true
+---------
+Applying mutation g to tag alpha
+Mutation applied: true
+---------
+Applying mutation g to tag delta
+Mutation applied: true
+---------
+Applying mutation g to tag beta
+Mutation applied: true
+---------
+Applying mutation g to tag gamma
+Mutation applied: true
+---------
+Applying mutation h to tag alpha
+Mutation applied: true
+---------
+Applying mutation h to tag delta
+Mutation applied: true
+---------
+Applying mutation h to tag beta
+Mutation applied: true
+---------
+Applying mutation h to tag gamma
+Mutation applied: true
+---------
+Applying mutation i to tag alpha
+Mutation applied: true
+---------
+Applying mutation i to tag delta
+Mutation applied: true
+---------
+Applying mutation i to tag beta
+Mutation applied: true
+---------
+Applying mutation i to tag gamma
+Mutation applied: true
+---------
+Applying mutation j to tag alpha
+Mutation applied: true
+---------
+Applying mutation j to tag delta
+Mutation applied: true
+---------
+Applying mutation j to tag beta
+Mutation applied: true
+---------
+Applying mutation j to tag gamma
+Mutation applied: true
+---------
+Applying mutation k to tag alpha
+Mutation applied: true
+---------
+Applying mutation k to tag delta
+Mutation applied: true
+---------
+Applying mutation k to tag beta
+Mutation applied: true
+---------
+Applying mutation k to tag gamma
+Mutation applied: true
+---------
+================================
+============= review-field-comment =============
+Applying mutation a to tag alpha
+Mutation applied: true
+---------
+Applying mutation a to tag delta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag beta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag gamma
+Mutation applied: true
+---------
+Applying mutation b to tag alpha
+Mutation applied: true
+---------
+Applying mutation b to tag delta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag beta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag gamma
+Mutation applied: true
+---------
+Applying mutation c to tag alpha
+Mutation applied: true
+---------
+Applying mutation c to tag delta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag beta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag gamma
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation d to tag alpha
+Mutation applied: false
+Error: Target element has no child nodes
+---------
+Applying mutation d to tag delta
+Mutation applied: true
+---------
+Applying mutation d to tag beta
+Mutation applied: true
+---------
+Applying mutation d to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag alpha
+Mutation applied: false
+Error: Target element has no child nodes
+---------
+Applying mutation e to tag delta
+Mutation applied: true
+---------
+Applying mutation e to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation f to tag alpha
+Mutation applied: true
+---------
+Applying mutation f to tag delta
+Mutation applied: true
+---------
+Applying mutation f to tag beta
+Mutation applied: true
+---------
+Applying mutation f to tag gamma
+Mutation applied: true
+---------
+Applying mutation g to tag alpha
+Mutation applied: true
+---------
+Applying mutation g to tag delta
+Mutation applied: true
+---------
+Applying mutation g to tag beta
+Mutation applied: true
+---------
+Applying mutation g to tag gamma
+Mutation applied: true
+---------
+Applying mutation h to tag alpha
+Mutation applied: true
+---------
+Applying mutation h to tag delta
+Mutation applied: true
+---------
+Applying mutation h to tag beta
+Mutation applied: true
+---------
+Applying mutation h to tag gamma
+Mutation applied: true
+---------
+Applying mutation i to tag alpha
+Mutation applied: true
+---------
+Applying mutation i to tag delta
+Mutation applied: true
+---------
+Applying mutation i to tag beta
+Mutation applied: true
+---------
+Applying mutation i to tag gamma
+Mutation applied: true
+---------
+Applying mutation j to tag alpha
+Mutation applied: true
+---------
+Applying mutation j to tag delta
+Mutation applied: true
+---------
+Applying mutation j to tag beta
+Mutation applied: true
+---------
+Applying mutation j to tag gamma
+Mutation applied: true
+---------
+Applying mutation k to tag alpha
+Mutation applied: true
+---------
+Applying mutation k to tag delta
+Mutation applied: true
+---------
+Applying mutation k to tag beta
+Mutation applied: true
+---------
+Applying mutation k to tag gamma
+Mutation applied: true
+---------
+================================
+============= stats-heading =============
+Applying mutation a to tag alpha
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag delta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag beta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation b to tag alpha
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag delta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag beta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation c to tag alpha
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag delta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag beta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation d to tag alpha
+Mutation applied: true
+---------
+Applying mutation d to tag delta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag alpha
+Mutation applied: true
+---------
+Applying mutation e to tag delta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation f to tag alpha
+Mutation applied: true
+---------
+Applying mutation f to tag delta
+Mutation applied: true
+---------
+Applying mutation f to tag beta
+Mutation applied: false
+Error: The parent is null or empty
+---------
+Applying mutation g to tag alpha
+Mutation applied: true
+---------
+Applying mutation g to tag delta
+Mutation applied: true
+---------
+Applying mutation g to tag beta
+Mutation applied: true
+---------
+Applying mutation h to tag alpha
+Mutation applied: true
+---------
+Applying mutation h to tag delta
+Mutation applied: true
+---------
+Applying mutation h to tag beta
+Mutation applied: true
+---------
+Applying mutation i to tag alpha
+Mutation applied: true
+---------
+Applying mutation i to tag delta
+Mutation applied: true
+---------
+Applying mutation i to tag beta
+Mutation applied: true
+---------
+Applying mutation j to tag alpha
+Mutation applied: true
+---------
+Applying mutation j to tag delta
+Mutation applied: true
+---------
+Applying mutation j to tag beta
+Mutation applied: true
+---------
+Applying mutation k to tag alpha
+Mutation applied: true
+---------
+Applying mutation k to tag delta
+Mutation applied: true
+---------
+Applying mutation k to tag beta
+Mutation applied: true
+---------
+================================
+============= genre-count =============
+Applying mutation a to tag epsilon
+Mutation applied: true
+---------
+Applying mutation a to tag alpha
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag delta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag beta
+Mutation applied: true
+---------
+Applying mutation a to tag gamma
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation b to tag epsilon
+Mutation applied: true
+---------
+Applying mutation b to tag alpha
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag delta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag beta
+Mutation applied: true
+---------
+Applying mutation b to tag gamma
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation c to tag epsilon
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag alpha
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag delta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag beta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag gamma
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation d to tag epsilon
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag alpha
+Mutation applied: true
+---------
+Applying mutation d to tag delta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag gamma
+Mutation applied: true
+---------
+Applying mutation e to tag epsilon
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag alpha
+Mutation applied: true
+---------
+Applying mutation e to tag delta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag gamma
+Mutation applied: true
+---------
+Applying mutation f to tag epsilon
+Mutation applied: true
+---------
+Applying mutation f to tag alpha
+Mutation applied: true
+---------
+Applying mutation f to tag delta
+Mutation applied: true
+---------
+Applying mutation f to tag beta
+Mutation applied: false
+Error: The parent is null or empty
+---------
+Applying mutation f to tag gamma
+Mutation applied: false
+Error: The parent is null or empty
+---------
+Applying mutation g to tag epsilon
+Mutation applied: true
+---------
+Applying mutation g to tag alpha
+Mutation applied: true
+---------
+Applying mutation g to tag delta
+Mutation applied: true
+---------
+Applying mutation g to tag beta
+Mutation applied: true
+---------
+Applying mutation g to tag gamma
+Mutation applied: true
+---------
+Applying mutation h to tag epsilon
+Mutation applied: true
+---------
+Applying mutation h to tag alpha
+Mutation applied: true
+---------
+Applying mutation h to tag delta
+Mutation applied: true
+---------
+Applying mutation h to tag beta
+Mutation applied: true
+---------
+Applying mutation h to tag gamma
+Mutation applied: true
+---------
+Applying mutation i to tag epsilon
+Mutation applied: true
+---------
+Applying mutation i to tag alpha
+Mutation applied: true
+---------
+Applying mutation i to tag delta
+Mutation applied: true
+---------
+Applying mutation i to tag beta
+Mutation applied: true
+---------
+Applying mutation i to tag gamma
+Mutation applied: true
+---------
+Applying mutation j to tag epsilon
+Mutation applied: true
+---------
+Applying mutation j to tag alpha
+Mutation applied: true
+---------
+Applying mutation j to tag delta
+Mutation applied: true
+---------
+Applying mutation j to tag beta
+Mutation applied: true
+---------
+Applying mutation j to tag gamma
+Mutation applied: true
+---------
+Applying mutation k to tag epsilon
+Mutation applied: true
+---------
+Applying mutation k to tag alpha
+Mutation applied: true
+---------
+Applying mutation k to tag delta
+Mutation applied: true
+---------
+Applying mutation k to tag beta
+Mutation applied: true
+---------
+Applying mutation k to tag gamma
+Mutation applied: true
+---------
+================================
+============= stat-favorites-value =============
+Applying mutation a to tag alpha
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag delta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag beta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag gamma
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation b to tag alpha
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag delta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag beta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag gamma
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation c to tag alpha
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag delta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag beta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag gamma
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation d to tag alpha
+Mutation applied: true
+---------
+Applying mutation d to tag delta
+Mutation applied: true
+---------
+Applying mutation d to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag alpha
+Mutation applied: true
+---------
+Applying mutation e to tag delta
+Mutation applied: true
+---------
+Applying mutation e to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation f to tag alpha
+Mutation applied: true
+---------
+Applying mutation f to tag delta
+Mutation applied: true
+---------
+Applying mutation f to tag beta
+Mutation applied: true
+---------
+Applying mutation f to tag gamma
+Mutation applied: true
+---------
+Applying mutation g to tag alpha
+Mutation applied: true
+---------
+Applying mutation g to tag delta
+Mutation applied: true
+---------
+Applying mutation g to tag beta
+Mutation applied: true
+---------
+Applying mutation g to tag gamma
+Mutation applied: true
+---------
+Applying mutation h to tag alpha
+Mutation applied: true
+---------
+Applying mutation h to tag delta
+Mutation applied: true
+---------
+Applying mutation h to tag beta
+Mutation applied: true
+---------
+Applying mutation h to tag gamma
+Mutation applied: true
+---------
+Applying mutation i to tag alpha
+Mutation applied: true
+---------
+Applying mutation i to tag delta
+Mutation applied: true
+---------
+Applying mutation i to tag beta
+Mutation applied: true
+---------
+Applying mutation i to tag gamma
+Mutation applied: true
+---------
+Applying mutation j to tag alpha
+Mutation applied: true
+---------
+Applying mutation j to tag delta
+Mutation applied: true
+---------
+Applying mutation j to tag beta
+Mutation applied: true
+---------
+Applying mutation j to tag gamma
+Mutation applied: true
+---------
+Applying mutation k to tag alpha
+Mutation applied: true
+---------
+Applying mutation k to tag delta
+Mutation applied: true
+---------
+Applying mutation k to tag beta
+Mutation applied: true
+---------
+Applying mutation k to tag gamma
+Mutation applied: true
+---------
+================================
+============= field-year =============
+Applying mutation a to tag epsilon
+Mutation applied: true
+---------
+Applying mutation a to tag alpha
+Mutation applied: true
+---------
+Applying mutation a to tag delta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag beta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag gamma
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation b to tag epsilon
+Mutation applied: true
+---------
+Applying mutation b to tag alpha
+Mutation applied: true
+---------
+Applying mutation b to tag delta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag beta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag gamma
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation c to tag epsilon
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag alpha
+Mutation applied: true
+---------
+Applying mutation c to tag delta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag beta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag gamma
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation d to tag epsilon
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag alpha
+Mutation applied: false
+Error: Target element has no child nodes
+---------
+Applying mutation d to tag delta
+Mutation applied: true
+---------
+Applying mutation d to tag beta
+Mutation applied: true
+---------
+Applying mutation d to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag epsilon
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag alpha
+Mutation applied: false
+Error: Target element has no child nodes
+---------
+Applying mutation e to tag delta
+Mutation applied: true
+---------
+Applying mutation e to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation f to tag epsilon
+Mutation applied: true
+---------
+Applying mutation f to tag alpha
+Mutation applied: true
+---------
+Applying mutation f to tag delta
+Mutation applied: true
+---------
+Applying mutation f to tag beta
+Mutation applied: true
+---------
+Applying mutation f to tag gamma
+Mutation applied: false
+Error: The parent is null or empty
+---------
+Applying mutation g to tag epsilon
+Mutation applied: true
+---------
+Applying mutation g to tag alpha
+Mutation applied: true
+---------
+Applying mutation g to tag delta
+Mutation applied: true
+---------
+Applying mutation g to tag beta
+Mutation applied: true
+---------
+Applying mutation g to tag gamma
+Mutation applied: true
+---------
+Applying mutation h to tag epsilon
+Mutation applied: true
+---------
+Applying mutation h to tag alpha
+Mutation applied: true
+---------
+Applying mutation h to tag delta
+Mutation applied: true
+---------
+Applying mutation h to tag beta
+Mutation applied: true
+---------
+Applying mutation h to tag gamma
+Mutation applied: true
+---------
+Applying mutation i to tag epsilon
+Mutation applied: true
+---------
+Applying mutation i to tag alpha
+Mutation applied: true
+---------
+Applying mutation i to tag delta
+Mutation applied: true
+---------
+Applying mutation i to tag beta
+Mutation applied: true
+---------
+Applying mutation i to tag gamma
+Mutation applied: true
+---------
+Applying mutation j to tag epsilon
+Mutation applied: true
+---------
+Applying mutation j to tag alpha
+Mutation applied: true
+---------
+Applying mutation j to tag delta
+Mutation applied: true
+---------
+Applying mutation j to tag beta
+Mutation applied: true
+---------
+Applying mutation j to tag gamma
+Mutation applied: true
+---------
+Applying mutation k to tag epsilon
+Mutation applied: true
+---------
+Applying mutation k to tag alpha
+Mutation applied: true
+---------
+Applying mutation k to tag delta
+Mutation applied: true
+---------
+Applying mutation k to tag beta
+Mutation applied: true
+---------
+Applying mutation k to tag gamma
+Mutation applied: true
+---------
+================================
+============= form-cancel =============
+Applying mutation a to tag alpha
+Mutation applied: true
+---------
+Applying mutation a to tag delta
+Mutation applied: true
+---------
+Applying mutation a to tag beta
+Mutation applied: false
+Error: Target element has no attributes
+---------
+Applying mutation a to tag gamma
+Mutation applied: true
+---------
+Applying mutation b to tag alpha
+Mutation applied: true
+---------
+Applying mutation b to tag delta
+Mutation applied: true
+---------
+Applying mutation b to tag beta
+Mutation applied: false
+Error: Target element has no valid candidate attributes
+---------
+Applying mutation b to tag gamma
+Mutation applied: true
+---------
+Applying mutation c to tag alpha
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag delta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag beta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag gamma
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation d to tag alpha
+Mutation applied: true
+---------
+Applying mutation d to tag delta
+Mutation applied: true
+---------
+Applying mutation d to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag alpha
+Mutation applied: true
+---------
+Applying mutation e to tag delta
+Mutation applied: true
+---------
+Applying mutation e to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag gamma
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation f to tag alpha
+Mutation applied: true
+---------
+Applying mutation f to tag delta
+Mutation applied: true
+---------
+Applying mutation f to tag beta
+Mutation applied: true
+---------
+Applying mutation f to tag gamma
+Mutation applied: true
+---------
+Applying mutation g to tag alpha
+Mutation applied: true
+---------
+Applying mutation g to tag delta
+Mutation applied: true
+---------
+Applying mutation g to tag beta
+Mutation applied: true
+---------
+Applying mutation g to tag gamma
+Mutation applied: true
+---------
+Applying mutation h to tag alpha
+Mutation applied: true
+---------
+Applying mutation h to tag delta
+Mutation applied: true
+---------
+Applying mutation h to tag beta
+Mutation applied: true
+---------
+Applying mutation h to tag gamma
+Mutation applied: true
+---------
+Applying mutation i to tag alpha
+Mutation applied: true
+---------
+Applying mutation i to tag delta
+Mutation applied: true
+---------
+Applying mutation i to tag beta
+Mutation applied: true
+---------
+Applying mutation i to tag gamma
+Mutation applied: true
+---------
+Applying mutation j to tag alpha
+Mutation applied: true
+---------
+Applying mutation j to tag delta
+Mutation applied: true
+---------
+Applying mutation j to tag beta
+Mutation applied: true
+---------
+Applying mutation j to tag gamma
+Mutation applied: true
+---------
+Applying mutation k to tag alpha
+Mutation applied: true
+---------
+Applying mutation k to tag delta
+Mutation applied: true
+---------
+Applying mutation k to tag beta
+Mutation applied: true
+---------
+Applying mutation k to tag gamma
+Mutation applied: true
+---------
+================================
+============= cast-remove =============
+Applying mutation a to tag alpha
+Mutation applied: true
+---------
+Applying mutation a to tag delta
+Mutation applied: true
+---------
+Applying mutation a to tag beta
+Mutation applied: true
+---------
+Applying mutation a to tag gamma
+Mutation applied: true
+---------
+Applying mutation b to tag alpha
+Mutation applied: true
+---------
+Applying mutation b to tag delta
+Mutation applied: true
+---------
+Applying mutation b to tag beta
+Mutation applied: true
+---------
+Applying mutation b to tag gamma
+Mutation applied: true
+---------
+Applying mutation c to tag alpha
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag delta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag beta
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation c to tag gamma
+Mutation applied: false
+Error: Target element has no id attribute
+---------
+Applying mutation d to tag alpha
+Mutation applied: true
+---------
+Applying mutation d to tag delta
+Mutation applied: false
+Error: Target element has no child nodes
+---------
+Applying mutation d to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation d to tag gamma
+Mutation applied: true
+---------
+Applying mutation e to tag alpha
+Mutation applied: true
+---------
+Applying mutation e to tag delta
+Mutation applied: false
+Error: Target element has no child nodes
+---------
+Applying mutation e to tag beta
+Mutation applied: false
+Error: Target element text content is empty
+---------
+Applying mutation e to tag gamma
+Mutation applied: true
+---------
+Applying mutation f to tag alpha
+Mutation applied: true
+---------
+Applying mutation f to tag delta
+Mutation applied: true
+---------
+Applying mutation f to tag beta
+Mutation applied: true
+---------
+Applying mutation f to tag gamma
+Mutation applied: true
+---------
+Applying mutation g to tag alpha
+Mutation applied: true
+---------
+Applying mutation g to tag delta
+Mutation applied: true
+---------
+Applying mutation g to tag beta
+Mutation applied: true
+---------
+Applying mutation g to tag gamma
+Mutation applied: true
+---------
+Applying mutation h to tag alpha
+Mutation applied: true
+---------
+Applying mutation h to tag delta
+Mutation applied: true
+---------
+Applying mutation h to tag beta
+Mutation applied: true
+---------
+Applying mutation h to tag gamma
+Mutation applied: true
+---------
+Applying mutation i to tag alpha
+Mutation applied: true
+---------
+Applying mutation i to tag delta
+Mutation applied: true
+---------
+Applying mutation i to tag beta
+Mutation applied: true
+---------
+Applying mutation i to tag gamma
+Mutation applied: true
+---------
+Applying mutation j to tag alpha
+Mutation applied: true
+---------
+Applying mutation j to tag delta
+Mutation applied: true
+---------
+Applying mutation j to tag beta
+Mutation applied: true
+---------
+Applying mutation j to tag gamma
+Mutation applied: true
+---------
+Applying mutation k to tag alpha
+Mutation applied: true
+---------
+Applying mutation k to tag delta
+Mutation applied: true
+---------
+Applying mutation k to tag beta
+Mutation applied: true
+---------
+Applying mutation k to tag gamma
+Mutation applied: true
+---------
+================================
+File saved: output\mutations\mutations.csv

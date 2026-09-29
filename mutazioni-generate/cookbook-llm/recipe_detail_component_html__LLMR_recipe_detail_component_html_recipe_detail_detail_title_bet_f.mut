@@ -1,0 +1,93 @@
+#mutation-id: LLMR_recipe_detail_component_html_recipe_detail_detail_title_bet_f
+#element: recipe_detail_component_html
+#name: f
+#type: LLM_ROLE
+#status: HELD
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\cookbook\src\app\recipe-detail\recipe-detail.component.html #########
+@if (store.selected(); as recipe) {
+  <article class="detail-page" [attr.data-recipe-id]="recipe.id" [attr.data-course]="recipe.course">
+    <header class="detail-head">
+      
+      <p class="detail-byline">
+        <span class="detail-author" x-test-detail-author>{{ recipe.author }}</span>
+        <span class="detail-rating">★ {{ recipe.rating }}</span>
+      </p><div class="detail-title-row">
+        <h1 class="detail-title" x-test-detail-title>{{ recipe.title }}</h1>
+        <span class="detail-course">{{ recipe.course }}</span>
+      </div>
+    </header>
+
+    <div class="detail-grid">
+      <app-panel heading="Ingredients" note="quantities follow the servings">
+        <div class="servings-box">
+          <label class="servings-field" for="servings-input">
+            <span class="field-label">Servings</span>
+            <input id="servings-input" class="input servings-input" type="number" min="1" max="24" [value]="store.servingsShown()" (change)="onServings($event)" x-test-servings>
+            <small class="servings-hint">recipe default: {{ recipe.servings }}</small>
+          </label>
+        </div>
+        <ul class="ingredient-list" aria-label="Ingredients">
+          @for (ingredient of recipe.ingredients; track ingredient.id) {
+            <li class="ingredient-slot">
+              <app-ingredient-row [ingredient]="ingredient"></app-ingredient-row>
+            </li>
+          }
+        </ul>
+      </app-panel>
+
+      <app-panel heading="Method" note="step by step">
+        <ol class="step-list" aria-label="Method">
+          @for (step of recipe.steps; track step.n) {
+            <li class="step-slot">
+              <app-step-item [step]="step"></app-step-item>
+            </li>
+          }
+        </ol>
+      </app-panel>
+
+      <app-panel heading="Nutrition" note="per serving">
+        <dl class="nutrition-grid">
+          <div class="nutri-row" data-nutrient="kcal">
+            <dt class="nutri-key">Energy</dt>
+            <dd class="nutri-val" x-test-kcal>{{ recipe.nutrition.kcal }}</dd>
+            <dd class="nutri-unit">kcal</dd>
+          </div>
+          <div class="nutri-row" data-nutrient="protein">
+            <dt class="nutri-key">Protein</dt>
+            <dd class="nutri-val" x-test-protein>{{ recipe.nutrition.protein }}</dd>
+            <dd class="nutri-unit">g</dd>
+          </div>
+          <div class="nutri-row" data-nutrient="carbs">
+            <dt class="nutri-key">Carbohydrates</dt>
+            <dd class="nutri-val">{{ recipe.nutrition.carbs }}</dd>
+            <dd class="nutri-unit">g</dd>
+          </div>
+          <div class="nutri-row" data-nutrient="fat">
+            <dt class="nutri-key">Fat</dt>
+            <dd class="nutri-val">{{ recipe.nutrition.fat }}</dd>
+            <dd class="nutri-unit">g</dd>
+          </div>
+        </dl>
+      </app-panel>
+    </div>
+
+    <footer class="detail-actions">
+      <div class="action-group">
+        <button type="button" class="btn btn-primary" (click)="store.addToShopping(recipe.id)" x-test-add-shopping>Add to shopping list</button>
+        <span class="action-note">{{ store.servingsShown() }} servings</span>
+      </div>
+      <div class="action-group">
+        <a class="btn" [routerLink]="['/recipe', recipe.id, 'edit']">Edit</a>
+        <button type="button" class="btn btn-danger" (click)="deleteAndGoBack(recipe.id)" x-test-delete>Delete recipe</button>
+      </div>
+    </footer>
+  </article>
+} @else {
+  <div class="not-found-page">
+    <div class="not-found-box">
+      <p class="nf-text" x-test-not-found>Recipe not found</p>
+      <a class="btn btn-primary nf-back" routerLink="/">Back to recipes</a>
+    </div>
+  </div>
+}
+######### END FILE #########

@@ -1,0 +1,64 @@
+ 
+############ AVVIO DA avvia_cookbook.bat 21/09/2026 21:39:24.87 - campagne 1 2 ############ 
+[2026-09-21 21:39:25] PREFLIGHT: tutto a posto
+[2026-09-21 21:39:25] COOKBOOK — campagne da eseguire: [1, 2]
+[2026-09-21 21:39:25] PC e schermo tenuti svegli fino a fine run
+[2026-09-21 21:39:25] ===== CAMPAGNA 1/2 — CookBook linguistica — avvio =====
+[21:39:26] [llm] da eseguire: s1s2=425, s3=435, s4=351, s5=218, s6=500
+[21:40:38] [llm] pre-riscaldamento dev server: pronto in 67 s
+[21:40:38] [llm] GROUP s1s2: 425 mutanti | classi nella td=14
+[00:32:40] [llm] GROUP s1s2 giro 1: 425 eseguiti, 425 accettati, nessun inceppamento
+[00:32:40] [llm] GROUP s1s2: done in 10394s -> batches-s1s2.csv | giri 1, inneschi 0, abbandonati 0
+[00:32:40] [llm] GROUP s3: 435 mutanti | classi nella td=7
+[03:04:42] [llm] GROUP s3 giro 1: 435 eseguiti, 435 accettati, nessun inceppamento
+[03:04:42] [llm] GROUP s3: done in 9121s -> batches-s3.csv | giri 1, inneschi 0, abbandonati 0
+[03:04:42] [llm] GROUP s4: 351 mutanti | classi nella td=7
+[04:28:03] [llm] GROUP s4 giro 1: 351 eseguiti, 351 accettati, nessun inceppamento
+[04:28:04] [llm] GROUP s4: done in 5001s -> batches-s4.csv | giri 1, inneschi 0, abbandonati 0
+[04:28:04] [llm] GROUP s5: 218 mutanti | classi nella td=7
+[05:24:38] [llm] GROUP s5 giro 1: 218 eseguiti, 218 accettati, nessun inceppamento
+[05:24:38] [llm] GROUP s5: done in 3394s -> batches-s5.csv | giri 1, inneschi 0, abbandonati 0
+[05:24:38] [llm] GROUP s6: 500 mutanti | classi nella td=7
+[08:11:49] [llm] GROUP s6 giro 1: 500 eseguiti, 500 accettati, nessun inceppamento
+[08:11:50] [llm] GROUP s6: done in 10031s -> batches-s6.csv | giri 1, inneschi 0, abbandonati 0
+[08:11:50] [llm] TUTTI I GRUPPI DONE in 37943s | template ripristinati a fine run
+[2026-09-22 08:11:50] ===== CAMPAGNA 1/2 — CookBook linguistica — COMPLETATA in 10h32m =====
+[2026-09-22 08:11:50] ===== CAMPAGNA 2/2 — CookBook statica — avvio =====
+[08:11:50] [static] da eseguire: s1s2=341, s3=371, s4=263, s5=141, s6=387
+[08:12:25] [static] pre-riscaldamento dev server: pronto in 30 s
+[08:12:25] [static] GROUP s1s2: 341 mutanti | classi nella td=14
+[2026-09-22 08:17:40] ===== CAMPAGNA 2/2 — CookBook statica — INTERROTTA (exit 3221225786) dopo 0h05m =====
+[2026-09-22 08:17:40] COOKBOOK finito in 10h38m
+[2026-09-22 08:17:40] INCOMPLETE, da rilanciare: 2 (CookBook statica)
+ 
+############ AVVIO DA avvia_cookbook.bat 22/09/2026  9:31:43.42 - campagne 1 2 ############ 
+[2026-09-22 09:31:43] PREFLIGHT: tutto a posto
+[2026-09-22 09:31:43] COOKBOOK — campagne da eseguire: [1, 2]
+[2026-09-22 09:31:43] PC e schermo tenuti svegli fino a fine run
+[2026-09-22 09:31:43] ===== CAMPAGNA 1/2 — CookBook linguistica — avvio =====
+[09:31:44] [llm] RIPRESA: gruppi gia' completi e verificati: ['s1s2', 's3', 's4', 's5', 's6']
+[09:31:44] [llm] da eseguire: 
+[09:31:44] [llm] niente da fare: tutti i gruppi sono completi e verificati.
+[2026-09-22 09:31:44] ===== CAMPAGNA 1/2 — CookBook linguistica — COMPLETATA in 0h00m =====
+[2026-09-22 09:31:44] ===== CAMPAGNA 2/2 — CookBook statica — avvio =====
+[09:31:45] [static] da eseguire: s1s2=341, s3=371, s4=263, s5=141, s6=387
+[09:32:15] [static] pre-riscaldamento dev server: pronto in 26 s
+[09:32:15] [static] GROUP s1s2: 341 mutanti | classi nella td=14
+[12:03:35] [static] GROUP s1s2 giro 1: 341 eseguiti, 341 accettati, nessun inceppamento
+[12:03:35] [static] GROUP s1s2: done in 9110s -> batches-s1s2.csv | giri 1, inneschi 0, abbandonati 0
+[12:03:35] [static] GROUP s3: 371 mutanti | classi nella td=7
+[13:58:55] [static] GROUP s3 giro 1: 371 eseguiti, 371 accettati, nessun inceppamento
+[13:58:55] [static] GROUP s3: done in 6920s -> batches-s3.csv | giri 1, inneschi 0, abbandonati 0
+[13:58:55] [static] GROUP s4: 263 mutanti | classi nella td=7
+[15:07:10] [static] GROUP s4 giro 1: 263 eseguiti, 263 accettati, nessun inceppamento
+[15:07:10] [static] GROUP s4: done in 4095s -> batches-s4.csv | giri 1, inneschi 0, abbandonati 0
+[15:07:10] [static] GROUP s5: 141 mutanti | classi nella td=7
+[15:44:25] [static] GROUP s5 giro 1: 141 eseguiti, 141 accettati, nessun inceppamento
+[15:44:25] [static] GROUP s5: done in 2234s -> batches-s5.csv | giri 1, inneschi 0, abbandonati 0
+[15:44:25] [static] GROUP s6: 387 mutanti | classi nella td=7
+[17:41:58] [static] GROUP s6 giro 1: 387 eseguiti, 387 accettati, nessun inceppamento
+[17:41:58] [static] GROUP s6: done in 7053s -> batches-s6.csv | giri 1, inneschi 0, abbandonati 0
+[17:41:58] [static] TUTTI I GRUPPI DONE in 29413s | template ripristinati a fine run
+[2026-09-22 17:41:58] ===== CAMPAGNA 2/2 — CookBook statica — COMPLETATA in 8h10m =====
+[2026-09-22 17:41:58] COOKBOOK finito in 8h10m
+[2026-09-22 17:41:58] tutte le campagne complete.

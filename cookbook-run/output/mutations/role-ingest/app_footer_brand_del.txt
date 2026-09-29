@@ -1,0 +1,26 @@
+######### START 1 - a #########
+<span class="footer-sep-alt">·</span>
+######### END 1 - a #########
+######### START 2 - b #########
+<span>·</span>
+######### END 2 - b #########
+######### START 3 - c #########
+<span data-sep="footer-sep">·</span>
+######### END 3 - c #########
+######### START 4 - d #########
+<span class="footer-sep">|</span>
+######### END 4 - d #########
+######### START 5 - e #########
+<span class="footer-sep"> </span>
+######### END 5 - e #########
+######### START 6 - i #########
+·
+######### END 6 - i #########
+######### START 7 - j #########
+<small class="footer-sep">·</small>
+######### END 7 - j #########
+######### START 8 - k #########
+<span>
+  <span class="footer-sep">·</span>
+</span>
+######### END 8 - k #########

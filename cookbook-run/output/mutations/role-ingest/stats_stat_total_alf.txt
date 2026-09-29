@@ -1,0 +1,23 @@
+######### START 1 - a #########
+<span class="stat-value-alt" x-test-stat-total>{{ store.totalRecipes() }}</span>
+######### END 1 - a #########
+######### START 2 - b #########
+<span x-test-stat-total>{{ store.totalRecipes() }}</span>
+######### END 2 - b #########
+######### START 3 - c #########
+<span data-value="stat-value" x-test-stat-total>{{ store.totalRecipes() }}</span>
+######### END 3 - c #########
+######### START 4 - d #########
+<span class="stat-value" x-test-stat-total>0</span>
+######### END 4 - d #########
+######### START 5 - e #########
+<span class="stat-value" x-test-stat-total> </span>
+######### END 5 - e #########
+######### START 6 - j #########
+<strong class="stat-value" x-test-stat-total>{{ store.totalRecipes() }}</strong>
+######### END 6 - j #########
+######### START 7 - k #########
+<span>
+  <span class="stat-value" x-test-stat-total>{{ store.totalRecipes() }}</span>
+</span>
+######### END 7 - k #########

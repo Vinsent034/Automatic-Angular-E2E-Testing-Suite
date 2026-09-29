@@ -1,0 +1,36 @@
+######### START 1 - a #########
+<a class="brand-link-alt" routerLink="/">
+        <span class="brand-mark" aria-hidden="true">◆</span>
+        <span class="brand-name" x-test-brand-name>CookBook</span>
+      </a>
+######### END 1 - a #########
+######### START 2 - b #########
+<a routerLink="/">
+        <span class="brand-mark" aria-hidden="true">◆</span>
+        <span class="brand-name" x-test-brand-name>CookBook</span>
+      </a>
+######### END 2 - b #########
+######### START 3 - c #########
+<a data-link="brand-link" routerLink="/">
+        <span class="brand-mark" aria-hidden="true">◆</span>
+        <span class="brand-name" x-test-brand-name>CookBook</span>
+      </a>
+######### END 3 - c #########
+######### START 4 - i #########
+<span class="brand-mark" aria-hidden="true">◆</span>
+        <span class="brand-name" x-test-brand-name>CookBook</span>
+######### END 4 - i #########
+######### START 5 - j #########
+<div class="brand-link" routerLink="/">
+        <span class="brand-mark" aria-hidden="true">◆</span>
+        <span class="brand-name" x-test-brand-name>CookBook</span>
+      </div>
+######### END 5 - j #########
+######### START 6 - k #########
+<div>
+  <a class="brand-link" routerLink="/">
+        <span class="brand-mark" aria-hidden="true">◆</span>
+        <span class="brand-name" x-test-brand-name>CookBook</span>
+      </a>
+</div>
+######### END 6 - k #########

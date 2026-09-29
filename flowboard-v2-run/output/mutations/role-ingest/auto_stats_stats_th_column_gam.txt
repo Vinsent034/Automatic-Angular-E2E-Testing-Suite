@@ -1,0 +1,33 @@
+######### START 1 - i #########
+<tr>
+            <th class="col-id" x-test-stats-th-id>Id</th>
+            <th class="col-title" x-test-stats-th-title>Title</th>
+            <th class="col-priority" x-test-stats-th-priority>Priority</th>
+            <th class="col-assignee" x-test-stats-th-assignee>Assignee</th>
+            <th class="col-column" x-test-stats-th-column>Column</th>
+          </tr>
+######### END 1 - i #########
+######### START 1 - j #########
+<div>
+          <tr>
+            <th class="col-id" x-test-stats-th-id>Id</th>
+            <th class="col-title" x-test-stats-th-title>Title</th>
+            <th class="col-priority" x-test-stats-th-priority>Priority</th>
+            <th class="col-assignee" x-test-stats-th-assignee>Assignee</th>
+            <th class="col-column" x-test-stats-th-column>Column</th>
+          </tr>
+        </div>
+######### END 1 - j #########
+######### START 1 - k #########
+<div class="thead-wrap">
+  <thead>
+          <tr>
+            <th class="col-id" x-test-stats-th-id>Id</th>
+            <th class="col-title" x-test-stats-th-title>Title</th>
+            <th class="col-priority" x-test-stats-th-priority>Priority</th>
+            <th class="col-assignee" x-test-stats-th-assignee>Assignee</th>
+            <th class="col-column" x-test-stats-th-column>Column</th>
+          </tr>
+        </thead>
+</div>
+######### END 1 - k #########

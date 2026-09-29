@@ -1,0 +1,17 @@
+######### START 1 - a #########
+<input id="field-assignee" name="assignee" class="input form-assignee-field" type="text" placeholder="Who works on it" [(ngModel)]="assignee" x-test-form-assignee>
+######### END 1 - a #########
+######### START 1 - b #########
+<input id="field-assignee" name="assignee" class="input form-assignee" type="text" [(ngModel)]="assignee" x-test-form-assignee>
+######### END 1 - b #########
+######### START 1 - c #########
+<input id="field-assignee" name="assignee" data-class="input form-assignee" type="text" placeholder="Who works on it" [(ngModel)]="assignee" x-test-form-assignee>
+######### END 1 - c #########
+######### START 1 - j #########
+<textarea id="field-assignee" name="assignee" class="input form-assignee" type="text" placeholder="Who works on it" [(ngModel)]="assignee" x-test-form-assignee></textarea>
+######### END 1 - j #########
+######### START 1 - k #########
+<div class="input-wrap">
+  <input id="field-assignee" name="assignee" class="input form-assignee" type="text" placeholder="Who works on it" [(ngModel)]="assignee" x-test-form-assignee>
+</div>
+######### END 1 - k #########

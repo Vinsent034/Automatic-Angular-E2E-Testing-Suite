@@ -1,0 +1,28 @@
+#mutation-id: h
+#element: gamma
+#name: toast-toast-message
+#type: tag_mov_temp_mut
+#status: COMPLETE
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\cookbook\src\app\toast\toast.component.html #########
+@if (store.toast() !== '') {
+  
+}
+######### END FILE #########
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\cookbook\src\app\panel\panel.component.html #########
+<section class="panel">
+ <div class="toast-bar" role="status" aria-live="polite">
+  <div class="toast-box">
+   <span class="toast-icon" aria-hidden="true">i</span>
+   <p class="toast-message" x-test-toast-message>{{ store.toast() }}</p>
+   <button type="button" class="toast-close" aria-label="Dismiss message" (click)="store.toast.set('')">×</button>
+  </div>
+ </div>
+ <header class="panel-head">
+  <h2 class="panel-heading">{{ heading() }}</h2>
+  <span class="panel-note">{{ note() }}</span>
+ </header>
+ <div class="panel-body">
+  <ng-content></ng-content>
+ </div>
+</section>
+######### END FILE #########

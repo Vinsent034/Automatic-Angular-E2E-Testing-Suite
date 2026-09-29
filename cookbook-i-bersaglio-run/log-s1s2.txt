@@ -1,0 +1,282 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.sqlite.SQLiteJDBCLoader in an unnamed module (file:/C:/Users/vince/OneDrive/Desktop/Universit%c3%a0/Tirocinio/progetto/Automatic-Angular-E2E-Testing-Suite/mutation-tester/target/mutation-tester-1.0.0-jar-with-dependencies.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+Loaded abstract class: CookBookBaseTest
+Loaded class: AbsoluteXPathTest
+Loaded class: HookXPathTest
+Loaded class: KatalonXPathTest
+Loaded class: RelativeXPathTest
+Loaded class: RobulaPlusXPathTest
+Loaded class: RobulaXPathTest
+Loaded class: SeleniumXPathTest
+Loaded class: AbsoluteXPathTest
+Loaded class: HookXPathTest
+Loaded class: KatalonXPathTest
+Loaded class: RelativeXPathTest
+Loaded class: RobulaPlusXPathTest
+Loaded class: RobulaXPathTest
+Loaded class: SeleniumXPathTest
+Loaded factory class: WebDriverFactory
+Found 14 classes to execute.
+Found 4 mutations to apply.
+Starting TypeScript application (npm start)...
+TypeScript application started.
+
+4 out of 4 remaining.
+Mutation mutation_LLMR_recipe_card_component_html_recipe_card_card_title_alf_i_LLM_ROLE_recipe_card_component_html applied. Waiting for recompile...
+Timeout: typescript application did not recompile in time.
+Application did not recompile.
+Skipping test AbsoluteXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test HookXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test KatalonXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RelativeXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaPlusXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test SeleniumXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test AbsoluteXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test HookXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test KatalonXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RelativeXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaPlusXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test RobulaXPathTest: Application did not recompile.
+---------------------------------------------
+Skipping test SeleniumXPathTest: Application did not recompile.
+---------------------------------------------
+
+3 out of 4 remaining.
+Mutation mutation_LLMR_recipe_card_component_html_recipe_card_card_alf_i_LLM_ROLE_recipe_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Sept 27, 2026 9:03:16 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+AVVERTENZA: Unable to find CDP implementation matching 153
+Sept 27, 2026 9:03:16 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+AVVERTENZA: Unable to find version of CDP to use for 153.0.8010.53. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[WebDriverFactory] DevTools/sentry-block saltato: You are using a no-op implementation of the CDP. The most likely reason for this is that Selenium was unable to find an implementation of the CDP protocol that matches your browser. Please be sure to include an implementation on the classpath, possibly by adding a new (maven) dependency of `org.seleniumhq.selenium:selenium-devtools-vNN:4.27.0` where `NN` matches the major version of the browser you're using.
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.2'
+Driver info: DevTools Connection
+Test ended: AbsoluteXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-recipe-list[1]/section[1]/div[4]/ul[1]/li[1]/app-recipe-card[1]/article[1]/div[1]/div[1]/header[1]/div[1]/a[1]/h2[1]"}
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-card='2']"}
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//div[@class='card-inner']"}
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@class='card-inner']"}
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [FAILED] no such element: Unable to locate element: {"method":"xpath" "selector":"//div[@class='card-inner']"}
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [FAILED] no such element: Unable to locate element: {"method":"css selector" "selector":".card-inner"}
+---------------------------------------------
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+2 out of 4 remaining.
+Mutation mutation_LLMR_recipe_card_component_html_recipe_card_card_time_alf_i_LLM_ROLE_recipe_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+
+1 out of 4 remaining.
+Mutation mutation_LLMR_recipe_card_component_html_recipe_card_card_fav_alf_i_LLM_ROLE_recipe_card_component_html applied. Waiting for recompile...
+Application recompiled successfully.
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: AbsoluteXPathTest
+Test ended: AbsoluteXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: HookXPathTest
+Test ended: HookXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: KatalonXPathTest
+Test ended: KatalonXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RelativeXPathTest
+Test ended: RelativeXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaPlusXPathTest
+Test ended: RobulaPlusXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: RobulaXPathTest
+Test ended: RobulaXPathTest [PASSED] null
+---------------------------------------------
+Starting test for: SeleniumXPathTest
+Test ended: SeleniumXPathTest [PASSED] null
+---------------------------------------------
+Executed batches:
+Name,Id,Locator,Tag,Status,Error
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_title_alf_i_LLM_ROLE_recipe_card_component_html,AbsoluteXPathTest,recipe_card_component_html,NOT_APPLICABLE,Application did not recompile.
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_title_alf_i_LLM_ROLE_recipe_card_component_html,HookXPathTest,recipe_card_component_html,NOT_APPLICABLE,Application did not recompile.
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_title_alf_i_LLM_ROLE_recipe_card_component_html,KatalonXPathTest,recipe_card_component_html,NOT_APPLICABLE,Application did not recompile.
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_title_alf_i_LLM_ROLE_recipe_card_component_html,RelativeXPathTest,recipe_card_component_html,NOT_APPLICABLE,Application did not recompile.
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_title_alf_i_LLM_ROLE_recipe_card_component_html,RobulaPlusXPathTest,recipe_card_component_html,NOT_APPLICABLE,Application did not recompile.
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_title_alf_i_LLM_ROLE_recipe_card_component_html,RobulaXPathTest,recipe_card_component_html,NOT_APPLICABLE,Application did not recompile.
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_title_alf_i_LLM_ROLE_recipe_card_component_html,SeleniumXPathTest,recipe_card_component_html,NOT_APPLICABLE,Application did not recompile.
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_title_alf_i_LLM_ROLE_recipe_card_component_html,AbsoluteXPathTest,recipe_card_component_html,NOT_APPLICABLE,Application did not recompile.
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_title_alf_i_LLM_ROLE_recipe_card_component_html,HookXPathTest,recipe_card_component_html,NOT_APPLICABLE,Application did not recompile.
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_title_alf_i_LLM_ROLE_recipe_card_component_html,KatalonXPathTest,recipe_card_component_html,NOT_APPLICABLE,Application did not recompile.
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_title_alf_i_LLM_ROLE_recipe_card_component_html,RelativeXPathTest,recipe_card_component_html,NOT_APPLICABLE,Application did not recompile.
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_title_alf_i_LLM_ROLE_recipe_card_component_html,RobulaPlusXPathTest,recipe_card_component_html,NOT_APPLICABLE,Application did not recompile.
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_title_alf_i_LLM_ROLE_recipe_card_component_html,RobulaXPathTest,recipe_card_component_html,NOT_APPLICABLE,Application did not recompile.
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_title_alf_i_LLM_ROLE_recipe_card_component_html,SeleniumXPathTest,recipe_card_component_html,NOT_APPLICABLE,Application did not recompile.
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_alf_i_LLM_ROLE_recipe_card_component_html,AbsoluteXPathTest,recipe_card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-recipe-list[1]/section[1]/div[4]/ul[1]/li[1]/app-recipe-card[1]/article[1]/div[1]/div[1]/header[1]/div[1]/a[1]/h2[1]"}
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_alf_i_LLM_ROLE_recipe_card_component_html,HookXPathTest,recipe_card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-card='2']"}
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_alf_i_LLM_ROLE_recipe_card_component_html,KatalonXPathTest,recipe_card_component_html,PASSED,null
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_alf_i_LLM_ROLE_recipe_card_component_html,RelativeXPathTest,recipe_card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[@class='card-inner']"}
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_alf_i_LLM_ROLE_recipe_card_component_html,RobulaPlusXPathTest,recipe_card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@class='card-inner']"}
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_alf_i_LLM_ROLE_recipe_card_component_html,RobulaXPathTest,recipe_card_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[@class='card-inner']"}
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_alf_i_LLM_ROLE_recipe_card_component_html,SeleniumXPathTest,recipe_card_component_html,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".card-inner"}
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_alf_i_LLM_ROLE_recipe_card_component_html,AbsoluteXPathTest,recipe_card_component_html,PASSED,null
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_alf_i_LLM_ROLE_recipe_card_component_html,HookXPathTest,recipe_card_component_html,PASSED,null
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_alf_i_LLM_ROLE_recipe_card_component_html,KatalonXPathTest,recipe_card_component_html,PASSED,null
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_alf_i_LLM_ROLE_recipe_card_component_html,RelativeXPathTest,recipe_card_component_html,PASSED,null
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_alf_i_LLM_ROLE_recipe_card_component_html,RobulaPlusXPathTest,recipe_card_component_html,PASSED,null
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_alf_i_LLM_ROLE_recipe_card_component_html,RobulaXPathTest,recipe_card_component_html,PASSED,null
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_alf_i_LLM_ROLE_recipe_card_component_html,SeleniumXPathTest,recipe_card_component_html,PASSED,null
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_time_alf_i_LLM_ROLE_recipe_card_component_html,AbsoluteXPathTest,recipe_card_component_html,PASSED,null
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_time_alf_i_LLM_ROLE_recipe_card_component_html,HookXPathTest,recipe_card_component_html,PASSED,null
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_time_alf_i_LLM_ROLE_recipe_card_component_html,KatalonXPathTest,recipe_card_component_html,PASSED,null
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_time_alf_i_LLM_ROLE_recipe_card_component_html,RelativeXPathTest,recipe_card_component_html,PASSED,null
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_time_alf_i_LLM_ROLE_recipe_card_component_html,RobulaPlusXPathTest,recipe_card_component_html,PASSED,null
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_time_alf_i_LLM_ROLE_recipe_card_component_html,RobulaXPathTest,recipe_card_component_html,PASSED,null
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_time_alf_i_LLM_ROLE_recipe_card_component_html,SeleniumXPathTest,recipe_card_component_html,PASSED,null
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_time_alf_i_LLM_ROLE_recipe_card_component_html,AbsoluteXPathTest,recipe_card_component_html,PASSED,null
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_time_alf_i_LLM_ROLE_recipe_card_component_html,HookXPathTest,recipe_card_component_html,PASSED,null
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_time_alf_i_LLM_ROLE_recipe_card_component_html,KatalonXPathTest,recipe_card_component_html,PASSED,null
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_time_alf_i_LLM_ROLE_recipe_card_component_html,RelativeXPathTest,recipe_card_component_html,PASSED,null
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_time_alf_i_LLM_ROLE_recipe_card_component_html,RobulaPlusXPathTest,recipe_card_component_html,PASSED,null
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_time_alf_i_LLM_ROLE_recipe_card_component_html,RobulaXPathTest,recipe_card_component_html,PASSED,null
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_time_alf_i_LLM_ROLE_recipe_card_component_html,SeleniumXPathTest,recipe_card_component_html,PASSED,null
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_fav_alf_i_LLM_ROLE_recipe_card_component_html,AbsoluteXPathTest,recipe_card_component_html,PASSED,null
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_fav_alf_i_LLM_ROLE_recipe_card_component_html,HookXPathTest,recipe_card_component_html,PASSED,null
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_fav_alf_i_LLM_ROLE_recipe_card_component_html,KatalonXPathTest,recipe_card_component_html,PASSED,null
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_fav_alf_i_LLM_ROLE_recipe_card_component_html,RelativeXPathTest,recipe_card_component_html,PASSED,null
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_fav_alf_i_LLM_ROLE_recipe_card_component_html,RobulaPlusXPathTest,recipe_card_component_html,PASSED,null
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_fav_alf_i_LLM_ROLE_recipe_card_component_html,RobulaXPathTest,recipe_card_component_html,PASSED,null
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_fav_alf_i_LLM_ROLE_recipe_card_component_html,SeleniumXPathTest,recipe_card_component_html,PASSED,null
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_fav_alf_i_LLM_ROLE_recipe_card_component_html,AbsoluteXPathTest,recipe_card_component_html,PASSED,null
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_fav_alf_i_LLM_ROLE_recipe_card_component_html,HookXPathTest,recipe_card_component_html,PASSED,null
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_fav_alf_i_LLM_ROLE_recipe_card_component_html,KatalonXPathTest,recipe_card_component_html,PASSED,null
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_fav_alf_i_LLM_ROLE_recipe_card_component_html,RelativeXPathTest,recipe_card_component_html,PASSED,null
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_fav_alf_i_LLM_ROLE_recipe_card_component_html,RobulaPlusXPathTest,recipe_card_component_html,PASSED,null
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_fav_alf_i_LLM_ROLE_recipe_card_component_html,RobulaXPathTest,recipe_card_component_html,PASSED,null
+i,mutation_LLMR_recipe_card_component_html_recipe_card_card_fav_alf_i_LLM_ROLE_recipe_card_component_html,SeleniumXPathTest,recipe_card_component_html,PASSED,null
+
+
+Test results:
+Locator,Total,Success,Fragility,Obsolescence,Not Compiled
+RelativeXPathTest,8,5,1,0,2
+AbsoluteXPathTest,8,5,1,0,2
+RobulaXPathTest,8,5,1,0,2
+KatalonXPathTest,8,6,0,0,2
+SeleniumXPathTest,8,5,1,0,2
+RobulaPlusXPathTest,8,5,1,0,2
+HookXPathTest,8,5,1,0,2
+
+File saved: output\tests\batches.csv
+File saved: output\tests\stats.csv
+
+Tests completed.
+Execution time: 111 seconds.

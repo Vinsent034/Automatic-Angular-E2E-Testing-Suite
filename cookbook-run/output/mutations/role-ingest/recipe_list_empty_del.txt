@@ -1,0 +1,26 @@
+######### START 1 - a #########
+<p class="empty-hint-alt">Try another search or course</p>
+######### END 1 - a #########
+######### START 2 - b #########
+<p>Try another search or course</p>
+######### END 2 - b #########
+######### START 3 - c #########
+<p data-hint="empty-hint">Try another search or course</p>
+######### END 3 - c #########
+######### START 4 - d #########
+<p class="empty-hint">Change your search or course</p>
+######### END 4 - d #########
+######### START 5 - e #########
+<p class="empty-hint"> </p>
+######### END 5 - e #########
+######### START 6 - i #########
+Try another search or course
+######### END 6 - i #########
+######### START 7 - j #########
+<span class="empty-hint">Try another search or course</span>
+######### END 7 - j #########
+######### START 8 - k #########
+<div>
+  <p class="empty-hint">Try another search or course</p>
+</div>
+######### END 8 - k #########

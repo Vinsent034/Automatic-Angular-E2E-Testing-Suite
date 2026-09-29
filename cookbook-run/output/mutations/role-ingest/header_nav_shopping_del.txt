@@ -1,0 +1,26 @@
+######### START 1 - a #########
+<span class="nav-badge-alt" data-kind="shopping">{{ store.shoppingOpenCount() }}</span>
+######### END 1 - a #########
+######### START 2 - b #########
+<span class="nav-badge">{{ store.shoppingOpenCount() }}</span>
+######### END 2 - b #########
+######### START 3 - c #########
+<span data-badge="nav-badge" data-kind="shopping">{{ store.shoppingOpenCount() }}</span>
+######### END 3 - c #########
+######### START 4 - d #########
+<span class="nav-badge" data-kind="shopping">0</span>
+######### END 4 - d #########
+######### START 5 - e #########
+<span class="nav-badge" data-kind="shopping"> </span>
+######### END 5 - e #########
+######### START 6 - i #########
+{{ store.shoppingOpenCount() }}
+######### END 6 - i #########
+######### START 7 - j #########
+<div class="nav-badge" data-kind="shopping">{{ store.shoppingOpenCount() }}</div>
+######### END 7 - j #########
+######### START 8 - k #########
+<span>
+  <span class="nav-badge" data-kind="shopping">{{ store.shoppingOpenCount() }}</span>
+</span>
+######### END 8 - k #########

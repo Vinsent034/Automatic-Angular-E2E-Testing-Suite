@@ -1,0 +1,16 @@
+{
+  "gruppo": "s3",
+  "campagna": "llm",
+  "completo": true,
+  "mutanti": 208,
+  "accettati": 208,
+  "in_sospeso": 0,
+  "classi_per_mutante": 7,
+  "giri": 2,
+  "inneschi": [
+    "8bc5c5f6-c072-4ba6-9784-eea1e18fc8c3"
+  ],
+  "abbandonati": [],
+  "data": "2026-09-19 00:13:36",
+  "regola": "coda finale di >=2 non compilati = dev server incastrato; primo della coda valido, gli altri rieseguiti con dev server nuovo"
+}

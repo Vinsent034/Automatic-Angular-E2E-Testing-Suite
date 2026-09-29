@@ -1,0 +1,54 @@
+######### START 1 - a #########
+<tr class="stats-table-row" [attr.data-card-id]="card.id" [attr.data-priority]="card.priority" [attr.x-test-stat-row]="card.id">
+              <td class="cell-id">#{{ card.id }}</td>
+              <td class="cell-title">{{ card.title }}</td>
+              <td class="cell-priority">{{ card.priority }}</td>
+              <td class="cell-assignee">{{ card.assignee }}</td>
+              <td class="cell-column">{{ card.columnId }}</td>
+            </tr>
+######### END 1 - a #########
+######### START 1 - b #########
+<tr [attr.data-card-id]="card.id" [attr.data-priority]="card.priority" [attr.x-test-stat-row]="card.id">
+              <td class="cell-id">#{{ card.id }}</td>
+              <td class="cell-title">{{ card.title }}</td>
+              <td class="cell-priority">{{ card.priority }}</td>
+              <td class="cell-assignee">{{ card.assignee }}</td>
+              <td class="cell-column">{{ card.columnId }}</td>
+            </tr>
+######### END 1 - b #########
+######### START 1 - c #########
+<tr data-class="stats-row" [attr.data-card-id]="card.id" [attr.data-priority]="card.priority" [attr.x-test-stat-row]="card.id">
+              <td class="cell-id">#{{ card.id }}</td>
+              <td class="cell-title">{{ card.title }}</td>
+              <td class="cell-priority">{{ card.priority }}</td>
+              <td class="cell-assignee">{{ card.assignee }}</td>
+              <td class="cell-column">{{ card.columnId }}</td>
+            </tr>
+######### END 1 - c #########
+######### START 1 - i #########
+<td class="cell-id" [attr.x-test-stat-row]="card.id">#{{ card.id }}</td>
+              <td class="cell-title">{{ card.title }}</td>
+              <td class="cell-priority">{{ card.priority }}</td>
+              <td class="cell-assignee">{{ card.assignee }}</td>
+              <td class="cell-column">{{ card.columnId }}</td>
+######### END 1 - i #########
+######### START 1 - j #########
+<div class="stats-row" [attr.data-card-id]="card.id" [attr.data-priority]="card.priority" [attr.x-test-stat-row]="card.id">
+              <td class="cell-id">#{{ card.id }}</td>
+              <td class="cell-title">{{ card.title }}</td>
+              <td class="cell-priority">{{ card.priority }}</td>
+              <td class="cell-assignee">{{ card.assignee }}</td>
+              <td class="cell-column">{{ card.columnId }}</td>
+            </div>
+######### END 1 - j #########
+######### START 1 - k #########
+<div class="stat-row-wrap">
+  <tr class="stats-row" [attr.data-card-id]="card.id" [attr.data-priority]="card.priority" [attr.x-test-stat-row]="card.id">
+              <td class="cell-id">#{{ card.id }}</td>
+              <td class="cell-title">{{ card.title }}</td>
+              <td class="cell-priority">{{ card.priority }}</td>
+              <td class="cell-assignee">{{ card.assignee }}</td>
+              <td class="cell-column">{{ card.columnId }}</td>
+            </tr>
+</div>
+######### END 1 - k #########

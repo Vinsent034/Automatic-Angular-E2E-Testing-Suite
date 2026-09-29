@@ -1,0 +1,37 @@
+######### START 1 - a #########
+<select class="field-input sort-select" [value]="sort()" (change)="onSort($any($event.target).value)" x-test-sort>
+      <option value="title">Title (A–Z)</option>
+      <option value="rating">Top rated</option>
+      <option value="year">Newest</option>
+    </select>
+######### END 1 - a #########
+######### START 1 - b #########
+<select [value]="sort()" (change)="onSort($any($event.target).value)" x-test-sort>
+      <option value="title">Title (A–Z)</option>
+      <option value="rating">Top rated</option>
+      <option value="year">Newest</option>
+    </select>
+######### END 1 - b #########
+######### START 1 - c #########
+<select data-input="field-input filter-select" [value]="sort()" (change)="onSort($any($event.target).value)" x-test-sort>
+      <option value="title">Title (A–Z)</option>
+      <option value="rating">Top rated</option>
+      <option value="year">Newest</option>
+    </select>
+######### END 1 - c #########
+######### START 1 - j #########
+<div class="field-input filter-select" [value]="sort()" (change)="onSort($any($event.target).value)" x-test-sort>
+      <option value="title">Title (A–Z)</option>
+      <option value="rating">Top rated</option>
+      <option value="year">Newest</option>
+    </div>
+######### END 1 - j #########
+######### START 1 - k #########
+<div>
+<select class="field-input filter-select" [value]="sort()" (change)="onSort($any($event.target).value)" x-test-sort>
+      <option value="title">Title (A–Z)</option>
+      <option value="rating">Top rated</option>
+      <option value="year">Newest</option>
+    </select>
+</div>
+######### END 1 - k #########

@@ -1,0 +1,34 @@
+#mutation-id: h
+#element: beta
+#name: app-footer-brand
+#type: tag_mov_temp_mut
+#status: COMPLETE
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\cookbook\src\app\app.component.html #########
+<div class="app-shell">
+  <app-header></app-header>
+  <main class="app-main" role="main">
+    <router-outlet></router-outlet>
+  </main>
+  <footer class="app-footer" role="contentinfo">
+    <div class="footer-inner">
+      
+      <p class="footer-line footer-meta">
+        <span class="footer-label">Version</span>
+        <span class="footer-version" x-test-footer-version>v1.0</span>
+      </p>
+    </div>
+  </footer>
+  <app-toast></app-toast>
+</div>
+######### END FILE #########
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\cookbook\src\app\panel\panel.component.html #########
+<section class="panel">
+ <header class="panel-head">
+  <h2 class="panel-heading">{{ heading() }}</h2>
+  <span class="panel-note">{{ note() }}</span>
+ </header>
+ <div class="panel-body">
+  <ng-content></ng-content>
+ </div>
+</section>
+######### END FILE #########

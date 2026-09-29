@@ -1,0 +1,26 @@
+#mutation-id: LLMR_app_component_html_footer_brand_gam_b
+#element: app_component_html
+#name: b
+#type: LLM_ROLE
+#status: COMPLETE
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\Kanban board\src\app\app.component.html #########
+<div class="app-shell" x-test-app>
+  <app-header />
+
+  <main class="app-main" role="main" x-test-main>
+    <router-outlet />
+  </main>
+
+  <app-toast />
+
+  <footer class="app-footer" x-test-footer>
+    <div class="footer-inner">
+      <span class="footer-brand" x-test-footer-brand>FlowBoard</span>
+      <span class="footer-sep">·</span>
+      <span class="footer-note" x-test-footer-note>Deterministic demo board — data resets from a fixed seed</span>
+      <span class="footer-sep">·</span>
+      <span class="footer-version" x-test-footer-version>v1.0</span>
+    </div>
+  </footer>
+</div>
+######### END FILE #########

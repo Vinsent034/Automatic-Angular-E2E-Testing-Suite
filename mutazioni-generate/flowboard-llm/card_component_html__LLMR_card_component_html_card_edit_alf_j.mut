@@ -3,7 +3,7 @@
 #name: j
 #type: LLM_ROLE
 #status: HELD
-######### FILE C:\Users\vince\OneDrive\Desktop\App tirocinio\Kanban board\src\app\card\card.component.html #########
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\Kanban board\src\app\card\card.component.html #########
 <article class="card" [attr.data-card-id]="card().id" [attr.data-priority]="card().priority" [attr.data-column]="card().columnId" [attr.aria-label]="'Card ' + card().title" [attr.x-test-card]="card().id">
   <header class="card-top">
     <span class="card-id" [attr.x-test-card-id]="card().id">#{{ card().id }}</span>
@@ -33,7 +33,7 @@
         <option value="done">Done</option>
       </select>
     </label>
-    <span class="btn btn-small btn-ghost edit-btn" [routerLink]="['/card', card().id, 'edit']" [attr.x-test-card-edit]="card().id">Edit</span>
+    <button class="btn btn-small btn-ghost edit-btn" [routerLink]="['/card', card().id, 'edit']" [attr.x-test-card-edit]="card().id">Edit</button>
     <button class="btn btn-small btn-danger delete-btn" type="button" (click)="store.removeCard(card().id)" [attr.x-test-card-delete]="card().id">Delete</button>
   </footer>
 </article>

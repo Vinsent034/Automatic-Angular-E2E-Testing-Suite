@@ -1,0 +1,23 @@
+######### START 1 - a #########
+<a class="btn btn-primary modify-btn" [routerLink]="['/card', store.selectedCard()?.id, 'edit']" x-test-detail-edit>Edit card</a>
+######### END 1 - a #########
+######### START 1 - b #########
+<a [routerLink]="['/card', store.selectedCard()?.id, 'edit']" x-test-detail-edit>Edit card</a>
+######### END 1 - b #########
+######### START 1 - c #########
+<a data-class="btn btn-primary edit-btn" [routerLink]="['/card', store.selectedCard()?.id, 'edit']" x-test-detail-edit>Edit card</a>
+######### END 1 - c #########
+######### START 1 - d #########
+<a class="btn btn-primary edit-btn" [routerLink]="['/card', store.selectedCard()?.id, 'edit']" x-test-detail-edit>Modify</a>
+######### END 1 - d #########
+######### START 1 - e #########
+<a class="btn btn-primary edit-btn" [routerLink]="['/card', store.selectedCard()?.id, 'edit']" x-test-detail-edit> </a>
+######### END 1 - e #########
+######### START 1 - j #########
+<span class="btn btn-primary edit-btn" [routerLink]="['/card', store.selectedCard()?.id, 'edit']" x-test-detail-edit>Edit card</span>
+######### END 1 - j #########
+######### START 1 - k #########
+<div class="detail-edit-wrapper">
+  <a class="btn btn-primary edit-btn" [routerLink]="['/card', store.selectedCard()?.id, 'edit']" x-test-detail-edit>Edit card</a>
+</div>
+######### END 1 - k #########

@@ -1,0 +1,114 @@
+######### START 1 - a #########
+<div class="review-row">
+      <div class="field">
+        <label for="review-author" class="field-label">Your name</label>
+        <input id="review-author" type="text" formControlName="author" class="field-input" x-test-review-field-author>
+        @if (showError('author')) {
+          <p class="field-error" x-test-review-error-author>Name is required.</p>
+        }
+      </div>
+      <div class="field">
+        <label for="review-rating" class="field-label">Rating</label>
+        <select id="review-rating" formControlName="rating" class="field-input" x-test-review-field-rating>
+          @for (r of ratings; track r) {
+            <option [value]="r">{{ r }} ★</option>
+          }
+        </select>
+      </div>
+    </div>
+######### END 1 - a #########
+######### START 1 - b #########
+<div>
+      <div class="field">
+        <label for="review-author" class="field-label">Your name</label>
+        <input id="review-author" type="text" formControlName="author" class="field-input" x-test-review-field-author>
+        @if (showError('author')) {
+          <p class="field-error" x-test-review-error-author>Name is required.</p>
+        }
+      </div>
+      <div class="field">
+        <label for="review-rating" class="field-label">Rating</label>
+        <select id="review-rating" formControlName="rating" class="field-input" x-test-review-field-rating>
+          @for (r of ratings; track r) {
+            <option [value]="r">{{ r }} ★</option>
+          }
+        </select>
+      </div>
+    </div>
+######### END 1 - b #########
+######### START 1 - c #########
+<div data-row="review-form-row">
+      <div class="field">
+        <label for="review-author" class="field-label">Your name</label>
+        <input id="review-author" type="text" formControlName="author" class="field-input" x-test-review-field-author>
+        @if (showError('author')) {
+          <p class="field-error" x-test-review-error-author>Name is required.</p>
+        }
+      </div>
+      <div class="field">
+        <label for="review-rating" class="field-label">Rating</label>
+        <select id="review-rating" formControlName="rating" class="field-input" x-test-review-field-rating>
+          @for (r of ratings; track r) {
+            <option [value]="r">{{ r }} ★</option>
+          }
+        </select>
+      </div>
+    </div>
+######### END 1 - c #########
+######### START 1 - i #########
+<div class="field">
+        <label for="review-author" class="field-label">Your name</label>
+        <input id="review-author" type="text" formControlName="author" class="field-input" x-test-review-field-author>
+        @if (showError('author')) {
+          <p class="field-error" x-test-review-error-author>Name is required.</p>
+        }
+      </div>
+      <div class="field">
+        <label for="review-rating" class="field-label">Rating</label>
+        <select id="review-rating" formControlName="rating" class="field-input" x-test-review-field-rating>
+          @for (r of ratings; track r) {
+            <option [value]="r">{{ r }} ★</option>
+          }
+        </select>
+      </div>
+######### END 1 - i #########
+######### START 1 - j #########
+<section class="review-form-row">
+      <div class="field">
+        <label for="review-author" class="field-label">Your name</label>
+        <input id="review-author" type="text" formControlName="author" class="field-input" x-test-review-field-author>
+        @if (showError('author')) {
+          <p class="field-error" x-test-review-error-author>Name is required.</p>
+        }
+      </div>
+      <div class="field">
+        <label for="review-rating" class="field-label">Rating</label>
+        <select id="review-rating" formControlName="rating" class="field-input" x-test-review-field-rating>
+          @for (r of ratings; track r) {
+            <option [value]="r">{{ r }} ★</option>
+          }
+        </select>
+      </div>
+    </section>
+######### END 1 - j #########
+######### START 1 - k #########
+<div>
+<div class="review-form-row">
+      <div class="field">
+        <label for="review-author" class="field-label">Your name</label>
+        <input id="review-author" type="text" formControlName="author" class="field-input" x-test-review-field-author>
+        @if (showError('author')) {
+          <p class="field-error" x-test-review-error-author>Name is required.</p>
+        }
+      </div>
+      <div class="field">
+        <label for="review-rating" class="field-label">Rating</label>
+        <select id="review-rating" formControlName="rating" class="field-input" x-test-review-field-rating>
+          @for (r of ratings; track r) {
+            <option [value]="r">{{ r }} ★</option>
+          }
+        </select>
+      </div>
+    </div>
+</div>
+######### END 1 - k #########

@@ -1,0 +1,26 @@
+######### START 1 - a #########
+<small class="help-alt">comma separated</small>
+######### END 1 - a #########
+######### START 2 - b #########
+<small>comma separated</small>
+######### END 2 - b #########
+######### START 3 - c #########
+<small data-help="help">comma separated</small>
+######### END 3 - c #########
+######### START 4 - d #########
+<small class="help">separate with commas</small>
+######### END 4 - d #########
+######### START 5 - e #########
+<small class="help"> </small>
+######### END 5 - e #########
+######### START 6 - i #########
+comma separated
+######### END 6 - i #########
+######### START 7 - j #########
+<span class="help">comma separated</span>
+######### END 7 - j #########
+######### START 8 - k #########
+<span>
+  <small class="help">comma separated</small>
+</span>
+######### END 8 - k #########

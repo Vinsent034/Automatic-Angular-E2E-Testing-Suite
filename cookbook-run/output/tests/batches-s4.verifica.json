@@ -1,0 +1,14 @@
+{
+  "gruppo": "s4",
+  "campagna": "llm",
+  "completo": true,
+  "mutanti": 351,
+  "accettati": 351,
+  "in_sospeso": 0,
+  "classi_per_mutante": 7,
+  "giri": 1,
+  "inneschi": [],
+  "abbandonati": [],
+  "data": "2026-09-22 04:28:03",
+  "regola": "coda finale di >=2 non compilati = dev server incastrato; primo della coda valido, gli altri rieseguiti con dev server nuovo"
+}

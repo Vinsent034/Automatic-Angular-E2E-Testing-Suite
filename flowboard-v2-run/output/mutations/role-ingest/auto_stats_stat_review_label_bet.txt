@@ -1,0 +1,32 @@
+######### START 1 - a #########
+<div class="stat-card-box" data-stat="review" x-test-stat-review-card>
+      <span class="stat-label" x-test-stat-review-label>Review</span>
+      <span class="stat-value" x-test-stat-review>{{ store.reviewCount() }}</span>
+    </div>
+######### END 1 - a #########
+######### START 1 - b #########
+<div data-stat="review" x-test-stat-review-card>
+      <span class="stat-label" x-test-stat-review-label>Review</span>
+      <span class="stat-value" x-test-stat-review>{{ store.reviewCount() }}</span>
+    </div>
+######### END 1 - b #########
+######### START 1 - c #########
+<div data-class="stat-card" data-stat="review" x-test-stat-review-card>
+      <span class="stat-label" x-test-stat-review-label>Review</span>
+      <span class="stat-value" x-test-stat-review>{{ store.reviewCount() }}</span>
+    </div>
+######### END 1 - c #########
+######### START 1 - j #########
+<section class="stat-card" data-stat="review" x-test-stat-review-card>
+      <span class="stat-label" x-test-stat-review-label>Review</span>
+      <span class="stat-value" x-test-stat-review>{{ store.reviewCount() }}</span>
+    </section>
+######### END 1 - j #########
+######### START 1 - k #########
+<div class="stat-card-wrap">
+  <div class="stat-card" data-stat="review" x-test-stat-review-card>
+      <span class="stat-label" x-test-stat-review-label>Review</span>
+      <span class="stat-value" x-test-stat-review>{{ store.reviewCount() }}</span>
+    </div>
+</div>
+######### END 1 - k #########

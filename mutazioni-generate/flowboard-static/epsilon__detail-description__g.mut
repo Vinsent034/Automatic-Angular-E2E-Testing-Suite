@@ -1,0 +1,46 @@
+#mutation-id: g
+#element: epsilon
+#name: detail-description
+#type: tag_mov_html_mut
+#status: COMPLETE
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\Kanban board\src\app\card-detail\card-detail.component.html #########
+<section class="detail-page" x-test-card-detail>
+  <div class="page-heading" x-test-detail-heading>
+    <h2 class="page-title" x-test-detail-page-title>Card detail</h2>
+    <a class="btn btn-ghost back-btn" routerLink="/" x-test-detail-back>Back to board</a>
+  </div>
+
+  @if (store.selectedCard()) {
+    <article class="detail-card" [attr.data-card-id]="store.selectedCard()?.id" [attr.data-priority]="store.selectedCard()?.priority" x-test-detail-card>
+      <header class="detail-header">
+        <span class="card-id detail-id" x-test-detail-id>#{{ store.selectedCard()?.id }}</span>
+        <h3 class="detail-title" x-test-detail-title>{{ store.selectedCard()?.title }}</h3>
+        <span class="badge priority-badge" [attr.data-priority]="store.selectedCard()?.priority" x-test-detail-priority>{{ store.selectedCard()?.priority }}</span>
+      </header>
+
+      
+
+      <footer class="detail-actions" x-test-detail-actions>
+        <a class="btn btn-primary edit-btn" [routerLink]="['/card', store.selectedCard()?.id, 'edit']" x-test-detail-edit>Edit card</a>
+        <button class="btn btn-danger delete-btn" type="button" (click)="deleteAndGoBack()" x-test-detail-delete>Delete card</button>
+      </footer>
+    </article>
+  } @else {
+    <div class="not-found" x-test-detail-not-found>
+      <p class="not-found-message" x-test-detail-not-found-message>Card not found</p>
+      <a class="btn btn-primary" routerLink="/" x-test-detail-not-found-back>Go to board</a>
+    </div>
+  }
+</section>
+######### END FILE #########
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\Kanban board\src\app\panel\panel.component.html #########
+<section class="panel">
+ <header class="panel-head">
+  <h4 class="panel-heading">{{ heading() }}</h4>
+  <span class="panel-note">{{ note() }}</span>
+ </header>
+ <div class="panel-body">
+  <ng-content></ng-content>
+ </div>
+</section>
+######### END FILE #########

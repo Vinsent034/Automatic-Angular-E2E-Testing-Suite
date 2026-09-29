@@ -1,0 +1,23 @@
+######### START 1 - a #########
+<a class="btn btn-primary nav-add" routerLink="/card/new" role="button" x-test-new-card>New card</a>
+######### END 1 - a #########
+######### START 1 - b #########
+<a routerLink="/card/new" role="button" x-test-new-card>New card</a>
+######### END 1 - b #########
+######### START 1 - c #########
+<a data-class="btn btn-primary nav-new-card" routerLink="/card/new" role="button" x-test-new-card>New card</a>
+######### END 1 - c #########
+######### START 1 - d #########
+<a class="btn btn-primary nav-new-card" routerLink="/card/new" role="button" x-test-new-card>Add card</a>
+######### END 1 - d #########
+######### START 1 - e #########
+<a class="btn btn-primary nav-new-card" routerLink="/card/new" role="button" x-test-new-card> </a>
+######### END 1 - e #########
+######### START 1 - j #########
+<span class="btn btn-primary nav-new-card" routerLink="/card/new" role="button" x-test-new-card>New card</span>
+######### END 1 - j #########
+######### START 1 - k #########
+<span class="new-card-wrapper">
+  <a class="btn btn-primary nav-new-card" routerLink="/card/new" role="button" x-test-new-card>New card</a>
+</span>
+######### END 1 - k #########

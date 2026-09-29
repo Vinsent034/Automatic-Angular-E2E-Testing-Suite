@@ -1,0 +1,1842 @@
+Name,Id,Locator,Tag,Status,Error
+recipe-form-f-ingredients,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-veg,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+recipe-form-f-veg,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,PASSED,null
+recipe-form-f-veg,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,PASSED,null
+recipe-form-f-veg,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,PASSED,null
+recipe-form-f-veg,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+recipe-form-f-veg,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,PASSED,null
+recipe-form-f-veg,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,PASSED,null
+recipe-form-f-submit,mutation_g_tag_mov_html_mut_gamma,AbsoluteXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-recipe-form[1]/section[1]/form[1]/div[2]/div[1]/button[1]"}
+recipe-form-f-submit,mutation_g_tag_mov_html_mut_gamma,HookXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-f-submit]"}
+recipe-form-f-submit,mutation_g_tag_mov_html_mut_gamma,KatalonXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[@type='submit']"}
+recipe-form-f-submit,mutation_g_tag_mov_html_mut_gamma,RelativeXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[normalize-space()='Create recipe']"}
+recipe-form-f-submit,mutation_g_tag_mov_html_mut_gamma,RobulaPlusXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[contains(text() 'Create recipe')]"}
+recipe-form-f-submit,mutation_g_tag_mov_html_mut_gamma,RobulaXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[@type='submit']"}
+recipe-form-f-submit,mutation_g_tag_mov_html_mut_gamma,SeleniumXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".btn-primary"}
+recipe-form-f-ingredients,mutation_e_text_cont_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_e_text_cont_rem_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_e_text_cont_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_e_text_cont_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_e_text_cont_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_e_text_cont_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_e_text_cont_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-submit,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-recipe-form[1]/section[1]/form[1]/div[2]/div[1]/button[1]"}
+recipe-form-f-submit,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,PASSED,null
+recipe-form-f-submit,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
+recipe-form-f-submit,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
+recipe-form-f-submit,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+recipe-form-f-submit,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
+recipe-form-f-submit,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,PASSED,null
+recipe-form-f-title,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/div[1]/main[1]/app-recipe-form[1]/section[1]/form[1]/div[1]/div[1]/div[1]/input[1] (tried for 6 second(s) with 500 milliseconds interval)
+recipe-form-f-title,mutation_h_tag_mov_temp_mut_gamma,HookXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x-test-f-title] (tried for 6 second(s) with 500 milliseconds interval)
+recipe-form-f-title,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.id: f-title (tried for 6 second(s) with 500 milliseconds interval)
+recipe-form-f-title,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id='f-title'] (tried for 6 second(s) with 500 milliseconds interval)
+recipe-form-f-title,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id='f-title'] (tried for 6 second(s) with 500 milliseconds interval)
+recipe-form-f-title,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id='f-title'] (tried for 6 second(s) with 500 milliseconds interval)
+recipe-form-f-title,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.id: f-title (tried for 6 second(s) with 500 milliseconds interval)
+recipe-form-f-tags,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_f_tag_mov_container_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_f_tag_mov_container_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_f_tag_mov_container_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+recipe-form-f-tags,mutation_f_tag_mov_container_mut_beta,HookXPathTest,beta,PASSED,null
+recipe-form-f-tags,mutation_f_tag_mov_container_mut_beta,KatalonXPathTest,beta,PASSED,null
+recipe-form-f-tags,mutation_f_tag_mov_container_mut_beta,RelativeXPathTest,beta,PASSED,null
+recipe-form-f-tags,mutation_f_tag_mov_container_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+recipe-form-f-tags,mutation_f_tag_mov_container_mut_beta,RobulaXPathTest,beta,PASSED,null
+recipe-form-f-tags,mutation_f_tag_mov_container_mut_beta,SeleniumXPathTest,beta,PASSED,null
+recipe-form-f-submit,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-submit,mutation_h_tag_mov_temp_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-submit,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-submit,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-submit,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-submit,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-submit,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-submit,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+recipe-form-f-submit,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,PASSED,null
+recipe-form-f-submit,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
+recipe-form-f-submit,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
+recipe-form-f-submit,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+recipe-form-f-submit,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
+recipe-form-f-submit,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
+recipe-form-form-heading,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-form-heading,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-form-heading,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-form-heading,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-form-heading,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-form-heading,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-form-heading,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+recipe-form-f-steps,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,PASSED,null
+recipe-form-f-steps,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
+recipe-form-f-steps,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
+recipe-form-f-steps,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+recipe-form-f-steps,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
+recipe-form-f-steps,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
+recipe-form-f-title,mutation_f_tag_mov_container_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+recipe-form-f-title,mutation_f_tag_mov_container_mut_gamma,HookXPathTest,gamma,PASSED,null
+recipe-form-f-title,mutation_f_tag_mov_container_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+recipe-form-f-title,mutation_f_tag_mov_container_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+recipe-form-f-title,mutation_f_tag_mov_container_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+recipe-form-f-title,mutation_f_tag_mov_container_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+recipe-form-f-title,mutation_f_tag_mov_container_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+recipe-form-f-veg,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_h_tag_mov_temp_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_e_text_cont_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_e_text_cont_rem_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_e_text_cont_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_e_text_cont_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_e_text_cont_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_e_text_cont_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_e_text_cont_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+recipe-form-f-veg,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,PASSED,null
+recipe-form-f-veg,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+recipe-form-f-veg,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+recipe-form-f-veg,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+recipe-form-f-veg,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+recipe-form-f-veg,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+recipe-form-f-title,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/div[1]/main[1]/app-recipe-form[1]/section[1]/form[1]/div[1]/div[1]/div[1]/input[1] (tried for 6 second(s) with 500 milliseconds interval)
+recipe-form-f-title,mutation_i_tag_rem_mut_gamma,HookXPathTest,gamma,PASSED,null
+recipe-form-f-title,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+recipe-form-f-title,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+recipe-form-f-title,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+recipe-form-f-title,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+recipe-form-f-title,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+recipe-form-f-veg,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_f_tag_mov_container_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_f_tag_mov_container_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+recipe-form-f-ingredients,mutation_j_tag_type_mod_mut_gamma,HookXPathTest,gamma,PASSED,null
+recipe-form-f-ingredients,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+recipe-form-f-ingredients,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+recipe-form-f-ingredients,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+recipe-form-f-ingredients,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+recipe-form-f-ingredients,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+recipe-form-f-steps,mutation_d_text_cont_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_d_text_cont_mod_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_d_text_cont_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_d_text_cont_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_d_text_cont_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_d_text_cont_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_d_text_cont_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_g_tag_mov_html_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_g_tag_mov_html_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_g_tag_mov_html_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_g_tag_mov_html_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_g_tag_mov_html_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_g_tag_mov_html_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_g_tag_mov_html_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_g_tag_mov_html_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_g_tag_mov_html_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_g_tag_mov_html_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_g_tag_mov_html_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_g_tag_mov_html_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_g_tag_mov_html_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_g_tag_mov_html_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_a_attr_val_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+recipe-form-f-servings,mutation_a_attr_val_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+recipe-form-f-servings,mutation_a_attr_val_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+recipe-form-f-servings,mutation_a_attr_val_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+recipe-form-f-servings,mutation_a_attr_val_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+recipe-form-f-servings,mutation_a_attr_val_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+recipe-form-f-servings,mutation_a_attr_val_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+recipe-form-f-steps,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+recipe-form-f-steps,mutation_j_tag_type_mod_mut_gamma,HookXPathTest,gamma,PASSED,null
+recipe-form-f-steps,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+recipe-form-f-steps,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+recipe-form-f-steps,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+recipe-form-f-steps,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+recipe-form-f-steps,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+recipe-form-f-servings,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+recipe-form-f-servings,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+recipe-form-f-servings,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+recipe-form-f-servings,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+recipe-form-f-servings,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+recipe-form-f-servings,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+recipe-form-f-servings,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+recipe-form-f-title,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-title,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-title,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-title,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-title,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-title,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-title,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-tags,mutation_c_attr_id_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+recipe-form-f-tags,mutation_c_attr_id_mut_alpha,HookXPathTest,alpha,PASSED,null
+recipe-form-f-tags,mutation_c_attr_id_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+recipe-form-f-tags,mutation_c_attr_id_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+recipe-form-f-tags,mutation_c_attr_id_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+recipe-form-f-tags,mutation_c_attr_id_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+recipe-form-f-tags,mutation_c_attr_id_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+recipe-form-f-servings,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-servings,mutation_h_tag_mov_temp_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-servings,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-servings,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-servings,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-servings,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-servings,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_h_tag_mov_temp_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-veg,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-veg,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-veg,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-veg,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-veg,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-veg,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-servings,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+recipe-form-f-servings,mutation_i_tag_rem_mut_gamma,HookXPathTest,gamma,PASSED,null
+recipe-form-f-servings,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+recipe-form-f-servings,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+recipe-form-f-servings,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+recipe-form-f-servings,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+recipe-form-f-servings,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+recipe-form-f-title,mutation_g_tag_mov_html_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-title,mutation_g_tag_mov_html_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-title,mutation_g_tag_mov_html_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-title,mutation_g_tag_mov_html_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-title,mutation_g_tag_mov_html_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-title,mutation_g_tag_mov_html_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-title,mutation_g_tag_mov_html_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_f_tag_mov_container_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+recipe-form-f-ingredients,mutation_f_tag_mov_container_mut_beta,HookXPathTest,beta,PASSED,null
+recipe-form-f-ingredients,mutation_f_tag_mov_container_mut_beta,KatalonXPathTest,beta,PASSED,null
+recipe-form-f-ingredients,mutation_f_tag_mov_container_mut_beta,RelativeXPathTest,beta,PASSED,null
+recipe-form-f-ingredients,mutation_f_tag_mov_container_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+recipe-form-f-ingredients,mutation_f_tag_mov_container_mut_beta,RobulaXPathTest,beta,PASSED,null
+recipe-form-f-ingredients,mutation_f_tag_mov_container_mut_beta,SeleniumXPathTest,beta,PASSED,null
+recipe-form-form-heading,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+recipe-form-form-heading,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,PASSED,null
+recipe-form-form-heading,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
+recipe-form-form-heading,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
+recipe-form-form-heading,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+recipe-form-form-heading,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
+recipe-form-form-heading,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,PASSED,null
+recipe-form-form-heading,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_j_tag_type_mod_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_f_tag_mov_container_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+recipe-form-f-steps,mutation_f_tag_mov_container_mut_beta,HookXPathTest,beta,PASSED,null
+recipe-form-f-steps,mutation_f_tag_mov_container_mut_beta,KatalonXPathTest,beta,PASSED,null
+recipe-form-f-steps,mutation_f_tag_mov_container_mut_beta,RelativeXPathTest,beta,PASSED,null
+recipe-form-f-steps,mutation_f_tag_mov_container_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+recipe-form-f-steps,mutation_f_tag_mov_container_mut_beta,RobulaXPathTest,beta,PASSED,null
+recipe-form-f-steps,mutation_f_tag_mov_container_mut_beta,SeleniumXPathTest,beta,PASSED,null
+recipe-form-f-submit,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-submit,mutation_i_tag_rem_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-submit,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-submit,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-submit,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-submit,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-submit,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_f_tag_mov_container_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_f_tag_mov_container_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+recipe-form-f-veg,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
+recipe-form-f-veg,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+recipe-form-f-veg,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+recipe-form-f-veg,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+recipe-form-f-veg,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+recipe-form-f-veg,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+recipe-form-f-ingredients,mutation_g_tag_mov_html_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_g_tag_mov_html_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_g_tag_mov_html_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_g_tag_mov_html_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_g_tag_mov_html_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_g_tag_mov_html_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_g_tag_mov_html_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-course,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-course,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-course,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-course,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-course,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-course,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-course,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+recipe-form-f-steps,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+recipe-form-f-steps,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+recipe-form-f-steps,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+recipe-form-f-steps,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+recipe-form-f-steps,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+recipe-form-f-steps,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+recipe-form-f-course,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_f_tag_mov_container_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_f_tag_mov_container_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_j_tag_type_mod_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_g_tag_mov_html_mut_epsilon,AbsoluteXPathTest,epsilon,PASSED,null
+recipe-form-f-ingredients,mutation_g_tag_mov_html_mut_epsilon,HookXPathTest,epsilon,PASSED,null
+recipe-form-f-ingredients,mutation_g_tag_mov_html_mut_epsilon,KatalonXPathTest,epsilon,PASSED,null
+recipe-form-f-ingredients,mutation_g_tag_mov_html_mut_epsilon,RelativeXPathTest,epsilon,PASSED,null
+recipe-form-f-ingredients,mutation_g_tag_mov_html_mut_epsilon,RobulaPlusXPathTest,epsilon,PASSED,null
+recipe-form-f-ingredients,mutation_g_tag_mov_html_mut_epsilon,RobulaXPathTest,epsilon,PASSED,null
+recipe-form-f-ingredients,mutation_g_tag_mov_html_mut_epsilon,SeleniumXPathTest,epsilon,PASSED,null
+recipe-form-f-submit,mutation_e_text_cont_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-submit,mutation_e_text_cont_rem_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-submit,mutation_e_text_cont_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-submit,mutation_e_text_cont_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-submit,mutation_e_text_cont_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-submit,mutation_e_text_cont_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-submit,mutation_e_text_cont_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-recipe-form[1]/section[1]/form[1]/div[1]/div[2]/div[1]/select[1]"}
+recipe-form-f-course,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,PASSED,null
+recipe-form-f-course,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
+recipe-form-f-course,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
+recipe-form-f-course,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+recipe-form-f-course,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
+recipe-form-f-course,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
+recipe-form-f-steps,mutation_c_attr_id_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+recipe-form-f-steps,mutation_c_attr_id_mut_alpha,HookXPathTest,alpha,PASSED,null
+recipe-form-f-steps,mutation_c_attr_id_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+recipe-form-f-steps,mutation_c_attr_id_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+recipe-form-f-steps,mutation_c_attr_id_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+recipe-form-f-steps,mutation_c_attr_id_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+recipe-form-f-steps,mutation_c_attr_id_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+recipe-form-form-heading,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+recipe-form-form-heading,mutation_j_tag_type_mod_mut_gamma,HookXPathTest,gamma,PASSED,null
+recipe-form-form-heading,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+recipe-form-form-heading,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+recipe-form-form-heading,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+recipe-form-form-heading,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+recipe-form-form-heading,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+recipe-form-f-ingredients,mutation_a_attr_val_mod_mut_epsilon,AbsoluteXPathTest,epsilon,PASSED,null
+recipe-form-f-ingredients,mutation_a_attr_val_mod_mut_epsilon,HookXPathTest,epsilon,PASSED,null
+recipe-form-f-ingredients,mutation_a_attr_val_mod_mut_epsilon,KatalonXPathTest,epsilon,PASSED,null
+recipe-form-f-ingredients,mutation_a_attr_val_mod_mut_epsilon,RelativeXPathTest,epsilon,PASSED,null
+recipe-form-f-ingredients,mutation_a_attr_val_mod_mut_epsilon,RobulaPlusXPathTest,epsilon,PASSED,null
+recipe-form-f-ingredients,mutation_a_attr_val_mod_mut_epsilon,RobulaXPathTest,epsilon,PASSED,null
+recipe-form-f-ingredients,mutation_a_attr_val_mod_mut_epsilon,SeleniumXPathTest,epsilon,PASSED,null
+recipe-form-f-veg,mutation_c_attr_id_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+recipe-form-f-veg,mutation_c_attr_id_mut_alpha,HookXPathTest,alpha,PASSED,null
+recipe-form-f-veg,mutation_c_attr_id_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+recipe-form-f-veg,mutation_c_attr_id_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+recipe-form-f-veg,mutation_c_attr_id_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+recipe-form-f-veg,mutation_c_attr_id_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+recipe-form-f-veg,mutation_c_attr_id_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+recipe-form-f-steps,mutation_k_tag_ins_mut_epsilon,AbsoluteXPathTest,epsilon,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-recipe-form[1]/section[1]/form[1]/div[2]/div[1]/button[1]"}
+recipe-form-f-steps,mutation_k_tag_ins_mut_epsilon,HookXPathTest,epsilon,PASSED,null
+recipe-form-f-steps,mutation_k_tag_ins_mut_epsilon,KatalonXPathTest,epsilon,PASSED,null
+recipe-form-f-steps,mutation_k_tag_ins_mut_epsilon,RelativeXPathTest,epsilon,PASSED,null
+recipe-form-f-steps,mutation_k_tag_ins_mut_epsilon,RobulaPlusXPathTest,epsilon,PASSED,null
+recipe-form-f-steps,mutation_k_tag_ins_mut_epsilon,RobulaXPathTest,epsilon,PASSED,null
+recipe-form-f-steps,mutation_k_tag_ins_mut_epsilon,SeleniumXPathTest,epsilon,PASSED,null
+recipe-form-f-submit,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-recipe-form[1]/section[1]/form[1]/div[2]/div[1]/button[1]"}
+recipe-form-f-submit,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+recipe-form-f-submit,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[@type='submit']"}
+recipe-form-f-submit,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[normalize-space()='Create recipe']"}
+recipe-form-f-submit,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+recipe-form-f-submit,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[@type='submit']"}
+recipe-form-f-submit,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+recipe-form-f-course,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+recipe-form-f-course,mutation_k_tag_ins_mut_gamma,HookXPathTest,gamma,PASSED,null
+recipe-form-f-course,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+recipe-form-f-course,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+recipe-form-f-course,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+recipe-form-f-course,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+recipe-form-f-course,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+recipe-form-f-title,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_h_tag_mov_temp_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+recipe-form-f-ingredients,mutation_h_tag_mov_temp_mut_gamma,HookXPathTest,gamma,PASSED,null
+recipe-form-f-ingredients,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+recipe-form-f-ingredients,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+recipe-form-f-ingredients,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+recipe-form-f-ingredients,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+recipe-form-f-ingredients,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+recipe-form-f-tags,mutation_d_text_cont_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_d_text_cont_mod_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_d_text_cont_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_d_text_cont_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_d_text_cont_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_d_text_cont_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_d_text_cont_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_f_tag_mov_container_mut_epsilon,AbsoluteXPathTest,epsilon,PASSED,null
+recipe-form-f-steps,mutation_f_tag_mov_container_mut_epsilon,HookXPathTest,epsilon,PASSED,null
+recipe-form-f-steps,mutation_f_tag_mov_container_mut_epsilon,KatalonXPathTest,epsilon,PASSED,null
+recipe-form-f-steps,mutation_f_tag_mov_container_mut_epsilon,RelativeXPathTest,epsilon,PASSED,null
+recipe-form-f-steps,mutation_f_tag_mov_container_mut_epsilon,RobulaPlusXPathTest,epsilon,PASSED,null
+recipe-form-f-steps,mutation_f_tag_mov_container_mut_epsilon,RobulaXPathTest,epsilon,PASSED,null
+recipe-form-f-steps,mutation_f_tag_mov_container_mut_epsilon,SeleniumXPathTest,epsilon,PASSED,null
+recipe-form-f-tags,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-tags,mutation_h_tag_mov_temp_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-tags,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-tags,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-tags,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-tags,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-tags,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-tags,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-tags,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-tags,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-tags,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-tags,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-tags,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-tags,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-tags,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_k_tag_ins_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-submit,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+recipe-form-f-submit,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,PASSED,null
+recipe-form-f-submit,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+recipe-form-f-submit,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+recipe-form-f-submit,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+recipe-form-f-submit,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+recipe-form-f-submit,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+recipe-form-f-course,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_k_tag_ins_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_f_tag_mov_container_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_f_tag_mov_container_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+recipe-form-form-heading,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,PASSED,null
+recipe-form-form-heading,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+recipe-form-form-heading,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+recipe-form-form-heading,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+recipe-form-form-heading,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+recipe-form-form-heading,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+recipe-form-f-steps,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+recipe-form-f-steps,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,PASSED,null
+recipe-form-f-steps,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
+recipe-form-f-steps,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
+recipe-form-f-steps,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+recipe-form-f-steps,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
+recipe-form-f-steps,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,PASSED,null
+recipe-form-f-ingredients,mutation_b_attr_rem_mut_epsilon,AbsoluteXPathTest,epsilon,PASSED,null
+recipe-form-f-ingredients,mutation_b_attr_rem_mut_epsilon,HookXPathTest,epsilon,PASSED,null
+recipe-form-f-ingredients,mutation_b_attr_rem_mut_epsilon,KatalonXPathTest,epsilon,PASSED,null
+recipe-form-f-ingredients,mutation_b_attr_rem_mut_epsilon,RelativeXPathTest,epsilon,PASSED,null
+recipe-form-f-ingredients,mutation_b_attr_rem_mut_epsilon,RobulaPlusXPathTest,epsilon,PASSED,null
+recipe-form-f-ingredients,mutation_b_attr_rem_mut_epsilon,RobulaXPathTest,epsilon,PASSED,null
+recipe-form-f-ingredients,mutation_b_attr_rem_mut_epsilon,SeleniumXPathTest,epsilon,PASSED,null
+recipe-form-f-steps,mutation_b_attr_rem_mut_epsilon,AbsoluteXPathTest,epsilon,PASSED,null
+recipe-form-f-steps,mutation_b_attr_rem_mut_epsilon,HookXPathTest,epsilon,PASSED,null
+recipe-form-f-steps,mutation_b_attr_rem_mut_epsilon,KatalonXPathTest,epsilon,PASSED,null
+recipe-form-f-steps,mutation_b_attr_rem_mut_epsilon,RelativeXPathTest,epsilon,PASSED,null
+recipe-form-f-steps,mutation_b_attr_rem_mut_epsilon,RobulaPlusXPathTest,epsilon,PASSED,null
+recipe-form-f-steps,mutation_b_attr_rem_mut_epsilon,RobulaXPathTest,epsilon,PASSED,null
+recipe-form-f-steps,mutation_b_attr_rem_mut_epsilon,SeleniumXPathTest,epsilon,PASSED,null
+recipe-form-f-veg,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-veg,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-veg,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-veg,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-veg,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-veg,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-veg,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-submit,mutation_e_text_cont_rem_mut_alpha,AbsoluteXPathTest,alpha,FAILED,expected:<[Create recipe]> but was:<[]>
+recipe-form-f-submit,mutation_e_text_cont_rem_mut_alpha,HookXPathTest,alpha,FAILED,expected:<[Create recipe]> but was:<[]>
+recipe-form-f-submit,mutation_e_text_cont_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<[Create recipe]> but was:<[]>
+recipe-form-f-submit,mutation_e_text_cont_rem_mut_alpha,RelativeXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[normalize-space()='Create recipe']"}
+recipe-form-f-submit,mutation_e_text_cont_rem_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[contains(text() 'Create recipe')]"}
+recipe-form-f-submit,mutation_e_text_cont_rem_mut_alpha,RobulaXPathTest,alpha,FAILED,expected:<[Create recipe]> but was:<[]>
+recipe-form-f-submit,mutation_e_text_cont_rem_mut_alpha,SeleniumXPathTest,alpha,FAILED,expected:<[Create recipe]> but was:<[]>
+recipe-form-f-title,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_j_tag_type_mod_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-form-heading,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-form-heading,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-form-heading,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-form-heading,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-form-heading,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-form-heading,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-tags,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+recipe-form-f-tags,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,PASSED,null
+recipe-form-f-tags,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+recipe-form-f-tags,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+recipe-form-f-tags,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+recipe-form-f-tags,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+recipe-form-f-tags,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+recipe-form-f-title,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+recipe-form-f-title,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,PASSED,null
+recipe-form-f-title,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
+recipe-form-f-title,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
+recipe-form-f-title,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+recipe-form-f-title,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
+recipe-form-f-title,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
+recipe-form-f-ingredients,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+recipe-form-f-ingredients,mutation_k_tag_ins_mut_gamma,HookXPathTest,gamma,PASSED,null
+recipe-form-f-ingredients,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+recipe-form-f-ingredients,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+recipe-form-f-ingredients,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+recipe-form-f-ingredients,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+recipe-form-f-ingredients,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+recipe-form-f-ingredients,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_k_tag_ins_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_e_text_cont_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+recipe-form-form-heading,mutation_e_text_cont_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
+recipe-form-form-heading,mutation_e_text_cont_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+recipe-form-form-heading,mutation_e_text_cont_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+recipe-form-form-heading,mutation_e_text_cont_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+recipe-form-form-heading,mutation_e_text_cont_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+recipe-form-form-heading,mutation_e_text_cont_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+recipe-form-f-steps,mutation_b_attr_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+recipe-form-f-steps,mutation_b_attr_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
+recipe-form-f-steps,mutation_b_attr_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+recipe-form-f-steps,mutation_b_attr_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+recipe-form-f-steps,mutation_b_attr_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+recipe-form-f-steps,mutation_b_attr_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+recipe-form-f-steps,mutation_b_attr_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+recipe-form-f-course,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_j_tag_type_mod_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-submit,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-recipe-form[1]/section[1]/form[1]/div[2]/div[1]/button[1]"}
+recipe-form-f-submit,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-f-submit]"}
+recipe-form-f-submit,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[@type='submit']"}
+recipe-form-f-submit,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[normalize-space()='Create recipe']"}
+recipe-form-f-submit,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[contains(text() 'Create recipe')]"}
+recipe-form-f-submit,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[@type='submit']"}
+recipe-form-f-submit,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".btn-primary"}
+recipe-form-f-tags,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-tags,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-tags,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-tags,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-tags,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-tags,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-tags,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_k_tag_ins_mut_epsilon,AbsoluteXPathTest,epsilon,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-recipe-form[1]/section[1]/form[1]/div[2]/div[1]/button[1]"}
+recipe-form-f-ingredients,mutation_k_tag_ins_mut_epsilon,HookXPathTest,epsilon,PASSED,null
+recipe-form-f-ingredients,mutation_k_tag_ins_mut_epsilon,KatalonXPathTest,epsilon,PASSED,null
+recipe-form-f-ingredients,mutation_k_tag_ins_mut_epsilon,RelativeXPathTest,epsilon,PASSED,null
+recipe-form-f-ingredients,mutation_k_tag_ins_mut_epsilon,RobulaPlusXPathTest,epsilon,PASSED,null
+recipe-form-f-ingredients,mutation_k_tag_ins_mut_epsilon,RobulaXPathTest,epsilon,PASSED,null
+recipe-form-f-ingredients,mutation_k_tag_ins_mut_epsilon,SeleniumXPathTest,epsilon,PASSED,null
+recipe-form-f-submit,mutation_g_tag_mov_html_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-submit,mutation_g_tag_mov_html_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-submit,mutation_g_tag_mov_html_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-submit,mutation_g_tag_mov_html_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-submit,mutation_g_tag_mov_html_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-submit,mutation_g_tag_mov_html_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-submit,mutation_g_tag_mov_html_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-course,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-recipe-form[1]/section[1]/form[1]/div[1]/div[2]/div[1]/select[1]"}
+recipe-form-f-course,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+recipe-form-f-course,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+recipe-form-f-course,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//select[@id='f-course']"}
+recipe-form-f-course,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+recipe-form-f-course,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//select[@id='f-course']"}
+recipe-form-f-course,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+recipe-form-f-veg,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-veg,mutation_h_tag_mov_temp_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-veg,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-veg,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-veg,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-veg,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-veg,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-submit,mutation_a_attr_val_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+recipe-form-f-submit,mutation_a_attr_val_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+recipe-form-f-submit,mutation_a_attr_val_mod_mut_alpha,KatalonXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[@type='submit']"}
+recipe-form-f-submit,mutation_a_attr_val_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+recipe-form-f-submit,mutation_a_attr_val_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+recipe-form-f-submit,mutation_a_attr_val_mod_mut_alpha,RobulaXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[@type='submit']"}
+recipe-form-f-submit,mutation_a_attr_val_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+recipe-form-f-servings,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+recipe-form-f-servings,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,PASSED,null
+recipe-form-f-servings,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+recipe-form-f-servings,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+recipe-form-f-servings,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+recipe-form-f-servings,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+recipe-form-f-servings,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+recipe-form-form-heading,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+recipe-form-form-heading,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
+recipe-form-form-heading,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+recipe-form-form-heading,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+recipe-form-form-heading,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+recipe-form-form-heading,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+recipe-form-form-heading,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+recipe-form-f-tags,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+recipe-form-f-tags,mutation_i_tag_rem_mut_gamma,HookXPathTest,gamma,PASSED,null
+recipe-form-f-tags,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+recipe-form-f-tags,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+recipe-form-f-tags,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+recipe-form-f-tags,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+recipe-form-f-tags,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+recipe-form-f-submit,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-submit,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-submit,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-submit,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-submit,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-submit,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-submit,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_a_attr_val_mod_mut_epsilon,AbsoluteXPathTest,epsilon,PASSED,null
+recipe-form-f-steps,mutation_a_attr_val_mod_mut_epsilon,HookXPathTest,epsilon,PASSED,null
+recipe-form-f-steps,mutation_a_attr_val_mod_mut_epsilon,KatalonXPathTest,epsilon,PASSED,null
+recipe-form-f-steps,mutation_a_attr_val_mod_mut_epsilon,RelativeXPathTest,epsilon,PASSED,null
+recipe-form-f-steps,mutation_a_attr_val_mod_mut_epsilon,RobulaPlusXPathTest,epsilon,PASSED,null
+recipe-form-f-steps,mutation_a_attr_val_mod_mut_epsilon,RobulaXPathTest,epsilon,PASSED,null
+recipe-form-f-steps,mutation_a_attr_val_mod_mut_epsilon,SeleniumXPathTest,epsilon,PASSED,null
+recipe-form-f-servings,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_h_tag_mov_temp_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_b_attr_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+recipe-form-f-course,mutation_b_attr_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
+recipe-form-f-course,mutation_b_attr_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+recipe-form-f-course,mutation_b_attr_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+recipe-form-f-course,mutation_b_attr_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+recipe-form-f-course,mutation_b_attr_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+recipe-form-f-course,mutation_b_attr_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+recipe-form-f-steps,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+recipe-form-f-steps,mutation_i_tag_rem_mut_gamma,HookXPathTest,gamma,PASSED,null
+recipe-form-f-steps,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+recipe-form-f-steps,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+recipe-form-f-steps,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+recipe-form-f-steps,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+recipe-form-f-steps,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+recipe-form-f-veg,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+recipe-form-f-veg,mutation_i_tag_rem_mut_gamma,HookXPathTest,gamma,PASSED,null
+recipe-form-f-veg,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+recipe-form-f-veg,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+recipe-form-f-veg,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+recipe-form-f-veg,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+recipe-form-f-veg,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+recipe-form-f-title,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+recipe-form-f-title,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,PASSED,null
+recipe-form-f-title,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+recipe-form-f-title,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+recipe-form-f-title,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+recipe-form-f-title,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+recipe-form-f-title,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+recipe-form-f-tags,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+recipe-form-f-tags,mutation_j_tag_type_mod_mut_gamma,HookXPathTest,gamma,PASSED,null
+recipe-form-f-tags,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+recipe-form-f-tags,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+recipe-form-f-tags,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+recipe-form-f-tags,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+recipe-form-f-tags,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+recipe-form-f-steps,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+recipe-form-f-steps,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,PASSED,null
+recipe-form-f-steps,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
+recipe-form-f-steps,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
+recipe-form-f-steps,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+recipe-form-f-steps,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
+recipe-form-f-steps,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
+recipe-form-form-heading,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_h_tag_mov_temp_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_b_attr_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+recipe-form-f-servings,mutation_b_attr_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
+recipe-form-f-servings,mutation_b_attr_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+recipe-form-f-servings,mutation_b_attr_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+recipe-form-f-servings,mutation_b_attr_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+recipe-form-f-servings,mutation_b_attr_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+recipe-form-f-servings,mutation_b_attr_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+recipe-form-f-servings,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+recipe-form-f-servings,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,PASSED,null
+recipe-form-f-servings,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
+recipe-form-f-servings,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
+recipe-form-f-servings,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+recipe-form-f-servings,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
+recipe-form-f-servings,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
+recipe-form-f-ingredients,mutation_g_tag_mov_html_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_g_tag_mov_html_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_g_tag_mov_html_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_g_tag_mov_html_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_g_tag_mov_html_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_g_tag_mov_html_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_g_tag_mov_html_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_e_text_cont_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_e_text_cont_rem_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_e_text_cont_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_e_text_cont_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_e_text_cont_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_e_text_cont_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_e_text_cont_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+recipe-form-f-tags,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+recipe-form-f-tags,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+recipe-form-f-tags,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+recipe-form-f-tags,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+recipe-form-f-tags,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+recipe-form-f-tags,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+recipe-form-f-course,mutation_g_tag_mov_html_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+recipe-form-f-course,mutation_g_tag_mov_html_mut_gamma,HookXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-f-course]"}
+recipe-form-f-course,mutation_g_tag_mov_html_mut_gamma,KatalonXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":"#f\-course"}
+recipe-form-f-course,mutation_g_tag_mov_html_mut_gamma,RelativeXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//select[@id='f-course']"}
+recipe-form-f-course,mutation_g_tag_mov_html_mut_gamma,RobulaPlusXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@id='f-course']"}
+recipe-form-f-course,mutation_g_tag_mov_html_mut_gamma,RobulaXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//select[@id='f-course']"}
+recipe-form-f-course,mutation_g_tag_mov_html_mut_gamma,SeleniumXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":"#f\-course"}
+recipe-form-f-veg,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-veg,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-veg,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-veg,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-veg,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-veg,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-veg,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-tags,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-tags,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-tags,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-tags,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-tags,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-tags,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-tags,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-course,mutation_f_tag_mov_container_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+recipe-form-f-course,mutation_f_tag_mov_container_mut_beta,HookXPathTest,beta,PASSED,null
+recipe-form-f-course,mutation_f_tag_mov_container_mut_beta,KatalonXPathTest,beta,PASSED,null
+recipe-form-f-course,mutation_f_tag_mov_container_mut_beta,RelativeXPathTest,beta,PASSED,null
+recipe-form-f-course,mutation_f_tag_mov_container_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+recipe-form-f-course,mutation_f_tag_mov_container_mut_beta,RobulaXPathTest,beta,PASSED,null
+recipe-form-f-course,mutation_f_tag_mov_container_mut_beta,SeleniumXPathTest,beta,PASSED,null
+recipe-form-form-heading,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-form-heading,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-form-heading,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-form-heading,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-form-heading,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-form-heading,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-form-heading,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+recipe-form-f-ingredients,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,PASSED,null
+recipe-form-f-ingredients,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
+recipe-form-f-ingredients,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
+recipe-form-f-ingredients,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+recipe-form-f-ingredients,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
+recipe-form-f-ingredients,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,PASSED,null
+recipe-form-f-submit,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-recipe-form[1]/section[1]/form[1]/div[2]/div[1]/button[1]"}
+recipe-form-f-submit,mutation_j_tag_type_mod_mut_gamma,HookXPathTest,gamma,PASSED,null
+recipe-form-f-submit,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+recipe-form-f-submit,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+recipe-form-f-submit,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+recipe-form-f-submit,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+recipe-form-f-submit,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+recipe-form-f-veg,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_i_tag_rem_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+recipe-form-f-steps,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
+recipe-form-f-steps,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+recipe-form-f-steps,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+recipe-form-f-steps,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+recipe-form-f-steps,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+recipe-form-f-steps,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+recipe-form-f-servings,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-servings,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-servings,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-servings,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-servings,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-servings,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-servings,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-form-heading,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-form-heading,mutation_h_tag_mov_temp_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-form-heading,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-form-heading,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-form-heading,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-form-heading,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-form-heading,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-course,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_i_tag_rem_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_b_attr_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+recipe-form-f-ingredients,mutation_b_attr_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
+recipe-form-f-ingredients,mutation_b_attr_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+recipe-form-f-ingredients,mutation_b_attr_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+recipe-form-f-ingredients,mutation_b_attr_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+recipe-form-f-ingredients,mutation_b_attr_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+recipe-form-f-ingredients,mutation_b_attr_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+recipe-form-f-title,mutation_b_attr_rem_mut_alpha,AbsoluteXPathTest,alpha,FAILED,expected:<[Create recipe]> but was:<[]>
+recipe-form-f-title,mutation_b_attr_rem_mut_alpha,HookXPathTest,alpha,FAILED,expected:<[Create recipe]> but was:<[]>
+recipe-form-f-title,mutation_b_attr_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<[Create recipe]> but was:<[]>
+recipe-form-f-title,mutation_b_attr_rem_mut_alpha,RelativeXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[normalize-space()='Create recipe']"}
+recipe-form-f-title,mutation_b_attr_rem_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[contains(text() 'Create recipe')]"}
+recipe-form-f-title,mutation_b_attr_rem_mut_alpha,RobulaXPathTest,alpha,FAILED,expected:<[Create recipe]> but was:<[]>
+recipe-form-f-title,mutation_b_attr_rem_mut_alpha,SeleniumXPathTest,alpha,FAILED,expected:<[Create recipe]> but was:<[]>
+recipe-form-f-servings,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_j_tag_type_mod_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-submit,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-submit,mutation_h_tag_mov_temp_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-submit,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-submit,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-submit,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-submit,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-submit,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_f_tag_mov_container_mut_epsilon,AbsoluteXPathTest,epsilon,PASSED,null
+recipe-form-f-ingredients,mutation_f_tag_mov_container_mut_epsilon,HookXPathTest,epsilon,PASSED,null
+recipe-form-f-ingredients,mutation_f_tag_mov_container_mut_epsilon,KatalonXPathTest,epsilon,PASSED,null
+recipe-form-f-ingredients,mutation_f_tag_mov_container_mut_epsilon,RelativeXPathTest,epsilon,PASSED,null
+recipe-form-f-ingredients,mutation_f_tag_mov_container_mut_epsilon,RobulaPlusXPathTest,epsilon,PASSED,null
+recipe-form-f-ingredients,mutation_f_tag_mov_container_mut_epsilon,RobulaXPathTest,epsilon,PASSED,null
+recipe-form-f-ingredients,mutation_f_tag_mov_container_mut_epsilon,SeleniumXPathTest,epsilon,PASSED,null
+recipe-form-f-title,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_f_tag_mov_container_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_f_tag_mov_container_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_i_tag_rem_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_j_tag_type_mod_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+recipe-form-f-servings,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,PASSED,null
+recipe-form-f-servings,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
+recipe-form-f-servings,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
+recipe-form-f-servings,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+recipe-form-f-servings,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
+recipe-form-f-servings,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,PASSED,null
+recipe-form-f-title,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_k_tag_ins_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_g_tag_mov_html_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_g_tag_mov_html_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_g_tag_mov_html_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_g_tag_mov_html_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_g_tag_mov_html_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_g_tag_mov_html_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_g_tag_mov_html_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_e_text_cont_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_e_text_cont_rem_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_e_text_cont_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_e_text_cont_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_e_text_cont_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_e_text_cont_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_e_text_cont_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+recipe-form-form-heading,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+recipe-form-form-heading,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+recipe-form-form-heading,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+recipe-form-form-heading,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+recipe-form-form-heading,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+recipe-form-form-heading,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+recipe-form-f-tags,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+recipe-form-f-tags,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,PASSED,null
+recipe-form-f-tags,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,PASSED,null
+recipe-form-f-tags,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,PASSED,null
+recipe-form-f-tags,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+recipe-form-f-tags,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,PASSED,null
+recipe-form-f-tags,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,PASSED,null
+recipe-form-f-ingredients,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+recipe-form-f-ingredients,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
+recipe-form-f-ingredients,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+recipe-form-f-ingredients,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+recipe-form-f-ingredients,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+recipe-form-f-ingredients,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+recipe-form-f-ingredients,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+recipe-form-f-servings,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+recipe-form-f-servings,mutation_j_tag_type_mod_mut_gamma,HookXPathTest,gamma,PASSED,null
+recipe-form-f-servings,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+recipe-form-f-servings,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+recipe-form-f-servings,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+recipe-form-f-servings,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+recipe-form-f-servings,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+recipe-form-form-heading,mutation_d_text_cont_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_d_text_cont_mod_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_d_text_cont_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_d_text_cont_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_d_text_cont_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_d_text_cont_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_d_text_cont_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+recipe-form-f-course,mutation_j_tag_type_mod_mut_gamma,HookXPathTest,gamma,PASSED,null
+recipe-form-f-course,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+recipe-form-f-course,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+recipe-form-f-course,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+recipe-form-f-course,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+recipe-form-f-course,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+recipe-form-f-title,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/div[1]/main[1]/app-recipe-form[1]/section[1]/form[1]/div[1]/div[1]/div[1]/input[1] (tried for 6 second(s) with 500 milliseconds interval)
+recipe-form-f-title,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x-test-f-title] (tried for 6 second(s) with 500 milliseconds interval)
+recipe-form-f-title,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.id: f-title (tried for 6 second(s) with 500 milliseconds interval)
+recipe-form-f-title,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id='f-title'] (tried for 6 second(s) with 500 milliseconds interval)
+recipe-form-f-title,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id='f-title'] (tried for 6 second(s) with 500 milliseconds interval)
+recipe-form-f-title,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id='f-title'] (tried for 6 second(s) with 500 milliseconds interval)
+recipe-form-f-title,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.id: f-title (tried for 6 second(s) with 500 milliseconds interval)
+recipe-form-f-title,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-recipe-form[1]/section[1]/form[1]/div[1]/div[2]/div[1]/select[1]"}
+recipe-form-f-title,mutation_k_tag_ins_mut_gamma,HookXPathTest,gamma,PASSED,null
+recipe-form-f-title,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+recipe-form-f-title,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+recipe-form-f-title,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+recipe-form-f-title,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+recipe-form-f-title,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+recipe-form-f-veg,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+recipe-form-f-veg,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,PASSED,null
+recipe-form-f-veg,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
+recipe-form-f-veg,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
+recipe-form-f-veg,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+recipe-form-f-veg,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
+recipe-form-f-veg,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
+recipe-form-f-submit,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-submit,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-submit,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-submit,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-submit,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-submit,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-submit,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-veg,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+recipe-form-f-veg,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,PASSED,null
+recipe-form-f-veg,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
+recipe-form-f-veg,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
+recipe-form-f-veg,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+recipe-form-f-veg,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
+recipe-form-f-veg,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
+recipe-form-f-steps,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_k_tag_ins_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+recipe-form-f-steps,mutation_k_tag_ins_mut_gamma,HookXPathTest,gamma,PASSED,null
+recipe-form-f-steps,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+recipe-form-f-steps,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+recipe-form-f-steps,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+recipe-form-f-steps,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+recipe-form-f-steps,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+recipe-form-f-veg,mutation_f_tag_mov_container_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+recipe-form-f-veg,mutation_f_tag_mov_container_mut_gamma,HookXPathTest,gamma,PASSED,null
+recipe-form-f-veg,mutation_f_tag_mov_container_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+recipe-form-f-veg,mutation_f_tag_mov_container_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+recipe-form-f-veg,mutation_f_tag_mov_container_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+recipe-form-f-veg,mutation_f_tag_mov_container_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+recipe-form-f-veg,mutation_f_tag_mov_container_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+recipe-form-f-veg,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+recipe-form-f-veg,mutation_k_tag_ins_mut_gamma,HookXPathTest,gamma,PASSED,null
+recipe-form-f-veg,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+recipe-form-f-veg,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+recipe-form-f-veg,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+recipe-form-f-veg,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+recipe-form-f-veg,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+recipe-form-f-submit,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-recipe-form[1]/section[1]/form[1]/div[2]/div[1]/button[1]"}
+recipe-form-f-submit,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-f-submit]"}
+recipe-form-f-submit,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[@type='submit']"}
+recipe-form-f-submit,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[normalize-space()='Create recipe']"}
+recipe-form-f-submit,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+recipe-form-f-submit,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[@type='submit']"}
+recipe-form-f-submit,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".btn-primary"}
+recipe-form-f-submit,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-recipe-form[1]/section[1]/form[1]/div[2]/div[1]/button[1]"}
+recipe-form-f-submit,mutation_i_tag_rem_mut_gamma,HookXPathTest,gamma,PASSED,null
+recipe-form-f-submit,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+recipe-form-f-submit,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+recipe-form-f-submit,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+recipe-form-f-submit,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+recipe-form-f-submit,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+recipe-form-f-title,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/div[1]/main[1]/app-recipe-form[1]/section[1]/form[1]/div[1]/div[1]/div[1]/input[1] (tried for 6 second(s) with 500 milliseconds interval)
+recipe-form-f-title,mutation_j_tag_type_mod_mut_gamma,HookXPathTest,gamma,PASSED,null
+recipe-form-f-title,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+recipe-form-f-title,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+recipe-form-f-title,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+recipe-form-f-title,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+recipe-form-f-title,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+recipe-form-form-heading,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+recipe-form-form-heading,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,PASSED,null
+recipe-form-form-heading,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
+recipe-form-form-heading,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
+recipe-form-form-heading,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+recipe-form-form-heading,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
+recipe-form-form-heading,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
+recipe-form-f-title,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/div[1]/main[1]/app-recipe-form[1]/section[1]/form[1]/div[1]/div[1]/div[1]/input[1] (tried for 6 second(s) with 500 milliseconds interval)
+recipe-form-f-title,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x-test-f-title] (tried for 6 second(s) with 500 milliseconds interval)
+recipe-form-f-title,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.id: f-title (tried for 6 second(s) with 500 milliseconds interval)
+recipe-form-f-title,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id='f-title'] (tried for 6 second(s) with 500 milliseconds interval)
+recipe-form-f-title,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id='f-title'] (tried for 6 second(s) with 500 milliseconds interval)
+recipe-form-f-title,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id='f-title'] (tried for 6 second(s) with 500 milliseconds interval)
+recipe-form-f-title,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.id: f-title (tried for 6 second(s) with 500 milliseconds interval)
+recipe-form-f-steps,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_h_tag_mov_temp_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-form-heading,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_k_tag_ins_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_j_tag_type_mod_mut_epsilon,AbsoluteXPathTest,epsilon,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-recipe-form[1]/section[1]/form[1]/div[2]/div[1]/button[1]"}
+recipe-form-f-ingredients,mutation_j_tag_type_mod_mut_epsilon,HookXPathTest,epsilon,PASSED,null
+recipe-form-f-ingredients,mutation_j_tag_type_mod_mut_epsilon,KatalonXPathTest,epsilon,PASSED,null
+recipe-form-f-ingredients,mutation_j_tag_type_mod_mut_epsilon,RelativeXPathTest,epsilon,PASSED,null
+recipe-form-f-ingredients,mutation_j_tag_type_mod_mut_epsilon,RobulaPlusXPathTest,epsilon,PASSED,null
+recipe-form-f-ingredients,mutation_j_tag_type_mod_mut_epsilon,RobulaXPathTest,epsilon,PASSED,null
+recipe-form-f-ingredients,mutation_j_tag_type_mod_mut_epsilon,SeleniumXPathTest,epsilon,PASSED,null
+recipe-form-f-course,mutation_d_text_cont_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_d_text_cont_mod_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_d_text_cont_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_d_text_cont_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_d_text_cont_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_d_text_cont_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_d_text_cont_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-tags,mutation_a_attr_val_mod_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-tags,mutation_a_attr_val_mod_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-tags,mutation_a_attr_val_mod_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-tags,mutation_a_attr_val_mod_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-tags,mutation_a_attr_val_mod_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-tags,mutation_a_attr_val_mod_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-tags,mutation_a_attr_val_mod_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+recipe-form-f-steps,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,PASSED,null
+recipe-form-f-steps,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+recipe-form-f-steps,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+recipe-form-f-steps,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+recipe-form-f-steps,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+recipe-form-f-steps,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+recipe-form-f-veg,mutation_b_attr_rem_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+recipe-form-f-veg,mutation_b_attr_rem_mut_beta,HookXPathTest,beta,PASSED,null
+recipe-form-f-veg,mutation_b_attr_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
+recipe-form-f-veg,mutation_b_attr_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
+recipe-form-f-veg,mutation_b_attr_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+recipe-form-f-veg,mutation_b_attr_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
+recipe-form-f-veg,mutation_b_attr_rem_mut_beta,SeleniumXPathTest,beta,PASSED,null
+recipe-form-f-veg,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_j_tag_type_mod_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_h_tag_mov_temp_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_f_tag_mov_container_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+recipe-form-f-servings,mutation_f_tag_mov_container_mut_gamma,HookXPathTest,gamma,PASSED,null
+recipe-form-f-servings,mutation_f_tag_mov_container_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+recipe-form-f-servings,mutation_f_tag_mov_container_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+recipe-form-f-servings,mutation_f_tag_mov_container_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+recipe-form-f-servings,mutation_f_tag_mov_container_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+recipe-form-f-servings,mutation_f_tag_mov_container_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+recipe-form-f-submit,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-recipe-form[1]/section[1]/form[1]/div[2]/div[1]/button[1]"}
+recipe-form-f-submit,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,PASSED,null
+recipe-form-f-submit,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
+recipe-form-f-submit,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
+recipe-form-f-submit,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+recipe-form-f-submit,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
+recipe-form-f-submit,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
+recipe-form-f-ingredients,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_i_tag_rem_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-submit,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-submit,mutation_k_tag_ins_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-submit,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-submit,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-submit,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-submit,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-submit,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_c_attr_id_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+recipe-form-f-title,mutation_c_attr_id_mut_alpha,HookXPathTest,alpha,PASSED,null
+recipe-form-f-title,mutation_c_attr_id_mut_alpha,KatalonXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.id: f-title (tried for 6 second(s) with 500 milliseconds interval)
+recipe-form-f-title,mutation_c_attr_id_mut_alpha,RelativeXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id='f-title'] (tried for 6 second(s) with 500 milliseconds interval)
+recipe-form-f-title,mutation_c_attr_id_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id='f-title'] (tried for 6 second(s) with 500 milliseconds interval)
+recipe-form-f-title,mutation_c_attr_id_mut_alpha,RobulaXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id='f-title'] (tried for 6 second(s) with 500 milliseconds interval)
+recipe-form-f-title,mutation_c_attr_id_mut_alpha,SeleniumXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.id: f-title (tried for 6 second(s) with 500 milliseconds interval)
+recipe-form-form-heading,mutation_d_text_cont_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+recipe-form-form-heading,mutation_d_text_cont_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+recipe-form-form-heading,mutation_d_text_cont_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+recipe-form-form-heading,mutation_d_text_cont_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+recipe-form-form-heading,mutation_d_text_cont_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+recipe-form-form-heading,mutation_d_text_cont_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+recipe-form-form-heading,mutation_d_text_cont_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+recipe-form-f-tags,mutation_b_attr_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+recipe-form-f-tags,mutation_b_attr_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
+recipe-form-f-tags,mutation_b_attr_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+recipe-form-f-tags,mutation_b_attr_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+recipe-form-f-tags,mutation_b_attr_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+recipe-form-f-tags,mutation_b_attr_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+recipe-form-f-tags,mutation_b_attr_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+recipe-form-f-ingredients,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+recipe-form-f-ingredients,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,PASSED,null
+recipe-form-f-ingredients,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
+recipe-form-f-ingredients,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
+recipe-form-f-ingredients,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+recipe-form-f-ingredients,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
+recipe-form-f-ingredients,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
+recipe-form-f-submit,mutation_d_text_cont_mod_mut_alpha,AbsoluteXPathTest,alpha,FAILED,expected:<[]Create recipe> but was:<[[The following text has been mutated] ]Create recipe>
+recipe-form-f-submit,mutation_d_text_cont_mod_mut_alpha,HookXPathTest,alpha,FAILED,expected:<[]Create recipe> but was:<[[The following text has been mutated] ]Create recipe>
+recipe-form-f-submit,mutation_d_text_cont_mod_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<[]Create recipe> but was:<[[The following text has been mutated] ]Create recipe>
+recipe-form-f-submit,mutation_d_text_cont_mod_mut_alpha,RelativeXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[normalize-space()='Create recipe']"}
+recipe-form-f-submit,mutation_d_text_cont_mod_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,expected:<[]Create recipe> but was:<[[The following text has been mutated] ]Create recipe>
+recipe-form-f-submit,mutation_d_text_cont_mod_mut_alpha,RobulaXPathTest,alpha,FAILED,expected:<[]Create recipe> but was:<[[The following text has been mutated] ]Create recipe>
+recipe-form-f-submit,mutation_d_text_cont_mod_mut_alpha,SeleniumXPathTest,alpha,FAILED,expected:<[]Create recipe> but was:<[[The following text has been mutated] ]Create recipe>
+recipe-form-f-veg,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_k_tag_ins_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_b_attr_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+recipe-form-f-veg,mutation_b_attr_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
+recipe-form-f-veg,mutation_b_attr_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+recipe-form-f-veg,mutation_b_attr_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+recipe-form-f-veg,mutation_b_attr_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+recipe-form-f-veg,mutation_b_attr_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+recipe-form-f-veg,mutation_b_attr_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+recipe-form-f-servings,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+recipe-form-f-servings,mutation_k_tag_ins_mut_gamma,HookXPathTest,gamma,PASSED,null
+recipe-form-f-servings,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+recipe-form-f-servings,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+recipe-form-f-servings,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+recipe-form-f-servings,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+recipe-form-f-servings,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+recipe-form-f-steps,mutation_h_tag_mov_temp_mut_epsilon,AbsoluteXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_h_tag_mov_temp_mut_epsilon,HookXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_h_tag_mov_temp_mut_epsilon,KatalonXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_h_tag_mov_temp_mut_epsilon,RelativeXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_h_tag_mov_temp_mut_epsilon,RobulaPlusXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_h_tag_mov_temp_mut_epsilon,RobulaXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_h_tag_mov_temp_mut_epsilon,SeleniumXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-servings,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-servings,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-servings,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-servings,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-servings,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-servings,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-servings,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+recipe-form-f-ingredients,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,PASSED,null
+recipe-form-f-ingredients,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
+recipe-form-f-ingredients,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
+recipe-form-f-ingredients,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+recipe-form-f-ingredients,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
+recipe-form-f-ingredients,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
+recipe-form-f-course,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-course,mutation_h_tag_mov_temp_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-course,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-course,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-course,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-course,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-course,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-course,mutation_a_attr_val_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+recipe-form-f-course,mutation_a_attr_val_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+recipe-form-f-course,mutation_a_attr_val_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+recipe-form-f-course,mutation_a_attr_val_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+recipe-form-f-course,mutation_a_attr_val_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+recipe-form-f-course,mutation_a_attr_val_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+recipe-form-f-course,mutation_a_attr_val_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+recipe-form-f-veg,mutation_a_attr_val_mod_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+recipe-form-f-veg,mutation_a_attr_val_mod_mut_beta,HookXPathTest,beta,PASSED,null
+recipe-form-f-veg,mutation_a_attr_val_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
+recipe-form-f-veg,mutation_a_attr_val_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
+recipe-form-f-veg,mutation_a_attr_val_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+recipe-form-f-veg,mutation_a_attr_val_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
+recipe-form-f-veg,mutation_a_attr_val_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
+recipe-form-f-title,mutation_f_tag_mov_container_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+recipe-form-f-title,mutation_f_tag_mov_container_mut_beta,HookXPathTest,beta,PASSED,null
+recipe-form-f-title,mutation_f_tag_mov_container_mut_beta,KatalonXPathTest,beta,PASSED,null
+recipe-form-f-title,mutation_f_tag_mov_container_mut_beta,RelativeXPathTest,beta,PASSED,null
+recipe-form-f-title,mutation_f_tag_mov_container_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+recipe-form-f-title,mutation_f_tag_mov_container_mut_beta,RobulaXPathTest,beta,PASSED,null
+recipe-form-f-title,mutation_f_tag_mov_container_mut_beta,SeleniumXPathTest,beta,PASSED,null
+recipe-form-f-steps,mutation_j_tag_type_mod_mut_epsilon,AbsoluteXPathTest,epsilon,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-recipe-form[1]/section[1]/form[1]/div[2]/div[1]/button[1]"}
+recipe-form-f-steps,mutation_j_tag_type_mod_mut_epsilon,HookXPathTest,epsilon,PASSED,null
+recipe-form-f-steps,mutation_j_tag_type_mod_mut_epsilon,KatalonXPathTest,epsilon,PASSED,null
+recipe-form-f-steps,mutation_j_tag_type_mod_mut_epsilon,RelativeXPathTest,epsilon,PASSED,null
+recipe-form-f-steps,mutation_j_tag_type_mod_mut_epsilon,RobulaPlusXPathTest,epsilon,PASSED,null
+recipe-form-f-steps,mutation_j_tag_type_mod_mut_epsilon,RobulaXPathTest,epsilon,PASSED,null
+recipe-form-f-steps,mutation_j_tag_type_mod_mut_epsilon,SeleniumXPathTest,epsilon,PASSED,null
+recipe-form-form-heading,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_f_tag_mov_container_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_f_tag_mov_container_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_a_attr_val_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+recipe-form-f-veg,mutation_a_attr_val_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+recipe-form-f-veg,mutation_a_attr_val_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+recipe-form-f-veg,mutation_a_attr_val_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+recipe-form-f-veg,mutation_a_attr_val_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+recipe-form-f-veg,mutation_a_attr_val_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+recipe-form-f-veg,mutation_a_attr_val_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+recipe-form-f-title,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/div[1]/main[1]/app-recipe-form[1]/section[1]/form[1]/div[1]/div[1]/div[1]/input[1] (tried for 6 second(s) with 500 milliseconds interval)
+recipe-form-f-title,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x-test-f-title] (tried for 6 second(s) with 500 milliseconds interval)
+recipe-form-f-title,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.id: f-title (tried for 6 second(s) with 500 milliseconds interval)
+recipe-form-f-title,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id='f-title'] (tried for 6 second(s) with 500 milliseconds interval)
+recipe-form-f-title,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id='f-title'] (tried for 6 second(s) with 500 milliseconds interval)
+recipe-form-f-title,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id='f-title'] (tried for 6 second(s) with 500 milliseconds interval)
+recipe-form-f-title,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.id: f-title (tried for 6 second(s) with 500 milliseconds interval)
+recipe-form-f-course,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-course,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-course,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-course,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-course,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-course,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-course,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_a_attr_val_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+recipe-form-f-ingredients,mutation_a_attr_val_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+recipe-form-f-ingredients,mutation_a_attr_val_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+recipe-form-f-ingredients,mutation_a_attr_val_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+recipe-form-f-ingredients,mutation_a_attr_val_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+recipe-form-f-ingredients,mutation_a_attr_val_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+recipe-form-f-ingredients,mutation_a_attr_val_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+recipe-form-f-ingredients,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_f_tag_mov_container_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_f_tag_mov_container_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-title,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-title,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-title,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-title,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-title,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-title,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-title,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/div[1]/main[1]/app-recipe-form[1]/section[1]/form[1]/div[1]/div[1]/div[1]/input[1] (tried for 6 second(s) with 500 milliseconds interval)
+recipe-form-f-title,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+recipe-form-f-title,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+recipe-form-f-title,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id='f-title'] (tried for 6 second(s) with 500 milliseconds interval)
+recipe-form-f-title,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+recipe-form-f-title,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id='f-title'] (tried for 6 second(s) with 500 milliseconds interval)
+recipe-form-f-title,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+recipe-form-form-heading,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+recipe-form-form-heading,mutation_i_tag_rem_mut_gamma,HookXPathTest,gamma,PASSED,null
+recipe-form-form-heading,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+recipe-form-form-heading,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+recipe-form-form-heading,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+recipe-form-form-heading,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+recipe-form-form-heading,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+recipe-form-f-ingredients,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_j_tag_type_mod_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_h_tag_mov_temp_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_d_text_cont_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_d_text_cont_mod_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_d_text_cont_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_d_text_cont_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_d_text_cont_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_d_text_cont_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_d_text_cont_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+recipe-form-f-tags,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
+recipe-form-f-tags,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+recipe-form-f-tags,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+recipe-form-f-tags,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+recipe-form-f-tags,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+recipe-form-f-tags,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+recipe-form-f-course,mutation_e_text_cont_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_e_text_cont_rem_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_e_text_cont_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_e_text_cont_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_e_text_cont_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_e_text_cont_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_e_text_cont_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-tags,mutation_f_tag_mov_container_mut_gamma,AbsoluteXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-recipe-form[1]/section[1]/form[1]/div[1]/div[2]/div[1]/select[1]"}
+recipe-form-f-tags,mutation_f_tag_mov_container_mut_gamma,HookXPathTest,gamma,PASSED,null
+recipe-form-f-tags,mutation_f_tag_mov_container_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+recipe-form-f-tags,mutation_f_tag_mov_container_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+recipe-form-f-tags,mutation_f_tag_mov_container_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+recipe-form-f-tags,mutation_f_tag_mov_container_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+recipe-form-f-tags,mutation_f_tag_mov_container_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+recipe-form-f-submit,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-submit,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-submit,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-submit,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-submit,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-submit,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-submit,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_i_tag_rem_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_c_attr_id_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+recipe-form-f-course,mutation_c_attr_id_mut_alpha,HookXPathTest,alpha,PASSED,null
+recipe-form-f-course,mutation_c_attr_id_mut_alpha,KatalonXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":"#f\-course"}
+recipe-form-f-course,mutation_c_attr_id_mut_alpha,RelativeXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//select[@id='f-course']"}
+recipe-form-f-course,mutation_c_attr_id_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@id='f-course']"}
+recipe-form-f-course,mutation_c_attr_id_mut_alpha,RobulaXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//select[@id='f-course']"}
+recipe-form-f-course,mutation_c_attr_id_mut_alpha,SeleniumXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":"#f\-course"}
+recipe-form-f-tags,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+recipe-form-f-tags,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,PASSED,null
+recipe-form-f-tags,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
+recipe-form-f-tags,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
+recipe-form-f-tags,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+recipe-form-f-tags,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
+recipe-form-f-tags,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
+recipe-form-f-title,mutation_a_attr_val_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+recipe-form-f-title,mutation_a_attr_val_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+recipe-form-f-title,mutation_a_attr_val_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+recipe-form-f-title,mutation_a_attr_val_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+recipe-form-f-title,mutation_a_attr_val_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+recipe-form-f-title,mutation_a_attr_val_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+recipe-form-f-title,mutation_a_attr_val_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+recipe-form-f-tags,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+recipe-form-f-tags,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,PASSED,null
+recipe-form-f-tags,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
+recipe-form-f-tags,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
+recipe-form-f-tags,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+recipe-form-f-tags,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
+recipe-form-f-tags,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
+recipe-form-f-course,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-recipe-form[1]/section[1]/form[1]/div[1]/div[2]/div[1]/select[1]"}
+recipe-form-f-course,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,PASSED,null
+recipe-form-f-course,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
+recipe-form-f-course,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
+recipe-form-f-course,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+recipe-form-f-course,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
+recipe-form-f-course,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,PASSED,null
+recipe-form-f-ingredients,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+recipe-form-f-ingredients,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+recipe-form-f-ingredients,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+recipe-form-f-ingredients,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+recipe-form-f-ingredients,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+recipe-form-f-ingredients,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+recipe-form-f-ingredients,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+recipe-form-f-submit,mutation_b_attr_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+recipe-form-f-submit,mutation_b_attr_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
+recipe-form-f-submit,mutation_b_attr_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[@type='submit']"}
+recipe-form-f-submit,mutation_b_attr_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+recipe-form-f-submit,mutation_b_attr_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+recipe-form-f-submit,mutation_b_attr_rem_mut_alpha,RobulaXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[@type='submit']"}
+recipe-form-f-submit,mutation_b_attr_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+recipe-form-f-veg,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+recipe-form-f-veg,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,PASSED,null
+recipe-form-f-veg,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
+recipe-form-f-veg,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
+recipe-form-f-veg,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+recipe-form-f-veg,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
+recipe-form-f-veg,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,PASSED,null
+recipe-form-f-servings,mutation_c_attr_id_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+recipe-form-f-servings,mutation_c_attr_id_mut_alpha,HookXPathTest,alpha,PASSED,null
+recipe-form-f-servings,mutation_c_attr_id_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+recipe-form-f-servings,mutation_c_attr_id_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+recipe-form-f-servings,mutation_c_attr_id_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+recipe-form-f-servings,mutation_c_attr_id_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+recipe-form-f-servings,mutation_c_attr_id_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+recipe-form-f-steps,mutation_g_tag_mov_html_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_g_tag_mov_html_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_g_tag_mov_html_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_g_tag_mov_html_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_g_tag_mov_html_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_g_tag_mov_html_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_g_tag_mov_html_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_g_tag_mov_html_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+recipe-form-f-tags,mutation_g_tag_mov_html_mut_gamma,HookXPathTest,gamma,PASSED,null
+recipe-form-f-tags,mutation_g_tag_mov_html_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+recipe-form-f-tags,mutation_g_tag_mov_html_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+recipe-form-f-tags,mutation_g_tag_mov_html_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+recipe-form-f-tags,mutation_g_tag_mov_html_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+recipe-form-f-tags,mutation_g_tag_mov_html_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+recipe-form-f-steps,mutation_e_text_cont_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_e_text_cont_rem_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_e_text_cont_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_e_text_cont_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_e_text_cont_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_e_text_cont_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_e_text_cont_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-servings,mutation_g_tag_mov_html_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-servings,mutation_g_tag_mov_html_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-servings,mutation_g_tag_mov_html_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-servings,mutation_g_tag_mov_html_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-servings,mutation_g_tag_mov_html_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-servings,mutation_g_tag_mov_html_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-servings,mutation_g_tag_mov_html_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-tags,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_i_tag_rem_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_h_tag_mov_temp_mut_epsilon,AbsoluteXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_h_tag_mov_temp_mut_epsilon,HookXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_h_tag_mov_temp_mut_epsilon,KatalonXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_h_tag_mov_temp_mut_epsilon,RelativeXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_h_tag_mov_temp_mut_epsilon,RobulaPlusXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_h_tag_mov_temp_mut_epsilon,RobulaXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_h_tag_mov_temp_mut_epsilon,SeleniumXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-title,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/div[1]/main[1]/app-recipe-form[1]/section[1]/form[1]/div[1]/div[1]/div[1]/input[1] (tried for 6 second(s) with 500 milliseconds interval)
+recipe-form-f-title,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,PASSED,null
+recipe-form-f-title,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
+recipe-form-f-title,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
+recipe-form-f-title,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+recipe-form-f-title,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
+recipe-form-f-title,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
+recipe-form-f-course,mutation_g_tag_mov_html_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_g_tag_mov_html_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_g_tag_mov_html_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_g_tag_mov_html_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_g_tag_mov_html_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_g_tag_mov_html_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_g_tag_mov_html_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_k_tag_ins_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-recipe-form[1]/section[1]/form[1]/div[1]/div[2]/div[1]/select[1]"}
+recipe-form-f-course,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-f-course]"}
+recipe-form-f-course,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":"#f\-course"}
+recipe-form-f-course,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//select[@id='f-course']"}
+recipe-form-f-course,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@id='f-course']"}
+recipe-form-f-course,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//select[@id='f-course']"}
+recipe-form-f-course,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":"#f\-course"}
+recipe-form-f-veg,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+recipe-form-f-veg,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+recipe-form-f-veg,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+recipe-form-f-veg,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+recipe-form-f-veg,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+recipe-form-f-veg,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+recipe-form-f-veg,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+recipe-form-f-submit,mutation_d_text_cont_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-submit,mutation_d_text_cont_mod_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-submit,mutation_d_text_cont_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-submit,mutation_d_text_cont_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-submit,mutation_d_text_cont_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-submit,mutation_d_text_cont_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-submit,mutation_d_text_cont_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-course,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-course,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-course,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-course,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-course,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-course,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-tags,mutation_e_text_cont_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_e_text_cont_rem_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_e_text_cont_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_e_text_cont_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_e_text_cont_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_e_text_cont_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_e_text_cont_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+recipe-form-f-ingredients,mutation_i_tag_rem_mut_gamma,HookXPathTest,gamma,PASSED,null
+recipe-form-f-ingredients,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+recipe-form-f-ingredients,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+recipe-form-f-ingredients,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+recipe-form-f-ingredients,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+recipe-form-f-ingredients,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+recipe-form-f-servings,mutation_d_text_cont_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_d_text_cont_mod_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_d_text_cont_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_d_text_cont_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_d_text_cont_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_d_text_cont_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_d_text_cont_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+recipe-form-form-heading,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,PASSED,null
+recipe-form-form-heading,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
+recipe-form-form-heading,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
+recipe-form-form-heading,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+recipe-form-form-heading,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
+recipe-form-form-heading,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
+recipe-form-f-servings,mutation_f_tag_mov_container_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+recipe-form-f-servings,mutation_f_tag_mov_container_mut_beta,HookXPathTest,beta,PASSED,null
+recipe-form-f-servings,mutation_f_tag_mov_container_mut_beta,KatalonXPathTest,beta,PASSED,null
+recipe-form-f-servings,mutation_f_tag_mov_container_mut_beta,RelativeXPathTest,beta,PASSED,null
+recipe-form-f-servings,mutation_f_tag_mov_container_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+recipe-form-f-servings,mutation_f_tag_mov_container_mut_beta,RobulaXPathTest,beta,PASSED,null
+recipe-form-f-servings,mutation_f_tag_mov_container_mut_beta,SeleniumXPathTest,beta,PASSED,null
+recipe-form-f-tags,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+recipe-form-f-tags,mutation_k_tag_ins_mut_gamma,HookXPathTest,gamma,PASSED,null
+recipe-form-f-tags,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+recipe-form-f-tags,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+recipe-form-f-tags,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+recipe-form-f-tags,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+recipe-form-f-tags,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+recipe-form-f-submit,mutation_f_tag_mov_container_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/div[1]/main[1]/app-recipe-form[1]/section[1]/form[1]/div[1]/div[1]/div[1]/input[1] (tried for 6 second(s) with 500 milliseconds interval)
+recipe-form-f-submit,mutation_f_tag_mov_container_mut_gamma,HookXPathTest,gamma,PASSED,null
+recipe-form-f-submit,mutation_f_tag_mov_container_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+recipe-form-f-submit,mutation_f_tag_mov_container_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+recipe-form-f-submit,mutation_f_tag_mov_container_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+recipe-form-f-submit,mutation_f_tag_mov_container_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+recipe-form-f-submit,mutation_f_tag_mov_container_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+recipe-form-f-tags,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+recipe-form-f-tags,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,PASSED,null
+recipe-form-f-tags,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
+recipe-form-f-tags,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
+recipe-form-f-tags,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+recipe-form-f-tags,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
+recipe-form-f-tags,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,PASSED,null
+recipe-form-f-ingredients,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-form-heading,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+recipe-form-form-heading,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,PASSED,null
+recipe-form-form-heading,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+recipe-form-form-heading,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+recipe-form-form-heading,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+recipe-form-form-heading,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+recipe-form-form-heading,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+recipe-form-f-course,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-recipe-form[1]/section[1]/form[1]/div[1]/div[2]/div[1]/select[1]"}
+recipe-form-f-course,mutation_i_tag_rem_mut_gamma,HookXPathTest,gamma,PASSED,null
+recipe-form-f-course,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+recipe-form-f-course,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+recipe-form-f-course,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+recipe-form-f-course,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+recipe-form-f-course,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+recipe-form-f-tags,mutation_g_tag_mov_html_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_g_tag_mov_html_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_g_tag_mov_html_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_g_tag_mov_html_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_g_tag_mov_html_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_g_tag_mov_html_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_g_tag_mov_html_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-submit,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+recipe-form-f-submit,mutation_k_tag_ins_mut_gamma,HookXPathTest,gamma,PASSED,null
+recipe-form-f-submit,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+recipe-form-f-submit,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+recipe-form-f-submit,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+recipe-form-f-submit,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+recipe-form-f-submit,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+recipe-form-form-heading,mutation_g_tag_mov_html_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-form-heading,mutation_g_tag_mov_html_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-form-heading,mutation_g_tag_mov_html_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-form-heading,mutation_g_tag_mov_html_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-form-heading,mutation_g_tag_mov_html_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-form-heading,mutation_g_tag_mov_html_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-form-heading,mutation_g_tag_mov_html_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_c_attr_id_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+recipe-form-f-ingredients,mutation_c_attr_id_mut_alpha,HookXPathTest,alpha,PASSED,null
+recipe-form-f-ingredients,mutation_c_attr_id_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+recipe-form-f-ingredients,mutation_c_attr_id_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+recipe-form-f-ingredients,mutation_c_attr_id_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+recipe-form-f-ingredients,mutation_c_attr_id_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+recipe-form-f-ingredients,mutation_c_attr_id_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+recipe-form-f-title,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/div[1]/main[1]/app-recipe-form[1]/section[1]/form[1]/div[1]/div[1]/div[1]/input[1] (tried for 6 second(s) with 500 milliseconds interval)
+recipe-form-f-title,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,PASSED,null
+recipe-form-f-title,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
+recipe-form-f-title,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
+recipe-form-f-title,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+recipe-form-f-title,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
+recipe-form-f-title,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,PASSED,null
+recipe-form-f-steps,mutation_g_tag_mov_html_mut_epsilon,AbsoluteXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_g_tag_mov_html_mut_epsilon,HookXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_g_tag_mov_html_mut_epsilon,KatalonXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_g_tag_mov_html_mut_epsilon,RelativeXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_g_tag_mov_html_mut_epsilon,RobulaPlusXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_g_tag_mov_html_mut_epsilon,RobulaXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_g_tag_mov_html_mut_epsilon,SeleniumXPathTest,epsilon,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_i_tag_rem_mut_epsilon,AbsoluteXPathTest,epsilon,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-recipe-form[1]/section[1]/form[1]/div[2]/div[1]/button[1]"}
+recipe-form-f-steps,mutation_i_tag_rem_mut_epsilon,HookXPathTest,epsilon,PASSED,null
+recipe-form-f-steps,mutation_i_tag_rem_mut_epsilon,KatalonXPathTest,epsilon,PASSED,null
+recipe-form-f-steps,mutation_i_tag_rem_mut_epsilon,RelativeXPathTest,epsilon,PASSED,null
+recipe-form-f-steps,mutation_i_tag_rem_mut_epsilon,RobulaPlusXPathTest,epsilon,PASSED,null
+recipe-form-f-steps,mutation_i_tag_rem_mut_epsilon,RobulaXPathTest,epsilon,PASSED,null
+recipe-form-f-steps,mutation_i_tag_rem_mut_epsilon,SeleniumXPathTest,epsilon,PASSED,null
+recipe-form-f-course,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+recipe-form-f-course,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,PASSED,null
+recipe-form-f-course,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+recipe-form-f-course,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+recipe-form-f-course,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+recipe-form-f-course,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+recipe-form-f-course,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+recipe-form-form-heading,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_i_tag_rem_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-course,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+recipe-form-f-course,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,PASSED,null
+recipe-form-f-course,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
+recipe-form-f-course,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
+recipe-form-f-course,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+recipe-form-f-course,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
+recipe-form-f-course,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
+recipe-form-form-heading,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+recipe-form-form-heading,mutation_k_tag_ins_mut_gamma,HookXPathTest,gamma,PASSED,null
+recipe-form-form-heading,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+recipe-form-form-heading,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+recipe-form-form-heading,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+recipe-form-form-heading,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+recipe-form-form-heading,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+recipe-form-f-tags,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_h_tag_mov_temp_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-tags,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-servings,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-servings,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-servings,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-servings,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-servings,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-servings,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-ingredients,mutation_d_text_cont_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_d_text_cont_mod_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_d_text_cont_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_d_text_cont_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_d_text_cont_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_d_text_cont_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-ingredients,mutation_d_text_cont_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_g_tag_mov_html_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_g_tag_mov_html_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_g_tag_mov_html_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_g_tag_mov_html_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_g_tag_mov_html_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_g_tag_mov_html_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-steps,mutation_g_tag_mov_html_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-submit,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-submit,mutation_f_tag_mov_container_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-submit,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-submit,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-submit,mutation_f_tag_mov_container_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-submit,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-submit,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-servings,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-servings,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-servings,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-servings,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-servings,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-servings,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-veg,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+recipe-form-f-veg,mutation_j_tag_type_mod_mut_gamma,HookXPathTest,gamma,PASSED,null
+recipe-form-f-veg,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+recipe-form-f-veg,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+recipe-form-f-veg,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+recipe-form-f-veg,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+recipe-form-f-veg,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+recipe-form-f-veg,mutation_g_tag_mov_html_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+recipe-form-f-veg,mutation_g_tag_mov_html_mut_gamma,HookXPathTest,gamma,PASSED,null
+recipe-form-f-veg,mutation_g_tag_mov_html_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+recipe-form-f-veg,mutation_g_tag_mov_html_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+recipe-form-f-veg,mutation_g_tag_mov_html_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+recipe-form-f-veg,mutation_g_tag_mov_html_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+recipe-form-f-veg,mutation_g_tag_mov_html_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+recipe-form-f-submit,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-submit,mutation_j_tag_type_mod_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-submit,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-submit,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-submit,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-submit,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-submit,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+recipe-form-f-servings,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,PASSED,null
+recipe-form-f-servings,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
+recipe-form-f-servings,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
+recipe-form-f-servings,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+recipe-form-f-servings,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
+recipe-form-f-servings,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
+recipe-form-form-heading,mutation_e_text_cont_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_e_text_cont_rem_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_e_text_cont_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_e_text_cont_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_e_text_cont_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_e_text_cont_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-form-heading,mutation_e_text_cont_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+recipe-form-f-servings,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
+recipe-form-f-servings,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+recipe-form-f-servings,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+recipe-form-f-servings,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+recipe-form-f-servings,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+recipe-form-f-servings,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+recipe-form-f-ingredients,mutation_i_tag_rem_mut_epsilon,AbsoluteXPathTest,epsilon,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-recipe-form[1]/section[1]/form[1]/div[2]/div[1]/button[1]"}
+recipe-form-f-ingredients,mutation_i_tag_rem_mut_epsilon,HookXPathTest,epsilon,PASSED,null
+recipe-form-f-ingredients,mutation_i_tag_rem_mut_epsilon,KatalonXPathTest,epsilon,PASSED,null
+recipe-form-f-ingredients,mutation_i_tag_rem_mut_epsilon,RelativeXPathTest,epsilon,PASSED,null
+recipe-form-f-ingredients,mutation_i_tag_rem_mut_epsilon,RobulaPlusXPathTest,epsilon,PASSED,null
+recipe-form-f-ingredients,mutation_i_tag_rem_mut_epsilon,RobulaXPathTest,epsilon,PASSED,null
+recipe-form-f-ingredients,mutation_i_tag_rem_mut_epsilon,SeleniumXPathTest,epsilon,PASSED,null
+recipe-form-f-course,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-course,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-course,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-course,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-course,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-course,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-course,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+recipe-form-f-veg,mutation_g_tag_mov_html_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_g_tag_mov_html_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_g_tag_mov_html_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_g_tag_mov_html_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_g_tag_mov_html_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_g_tag_mov_html_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-veg,mutation_g_tag_mov_html_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_d_text_cont_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_d_text_cont_mod_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_d_text_cont_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_d_text_cont_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_d_text_cont_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_d_text_cont_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-title,mutation_d_text_cont_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+recipe-form-f-steps,mutation_a_attr_val_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+recipe-form-f-steps,mutation_a_attr_val_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+recipe-form-f-steps,mutation_a_attr_val_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+recipe-form-f-steps,mutation_a_attr_val_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+recipe-form-f-steps,mutation_a_attr_val_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+recipe-form-f-steps,mutation_a_attr_val_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+recipe-form-f-steps,mutation_a_attr_val_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+recipe-form-f-servings,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_i_tag_rem_mut_delta,HookXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+recipe-form-f-servings,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null

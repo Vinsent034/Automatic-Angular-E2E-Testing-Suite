@@ -1,0 +1,26 @@
+######### START 1 - a #########
+<span class="ing-name-alt" [attr.x-test-ing-name]="ingredient().id">{{ ingredient().name }}</span>
+######### END 1 - a #########
+######### START 2 - b #########
+<span [attr.x-test-ing-name]="ingredient().id">{{ ingredient().name }}</span>
+######### END 2 - b #########
+######### START 3 - c #########
+<span data-name="ing-name" [attr.x-test-ing-name]="ingredient().id">{{ ingredient().name }}</span>
+######### END 3 - c #########
+######### START 4 - d #########
+<span class="ing-name" [attr.x-test-ing-name]="ingredient().id">Ingredient</span>
+######### END 4 - d #########
+######### START 5 - e #########
+<span class="ing-name" [attr.x-test-ing-name]="ingredient().id"> </span>
+######### END 5 - e #########
+######### START 6 - i #########
+{{ ingredient().name }}
+######### END 6 - i #########
+######### START 7 - j #########
+<strong class="ing-name" [attr.x-test-ing-name]="ingredient().id">{{ ingredient().name }}</strong>
+######### END 7 - j #########
+######### START 8 - k #########
+<span>
+  <span class="ing-name" [attr.x-test-ing-name]="ingredient().id">{{ ingredient().name }}</span>
+</span>
+######### END 8 - k #########

@@ -1,0 +1,36 @@
+######### START 1 - a #########
+<div class="control-alt">
+          <input id="f-servings" name="servings" class="input" type="number" min="1" max="24" [(ngModel)]="servings" x-test-f-servings>
+          <small class="help">base for the quantities</small>
+        </div>
+######### END 1 - a #########
+######### START 2 - b #########
+<div>
+          <input id="f-servings" name="servings" class="input" type="number" min="1" max="24" [(ngModel)]="servings" x-test-f-servings>
+          <small class="help">base for the quantities</small>
+        </div>
+######### END 2 - b #########
+######### START 3 - c #########
+<div data-control="control">
+          <input id="f-servings" name="servings" class="input" type="number" min="1" max="24" [(ngModel)]="servings" x-test-f-servings>
+          <small class="help">base for the quantities</small>
+        </div>
+######### END 3 - c #########
+######### START 4 - i #########
+<input id="f-servings" name="servings" class="input" type="number" min="1" max="24" [(ngModel)]="servings" x-test-f-servings>
+          <small class="help">base for the quantities</small>
+######### END 4 - i #########
+######### START 5 - j #########
+<section class="control">
+          <input id="f-servings" name="servings" class="input" type="number" min="1" max="24" [(ngModel)]="servings" x-test-f-servings>
+          <small class="help">base for the quantities</small>
+        </section>
+######### END 5 - j #########
+######### START 6 - k #########
+<div>
+  <div class="control">
+          <input id="f-servings" name="servings" class="input" type="number" min="1" max="24" [(ngModel)]="servings" x-test-f-servings>
+          <small class="help">base for the quantities</small>
+        </div>
+</div>
+######### END 6 - k #########

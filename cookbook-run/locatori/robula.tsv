@@ -1,0 +1,19 @@
+Name	Robula	RobulaPlus
+S1_Search	//input[@id='search-input']	//*[@id='search-input']
+S1_Card	//div[@class='card-inner']	//*[@class='card-inner']
+S1_CardTitle	//h2	//h2
+S2_VegOnly	//input[@id='veg-only']	//*[@id='veg-only']
+S2_CourseFilter	//select[@id='course-filter']	//*[@id='course-filter']
+S2_ResultCount	//span[@data-kind='filtered']	//*[@data-kind='filtered']
+S3_DetailTitle	//h1	//h1
+S3_Servings	//input	//input
+S3_IngQty	//div[@data-ingredient-id='1']/*/span[@class='ing-qty']	//*[contains(text(),'400')]
+S4_FormTitle	//input[@id='f-title']	//*[@id='f-title']
+S4_FormCourse	//select[@id='f-course']	//*[@id='f-course']
+S4_FormSubmit	//button[@type='submit']	//*[contains(text(),'Create recipe')]
+S5_OpenCount	//span[@data-kind='open']	//*[@data-kind='open']
+S5_ShopCheck	//input[@aria-label='Bought Arborio rice']	//*[@aria-label='Bought Arborio rice']
+S5_ClearDone	//button[@class='btn']	//*[contains(text(),'Clear bought items')]
+S6_StatTotal	//div[@data-stat='total']/*/span[@class='stat-value']	//*[@class='stat-body']/*[contains(text(),'8')]
+S6_CourseCountMain	//div[@data-course='main']/span[@class='course-count']	//*[@data-course='main']/*[@class='course-count']
+S6_FooterVersion	//span[@class='footer-version']	//*[contains(text(),'v1.0')]

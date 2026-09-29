@@ -1,0 +1,26 @@
+######### START 1 - a #########
+<span class="detail-course-alt">{{ recipe.course }}</span>
+######### END 1 - a #########
+######### START 2 - b #########
+<span>{{ recipe.course }}</span>
+######### END 2 - b #########
+######### START 3 - c #########
+<span data-course="detail-course">{{ recipe.course }}</span>
+######### END 3 - c #########
+######### START 4 - d #########
+<span class="detail-course">Main</span>
+######### END 4 - d #########
+######### START 5 - e #########
+<span class="detail-course"> </span>
+######### END 5 - e #########
+######### START 6 - i #########
+{{ recipe.course }}
+######### END 6 - i #########
+######### START 7 - j #########
+<small class="detail-course">{{ recipe.course }}</small>
+######### END 7 - j #########
+######### START 8 - k #########
+<span>
+  <span class="detail-course">{{ recipe.course }}</span>
+</span>
+######### END 8 - k #########

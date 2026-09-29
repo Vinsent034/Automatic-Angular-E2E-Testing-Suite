@@ -1,0 +1,17 @@
+######### START 1 - a #########
+<input id="f-servings" name="servings" class="input input-sm" type="number" min="1" max="24" [(ngModel)]="servings" x-test-f-servings>
+######### END 1 - a #########
+######### START 2 - b #########
+<input id="f-servings" name="servings" class="input" type="number" max="24" [(ngModel)]="servings" x-test-f-servings>
+######### END 2 - b #########
+######### START 3 - c #########
+<input id="f-servings" name="servings" data-input="input" type="number" min="1" max="24" [(ngModel)]="servings" x-test-f-servings>
+######### END 3 - c #########
+######### START 4 - j #########
+<textarea id="f-servings" name="servings" class="input" type="number" min="1" max="24" [(ngModel)]="servings" x-test-f-servings></textarea>
+######### END 4 - j #########
+######### START 5 - k #########
+<div>
+  <input id="f-servings" name="servings" class="input" type="number" min="1" max="24" [(ngModel)]="servings" x-test-f-servings>
+</div>
+######### END 5 - k #########

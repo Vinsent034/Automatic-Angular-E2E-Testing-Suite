@@ -1,0 +1,32 @@
+######### START 1 - a #########
+<div class="toolbar-group toolbar-info-box" x-test-toolbar-info>
+      <span class="matching-label" x-test-matching-label>Matching</span>
+      <span class="badge badge-filtered" data-kind="filtered" x-test-filtered-count>{{ store.filteredCount() }}</span>
+    </div>
+######### END 1 - a #########
+######### START 1 - b #########
+<div x-test-toolbar-info>
+      <span class="matching-label" x-test-matching-label>Matching</span>
+      <span class="badge badge-filtered" data-kind="filtered" x-test-filtered-count>{{ store.filteredCount() }}</span>
+    </div>
+######### END 1 - b #########
+######### START 1 - c #########
+<div data-class="toolbar-group toolbar-info" x-test-toolbar-info>
+      <span class="matching-label" x-test-matching-label>Matching</span>
+      <span class="badge badge-filtered" data-kind="filtered" x-test-filtered-count>{{ store.filteredCount() }}</span>
+    </div>
+######### END 1 - c #########
+######### START 1 - j #########
+<section class="toolbar-group toolbar-info" x-test-toolbar-info>
+      <span class="matching-label" x-test-matching-label>Matching</span>
+      <span class="badge badge-filtered" data-kind="filtered" x-test-filtered-count>{{ store.filteredCount() }}</span>
+    </section>
+######### END 1 - j #########
+######### START 1 - k #########
+<div class="toolbar-group-wrap">
+  <div class="toolbar-group toolbar-info" x-test-toolbar-info>
+      <span class="matching-label" x-test-matching-label>Matching</span>
+      <span class="badge badge-filtered" data-kind="filtered" x-test-filtered-count>{{ store.filteredCount() }}</span>
+    </div>
+</div>
+######### END 1 - k #########

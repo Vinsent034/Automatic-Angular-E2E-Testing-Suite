@@ -1,0 +1,23 @@
+######### START 1 - a #########
+<span class="summary-value-alt" data-kind="done" x-test-done-count>{{ store.shoppingDoneCount() }}</span>
+######### END 1 - a #########
+######### START 2 - b #########
+<span class="summary-value" x-test-done-count>{{ store.shoppingDoneCount() }}</span>
+######### END 2 - b #########
+######### START 3 - c #########
+<span data-value="summary-value" data-kind="done" x-test-done-count>{{ store.shoppingDoneCount() }}</span>
+######### END 3 - c #########
+######### START 4 - d #########
+<span class="summary-value" data-kind="done" x-test-done-count>0</span>
+######### END 4 - d #########
+######### START 5 - e #########
+<span class="summary-value" data-kind="done" x-test-done-count> </span>
+######### END 5 - e #########
+######### START 6 - j #########
+<strong class="summary-value" data-kind="done" x-test-done-count>{{ store.shoppingDoneCount() }}</strong>
+######### END 6 - j #########
+######### START 7 - k #########
+<span>
+  <span class="summary-value" data-kind="done" x-test-done-count>{{ store.shoppingDoneCount() }}</span>
+</span>
+######### END 7 - k #########

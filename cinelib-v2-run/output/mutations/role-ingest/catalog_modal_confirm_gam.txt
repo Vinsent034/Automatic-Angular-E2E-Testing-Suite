@@ -1,0 +1,62 @@
+######### START 1 - a #########
+<div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="reset-title" x-test-reset-modal>
+      <h2 id="reset-title" class="modal-title" x-test-modal-title>Reset catalog?</h2>
+      <p class="modal-body" x-test-modal-body>
+        This restores the original sample movies and discards every change, favorite and review.
+      </p>
+      <div class="modal-actions">
+        <button type="button" class="btn btn-danger" (click)="confirmReset()" x-test-modal-confirm>Reset</button>
+        <button type="button" class="btn" (click)="cancelReset()" x-test-modal-cancel>Cancel</button>
+      </div>
+    </div>
+######### END 1 - a #########
+######### START 1 - b #########
+<div class="modal" role="dialog" aria-modal="true" x-test-reset-modal>
+      <h2 id="reset-title" class="modal-title" x-test-modal-title>Reset catalog?</h2>
+      <p class="modal-body" x-test-modal-body>
+        This restores the original sample movies and discards every change, favorite and review.
+      </p>
+      <div class="modal-actions">
+        <button type="button" class="btn btn-danger" (click)="confirmReset()" x-test-modal-confirm>Reset</button>
+        <button type="button" class="btn" (click)="cancelReset()" x-test-modal-cancel>Cancel</button>
+      </div>
+    </div>
+######### END 1 - b #########
+######### START 1 - c #########
+<div class="modal" role="dialog" aria-modal="true" data-labelledby="reset-title" x-test-reset-modal>
+      <h2 id="reset-title" class="modal-title" x-test-modal-title>Reset catalog?</h2>
+      <p class="modal-body" x-test-modal-body>
+        This restores the original sample movies and discards every change, favorite and review.
+      </p>
+      <div class="modal-actions">
+        <button type="button" class="btn btn-danger" (click)="confirmReset()" x-test-modal-confirm>Reset</button>
+        <button type="button" class="btn" (click)="cancelReset()" x-test-modal-cancel>Cancel</button>
+      </div>
+    </div>
+######### END 1 - c #########
+######### START 1 - j #########
+<section class="modal" role="dialog" aria-modal="true" aria-labelledby="reset-title" x-test-reset-modal>
+      <h2 id="reset-title" class="modal-title" x-test-modal-title>Reset catalog?</h2>
+      <p class="modal-body" x-test-modal-body>
+        This restores the original sample movies and discards every change, favorite and review.
+      </p>
+      <div class="modal-actions">
+        <button type="button" class="btn btn-danger" (click)="confirmReset()" x-test-modal-confirm>Reset</button>
+        <button type="button" class="btn" (click)="cancelReset()" x-test-modal-cancel>Cancel</button>
+      </div>
+    </section>
+######### END 1 - j #########
+######### START 1 - k #########
+<div>
+<div class="modal" role="dialog" aria-modal="true" aria-labelledby="reset-title" x-test-reset-modal>
+      <h2 id="reset-title" class="modal-title" x-test-modal-title>Reset catalog?</h2>
+      <p class="modal-body" x-test-modal-body>
+        This restores the original sample movies and discards every change, favorite and review.
+      </p>
+      <div class="modal-actions">
+        <button type="button" class="btn btn-danger" (click)="confirmReset()" x-test-modal-confirm>Reset</button>
+        <button type="button" class="btn" (click)="cancelReset()" x-test-modal-cancel>Cancel</button>
+      </div>
+    </div>
+</div>
+######### END 1 - k #########

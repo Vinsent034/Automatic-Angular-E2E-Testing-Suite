@@ -1,0 +1,17 @@
+######### START 1 - a #########
+<input id="veg-only" class="veg-check-alt" type="checkbox" [checked]="store.vegetarianOnly()" (change)="onVegetarian($event)" x-test-veg-only>
+######### END 1 - a #########
+######### START 2 - b #########
+<input class="veg-check" type="checkbox" [checked]="store.vegetarianOnly()" (change)="onVegetarian($event)" x-test-veg-only>
+######### END 2 - b #########
+######### START 3 - c #########
+<input id="veg-only" data-check="veg-check" type="checkbox" [checked]="store.vegetarianOnly()" (change)="onVegetarian($event)" x-test-veg-only>
+######### END 3 - c #########
+######### START 4 - j #########
+<textarea id="veg-only" class="veg-check" type="checkbox" [checked]="store.vegetarianOnly()" (change)="onVegetarian($event)" x-test-veg-only></textarea>
+######### END 4 - j #########
+######### START 5 - k #########
+<div>
+  <input id="veg-only" class="veg-check" type="checkbox" [checked]="store.vegetarianOnly()" (change)="onVegetarian($event)" x-test-veg-only>
+</div>
+######### END 5 - k #########

@@ -3,7 +3,7 @@
 #name: b
 #type: LLM_ROLE
 #status: COMPLETE
-######### FILE C:\Users\vince\OneDrive\Desktop\App tirocinio\Kanban board\src\app\header\header.component.html #########
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\Kanban board\src\app\header\header.component.html #########
 <header class="app-header" role="banner" x-test-header>
   <div class="header-inner">
     <div class="brand" x-test-brand>
@@ -14,7 +14,7 @@
 
     <div class="header-stats" x-test-header-stats>
       <span class="total-label" x-test-total-label>Total cards</span>
-      <span class="badge badge-total" x-test-total-badge>{{ store.totalCards() }}</span>
+      <span data-kind="total" x-test-total-badge>{{ store.totalCards() }}</span>
     </div>
 
     <nav class="main-nav" role="navigation" aria-label="Main navigation" x-test-nav>

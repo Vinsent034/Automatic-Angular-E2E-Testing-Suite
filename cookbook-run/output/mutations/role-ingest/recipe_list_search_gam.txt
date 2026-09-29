@@ -1,0 +1,54 @@
+######### START 1 - a #########
+<div class="tool tool-search-alt">
+      <label class="field" for="search-input">
+        <span class="field-label">Search</span>
+        <input id="search-input" class="input search-input" type="text" placeholder="Search a recipe…" [value]="store.search()" (input)="onSearch($event)" x-test-search>
+        <small class="field-hint">title or tag</small>
+      </label>
+    </div>
+######### END 1 - a #########
+######### START 2 - b #########
+<div>
+      <label class="field" for="search-input">
+        <span class="field-label">Search</span>
+        <input id="search-input" class="input search-input" type="text" placeholder="Search a recipe…" [value]="store.search()" (input)="onSearch($event)" x-test-search>
+        <small class="field-hint">title or tag</small>
+      </label>
+    </div>
+######### END 2 - b #########
+######### START 3 - c #########
+<div data-tool="tool tool-search">
+      <label class="field" for="search-input">
+        <span class="field-label">Search</span>
+        <input id="search-input" class="input search-input" type="text" placeholder="Search a recipe…" [value]="store.search()" (input)="onSearch($event)" x-test-search>
+        <small class="field-hint">title or tag</small>
+      </label>
+    </div>
+######### END 3 - c #########
+######### START 4 - i #########
+<label class="field" for="search-input">
+        <span class="field-label">Search</span>
+        <input id="search-input" class="input search-input" type="text" placeholder="Search a recipe…" [value]="store.search()" (input)="onSearch($event)" x-test-search>
+        <small class="field-hint">title or tag</small>
+      </label>
+######### END 4 - i #########
+######### START 5 - j #########
+<section class="tool tool-search">
+      <label class="field" for="search-input">
+        <span class="field-label">Search</span>
+        <input id="search-input" class="input search-input" type="text" placeholder="Search a recipe…" [value]="store.search()" (input)="onSearch($event)" x-test-search>
+        <small class="field-hint">title or tag</small>
+      </label>
+    </section>
+######### END 5 - j #########
+######### START 6 - k #########
+<div>
+  <div class="tool tool-search">
+      <label class="field" for="search-input">
+        <span class="field-label">Search</span>
+        <input id="search-input" class="input search-input" type="text" placeholder="Search a recipe…" [value]="store.search()" (input)="onSearch($event)" x-test-search>
+        <small class="field-hint">title or tag</small>
+      </label>
+    </div>
+</div>
+######### END 6 - k #########

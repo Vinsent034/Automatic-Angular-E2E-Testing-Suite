@@ -1,0 +1,47 @@
+﻿# Locatori manuali CineLib v2 registrati con Vince (26/09/2026), uno per passo con foto
+# elemento	strategia	locatore	nota
+CS_Search	Selenium	css=.search-input	
+CS_Card	Selenium	css=.movie-card	generico: senza filtro trova tutte le card; nel test si conta dopo il filtro
+CS_CardTitle	Selenium	css=.card-title	
+MD_Title	Selenium	css=.detail-title	
+MD_CastRow2	Selenium	css=app-cast-row:nth-child(2) > .cast-row	primo tentativo aveva preso .cast-role, cancellato e ripetuto sul margine della riga
+MD_CastName2	Selenium	css=app-cast-row:nth-child(2) .cast-name	
+RV_Average	Selenium	css=.reviews-average	
+RV_Author1	Selenium	css=.review-item:nth-child(1) .review-author	
+RV_Submit	Selenium	css=.btn-primary	generico ma unico su /movie/3 (verificato)
+MF_Title	Selenium	id=title	
+MF_Genre	Selenium	id=genre	(registrati anche mouse down/move/up sulla tendina, stesso target)
+MF_Submit	Selenium	css=.btn-primary	generico ma unico su /movie/new (verificato)
+ST_Total	Selenium	css=.stat-card:nth-child(1) > .stat-value	
+ST_TopTitle1	Selenium	linkText=Quiet Harbor	l'elemento x-test-top-title è proprio il link <a>, quindi coincide
+ST_GenreCount1	Selenium	css=.genre-bar-row:nth-child(1) > .genre-bar-count	
+CS_Search	Relative	//input[@placeholder='Search a movie…']	SelectorsHub Rel XPath, 1 match
+CS_Card	Relative	//div[@class='movie-card movie-card-grid is-favorite']	SelectorsHub Rel XPath, 1 match nello stato filtrato; dipende da vista griglia e preferito (Quiet Harbor è preferito nei dati iniziali)
+CS_CardTitle	Relative	//h2[normalize-space()='Quiet Harbor']	SelectorsHub Rel XPath, 1 match
+MD_Title	Relative	//h1[normalize-space()='Quiet Harbor']	SelectorsHub Rel XPath, 1 match
+MD_CastName2	Relative	//span[normalize-space()='Sam Whitfield']	SelectorsHub Rel XPath, 1 match
+MD_CastRow2	Relative	//body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[2]/div[1]/app-cast-row[2]/div[1]	SelectorsHub Rel XPath (posizionale, quasi assoluto: la riga non ha attributi/testo propri), 1 match; selezionata risalendo da span.cast-name
+RV_Average	Relative	//span[@class='reviews-average']	SelectorsHub Rel XPath, 1 match
+RV_Author1	Relative	//span[normalize-space()='Dario']	SelectorsHub Rel XPath, 1 match
+RV_Submit	Relative	//button[normalize-space()='Post review']	SelectorsHub Rel XPath, 1 match
+MF_Title	Relative	//input[@id='title']	SelectorsHub Rel XPath, 1 match
+MF_Genre	Relative	//select[@id='genre']	SelectorsHub Rel XPath, 1 match
+MF_Submit	Relative	//button[normalize-space()='Create movie']	SelectorsHub Rel XPath, 1 match
+ST_Total	Relative	//span[normalize-space()='8']	SelectorsHub Rel XPath, 1 match (basato sul valore del testo)
+ST_TopTitle1	Relative	//a[normalize-space()='Quiet Harbor']	SelectorsHub Rel XPath, 1 match
+ST_GenreCount1	Relative	//div[@data-genre='Adventure']//span[@class='genre-bar-count'][normalize-space()='2']	SelectorsHub Rel XPath, 1 match
+CS_Search	Katalon	xpath=//input[@type='text']	Katalon Recorder 7.1.0, generico
+CS_Card	Katalon	xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reset catalog'])[1]/following::div[2]	ancorato al pulsante Reset catalog; verificato = x-test-card nello stato filtrato
+CS_CardTitle	Katalon	xpath=(.//*[normalize-space(text()) and normalize-space(.)='♥'])[1]/following::h2[1]	ancorato al cuore del preferito (U+2665); verificato = x-test-card-title nello stato filtrato
+MD_Title	Katalon	xpath=(.//*[normalize-space(text()) and normalize-space(.)='Q'])[1]/following::h1[1]	ancorato alla lettera Q della locandina; verificato su /movie/3
+MD_CastRow2	Katalon	xpath=(.//*[normalize-space(text()) and normalize-space(.)='Edie'])[1]/following::div[1]	ancorato al ruolo della riga precedente (Edie); verificato = seconda x-test-cast-row
+MD_CastName2	Katalon	xpath=(.//*[normalize-space(text()) and normalize-space(.)='Edie'])[1]/following::span[2]	verificato = secondo x-test-cast-name
+RV_Average	Katalon	xpath=(.//*[normalize-space(text()) and normalize-space(.)='Reviews'])[1]/following::span[1]	ancorato al titolo di sezione Reviews; verificato
+RV_Author1	Katalon	xpath=(.//*[normalize-space(text()) and normalize-space(.)='★ 4.7'])[1]/following::span[2]	ancorato alla media (U+2605); verificato = primo x-test-review-author
+RV_Submit	Katalon	xpath=//button[@type='submit']	generico ma unico su /movie/3 (verificato)
+MF_Title	Katalon	id=title	
+MF_Genre	Katalon	id=genre	
+MF_Submit	Katalon	xpath=//button[@type='submit']	generico ma unico su /movie/new (verificato)
+ST_Total	Katalon	xpath=(.//*[normalize-space(text()) and normalize-space(.)='Statistics'])[2]/following::span[1]	ancorato al titolo h1 Statistics (il [1] è il link di navigazione); verificato
+ST_TopTitle1	Katalon	link=Quiet Harbor	x-test-top-title è il link <a>
+ST_GenreCount1	Katalon	xpath=(.//*[normalize-space(text()) and normalize-space(.)='Adventure'])[1]/following::span[1]	ancorato all'etichetta Adventure

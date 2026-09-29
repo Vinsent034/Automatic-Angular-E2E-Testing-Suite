@@ -1,0 +1,30 @@
+# TARGET: ingredient-row-ing-name  ([attr.x-test-ing-name])
+# ROLE: gamma-ancestor   FILE: C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cookbook/src/app/ingredient-row/ingredient-row.component.html
+# Mutate ONLY this element. For each operator below, output the element's MUTATED outerHTML.
+# Rules: result valid Angular 19; NEVER add/remove/rename/alter any x-test* attribute;
+#        apply ONLY the requested operator; the element must really differ from the original.
+
+ROLE ELEMENT (original):
+<div class="ingredient-row" [attr.data-ingredient-id]="ingredient().id" [class.is-optional]="ingredient().optional">
+  <span class="ing-bullet" aria-hidden="true">•</span>
+  <p class="ing-line">
+    <span class="ing-qty" [attr.x-test-ing-qty]="ingredient().id">{{ store.formatQty(ingredient().quantity * store.scaleFactor()) }}</span>
+    <span class="ing-unit">{{ ingredient().unit }}</span>
+    <span class="ing-name" [attr.x-test-ing-name]="ingredient().id">{{ ingredient().name }}</span>
+    <em class="ing-optional">{{ ingredient().optional ? '(optional)' : '' }}</em>
+  </p>
+</div>
+
+OPERATORS TO APPLY (one block each, body = mutated element outerHTML):
+- a (Attribute Value Modification): Change the VALUE of an existing attribute on an element, keeping the same attribute name.  [before: <tag attr="value">text</tag> -> after: <tag attr="newValue">text</tag>]
+- b (Attribute Removal): Remove an existing (non-essential) attribute from an element.  [before: <tag attr="value">text</tag> -> after: <tag>text</tag>]
+- c (Attribute Identifier Modification): Rename an existing attribute (change the attribute name, keep its value).  [before: <tag attr="value">text</tag> -> after: <tag newAttr="value">text</tag>]
+- j (HTML Tag Type Modification): Change the tag name of an element (e.g. div -> section), keeping attributes and content.  [before: <tag attr="value">text</tag> -> after: <newTag attr="value">text</newTag>]
+- k (HTML Tag Insertion): Insert a new wrapper/container tag around an existing element (add a hierarchy level).  [before: <tag attr="value">text</tag> -> after: <wrapper>
+  <tag attr="value">text</tag>
+</wrapper>]
+
+OUTPUT FORMAT (only these blocks, {op} = operator id):
+######### START 1 - {op} #########
+<mutated element>
+######### END 1 - {op} #########

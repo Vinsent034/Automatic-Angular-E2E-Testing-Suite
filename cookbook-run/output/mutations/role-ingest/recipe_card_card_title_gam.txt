@@ -1,0 +1,54 @@
+######### START 1 - a #########
+<div class="card-title-row-main">
+          <a class="card-link" [routerLink]="['/recipe', recipe().id]">
+            <h2 class="card-title" [attr.x-test-card-title]="recipe().id">{{ recipe().title }}</h2>
+            <span class="card-course">{{ recipe().course }}</span>
+          </a>
+          <button type="button" class="fav-toggle" [attr.aria-pressed]="recipe().favorite" [attr.aria-label]="'Favorite ' + recipe().title" (click)="store.toggleFavorite(recipe().id)" [attr.x-test-card-fav]="recipe().id">♥</button>
+        </div>
+######### END 1 - a #########
+######### START 2 - b #########
+<div>
+          <a class="card-link" [routerLink]="['/recipe', recipe().id]">
+            <h2 class="card-title" [attr.x-test-card-title]="recipe().id">{{ recipe().title }}</h2>
+            <span class="card-course">{{ recipe().course }}</span>
+          </a>
+          <button type="button" class="fav-toggle" [attr.aria-pressed]="recipe().favorite" [attr.aria-label]="'Favorite ' + recipe().title" (click)="store.toggleFavorite(recipe().id)" [attr.x-test-card-fav]="recipe().id">♥</button>
+        </div>
+######### END 2 - b #########
+######### START 3 - c #########
+<div data-titlerow="card-title-row">
+          <a class="card-link" [routerLink]="['/recipe', recipe().id]">
+            <h2 class="card-title" [attr.x-test-card-title]="recipe().id">{{ recipe().title }}</h2>
+            <span class="card-course">{{ recipe().course }}</span>
+          </a>
+          <button type="button" class="fav-toggle" [attr.aria-pressed]="recipe().favorite" [attr.aria-label]="'Favorite ' + recipe().title" (click)="store.toggleFavorite(recipe().id)" [attr.x-test-card-fav]="recipe().id">♥</button>
+        </div>
+######### END 3 - c #########
+######### START 4 - i #########
+<a class="card-link" [routerLink]="['/recipe', recipe().id]">
+            <h2 class="card-title" [attr.x-test-card-title]="recipe().id">{{ recipe().title }}</h2>
+            <span class="card-course">{{ recipe().course }}</span>
+          </a>
+          <button type="button" class="fav-toggle" [attr.aria-pressed]="recipe().favorite" [attr.aria-label]="'Favorite ' + recipe().title" (click)="store.toggleFavorite(recipe().id)" [attr.x-test-card-fav]="recipe().id">♥</button>
+######### END 4 - i #########
+######### START 5 - j #########
+<header class="card-title-row">
+          <a class="card-link" [routerLink]="['/recipe', recipe().id]">
+            <h2 class="card-title" [attr.x-test-card-title]="recipe().id">{{ recipe().title }}</h2>
+            <span class="card-course">{{ recipe().course }}</span>
+          </a>
+          <button type="button" class="fav-toggle" [attr.aria-pressed]="recipe().favorite" [attr.aria-label]="'Favorite ' + recipe().title" (click)="store.toggleFavorite(recipe().id)" [attr.x-test-card-fav]="recipe().id">♥</button>
+        </header>
+######### END 5 - j #########
+######### START 6 - k #########
+<div>
+  <div class="card-title-row">
+          <a class="card-link" [routerLink]="['/recipe', recipe().id]">
+            <h2 class="card-title" [attr.x-test-card-title]="recipe().id">{{ recipe().title }}</h2>
+            <span class="card-course">{{ recipe().course }}</span>
+          </a>
+          <button type="button" class="fav-toggle" [attr.aria-pressed]="recipe().favorite" [attr.aria-label]="'Favorite ' + recipe().title" (click)="store.toggleFavorite(recipe().id)" [attr.x-test-card-fav]="recipe().id">♥</button>
+        </div>
+</div>
+######### END 6 - k #########

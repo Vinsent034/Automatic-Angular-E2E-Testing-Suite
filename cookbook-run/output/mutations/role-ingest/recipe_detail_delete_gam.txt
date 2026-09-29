@@ -1,0 +1,72 @@
+######### START 1 - a #########
+<footer class="detail-actions-main">
+      <div class="action-group">
+        <button type="button" class="btn btn-primary" (click)="store.addToShopping(recipe.id)" x-test-add-shopping>Add to shopping list</button>
+        <span class="action-note">{{ store.servingsShown() }} servings</span>
+      </div>
+      <div class="action-group">
+        <a class="btn" [routerLink]="['/recipe', recipe.id, 'edit']">Edit</a>
+        <button type="button" class="btn btn-danger" (click)="deleteAndGoBack(recipe.id)" x-test-delete>Delete recipe</button>
+      </div>
+    </footer>
+######### END 1 - a #########
+######### START 2 - b #########
+<footer>
+      <div class="action-group">
+        <button type="button" class="btn btn-primary" (click)="store.addToShopping(recipe.id)" x-test-add-shopping>Add to shopping list</button>
+        <span class="action-note">{{ store.servingsShown() }} servings</span>
+      </div>
+      <div class="action-group">
+        <a class="btn" [routerLink]="['/recipe', recipe.id, 'edit']">Edit</a>
+        <button type="button" class="btn btn-danger" (click)="deleteAndGoBack(recipe.id)" x-test-delete>Delete recipe</button>
+      </div>
+    </footer>
+######### END 2 - b #########
+######### START 3 - c #########
+<footer data-footer="detail-actions">
+      <div class="action-group">
+        <button type="button" class="btn btn-primary" (click)="store.addToShopping(recipe.id)" x-test-add-shopping>Add to shopping list</button>
+        <span class="action-note">{{ store.servingsShown() }} servings</span>
+      </div>
+      <div class="action-group">
+        <a class="btn" [routerLink]="['/recipe', recipe.id, 'edit']">Edit</a>
+        <button type="button" class="btn btn-danger" (click)="deleteAndGoBack(recipe.id)" x-test-delete>Delete recipe</button>
+      </div>
+    </footer>
+######### END 3 - c #########
+######### START 4 - i #########
+<div class="action-group">
+        <button type="button" class="btn btn-primary" (click)="store.addToShopping(recipe.id)" x-test-add-shopping>Add to shopping list</button>
+        <span class="action-note">{{ store.servingsShown() }} servings</span>
+      </div>
+      <div class="action-group">
+        <a class="btn" [routerLink]="['/recipe', recipe.id, 'edit']">Edit</a>
+        <button type="button" class="btn btn-danger" (click)="deleteAndGoBack(recipe.id)" x-test-delete>Delete recipe</button>
+      </div>
+######### END 4 - i #########
+######### START 5 - j #########
+<section class="detail-actions">
+      <div class="action-group">
+        <button type="button" class="btn btn-primary" (click)="store.addToShopping(recipe.id)" x-test-add-shopping>Add to shopping list</button>
+        <span class="action-note">{{ store.servingsShown() }} servings</span>
+      </div>
+      <div class="action-group">
+        <a class="btn" [routerLink]="['/recipe', recipe.id, 'edit']">Edit</a>
+        <button type="button" class="btn btn-danger" (click)="deleteAndGoBack(recipe.id)" x-test-delete>Delete recipe</button>
+      </div>
+    </section>
+######### END 5 - j #########
+######### START 6 - k #########
+<div>
+  <footer class="detail-actions">
+      <div class="action-group">
+        <button type="button" class="btn btn-primary" (click)="store.addToShopping(recipe.id)" x-test-add-shopping>Add to shopping list</button>
+        <span class="action-note">{{ store.servingsShown() }} servings</span>
+      </div>
+      <div class="action-group">
+        <a class="btn" [routerLink]="['/recipe', recipe.id, 'edit']">Edit</a>
+        <button type="button" class="btn btn-danger" (click)="deleteAndGoBack(recipe.id)" x-test-delete>Delete recipe</button>
+      </div>
+    </footer>
+</div>
+######### END 6 - k #########

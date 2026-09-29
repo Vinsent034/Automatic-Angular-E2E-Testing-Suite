@@ -1,0 +1,36 @@
+######### START 1 - a #########
+<p class="summary-line-alt">
+      <span class="summary-value" data-kind="open" x-test-open-count>{{ store.shoppingOpenCount() }}</span>
+      <span class="summary-label">to buy</span>
+    </p>
+######### END 1 - a #########
+######### START 2 - b #########
+<p>
+      <span class="summary-value" data-kind="open" x-test-open-count>{{ store.shoppingOpenCount() }}</span>
+      <span class="summary-label">to buy</span>
+    </p>
+######### END 2 - b #########
+######### START 3 - c #########
+<p data-line="summary-line">
+      <span class="summary-value" data-kind="open" x-test-open-count>{{ store.shoppingOpenCount() }}</span>
+      <span class="summary-label">to buy</span>
+    </p>
+######### END 3 - c #########
+######### START 4 - i #########
+<span class="summary-value" data-kind="open" x-test-open-count>{{ store.shoppingOpenCount() }}</span>
+      <span class="summary-label">to buy</span>
+######### END 4 - i #########
+######### START 5 - j #########
+<div class="summary-line">
+      <span class="summary-value" data-kind="open" x-test-open-count>{{ store.shoppingOpenCount() }}</span>
+      <span class="summary-label">to buy</span>
+    </div>
+######### END 5 - j #########
+######### START 6 - k #########
+<div>
+  <p class="summary-line">
+      <span class="summary-value" data-kind="open" x-test-open-count>{{ store.shoppingOpenCount() }}</span>
+      <span class="summary-label">to buy</span>
+    </p>
+</div>
+######### END 6 - k #########

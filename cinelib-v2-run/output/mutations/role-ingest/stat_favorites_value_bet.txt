@@ -1,0 +1,32 @@
+######### START 1 - a #########
+<div class="stat-box" x-test-stat-favorites>
+      <span class="stat-value" x-test-stat-favorites-value>{{ favoriteCount() }}</span>
+      <span class="stat-label">Favorites</span>
+    </div>
+######### END 1 - a #########
+######### START 1 - b #########
+<div x-test-stat-favorites>
+      <span class="stat-value" x-test-stat-favorites-value>{{ favoriteCount() }}</span>
+      <span class="stat-label">Favorites</span>
+    </div>
+######### END 1 - b #########
+######### START 1 - c #########
+<div data-card="stat-card" x-test-stat-favorites>
+      <span class="stat-value" x-test-stat-favorites-value>{{ favoriteCount() }}</span>
+      <span class="stat-label">Favorites</span>
+    </div>
+######### END 1 - c #########
+######### START 1 - j #########
+<section class="stat-card" x-test-stat-favorites>
+      <span class="stat-value" x-test-stat-favorites-value>{{ favoriteCount() }}</span>
+      <span class="stat-label">Favorites</span>
+    </section>
+######### END 1 - j #########
+######### START 1 - k #########
+<div>
+<div class="stat-card" x-test-stat-favorites>
+      <span class="stat-value" x-test-stat-favorites-value>{{ favoriteCount() }}</span>
+      <span class="stat-label">Favorites</span>
+    </div>
+</div>
+######### END 1 - k #########

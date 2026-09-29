@@ -1,0 +1,56 @@
+{
+ "S6_StatTotal": {
+  "Absolute": {
+   "count": 1,
+   "same": true
+  },
+  "Robula": {
+   "count": 1,
+   "same": true
+  },
+  "RobulaPlus": {
+   "count": 1,
+   "same": true
+  },
+  "HookBased": {
+   "count": 1,
+   "same": true
+  }
+ },
+ "S6_CourseCountMain": {
+  "Absolute": {
+   "count": 1,
+   "same": true
+  },
+  "Robula": {
+   "count": 1,
+   "same": true
+  },
+  "RobulaPlus": {
+   "count": 1,
+   "same": true
+  },
+  "HookBased": {
+   "count": 1,
+   "same": true
+  }
+ },
+ "S6_FooterVersion": {
+  "Absolute": {
+   "count": 1,
+   "same": true
+  },
+  "Robula": {
+   "count": 1,
+   "same": true
+  },
+  "RobulaPlus": {
+   "count": 1,
+   "same": true
+  },
+  "HookBased": {
+   "count": 1,
+   "same": true
+  }
+ }
+}

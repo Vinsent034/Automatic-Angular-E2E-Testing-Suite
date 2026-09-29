@@ -1,0 +1,57 @@
+######### START 1 - a #########
+<div class="ingredient-container" [attr.data-ingredient-id]="ingredient().id" [class.is-optional]="ingredient().optional">
+  <span class="ing-bullet" aria-hidden="true">•</span>
+  <p class="ing-line">
+    <span class="ing-qty" [attr.x-test-ing-qty]="ingredient().id">{{ store.formatQty(ingredient().quantity * store.scaleFactor()) }}</span>
+    <span class="ing-unit">{{ ingredient().unit }}</span>
+    <span class="ing-name" [attr.x-test-ing-name]="ingredient().id">{{ ingredient().name }}</span>
+    <em class="ing-optional">{{ ingredient().optional ? '(optional)' : '' }}</em>
+  </p>
+</div>
+######### END 1 - a #########
+######### START 2 - b #########
+<div [attr.data-ingredient-id]="ingredient().id" [class.is-optional]="ingredient().optional">
+  <span class="ing-bullet" aria-hidden="true">•</span>
+  <p class="ing-line">
+    <span class="ing-qty" [attr.x-test-ing-qty]="ingredient().id">{{ store.formatQty(ingredient().quantity * store.scaleFactor()) }}</span>
+    <span class="ing-unit">{{ ingredient().unit }}</span>
+    <span class="ing-name" [attr.x-test-ing-name]="ingredient().id">{{ ingredient().name }}</span>
+    <em class="ing-optional">{{ ingredient().optional ? '(optional)' : '' }}</em>
+  </p>
+</div>
+######### END 2 - b #########
+######### START 3 - c #########
+<div data-row="ingredient-row" [attr.data-ingredient-id]="ingredient().id" [class.is-optional]="ingredient().optional">
+  <span class="ing-bullet" aria-hidden="true">•</span>
+  <p class="ing-line">
+    <span class="ing-qty" [attr.x-test-ing-qty]="ingredient().id">{{ store.formatQty(ingredient().quantity * store.scaleFactor()) }}</span>
+    <span class="ing-unit">{{ ingredient().unit }}</span>
+    <span class="ing-name" [attr.x-test-ing-name]="ingredient().id">{{ ingredient().name }}</span>
+    <em class="ing-optional">{{ ingredient().optional ? '(optional)' : '' }}</em>
+  </p>
+</div>
+######### END 3 - c #########
+######### START 4 - j #########
+<section class="ingredient-row" [attr.data-ingredient-id]="ingredient().id" [class.is-optional]="ingredient().optional">
+  <span class="ing-bullet" aria-hidden="true">•</span>
+  <p class="ing-line">
+    <span class="ing-qty" [attr.x-test-ing-qty]="ingredient().id">{{ store.formatQty(ingredient().quantity * store.scaleFactor()) }}</span>
+    <span class="ing-unit">{{ ingredient().unit }}</span>
+    <span class="ing-name" [attr.x-test-ing-name]="ingredient().id">{{ ingredient().name }}</span>
+    <em class="ing-optional">{{ ingredient().optional ? '(optional)' : '' }}</em>
+  </p>
+</section>
+######### END 4 - j #########
+######### START 5 - k #########
+<div class="ingredient-row-wrap">
+  <div class="ingredient-row" [attr.data-ingredient-id]="ingredient().id" [class.is-optional]="ingredient().optional">
+  <span class="ing-bullet" aria-hidden="true">•</span>
+  <p class="ing-line">
+    <span class="ing-qty" [attr.x-test-ing-qty]="ingredient().id">{{ store.formatQty(ingredient().quantity * store.scaleFactor()) }}</span>
+    <span class="ing-unit">{{ ingredient().unit }}</span>
+    <span class="ing-name" [attr.x-test-ing-name]="ingredient().id">{{ ingredient().name }}</span>
+    <em class="ing-optional">{{ ingredient().optional ? '(optional)' : '' }}</em>
+  </p>
+</div>
+</div>
+######### END 5 - k #########

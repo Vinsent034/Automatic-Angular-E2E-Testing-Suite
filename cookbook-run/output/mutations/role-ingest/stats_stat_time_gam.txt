@@ -1,0 +1,48 @@
+######### START 1 - a #########
+<div class="stat-card-alt" data-stat="time">
+      <div class="stat-body">
+        <span class="stat-value" x-test-stat-time>{{ store.averageMinutes() }}</span>
+        <span class="stat-label">Average minutes</span>
+      </div>
+    </div>
+######### END 1 - a #########
+######### START 2 - b #########
+<div class="stat-card">
+      <div class="stat-body">
+        <span class="stat-value" x-test-stat-time>{{ store.averageMinutes() }}</span>
+        <span class="stat-label">Average minutes</span>
+      </div>
+    </div>
+######### END 2 - b #########
+######### START 3 - c #########
+<div data-card="stat-card" data-stat="time">
+      <div class="stat-body">
+        <span class="stat-value" x-test-stat-time>{{ store.averageMinutes() }}</span>
+        <span class="stat-label">Average minutes</span>
+      </div>
+    </div>
+######### END 3 - c #########
+######### START 4 - i #########
+<div class="stat-body">
+        <span class="stat-value" x-test-stat-time>{{ store.averageMinutes() }}</span>
+        <span class="stat-label">Average minutes</span>
+      </div>
+######### END 4 - i #########
+######### START 5 - j #########
+<section class="stat-card" data-stat="time">
+      <div class="stat-body">
+        <span class="stat-value" x-test-stat-time>{{ store.averageMinutes() }}</span>
+        <span class="stat-label">Average minutes</span>
+      </div>
+    </section>
+######### END 5 - j #########
+######### START 6 - k #########
+<div>
+  <div class="stat-card" data-stat="time">
+      <div class="stat-body">
+        <span class="stat-value" x-test-stat-time>{{ store.averageMinutes() }}</span>
+        <span class="stat-label">Average minutes</span>
+      </div>
+    </div>
+</div>
+######### END 6 - k #########

@@ -1,0 +1,26 @@
+######### START 1 - a #########
+<p class="page-sub-alt">Everything is kept in memory</p>
+######### END 1 - a #########
+######### START 2 - b #########
+<p>Everything is kept in memory</p>
+######### END 2 - b #########
+######### START 3 - c #########
+<p data-sub="page-sub">Everything is kept in memory</p>
+######### END 3 - c #########
+######### START 4 - d #########
+<p class="page-sub">Data lives only in memory</p>
+######### END 4 - d #########
+######### START 5 - e #########
+<p class="page-sub"> </p>
+######### END 5 - e #########
+######### START 6 - i #########
+Everything is kept in memory
+######### END 6 - i #########
+######### START 7 - j #########
+<span class="page-sub">Everything is kept in memory</span>
+######### END 7 - j #########
+######### START 8 - k #########
+<div>
+  <p class="page-sub">Everything is kept in memory</p>
+</div>
+######### END 8 - k #########

@@ -1,0 +1,68 @@
+{
+ "ST_Total": {
+  "Absolute": {
+   "count": 1,
+   "same": true,
+   "first": true
+  },
+  "Robula": {
+   "count": 1,
+   "same": true,
+   "first": true
+  },
+  "RobulaPlus": {
+   "count": 1,
+   "same": true,
+   "first": true
+  },
+  "HookBased": {
+   "count": 1,
+   "same": true,
+   "first": true
+  }
+ },
+ "ST_TopTitle1": {
+  "Absolute": {
+   "count": 1,
+   "same": true,
+   "first": true
+  },
+  "Robula": {
+   "count": 1,
+   "same": true,
+   "first": true
+  },
+  "RobulaPlus": {
+   "count": 1,
+   "same": true,
+   "first": true
+  },
+  "HookBased": {
+   "count": 1,
+   "same": true,
+   "first": true
+  }
+ },
+ "ST_GenreCount1": {
+  "Absolute": {
+   "count": 1,
+   "same": true,
+   "first": true
+  },
+  "Robula": {
+   "count": 1,
+   "same": true,
+   "first": true
+  },
+  "RobulaPlus": {
+   "count": 1,
+   "same": true,
+   "first": true
+  },
+  "HookBased": {
+   "count": 1,
+   "same": true,
+   "first": true
+  }
+ }
+}

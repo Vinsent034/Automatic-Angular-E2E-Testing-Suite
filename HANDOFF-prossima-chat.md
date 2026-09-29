@@ -1,3 +1,15 @@
+> ## ⚠️ AGGIORNAMENTO 16/09/2026 — LEGGERE PRIMA DI TUTTO
+>
+> La tesi è stata revisionata dal professore (colloquio del 15/09/2026) e il lavoro in corso è la
+> revisione, non più la sperimentazione originale. Il piano aggiornato, le decisioni prese, l'elenco
+> completo delle modifiche richieste e le trascrizioni del colloquio sono qui:
+>
+> **`Desktop/Università/App tirocinio/tesi/revisione-2026-09/PIANO-REVISIONE.md`**
+>
+> I percorsi scritti nel resto di questo file sono **obsoleti**: tutto si è spostato sotto
+> `Desktop/Università/` (tesi in `App tirocinio/tesi/`, progetto in `Tirocinio/progetto/`).
+> Il contenuto tecnico resta valido.
+
 # HANDOFF — stato del lavoro e cosa fare nella prossima sessione
 
 > Leggi tutto prima di toccare qualcosa. Questo file è la memoria tra una chat e l'altra.

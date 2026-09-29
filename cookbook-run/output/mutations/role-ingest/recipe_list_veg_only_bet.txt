@@ -1,0 +1,36 @@
+######### START 1 - a #########
+<label class="check-alt" for="veg-only">
+        <input id="veg-only" class="veg-check" type="checkbox" [checked]="store.vegetarianOnly()" (change)="onVegetarian($event)" x-test-veg-only>
+        <span class="check-label">Vegetarian only</span>
+      </label>
+######### END 1 - a #########
+######### START 2 - b #########
+<label class="check">
+        <input id="veg-only" class="veg-check" type="checkbox" [checked]="store.vegetarianOnly()" (change)="onVegetarian($event)" x-test-veg-only>
+        <span class="check-label">Vegetarian only</span>
+      </label>
+######### END 2 - b #########
+######### START 3 - c #########
+<label data-check="check" for="veg-only">
+        <input id="veg-only" class="veg-check" type="checkbox" [checked]="store.vegetarianOnly()" (change)="onVegetarian($event)" x-test-veg-only>
+        <span class="check-label">Vegetarian only</span>
+      </label>
+######### END 3 - c #########
+######### START 4 - i #########
+<input id="veg-only" class="veg-check" type="checkbox" [checked]="store.vegetarianOnly()" (change)="onVegetarian($event)" x-test-veg-only>
+        <span class="check-label">Vegetarian only</span>
+######### END 4 - i #########
+######### START 5 - j #########
+<div class="check" for="veg-only">
+        <input id="veg-only" class="veg-check" type="checkbox" [checked]="store.vegetarianOnly()" (change)="onVegetarian($event)" x-test-veg-only>
+        <span class="check-label">Vegetarian only</span>
+      </div>
+######### END 5 - j #########
+######### START 6 - k #########
+<div>
+  <label class="check" for="veg-only">
+        <input id="veg-only" class="veg-check" type="checkbox" [checked]="store.vegetarianOnly()" (change)="onVegetarian($event)" x-test-veg-only>
+        <span class="check-label">Vegetarian only</span>
+      </label>
+</div>
+######### END 6 - k #########

@@ -1,0 +1,36 @@
+######### START 1 - a #########
+<li class="top-item-alt" [attr.data-recipe-id]="recipe.id">
+            <a class="top-link" [routerLink]="['/recipe', recipe.id]" [attr.x-test-top-title]="recipe.id">{{ recipe.title }}</a>
+            <span class="top-rating">★ {{ recipe.rating }}</span>
+          </li>
+######### END 1 - a #########
+######### START 2 - b #########
+<li class="top-item">
+            <a class="top-link" [routerLink]="['/recipe', recipe.id]" [attr.x-test-top-title]="recipe.id">{{ recipe.title }}</a>
+            <span class="top-rating">★ {{ recipe.rating }}</span>
+          </li>
+######### END 2 - b #########
+######### START 3 - c #########
+<li data-item="top-item" [attr.data-recipe-id]="recipe.id">
+            <a class="top-link" [routerLink]="['/recipe', recipe.id]" [attr.x-test-top-title]="recipe.id">{{ recipe.title }}</a>
+            <span class="top-rating">★ {{ recipe.rating }}</span>
+          </li>
+######### END 3 - c #########
+######### START 4 - i #########
+<a class="top-link" [routerLink]="['/recipe', recipe.id]" [attr.x-test-top-title]="recipe.id">{{ recipe.title }}</a>
+            <span class="top-rating">★ {{ recipe.rating }}</span>
+######### END 4 - i #########
+######### START 5 - j #########
+<div class="top-item" [attr.data-recipe-id]="recipe.id">
+            <a class="top-link" [routerLink]="['/recipe', recipe.id]" [attr.x-test-top-title]="recipe.id">{{ recipe.title }}</a>
+            <span class="top-rating">★ {{ recipe.rating }}</span>
+          </div>
+######### END 5 - j #########
+######### START 6 - k #########
+<ol>
+  <li class="top-item" [attr.data-recipe-id]="recipe.id">
+            <a class="top-link" [routerLink]="['/recipe', recipe.id]" [attr.x-test-top-title]="recipe.id">{{ recipe.title }}</a>
+            <span class="top-rating">★ {{ recipe.rating }}</span>
+          </li>
+</ol>
+######### END 6 - k #########

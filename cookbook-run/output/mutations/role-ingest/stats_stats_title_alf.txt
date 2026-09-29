@@ -1,0 +1,23 @@
+######### START 1 - a #########
+<h1 class="page-title-alt" x-test-stats-title>Statistics</h1>
+######### END 1 - a #########
+######### START 2 - b #########
+<h1 x-test-stats-title>Statistics</h1>
+######### END 2 - b #########
+######### START 3 - c #########
+<h1 data-title="page-title" x-test-stats-title>Statistics</h1>
+######### END 3 - c #########
+######### START 4 - d #########
+<h1 class="page-title" x-test-stats-title>Stats</h1>
+######### END 4 - d #########
+######### START 5 - e #########
+<h1 class="page-title" x-test-stats-title> </h1>
+######### END 5 - e #########
+######### START 6 - j #########
+<h2 class="page-title" x-test-stats-title>Statistics</h2>
+######### END 6 - j #########
+######### START 7 - k #########
+<div>
+  <h1 class="page-title" x-test-stats-title>Statistics</h1>
+</div>
+######### END 7 - k #########

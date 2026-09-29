@@ -1,0 +1,988 @@
+Name,Id,Locator,Tag,Status,Error
+shopping-list-open-count,mutation_e_text_cont_rem_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-open-count,mutation_e_text_cont_rem_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-open-count,mutation_e_text_cont_rem_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-open-count,mutation_e_text_cont_rem_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-open-count,mutation_e_text_cont_rem_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-open-count,mutation_e_text_cont_rem_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-open-count,mutation_e_text_cont_rem_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shop-check,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shop-check,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shop-check,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shop-check,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shop-check,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shop-check,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shop-check,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-open-count,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,FAILED,expected:<[2]> but was:<[to buy]>
+shopping-list-open-count,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x-test-open-count] (tried for 6 second(s) with 500 milliseconds interval)
+shopping-list-open-count,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<[2]> but was:<[to buy]>
+shopping-list-open-count,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.cssSelector: span[data-kind='open'] (tried for 6 second(s) with 500 milliseconds interval)
+shopping-list-open-count,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@data-kind='open'] (tried for 6 second(s) with 500 milliseconds interval)
+shopping-list-open-count,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //span[@data-kind='open'] (tried for 6 second(s) with 500 milliseconds interval)
+shopping-list-open-count,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.cssSelector: .summary-line:nth-child(1) > .summary-value (tried for 6 second(s) with 500 milliseconds interval)
+shopping-list-clear-done,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+shopping-list-clear-done,mutation_f_tag_mov_container_mut_delta,HookXPathTest,delta,PASSED,null
+shopping-list-clear-done,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,PASSED,null
+shopping-list-clear-done,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,PASSED,null
+shopping-list-clear-done,mutation_f_tag_mov_container_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+shopping-list-clear-done,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,PASSED,null
+shopping-list-clear-done,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,PASSED,null
+shopping-list-open-count,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-open-count,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-open-count,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-open-count,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-open-count,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-open-count,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-open-count,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shop-check,mutation_d_text_cont_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+shopping-list-shop-check,mutation_d_text_cont_mod_mut_delta,HookXPathTest,delta,PASSED,null
+shopping-list-shop-check,mutation_d_text_cont_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
+shopping-list-shop-check,mutation_d_text_cont_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
+shopping-list-shop-check,mutation_d_text_cont_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+shopping-list-shop-check,mutation_d_text_cont_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
+shopping-list-shop-check,mutation_d_text_cont_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+shopping-list-done-count,mutation_e_text_cont_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+shopping-list-done-count,mutation_e_text_cont_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
+shopping-list-done-count,mutation_e_text_cont_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+shopping-list-done-count,mutation_e_text_cont_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+shopping-list-done-count,mutation_e_text_cont_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+shopping-list-done-count,mutation_e_text_cont_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+shopping-list-done-count,mutation_e_text_cont_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+shopping-list-open-count,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,FAILED,expected:<[2]> but was:<[1]>
+shopping-list-open-count,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,PASSED,null
+shopping-list-open-count,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
+shopping-list-open-count,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
+shopping-list-open-count,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+shopping-list-open-count,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
+shopping-list-open-count,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
+shopping-list-shopping-empty,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-shopping-list[1]/section[1]/div[3]/div[1]/ul[1]/li[1]/label[1]/input[1]"}
+shopping-list-shopping-empty,mutation_j_tag_type_mod_mut_gamma,HookXPathTest,gamma,PASSED,null
+shopping-list-shopping-empty,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+shopping-list-shopping-empty,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+shopping-list-shopping-empty,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+shopping-list-shopping-empty,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+shopping-list-shopping-empty,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+shopping-list-shop-check,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+shopping-list-shop-check,mutation_k_tag_ins_mut_delta,HookXPathTest,delta,PASSED,null
+shopping-list-shop-check,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,PASSED,null
+shopping-list-shop-check,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,PASSED,null
+shopping-list-shop-check,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+shopping-list-shop-check,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,PASSED,null
+shopping-list-shop-check,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_h_tag_mov_temp_mut_delta,HookXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/div[1]/main[1]/app-shopping-list[1]/section[1]/div[2]/p[1]/span[1] (tried for 6 second(s) with 500 milliseconds interval)
+shopping-list-shopping-title,mutation_j_tag_type_mod_mut_gamma,HookXPathTest,gamma,PASSED,null
+shopping-list-shopping-title,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+shopping-list-shopping-title,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+shopping-list-shopping-title,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+shopping-list-shopping-title,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+shopping-list-shopping-title,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+shopping-list-shop-check,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shop-check,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shop-check,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shop-check,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shop-check,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shop-check,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shop-check,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shopping-title,mutation_d_text_cont_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_d_text_cont_mod_mut_delta,HookXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_d_text_cont_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_d_text_cont_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_d_text_cont_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_d_text_cont_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_d_text_cont_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+shopping-list-shopping-empty,mutation_e_text_cont_rem_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shopping-empty,mutation_e_text_cont_rem_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shopping-empty,mutation_e_text_cont_rem_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shopping-empty,mutation_e_text_cont_rem_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shopping-empty,mutation_e_text_cont_rem_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shopping-empty,mutation_e_text_cont_rem_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shopping-empty,mutation_e_text_cont_rem_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+shopping-list-open-count,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+shopping-list-open-count,mutation_i_tag_rem_mut_delta,HookXPathTest,delta,PASSED,null
+shopping-list-open-count,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+shopping-list-open-count,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+shopping-list-open-count,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+shopping-list-open-count,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+shopping-list-open-count,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+shopping-list-done-count,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+shopping-list-done-count,mutation_f_tag_mov_container_mut_delta,HookXPathTest,delta,PASSED,null
+shopping-list-done-count,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,PASSED,null
+shopping-list-done-count,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,PASSED,null
+shopping-list-done-count,mutation_f_tag_mov_container_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+shopping-list-done-count,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,PASSED,null
+shopping-list-done-count,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,PASSED,null
+shopping-list-clear-done,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-shopping-list[1]/section[1]/div[4]/div[1]/button[1]"}
+shopping-list-clear-done,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,PASSED,null
+shopping-list-clear-done,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
+shopping-list-clear-done,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
+shopping-list-clear-done,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+shopping-list-clear-done,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
+shopping-list-clear-done,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,PASSED,null
+shopping-list-open-count,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,FAILED,expected:<[2]> but was:<[1]>
+shopping-list-open-count,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x-test-open-count] (tried for 6 second(s) with 500 milliseconds interval)
+shopping-list-open-count,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,FAILED,expected:<[2]> but was:<[1]>
+shopping-list-open-count,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.cssSelector: span[data-kind='open'] (tried for 6 second(s) with 500 milliseconds interval)
+shopping-list-open-count,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@data-kind='open'] (tried for 6 second(s) with 500 milliseconds interval)
+shopping-list-open-count,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //span[@data-kind='open'] (tried for 6 second(s) with 500 milliseconds interval)
+shopping-list-open-count,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,FAILED,expected:<[2]> but was:<[1]>
+shopping-list-clear-done,mutation_e_text_cont_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+shopping-list-clear-done,mutation_e_text_cont_rem_mut_delta,HookXPathTest,delta,PASSED,null
+shopping-list-clear-done,mutation_e_text_cont_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+shopping-list-clear-done,mutation_e_text_cont_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+shopping-list-clear-done,mutation_e_text_cont_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+shopping-list-clear-done,mutation_e_text_cont_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+shopping-list-clear-done,mutation_e_text_cont_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+shopping-list-clear-done,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-shopping-list[1]/section[1]/div[4]/div[1]/button[1]"}
+shopping-list-clear-done,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,PASSED,null
+shopping-list-clear-done,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
+shopping-list-clear-done,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
+shopping-list-clear-done,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+shopping-list-clear-done,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
+shopping-list-clear-done,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
+shopping-list-shopping-empty,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+shopping-list-shopping-empty,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,PASSED,null
+shopping-list-shopping-empty,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
+shopping-list-shopping-empty,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
+shopping-list-shopping-empty,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+shopping-list-shopping-empty,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
+shopping-list-shopping-empty,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,PASSED,null
+shopping-list-clear-done,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-shopping-list[1]/section[1]/div[4]/div[1]/button[1]"}
+shopping-list-clear-done,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+shopping-list-clear-done,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+shopping-list-clear-done,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[normalize-space()='Clear bought items']"}
+shopping-list-clear-done,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+shopping-list-clear-done,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[@class='btn']"}
+shopping-list-clear-done,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+shopping-list-open-count,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+shopping-list-open-count,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,PASSED,null
+shopping-list-open-count,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
+shopping-list-open-count,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
+shopping-list-open-count,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+shopping-list-open-count,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
+shopping-list-open-count,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
+shopping-list-shop-check,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+shopping-list-shop-check,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,PASSED,null
+shopping-list-shop-check,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
+shopping-list-shop-check,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
+shopping-list-shop-check,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+shopping-list-shop-check,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
+shopping-list-shop-check,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
+shopping-list-open-count,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,FAILED,expected:<[2]> but was:<[to buy]>
+shopping-list-open-count,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x-test-open-count] (tried for 6 second(s) with 500 milliseconds interval)
+shopping-list-open-count,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<[2]> but was:<[to buy]>
+shopping-list-open-count,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.cssSelector: span[data-kind='open'] (tried for 6 second(s) with 500 milliseconds interval)
+shopping-list-open-count,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@data-kind='open'] (tried for 6 second(s) with 500 milliseconds interval)
+shopping-list-open-count,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //span[@data-kind='open'] (tried for 6 second(s) with 500 milliseconds interval)
+shopping-list-open-count,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.cssSelector: .summary-line:nth-child(1) > .summary-value (tried for 6 second(s) with 500 milliseconds interval)
+shopping-list-shop-check,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+shopping-list-shop-check,mutation_k_tag_ins_mut_gamma,HookXPathTest,gamma,PASSED,null
+shopping-list-shop-check,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+shopping-list-shop-check,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+shopping-list-shop-check,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+shopping-list-shop-check,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+shopping-list-shop-check,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+shopping-list-shopping-title,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+shopping-list-shopping-title,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,PASSED,null
+shopping-list-shopping-title,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Shopping list'])[1]/following::span[1] (tried for 6 second(s) with 500 milliseconds interval)
+shopping-list-shopping-title,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+shopping-list-shopping-title,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+shopping-list-shopping-title,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+shopping-list-shopping-title,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+shopping-list-shopping-empty,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+shopping-list-shopping-empty,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,PASSED,null
+shopping-list-shopping-empty,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,PASSED,null
+shopping-list-shopping-empty,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,PASSED,null
+shopping-list-shopping-empty,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+shopping-list-shopping-empty,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,PASSED,null
+shopping-list-shopping-empty,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,PASSED,null
+shopping-list-clear-done,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-shopping-list[1]/section[1]/div[4]/div[1]/button[1]"}
+shopping-list-clear-done,mutation_j_tag_type_mod_mut_gamma,HookXPathTest,gamma,PASSED,null
+shopping-list-clear-done,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+shopping-list-clear-done,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+shopping-list-clear-done,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+shopping-list-clear-done,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+shopping-list-clear-done,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+shopping-list-done-count,mutation_d_text_cont_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+shopping-list-done-count,mutation_d_text_cont_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+shopping-list-done-count,mutation_d_text_cont_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+shopping-list-done-count,mutation_d_text_cont_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+shopping-list-done-count,mutation_d_text_cont_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+shopping-list-done-count,mutation_d_text_cont_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+shopping-list-done-count,mutation_d_text_cont_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+shopping-list-shop-check,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+shopping-list-shop-check,mutation_f_tag_mov_container_mut_delta,HookXPathTest,delta,PASSED,null
+shopping-list-shop-check,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,PASSED,null
+shopping-list-shop-check,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,PASSED,null
+shopping-list-shop-check,mutation_f_tag_mov_container_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+shopping-list-shop-check,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,PASSED,null
+shopping-list-shop-check,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,PASSED,null
+shopping-list-open-count,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+shopping-list-open-count,mutation_j_tag_type_mod_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+shopping-list-open-count,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+shopping-list-open-count,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+shopping-list-open-count,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+shopping-list-open-count,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+shopping-list-open-count,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+shopping-list-open-count,mutation_b_attr_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+shopping-list-open-count,mutation_b_attr_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
+shopping-list-open-count,mutation_b_attr_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+shopping-list-open-count,mutation_b_attr_rem_mut_alpha,RelativeXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.cssSelector: span[data-kind='open'] (tried for 6 second(s) with 500 milliseconds interval)
+shopping-list-open-count,mutation_b_attr_rem_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@data-kind='open'] (tried for 6 second(s) with 500 milliseconds interval)
+shopping-list-open-count,mutation_b_attr_rem_mut_alpha,RobulaXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //span[@data-kind='open'] (tried for 6 second(s) with 500 milliseconds interval)
+shopping-list-open-count,mutation_b_attr_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+shopping-list-open-count,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/div[1]/main[1]/app-shopping-list[1]/section[1]/div[2]/p[1]/span[1] (tried for 6 second(s) with 500 milliseconds interval)
+shopping-list-open-count,mutation_j_tag_type_mod_mut_gamma,HookXPathTest,gamma,PASSED,null
+shopping-list-open-count,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,FAILED,expected:<2[]> but was:<2[to buy1bought]>
+shopping-list-open-count,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+shopping-list-open-count,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+shopping-list-open-count,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+shopping-list-open-count,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+shopping-list-open-count,mutation_a_attr_val_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+shopping-list-open-count,mutation_a_attr_val_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+shopping-list-open-count,mutation_a_attr_val_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+shopping-list-open-count,mutation_a_attr_val_mod_mut_alpha,RelativeXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.cssSelector: span[data-kind='open'] (tried for 6 second(s) with 500 milliseconds interval)
+shopping-list-open-count,mutation_a_attr_val_mod_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@data-kind='open'] (tried for 6 second(s) with 500 milliseconds interval)
+shopping-list-open-count,mutation_a_attr_val_mod_mut_alpha,RobulaXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //span[@data-kind='open'] (tried for 6 second(s) with 500 milliseconds interval)
+shopping-list-open-count,mutation_a_attr_val_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+shopping-list-done-count,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+shopping-list-done-count,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,PASSED,null
+shopping-list-done-count,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,PASSED,null
+shopping-list-done-count,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,PASSED,null
+shopping-list-done-count,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+shopping-list-done-count,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,PASSED,null
+shopping-list-done-count,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,PASSED,null
+shopping-list-clear-done,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+shopping-list-clear-done,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,PASSED,null
+shopping-list-clear-done,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
+shopping-list-clear-done,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
+shopping-list-clear-done,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+shopping-list-clear-done,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
+shopping-list-clear-done,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
+shopping-list-shop-check,mutation_a_attr_val_mod_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shop-check,mutation_a_attr_val_mod_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shop-check,mutation_a_attr_val_mod_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shop-check,mutation_a_attr_val_mod_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shop-check,mutation_a_attr_val_mod_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shop-check,mutation_a_attr_val_mod_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shop-check,mutation_a_attr_val_mod_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+shopping-list-clear-done,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+shopping-list-clear-done,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,PASSED,null
+shopping-list-clear-done,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+shopping-list-clear-done,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+shopping-list-clear-done,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+shopping-list-clear-done,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+shopping-list-clear-done,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+shopping-list-shop-check,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-shopping-list[1]/section[1]/div[3]/div[1]/ul[1]/li[1]/label[1]/input[1]"}
+shopping-list-shop-check,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,PASSED,null
+shopping-list-shop-check,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
+shopping-list-shop-check,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
+shopping-list-shop-check,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+shopping-list-shop-check,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
+shopping-list-shop-check,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
+shopping-list-clear-done,mutation_d_text_cont_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+shopping-list-clear-done,mutation_d_text_cont_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+shopping-list-clear-done,mutation_d_text_cont_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+shopping-list-clear-done,mutation_d_text_cont_mod_mut_alpha,RelativeXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[normalize-space()='Clear bought items']"}
+shopping-list-clear-done,mutation_d_text_cont_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+shopping-list-clear-done,mutation_d_text_cont_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+shopping-list-clear-done,mutation_d_text_cont_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+shopping-list-shop-check,mutation_e_text_cont_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+shopping-list-shop-check,mutation_e_text_cont_rem_mut_delta,HookXPathTest,delta,PASSED,null
+shopping-list-shop-check,mutation_e_text_cont_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+shopping-list-shop-check,mutation_e_text_cont_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+shopping-list-shop-check,mutation_e_text_cont_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+shopping-list-shop-check,mutation_e_text_cont_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+shopping-list-shop-check,mutation_e_text_cont_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+shopping-list-open-count,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,FAILED,expected:<[2]> but was:<[1]>
+shopping-list-open-count,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,PASSED,null
+shopping-list-open-count,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
+shopping-list-open-count,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
+shopping-list-open-count,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+shopping-list-open-count,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
+shopping-list-open-count,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.cssSelector: .summary-line:nth-child(1) > .summary-value (tried for 6 second(s) with 500 milliseconds interval)
+shopping-list-clear-done,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+shopping-list-clear-done,mutation_i_tag_rem_mut_delta,HookXPathTest,delta,PASSED,null
+shopping-list-clear-done,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+shopping-list-clear-done,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+shopping-list-clear-done,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+shopping-list-clear-done,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+shopping-list-clear-done,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+shopping-list-shopping-empty,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+shopping-list-shopping-empty,mutation_j_tag_type_mod_mut_delta,HookXPathTest,delta,PASSED,null
+shopping-list-shopping-empty,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
+shopping-list-shopping-empty,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
+shopping-list-shopping-empty,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+shopping-list-shopping-empty,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
+shopping-list-shopping-empty,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_j_tag_type_mod_mut_delta,HookXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+shopping-list-shopping-title,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,PASSED,null
+shopping-list-shopping-title,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+shopping-list-shopping-title,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+shopping-list-shopping-title,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+shopping-list-shopping-title,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+shopping-list-shopping-title,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+shopping-list-open-count,mutation_e_text_cont_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+shopping-list-open-count,mutation_e_text_cont_rem_mut_delta,HookXPathTest,delta,PASSED,null
+shopping-list-open-count,mutation_e_text_cont_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+shopping-list-open-count,mutation_e_text_cont_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+shopping-list-open-count,mutation_e_text_cont_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+shopping-list-open-count,mutation_e_text_cont_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+shopping-list-open-count,mutation_e_text_cont_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+shopping-list-clear-done,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-shopping-list[1]/section[1]/div[4]/div[1]/button[1]"}
+shopping-list-clear-done,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-clear-done]"}
+shopping-list-clear-done,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+shopping-list-clear-done,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[normalize-space()='Clear bought items']"}
+shopping-list-clear-done,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[contains(text() 'Clear bought items')]"}
+shopping-list-clear-done,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[@class='btn']"}
+shopping-list-clear-done,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".btn"}
+shopping-list-shopping-title,mutation_d_text_cont_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+shopping-list-shopping-title,mutation_d_text_cont_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+shopping-list-shopping-title,mutation_d_text_cont_mod_mut_alpha,KatalonXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Shopping list'])[1]/following::span[1] (tried for 6 second(s) with 500 milliseconds interval)
+shopping-list-shopping-title,mutation_d_text_cont_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+shopping-list-shopping-title,mutation_d_text_cont_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+shopping-list-shopping-title,mutation_d_text_cont_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+shopping-list-shopping-title,mutation_d_text_cont_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+shopping-list-clear-done,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+shopping-list-clear-done,mutation_k_tag_ins_mut_delta,HookXPathTest,delta,PASSED,null
+shopping-list-clear-done,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,PASSED,null
+shopping-list-clear-done,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,PASSED,null
+shopping-list-clear-done,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+shopping-list-clear-done,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,PASSED,null
+shopping-list-clear-done,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,PASSED,null
+shopping-list-done-count,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-done-count,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-done-count,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-done-count,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-done-count,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-done-count,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-done-count,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-clear-done,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+shopping-list-clear-done,mutation_j_tag_type_mod_mut_delta,HookXPathTest,delta,PASSED,null
+shopping-list-clear-done,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
+shopping-list-clear-done,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
+shopping-list-clear-done,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+shopping-list-clear-done,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
+shopping-list-clear-done,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+shopping-list-shop-check,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+shopping-list-shop-check,mutation_j_tag_type_mod_mut_delta,HookXPathTest,delta,PASSED,null
+shopping-list-shop-check,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
+shopping-list-shop-check,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
+shopping-list-shop-check,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+shopping-list-shop-check,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
+shopping-list-shop-check,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+shopping-list-done-count,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+shopping-list-done-count,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
+shopping-list-done-count,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+shopping-list-done-count,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+shopping-list-done-count,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+shopping-list-done-count,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+shopping-list-done-count,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+shopping-list-shop-check,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-shopping-list[1]/section[1]/div[3]/div[1]/ul[1]/li[1]/label[1]/input[1]"}
+shopping-list-shop-check,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,PASSED,null
+shopping-list-shop-check,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
+shopping-list-shop-check,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
+shopping-list-shop-check,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+shopping-list-shop-check,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
+shopping-list-shop-check,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,PASSED,null
+shopping-list-shop-check,mutation_a_attr_val_mod_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shop-check,mutation_a_attr_val_mod_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shop-check,mutation_a_attr_val_mod_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shop-check,mutation_a_attr_val_mod_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shop-check,mutation_a_attr_val_mod_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shop-check,mutation_a_attr_val_mod_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shop-check,mutation_a_attr_val_mod_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-done-count,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+shopping-list-done-count,mutation_k_tag_ins_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+shopping-list-done-count,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+shopping-list-done-count,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+shopping-list-done-count,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+shopping-list-done-count,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+shopping-list-done-count,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+shopping-list-done-count,mutation_f_tag_mov_container_mut_beta,AbsoluteXPathTest,beta,FAILED,expected:<[2]> but was:<[1]>
+shopping-list-done-count,mutation_f_tag_mov_container_mut_beta,HookXPathTest,beta,PASSED,null
+shopping-list-done-count,mutation_f_tag_mov_container_mut_beta,KatalonXPathTest,beta,FAILED,expected:<[2]> but was:<[1]>
+shopping-list-done-count,mutation_f_tag_mov_container_mut_beta,RelativeXPathTest,beta,PASSED,null
+shopping-list-done-count,mutation_f_tag_mov_container_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+shopping-list-done-count,mutation_f_tag_mov_container_mut_beta,RobulaXPathTest,beta,PASSED,null
+shopping-list-done-count,mutation_f_tag_mov_container_mut_beta,SeleniumXPathTest,beta,FAILED,expected:<[2]> but was:<[1]>
+shopping-list-shop-check,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shop-check,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shop-check,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shop-check,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shop-check,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shop-check,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shop-check,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-open-count,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+shopping-list-open-count,mutation_h_tag_mov_temp_mut_delta,HookXPathTest,delta,PASSED,null
+shopping-list-open-count,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,PASSED,null
+shopping-list-open-count,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,PASSED,null
+shopping-list-open-count,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+shopping-list-open-count,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,PASSED,null
+shopping-list-open-count,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,PASSED,null
+shopping-list-shopping-empty,mutation_e_text_cont_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+shopping-list-shopping-empty,mutation_e_text_cont_rem_mut_delta,HookXPathTest,delta,PASSED,null
+shopping-list-shopping-empty,mutation_e_text_cont_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+shopping-list-shopping-empty,mutation_e_text_cont_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+shopping-list-shopping-empty,mutation_e_text_cont_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+shopping-list-shopping-empty,mutation_e_text_cont_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+shopping-list-shopping-empty,mutation_e_text_cont_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+shopping-list-shopping-title,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,PASSED,null
+shopping-list-shopping-title,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
+shopping-list-shopping-title,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
+shopping-list-shopping-title,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+shopping-list-shopping-title,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
+shopping-list-shopping-title,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
+shopping-list-shopping-title,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_f_tag_mov_container_mut_delta,HookXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_f_tag_mov_container_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,PASSED,null
+shopping-list-shop-check,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-shopping-list[1]/section[1]/div[3]/div[1]/ul[1]/li[1]/label[1]/input[1]"}
+shopping-list-shop-check,mutation_j_tag_type_mod_mut_gamma,HookXPathTest,gamma,PASSED,null
+shopping-list-shop-check,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+shopping-list-shop-check,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+shopping-list-shop-check,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+shopping-list-shop-check,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+shopping-list-shop-check,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+shopping-list-shop-check,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-shopping-list[1]/section[1]/div[3]/div[1]/ul[1]/li[1]/label[1]/input[1]"}
+shopping-list-shop-check,mutation_i_tag_rem_mut_gamma,HookXPathTest,gamma,PASSED,null
+shopping-list-shop-check,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+shopping-list-shop-check,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+shopping-list-shop-check,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+shopping-list-shop-check,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+shopping-list-shop-check,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".shop-item:nth-child(1) .shop-box"}
+shopping-list-open-count,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-shopping-list[1]/section[1]/div[3]/div[1]/ul[1]/li[1]/label[1]/input[1]"}
+shopping-list-open-count,mutation_h_tag_mov_temp_mut_gamma,HookXPathTest,gamma,PASSED,null
+shopping-list-open-count,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+shopping-list-open-count,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+shopping-list-open-count,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+shopping-list-open-count,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+shopping-list-open-count,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+shopping-list-done-count,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+shopping-list-done-count,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,PASSED,null
+shopping-list-done-count,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
+shopping-list-done-count,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
+shopping-list-done-count,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+shopping-list-done-count,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
+shopping-list-done-count,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
+shopping-list-shopping-empty,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+shopping-list-shopping-empty,mutation_h_tag_mov_temp_mut_delta,HookXPathTest,delta,PASSED,null
+shopping-list-shopping-empty,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,PASSED,null
+shopping-list-shopping-empty,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,PASSED,null
+shopping-list-shopping-empty,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+shopping-list-shopping-empty,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,PASSED,null
+shopping-list-shopping-empty,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,PASSED,null
+shopping-list-open-count,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-open-count,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-open-count,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-open-count,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-open-count,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-open-count,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-open-count,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-clear-done,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+shopping-list-clear-done,mutation_k_tag_ins_mut_gamma,HookXPathTest,gamma,PASSED,null
+shopping-list-clear-done,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+shopping-list-clear-done,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+shopping-list-clear-done,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+shopping-list-clear-done,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+shopping-list-clear-done,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+shopping-list-open-count,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/div[1]/main[1]/app-shopping-list[1]/section[1]/div[2]/p[1]/span[1] (tried for 6 second(s) with 500 milliseconds interval)
+shopping-list-open-count,mutation_i_tag_rem_mut_gamma,HookXPathTest,gamma,PASSED,null
+shopping-list-open-count,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+shopping-list-open-count,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+shopping-list-open-count,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+shopping-list-open-count,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+shopping-list-open-count,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.cssSelector: .summary-line:nth-child(1) > .summary-value (tried for 6 second(s) with 500 milliseconds interval)
+shopping-list-open-count,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-shopping-list[1]/section[1]/div[3]/div[1]/ul[1]/li[1]/label[1]/input[1]"}
+shopping-list-open-count,mutation_k_tag_ins_mut_gamma,HookXPathTest,gamma,PASSED,null
+shopping-list-open-count,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+shopping-list-open-count,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+shopping-list-open-count,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+shopping-list-open-count,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+shopping-list-open-count,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+shopping-list-shopping-title,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+shopping-list-shopping-title,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,PASSED,null
+shopping-list-shopping-title,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
+shopping-list-shopping-title,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
+shopping-list-shopping-title,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+shopping-list-shopping-title,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
+shopping-list-shopping-title,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
+shopping-list-done-count,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/div[1]/main[1]/app-shopping-list[1]/section[1]/div[2]/p[1]/span[1] (tried for 6 second(s) with 500 milliseconds interval)
+shopping-list-done-count,mutation_j_tag_type_mod_mut_gamma,HookXPathTest,gamma,PASSED,null
+shopping-list-done-count,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,FAILED,expected:<2[]> but was:<2[to buy1bought]>
+shopping-list-done-count,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+shopping-list-done-count,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+shopping-list-done-count,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+shopping-list-done-count,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+shopping-list-shopping-empty,mutation_f_tag_mov_container_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/div[1]/main[1]/app-shopping-list[1]/section[1]/div[2]/p[1]/span[1] (tried for 6 second(s) with 500 milliseconds interval)
+shopping-list-shopping-empty,mutation_f_tag_mov_container_mut_gamma,HookXPathTest,gamma,PASSED,null
+shopping-list-shopping-empty,mutation_f_tag_mov_container_mut_gamma,KatalonXPathTest,gamma,FAILED,expected:<[2]> but was:<[Mushroom Risotto]>
+shopping-list-shopping-empty,mutation_f_tag_mov_container_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+shopping-list-shopping-empty,mutation_f_tag_mov_container_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+shopping-list-shopping-empty,mutation_f_tag_mov_container_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+shopping-list-shopping-empty,mutation_f_tag_mov_container_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+shopping-list-shopping-empty,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-shopping-list[1]/section[1]/div[3]/div[1]/ul[1]/li[1]/label[1]/input[1]"}
+shopping-list-shopping-empty,mutation_i_tag_rem_mut_gamma,HookXPathTest,gamma,PASSED,null
+shopping-list-shopping-empty,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+shopping-list-shopping-empty,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+shopping-list-shopping-empty,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+shopping-list-shopping-empty,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+shopping-list-shopping-empty,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+shopping-list-shop-check,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+shopping-list-shop-check,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,PASSED,null
+shopping-list-shop-check,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+shopping-list-shop-check,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+shopping-list-shop-check,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+shopping-list-shop-check,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+shopping-list-shop-check,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+shopping-list-shopping-title,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/div[1]/main[1]/app-shopping-list[1]/section[1]/div[2]/p[1]/span[1] (tried for 6 second(s) with 500 milliseconds interval)
+shopping-list-shopping-title,mutation_h_tag_mov_temp_mut_gamma,HookXPathTest,gamma,PASSED,null
+shopping-list-shopping-title,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Shopping list'])[1]/following::span[1] (tried for 6 second(s) with 500 milliseconds interval)
+shopping-list-shopping-title,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+shopping-list-shopping-title,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+shopping-list-shopping-title,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+shopping-list-shopping-title,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+shopping-list-done-count,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/div[1]/main[1]/app-shopping-list[1]/section[1]/div[2]/p[1]/span[1] (tried for 6 second(s) with 500 milliseconds interval)
+shopping-list-done-count,mutation_h_tag_mov_temp_mut_gamma,HookXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x-test-open-count] (tried for 6 second(s) with 500 milliseconds interval)
+shopping-list-done-count,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,FAILED,expected:<[2]> but was:<[Mushroom Risotto]>
+shopping-list-done-count,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.cssSelector: span[data-kind='open'] (tried for 6 second(s) with 500 milliseconds interval)
+shopping-list-done-count,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@data-kind='open'] (tried for 6 second(s) with 500 milliseconds interval)
+shopping-list-done-count,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //span[@data-kind='open'] (tried for 6 second(s) with 500 milliseconds interval)
+shopping-list-done-count,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.cssSelector: .summary-line:nth-child(1) > .summary-value (tried for 6 second(s) with 500 milliseconds interval)
+shopping-list-clear-done,mutation_e_text_cont_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+shopping-list-clear-done,mutation_e_text_cont_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
+shopping-list-clear-done,mutation_e_text_cont_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+shopping-list-clear-done,mutation_e_text_cont_rem_mut_alpha,RelativeXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[normalize-space()='Clear bought items']"}
+shopping-list-clear-done,mutation_e_text_cont_rem_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[contains(text() 'Clear bought items')]"}
+shopping-list-clear-done,mutation_e_text_cont_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+shopping-list-clear-done,mutation_e_text_cont_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+shopping-list-done-count,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+shopping-list-done-count,mutation_h_tag_mov_temp_mut_delta,HookXPathTest,delta,PASSED,null
+shopping-list-done-count,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,PASSED,null
+shopping-list-done-count,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,PASSED,null
+shopping-list-done-count,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+shopping-list-done-count,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,PASSED,null
+shopping-list-done-count,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,PASSED,null
+shopping-list-done-count,mutation_a_attr_val_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+shopping-list-done-count,mutation_a_attr_val_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+shopping-list-done-count,mutation_a_attr_val_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+shopping-list-done-count,mutation_a_attr_val_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+shopping-list-done-count,mutation_a_attr_val_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+shopping-list-done-count,mutation_a_attr_val_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+shopping-list-done-count,mutation_a_attr_val_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+shopping-list-shopping-title,mutation_f_tag_mov_container_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+shopping-list-shopping-title,mutation_f_tag_mov_container_mut_gamma,HookXPathTest,gamma,PASSED,null
+shopping-list-shopping-title,mutation_f_tag_mov_container_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+shopping-list-shopping-title,mutation_f_tag_mov_container_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+shopping-list-shopping-title,mutation_f_tag_mov_container_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+shopping-list-shopping-title,mutation_f_tag_mov_container_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+shopping-list-shopping-title,mutation_f_tag_mov_container_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+shopping-list-open-count,mutation_d_text_cont_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+shopping-list-open-count,mutation_d_text_cont_mod_mut_delta,HookXPathTest,delta,PASSED,null
+shopping-list-open-count,mutation_d_text_cont_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
+shopping-list-open-count,mutation_d_text_cont_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
+shopping-list-open-count,mutation_d_text_cont_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+shopping-list-open-count,mutation_d_text_cont_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
+shopping-list-open-count,mutation_d_text_cont_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+shopping-list-shopping-empty,mutation_d_text_cont_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+shopping-list-shopping-empty,mutation_d_text_cont_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+shopping-list-shopping-empty,mutation_d_text_cont_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+shopping-list-shopping-empty,mutation_d_text_cont_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+shopping-list-shopping-empty,mutation_d_text_cont_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+shopping-list-shopping-empty,mutation_d_text_cont_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+shopping-list-shopping-empty,mutation_d_text_cont_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+shopping-list-done-count,mutation_e_text_cont_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+shopping-list-done-count,mutation_e_text_cont_rem_mut_delta,HookXPathTest,delta,PASSED,null
+shopping-list-done-count,mutation_e_text_cont_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+shopping-list-done-count,mutation_e_text_cont_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+shopping-list-done-count,mutation_e_text_cont_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+shopping-list-done-count,mutation_e_text_cont_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+shopping-list-done-count,mutation_e_text_cont_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+shopping-list-clear-done,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-shopping-list[1]/section[1]/div[4]/div[1]/button[1]"}
+shopping-list-clear-done,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-clear-done]"}
+shopping-list-clear-done,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,PASSED,null
+shopping-list-clear-done,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[normalize-space()='Clear bought items']"}
+shopping-list-clear-done,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[contains(text() 'Clear bought items')]"}
+shopping-list-clear-done,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[@class='btn']"}
+shopping-list-clear-done,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".btn"}
+shopping-list-shopping-empty,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+shopping-list-shopping-empty,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
+shopping-list-shopping-empty,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+shopping-list-shopping-empty,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+shopping-list-shopping-empty,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+shopping-list-shopping-empty,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+shopping-list-shopping-empty,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+shopping-list-shopping-empty,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+shopping-list-shopping-empty,mutation_k_tag_ins_mut_delta,HookXPathTest,delta,PASSED,null
+shopping-list-shopping-empty,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,PASSED,null
+shopping-list-shopping-empty,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,PASSED,null
+shopping-list-shopping-empty,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+shopping-list-shopping-empty,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,PASSED,null
+shopping-list-shopping-empty,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_e_text_cont_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+shopping-list-shopping-title,mutation_e_text_cont_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
+shopping-list-shopping-title,mutation_e_text_cont_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Shopping list'])[1]/following::span[1] (tried for 6 second(s) with 500 milliseconds interval)
+shopping-list-shopping-title,mutation_e_text_cont_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+shopping-list-shopping-title,mutation_e_text_cont_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+shopping-list-shopping-title,mutation_e_text_cont_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+shopping-list-shopping-title,mutation_e_text_cont_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+shopping-list-shopping-empty,mutation_e_text_cont_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+shopping-list-shopping-empty,mutation_e_text_cont_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
+shopping-list-shopping-empty,mutation_e_text_cont_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+shopping-list-shopping-empty,mutation_e_text_cont_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+shopping-list-shopping-empty,mutation_e_text_cont_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+shopping-list-shopping-empty,mutation_e_text_cont_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+shopping-list-shopping-empty,mutation_e_text_cont_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+shopping-list-done-count,mutation_b_attr_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+shopping-list-done-count,mutation_b_attr_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
+shopping-list-done-count,mutation_b_attr_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+shopping-list-done-count,mutation_b_attr_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+shopping-list-done-count,mutation_b_attr_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+shopping-list-done-count,mutation_b_attr_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+shopping-list-done-count,mutation_b_attr_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+shopping-list-done-count,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/div[1]/main[1]/app-shopping-list[1]/section[1]/div[2]/p[1]/span[1] (tried for 6 second(s) with 500 milliseconds interval)
+shopping-list-done-count,mutation_i_tag_rem_mut_gamma,HookXPathTest,gamma,PASSED,null
+shopping-list-done-count,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+shopping-list-done-count,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+shopping-list-done-count,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+shopping-list-done-count,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+shopping-list-done-count,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.cssSelector: .summary-line:nth-child(1) > .summary-value (tried for 6 second(s) with 500 milliseconds interval)
+shopping-list-shop-check,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-shopping-list[1]/section[1]/div[3]/div[1]/ul[1]/li[1]/label[1]/input[1]"}
+shopping-list-shop-check,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-shop-check='1']"}
+shopping-list-shop-check,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//input[@type='checkbox']"}
+shopping-list-shop-check,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//input[@aria-label='Bought Arborio rice']"}
+shopping-list-shop-check,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@aria-label='Bought Arborio rice']"}
+shopping-list-shop-check,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//input[@aria-label='Bought Arborio rice']"}
+shopping-list-shop-check,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".shop-item:nth-child(1) .shop-box"}
+shopping-list-done-count,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+shopping-list-done-count,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,PASSED,null
+shopping-list-done-count,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
+shopping-list-done-count,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
+shopping-list-done-count,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+shopping-list-done-count,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
+shopping-list-done-count,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
+shopping-list-clear-done,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-shopping-list[1]/section[1]/div[4]/div[1]/button[1]"}
+shopping-list-clear-done,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-clear-done]"}
+shopping-list-clear-done,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+shopping-list-clear-done,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[normalize-space()='Clear bought items']"}
+shopping-list-clear-done,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+shopping-list-clear-done,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[@class='btn']"}
+shopping-list-clear-done,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".btn"}
+shopping-list-done-count,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+shopping-list-done-count,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,PASSED,null
+shopping-list-done-count,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
+shopping-list-done-count,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
+shopping-list-done-count,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+shopping-list-done-count,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
+shopping-list-done-count,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,PASSED,null
+shopping-list-shopping-empty,mutation_d_text_cont_mod_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+shopping-list-shopping-empty,mutation_d_text_cont_mod_mut_gamma,HookXPathTest,gamma,PASSED,null
+shopping-list-shopping-empty,mutation_d_text_cont_mod_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+shopping-list-shopping-empty,mutation_d_text_cont_mod_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+shopping-list-shopping-empty,mutation_d_text_cont_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+shopping-list-shopping-empty,mutation_d_text_cont_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+shopping-list-shopping-empty,mutation_d_text_cont_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+shopping-list-clear-done,mutation_f_tag_mov_container_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/div[1]/main[1]/app-shopping-list[1]/section[1]/div[2]/p[1]/span[1] (tried for 6 second(s) with 500 milliseconds interval)
+shopping-list-clear-done,mutation_f_tag_mov_container_mut_gamma,HookXPathTest,gamma,PASSED,null
+shopping-list-clear-done,mutation_f_tag_mov_container_mut_gamma,KatalonXPathTest,gamma,FAILED,expected:<[2]> but was:<[removes the checked lines]>
+shopping-list-clear-done,mutation_f_tag_mov_container_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+shopping-list-clear-done,mutation_f_tag_mov_container_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+shopping-list-clear-done,mutation_f_tag_mov_container_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+shopping-list-clear-done,mutation_f_tag_mov_container_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+shopping-list-shop-check,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shop-check,mutation_h_tag_mov_temp_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shop-check,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shop-check,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shop-check,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shop-check,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shop-check,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shopping-title,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+shopping-list-shopping-title,mutation_i_tag_rem_mut_gamma,HookXPathTest,gamma,PASSED,null
+shopping-list-shopping-title,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+shopping-list-shopping-title,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+shopping-list-shopping-title,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+shopping-list-shopping-title,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+shopping-list-shopping-title,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+shopping-list-shopping-empty,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+shopping-list-shopping-empty,mutation_i_tag_rem_mut_delta,HookXPathTest,delta,PASSED,null
+shopping-list-shopping-empty,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+shopping-list-shopping-empty,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+shopping-list-shopping-empty,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+shopping-list-shopping-empty,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+shopping-list-shopping-empty,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_k_tag_ins_mut_delta,HookXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,PASSED,null
+shopping-list-shopping-empty,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+shopping-list-shopping-empty,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+shopping-list-shopping-empty,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+shopping-list-shopping-empty,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+shopping-list-shopping-empty,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+shopping-list-shopping-empty,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+shopping-list-shopping-empty,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+shopping-list-shopping-title,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/div[1]/main[1]/app-shopping-list[1]/section[1]/div[2]/p[1]/span[1] (tried for 6 second(s) with 500 milliseconds interval)
+shopping-list-shopping-title,mutation_k_tag_ins_mut_gamma,HookXPathTest,gamma,PASSED,null
+shopping-list-shopping-title,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+shopping-list-shopping-title,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+shopping-list-shopping-title,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+shopping-list-shopping-title,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+shopping-list-shopping-title,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+shopping-list-shopping-empty,mutation_d_text_cont_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+shopping-list-shopping-empty,mutation_d_text_cont_mod_mut_delta,HookXPathTest,delta,PASSED,null
+shopping-list-shopping-empty,mutation_d_text_cont_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
+shopping-list-shopping-empty,mutation_d_text_cont_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
+shopping-list-shopping-empty,mutation_d_text_cont_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+shopping-list-shopping-empty,mutation_d_text_cont_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
+shopping-list-shopping-empty,mutation_d_text_cont_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+shopping-list-shopping-empty,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-shopping-list[1]/section[1]/div[4]/div[1]/button[1]"}
+shopping-list-shopping-empty,mutation_k_tag_ins_mut_gamma,HookXPathTest,gamma,PASSED,null
+shopping-list-shopping-empty,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+shopping-list-shopping-empty,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+shopping-list-shopping-empty,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+shopping-list-shopping-empty,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+shopping-list-shopping-empty,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+shopping-list-done-count,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+shopping-list-done-count,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,PASSED,null
+shopping-list-done-count,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+shopping-list-done-count,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+shopping-list-done-count,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+shopping-list-done-count,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+shopping-list-done-count,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+shopping-list-shopping-title,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+shopping-list-shopping-title,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,PASSED,null
+shopping-list-shopping-title,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,PASSED,null
+shopping-list-shopping-title,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,PASSED,null
+shopping-list-shopping-title,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+shopping-list-shopping-title,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,PASSED,null
+shopping-list-shopping-title,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,PASSED,null
+shopping-list-clear-done,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-shopping-list[1]/section[1]/div[4]/div[1]/button[1]"}
+shopping-list-clear-done,mutation_h_tag_mov_temp_mut_gamma,HookXPathTest,gamma,PASSED,null
+shopping-list-clear-done,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+shopping-list-clear-done,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+shopping-list-clear-done,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+shopping-list-clear-done,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+shopping-list-clear-done,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+shopping-list-done-count,mutation_d_text_cont_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+shopping-list-done-count,mutation_d_text_cont_mod_mut_delta,HookXPathTest,delta,PASSED,null
+shopping-list-done-count,mutation_d_text_cont_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
+shopping-list-done-count,mutation_d_text_cont_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
+shopping-list-done-count,mutation_d_text_cont_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+shopping-list-done-count,mutation_d_text_cont_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
+shopping-list-done-count,mutation_d_text_cont_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+shopping-list-shopping-title,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
+shopping-list-shopping-title,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Shopping list'])[1]/following::span[1] (tried for 6 second(s) with 500 milliseconds interval)
+shopping-list-shopping-title,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+shopping-list-shopping-title,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+shopping-list-shopping-title,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+shopping-list-shopping-title,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+shopping-list-open-count,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+shopping-list-open-count,mutation_k_tag_ins_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+shopping-list-open-count,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+shopping-list-open-count,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+shopping-list-open-count,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+shopping-list-open-count,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+shopping-list-open-count,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shopping-empty,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-shopping-list[1]/section[1]/div[3]/div[1]/ul[1]/li[1]/label[1]/input[1]"}
+shopping-list-shopping-empty,mutation_h_tag_mov_temp_mut_gamma,HookXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-shop-check='1']"}
+shopping-list-shopping-empty,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//input[@type='checkbox']"}
+shopping-list-shopping-empty,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//input[@aria-label='Bought Arborio rice']"}
+shopping-list-shopping-empty,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@aria-label='Bought Arborio rice']"}
+shopping-list-shopping-empty,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//input[@aria-label='Bought Arborio rice']"}
+shopping-list-shopping-empty,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".shop-item:nth-child(1) .shop-box"}
+shopping-list-shopping-empty,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+shopping-list-shopping-empty,mutation_f_tag_mov_container_mut_delta,HookXPathTest,delta,PASSED,null
+shopping-list-shopping-empty,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,PASSED,null
+shopping-list-shopping-empty,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,PASSED,null
+shopping-list-shopping-empty,mutation_f_tag_mov_container_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+shopping-list-shopping-empty,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,PASSED,null
+shopping-list-shopping-empty,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+shopping-list-shopping-title,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
+shopping-list-shopping-title,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+shopping-list-shopping-title,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+shopping-list-shopping-title,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+shopping-list-shopping-title,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+shopping-list-shopping-title,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+shopping-list-shop-check,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shop-check,mutation_h_tag_mov_temp_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shop-check,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shop-check,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shop-check,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shop-check,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shop-check,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shopping-empty,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+shopping-list-shopping-empty,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,PASSED,null
+shopping-list-shopping-empty,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+shopping-list-shopping-empty,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+shopping-list-shopping-empty,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+shopping-list-shopping-empty,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+shopping-list-shopping-empty,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+shopping-list-open-count,mutation_d_text_cont_mod_mut_alpha,AbsoluteXPathTest,alpha,FAILED,expected:<[]2> but was:<[[The following text has been mutated] ]2>
+shopping-list-open-count,mutation_d_text_cont_mod_mut_alpha,HookXPathTest,alpha,FAILED,expected:<[]2> but was:<[[The following text has been mutated] ]2>
+shopping-list-open-count,mutation_d_text_cont_mod_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<[]2> but was:<[[The following text has been mutated] ]2>
+shopping-list-open-count,mutation_d_text_cont_mod_mut_alpha,RelativeXPathTest,alpha,FAILED,expected:<[]2> but was:<[[The following text has been mutated] ]2>
+shopping-list-open-count,mutation_d_text_cont_mod_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,expected:<[]2> but was:<[[The following text has been mutated] ]2>
+shopping-list-open-count,mutation_d_text_cont_mod_mut_alpha,RobulaXPathTest,alpha,FAILED,expected:<[]2> but was:<[[The following text has been mutated] ]2>
+shopping-list-open-count,mutation_d_text_cont_mod_mut_alpha,SeleniumXPathTest,alpha,FAILED,expected:<[]2> but was:<[[The following text has been mutated] ]2>
+shopping-list-open-count,mutation_f_tag_mov_container_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/div[1]/main[1]/app-shopping-list[1]/section[1]/div[2]/p[1]/span[1] (tried for 6 second(s) with 500 milliseconds interval)
+shopping-list-open-count,mutation_f_tag_mov_container_mut_gamma,HookXPathTest,gamma,PASSED,null
+shopping-list-open-count,mutation_f_tag_mov_container_mut_gamma,KatalonXPathTest,gamma,FAILED,expected:<[2]> but was:<[Mushroom Risotto]>
+shopping-list-open-count,mutation_f_tag_mov_container_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+shopping-list-open-count,mutation_f_tag_mov_container_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+shopping-list-open-count,mutation_f_tag_mov_container_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+shopping-list-open-count,mutation_f_tag_mov_container_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+shopping-list-shopping-empty,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+shopping-list-shopping-empty,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,PASSED,null
+shopping-list-shopping-empty,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
+shopping-list-shopping-empty,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
+shopping-list-shopping-empty,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+shopping-list-shopping-empty,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
+shopping-list-shopping-empty,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
+shopping-list-done-count,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+shopping-list-done-count,mutation_j_tag_type_mod_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+shopping-list-done-count,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+shopping-list-done-count,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+shopping-list-done-count,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+shopping-list-done-count,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+shopping-list-done-count,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+shopping-list-clear-done,mutation_a_attr_val_mod_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-clear-done,mutation_a_attr_val_mod_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-clear-done,mutation_a_attr_val_mod_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-clear-done,mutation_a_attr_val_mod_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-clear-done,mutation_a_attr_val_mod_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-clear-done,mutation_a_attr_val_mod_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-clear-done,mutation_a_attr_val_mod_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-shopping-empty,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+shopping-list-shopping-empty,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,PASSED,null
+shopping-list-shopping-empty,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
+shopping-list-shopping-empty,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
+shopping-list-shopping-empty,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+shopping-list-shopping-empty,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
+shopping-list-shopping-empty,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
+shopping-list-clear-done,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-shopping-list[1]/section[1]/div[4]/div[1]/button[1]"}
+shopping-list-clear-done,mutation_i_tag_rem_mut_gamma,HookXPathTest,gamma,PASSED,null
+shopping-list-clear-done,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+shopping-list-clear-done,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+shopping-list-clear-done,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+shopping-list-clear-done,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+shopping-list-clear-done,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+shopping-list-done-count,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,FAILED,stale element reference: stale element not found in the current frame
+shopping-list-done-count,mutation_i_tag_rem_mut_delta,HookXPathTest,delta,PASSED,null
+shopping-list-done-count,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+shopping-list-done-count,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+shopping-list-done-count,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+shopping-list-done-count,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+shopping-list-done-count,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_i_tag_rem_mut_delta,HookXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+shopping-list-clear-done,mutation_d_text_cont_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+shopping-list-clear-done,mutation_d_text_cont_mod_mut_delta,HookXPathTest,delta,PASSED,null
+shopping-list-clear-done,mutation_d_text_cont_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
+shopping-list-clear-done,mutation_d_text_cont_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
+shopping-list-clear-done,mutation_d_text_cont_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+shopping-list-clear-done,mutation_d_text_cont_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
+shopping-list-clear-done,mutation_d_text_cont_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
+shopping-list-shop-check,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+shopping-list-shop-check,mutation_i_tag_rem_mut_delta,HookXPathTest,delta,PASSED,null
+shopping-list-shop-check,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+shopping-list-shop-check,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+shopping-list-shop-check,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+shopping-list-shop-check,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+shopping-list-shop-check,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+shopping-list-clear-done,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+shopping-list-clear-done,mutation_h_tag_mov_temp_mut_delta,HookXPathTest,delta,PASSED,null
+shopping-list-clear-done,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,PASSED,null
+shopping-list-clear-done,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,PASSED,null
+shopping-list-clear-done,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+shopping-list-clear-done,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,PASSED,null
+shopping-list-clear-done,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_e_text_cont_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_e_text_cont_rem_mut_delta,HookXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_e_text_cont_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_e_text_cont_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_e_text_cont_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_e_text_cont_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
+shopping-list-shopping-title,mutation_e_text_cont_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
+shopping-list-shopping-empty,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+shopping-list-shopping-empty,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,PASSED,null
+shopping-list-shopping-empty,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+shopping-list-shopping-empty,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+shopping-list-shopping-empty,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+shopping-list-shopping-empty,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+shopping-list-shopping-empty,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+shopping-list-shop-check,mutation_b_attr_rem_mut_alpha,AbsoluteXPathTest,alpha,FAILED,expected:<[1]> but was:<[2]>
+shopping-list-shop-check,mutation_b_attr_rem_mut_alpha,HookXPathTest,alpha,FAILED,expected:<[1]> but was:<[2]>
+shopping-list-shop-check,mutation_b_attr_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<[1]> but was:<[2]>
+shopping-list-shop-check,mutation_b_attr_rem_mut_alpha,RelativeXPathTest,alpha,FAILED,expected:<[1]> but was:<[2]>
+shopping-list-shop-check,mutation_b_attr_rem_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,expected:<[1]> but was:<[2]>
+shopping-list-shop-check,mutation_b_attr_rem_mut_alpha,RobulaXPathTest,alpha,FAILED,expected:<[1]> but was:<[2]>
+shopping-list-shop-check,mutation_b_attr_rem_mut_alpha,SeleniumXPathTest,alpha,FAILED,expected:<[1]> but was:<[2]>
+shopping-list-shopping-title,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+shopping-list-shopping-title,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,PASSED,null
+shopping-list-shopping-title,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
+shopping-list-shopping-title,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
+shopping-list-shopping-title,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
+shopping-list-shopping-title,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
+shopping-list-shopping-title,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,PASSED,null
+shopping-list-done-count,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/div[1]/main[1]/app-shopping-list[1]/section[1]/div[3]/div[1]/ul[1]/li[1]/label[1]/input[1]"}
+shopping-list-done-count,mutation_k_tag_ins_mut_gamma,HookXPathTest,gamma,PASSED,null
+shopping-list-done-count,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+shopping-list-done-count,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+shopping-list-done-count,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+shopping-list-done-count,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+shopping-list-done-count,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
+shopping-list-done-count,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-done-count,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-done-count,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-done-count,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-done-count,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-done-count,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-done-count,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+shopping-list-clear-done,mutation_b_attr_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+shopping-list-clear-done,mutation_b_attr_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
+shopping-list-clear-done,mutation_b_attr_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
+shopping-list-clear-done,mutation_b_attr_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
+shopping-list-clear-done,mutation_b_attr_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
+shopping-list-clear-done,mutation_b_attr_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
+shopping-list-clear-done,mutation_b_attr_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
+shopping-list-open-count,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,FAILED,expected:<[2]> but was:<[to buy]>
+shopping-list-open-count,mutation_f_tag_mov_container_mut_delta,HookXPathTest,delta,PASSED,null
+shopping-list-open-count,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,FAILED,expected:<[2]> but was:<[to buy]>
+shopping-list-open-count,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,PASSED,null
+shopping-list-open-count,mutation_f_tag_mov_container_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
+shopping-list-open-count,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,PASSED,null
+shopping-list-open-count,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,PASSED,null
+shopping-list-shop-check,mutation_b_attr_rem_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+shopping-list-shop-check,mutation_b_attr_rem_mut_gamma,HookXPathTest,gamma,PASSED,null
+shopping-list-shop-check,mutation_b_attr_rem_mut_gamma,KatalonXPathTest,gamma,PASSED,null
+shopping-list-shop-check,mutation_b_attr_rem_mut_gamma,RelativeXPathTest,gamma,PASSED,null
+shopping-list-shop-check,mutation_b_attr_rem_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
+shopping-list-shop-check,mutation_b_attr_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
+shopping-list-shop-check,mutation_b_attr_rem_mut_gamma,SeleniumXPathTest,gamma,PASSED,null

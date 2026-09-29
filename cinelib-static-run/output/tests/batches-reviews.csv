@@ -1,1109 +1,1294 @@
 Name,Id,Locator,Tag,Status,Error
 review-field-author,mutation_f_tag_mov_container_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+review-field-author,mutation_f_tag_mov_container_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-field-author,mutation_f_tag_mov_container_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-field-author,mutation_f_tag_mov_container_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-field-author,mutation_f_tag_mov_container_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-field-author,mutation_f_tag_mov_container_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-field-author,mutation_f_tag_mov_container_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 reviews-average,mutation_e_text_cont_rem_mut_alpha,AbsoluteXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[3]/app-reviews[1]/div[1]/div[1]/span[1] (tried for 5 second(s) with 500 milliseconds interval)
+reviews-average,mutation_e_text_cont_rem_mut_alpha,HookXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x-test-reviews-average] (tried for 5 second(s) with 500 milliseconds interval)
 reviews-average,mutation_e_text_cont_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Reviews'])[1]/following::span[1] (tried for 5 second(s) with 500 milliseconds interval)
 reviews-average,mutation_e_text_cont_rem_mut_alpha,RelativeXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //span[@class='reviews-average'] (tried for 5 second(s) with 500 milliseconds interval)
 reviews-average,mutation_e_text_cont_rem_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text() '★ 4.7')] (tried for 5 second(s) with 500 milliseconds interval)
 reviews-average,mutation_e_text_cont_rem_mut_alpha,RobulaXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //span[@class='reviews-average'] (tried for 5 second(s) with 500 milliseconds interval)
 reviews-average,mutation_e_text_cont_rem_mut_alpha,SeleniumXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.cssSelector: .reviews-average (tried for 5 second(s) with 500 milliseconds interval)
 review-field-comment,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+review-field-comment,mutation_h_tag_mov_temp_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-field-comment,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-field-comment,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-field-comment,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-field-comment,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-field-comment,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-field-author,mutation_g_tag_mov_html_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+review-field-author,mutation_g_tag_mov_html_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-field-author,mutation_g_tag_mov_html_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-field-author,mutation_g_tag_mov_html_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-field-author,mutation_g_tag_mov_html_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-field-author,mutation_g_tag_mov_html_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-field-author,mutation_g_tag_mov_html_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 reviews-average,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+reviews-average,mutation_k_tag_ins_mut_delta,HookXPathTest,delta,PASSED,null
 reviews-average,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,PASSED,null
 reviews-average,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,PASSED,null
 reviews-average,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 reviews-average,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,PASSED,null
 reviews-average,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,PASSED,null
 review-field-author,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[3]/app-reviews[1]/div[1]/form[1]/div[3]/button[1]"}
+review-field-author,mutation_j_tag_type_mod_mut_gamma,HookXPathTest,gamma,PASSED,null
 review-field-author,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,PASSED,null
 review-field-author,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,PASSED,null
 review-field-author,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
 review-field-author,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
 review-field-author,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
 review-field-comment,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+review-field-comment,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-field-comment,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-field-comment,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-field-comment,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-field-comment,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-field-comment,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 reviews-average,mutation_d_text_cont_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+reviews-average,mutation_d_text_cont_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
 reviews-average,mutation_d_text_cont_mod_mut_alpha,KatalonXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='★ 4.7'])[1]/following::span[2]"}
 reviews-average,mutation_d_text_cont_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 reviews-average,mutation_d_text_cont_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 reviews-average,mutation_d_text_cont_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 reviews-average,mutation_d_text_cont_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 review-submit,mutation_b_attr_rem_mut_gamma,AbsoluteXPathTest,gamma,FAILED,expected:<[Dario]> but was:<[]>
+review-submit,mutation_b_attr_rem_mut_gamma,HookXPathTest,gamma,FAILED,expected:<[Dario]> but was:<[]>
 review-submit,mutation_b_attr_rem_mut_gamma,KatalonXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='★ 4.7'])[1]/following::span[2]"}
 review-submit,mutation_b_attr_rem_mut_gamma,RelativeXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//span[normalize-space()='Dario']"}
 review-submit,mutation_b_attr_rem_mut_gamma,RobulaPlusXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text() '★ 4.7')] (tried for 5 second(s) with 500 milliseconds interval)
 review-submit,mutation_b_attr_rem_mut_gamma,RobulaXPathTest,gamma,FAILED,expected:<[Dario]> but was:<[]>
 review-submit,mutation_b_attr_rem_mut_gamma,SeleniumXPathTest,gamma,FAILED,expected:<[Dario]> but was:<[]>
 review-field-author,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+review-field-author,mutation_j_tag_type_mod_mut_delta,HookXPathTest,delta,PASSED,null
 review-field-author,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
 review-field-author,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
 review-field-author,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 review-field-author,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
 review-field-author,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
 review-remove,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[3]/app-reviews[1]/div[1]/ul[1]/li[1]/div[1]/span[1]"}
+review-remove,mutation_i_tag_rem_mut_gamma,HookXPathTest,gamma,PASSED,null
 review-remove,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,PASSED,null
 review-remove,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,PASSED,null
 review-remove,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
 review-remove,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//li[1]/*/span[@class='review-author']"}
 review-remove,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".review-item:nth-child(1) .review-author"}
 reviews-average,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+reviews-average,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x-test-reviews-average] (tried for 5 second(s) with 500 milliseconds interval)
 reviews-average,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='★ 4.7'])[1]/following::span[2]"}
 reviews-average,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //span[@class='reviews-average'] (tried for 5 second(s) with 500 milliseconds interval)
 reviews-average,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 reviews-average,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //span[@class='reviews-average'] (tried for 5 second(s) with 500 milliseconds interval)
 reviews-average,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.cssSelector: .reviews-average (tried for 5 second(s) with 500 milliseconds interval)
 review-comment,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[3]/app-reviews[1]/div[1]/ul[1]/li[1]/div[1]/span[1]"}
+review-comment,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,PASSED,null
 review-comment,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
 review-comment,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
 review-comment,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 review-comment,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//li[1]/*/span[@class='review-author']"}
 review-comment,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".review-item:nth-child(1) .review-author"}
 review-comment,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[3]/app-reviews[1]/div[1]/ul[1]/li[1]/div[1]/span[1]"}
+review-comment,mutation_i_tag_rem_mut_gamma,HookXPathTest,gamma,PASSED,null
 review-comment,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,PASSED,null
 review-comment,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,PASSED,null
 review-comment,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
 review-comment,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
 review-comment,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".review-item:nth-child(1) .review-author"}
 review-item,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+review-item,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-item,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-item,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-item,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-item,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-item,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-item,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+review-item,mutation_k_tag_ins_mut_gamma,HookXPathTest,gamma,PASSED,null
 review-item,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,PASSED,null
 review-item,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,PASSED,null
 review-item,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
 review-item,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,PASSED,null
 review-item,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
 review-field-comment,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+review-field-comment,mutation_j_tag_type_mod_mut_delta,HookXPathTest,delta,PASSED,null
 review-field-comment,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
 review-field-comment,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
 review-field-comment,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 review-field-comment,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
 review-field-comment,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
 review-comment,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[3]/app-reviews[1]/div[1]/ul[1]/li[1]/div[1]/span[1]"}
+review-comment,mutation_j_tag_type_mod_mut_gamma,HookXPathTest,gamma,PASSED,null
 review-comment,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,PASSED,null
 review-comment,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,PASSED,null
 review-comment,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
 review-comment,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
 review-comment,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
 reviews-average,mutation_e_text_cont_rem_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+reviews-average,mutation_e_text_cont_rem_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 reviews-average,mutation_e_text_cont_rem_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 reviews-average,mutation_e_text_cont_rem_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 reviews-average,mutation_e_text_cont_rem_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 reviews-average,mutation_e_text_cont_rem_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 reviews-average,mutation_e_text_cont_rem_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-item,mutation_e_text_cont_rem_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+review-item,mutation_e_text_cont_rem_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-item,mutation_e_text_cont_rem_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-item,mutation_e_text_cont_rem_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-item,mutation_e_text_cont_rem_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-item,mutation_e_text_cont_rem_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-item,mutation_e_text_cont_rem_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-remove,mutation_e_text_cont_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+review-remove,mutation_e_text_cont_rem_mut_delta,HookXPathTest,delta,PASSED,null
 review-remove,mutation_e_text_cont_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
 review-remove,mutation_e_text_cont_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
 review-remove,mutation_e_text_cont_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 review-remove,mutation_e_text_cont_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
 review-remove,mutation_e_text_cont_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
 review-field-author,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+review-field-author,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
 review-field-author,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 review-field-author,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 review-field-author,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 review-field-author,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 review-field-author,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 review-submit,mutation_e_text_cont_rem_mut_alpha,AbsoluteXPathTest,alpha,FAILED,expected:<[Post review]> but was:<[]>
+review-submit,mutation_e_text_cont_rem_mut_alpha,HookXPathTest,alpha,FAILED,expected:<[Post review]> but was:<[]>
 review-submit,mutation_e_text_cont_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<[Post review]> but was:<[]>
 review-submit,mutation_e_text_cont_rem_mut_alpha,RelativeXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[normalize-space()='Post review']"}
 review-submit,mutation_e_text_cont_rem_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[contains(text() 'Post review')]"}
 review-submit,mutation_e_text_cont_rem_mut_alpha,RobulaXPathTest,alpha,FAILED,expected:<[Post review]> but was:<[]>
 review-submit,mutation_e_text_cont_rem_mut_alpha,SeleniumXPathTest,alpha,FAILED,expected:<[Post review]> but was:<[]>
 review-comment,mutation_f_tag_mov_container_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+review-comment,mutation_f_tag_mov_container_mut_gamma,HookXPathTest,gamma,PASSED,null
 review-comment,mutation_f_tag_mov_container_mut_gamma,KatalonXPathTest,gamma,PASSED,null
 review-comment,mutation_f_tag_mov_container_mut_gamma,RelativeXPathTest,gamma,PASSED,null
 review-comment,mutation_f_tag_mov_container_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
 review-comment,mutation_f_tag_mov_container_mut_gamma,RobulaXPathTest,gamma,PASSED,null
 review-comment,mutation_f_tag_mov_container_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
 review-field-author,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+review-field-author,mutation_h_tag_mov_temp_mut_delta,HookXPathTest,delta,PASSED,null
 review-field-author,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,PASSED,null
 review-field-author,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,PASSED,null
 review-field-author,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 review-field-author,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,PASSED,null
 review-field-author,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,PASSED,null
 reviews-average,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+reviews-average,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,PASSED,null
 reviews-average,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 reviews-average,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 reviews-average,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 reviews-average,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 reviews-average,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 review-comment,mutation_g_tag_mov_html_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+review-comment,mutation_g_tag_mov_html_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-comment,mutation_g_tag_mov_html_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-comment,mutation_g_tag_mov_html_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-comment,mutation_g_tag_mov_html_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-comment,mutation_g_tag_mov_html_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-comment,mutation_g_tag_mov_html_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-remove,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+review-remove,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-remove,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-remove,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-remove,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-remove,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-remove,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-comment,mutation_g_tag_mov_html_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+review-comment,mutation_g_tag_mov_html_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 review-comment,mutation_g_tag_mov_html_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 review-comment,mutation_g_tag_mov_html_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 review-comment,mutation_g_tag_mov_html_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 review-comment,mutation_g_tag_mov_html_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 review-comment,mutation_g_tag_mov_html_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 review-field-author,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+review-field-author,mutation_k_tag_ins_mut_delta,HookXPathTest,delta,PASSED,null
 review-field-author,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,PASSED,null
 review-field-author,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,PASSED,null
 review-field-author,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 review-field-author,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,PASSED,null
 review-field-author,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,PASSED,null
 reviews-average,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+reviews-average,mutation_i_tag_rem_mut_delta,HookXPathTest,delta,PASSED,null
 reviews-average,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,FAILED,expected:<[Dario]> but was:<[★★★★★]>
 reviews-average,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
 reviews-average,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 reviews-average,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
 reviews-average,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
 review-field-author,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[3]/app-reviews[1]/div[1]/form[1]/div[3]/button[1]"}
+review-field-author,mutation_h_tag_mov_temp_mut_gamma,HookXPathTest,gamma,PASSED,null
 review-field-author,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,PASSED,null
 review-field-author,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,PASSED,null
 review-field-author,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
 review-field-author,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,PASSED,null
 review-field-author,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
 reviews-average,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[3]/app-reviews[1]/div[1]/div[1]/span[1] (tried for 5 second(s) with 500 milliseconds interval)
+reviews-average,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,PASSED,null
 reviews-average,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
 reviews-average,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
 reviews-average,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 reviews-average,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
 reviews-average,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,PASSED,null
 review-item,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+review-item,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 review-item,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 review-item,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 review-item,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 review-item,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 review-item,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
-review-remove,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,PASSED,null
-review-remove,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,PASSED,null
-review-remove,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,PASSED,null
-review-remove,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
-review-remove,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,PASSED,null
-review-remove,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,PASSED,null
+review-remove,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+review-remove,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+review-remove,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+review-remove,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+review-remove,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+review-remove,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+review-remove,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-comment,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+review-comment,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,PASSED,null
 review-comment,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 review-comment,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 review-comment,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 review-comment,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 review-comment,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 review-submit,mutation_a_attr_val_mod_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+review-submit,mutation_a_attr_val_mod_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-submit,mutation_a_attr_val_mod_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-submit,mutation_a_attr_val_mod_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-submit,mutation_a_attr_val_mod_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-submit,mutation_a_attr_val_mod_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-submit,mutation_a_attr_val_mod_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 reviews-average,mutation_d_text_cont_mod_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+reviews-average,mutation_d_text_cont_mod_mut_beta,HookXPathTest,beta,PASSED,null
 reviews-average,mutation_d_text_cont_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
 reviews-average,mutation_d_text_cont_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
 reviews-average,mutation_d_text_cont_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 reviews-average,mutation_d_text_cont_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
 reviews-average,mutation_d_text_cont_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
 review-field-author,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,FAILED,expected:<[Dario]> but was:<[]>
+review-field-author,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,FAILED,expected:<[Dario]> but was:<[]>
 review-field-author,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='★ 4.7'])[1]/following::span[2]"}
 review-field-author,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//span[normalize-space()='Dario']"}
 review-field-author,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text() '★ 4.7')] (tried for 5 second(s) with 500 milliseconds interval)
 review-field-author,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,FAILED,expected:<[Dario]> but was:<[]>
 review-field-author,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,FAILED,expected:<[Dario]> but was:<[]>
 review-field-author,mutation_e_text_cont_rem_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+review-field-author,mutation_e_text_cont_rem_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-field-author,mutation_e_text_cont_rem_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-field-author,mutation_e_text_cont_rem_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-field-author,mutation_e_text_cont_rem_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-field-author,mutation_e_text_cont_rem_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-field-author,mutation_e_text_cont_rem_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-field-author,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+review-field-author,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,PASSED,null
 review-field-author,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
 review-field-author,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
 review-field-author,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 review-field-author,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
 review-field-author,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
 review-field-author,mutation_e_text_cont_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+review-field-author,mutation_e_text_cont_rem_mut_delta,HookXPathTest,delta,PASSED,null
 review-field-author,mutation_e_text_cont_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
 review-field-author,mutation_e_text_cont_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
 review-field-author,mutation_e_text_cont_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 review-field-author,mutation_e_text_cont_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
 review-field-author,mutation_e_text_cont_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
 review-submit,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[3]/app-reviews[1]/div[1]/form[1]/div[3]/button[1]"}
+review-submit,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,PASSED,null
 review-submit,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,PASSED,null
 review-submit,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,PASSED,null
 review-submit,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 review-submit,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,PASSED,null
 review-submit,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,PASSED,null
 review-comment,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+review-comment,mutation_h_tag_mov_temp_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-comment,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-comment,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-comment,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-comment,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-comment,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-remove,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+review-remove,mutation_k_tag_ins_mut_delta,HookXPathTest,delta,PASSED,null
 review-remove,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,PASSED,null
 review-remove,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,PASSED,null
 review-remove,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 review-remove,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,PASSED,null
 review-remove,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,PASSED,null
 review-comment,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+review-comment,mutation_h_tag_mov_temp_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 review-comment,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 review-comment,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 review-comment,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 review-comment,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 review-comment,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 review-field-comment,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+review-field-comment,mutation_k_tag_ins_mut_delta,HookXPathTest,delta,PASSED,null
 review-field-comment,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,PASSED,null
 review-field-comment,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,PASSED,null
 review-field-comment,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 review-field-comment,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,PASSED,null
 review-field-comment,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,PASSED,null
 reviews-average,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+reviews-average,mutation_h_tag_mov_temp_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 reviews-average,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 reviews-average,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 reviews-average,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 reviews-average,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 reviews-average,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 reviews-average,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+reviews-average,mutation_j_tag_type_mod_mut_delta,HookXPathTest,delta,PASSED,null
 reviews-average,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,FAILED,expected:<[Dario]> but was:<[★★★★★]>
 reviews-average,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
 reviews-average,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 reviews-average,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
 reviews-average,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
 reviews-average,mutation_d_text_cont_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+reviews-average,mutation_d_text_cont_mod_mut_delta,HookXPathTest,delta,PASSED,null
 reviews-average,mutation_d_text_cont_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
 reviews-average,mutation_d_text_cont_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
 reviews-average,mutation_d_text_cont_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 reviews-average,mutation_d_text_cont_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
 reviews-average,mutation_d_text_cont_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
 review-field-author,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+review-field-author,mutation_i_tag_rem_mut_delta,HookXPathTest,delta,PASSED,null
 review-field-author,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
 review-field-author,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
 review-field-author,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 review-field-author,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
 review-field-author,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
 review-comment,mutation_f_tag_mov_container_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+review-comment,mutation_f_tag_mov_container_mut_alpha,HookXPathTest,alpha,PASSED,null
 review-comment,mutation_f_tag_mov_container_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 review-comment,mutation_f_tag_mov_container_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 review-comment,mutation_f_tag_mov_container_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 review-comment,mutation_f_tag_mov_container_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 review-comment,mutation_f_tag_mov_container_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 review-field-comment,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+review-field-comment,mutation_i_tag_rem_mut_delta,HookXPathTest,delta,PASSED,null
 review-field-comment,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
 review-field-comment,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
 review-field-comment,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 review-field-comment,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
 review-field-comment,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
 review-remove,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+review-remove,mutation_i_tag_rem_mut_delta,HookXPathTest,delta,PASSED,null
 review-remove,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
 review-remove,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
 review-remove,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 review-remove,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
 review-remove,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
 review-item,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+review-item,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,PASSED,null
 review-item,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 review-item,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 review-item,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 review-item,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 review-item,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 review-field-author,mutation_a_attr_val_mod_mut_alpha,AbsoluteXPathTest,alpha,FAILED,expected:<[Dario]> but was:<[]>
+review-field-author,mutation_a_attr_val_mod_mut_alpha,HookXPathTest,alpha,FAILED,expected:<[Dario]> but was:<[]>
 review-field-author,mutation_a_attr_val_mod_mut_alpha,KatalonXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='★ 4.7'])[1]/following::span[2]"}
 review-field-author,mutation_a_attr_val_mod_mut_alpha,RelativeXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//span[normalize-space()='Dario']"}
 review-field-author,mutation_a_attr_val_mod_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text() '★ 4.7')] (tried for 5 second(s) with 500 milliseconds interval)
 review-field-author,mutation_a_attr_val_mod_mut_alpha,RobulaXPathTest,alpha,FAILED,expected:<[Dario]> but was:<[]>
 review-field-author,mutation_a_attr_val_mod_mut_alpha,SeleniumXPathTest,alpha,FAILED,expected:<[Dario]> but was:<[]>
 review-field-author,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+review-field-author,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,PASSED,null
 review-field-author,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 review-field-author,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 review-field-author,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 review-field-author,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 review-field-author,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 reviews-average,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+reviews-average,mutation_k_tag_ins_mut_gamma,HookXPathTest,gamma,PASSED,null
 reviews-average,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,PASSED,null
 reviews-average,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,PASSED,null
 reviews-average,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
 reviews-average,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,PASSED,null
 reviews-average,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
 review-field-comment,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[3]/app-reviews[1]/div[1]/form[1]/div[3]/button[1]"}
+review-field-comment,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,PASSED,null
 review-field-comment,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
 review-field-comment,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
 review-field-comment,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 review-field-comment,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
 review-field-comment,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
 review-item,mutation_d_text_cont_mod_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+review-item,mutation_d_text_cont_mod_mut_beta,HookXPathTest,beta,PASSED,null
 review-item,mutation_d_text_cont_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
 review-item,mutation_d_text_cont_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
 review-item,mutation_d_text_cont_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 review-item,mutation_d_text_cont_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
 review-item,mutation_d_text_cont_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
 review-comment,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[3]/app-reviews[1]/div[1]/ul[1]/li[1]/div[1]/span[1]"}
+review-comment,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(//*[@x-test-review-author])[1]"}
 review-comment,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='★ 4.7'])[1]/following::span[2]"}
 review-comment,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//span[normalize-space()='Dario']"}
 review-comment,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[contains(text() 'Dario')]"}
 review-comment,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//li[1]/*/span[@class='review-author']"}
 review-comment,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".review-item:nth-child(1) .review-author"}
 review-submit,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[3]/app-reviews[1]/div[1]/form[1]/div[3]/button[1]"}
+review-submit,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,PASSED,null
 review-submit,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
 review-submit,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
 review-submit,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 review-submit,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
 review-submit,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,PASSED,null
 review-comment,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+review-comment,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-comment,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-comment,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-comment,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-comment,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-comment,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 reviews-average,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+reviews-average,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x-test-reviews-average] (tried for 5 second(s) with 500 milliseconds interval)
 reviews-average,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='★ 4.7'])[1]/following::span[2]"}
 reviews-average,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //span[@class='reviews-average'] (tried for 5 second(s) with 500 milliseconds interval)
 reviews-average,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text() '★ 4.7')] (tried for 5 second(s) with 500 milliseconds interval)
 reviews-average,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //span[@class='reviews-average'] (tried for 5 second(s) with 500 milliseconds interval)
 reviews-average,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.cssSelector: .reviews-average (tried for 5 second(s) with 500 milliseconds interval)
 review-submit,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[3]/app-reviews[1]/div[1]/form[1]/div[3]/button[1]"}
+review-submit,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-review-submit]"}
 review-submit,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[@type='submit']"}
 review-submit,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[normalize-space()='Post review']"}
 review-submit,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[contains(text() 'Post review')]"}
 review-submit,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[@type='submit']"}
 review-submit,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".btn-primary"}
 reviews-average,mutation_g_tag_mov_html_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+reviews-average,mutation_g_tag_mov_html_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 reviews-average,mutation_g_tag_mov_html_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 reviews-average,mutation_g_tag_mov_html_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 reviews-average,mutation_g_tag_mov_html_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 reviews-average,mutation_g_tag_mov_html_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 reviews-average,mutation_g_tag_mov_html_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 review-remove,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+review-remove,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,PASSED,null
 review-remove,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 review-remove,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 review-remove,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 review-remove,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 review-remove,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 review-submit,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+review-submit,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,PASSED,null
 review-submit,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 review-submit,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 review-submit,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 review-submit,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 review-submit,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 review-submit,mutation_f_tag_mov_container_mut_beta,AbsoluteXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[3]/app-reviews[1]/div[1]/form[1]/div[3]/button[1]"}
+review-submit,mutation_f_tag_mov_container_mut_beta,HookXPathTest,beta,PASSED,null
 review-submit,mutation_f_tag_mov_container_mut_beta,KatalonXPathTest,beta,PASSED,null
 review-submit,mutation_f_tag_mov_container_mut_beta,RelativeXPathTest,beta,PASSED,null
 review-submit,mutation_f_tag_mov_container_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 review-submit,mutation_f_tag_mov_container_mut_beta,RobulaXPathTest,beta,PASSED,null
 review-submit,mutation_f_tag_mov_container_mut_beta,SeleniumXPathTest,beta,PASSED,null
 review-field-comment,mutation_d_text_cont_mod_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+review-field-comment,mutation_d_text_cont_mod_mut_beta,HookXPathTest,beta,PASSED,null
 review-field-comment,mutation_d_text_cont_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
 review-field-comment,mutation_d_text_cont_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
 review-field-comment,mutation_d_text_cont_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 review-field-comment,mutation_d_text_cont_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
 review-field-comment,mutation_d_text_cont_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
-reviews-average,mutation_g_tag_mov_html_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-reviews-average,mutation_g_tag_mov_html_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-reviews-average,mutation_g_tag_mov_html_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-reviews-average,mutation_g_tag_mov_html_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-reviews-average,mutation_g_tag_mov_html_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
-reviews-average,mutation_g_tag_mov_html_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+reviews-average,mutation_g_tag_mov_html_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[3]/app-reviews[1]/div[1]/div[1]/span[1] (tried for 5 second(s) with 500 milliseconds interval)
+reviews-average,mutation_g_tag_mov_html_mut_gamma,HookXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[@x-test-reviews-average] (tried for 5 second(s) with 500 milliseconds interval)
+reviews-average,mutation_g_tag_mov_html_mut_gamma,KatalonXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Reviews'])[1]/following::span[1] (tried for 5 second(s) with 500 milliseconds interval)
+reviews-average,mutation_g_tag_mov_html_mut_gamma,RelativeXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //span[@class='reviews-average'] (tried for 5 second(s) with 500 milliseconds interval)
+reviews-average,mutation_g_tag_mov_html_mut_gamma,RobulaPlusXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text() '★ 4.7')] (tried for 5 second(s) with 500 milliseconds interval)
+reviews-average,mutation_g_tag_mov_html_mut_gamma,RobulaXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //span[@class='reviews-average'] (tried for 5 second(s) with 500 milliseconds interval)
+reviews-average,mutation_g_tag_mov_html_mut_gamma,SeleniumXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.cssSelector: .reviews-average (tried for 5 second(s) with 500 milliseconds interval)
 review-field-author,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+review-field-author,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,PASSED,null
 review-field-author,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 review-field-author,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 review-field-author,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 review-field-author,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 review-field-author,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 review-field-comment,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[3]/app-reviews[1]/div[1]/form[1]/div[3]/button[1]"}
+review-field-comment,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,PASSED,null
 review-field-comment,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
 review-field-comment,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
 review-field-comment,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 review-field-comment,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
 review-field-comment,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,PASSED,null
 review-remove,mutation_e_text_cont_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+review-remove,mutation_e_text_cont_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
 review-remove,mutation_e_text_cont_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 review-remove,mutation_e_text_cont_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 review-remove,mutation_e_text_cont_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 review-remove,mutation_e_text_cont_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 review-remove,mutation_e_text_cont_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 review-field-author,mutation_c_attr_id_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+review-field-author,mutation_c_attr_id_mut_alpha,HookXPathTest,alpha,PASSED,null
 review-field-author,mutation_c_attr_id_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 review-field-author,mutation_c_attr_id_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 review-field-author,mutation_c_attr_id_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 review-field-author,mutation_c_attr_id_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 review-field-author,mutation_c_attr_id_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 review-field-comment,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+review-field-comment,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,PASSED,null
 review-field-comment,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 review-field-comment,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 review-field-comment,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 review-field-comment,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 review-field-comment,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 review-item,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+review-item,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-item,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-item,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-item,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-item,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-item,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 reviews-average,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+reviews-average,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 reviews-average,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 reviews-average,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 reviews-average,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 reviews-average,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 reviews-average,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 reviews-average,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+reviews-average,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 reviews-average,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 reviews-average,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 reviews-average,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 reviews-average,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 reviews-average,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-field-author,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+review-field-author,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-field-author,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-field-author,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-field-author,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-field-author,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-field-author,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-submit,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[3]/app-reviews[1]/div[1]/form[1]/div[3]/button[1]"}
+review-submit,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
 review-submit,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[@type='submit']"}
 review-submit,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[normalize-space()='Post review']"}
 review-submit,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 review-submit,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[@type='submit']"}
 review-submit,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 review-remove,mutation_g_tag_mov_html_mut_delta,AbsoluteXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
+review-remove,mutation_g_tag_mov_html_mut_delta,HookXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 review-remove,mutation_g_tag_mov_html_mut_delta,KatalonXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 review-remove,mutation_g_tag_mov_html_mut_delta,RelativeXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 review-remove,mutation_g_tag_mov_html_mut_delta,RobulaPlusXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 review-remove,mutation_g_tag_mov_html_mut_delta,RobulaXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 review-remove,mutation_g_tag_mov_html_mut_delta,SeleniumXPathTest,delta,NOT_APPLICABLE,Application did not recompile.
 review-field-author,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[3]/app-reviews[1]/div[1]/form[1]/div[3]/button[1]"}
+review-field-author,mutation_i_tag_rem_mut_gamma,HookXPathTest,gamma,PASSED,null
 review-field-author,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,PASSED,null
 review-field-author,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,PASSED,null
 review-field-author,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
 review-field-author,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
 review-field-author,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
 review-field-comment,mutation_g_tag_mov_html_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+review-field-comment,mutation_g_tag_mov_html_mut_delta,HookXPathTest,delta,PASSED,null
 review-field-comment,mutation_g_tag_mov_html_mut_delta,KatalonXPathTest,delta,PASSED,null
 review-field-comment,mutation_g_tag_mov_html_mut_delta,RelativeXPathTest,delta,PASSED,null
 review-field-comment,mutation_g_tag_mov_html_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 review-field-comment,mutation_g_tag_mov_html_mut_delta,RobulaXPathTest,delta,PASSED,null
 review-field-comment,mutation_g_tag_mov_html_mut_delta,SeleniumXPathTest,delta,PASSED,null
 review-field-comment,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+review-field-comment,mutation_k_tag_ins_mut_gamma,HookXPathTest,gamma,PASSED,null
 review-field-comment,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,PASSED,null
 review-field-comment,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,PASSED,null
 review-field-comment,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
 review-field-comment,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,PASSED,null
 review-field-comment,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
 review-field-comment,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+review-field-comment,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
 review-field-comment,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 review-field-comment,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 review-field-comment,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 review-field-comment,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 review-field-comment,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 review-comment,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+review-comment,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
 review-comment,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 review-comment,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 review-comment,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 review-comment,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 review-comment,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 review-field-author,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+review-field-author,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,PASSED,null
 review-field-author,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
 review-field-author,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
 review-field-author,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 review-field-author,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
 review-field-author,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,PASSED,null
 review-field-comment,mutation_a_attr_val_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+review-field-comment,mutation_a_attr_val_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
 review-field-comment,mutation_a_attr_val_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 review-field-comment,mutation_a_attr_val_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 review-field-comment,mutation_a_attr_val_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 review-field-comment,mutation_a_attr_val_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 review-field-comment,mutation_a_attr_val_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 review-field-author,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+review-field-author,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,PASSED,null
 review-field-author,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
 review-field-author,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
 review-field-author,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 review-field-author,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
 review-field-author,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
 review-comment,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[3]/app-reviews[1]/div[1]/ul[1]/li[1]/div[1]/span[1]"}
+review-comment,mutation_j_tag_type_mod_mut_delta,HookXPathTest,delta,PASSED,null
 review-comment,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,FAILED,expected:<Dario[]> but was:<Dario[★★★★★2023-01-08×]>
 review-comment,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
 review-comment,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 review-comment,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
 review-comment,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
 review-item,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+review-item,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,PASSED,null
 review-item,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
 review-item,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
 review-item,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 review-item,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
 review-item,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
 review-field-comment,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+review-field-comment,mutation_f_tag_mov_container_mut_delta,HookXPathTest,delta,PASSED,null
 review-field-comment,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,PASSED,null
 review-field-comment,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,PASSED,null
 review-field-comment,mutation_f_tag_mov_container_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 review-field-comment,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,PASSED,null
 review-field-comment,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,PASSED,null
 review-submit,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[3]/app-reviews[1]/div[1]/form[1]/div[3]/button[1]"}
+review-submit,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,PASSED,null
 review-submit,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
 review-submit,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
 review-submit,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 review-submit,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
 review-submit,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
 review-remove,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,FAILED,expected:<[Dario]> but was:<[2023-01-08]>
+review-remove,mutation_f_tag_mov_container_mut_delta,HookXPathTest,delta,PASSED,null
 review-remove,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,FAILED,expected:<[Dario]> but was:<[2023-01-08]>
 review-remove,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,PASSED,null
 review-remove,mutation_f_tag_mov_container_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 review-remove,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,PASSED,null
 review-remove,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,PASSED,null
 review-remove,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+review-remove,mutation_h_tag_mov_temp_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-remove,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-remove,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-remove,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-remove,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-remove,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 reviews-average,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+reviews-average,mutation_h_tag_mov_temp_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 reviews-average,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 reviews-average,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 reviews-average,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 reviews-average,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 reviews-average,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-item,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[3]/app-reviews[1]/div[1]/ul[1]/li[1]/div[1]/span[1]"}
+review-item,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
 review-item,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 review-item,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 review-item,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 review-item,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//li[1]/*/span[@class='review-author']"}
 review-item,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".review-item:nth-child(1) .review-author"}
 review-field-comment,mutation_a_attr_val_mod_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+review-field-comment,mutation_a_attr_val_mod_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-field-comment,mutation_a_attr_val_mod_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-field-comment,mutation_a_attr_val_mod_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-field-comment,mutation_a_attr_val_mod_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-field-comment,mutation_a_attr_val_mod_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-field-comment,mutation_a_attr_val_mod_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-field-comment,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+review-field-comment,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-field-comment,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-field-comment,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-field-comment,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-field-comment,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-field-comment,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-submit,mutation_g_tag_mov_html_mut_gamma,AbsoluteXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[3]/app-reviews[1]/div[1]/form[1]/div[3]/button[1]"}
+review-submit,mutation_g_tag_mov_html_mut_gamma,HookXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-review-submit]"}
 review-submit,mutation_g_tag_mov_html_mut_gamma,KatalonXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[@type='submit']"}
 review-submit,mutation_g_tag_mov_html_mut_gamma,RelativeXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[normalize-space()='Post review']"}
 review-submit,mutation_g_tag_mov_html_mut_gamma,RobulaPlusXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[contains(text() 'Post review')]"}
 review-submit,mutation_g_tag_mov_html_mut_gamma,RobulaXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[@type='submit']"}
 review-submit,mutation_g_tag_mov_html_mut_gamma,SeleniumXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".btn-primary"}
 reviews-average,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[3]/app-reviews[1]/div[1]/div[1]/span[1] (tried for 5 second(s) with 500 milliseconds interval)
+reviews-average,mutation_j_tag_type_mod_mut_gamma,HookXPathTest,gamma,PASSED,null
 reviews-average,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,PASSED,null
 reviews-average,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,PASSED,null
 reviews-average,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
 reviews-average,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
 reviews-average,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
 review-comment,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+review-comment,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
 review-comment,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 review-comment,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 review-comment,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 review-comment,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 review-comment,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 review-submit,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[3]/app-reviews[1]/div[1]/form[1]/div[3]/button[1]"}
+review-submit,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,PASSED,null
 review-submit,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 review-submit,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 review-submit,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 review-submit,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 review-submit,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 review-field-author,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[3]/app-reviews[1]/div[1]/form[1]/div[3]/button[1]"}
+review-field-author,mutation_k_tag_ins_mut_gamma,HookXPathTest,gamma,PASSED,null
 review-field-author,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,PASSED,null
 review-field-author,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,PASSED,null
 review-field-author,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
 review-field-author,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,PASSED,null
 review-field-author,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
 review-item,mutation_g_tag_mov_html_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+review-item,mutation_g_tag_mov_html_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-item,mutation_g_tag_mov_html_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-item,mutation_g_tag_mov_html_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-item,mutation_g_tag_mov_html_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-item,mutation_g_tag_mov_html_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-item,mutation_g_tag_mov_html_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-field-comment,mutation_f_tag_mov_container_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+review-field-comment,mutation_f_tag_mov_container_mut_beta,HookXPathTest,beta,PASSED,null
 review-field-comment,mutation_f_tag_mov_container_mut_beta,KatalonXPathTest,beta,PASSED,null
 review-field-comment,mutation_f_tag_mov_container_mut_beta,RelativeXPathTest,beta,PASSED,null
 review-field-comment,mutation_f_tag_mov_container_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 review-field-comment,mutation_f_tag_mov_container_mut_beta,RobulaXPathTest,beta,PASSED,null
 review-field-comment,mutation_f_tag_mov_container_mut_beta,SeleniumXPathTest,beta,PASSED,null
 review-field-author,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+review-field-author,mutation_f_tag_mov_container_mut_delta,HookXPathTest,delta,PASSED,null
 review-field-author,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,PASSED,null
 review-field-author,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,PASSED,null
 review-field-author,mutation_f_tag_mov_container_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 review-field-author,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,PASSED,null
 review-field-author,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,PASSED,null
 review-field-comment,mutation_e_text_cont_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+review-field-comment,mutation_e_text_cont_rem_mut_delta,HookXPathTest,delta,PASSED,null
 review-field-comment,mutation_e_text_cont_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
 review-field-comment,mutation_e_text_cont_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
 review-field-comment,mutation_e_text_cont_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 review-field-comment,mutation_e_text_cont_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
 review-field-comment,mutation_e_text_cont_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
 review-remove,mutation_a_attr_val_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+review-remove,mutation_a_attr_val_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
 review-remove,mutation_a_attr_val_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 review-remove,mutation_a_attr_val_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 review-remove,mutation_a_attr_val_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 review-remove,mutation_a_attr_val_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 review-remove,mutation_a_attr_val_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 review-field-comment,mutation_f_tag_mov_container_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+review-field-comment,mutation_f_tag_mov_container_mut_alpha,HookXPathTest,alpha,PASSED,null
 review-field-comment,mutation_f_tag_mov_container_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 review-field-comment,mutation_f_tag_mov_container_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 review-field-comment,mutation_f_tag_mov_container_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 review-field-comment,mutation_f_tag_mov_container_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 review-field-comment,mutation_f_tag_mov_container_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 review-submit,mutation_d_text_cont_mod_mut_alpha,AbsoluteXPathTest,alpha,FAILED,expected:<[]Post review> but was:<[[The following text has been mutated] ]Post review>
+review-submit,mutation_d_text_cont_mod_mut_alpha,HookXPathTest,alpha,FAILED,expected:<[]Post review> but was:<[[The following text has been mutated] ]Post review>
 review-submit,mutation_d_text_cont_mod_mut_alpha,KatalonXPathTest,alpha,FAILED,expected:<[]Post review> but was:<[[The following text has been mutated] ]Post review>
 review-submit,mutation_d_text_cont_mod_mut_alpha,RelativeXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[normalize-space()='Post review']"}
 review-submit,mutation_d_text_cont_mod_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,expected:<[]Post review> but was:<[[The following text has been mutated] ]Post review>
 review-submit,mutation_d_text_cont_mod_mut_alpha,RobulaXPathTest,alpha,FAILED,expected:<[]Post review> but was:<[[The following text has been mutated] ]Post review>
 review-submit,mutation_d_text_cont_mod_mut_alpha,SeleniumXPathTest,alpha,FAILED,expected:<[]Post review> but was:<[[The following text has been mutated] ]Post review>
 review-comment,mutation_d_text_cont_mod_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+review-comment,mutation_d_text_cont_mod_mut_gamma,HookXPathTest,gamma,PASSED,null
 review-comment,mutation_d_text_cont_mod_mut_gamma,KatalonXPathTest,gamma,PASSED,null
 review-comment,mutation_d_text_cont_mod_mut_gamma,RelativeXPathTest,gamma,PASSED,null
 review-comment,mutation_d_text_cont_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
 review-comment,mutation_d_text_cont_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
 review-comment,mutation_d_text_cont_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
 review-remove,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+review-remove,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 review-remove,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 review-remove,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 review-remove,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 review-remove,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 review-remove,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 review-comment,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+review-comment,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,PASSED,null
 review-comment,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 review-comment,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 review-comment,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 review-comment,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 review-comment,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 review-remove,mutation_j_tag_type_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+review-remove,mutation_j_tag_type_mod_mut_delta,HookXPathTest,delta,PASSED,null
 review-remove,mutation_j_tag_type_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
 review-remove,mutation_j_tag_type_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
 review-remove,mutation_j_tag_type_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 review-remove,mutation_j_tag_type_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
 review-remove,mutation_j_tag_type_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
 review-item,mutation_f_tag_mov_container_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+review-item,mutation_f_tag_mov_container_mut_beta,HookXPathTest,beta,PASSED,null
 review-item,mutation_f_tag_mov_container_mut_beta,KatalonXPathTest,beta,PASSED,null
 review-item,mutation_f_tag_mov_container_mut_beta,RelativeXPathTest,beta,PASSED,null
 review-item,mutation_f_tag_mov_container_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 review-item,mutation_f_tag_mov_container_mut_beta,RobulaXPathTest,beta,PASSED,null
 review-item,mutation_f_tag_mov_container_mut_beta,SeleniumXPathTest,beta,PASSED,null
 review-field-comment,mutation_b_attr_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+review-field-comment,mutation_b_attr_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
 review-field-comment,mutation_b_attr_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 review-field-comment,mutation_b_attr_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 review-field-comment,mutation_b_attr_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 review-field-comment,mutation_b_attr_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 review-field-comment,mutation_b_attr_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 review-remove,mutation_d_text_cont_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+review-remove,mutation_d_text_cont_mod_mut_delta,HookXPathTest,delta,PASSED,null
 review-remove,mutation_d_text_cont_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
 review-remove,mutation_d_text_cont_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
 review-remove,mutation_d_text_cont_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 review-remove,mutation_d_text_cont_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
 review-remove,mutation_d_text_cont_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
 review-field-comment,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[3]/app-reviews[1]/div[1]/form[1]/div[3]/button[1]"}
+review-field-comment,mutation_j_tag_type_mod_mut_gamma,HookXPathTest,gamma,PASSED,null
 review-field-comment,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,PASSED,null
 review-field-comment,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,PASSED,null
 review-field-comment,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
 review-field-comment,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
 review-field-comment,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
 review-submit,mutation_a_attr_val_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+review-submit,mutation_a_attr_val_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
 review-submit,mutation_a_attr_val_mod_mut_alpha,KatalonXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[@type='submit']"}
 review-submit,mutation_a_attr_val_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 review-submit,mutation_a_attr_val_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 review-submit,mutation_a_attr_val_mod_mut_alpha,RobulaXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[@type='submit']"}
 review-submit,mutation_a_attr_val_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 review-submit,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[3]/app-reviews[1]/div[1]/form[1]/div[3]/button[1]"}
+review-submit,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-review-submit]"}
 review-submit,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[@type='submit']"}
 review-submit,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[normalize-space()='Post review']"}
 review-submit,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 review-submit,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[@type='submit']"}
 review-submit,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".btn-primary"}
 reviews-average,mutation_f_tag_mov_container_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+reviews-average,mutation_f_tag_mov_container_mut_delta,HookXPathTest,delta,PASSED,null
 reviews-average,mutation_f_tag_mov_container_mut_delta,KatalonXPathTest,delta,PASSED,null
 reviews-average,mutation_f_tag_mov_container_mut_delta,RelativeXPathTest,delta,PASSED,null
 reviews-average,mutation_f_tag_mov_container_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 reviews-average,mutation_f_tag_mov_container_mut_delta,RobulaXPathTest,delta,PASSED,null
 reviews-average,mutation_f_tag_mov_container_mut_delta,SeleniumXPathTest,delta,PASSED,null
 review-submit,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+review-submit,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,PASSED,null
 review-submit,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
 review-submit,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
 review-submit,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 review-submit,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
 review-submit,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
 review-comment,mutation_e_text_cont_rem_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+review-comment,mutation_e_text_cont_rem_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-comment,mutation_e_text_cont_rem_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-comment,mutation_e_text_cont_rem_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-comment,mutation_e_text_cont_rem_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-comment,mutation_e_text_cont_rem_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-comment,mutation_e_text_cont_rem_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-submit,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+review-submit,mutation_h_tag_mov_temp_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-submit,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-submit,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-submit,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-submit,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-submit,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-comment,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+review-comment,mutation_k_tag_ins_mut_gamma,HookXPathTest,gamma,PASSED,null
 review-comment,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,PASSED,null
 review-comment,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,PASSED,null
 review-comment,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
 review-comment,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,PASSED,null
 review-comment,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
 review-comment,mutation_i_tag_rem_mut_delta,AbsoluteXPathTest,delta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[3]/app-reviews[1]/div[1]/ul[1]/li[1]/div[1]/span[1]"}
+review-comment,mutation_i_tag_rem_mut_delta,HookXPathTest,delta,PASSED,null
 review-comment,mutation_i_tag_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
 review-comment,mutation_i_tag_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
 review-comment,mutation_i_tag_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 review-comment,mutation_i_tag_rem_mut_delta,RobulaXPathTest,delta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//li[1]/*/span[@class='review-author']"}
 review-comment,mutation_i_tag_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
 review-remove,mutation_d_text_cont_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+review-remove,mutation_d_text_cont_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
 review-remove,mutation_d_text_cont_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 review-remove,mutation_d_text_cont_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 review-remove,mutation_d_text_cont_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 review-remove,mutation_d_text_cont_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 review-remove,mutation_d_text_cont_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 reviews-average,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+reviews-average,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,PASSED,null
 reviews-average,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
 reviews-average,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
 reviews-average,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 reviews-average,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
 reviews-average,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
 reviews-average,mutation_f_tag_mov_container_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+reviews-average,mutation_f_tag_mov_container_mut_alpha,HookXPathTest,alpha,PASSED,null
 reviews-average,mutation_f_tag_mov_container_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 reviews-average,mutation_f_tag_mov_container_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 reviews-average,mutation_f_tag_mov_container_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 reviews-average,mutation_f_tag_mov_container_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 reviews-average,mutation_f_tag_mov_container_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 review-item,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[3]/app-reviews[1]/div[1]/ul[1]/li[1]/div[1]/span[1]"}
+review-item,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,PASSED,null
 review-item,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
 review-item,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
 review-item,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 review-item,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
 review-item,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
 review-remove,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+review-remove,mutation_h_tag_mov_temp_mut_delta,HookXPathTest,delta,PASSED,null
 review-remove,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,PASSED,null
 review-remove,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,PASSED,null
 review-remove,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 review-remove,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,PASSED,null
 review-remove,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,PASSED,null
 review-field-author,mutation_b_attr_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+review-field-author,mutation_b_attr_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
 review-field-author,mutation_b_attr_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 review-field-author,mutation_b_attr_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 review-field-author,mutation_b_attr_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 review-field-author,mutation_b_attr_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 review-field-author,mutation_b_attr_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 review-field-comment,mutation_c_attr_id_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+review-field-comment,mutation_c_attr_id_mut_alpha,HookXPathTest,alpha,PASSED,null
 review-field-comment,mutation_c_attr_id_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 review-field-comment,mutation_c_attr_id_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 review-field-comment,mutation_c_attr_id_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 review-field-comment,mutation_c_attr_id_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 review-field-comment,mutation_c_attr_id_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 review-remove,mutation_i_tag_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+review-remove,mutation_i_tag_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
 review-remove,mutation_i_tag_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 review-remove,mutation_i_tag_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 review-remove,mutation_i_tag_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 review-remove,mutation_i_tag_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 review-remove,mutation_i_tag_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 review-field-comment,mutation_f_tag_mov_container_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+review-field-comment,mutation_f_tag_mov_container_mut_gamma,HookXPathTest,gamma,PASSED,null
 review-field-comment,mutation_f_tag_mov_container_mut_gamma,KatalonXPathTest,gamma,PASSED,null
 review-field-comment,mutation_f_tag_mov_container_mut_gamma,RelativeXPathTest,gamma,PASSED,null
 review-field-comment,mutation_f_tag_mov_container_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
 review-field-comment,mutation_f_tag_mov_container_mut_gamma,RobulaXPathTest,gamma,PASSED,null
 review-field-comment,mutation_f_tag_mov_container_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
 review-field-comment,mutation_b_attr_rem_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+review-field-comment,mutation_b_attr_rem_mut_gamma,HookXPathTest,gamma,PASSED,null
 review-field-comment,mutation_b_attr_rem_mut_gamma,KatalonXPathTest,gamma,PASSED,null
 review-field-comment,mutation_b_attr_rem_mut_gamma,RelativeXPathTest,gamma,PASSED,null
 review-field-comment,mutation_b_attr_rem_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
 review-field-comment,mutation_b_attr_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
 review-field-comment,mutation_b_attr_rem_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
 review-field-comment,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+review-field-comment,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,PASSED,null
 review-field-comment,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 review-field-comment,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 review-field-comment,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 review-field-comment,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 review-field-comment,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 review-field-author,mutation_d_text_cont_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+review-field-author,mutation_d_text_cont_mod_mut_delta,HookXPathTest,delta,PASSED,null
 review-field-author,mutation_d_text_cont_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
 review-field-author,mutation_d_text_cont_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
 review-field-author,mutation_d_text_cont_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 review-field-author,mutation_d_text_cont_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
 review-field-author,mutation_d_text_cont_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
 review-remove,mutation_b_attr_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+review-remove,mutation_b_attr_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
 review-remove,mutation_b_attr_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 review-remove,mutation_b_attr_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 review-remove,mutation_b_attr_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 review-remove,mutation_b_attr_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 review-remove,mutation_b_attr_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 review-remove,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[3]/app-reviews[1]/div[1]/ul[1]/li[1]/div[1]/span[1]"}
+review-remove,mutation_j_tag_type_mod_mut_gamma,HookXPathTest,gamma,PASSED,null
 review-remove,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,PASSED,null
 review-remove,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,PASSED,null
 review-remove,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
 review-remove,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//li[1]/*/span[@class='review-author']"}
 review-remove,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
 review-comment,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[3]/app-reviews[1]/div[1]/ul[1]/li[1]/div[1]/span[1]"}
+review-comment,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,PASSED,null
 review-comment,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
 review-comment,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
 review-comment,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 review-comment,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//li[1]/*/span[@class='review-author']"}
 review-comment,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
 review-submit,mutation_f_tag_mov_container_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+review-submit,mutation_f_tag_mov_container_mut_gamma,HookXPathTest,gamma,PASSED,null
 review-submit,mutation_f_tag_mov_container_mut_gamma,KatalonXPathTest,gamma,PASSED,null
 review-submit,mutation_f_tag_mov_container_mut_gamma,RelativeXPathTest,gamma,PASSED,null
 review-submit,mutation_f_tag_mov_container_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
 review-submit,mutation_f_tag_mov_container_mut_gamma,RobulaXPathTest,gamma,PASSED,null
 review-submit,mutation_f_tag_mov_container_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
 review-item,mutation_h_tag_mov_temp_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+review-item,mutation_h_tag_mov_temp_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-item,mutation_h_tag_mov_temp_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-item,mutation_h_tag_mov_temp_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-item,mutation_h_tag_mov_temp_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-item,mutation_h_tag_mov_temp_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-item,mutation_h_tag_mov_temp_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-comment,mutation_e_text_cont_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+review-comment,mutation_e_text_cont_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
 review-comment,mutation_e_text_cont_rem_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 review-comment,mutation_e_text_cont_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 review-comment,mutation_e_text_cont_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 review-comment,mutation_e_text_cont_rem_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 review-comment,mutation_e_text_cont_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 review-submit,mutation_b_attr_rem_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+review-submit,mutation_b_attr_rem_mut_alpha,HookXPathTest,alpha,PASSED,null
 review-submit,mutation_b_attr_rem_mut_alpha,KatalonXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[@type='submit']"}
 review-submit,mutation_b_attr_rem_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 review-submit,mutation_b_attr_rem_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 review-submit,mutation_b_attr_rem_mut_alpha,RobulaXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[@type='submit']"}
 review-submit,mutation_b_attr_rem_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 review-field-comment,mutation_e_text_cont_rem_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+review-field-comment,mutation_e_text_cont_rem_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-field-comment,mutation_e_text_cont_rem_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-field-comment,mutation_e_text_cont_rem_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-field-comment,mutation_e_text_cont_rem_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-field-comment,mutation_e_text_cont_rem_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-field-comment,mutation_e_text_cont_rem_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-item,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[3]/app-reviews[1]/div[1]/ul[1]/li[1]/div[1]/span[1]"}
+review-item,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,PASSED,null
 review-item,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
 review-item,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
 review-item,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 review-item,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,PASSED,null
 review-item,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".review-item:nth-child(1) .review-author"}
 review-field-comment,mutation_h_tag_mov_temp_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+review-field-comment,mutation_h_tag_mov_temp_mut_alpha,HookXPathTest,alpha,PASSED,null
 review-field-comment,mutation_h_tag_mov_temp_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 review-field-comment,mutation_h_tag_mov_temp_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 review-field-comment,mutation_h_tag_mov_temp_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 review-field-comment,mutation_h_tag_mov_temp_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 review-field-comment,mutation_h_tag_mov_temp_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 review-field-author,mutation_k_tag_ins_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+review-field-author,mutation_k_tag_ins_mut_alpha,HookXPathTest,alpha,PASSED,null
 review-field-author,mutation_k_tag_ins_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 review-field-author,mutation_k_tag_ins_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 review-field-author,mutation_k_tag_ins_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 review-field-author,mutation_k_tag_ins_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 review-field-author,mutation_k_tag_ins_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 review-remove,mutation_g_tag_mov_html_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+review-remove,mutation_g_tag_mov_html_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-remove,mutation_g_tag_mov_html_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-remove,mutation_g_tag_mov_html_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-remove,mutation_g_tag_mov_html_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-remove,mutation_g_tag_mov_html_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-remove,mutation_g_tag_mov_html_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-remove,mutation_f_tag_mov_container_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+review-remove,mutation_f_tag_mov_container_mut_alpha,HookXPathTest,alpha,PASSED,null
 review-remove,mutation_f_tag_mov_container_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 review-remove,mutation_f_tag_mov_container_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 review-remove,mutation_f_tag_mov_container_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 review-remove,mutation_f_tag_mov_container_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 review-remove,mutation_f_tag_mov_container_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 review-item,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[3]/app-reviews[1]/div[1]/div[1]/span[1] (tried for 5 second(s) with 500 milliseconds interval)
+review-item,mutation_j_tag_type_mod_mut_gamma,HookXPathTest,gamma,PASSED,null
 review-item,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,PASSED,null
 review-item,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,PASSED,null
 review-item,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
 review-item,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
 review-item,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
 reviews-average,mutation_e_text_cont_rem_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+reviews-average,mutation_e_text_cont_rem_mut_delta,HookXPathTest,delta,PASSED,null
 reviews-average,mutation_e_text_cont_rem_mut_delta,KatalonXPathTest,delta,PASSED,null
 reviews-average,mutation_e_text_cont_rem_mut_delta,RelativeXPathTest,delta,PASSED,null
 reviews-average,mutation_e_text_cont_rem_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 reviews-average,mutation_e_text_cont_rem_mut_delta,RobulaXPathTest,delta,PASSED,null
 reviews-average,mutation_e_text_cont_rem_mut_delta,SeleniumXPathTest,delta,PASSED,null
 review-remove,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+review-remove,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,PASSED,null
 review-remove,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 review-remove,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 review-remove,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 review-remove,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 review-remove,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 review-field-author,mutation_f_tag_mov_container_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+review-field-author,mutation_f_tag_mov_container_mut_alpha,HookXPathTest,alpha,PASSED,null
 review-field-author,mutation_f_tag_mov_container_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 review-field-author,mutation_f_tag_mov_container_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 review-field-author,mutation_f_tag_mov_container_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 review-field-author,mutation_f_tag_mov_container_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 review-field-author,mutation_f_tag_mov_container_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 review-comment,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+review-comment,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,PASSED,null
 review-comment,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
 review-comment,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
 review-comment,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 review-comment,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
 review-comment,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
 review-field-comment,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,FAILED,expected:<[Dario]> but was:<[]>
+review-field-comment,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,FAILED,expected:<[Dario]> but was:<[]>
 review-field-comment,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='★ 4.7'])[1]/following::span[2]"}
 review-field-comment,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//span[normalize-space()='Dario']"}
 review-field-comment,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text() '★ 4.7')] (tried for 5 second(s) with 500 milliseconds interval)
 review-field-comment,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,FAILED,expected:<[Dario]> but was:<[]>
 review-field-comment,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,FAILED,expected:<[Dario]> but was:<[]>
 review-field-author,mutation_g_tag_mov_html_mut_beta,AbsoluteXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
+review-field-author,mutation_g_tag_mov_html_mut_beta,HookXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-field-author,mutation_g_tag_mov_html_mut_beta,KatalonXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-field-author,mutation_g_tag_mov_html_mut_beta,RelativeXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-field-author,mutation_g_tag_mov_html_mut_beta,RobulaPlusXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-field-author,mutation_g_tag_mov_html_mut_beta,RobulaXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-field-author,mutation_g_tag_mov_html_mut_beta,SeleniumXPathTest,beta,NOT_APPLICABLE,Application did not recompile.
 review-remove,mutation_i_tag_rem_mut_beta,AbsoluteXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[3]/app-reviews[1]/div[1]/ul[1]/li[1]/div[1]/span[1]"}
+review-remove,mutation_i_tag_rem_mut_beta,HookXPathTest,beta,PASSED,null
 review-remove,mutation_i_tag_rem_mut_beta,KatalonXPathTest,beta,PASSED,null
 review-remove,mutation_i_tag_rem_mut_beta,RelativeXPathTest,beta,PASSED,null
 review-remove,mutation_i_tag_rem_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 review-remove,mutation_i_tag_rem_mut_beta,RobulaXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//li[1]/*/span[@class='review-author']"}
 review-remove,mutation_i_tag_rem_mut_beta,SeleniumXPathTest,beta,PASSED,null
 review-field-comment,mutation_h_tag_mov_temp_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+review-field-comment,mutation_h_tag_mov_temp_mut_delta,HookXPathTest,delta,PASSED,null
 review-field-comment,mutation_h_tag_mov_temp_mut_delta,KatalonXPathTest,delta,PASSED,null
 review-field-comment,mutation_h_tag_mov_temp_mut_delta,RelativeXPathTest,delta,PASSED,null
 review-field-comment,mutation_h_tag_mov_temp_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 review-field-comment,mutation_h_tag_mov_temp_mut_delta,RobulaXPathTest,delta,PASSED,null
 review-field-comment,mutation_h_tag_mov_temp_mut_delta,SeleniumXPathTest,delta,PASSED,null
 review-field-comment,mutation_d_text_cont_mod_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+review-field-comment,mutation_d_text_cont_mod_mut_delta,HookXPathTest,delta,PASSED,null
 review-field-comment,mutation_d_text_cont_mod_mut_delta,KatalonXPathTest,delta,PASSED,null
 review-field-comment,mutation_d_text_cont_mod_mut_delta,RelativeXPathTest,delta,PASSED,null
 review-field-comment,mutation_d_text_cont_mod_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 review-field-comment,mutation_d_text_cont_mod_mut_delta,RobulaXPathTest,delta,PASSED,null
 review-field-comment,mutation_d_text_cont_mod_mut_delta,SeleniumXPathTest,delta,PASSED,null
 review-submit,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,FAILED,expected:<[Dario]> but was:<[]>
+review-submit,mutation_i_tag_rem_mut_gamma,HookXPathTest,gamma,FAILED,expected:<[Dario]> but was:<[]>
 review-submit,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='★ 4.7'])[1]/following::span[2]"}
 review-submit,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//span[normalize-space()='Dario']"}
 review-submit,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text() '★ 4.7')] (tried for 5 second(s) with 500 milliseconds interval)
 review-submit,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,FAILED,expected:<[Dario]> but was:<[]>
 review-submit,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,FAILED,expected:<[Dario]> but was:<[]>
 reviews-average,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[3]/app-reviews[1]/div[1]/div[1]/span[1] (tried for 5 second(s) with 500 milliseconds interval)
+reviews-average,mutation_i_tag_rem_mut_gamma,HookXPathTest,gamma,PASSED,null
 reviews-average,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,PASSED,null
 reviews-average,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,PASSED,null
 reviews-average,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
 reviews-average,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
 reviews-average,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
 review-comment,mutation_k_tag_ins_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+review-comment,mutation_k_tag_ins_mut_delta,HookXPathTest,delta,PASSED,null
 review-comment,mutation_k_tag_ins_mut_delta,KatalonXPathTest,delta,PASSED,null
 review-comment,mutation_k_tag_ins_mut_delta,RelativeXPathTest,delta,PASSED,null
 review-comment,mutation_k_tag_ins_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 review-comment,mutation_k_tag_ins_mut_delta,RobulaXPathTest,delta,PASSED,null
 review-comment,mutation_k_tag_ins_mut_delta,SeleniumXPathTest,delta,PASSED,null
 review-remove,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[3]/app-reviews[1]/div[1]/ul[1]/li[1]/div[1]/span[1]"}
+review-remove,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,PASSED,null
 review-remove,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,FAILED,expected:<Dario[]> but was:<Dario[★★★★★2023-01-08×]>
 review-remove,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
 review-remove,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 review-remove,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
 review-remove,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
 review-comment,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+review-comment,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 review-comment,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 review-comment,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 review-comment,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 review-comment,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 review-comment,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 review-submit,mutation_h_tag_mov_temp_mut_beta,AbsoluteXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[3]/app-reviews[1]/div[1]/form[1]/div[3]/button[1]"}
+review-submit,mutation_h_tag_mov_temp_mut_beta,HookXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-review-submit]"}
 review-submit,mutation_h_tag_mov_temp_mut_beta,KatalonXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[@type='submit']"}
 review-submit,mutation_h_tag_mov_temp_mut_beta,RelativeXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[normalize-space()='Post review']"}
 review-submit,mutation_h_tag_mov_temp_mut_beta,RobulaPlusXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[contains(text() 'Post review')]"}
 review-submit,mutation_h_tag_mov_temp_mut_beta,RobulaXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//button[@type='submit']"}
 review-submit,mutation_h_tag_mov_temp_mut_beta,SeleniumXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".btn-primary"}
 review-item,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[3]/app-reviews[1]/div[1]/div[1]/span[1] (tried for 5 second(s) with 500 milliseconds interval)
+review-item,mutation_i_tag_rem_mut_gamma,HookXPathTest,gamma,PASSED,null
 review-item,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,PASSED,null
 review-item,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,PASSED,null
 review-item,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
 review-item,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,PASSED,null
 review-item,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
 reviews-average,mutation_j_tag_type_mod_mut_beta,AbsoluteXPathTest,beta,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: /html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[3]/app-reviews[1]/div[1]/div[1]/span[1] (tried for 5 second(s) with 500 milliseconds interval)
+reviews-average,mutation_j_tag_type_mod_mut_beta,HookXPathTest,beta,PASSED,null
 reviews-average,mutation_j_tag_type_mod_mut_beta,KatalonXPathTest,beta,PASSED,null
 reviews-average,mutation_j_tag_type_mod_mut_beta,RelativeXPathTest,beta,PASSED,null
 reviews-average,mutation_j_tag_type_mod_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 reviews-average,mutation_j_tag_type_mod_mut_beta,RobulaXPathTest,beta,PASSED,null
 reviews-average,mutation_j_tag_type_mod_mut_beta,SeleniumXPathTest,beta,PASSED,null
 reviews-average,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+reviews-average,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 reviews-average,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 reviews-average,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 reviews-average,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 reviews-average,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 reviews-average,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 review-comment,mutation_d_text_cont_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+review-comment,mutation_d_text_cont_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
 review-comment,mutation_d_text_cont_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 review-comment,mutation_d_text_cont_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 review-comment,mutation_d_text_cont_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 review-comment,mutation_d_text_cont_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 review-comment,mutation_d_text_cont_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 review-item,mutation_g_tag_mov_html_mut_alpha,AbsoluteXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
+review-item,mutation_g_tag_mov_html_mut_alpha,HookXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 review-item,mutation_g_tag_mov_html_mut_alpha,KatalonXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 review-item,mutation_g_tag_mov_html_mut_alpha,RelativeXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 review-item,mutation_g_tag_mov_html_mut_alpha,RobulaPlusXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 review-item,mutation_g_tag_mov_html_mut_alpha,RobulaXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 review-item,mutation_g_tag_mov_html_mut_alpha,SeleniumXPathTest,alpha,NOT_APPLICABLE,Application did not recompile.
 review-remove,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+review-remove,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
 review-remove,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 review-remove,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 review-remove,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 review-remove,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,PASSED,null
 review-remove,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 review-remove,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,PASSED,null
+review-remove,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,PASSED,null
 review-remove,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
 review-remove,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
 review-remove,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 review-remove,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
 review-remove,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
 review-field-comment,mutation_k_tag_ins_mut_beta,AbsoluteXPathTest,beta,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[3]/app-reviews[1]/div[1]/form[1]/div[3]/button[1]"}
+review-field-comment,mutation_k_tag_ins_mut_beta,HookXPathTest,beta,PASSED,null
 review-field-comment,mutation_k_tag_ins_mut_beta,KatalonXPathTest,beta,PASSED,null
 review-field-comment,mutation_k_tag_ins_mut_beta,RelativeXPathTest,beta,PASSED,null
 review-field-comment,mutation_k_tag_ins_mut_beta,RobulaPlusXPathTest,beta,PASSED,null
 review-field-comment,mutation_k_tag_ins_mut_beta,RobulaXPathTest,beta,PASSED,null
 review-field-comment,mutation_k_tag_ins_mut_beta,SeleniumXPathTest,beta,PASSED,null
 review-item,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[3]/app-reviews[1]/div[1]/ul[1]/li[1]/div[1]/span[1]"}
+review-item,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
 review-item,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 review-item,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,PASSED,null
 review-item,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 review-item,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//li[1]/*/span[@class='review-author']"}
 review-item,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 review-submit,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+review-submit,mutation_k_tag_ins_mut_gamma,HookXPathTest,gamma,PASSED,null
 review-submit,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,PASSED,null
 review-submit,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,PASSED,null
 review-submit,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
 review-submit,mutation_k_tag_ins_mut_gamma,RobulaXPathTest,gamma,PASSED,null
 review-submit,mutation_k_tag_ins_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
 review-field-comment,mutation_i_tag_rem_mut_gamma,AbsoluteXPathTest,gamma,FAILED,expected:<[Dario]> but was:<[]>
+review-field-comment,mutation_i_tag_rem_mut_gamma,HookXPathTest,gamma,FAILED,expected:<[Dario]> but was:<[]>
 review-field-comment,mutation_i_tag_rem_mut_gamma,KatalonXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"(.//*[normalize-space(text()) and normalize-space(.)='★ 4.7'])[1]/following::span[2]"}
 review-field-comment,mutation_i_tag_rem_mut_gamma,RelativeXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//span[normalize-space()='Dario']"}
 review-field-comment,mutation_i_tag_rem_mut_gamma,RobulaPlusXPathTest,gamma,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text() '★ 4.7')] (tried for 5 second(s) with 500 milliseconds interval)
 review-field-comment,mutation_i_tag_rem_mut_gamma,RobulaXPathTest,gamma,FAILED,expected:<[Dario]> but was:<[]>
 review-field-comment,mutation_i_tag_rem_mut_gamma,SeleniumXPathTest,gamma,FAILED,expected:<[Dario]> but was:<[]>
 review-field-comment,mutation_g_tag_mov_html_mut_gamma,AbsoluteXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
+review-field-comment,mutation_g_tag_mov_html_mut_gamma,HookXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-field-comment,mutation_g_tag_mov_html_mut_gamma,KatalonXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-field-comment,mutation_g_tag_mov_html_mut_gamma,RelativeXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-field-comment,mutation_g_tag_mov_html_mut_gamma,RobulaPlusXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-field-comment,mutation_g_tag_mov_html_mut_gamma,RobulaXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-field-comment,mutation_g_tag_mov_html_mut_gamma,SeleniumXPathTest,gamma,NOT_APPLICABLE,Application did not recompile.
 review-submit,mutation_j_tag_type_mod_mut_gamma,AbsoluteXPathTest,gamma,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"/html[1]/body[1]/app-root[1]/main[1]/app-movie-detail[1]/article[1]/section[3]/app-reviews[1]/div[1]/form[1]/div[3]/button[1]"}
+review-submit,mutation_j_tag_type_mod_mut_gamma,HookXPathTest,gamma,PASSED,null
 review-submit,mutation_j_tag_type_mod_mut_gamma,KatalonXPathTest,gamma,PASSED,null
 review-submit,mutation_j_tag_type_mod_mut_gamma,RelativeXPathTest,gamma,PASSED,null
 review-submit,mutation_j_tag_type_mod_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null
 review-submit,mutation_j_tag_type_mod_mut_gamma,RobulaXPathTest,gamma,PASSED,null
 review-submit,mutation_j_tag_type_mod_mut_gamma,SeleniumXPathTest,gamma,PASSED,null
 reviews-average,mutation_j_tag_type_mod_mut_alpha,AbsoluteXPathTest,alpha,PASSED,null
+reviews-average,mutation_j_tag_type_mod_mut_alpha,HookXPathTest,alpha,PASSED,null
 reviews-average,mutation_j_tag_type_mod_mut_alpha,KatalonXPathTest,alpha,PASSED,null
 reviews-average,mutation_j_tag_type_mod_mut_alpha,RelativeXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //span[@class='reviews-average'] (tried for 5 second(s) with 500 milliseconds interval)
 reviews-average,mutation_j_tag_type_mod_mut_alpha,RobulaPlusXPathTest,alpha,PASSED,null
 reviews-average,mutation_j_tag_type_mod_mut_alpha,RobulaXPathTest,alpha,FAILED,Expected condition failed: waiting for visibility of element located by By.xpath: //span[@class='reviews-average'] (tried for 5 second(s) with 500 milliseconds interval)
 reviews-average,mutation_j_tag_type_mod_mut_alpha,SeleniumXPathTest,alpha,PASSED,null
 review-field-author,mutation_g_tag_mov_html_mut_delta,AbsoluteXPathTest,delta,PASSED,null
+review-field-author,mutation_g_tag_mov_html_mut_delta,HookXPathTest,delta,PASSED,null
 review-field-author,mutation_g_tag_mov_html_mut_delta,KatalonXPathTest,delta,PASSED,null
 review-field-author,mutation_g_tag_mov_html_mut_delta,RelativeXPathTest,delta,PASSED,null
 review-field-author,mutation_g_tag_mov_html_mut_delta,RobulaPlusXPathTest,delta,PASSED,null
 review-field-author,mutation_g_tag_mov_html_mut_delta,RobulaXPathTest,delta,PASSED,null
 review-field-author,mutation_g_tag_mov_html_mut_delta,SeleniumXPathTest,delta,PASSED,null
 review-remove,mutation_k_tag_ins_mut_gamma,AbsoluteXPathTest,gamma,PASSED,null
+review-remove,mutation_k_tag_ins_mut_gamma,HookXPathTest,gamma,PASSED,null
 review-remove,mutation_k_tag_ins_mut_gamma,KatalonXPathTest,gamma,PASSED,null
 review-remove,mutation_k_tag_ins_mut_gamma,RelativeXPathTest,gamma,PASSED,null
 review-remove,mutation_k_tag_ins_mut_gamma,RobulaPlusXPathTest,gamma,PASSED,null

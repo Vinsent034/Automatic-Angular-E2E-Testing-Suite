@@ -1,0 +1,40 @@
+# TARGET: auto-header-header-stats  (x-test-header-stats)
+# ROLE: beta-parent   FILE: C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/Kanban board/src/app/header/header.component.html
+# Mutate ONLY this element. For each operator below, output the element's MUTATED outerHTML.
+# Rules: result valid Angular 19; NEVER add/remove/rename/alter any x-test* attribute;
+#        apply ONLY the requested operator; the element must really differ from the original.
+
+ROLE ELEMENT (original):
+<div class="header-inner">
+    <div class="brand" x-test-brand>
+      <span class="brand-icon" aria-hidden="true" x-test-brand-icon>▤</span>
+      <h1 class="brand-name" x-test-app-title>FlowBoard</h1>
+      <span class="brand-tagline" x-test-app-tagline>Kanban demo board</span>
+    </div>
+
+    <div class="header-stats" x-test-header-stats>
+      <span class="total-label" x-test-total-label>Total cards</span>
+      <span class="badge badge-total" data-kind="total" x-test-total-badge>{{ store.totalCards() }}</span>
+    </div>
+
+    <nav class="main-nav" role="navigation" aria-label="Main navigation" x-test-nav>
+      <a class="nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" x-test-nav-board>Board</a>
+      <a class="nav-link" routerLink="/stats" routerLinkActive="active" x-test-nav-stats>Stats</a>
+      <a class="btn btn-primary nav-new-card" routerLink="/card/new" role="button" x-test-new-card>New card</a>
+    </nav>
+  </div>
+
+OPERATORS TO APPLY (one block each, body = mutated element outerHTML):
+- a (Attribute Value Modification): Change the VALUE of an existing attribute on an element, keeping the same attribute name.  [before: <tag attr="value">text</tag> -> after: <tag attr="newValue">text</tag>]
+- b (Attribute Removal): Remove an existing (non-essential) attribute from an element.  [before: <tag attr="value">text</tag> -> after: <tag>text</tag>]
+- c (Attribute Identifier Modification): Rename an existing attribute (change the attribute name, keep its value).  [before: <tag attr="value">text</tag> -> after: <tag newAttr="value">text</tag>]
+- i (HTML Tag Removal): Remove an element's tag but keep its text/children (unwrap).  [before: <tag attr="value">text</tag> -> after: text]
+- j (HTML Tag Type Modification): Change the tag name of an element (e.g. div -> section), keeping attributes and content.  [before: <tag attr="value">text</tag> -> after: <newTag attr="value">text</newTag>]
+- k (HTML Tag Insertion): Insert a new wrapper/container tag around an existing element (add a hierarchy level).  [before: <tag attr="value">text</tag> -> after: <wrapper>
+  <tag attr="value">text</tag>
+</wrapper>]
+
+OUTPUT FORMAT (only these blocks, {op} = operator id):
+######### START 1 - {op} #########
+<mutated element>
+######### END 1 - {op} #########

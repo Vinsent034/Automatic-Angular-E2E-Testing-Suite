@@ -1,0 +1,65 @@
+######### START 1 - a #########
+<ul class="tag-list detail-tag-list" x-test-detail-tags>
+              @for (tag of store.selectedCard()?.tags; track tag) {
+                <li class="tag" [attr.data-tag]="tag">{{ tag }}</li>
+              } @empty {
+                <li class="tag tag-empty" x-test-detail-no-tags>no tags</li>
+              }
+            </ul>
+######### END 1 - a #########
+######### START 1 - b #########
+<ul x-test-detail-tags>
+              @for (tag of store.selectedCard()?.tags; track tag) {
+                <li class="tag" [attr.data-tag]="tag">{{ tag }}</li>
+              } @empty {
+                <li class="tag tag-empty" x-test-detail-no-tags>no tags</li>
+              }
+            </ul>
+######### END 1 - b #########
+######### START 1 - c #########
+<ul data-class="tag-list detail-tags" x-test-detail-tags>
+              @for (tag of store.selectedCard()?.tags; track tag) {
+                <li class="tag" [attr.data-tag]="tag">{{ tag }}</li>
+              } @empty {
+                <li class="tag tag-empty" x-test-detail-no-tags>no tags</li>
+              }
+            </ul>
+######### END 1 - c #########
+######### START 1 - d #########
+<ul class="tag-list detail-tags" x-test-detail-tags>
+              @for (tag of store.selectedCard()?.tags; track tag) {
+                <li class="tag" [attr.data-tag]="tag">{{ tag }}</li>
+              } @empty {
+                <li class="tag tag-empty" x-test-detail-no-tags>none</li>
+              }
+            </ul>
+######### END 1 - d #########
+######### START 1 - e #########
+<ul class="tag-list detail-tags" x-test-detail-tags>
+              @for (tag of store.selectedCard()?.tags; track tag) {
+                <li class="tag" [attr.data-tag]="tag">{{ tag }}</li>
+              } @empty {
+                <li class="tag tag-empty" x-test-detail-no-tags> </li>
+              }
+            </ul>
+######### END 1 - e #########
+######### START 1 - j #########
+<ol class="tag-list detail-tags" x-test-detail-tags>
+              @for (tag of store.selectedCard()?.tags; track tag) {
+                <li class="tag" [attr.data-tag]="tag">{{ tag }}</li>
+              } @empty {
+                <li class="tag tag-empty" x-test-detail-no-tags>no tags</li>
+              }
+            </ol>
+######### END 1 - j #########
+######### START 1 - k #########
+<div class="detail-tags-wrapper">
+  <ul class="tag-list detail-tags" x-test-detail-tags>
+              @for (tag of store.selectedCard()?.tags; track tag) {
+                <li class="tag" [attr.data-tag]="tag">{{ tag }}</li>
+              } @empty {
+                <li class="tag tag-empty" x-test-detail-no-tags>no tags</li>
+              }
+            </ul>
+</div>
+######### END 1 - k #########

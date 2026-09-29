@@ -1,0 +1,17 @@
+######### START 1 - a #########
+<input id="servings-input" class="input servings-input-alt" type="number" min="1" max="24" [value]="store.servingsShown()" (change)="onServings($event)" x-test-servings>
+######### END 1 - a #########
+######### START 2 - b #########
+<input id="servings-input" class="input servings-input" type="number" max="24" [value]="store.servingsShown()" (change)="onServings($event)" x-test-servings>
+######### END 2 - b #########
+######### START 3 - c #########
+<input id="servings-input" data-input="input servings-input" type="number" min="1" max="24" [value]="store.servingsShown()" (change)="onServings($event)" x-test-servings>
+######### END 3 - c #########
+######### START 4 - j #########
+<textarea id="servings-input" class="input servings-input" type="number" min="1" max="24" [value]="store.servingsShown()" (change)="onServings($event)" x-test-servings></textarea>
+######### END 4 - j #########
+######### START 5 - k #########
+<span>
+  <input id="servings-input" class="input servings-input" type="number" min="1" max="24" [value]="store.servingsShown()" (change)="onServings($event)" x-test-servings>
+</span>
+######### END 5 - k #########

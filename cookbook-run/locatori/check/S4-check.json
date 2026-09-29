@@ -1,0 +1,56 @@
+{
+ "S4_FormTitle": {
+  "Absolute": {
+   "count": 1,
+   "same": true
+  },
+  "Robula": {
+   "count": 1,
+   "same": true
+  },
+  "RobulaPlus": {
+   "count": 1,
+   "same": true
+  },
+  "HookBased": {
+   "count": 1,
+   "same": true
+  }
+ },
+ "S4_FormCourse": {
+  "Absolute": {
+   "count": 1,
+   "same": true
+  },
+  "Robula": {
+   "count": 1,
+   "same": true
+  },
+  "RobulaPlus": {
+   "count": 1,
+   "same": true
+  },
+  "HookBased": {
+   "count": 1,
+   "same": true
+  }
+ },
+ "S4_FormSubmit": {
+  "Absolute": {
+   "count": 1,
+   "same": true
+  },
+  "Robula": {
+   "count": 1,
+   "same": true
+  },
+  "RobulaPlus": {
+   "count": 1,
+   "same": true
+  },
+  "HookBased": {
+   "count": 1,
+   "same": true
+  }
+ }
+}

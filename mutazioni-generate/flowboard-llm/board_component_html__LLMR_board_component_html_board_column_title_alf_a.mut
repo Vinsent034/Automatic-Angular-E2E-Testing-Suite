@@ -3,7 +3,7 @@
 #name: a
 #type: LLM_ROLE
 #status: HELD
-######### FILE C:\Users\vince\OneDrive\Desktop\App tirocinio\Kanban board\src\app\board\board.component.html #########
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\Kanban board\src\app\board\board.component.html #########
 <section class="board-page" x-test-board>
   <div class="board-intro" x-test-board-intro>
     <h2 class="page-title" x-test-board-title>Project board</h2>
@@ -51,7 +51,7 @@
   <div class="board-grid" role="list" aria-label="Board columns" x-test-columns>
     <section class="column" data-column="backlog" role="listitem" aria-label="Backlog column" x-test-column="backlog">
       <header class="column-header">
-        <h3 class="column-title big" x-test-column-title="backlog">Backlog</h3>
+        <h3 class="column-title-lg" x-test-column-title="backlog">Backlog</h3>
         <span class="badge column-count" data-column="backlog" x-test-column-count="backlog">{{ store.backlogCount() }}</span>
       </header>
       <app-column colId="backlog" />

@@ -6,7 +6,7 @@
 import sqlite3, subprocess, os, time, shutil, json, glob
 from collections import defaultdict
 
-SUITE  = "C:/Users/vince/OneDrive/Desktop/Tirocinio/progetto/Automatic-Angular-E2E-Testing-Suite"
+SUITE  = "C:/Users/vince/OneDrive/Desktop/Università/Tirocinio/progetto/Automatic-Angular-E2E-Testing-Suite"
 RUN    = SUITE + "/cinelib-static-run"
 TD     = SUITE + "/ext-test-classes/target"
 DB     = RUN + "/mutations.db"
@@ -14,8 +14,8 @@ JAVA   = "C:/Program Files/Eclipse Adoptium/jdk-25.0.2.10-hotspot/bin/java.exe"
 CP     = SUITE + "/mutation-tester/target/mutation-tester-1.0.0-jar-with-dependencies.jar;" + SUITE + "/vintage-fix"
 CFG    = SUITE + "/generator-config-cinelib-static.json"
 PORT   = 4300
-APPSRC = "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app"
-BACKUP = "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib-templates-backup-20260717"
+APPSRC = "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib/src/app"
+BACKUP = "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib-templates-backup-20260717"
 
 COMP2GROUP = {
  "catalog": "catalog", "movie-card": "catalog",

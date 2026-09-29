@@ -1,0 +1,16 @@
+#mutation-id: i
+#element: gamma
+#name: ingredient-row-ing-qty
+#type: tag_rem_mut
+#status: COMPLETE
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\cookbook\src\app\ingredient-row\ingredient-row.component.html #########
+
+  <span class="ing-bullet" aria-hidden="true">•</span>
+  <p class="ing-line">
+    <span class="ing-qty" [attr.x-test-ing-qty]="ingredient().id">{{ store.formatQty(ingredient().quantity * store.scaleFactor()) }}</span>
+    <span class="ing-unit">{{ ingredient().unit }}</span>
+    <span class="ing-name" [attr.x-test-ing-name]="ingredient().id">{{ ingredient().name }}</span>
+    <em class="ing-optional">{{ ingredient().optional ? '(optional)' : '' }}</em>
+  </p>
+
+######### END FILE #########

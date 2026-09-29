@@ -1,0 +1,90 @@
+ 
+############ AVVIO DA avvia_flowboard_v2.bat 26/09/2026 12:36:04.61 - campagne 1 2 3 ############ 
+[2026-09-26 12:36:04] PREFLIGHT: linguistica = 1559 mutanti
+[2026-09-26 12:36:04] PREFLIGHT: tutto a posto
+[2026-09-26 12:36:04] FLOWBOARD v2 — campagne da eseguire: [1, 2, 3]
+[2026-09-26 12:36:05] PC e schermo tenuti svegli fino a fine run
+[2026-09-26 12:36:05] ===== CAMPAGNA 1/3 — FlowBoard v2 linguistica — avvio =====
+[12:36:05] [llm] da eseguire: s1s2=431, s3=264, s4=315, s5=348, s6=201
+[12:37:29] [llm] pre-riscaldamento dev server: pronto in 80 s
+[12:37:29] [llm] GROUP s1s2: 431 mutanti | classi nella td=14
+[15:09:50] [llm] GROUP s1s2 giro 1: 431 eseguiti, 431 accettati, nessun inceppamento
+[15:09:50] [llm] GROUP s1s2: done in 9225s -> batches-s1s2.csv | giri 1, inneschi 0, abbandonati 0
+[15:09:50] [llm] GROUP s3: 264 mutanti | classi nella td=7
+[16:30:49] [llm] GROUP s3 giro 1: 264 eseguiti, 264 accettati, nessun inceppamento
+[16:30:49] [llm] GROUP s3: done in 4858s -> batches-s3.csv | giri 1, inneschi 0, abbandonati 0
+[16:30:49] [llm] GROUP s4: 315 mutanti | classi nella td=7
+[18:02:22] [llm] GROUP s4 giro 1: 315 eseguiti, 315 accettati, nessun inceppamento
+[18:02:22] [llm] GROUP s4: done in 5493s -> batches-s4.csv | giri 1, inneschi 0, abbandonati 0
+[18:02:22] [llm] GROUP s5: 348 mutanti | classi nella td=7
+[19:26:54] [llm] GROUP s5 giro 1: 348 eseguiti, 348 accettati, nessun inceppamento
+[19:26:54] [llm] GROUP s5: done in 5072s -> batches-s5.csv | giri 1, inneschi 0, abbandonati 0
+[19:26:54] [llm] GROUP s6: 201 mutanti | classi nella td=7
+[19:56:39] [llm] GROUP s6 giro 1: 201 eseguiti, 201 accettati, nessun inceppamento
+[19:56:39] [llm] GROUP s6: done in 1785s -> batches-s6.csv | giri 1, inneschi 0, abbandonati 0
+[19:56:39] [llm] TUTTI I GRUPPI DONE in 26434s | template ripristinati a fine run
+[2026-09-26 19:56:39] ===== CAMPAGNA 1/3 — FlowBoard v2 linguistica — COMPLETATA in 7h20m =====
+[2026-09-26 19:56:39] ===== CAMPAGNA 2/3 — FlowBoard v2 statica — avvio =====
+[19:56:40] [static] da eseguire: s1s2=557, s3=370, s4=432, s5=519, s6=270
+[19:57:29] [static] pre-riscaldamento dev server: pronto in 46 s
+[19:57:29] [static] GROUP s1s2: 557 mutanti | classi nella td=14
+[00:19:37] [static] GROUP s1s2 giro 1: 557 eseguiti, 557 accettati, nessun inceppamento
+[00:19:37] [static] GROUP s1s2: done in 15777s -> batches-s1s2.csv | giri 1, inneschi 0, abbandonati 0
+[00:19:37] [static] GROUP s3: 370 mutanti | classi nella td=7
+[01:55:57] [static] GROUP s3 giro 1: 370 eseguiti, 370 accettati, nessun inceppamento
+[01:55:58] [static] GROUP s3: done in 5780s -> batches-s3.csv | giri 1, inneschi 0, abbandonati 0
+[01:55:58] [static] GROUP s4: 432 mutanti | classi nella td=7
+[04:07:04] [static] GROUP s4 giro 1: 432 eseguiti, 432 accettati, nessun inceppamento
+[04:07:04] [static] GROUP s4: done in 7866s -> batches-s4.csv | giri 1, inneschi 0, abbandonati 0
+[04:07:04] [static] GROUP s5: 519 mutanti | classi nella td=7
+[06:55:34] [static] GROUP s5 giro 1: 519 eseguiti, 519 accettati, nessun inceppamento
+[06:55:34] [static] GROUP s5: done in 10109s -> batches-s5.csv | giri 1, inneschi 0, abbandonati 0
+[06:55:34] [static] GROUP s6: 270 mutanti | classi nella td=7
+[09:01:09] [static] GROUP s6 giro 1: 270 eseguiti, 270 accettati, nessun inceppamento
+[09:01:09] [static] GROUP s6: done in 7535s -> batches-s6.csv | giri 1, inneschi 0, abbandonati 0
+[09:01:09] [static] TUTTI I GRUPPI DONE in 47069s | template ripristinati a fine run
+[2026-09-27 09:01:09] ===== CAMPAGNA 2/3 — FlowBoard v2 statica — COMPLETATA in 13h04m =====
+[2026-09-27 09:01:09] ===== CAMPAGNA 3/3 — CookBook i sul bersaglio — avvio =====
+[09:01:10] [ibersaglio] da eseguire: s1s2=4, s3=4, s4=0, s5=0, s6=2
+[09:02:00] [ibersaglio] pre-riscaldamento dev server: pronto in 47 s
+[09:02:00] [ibersaglio] GROUP s1s2: 4 mutanti | classi nella td=14
+[09:04:46] [ibersaglio] GROUP s1s2 giro 1: 4 eseguiti, 4 accettati, nessun inceppamento
+[09:04:46] [ibersaglio] GROUP s1s2: done in 216s -> batches-s1s2.csv | giri 1, inneschi 0, abbandonati 0
+[09:04:46] [ibersaglio] GROUP s3: 4 mutanti | classi nella td=7
+[09:06:42] [ibersaglio] GROUP s3 giro 1: 4 eseguiti, 4 accettati, nessun inceppamento
+[09:06:42] [ibersaglio] GROUP s3: done in 115s -> batches-s3.csv | giri 1, inneschi 0, abbandonati 0
+[09:06:42] [ibersaglio] GROUP s4: 0 mutanti | classi nella td=7
+[09:06:42] [ibersaglio] GROUP s4: done in 0s -> batches-s4.csv | giri 0, inneschi 0, abbandonati 0
+[09:06:42] [ibersaglio] GROUP s5: 0 mutanti | classi nella td=7
+[09:06:42] [ibersaglio] GROUP s5: CHECK FAIL — CSV byte-identico a batches-s4.csv
+[09:06:42] [ibersaglio] GROUP s5: FALLITO — mi fermo qui. Rilancia lo script: riprendera' da questo gruppo.
+[2026-09-27 09:06:42] ===== CAMPAGNA 3/3 — CookBook i sul bersaglio — INTERROTTA (exit 1) dopo 0h05m =====
+[2026-09-27 09:06:42] FLOWBOARD v2 finito in 20h30m
+[2026-09-27 09:06:42] INCOMPLETE, da rilanciare: 3 (CookBook i sul bersaglio)
+ 
+############ AVVIO DA avvia_flowboard_v2.bat 27/09/2026  9:07:36.05 - campagne 1 2 3 ############ 
+[2026-09-27 09:07:36] PREFLIGHT: linguistica = 1559 mutanti
+[2026-09-27 09:07:36] PREFLIGHT: tutto a posto
+[2026-09-27 09:07:36] FLOWBOARD v2 — campagne da eseguire: [1, 2, 3]
+[2026-09-27 09:07:36] PC e schermo tenuti svegli fino a fine run
+[2026-09-27 09:07:36] ===== CAMPAGNA 1/3 — FlowBoard v2 linguistica — avvio =====
+[09:07:37] [llm] RIPRESA: gruppi gia' completi e verificati: ['s1s2', 's3', 's4', 's5', 's6']
+[09:07:37] [llm] da eseguire: 
+[09:07:37] [llm] niente da fare: tutti i gruppi sono completi e verificati.
+[2026-09-27 09:07:37] ===== CAMPAGNA 1/3 — FlowBoard v2 linguistica — COMPLETATA in 0h00m =====
+[2026-09-27 09:07:37] ===== CAMPAGNA 2/3 — FlowBoard v2 statica — avvio =====
+[09:07:37] [static] RIPRESA: gruppi gia' completi e verificati: ['s1s2', 's3', 's4', 's5', 's6']
+[09:07:37] [static] da eseguire: 
+[09:07:37] [static] niente da fare: tutti i gruppi sono completi e verificati.
+[2026-09-27 09:07:37] ===== CAMPAGNA 2/3 — FlowBoard v2 statica — COMPLETATA in 0h00m =====
+[2026-09-27 09:07:37] ===== CAMPAGNA 3/3 — CookBook i sul bersaglio — avvio =====
+[09:07:37] [ibersaglio] RIPRESA: gruppi gia' completi e verificati: ['s1s2', 's3', 's4', 's5']
+[09:07:37] [ibersaglio] da eseguire: s6=2
+[09:08:00] [ibersaglio] pre-riscaldamento dev server: pronto in 18 s
+[09:08:00] [ibersaglio] GROUP s6: 2 mutanti | classi nella td=7
+[09:09:42] [ibersaglio] GROUP s6 giro 1: 2 eseguiti, 2 accettati, nessun inceppamento
+[09:09:42] [ibersaglio] GROUP s6: done in 125s -> batches-s6.csv | giri 1, inneschi 0, abbandonati 0
+[09:09:42] [ibersaglio] TUTTI I GRUPPI DONE in 125s | template ripristinati a fine run
+[2026-09-27 09:09:42] ===== CAMPAGNA 3/3 — CookBook i sul bersaglio — COMPLETATA in 0h02m =====
+[2026-09-27 09:09:42] FLOWBOARD v2 finito in 0h02m
+[2026-09-27 09:09:42] tutte le campagne complete.

@@ -1,0 +1,318 @@
+{
+  "id": "bc2c7bdc-2ed1-4643-a262-3482619ebfd4",
+  "version": "2.0",
+  "name": "Test Completi Cinelab",
+  "url": "http://localhost:4300",
+  "tests": [{
+    "id": "c206962a-192b-48a1-9343-0f8a06937c21",
+    "name": "CineLib.side",
+    "commands": [{
+      "id": "0b6b4098-4576-429a-a9c4-8d0c53cbb1f5",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1387aeb6-ec8f-4a6a-8f56-22c3f9daf658",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "51a76e89-7835-410c-8430-b8fc5ac361f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-input",
+      "targets": [
+        ["css=.search-input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e71abf0f-e694-42ee-a503-0350494860e1",
+      "comment": "",
+      "command": "type",
+      "target": "css=.search-input",
+      "targets": [
+        ["css=.search-input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "quiet"
+    }, {
+      "id": "82a241fc-ee09-42fe-a850-5a4ac8367cf0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.movie-card",
+      "targets": [
+        ["css=.movie-card", "css:finder"],
+        ["xpath=//app-movie-card/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "511a2dc8-a80d-43fd-8955-b9a4cc7ca493",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card-title",
+      "targets": [
+        ["css=.card-title", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Quiet Harbor')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e64eb923-79b1-4de6-99d2-b18f3d3c7d8b",
+      "comment": "",
+      "command": "click",
+      "target": "css=app-cast-row:nth-child(2) > .cast-row",
+      "targets": [
+        ["css=app-cast-row:nth-child(2) > .cast-row", "css:finder"],
+        ["xpath=//app-cast-row[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6080d3aa-f85a-4d3a-a027-7341a18363ed",
+      "comment": "",
+      "command": "click",
+      "target": "css=app-cast-row:nth-child(2) .cast-name",
+      "targets": [
+        ["css=app-cast-row:nth-child(2) .cast-name", "css:finder"],
+        ["xpath=//app-cast-row[2]/div/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Sam Whitfield')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "27f58fe8-17ba-4912-8582-24656ebbc4c2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.reviews-average",
+      "targets": [
+        ["css=.reviews-average", "css:finder"],
+        ["xpath=//div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'★ 4.7')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d75ccbe-ef95-4c4a-bad4-283576982099",
+      "comment": "",
+      "command": "click",
+      "target": "css=.review-item:nth-child(1) .review-author",
+      "targets": [
+        ["css=.review-item:nth-child(1) .review-author", "css:finder"],
+        ["xpath=//li/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Dario')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a80ab8f6-bb44-4cc5-8f4a-3f5f41f06bb3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Post review')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a35bc977-3168-4b36-b77f-782e5ac7440c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Add movie",
+      "targets": [
+        ["linkText=Add movie", "linkText"],
+        ["css=.nav-link:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Add movie')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/movie/new')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Add movie')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ff71ce9-6cd5-42bc-9f99-4578b7fd3dbc",
+      "comment": "",
+      "command": "click",
+      "target": "id=title",
+      "targets": [
+        ["id=title", "id"],
+        ["css=#title", "css:finder"],
+        ["xpath=//input[@id='title']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed201930-7c5a-4b4c-b731-3d1a46c6cef4",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=genre",
+      "targets": [
+        ["id=genre", "id"],
+        ["css=#genre", "css:finder"],
+        ["xpath=//select[@id='genre']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "-737,-358"
+    }, {
+      "id": "8b25810b-82d0-443b-935b-23a96f88e196",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=genre",
+      "targets": [
+        ["id=genre", "id"],
+        ["css=#genre", "css:finder"],
+        ["xpath=//select[@id='genre']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "-737,-358"
+    }, {
+      "id": "ccc2a9fd-d5fe-4dbb-839a-276e40baecdd",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=genre",
+      "targets": [
+        ["id=genre", "id"],
+        ["css=#genre", "css:finder"],
+        ["xpath=//select[@id='genre']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "-737,-358"
+    }, {
+      "id": "ca96dcad-7b6d-4f2e-960d-f4d43981f290",
+      "comment": "",
+      "command": "click",
+      "target": "id=genre",
+      "targets": [
+        ["id=genre", "id"],
+        ["css=#genre", "css:finder"],
+        ["xpath=//select[@id='genre']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "330ce34e-e596-4643-a35b-d1a97603e101",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[6]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Create movie')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "60e84634-bd10-4df2-9685-e2458c824974",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[6]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Create movie')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "30a09e98-a5d3-487d-b1aa-f918c2f509a2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[6]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Create movie')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e49df4bd-e4ce-45e6-ba65-8e52153a7edb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Statistics",
+      "targets": [
+        ["linkText=Statistics", "linkText"],
+        ["css=.nav-link:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Statistics')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/stats')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Statistics')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb11f765-6902-4908-aece-346e2deedef1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.stat-card:nth-child(1) > .stat-value",
+      "targets": [
+        ["css=.stat-card:nth-child(1) > .stat-value", "css:finder"],
+        ["xpath=//div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'8')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0654ce4-2ab1-4a5a-ba80-b1e4568bd6e3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Quiet Harbor",
+      "targets": [
+        ["linkText=Quiet Harbor", "linkText"],
+        ["css=tr:nth-child(1) .stats-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Quiet Harbor')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/movie/3')]", "xpath:href"],
+        ["xpath=//td[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Quiet Harbor')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "94b27bae-84f9-4b98-85c5-82b59a86d419",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Statistics",
+      "targets": [
+        ["linkText=Statistics", "linkText"],
+        ["css=.nav-link:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Statistics')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/stats')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Statistics')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e77040c-4bae-40cb-a129-4aefa6d48432",
+      "comment": "",
+      "command": "click",
+      "target": "css=.genre-bar-row:nth-child(1) > .genre-bar-count",
+      "targets": [
+        ["css=.genre-bar-row:nth-child(1) > .genre-bar-count", "css:finder"],
+        ["xpath=//div/div/div/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'2')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e8e0a00-bde3-41d7-990e-3c4bec5fdbb5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.detail-title",
+      "targets": [
+        ["css=.detail-title", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Quiet Harbor')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8a2efd60-2b23-4f1b-a0a9-d451fc127313",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c206962a-192b-48a1-9343-0f8a06937c21"]
+  }],
+  "urls": ["http://localhost:4300/"],
+  "plugins": []
+}

@@ -1,0 +1,23 @@
+######### START 1 - a #########
+<a class="nav-link-alt" routerLink="/shopping" routerLinkActive="active" x-test-nav-shopping>Shopping</a>
+######### END 1 - a #########
+######### START 2 - b #########
+<a routerLink="/shopping" routerLinkActive="active" x-test-nav-shopping>Shopping</a>
+######### END 2 - b #########
+######### START 3 - c #########
+<a data-link="nav-link" routerLink="/shopping" routerLinkActive="active" x-test-nav-shopping>Shopping</a>
+######### END 3 - c #########
+######### START 4 - d #########
+<a class="nav-link" routerLink="/shopping" routerLinkActive="active" x-test-nav-shopping>Shop</a>
+######### END 4 - d #########
+######### START 5 - e #########
+<a class="nav-link" routerLink="/shopping" routerLinkActive="active" x-test-nav-shopping> </a>
+######### END 5 - e #########
+######### START 6 - j #########
+<button class="nav-link" routerLink="/shopping" routerLinkActive="active" x-test-nav-shopping>Shopping</button>
+######### END 6 - j #########
+######### START 7 - k #########
+<span>
+  <a class="nav-link" routerLink="/shopping" routerLinkActive="active" x-test-nav-shopping>Shopping</a>
+</span>
+######### END 7 - k #########

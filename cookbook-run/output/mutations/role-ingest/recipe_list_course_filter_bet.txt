@@ -1,0 +1,78 @@
+######### START 1 - a #########
+<label class="field-alt" for="course-filter">
+        <span class="field-label">Course</span>
+        <select id="course-filter" class="input course-select" [value]="store.courseFilter()" (change)="onCourse($event)" x-test-course-filter>
+          <option value="all">All courses</option>
+          <option value="starter">Starter</option>
+          <option value="main">Main</option>
+          <option value="side">Side</option>
+          <option value="dessert">Dessert</option>
+        </select>
+        <small class="field-hint">one course at a time</small>
+      </label>
+######### END 1 - a #########
+######### START 2 - b #########
+<label for="course-filter">
+        <span class="field-label">Course</span>
+        <select id="course-filter" class="input course-select" [value]="store.courseFilter()" (change)="onCourse($event)" x-test-course-filter>
+          <option value="all">All courses</option>
+          <option value="starter">Starter</option>
+          <option value="main">Main</option>
+          <option value="side">Side</option>
+          <option value="dessert">Dessert</option>
+        </select>
+        <small class="field-hint">one course at a time</small>
+      </label>
+######### END 2 - b #########
+######### START 3 - c #########
+<label data-field="field" for="course-filter">
+        <span class="field-label">Course</span>
+        <select id="course-filter" class="input course-select" [value]="store.courseFilter()" (change)="onCourse($event)" x-test-course-filter>
+          <option value="all">All courses</option>
+          <option value="starter">Starter</option>
+          <option value="main">Main</option>
+          <option value="side">Side</option>
+          <option value="dessert">Dessert</option>
+        </select>
+        <small class="field-hint">one course at a time</small>
+      </label>
+######### END 3 - c #########
+######### START 4 - i #########
+<span class="field-label">Course</span>
+        <select id="course-filter" class="input course-select" [value]="store.courseFilter()" (change)="onCourse($event)" x-test-course-filter>
+          <option value="all">All courses</option>
+          <option value="starter">Starter</option>
+          <option value="main">Main</option>
+          <option value="side">Side</option>
+          <option value="dessert">Dessert</option>
+        </select>
+        <small class="field-hint">one course at a time</small>
+######### END 4 - i #########
+######### START 5 - j #########
+<div class="field" for="course-filter">
+        <span class="field-label">Course</span>
+        <select id="course-filter" class="input course-select" [value]="store.courseFilter()" (change)="onCourse($event)" x-test-course-filter>
+          <option value="all">All courses</option>
+          <option value="starter">Starter</option>
+          <option value="main">Main</option>
+          <option value="side">Side</option>
+          <option value="dessert">Dessert</option>
+        </select>
+        <small class="field-hint">one course at a time</small>
+      </div>
+######### END 5 - j #########
+######### START 6 - k #########
+<div>
+  <label class="field" for="course-filter">
+        <span class="field-label">Course</span>
+        <select id="course-filter" class="input course-select" [value]="store.courseFilter()" (change)="onCourse($event)" x-test-course-filter>
+          <option value="all">All courses</option>
+          <option value="starter">Starter</option>
+          <option value="main">Main</option>
+          <option value="side">Side</option>
+          <option value="dessert">Dessert</option>
+        </select>
+        <small class="field-hint">one course at a time</small>
+      </label>
+</div>
+######### END 6 - k #########

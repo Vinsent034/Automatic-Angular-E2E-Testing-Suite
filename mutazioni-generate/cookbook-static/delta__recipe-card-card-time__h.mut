@@ -1,0 +1,72 @@
+#mutation-id: h
+#element: delta
+#name: recipe-card-card-time
+#type: tag_mov_temp_mut
+#status: COMPLETE
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\cookbook\src\app\recipe-card\recipe-card.component.html #########
+<article class="recipe-card" [attr.data-course]="recipe().course" [class.is-favorite]="recipe().favorite" [attr.aria-label]="'Recipe ' + recipe().title">
+  <div class="card-frame">
+    <div class="card-inner" [attr.data-recipe-id]="recipe().id" [attr.x-test-card]="recipe().id">
+      <header class="card-head">
+        <div class="card-title-row">
+          <a class="card-link" [routerLink]="['/recipe', recipe().id]">
+            <h2 class="card-title" [attr.x-test-card-title]="recipe().id">{{ recipe().title }}</h2>
+            <span class="card-course">{{ recipe().course }}</span>
+          </a>
+          <button type="button" class="fav-toggle" [attr.aria-pressed]="recipe().favorite" [attr.aria-label]="'Favorite ' + recipe().title" (click)="store.toggleFavorite(recipe().id)" [attr.x-test-card-fav]="recipe().id">♥</button>
+        </div>
+      </header>
+      <div class="card-body">
+        <p class="card-facts">
+          <span class="card-time" [attr.x-test-card-time]="recipe().id">{{ recipe().prepMinutes + recipe().cookMinutes }} min</span>
+          
+          <span class="card-difficulty">{{ recipe().difficulty }}</span>
+        </p>
+        <ul class="card-tags">
+          @for (tag of recipe().tags; track tag) {
+            <li class="tag">{{ tag }}</li>
+          }
+        </ul>
+      </div>
+    </div>
+    <div class="card-ribbon">{{ recipe().vegetarian ? 'vegetarian' : 'meat or fish' }}</div>
+  </div>
+</article>
+######### END FILE #########
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\cookbook\src\app\shopping-list\shopping-list.component.html #########
+<section class="shopping-page">
+ <div class="page-head">
+  <div class="title-block">
+   <h1 class="page-title" x-test-shopping-title>Shopping list</h1>
+   <p class="page-sub">Ingredients added from the recipes</p>
+  </div>
+ </div>
+ <div class="shopping-summary">
+  <p class="summary-line"><span class="summary-value" data-kind="open" x-test-open-count>{{ store.shoppingOpenCount() }}</span> <span class="summary-label">to buy</span></p>
+  <p class="summary-line"><span class="summary-value" data-kind="done" x-test-done-count>{{ store.shoppingDoneCount() }}</span> <span class="summary-label">bought</span></p>
+ </div>
+ <div class="shopping-body">
+  @if (store.shoppingGroups().length === 0) {
+  <div class="empty-box">
+   <p class="empty-text" x-test-shopping-empty>Your shopping list is empty</p>
+   <p class="empty-hint">Open a recipe and add its ingredients</p>
+  </div>
+  } @for (group of store.shoppingGroups(); track group.recipeId) {
+  <div class="shop-group" [attr.data-recipe-id]="group.recipeId">
+   <h2 class="group-title"><span class="group-name">{{ group.title }}</span> <span class="group-count">{{ group.items.length }}</span></h2>
+   <ul class="shop-items">
+    @for (item of group.items; track item.id) {
+    <li class="shop-item" [class.is-done]="item.done" [attr.data-item-id]="item.id"><label class="shop-check"> <input type="checkbox" class="shop-box" [checked]="item.done" (change)="store.toggleShopping(item.id)" [attr.aria-label]="'Bought ' + item.name" [attr.x-test-shop-check]="item.id"> <span class="shop-text">{{ store.formatQty(item.quantity) }} {{ item.unit }} {{ item.name }}</span> </label></li>
+    }
+   </ul>
+  </div>
+  }
+ </div>
+ <div class="shopping-actions">
+  <div class="action-group">
+   <button type="button" class="btn" (click)="store.clearDone()" x-test-clear-done>Clear bought items</button>
+   <span class="action-note">removes the checked lines</span>
+  </div>
+ </div>
+</section>
+######### END FILE #########

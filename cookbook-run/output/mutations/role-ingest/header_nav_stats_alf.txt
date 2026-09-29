@@ -1,0 +1,23 @@
+######### START 1 - a #########
+<a class="nav-link-alt" routerLink="/stats" routerLinkActive="active" x-test-nav-stats>Stats</a>
+######### END 1 - a #########
+######### START 2 - b #########
+<a routerLink="/stats" routerLinkActive="active" x-test-nav-stats>Stats</a>
+######### END 2 - b #########
+######### START 3 - c #########
+<a data-link="nav-link" routerLink="/stats" routerLinkActive="active" x-test-nav-stats>Stats</a>
+######### END 3 - c #########
+######### START 4 - d #########
+<a class="nav-link" routerLink="/stats" routerLinkActive="active" x-test-nav-stats>Statistics</a>
+######### END 4 - d #########
+######### START 5 - e #########
+<a class="nav-link" routerLink="/stats" routerLinkActive="active" x-test-nav-stats> </a>
+######### END 5 - e #########
+######### START 6 - j #########
+<button class="nav-link" routerLink="/stats" routerLinkActive="active" x-test-nav-stats>Stats</button>
+######### END 6 - j #########
+######### START 7 - k #########
+<span>
+  <a class="nav-link" routerLink="/stats" routerLinkActive="active" x-test-nav-stats>Stats</a>
+</span>
+######### END 7 - k #########

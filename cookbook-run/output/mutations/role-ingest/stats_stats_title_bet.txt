@@ -1,0 +1,36 @@
+######### START 1 - a #########
+<div class="title-block-alt">
+      <h1 class="page-title" x-test-stats-title>Statistics</h1>
+      <p class="page-sub">Computed from the recipes in memory</p>
+    </div>
+######### END 1 - a #########
+######### START 2 - b #########
+<div>
+      <h1 class="page-title" x-test-stats-title>Statistics</h1>
+      <p class="page-sub">Computed from the recipes in memory</p>
+    </div>
+######### END 2 - b #########
+######### START 3 - c #########
+<div data-block="title-block">
+      <h1 class="page-title" x-test-stats-title>Statistics</h1>
+      <p class="page-sub">Computed from the recipes in memory</p>
+    </div>
+######### END 3 - c #########
+######### START 4 - i #########
+<h1 class="page-title" x-test-stats-title>Statistics</h1>
+      <p class="page-sub">Computed from the recipes in memory</p>
+######### END 4 - i #########
+######### START 5 - j #########
+<section class="title-block">
+      <h1 class="page-title" x-test-stats-title>Statistics</h1>
+      <p class="page-sub">Computed from the recipes in memory</p>
+    </section>
+######### END 5 - j #########
+######### START 6 - k #########
+<div>
+  <div class="title-block">
+      <h1 class="page-title" x-test-stats-title>Statistics</h1>
+      <p class="page-sub">Computed from the recipes in memory</p>
+    </div>
+</div>
+######### END 6 - k #########

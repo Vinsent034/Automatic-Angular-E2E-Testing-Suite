@@ -1,0 +1,26 @@
+######### START 1 - a #########
+<small class="field-hint-alt">title or tag</small>
+######### END 1 - a #########
+######### START 2 - b #########
+<small>title or tag</small>
+######### END 2 - b #########
+######### START 3 - c #########
+<small data-hint="field-hint">title or tag</small>
+######### END 3 - c #########
+######### START 4 - d #########
+<small class="field-hint">name or tag</small>
+######### END 4 - d #########
+######### START 5 - e #########
+<small class="field-hint"> </small>
+######### END 5 - e #########
+######### START 6 - i #########
+title or tag
+######### END 6 - i #########
+######### START 7 - j #########
+<span class="field-hint">title or tag</span>
+######### END 7 - j #########
+######### START 8 - k #########
+<span>
+  <small class="field-hint">title or tag</small>
+</span>
+######### END 8 - k #########

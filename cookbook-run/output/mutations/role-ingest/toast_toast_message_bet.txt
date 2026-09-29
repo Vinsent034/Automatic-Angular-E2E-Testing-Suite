@@ -1,0 +1,42 @@
+######### START 1 - a #########
+<div class="toast-box-alt">
+      <span class="toast-icon" aria-hidden="true">i</span>
+      <p class="toast-message" x-test-toast-message>{{ store.toast() }}</p>
+      <button type="button" class="toast-close" aria-label="Dismiss message" (click)="store.toast.set('')">×</button>
+    </div>
+######### END 1 - a #########
+######### START 2 - b #########
+<div>
+      <span class="toast-icon" aria-hidden="true">i</span>
+      <p class="toast-message" x-test-toast-message>{{ store.toast() }}</p>
+      <button type="button" class="toast-close" aria-label="Dismiss message" (click)="store.toast.set('')">×</button>
+    </div>
+######### END 2 - b #########
+######### START 3 - c #########
+<div data-box="toast-box">
+      <span class="toast-icon" aria-hidden="true">i</span>
+      <p class="toast-message" x-test-toast-message>{{ store.toast() }}</p>
+      <button type="button" class="toast-close" aria-label="Dismiss message" (click)="store.toast.set('')">×</button>
+    </div>
+######### END 3 - c #########
+######### START 4 - i #########
+<span class="toast-icon" aria-hidden="true">i</span>
+      <p class="toast-message" x-test-toast-message>{{ store.toast() }}</p>
+      <button type="button" class="toast-close" aria-label="Dismiss message" (click)="store.toast.set('')">×</button>
+######### END 4 - i #########
+######### START 5 - j #########
+<section class="toast-box">
+      <span class="toast-icon" aria-hidden="true">i</span>
+      <p class="toast-message" x-test-toast-message>{{ store.toast() }}</p>
+      <button type="button" class="toast-close" aria-label="Dismiss message" (click)="store.toast.set('')">×</button>
+    </section>
+######### END 5 - j #########
+######### START 6 - k #########
+<div>
+  <div class="toast-box">
+      <span class="toast-icon" aria-hidden="true">i</span>
+      <p class="toast-message" x-test-toast-message>{{ store.toast() }}</p>
+      <button type="button" class="toast-close" aria-label="Dismiss message" (click)="store.toast.set('')">×</button>
+    </div>
+</div>
+######### END 6 - k #########

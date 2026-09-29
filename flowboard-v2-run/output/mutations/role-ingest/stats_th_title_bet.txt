@@ -1,0 +1,27 @@
+######### START 1 - i #########
+<th class="col-id" x-test-stats-th-id>Id</th>
+            <th class="col-title" x-test-stats-th-title>Title</th>
+            <th class="col-priority" x-test-stats-th-priority>Priority</th>
+            <th class="col-assignee" x-test-stats-th-assignee>Assignee</th>
+            <th class="col-column" x-test-stats-th-column>Column</th>
+######### END 1 - i #########
+######### START 1 - j #########
+<div>
+            <th class="col-id" x-test-stats-th-id>Id</th>
+            <th class="col-title" x-test-stats-th-title>Title</th>
+            <th class="col-priority" x-test-stats-th-priority>Priority</th>
+            <th class="col-assignee" x-test-stats-th-assignee>Assignee</th>
+            <th class="col-column" x-test-stats-th-column>Column</th>
+          </div>
+######### END 1 - j #########
+######### START 1 - k #########
+<div class="tr-wrap">
+  <tr>
+            <th class="col-id" x-test-stats-th-id>Id</th>
+            <th class="col-title" x-test-stats-th-title>Title</th>
+            <th class="col-priority" x-test-stats-th-priority>Priority</th>
+            <th class="col-assignee" x-test-stats-th-assignee>Assignee</th>
+            <th class="col-column" x-test-stats-th-column>Column</th>
+          </tr>
+</div>
+######### END 1 - k #########

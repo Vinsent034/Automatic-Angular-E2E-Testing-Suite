@@ -1,8 +1,8 @@
 {
   "_comment": "Smoke test: un solo target per validare la pipeline LLM_ROLE prima del run completo.",
   "app": "cinelib",
-  "appRoot": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib",
+  "appRoot": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib",
   "targets": [
-    { "id": "card-title", "targetAttr": "x-test-card-title", "componentHtml": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib/src/app/movie-card/movie-card.component.html", "tests": ["detail: navigating from a card opens the matching movie"] }
+    { "id": "card-title", "targetAttr": "x-test-card-title", "componentHtml": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib/src/app/movie-card/movie-card.component.html", "tests": ["detail: navigating from a card opens the matching movie"] }
   ]
 }

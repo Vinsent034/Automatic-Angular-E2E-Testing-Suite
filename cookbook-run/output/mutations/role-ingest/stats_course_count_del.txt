@@ -1,0 +1,26 @@
+######### START 1 - a #########
+<span class="course-share-alt" role="cell">{{ stat.share }}%</span>
+######### END 1 - a #########
+######### START 2 - b #########
+<span class="course-share">{{ stat.share }}%</span>
+######### END 2 - b #########
+######### START 3 - c #########
+<span data-share="course-share" role="cell">{{ stat.share }}%</span>
+######### END 3 - c #########
+######### START 4 - d #########
+<span class="course-share" role="cell">0%</span>
+######### END 4 - d #########
+######### START 5 - e #########
+<span class="course-share" role="cell"> </span>
+######### END 5 - e #########
+######### START 6 - i #########
+{{ stat.share }}%
+######### END 6 - i #########
+######### START 7 - j #########
+<small class="course-share" role="cell">{{ stat.share }}%</small>
+######### END 7 - j #########
+######### START 8 - k #########
+<span>
+  <span class="course-share" role="cell">{{ stat.share }}%</span>
+</span>
+######### END 8 - k #########

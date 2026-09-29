@@ -1,0 +1,80 @@
+######### START 1 - a #########
+<ol class="top-list-alt">
+        @for (recipe of store.topRated(); track recipe.id) {
+          <li class="top-item" [attr.data-recipe-id]="recipe.id">
+            <a class="top-link" [routerLink]="['/recipe', recipe.id]" [attr.x-test-top-title]="recipe.id">{{ recipe.title }}</a>
+            <span class="top-rating">★ {{ recipe.rating }}</span>
+          </li>
+        }
+      </ol>
+######### END 1 - a #########
+######### START 2 - b #########
+<ol>
+        @for (recipe of store.topRated(); track recipe.id) {
+          <li class="top-item" [attr.data-recipe-id]="recipe.id">
+            <a class="top-link" [routerLink]="['/recipe', recipe.id]" [attr.x-test-top-title]="recipe.id">{{ recipe.title }}</a>
+            <span class="top-rating">★ {{ recipe.rating }}</span>
+          </li>
+        }
+      </ol>
+######### END 2 - b #########
+######### START 3 - c #########
+<ol data-list="top-list">
+        @for (recipe of store.topRated(); track recipe.id) {
+          <li class="top-item" [attr.data-recipe-id]="recipe.id">
+            <a class="top-link" [routerLink]="['/recipe', recipe.id]" [attr.x-test-top-title]="recipe.id">{{ recipe.title }}</a>
+            <span class="top-rating">★ {{ recipe.rating }}</span>
+          </li>
+        }
+      </ol>
+######### END 3 - c #########
+######### START 4 - d #########
+<ol class="top-list">
+        @for (recipe of store.topRated(); track recipe.id) {
+          <li class="top-item" [attr.data-recipe-id]="recipe.id">
+            <a class="top-link" [routerLink]="['/recipe', recipe.id]" [attr.x-test-top-title]="recipe.id">{{ recipe.title }}</a>
+            <span class="top-rating">Rated {{ recipe.rating }}</span>
+          </li>
+        }
+      </ol>
+######### END 4 - d #########
+######### START 5 - e #########
+<ol class="top-list">
+        @for (recipe of store.topRated(); track recipe.id) {
+          <li class="top-item" [attr.data-recipe-id]="recipe.id">
+            <a class="top-link" [routerLink]="['/recipe', recipe.id]" [attr.x-test-top-title]="recipe.id"> </a>
+            <span class="top-rating"> </span>
+          </li>
+        }
+      </ol>
+######### END 5 - e #########
+######### START 6 - i #########
+@for (recipe of store.topRated(); track recipe.id) {
+          <li class="top-item" [attr.data-recipe-id]="recipe.id">
+            <a class="top-link" [routerLink]="['/recipe', recipe.id]" [attr.x-test-top-title]="recipe.id">{{ recipe.title }}</a>
+            <span class="top-rating">★ {{ recipe.rating }}</span>
+          </li>
+        }
+######### END 6 - i #########
+######### START 7 - j #########
+<ul class="top-list">
+        @for (recipe of store.topRated(); track recipe.id) {
+          <li class="top-item" [attr.data-recipe-id]="recipe.id">
+            <a class="top-link" [routerLink]="['/recipe', recipe.id]" [attr.x-test-top-title]="recipe.id">{{ recipe.title }}</a>
+            <span class="top-rating">★ {{ recipe.rating }}</span>
+          </li>
+        }
+      </ul>
+######### END 7 - j #########
+######### START 8 - k #########
+<div>
+  <ol class="top-list">
+        @for (recipe of store.topRated(); track recipe.id) {
+          <li class="top-item" [attr.data-recipe-id]="recipe.id">
+            <a class="top-link" [routerLink]="['/recipe', recipe.id]" [attr.x-test-top-title]="recipe.id">{{ recipe.title }}</a>
+            <span class="top-rating">★ {{ recipe.rating }}</span>
+          </li>
+        }
+      </ol>
+</div>
+######### END 8 - k #########

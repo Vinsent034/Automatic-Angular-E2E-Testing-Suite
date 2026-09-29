@@ -1,0 +1,10 @@
+@if (toasts().length > 0) {
+  <div class="toast-stack" x-test-toast-stack>
+    @for (toast of toasts(); track toast.id) {
+      <div class="toast toast-{{ toast.kind }}" role="status" [attr.data-kind]="toast.kind" x-test-toast>
+        <span class="toast-message" x-test-toast-message>{{ toast.message }}</span>
+        <button type="button" class="toast-close" (click)="dismiss(toast.id)" aria-label="Dismiss" x-test-toast-close>×</button>
+      </div>
+    }
+  </div>
+}

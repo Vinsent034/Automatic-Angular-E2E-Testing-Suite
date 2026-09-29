@@ -1,0 +1,36 @@
+######### START 1 - a #########
+<div class="list-actions-alt">
+      <a class="btn btn-primary" routerLink="/recipe/new" role="button" x-test-add-recipe>New recipe</a>
+      <button type="button" class="btn btn-ghost" (click)="store.reset()">Reset</button>
+    </div>
+######### END 1 - a #########
+######### START 2 - b #########
+<div>
+      <a class="btn btn-primary" routerLink="/recipe/new" role="button" x-test-add-recipe>New recipe</a>
+      <button type="button" class="btn btn-ghost" (click)="store.reset()">Reset</button>
+    </div>
+######### END 2 - b #########
+######### START 3 - c #########
+<div data-actions="list-actions">
+      <a class="btn btn-primary" routerLink="/recipe/new" role="button" x-test-add-recipe>New recipe</a>
+      <button type="button" class="btn btn-ghost" (click)="store.reset()">Reset</button>
+    </div>
+######### END 3 - c #########
+######### START 4 - i #########
+<a class="btn btn-primary" routerLink="/recipe/new" role="button" x-test-add-recipe>New recipe</a>
+      <button type="button" class="btn btn-ghost" (click)="store.reset()">Reset</button>
+######### END 4 - i #########
+######### START 5 - j #########
+<section class="list-actions">
+      <a class="btn btn-primary" routerLink="/recipe/new" role="button" x-test-add-recipe>New recipe</a>
+      <button type="button" class="btn btn-ghost" (click)="store.reset()">Reset</button>
+    </section>
+######### END 5 - j #########
+######### START 6 - k #########
+<div>
+  <div class="list-actions">
+      <a class="btn btn-primary" routerLink="/recipe/new" role="button" x-test-add-recipe>New recipe</a>
+      <button type="button" class="btn btn-ghost" (click)="store.reset()">Reset</button>
+    </div>
+</div>
+######### END 6 - k #########

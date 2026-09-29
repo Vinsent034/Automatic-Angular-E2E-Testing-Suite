@@ -1,0 +1,37 @@
+######### START 1 - a #########
+<div class="board-header" x-test-board-intro>
+    <h2 class="page-title" x-test-board-title>Project board</h2>
+    <span class="badge badge-demo" data-kind="demo" x-test-demo-badge>Board demo</span>
+    <p class="hint-banner" x-test-hint-banner>Use the Move menu on a card to change column</p>
+  </div>
+######### END 1 - a #########
+######### START 1 - b #########
+<div x-test-board-intro>
+    <h2 class="page-title" x-test-board-title>Project board</h2>
+    <span class="badge badge-demo" data-kind="demo" x-test-demo-badge>Board demo</span>
+    <p class="hint-banner" x-test-hint-banner>Use the Move menu on a card to change column</p>
+  </div>
+######### END 1 - b #########
+######### START 1 - c #########
+<div data-class="board-intro" x-test-board-intro>
+    <h2 class="page-title" x-test-board-title>Project board</h2>
+    <span class="badge badge-demo" data-kind="demo" x-test-demo-badge>Board demo</span>
+    <p class="hint-banner" x-test-hint-banner>Use the Move menu on a card to change column</p>
+  </div>
+######### END 1 - c #########
+######### START 1 - j #########
+<section class="board-intro" x-test-board-intro>
+    <h2 class="page-title" x-test-board-title>Project board</h2>
+    <span class="badge badge-demo" data-kind="demo" x-test-demo-badge>Board demo</span>
+    <p class="hint-banner" x-test-hint-banner>Use the Move menu on a card to change column</p>
+  </section>
+######### END 1 - j #########
+######### START 1 - k #########
+<div class="board-intro-wrapper">
+  <div class="board-intro" x-test-board-intro>
+    <h2 class="page-title" x-test-board-title>Project board</h2>
+    <span class="badge badge-demo" data-kind="demo" x-test-demo-badge>Board demo</span>
+    <p class="hint-banner" x-test-hint-banner>Use the Move menu on a card to change column</p>
+  </div>
+</div>
+######### END 1 - k #########

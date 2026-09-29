@@ -1,0 +1,23 @@
+######### START 1 - a #########
+<label class="field-label-alt" for="field-tags" x-test-form-tags-label>Tags (comma separated)</label>
+######### END 1 - a #########
+######### START 1 - b #########
+<label class="field-label" x-test-form-tags-label>Tags (comma separated)</label>
+######### END 1 - b #########
+######### START 1 - c #########
+<label data-class="field-label" for="field-tags" x-test-form-tags-label>Tags (comma separated)</label>
+######### END 1 - c #########
+######### START 1 - d #########
+<label class="field-label" for="field-tags" x-test-form-tags-label>Labels (comma separated)</label>
+######### END 1 - d #########
+######### START 1 - e #########
+<label class="field-label" for="field-tags" x-test-form-tags-label> </label>
+######### END 1 - e #########
+######### START 1 - j #########
+<span class="field-label" for="field-tags" x-test-form-tags-label>Tags (comma separated)</span>
+######### END 1 - j #########
+######### START 1 - k #########
+<div class="field-label-wrap">
+  <label class="field-label" for="field-tags" x-test-form-tags-label>Tags (comma separated)</label>
+</div>
+######### END 1 - k #########

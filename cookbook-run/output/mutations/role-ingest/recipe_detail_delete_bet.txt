@@ -1,0 +1,36 @@
+######### START 1 - a #########
+<div class="action-group-alt">
+        <a class="btn" [routerLink]="['/recipe', recipe.id, 'edit']">Edit</a>
+        <button type="button" class="btn btn-danger" (click)="deleteAndGoBack(recipe.id)" x-test-delete>Delete recipe</button>
+      </div>
+######### END 1 - a #########
+######### START 2 - b #########
+<div>
+        <a class="btn" [routerLink]="['/recipe', recipe.id, 'edit']">Edit</a>
+        <button type="button" class="btn btn-danger" (click)="deleteAndGoBack(recipe.id)" x-test-delete>Delete recipe</button>
+      </div>
+######### END 2 - b #########
+######### START 3 - c #########
+<div data-group="action-group">
+        <a class="btn" [routerLink]="['/recipe', recipe.id, 'edit']">Edit</a>
+        <button type="button" class="btn btn-danger" (click)="deleteAndGoBack(recipe.id)" x-test-delete>Delete recipe</button>
+      </div>
+######### END 3 - c #########
+######### START 4 - i #########
+<a class="btn" [routerLink]="['/recipe', recipe.id, 'edit']">Edit</a>
+        <button type="button" class="btn btn-danger" (click)="deleteAndGoBack(recipe.id)" x-test-delete>Delete recipe</button>
+######### END 4 - i #########
+######### START 5 - j #########
+<section class="action-group">
+        <a class="btn" [routerLink]="['/recipe', recipe.id, 'edit']">Edit</a>
+        <button type="button" class="btn btn-danger" (click)="deleteAndGoBack(recipe.id)" x-test-delete>Delete recipe</button>
+      </section>
+######### END 5 - j #########
+######### START 6 - k #########
+<div>
+  <div class="action-group">
+        <a class="btn" [routerLink]="['/recipe', recipe.id, 'edit']">Edit</a>
+        <button type="button" class="btn btn-danger" (click)="deleteAndGoBack(recipe.id)" x-test-delete>Delete recipe</button>
+      </div>
+</div>
+######### END 6 - k #########

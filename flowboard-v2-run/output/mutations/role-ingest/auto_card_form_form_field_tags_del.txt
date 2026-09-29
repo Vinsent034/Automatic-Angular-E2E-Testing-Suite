@@ -1,0 +1,32 @@
+######### START 1 - a #########
+<div class="form-actions-bar" x-test-form-actions>
+      <button class="btn btn-primary submit-btn" type="submit" x-test-form-submit>Save card</button>
+      <a class="btn btn-ghost cancel-btn" routerLink="/" x-test-form-cancel>Cancel</a>
+    </div>
+######### END 1 - a #########
+######### START 1 - b #########
+<div x-test-form-actions>
+      <button class="btn btn-primary submit-btn" type="submit" x-test-form-submit>Save card</button>
+      <a class="btn btn-ghost cancel-btn" routerLink="/" x-test-form-cancel>Cancel</a>
+    </div>
+######### END 1 - b #########
+######### START 1 - c #########
+<div data-class="form-actions" x-test-form-actions>
+      <button class="btn btn-primary submit-btn" type="submit" x-test-form-submit>Save card</button>
+      <a class="btn btn-ghost cancel-btn" routerLink="/" x-test-form-cancel>Cancel</a>
+    </div>
+######### END 1 - c #########
+######### START 1 - j #########
+<section class="form-actions" x-test-form-actions>
+      <button class="btn btn-primary submit-btn" type="submit" x-test-form-submit>Save card</button>
+      <a class="btn btn-ghost cancel-btn" routerLink="/" x-test-form-cancel>Cancel</a>
+    </section>
+######### END 1 - j #########
+######### START 1 - k #########
+<div class="form-actions-wrap">
+  <div class="form-actions" x-test-form-actions>
+      <button class="btn btn-primary submit-btn" type="submit" x-test-form-submit>Save card</button>
+      <a class="btn btn-ghost cancel-btn" routerLink="/" x-test-form-cancel>Cancel</a>
+    </div>
+</div>
+######### END 1 - k #########

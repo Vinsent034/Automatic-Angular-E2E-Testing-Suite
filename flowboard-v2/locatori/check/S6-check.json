@@ -1,0 +1,68 @@
+{
+ "S6_NavStats": {
+  "Absolute": {
+   "count": 1,
+   "same": true,
+   "first": true
+  },
+  "Robula": {
+   "count": 1,
+   "same": true,
+   "first": true
+  },
+  "RobulaPlus": {
+   "count": 1,
+   "same": true,
+   "first": true
+  },
+  "HookBased": {
+   "count": 1,
+   "same": true,
+   "first": true
+  }
+ },
+ "S6_TotalBadge": {
+  "Absolute": {
+   "count": 1,
+   "same": true,
+   "first": true
+  },
+  "Robula": {
+   "count": 1,
+   "same": true,
+   "first": true
+  },
+  "RobulaPlus": {
+   "count": 1,
+   "same": true,
+   "first": true
+  },
+  "HookBased": {
+   "count": 1,
+   "same": true,
+   "first": true
+  }
+ },
+ "S6_FooterVersion": {
+  "Absolute": {
+   "count": 1,
+   "same": true,
+   "first": true
+  },
+  "Robula": {
+   "count": 1,
+   "same": true,
+   "first": true
+  },
+  "RobulaPlus": {
+   "count": 1,
+   "same": true,
+   "first": true
+  },
+  "HookBased": {
+   "count": 1,
+   "same": true,
+   "first": true
+  }
+ }
+}

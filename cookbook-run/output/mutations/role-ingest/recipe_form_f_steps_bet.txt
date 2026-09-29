@@ -1,0 +1,36 @@
+######### START 1 - a #########
+<div class="control-alt">
+          <textarea id="f-steps" name="steps" rows="5" class="input" [(ngModel)]="stepsText" x-test-f-steps></textarea>
+          <small class="help">they are numbered automatically</small>
+        </div>
+######### END 1 - a #########
+######### START 2 - b #########
+<div>
+          <textarea id="f-steps" name="steps" rows="5" class="input" [(ngModel)]="stepsText" x-test-f-steps></textarea>
+          <small class="help">they are numbered automatically</small>
+        </div>
+######### END 2 - b #########
+######### START 3 - c #########
+<div data-control="control">
+          <textarea id="f-steps" name="steps" rows="5" class="input" [(ngModel)]="stepsText" x-test-f-steps></textarea>
+          <small class="help">they are numbered automatically</small>
+        </div>
+######### END 3 - c #########
+######### START 4 - i #########
+<textarea id="f-steps" name="steps" rows="5" class="input" [(ngModel)]="stepsText" x-test-f-steps></textarea>
+          <small class="help">they are numbered automatically</small>
+######### END 4 - i #########
+######### START 5 - j #########
+<section class="control">
+          <textarea id="f-steps" name="steps" rows="5" class="input" [(ngModel)]="stepsText" x-test-f-steps></textarea>
+          <small class="help">they are numbered automatically</small>
+        </section>
+######### END 5 - j #########
+######### START 6 - k #########
+<div>
+  <div class="control">
+          <textarea id="f-steps" name="steps" rows="5" class="input" [(ngModel)]="stepsText" x-test-f-steps></textarea>
+          <small class="help">they are numbered automatically</small>
+        </div>
+</div>
+######### END 6 - k #########

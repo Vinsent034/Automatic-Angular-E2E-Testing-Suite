@@ -1,0 +1,36 @@
+######### START 1 - a #########
+<div class="control-alt">
+          <textarea id="f-ingredients" name="ingredients" rows="6" class="input" [(ngModel)]="ingredientsText" x-test-f-ingredients></textarea>
+          <small class="help">example: 200 g Spaghetti</small>
+        </div>
+######### END 1 - a #########
+######### START 2 - b #########
+<div>
+          <textarea id="f-ingredients" name="ingredients" rows="6" class="input" [(ngModel)]="ingredientsText" x-test-f-ingredients></textarea>
+          <small class="help">example: 200 g Spaghetti</small>
+        </div>
+######### END 2 - b #########
+######### START 3 - c #########
+<div data-control="control">
+          <textarea id="f-ingredients" name="ingredients" rows="6" class="input" [(ngModel)]="ingredientsText" x-test-f-ingredients></textarea>
+          <small class="help">example: 200 g Spaghetti</small>
+        </div>
+######### END 3 - c #########
+######### START 4 - i #########
+<textarea id="f-ingredients" name="ingredients" rows="6" class="input" [(ngModel)]="ingredientsText" x-test-f-ingredients></textarea>
+          <small class="help">example: 200 g Spaghetti</small>
+######### END 4 - i #########
+######### START 5 - j #########
+<section class="control">
+          <textarea id="f-ingredients" name="ingredients" rows="6" class="input" [(ngModel)]="ingredientsText" x-test-f-ingredients></textarea>
+          <small class="help">example: 200 g Spaghetti</small>
+        </section>
+######### END 5 - j #########
+######### START 6 - k #########
+<div>
+  <div class="control">
+          <textarea id="f-ingredients" name="ingredients" rows="6" class="input" [(ngModel)]="ingredientsText" x-test-f-ingredients></textarea>
+          <small class="help">example: 200 g Spaghetti</small>
+        </div>
+</div>
+######### END 6 - k #########

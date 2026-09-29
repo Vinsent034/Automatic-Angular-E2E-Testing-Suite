@@ -1,0 +1,36 @@
+######### START 1 - a #########
+<div class="cast-heading">
+        <span class="field-label">Cast</span>
+        <button type="button" class="btn btn-small" (click)="addCast()" x-test-cast-add>+ Add member</button>
+      </div>
+######### END 1 - a #########
+######### START 1 - b #########
+<div>
+        <span class="field-label">Cast</span>
+        <button type="button" class="btn btn-small" (click)="addCast()" x-test-cast-add>+ Add member</button>
+      </div>
+######### END 1 - b #########
+######### START 1 - c #########
+<div data-header="cast-header">
+        <span class="field-label">Cast</span>
+        <button type="button" class="btn btn-small" (click)="addCast()" x-test-cast-add>+ Add member</button>
+      </div>
+######### END 1 - c #########
+######### START 1 - i #########
+<span class="field-label">Cast</span>
+        <button type="button" class="btn btn-small" (click)="addCast()" x-test-cast-add>+ Add member</button>
+######### END 1 - i #########
+######### START 1 - j #########
+<section class="cast-header">
+        <span class="field-label">Cast</span>
+        <button type="button" class="btn btn-small" (click)="addCast()" x-test-cast-add>+ Add member</button>
+      </section>
+######### END 1 - j #########
+######### START 1 - k #########
+<div>
+<div class="cast-header">
+        <span class="field-label">Cast</span>
+        <button type="button" class="btn btn-small" (click)="addCast()" x-test-cast-add>+ Add member</button>
+      </div>
+</div>
+######### END 1 - k #########

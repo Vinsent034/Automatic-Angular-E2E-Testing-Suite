@@ -1,0 +1,57 @@
+######### START 1 - a #########
+<div class="form-field-block" x-test-form-field-column>
+          <label class="field-label" for="field-column" x-test-form-column-label>Column</label>
+          <select id="field-column" name="columnId" class="input select form-column" [(ngModel)]="columnId" x-test-form-column>
+            <option value="backlog">Backlog</option>
+            <option value="inprogress">In Progress</option>
+            <option value="review">Review</option>
+            <option value="done">Done</option>
+          </select>
+        </div>
+######### END 1 - a #########
+######### START 1 - b #########
+<div x-test-form-field-column>
+          <label class="field-label" for="field-column" x-test-form-column-label>Column</label>
+          <select id="field-column" name="columnId" class="input select form-column" [(ngModel)]="columnId" x-test-form-column>
+            <option value="backlog">Backlog</option>
+            <option value="inprogress">In Progress</option>
+            <option value="review">Review</option>
+            <option value="done">Done</option>
+          </select>
+        </div>
+######### END 1 - b #########
+######### START 1 - c #########
+<div data-class="form-field" x-test-form-field-column>
+          <label class="field-label" for="field-column" x-test-form-column-label>Column</label>
+          <select id="field-column" name="columnId" class="input select form-column" [(ngModel)]="columnId" x-test-form-column>
+            <option value="backlog">Backlog</option>
+            <option value="inprogress">In Progress</option>
+            <option value="review">Review</option>
+            <option value="done">Done</option>
+          </select>
+        </div>
+######### END 1 - c #########
+######### START 1 - j #########
+<section class="form-field" x-test-form-field-column>
+          <label class="field-label" for="field-column" x-test-form-column-label>Column</label>
+          <select id="field-column" name="columnId" class="input select form-column" [(ngModel)]="columnId" x-test-form-column>
+            <option value="backlog">Backlog</option>
+            <option value="inprogress">In Progress</option>
+            <option value="review">Review</option>
+            <option value="done">Done</option>
+          </select>
+        </section>
+######### END 1 - j #########
+######### START 1 - k #########
+<div class="form-field-wrap">
+  <div class="form-field" x-test-form-field-column>
+          <label class="field-label" for="field-column" x-test-form-column-label>Column</label>
+          <select id="field-column" name="columnId" class="input select form-column" [(ngModel)]="columnId" x-test-form-column>
+            <option value="backlog">Backlog</option>
+            <option value="inprogress">In Progress</option>
+            <option value="review">Review</option>
+            <option value="done">Done</option>
+          </select>
+        </div>
+</div>
+######### END 1 - k #########

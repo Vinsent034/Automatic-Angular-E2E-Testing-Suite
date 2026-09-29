@@ -1,0 +1,23 @@
+######### START 1 - a #########
+<span class="detail-caption" x-test-detail-assignee-label>Assignee</span>
+######### END 1 - a #########
+######### START 1 - b #########
+<span x-test-detail-assignee-label>Assignee</span>
+######### END 1 - b #########
+######### START 1 - c #########
+<span data-class="detail-label" x-test-detail-assignee-label>Assignee</span>
+######### END 1 - c #########
+######### START 1 - d #########
+<span class="detail-label" x-test-detail-assignee-label>Owner</span>
+######### END 1 - d #########
+######### START 1 - e #########
+<span class="detail-label" x-test-detail-assignee-label> </span>
+######### END 1 - e #########
+######### START 1 - j #########
+<div class="detail-label" x-test-detail-assignee-label>Assignee</div>
+######### END 1 - j #########
+######### START 1 - k #########
+<div class="detail-label-wrapper">
+  <span class="detail-label" x-test-detail-assignee-label>Assignee</span>
+</div>
+######### END 1 - k #########

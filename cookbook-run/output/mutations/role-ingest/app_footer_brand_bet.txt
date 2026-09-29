@@ -1,0 +1,42 @@
+######### START 1 - a #########
+<p class="footer-line-alt">
+        <span class="footer-brand" x-test-footer-brand>CookBook</span>
+        <span class="footer-sep">·</span>
+        <span class="footer-note">Fixed demo recipes, kept in memory only</span>
+      </p>
+######### END 1 - a #########
+######### START 2 - b #########
+<p>
+        <span class="footer-brand" x-test-footer-brand>CookBook</span>
+        <span class="footer-sep">·</span>
+        <span class="footer-note">Fixed demo recipes, kept in memory only</span>
+      </p>
+######### END 2 - b #########
+######### START 3 - c #########
+<p data-line="footer-line">
+        <span class="footer-brand" x-test-footer-brand>CookBook</span>
+        <span class="footer-sep">·</span>
+        <span class="footer-note">Fixed demo recipes, kept in memory only</span>
+      </p>
+######### END 3 - c #########
+######### START 4 - i #########
+<span class="footer-brand" x-test-footer-brand>CookBook</span>
+        <span class="footer-sep">·</span>
+        <span class="footer-note">Fixed demo recipes, kept in memory only</span>
+######### END 4 - i #########
+######### START 5 - j #########
+<div class="footer-line">
+        <span class="footer-brand" x-test-footer-brand>CookBook</span>
+        <span class="footer-sep">·</span>
+        <span class="footer-note">Fixed demo recipes, kept in memory only</span>
+      </div>
+######### END 5 - j #########
+######### START 6 - k #########
+<div>
+  <p class="footer-line">
+        <span class="footer-brand" x-test-footer-brand>CookBook</span>
+        <span class="footer-sep">·</span>
+        <span class="footer-note">Fixed demo recipes, kept in memory only</span>
+      </p>
+</div>
+######### END 6 - k #########

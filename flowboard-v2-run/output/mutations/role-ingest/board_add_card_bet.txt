@@ -1,0 +1,32 @@
+######### START 1 - a #########
+<div class="toolbar-group toolbar-actions-box" x-test-toolbar-actions>
+      <a class="btn btn-primary add-card-btn" routerLink="/card/new" role="button" x-test-add-card>Add card</a>
+      <button class="btn btn-ghost reset-btn" type="button" (click)="store.reset()" x-test-reset>Reset board</button>
+    </div>
+######### END 1 - a #########
+######### START 1 - b #########
+<div x-test-toolbar-actions>
+      <a class="btn btn-primary add-card-btn" routerLink="/card/new" role="button" x-test-add-card>Add card</a>
+      <button class="btn btn-ghost reset-btn" type="button" (click)="store.reset()" x-test-reset>Reset board</button>
+    </div>
+######### END 1 - b #########
+######### START 1 - c #########
+<div data-class="toolbar-group toolbar-actions" x-test-toolbar-actions>
+      <a class="btn btn-primary add-card-btn" routerLink="/card/new" role="button" x-test-add-card>Add card</a>
+      <button class="btn btn-ghost reset-btn" type="button" (click)="store.reset()" x-test-reset>Reset board</button>
+    </div>
+######### END 1 - c #########
+######### START 1 - j #########
+<section class="toolbar-group toolbar-actions" x-test-toolbar-actions>
+      <a class="btn btn-primary add-card-btn" routerLink="/card/new" role="button" x-test-add-card>Add card</a>
+      <button class="btn btn-ghost reset-btn" type="button" (click)="store.reset()" x-test-reset>Reset board</button>
+    </section>
+######### END 1 - j #########
+######### START 1 - k #########
+<div class="toolbar-group-wrap">
+  <div class="toolbar-group toolbar-actions" x-test-toolbar-actions>
+      <a class="btn btn-primary add-card-btn" routerLink="/card/new" role="button" x-test-add-card>Add card</a>
+      <button class="btn btn-ghost reset-btn" type="button" (click)="store.reset()" x-test-reset>Reset board</button>
+    </div>
+</div>
+######### END 1 - k #########

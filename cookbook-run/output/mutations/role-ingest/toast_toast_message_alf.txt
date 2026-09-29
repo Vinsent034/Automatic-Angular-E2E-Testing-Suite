@@ -1,0 +1,23 @@
+######### START 1 - a #########
+<p class="toast-message-alt" x-test-toast-message>{{ store.toast() }}</p>
+######### END 1 - a #########
+######### START 2 - b #########
+<p x-test-toast-message>{{ store.toast() }}</p>
+######### END 2 - b #########
+######### START 3 - c #########
+<p data-message="toast-message" x-test-toast-message>{{ store.toast() }}</p>
+######### END 3 - c #########
+######### START 4 - d #########
+<p class="toast-message" x-test-toast-message>Notice</p>
+######### END 4 - d #########
+######### START 5 - e #########
+<p class="toast-message" x-test-toast-message> </p>
+######### END 5 - e #########
+######### START 6 - j #########
+<div class="toast-message" x-test-toast-message>{{ store.toast() }}</div>
+######### END 6 - j #########
+######### START 7 - k #########
+<div>
+  <p class="toast-message" x-test-toast-message>{{ store.toast() }}</p>
+</div>
+######### END 7 - k #########

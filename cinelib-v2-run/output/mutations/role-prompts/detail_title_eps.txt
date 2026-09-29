@@ -1,0 +1,40 @@
+# TARGET: detail-title  (x-test-detail-title)
+# ROLE: epsilon-component   FILE: C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib/src/app/movie-detail/movie-detail.component.html
+# Mutate ONLY this element. For each operator below, output the element's MUTATED outerHTML.
+# Rules: result valid Angular 19; NEVER add/remove/rename/alter any x-test* attribute;
+#        apply ONLY the requested operator; the element must really differ from the original.
+
+ROLE ELEMENT (original):
+<app-panel heading="Overview" note="title, details and actions">
+      <header class="detail-header">
+        <div class="detail-poster" aria-hidden="true">
+          <span class="poster-letter">{{ m.title.charAt(0) }}</span>
+        </div>
+        <div class="detail-info">
+          <p class="detail-kicker">Movie</p>
+          <h1 class="detail-title" x-test-detail-title>{{ m.title }}</h1>
+          <p class="detail-meta" x-test-detail-meta>{{ m.year }} · {{ m.genre }} · {{ m.runtime }} min · ★ {{ m.rating }}</p>
+          <p class="detail-director">Directed by {{ m.director }}</p>
+          <div class="detail-actions">
+            <button type="button" class="btn btn-favorite" [class.active]="m.favorite" [attr.aria-pressed]="m.favorite" (click)="toggleFavorite()" x-test-detail-favorite>{{ m.favorite ? '♥ In favorites' : '♡ Add to favorites' }}</button>
+            <a [routerLink]="['/movie', m.id, 'edit']" class="btn" x-test-edit-button>Edit</a>
+            <button type="button" class="btn btn-danger" (click)="openDelete()" x-test-delete-button>Delete</button>
+          </div>
+        </div>
+      </header>
+    </app-panel>
+
+OPERATORS TO APPLY (one block each, body = mutated element outerHTML):
+- a (Attribute Value Modification): Change the VALUE of an existing attribute on an element, keeping the same attribute name.  [before: <tag attr="value">text</tag> -> after: <tag attr="newValue">text</tag>]
+- b (Attribute Removal): Remove an existing (non-essential) attribute from an element.  [before: <tag attr="value">text</tag> -> after: <tag>text</tag>]
+- c (Attribute Identifier Modification): Rename an existing attribute (change the attribute name, keep its value).  [before: <tag attr="value">text</tag> -> after: <tag newAttr="value">text</tag>]
+- i (HTML Tag Removal): Remove an element's tag but keep its text/children (unwrap).  [before: <tag attr="value">text</tag> -> after: text]
+- j (HTML Tag Type Modification): Change the tag name of an element (e.g. div -> section), keeping attributes and content.  [before: <tag attr="value">text</tag> -> after: <newTag attr="value">text</newTag>]
+- k (HTML Tag Insertion): Insert a new wrapper/container tag around an existing element (add a hierarchy level).  [before: <tag attr="value">text</tag> -> after: <wrapper>
+  <tag attr="value">text</tag>
+</wrapper>]
+
+OUTPUT FORMAT (only these blocks, {op} = operator id):
+######### START 1 - {op} #########
+<mutated element>
+######### END 1 - {op} #########

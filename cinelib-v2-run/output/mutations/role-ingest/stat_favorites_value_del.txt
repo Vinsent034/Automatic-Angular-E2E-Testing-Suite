@@ -1,0 +1,26 @@
+######### START 1 - a #########
+<span class="stat-caption">Favorites</span>
+######### END 1 - a #########
+######### START 1 - b #########
+<span>Favorites</span>
+######### END 1 - b #########
+######### START 1 - c #########
+<span data-label="stat-label">Favorites</span>
+######### END 1 - c #########
+######### START 1 - d #########
+<span class="stat-label">Saved</span>
+######### END 1 - d #########
+######### START 1 - e #########
+<span class="stat-label"> </span>
+######### END 1 - e #########
+######### START 1 - i #########
+Favorites
+######### END 1 - i #########
+######### START 1 - j #########
+<div class="stat-label">Favorites</div>
+######### END 1 - j #########
+######### START 1 - k #########
+<div>
+<span class="stat-label">Favorites</span>
+</div>
+######### END 1 - k #########

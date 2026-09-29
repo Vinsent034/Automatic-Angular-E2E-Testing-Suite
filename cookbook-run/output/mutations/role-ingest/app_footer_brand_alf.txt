@@ -1,0 +1,23 @@
+######### START 1 - a #########
+<span class="footer-brand-alt" x-test-footer-brand>CookBook</span>
+######### END 1 - a #########
+######### START 2 - b #########
+<span x-test-footer-brand>CookBook</span>
+######### END 2 - b #########
+######### START 3 - c #########
+<span data-brand="footer-brand" x-test-footer-brand>CookBook</span>
+######### END 3 - c #########
+######### START 4 - d #########
+<span class="footer-brand" x-test-footer-brand>CookBook Pro</span>
+######### END 4 - d #########
+######### START 5 - e #########
+<span class="footer-brand" x-test-footer-brand> </span>
+######### END 5 - e #########
+######### START 6 - j #########
+<div class="footer-brand" x-test-footer-brand>CookBook</div>
+######### END 6 - j #########
+######### START 7 - k #########
+<div>
+  <span class="footer-brand" x-test-footer-brand>CookBook</span>
+</div>
+######### END 7 - k #########

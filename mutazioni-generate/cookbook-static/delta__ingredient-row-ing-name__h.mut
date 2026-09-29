@@ -1,0 +1,32 @@
+#mutation-id: h
+#element: delta
+#name: ingredient-row-ing-name
+#type: tag_mov_temp_mut
+#status: COMPLETE
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\cookbook\src\app\ingredient-row\ingredient-row.component.html #########
+<div class="ingredient-row" [attr.data-ingredient-id]="ingredient().id" [class.is-optional]="ingredient().optional">
+  <span class="ing-bullet" aria-hidden="true">•</span>
+  <p class="ing-line">
+    <span class="ing-qty" [attr.x-test-ing-qty]="ingredient().id">{{ store.formatQty(ingredient().quantity * store.scaleFactor()) }}</span>
+    <span class="ing-unit">{{ ingredient().unit }}</span>
+    <span class="ing-name" [attr.x-test-ing-name]="ingredient().id">{{ ingredient().name }}</span>
+    
+  </p>
+</div>
+######### END FILE #########
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\cookbook\src\app\header\header.component.html #########
+<header class="app-header">
+ <div class="header-inner">
+  <div class="brand-block">
+   <a class="brand-link" routerLink="/"> <span class="brand-mark" aria-hidden="true">◆</span> <span class="brand-name" x-test-brand-name>CookBook</span> </a> <span class="brand-tagline">Recipe demo</span>
+  </div>
+  <nav class="main-nav" aria-label="Main navigation">
+   <ul class="nav-list">
+    <li class="nav-item"><a class="nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"><em class="ing-optional">{{ ingredient().optional ? '(optional)' : '' }}</em>Recipes</a></li>
+    <li class="nav-item"><a class="nav-link" routerLink="/shopping" routerLinkActive="active" x-test-nav-shopping>Shopping</a> <span class="nav-badge" data-kind="shopping">{{ store.shoppingOpenCount() }}</span></li>
+    <li class="nav-item"><a class="nav-link" routerLink="/stats" routerLinkActive="active" x-test-nav-stats>Stats</a> <span class="nav-hint">numbers</span></li>
+   </ul>
+  </nav>
+ </div>
+</header>
+######### END FILE #########

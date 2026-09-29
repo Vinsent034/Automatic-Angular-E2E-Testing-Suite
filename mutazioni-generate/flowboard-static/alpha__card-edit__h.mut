@@ -1,0 +1,56 @@
+#mutation-id: h
+#element: alpha
+#name: card-edit
+#type: tag_mov_temp_mut
+#status: COMPLETE
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\Kanban board\src\app\card\card.component.html #########
+<article class="card" [attr.data-card-id]="card().id" [attr.data-priority]="card().priority" [attr.data-column]="card().columnId" [attr.aria-label]="'Card ' + card().title" [attr.x-test-card]="card().id">
+  <header class="card-top">
+    <span class="card-id" [attr.x-test-card-id]="card().id">#{{ card().id }}</span>
+    <span class="badge priority-badge" [attr.data-priority]="card().priority" [attr.x-test-card-priority]="card().id">{{ card().priority }}</span>
+  </header>
+
+  <a class="card-title-link" [routerLink]="['/card', card().id]" [attr.x-test-card-open]="card().id">
+    <h4 class="card-title" [attr.x-test-card-title]="card().id">{{ card().title }}</h4>
+  </a>
+
+  <div class="card-meta">
+    <span class="card-assignee" [attr.data-assignee]="card().assignee" [attr.x-test-card-assignee]="card().id">{{ card().assignee }}</span>
+    <ul class="tag-list" [attr.x-test-card-tags]="card().id">
+      @for (tag of card().tags; track tag) {
+        <li class="tag" [attr.data-tag]="tag">{{ tag }}</li>
+      }
+    </ul>
+  </div>
+
+  <footer class="card-actions">
+    <label class="move-label">
+      <span class="move-caption">Move</span>
+      <select class="input select move-select" [value]="card().columnId" (change)="onMove($event)" [attr.x-test-card-move]="card().id">
+        <option value="backlog">Backlog</option>
+        <option value="inprogress">In Progress</option>
+        <option value="review">Review</option>
+        <option value="done">Done</option>
+      </select>
+    </label>
+    
+    <button class="btn btn-small btn-danger delete-btn" type="button" (click)="store.removeCard(card().id)" [attr.x-test-card-delete]="card().id">Delete</button>
+  </footer>
+</article>
+######### END FILE #########
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\Kanban board\src\app\app.component.html #########
+<div class="app-shell" x-test-app>
+ <app-header>
+  <main class="app-main" role="main" x-test-main>
+   <a class="btn btn-small btn-ghost edit-btn" [routerLink]="['/card', card().id, 'edit']" [attr.x-test-card-edit]="card().id">Edit</a> <router-outlet> </router-outlet>
+  </main>
+  <app-toast>
+   <footer class="app-footer" role="contentinfo" x-test-footer>
+    <div class="footer-inner">
+     <span class="footer-brand" x-test-footer-brand>FlowBoard</span> <span class="footer-sep">·</span> <span class="footer-note" x-test-footer-note>Deterministic demo board — data resets from a fixed seed</span> <span class="footer-sep">·</span> <span class="footer-version" x-test-footer-version>v1.0</span>
+    </div>
+   </footer>
+  </app-toast>
+ </app-header>
+</div>
+######### END FILE #########

@@ -1,0 +1,107 @@
+######### START 1 - a #########
+<div class="app-root" x-test-app>
+  <app-header />
+
+  <main class="app-main" role="main" x-test-main>
+    <router-outlet />
+  </main>
+
+  <app-toast />
+
+  <footer class="app-footer" role="contentinfo" x-test-footer>
+    <div class="footer-inner">
+      <span class="footer-brand" x-test-footer-brand>FlowBoard</span>
+      <span class="footer-sep">·</span>
+      <span class="footer-note" x-test-footer-note>Deterministic demo board — data resets from a fixed seed</span>
+      <span class="footer-sep">·</span>
+      <span class="footer-version" x-test-footer-version>v1.0</span>
+    </div>
+  </footer>
+</div>
+######### END 1 - a #########
+######### START 1 - b #########
+<div x-test-app>
+  <app-header />
+
+  <main class="app-main" role="main" x-test-main>
+    <router-outlet />
+  </main>
+
+  <app-toast />
+
+  <footer class="app-footer" role="contentinfo" x-test-footer>
+    <div class="footer-inner">
+      <span class="footer-brand" x-test-footer-brand>FlowBoard</span>
+      <span class="footer-sep">·</span>
+      <span class="footer-note" x-test-footer-note>Deterministic demo board — data resets from a fixed seed</span>
+      <span class="footer-sep">·</span>
+      <span class="footer-version" x-test-footer-version>v1.0</span>
+    </div>
+  </footer>
+</div>
+######### END 1 - b #########
+######### START 1 - c #########
+<div data-class="app-shell" x-test-app>
+  <app-header />
+
+  <main class="app-main" role="main" x-test-main>
+    <router-outlet />
+  </main>
+
+  <app-toast />
+
+  <footer class="app-footer" role="contentinfo" x-test-footer>
+    <div class="footer-inner">
+      <span class="footer-brand" x-test-footer-brand>FlowBoard</span>
+      <span class="footer-sep">·</span>
+      <span class="footer-note" x-test-footer-note>Deterministic demo board — data resets from a fixed seed</span>
+      <span class="footer-sep">·</span>
+      <span class="footer-version" x-test-footer-version>v1.0</span>
+    </div>
+  </footer>
+</div>
+######### END 1 - c #########
+######### START 1 - j #########
+<section class="app-shell" x-test-app>
+  <app-header />
+
+  <main class="app-main" role="main" x-test-main>
+    <router-outlet />
+  </main>
+
+  <app-toast />
+
+  <footer class="app-footer" role="contentinfo" x-test-footer>
+    <div class="footer-inner">
+      <span class="footer-brand" x-test-footer-brand>FlowBoard</span>
+      <span class="footer-sep">·</span>
+      <span class="footer-note" x-test-footer-note>Deterministic demo board — data resets from a fixed seed</span>
+      <span class="footer-sep">·</span>
+      <span class="footer-version" x-test-footer-version>v1.0</span>
+    </div>
+  </footer>
+</section>
+######### END 1 - j #########
+######### START 1 - k #########
+<div class="app-outer">
+<div class="app-shell" x-test-app>
+  <app-header />
+
+  <main class="app-main" role="main" x-test-main>
+    <router-outlet />
+  </main>
+
+  <app-toast />
+
+  <footer class="app-footer" role="contentinfo" x-test-footer>
+    <div class="footer-inner">
+      <span class="footer-brand" x-test-footer-brand>FlowBoard</span>
+      <span class="footer-sep">·</span>
+      <span class="footer-note" x-test-footer-note>Deterministic demo board — data resets from a fixed seed</span>
+      <span class="footer-sep">·</span>
+      <span class="footer-version" x-test-footer-version>v1.0</span>
+    </div>
+  </footer>
+</div>
+</div>
+######### END 1 - k #########

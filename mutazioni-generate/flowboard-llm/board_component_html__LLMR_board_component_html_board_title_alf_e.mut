@@ -3,10 +3,10 @@
 #name: e
 #type: LLM_ROLE
 #status: HELD
-######### FILE C:\Users\vince\OneDrive\Desktop\App tirocinio\Kanban board\src\app\board\board.component.html #########
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\Kanban board\src\app\board\board.component.html #########
 <section class="board-page" x-test-board>
   <div class="board-intro" x-test-board-intro>
-    <h2 class="page-title" x-test-board-title></h2>
+    <h2 class="page-title" x-test-board-title> </h2>
     <span class="badge badge-demo" data-kind="demo" x-test-demo-badge>Board demo</span>
     <p class="hint-banner" x-test-hint-banner>Use the Move menu on a card to change column</p>
   </div>

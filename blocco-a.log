@@ -1,0 +1,204 @@
+[2026-09-16 12:58:34] PREFLIGHT: tutto a posto
+[2026-09-16 12:58:34] BLOCCO A � campagne da eseguire: [1, 2, 3, 4]
+[2026-09-16 12:58:34] ===== CAMPAGNA 1/4 � CineLib linguistica � avvio =====
+[12:58:35] da eseguire: catalog=268, moviedetail=173, movieform=132, reviews=118, stats=116 | fuori campagna (angular-spotify e altro)=456
+[12:58:35] GROUP catalog: PENDING=268 | template ripristinati=10
+[14:11:58] GROUP catalog: CHECK OK � 1876 righe (attese ~1876)
+[14:11:58] GROUP catalog: done in 4398s -> batches-llm-catalog.csv
+[14:11:58] GROUP moviedetail: PENDING=173 | template ripristinati=10
+[14:57:17] GROUP moviedetail: CHECK OK � 1211 righe (attese ~1211)
+[14:57:17] GROUP moviedetail: done in 2712s -> batches-llm-moviedetail.csv
+[14:57:17] GROUP movieform: PENDING=132 | template ripristinati=10
+[15:23:13] GROUP movieform: CHECK OK � 924 righe (attese ~924)
+[15:23:13] GROUP movieform: done in 1551s -> batches-llm-movieform.csv
+[15:23:13] GROUP reviews: PENDING=118 | template ripristinati=10
+[15:47:20] GROUP reviews: CHECK OK � 826 righe (attese ~826)
+[15:47:20] GROUP reviews: done in 1442s -> batches-llm-reviews.csv
+[15:47:20] GROUP stats: PENDING=116 | template ripristinati=10
+[16:13:24] GROUP stats: CHECK OK � 812 righe (attese ~812)
+[16:13:24] GROUP stats: done in 1558s -> batches-llm-stats.csv
+[16:13:24] ALL LLM GROUPS DONE in 11689s | template ripristinati a fine run
+[2026-09-16 16:13:24] ===== CAMPAGNA 1/4 � CineLib linguistica � COMPLETATA in 3h14m =====
+[2026-09-16 16:13:24] ===== CAMPAGNA 2/4 � CineLib statica � avvio =====
+[16:13:24] da eseguire: catalog=412, moviedetail=244, movieform=166, reviews=185, stats=135
+[16:13:24] GROUP catalog: PENDING=412 | template ripristinati=10
+[18:39:36] GROUP catalog: CHECK OK � 2884 righe (attese ~2884)
+[18:39:36] GROUP catalog: done in 8766s -> batches-catalog.csv
+[18:39:37] GROUP moviedetail: PENDING=244 | template ripristinati=10
+
+############ RIPRESA 2026-09-18 16:30 ############
+[2026-09-18 16:30:52] PREFLIGHT: tutto a posto
+[2026-09-18 16:30:52] BLOCCO A — campagne da eseguire: [2, 3, 4]
+[2026-09-18 16:30:52] PC e schermo tenuti svegli fino a fine run
+[2026-09-18 16:30:52] ===== CAMPAGNA 2/4 — CineLib statica — avvio =====
+[16:30:53] GROUP catalog: CHECK OK — 2884 righe (attese ~2884)
+[16:30:53] RIPRESA: salto gruppi gia' completi: ['catalog']
+[16:30:53] da eseguire: moviedetail=244, movieform=166, reviews=185, stats=135
+[16:30:54] GROUP moviedetail: PENDING=244 | template ripristinati=10
+ 
+############ AVVIO DA avvia_blocco_a.bat 18/09/2026 16:40:40.49 - campagne 1 2 3 4 ############ 
+[2026-09-18 16:40:41] PREFLIGHT: tutto a posto
+[2026-09-18 16:40:41] BLOCCO A — campagne da eseguire: [1, 2, 3, 4]
+[2026-09-18 16:40:41] PC e schermo tenuti svegli fino a fine run
+[2026-09-18 16:40:41] ===== CAMPAGNA 1/4 — CineLib linguistica — avvio =====
+[16:40:42] GROUP catalog: CHECK OK — 1876 righe (attese ~1876)
+[16:40:42] GROUP moviedetail: CHECK OK — 1211 righe (attese ~1211)
+[16:40:42] GROUP movieform: CHECK OK — 924 righe (attese ~924)
+[16:40:42] GROUP reviews: CHECK OK — 826 righe (attese ~826)
+[16:40:42] GROUP stats: CHECK OK — 812 righe (attese ~812)
+[16:40:42] RIPRESA: salto gruppi gia' completi: ['catalog', 'moviedetail', 'movieform', 'reviews', 'stats']
+[16:40:42] da eseguire:  | fuori campagna (angular-spotify e altro)=456
+[16:40:42] niente da fare: tutti i gruppi hanno un CSV valido.
+[2026-09-18 16:40:42] ===== CAMPAGNA 1/4 — CineLib linguistica — COMPLETATA in 0h00m =====
+[2026-09-18 16:40:42] ===== CAMPAGNA 2/4 — CineLib statica — avvio =====
+[16:40:42] GROUP catalog: CHECK OK — 2884 righe (attese ~2884)
+[16:40:42] RIPRESA: salto gruppi gia' completi: ['catalog']
+[16:40:42] da eseguire: moviedetail=244, movieform=166, reviews=185, stats=135
+[16:40:42] GROUP moviedetail: PENDING=244 | template ripristinati=10
+[17:57:48] GROUP moviedetail: CHECK OK — 1708 righe (attese ~1708)
+[17:57:48] GROUP moviedetail: done in 4617s -> batches-moviedetail.csv
+[17:57:48] GROUP movieform: PENDING=166 | template ripristinati=10
+[18:34:33] GROUP movieform: CHECK OK — 1162 righe (attese ~1162)
+[18:34:33] GROUP movieform: done in 2199s -> batches-movieform.csv
+[18:34:33] GROUP reviews: PENDING=185 | template ripristinati=10
+[19:17:28] GROUP reviews: CHECK OK — 1295 righe (attese ~1295)
+[19:17:28] GROUP reviews: done in 2570s -> batches-reviews.csv
+[19:17:28] GROUP stats: PENDING=135 | template ripristinati=10
+[19:48:32] GROUP stats: CHECK OK — 945 righe (attese ~945)
+[19:48:32] GROUP stats: done in 1859s -> batches-stats.csv
+[19:48:32] ALL STATIC GROUPS DONE in 11270s | template ripristinati a fine run
+[2026-09-18 19:48:32] ===== CAMPAGNA 2/4 — CineLib statica — COMPLETATA in 3h07m =====
+[2026-09-18 19:48:32] ===== CAMPAGNA 3/4 — FlowBoard linguistica — avvio =====
+[19:48:33] [llm] da eseguire: s1s2=318, s3=208, s4=256, s5=279, s6=164
+[19:48:33] [llm] GROUP s1s2: PENDING=318 | template ripristinati=9 | classi nella td=14
+[21:31:52] [llm] GROUP s1s2: CHECK OK — 4452 righe (attese ~4452)
+[21:31:52] [llm] GROUP s1s2: done in 6195s -> batches-s1s2.csv
+[21:31:53] [llm] GROUP s3: PENDING=208 | template ripristinati=9 | classi nella td=7
+[21:37:34] [llm] GROUP s3: CHECK OK — 1456 righe (attese ~1456)
+[21:37:34] [llm] GROUP s3: done in 337s -> batches-s3.csv
+[21:37:34] [llm] GROUP s4: PENDING=256 | template ripristinati=9 | classi nella td=7
+[22:19:55] [llm] GROUP s4: CHECK OK — 1792 righe (attese ~1792)
+[22:19:55] [llm] GROUP s4: done in 2535s -> batches-s4.csv
+[22:19:55] [llm] GROUP s5: PENDING=279 | template ripristinati=9 | classi nella td=7
+[23:16:56] [llm] GROUP s5: CHECK OK — 1953 righe (attese ~1953)
+[23:16:56] [llm] GROUP s5: done in 3416s -> batches-s5.csv
+[23:16:56] [llm] GROUP s6: PENDING=164 | template ripristinati=9 | classi nella td=7
+[23:19:24] [llm] GROUP s6: CHECK FAIL — batches-s6.csv non esiste
+[23:19:24] [llm] GROUP s6: FALLITO — mi fermo qui. Rilancia lo script: riprendera' da questo gruppo.
+[2026-09-18 23:19:24] ===== CAMPAGNA 3/4 — FlowBoard linguistica — INTERROTTA (exit 1) dopo 3h30m =====
+[2026-09-18 23:19:24] ===== CAMPAGNA 4/4 — FlowBoard statica — avvio =====
+[23:19:24] [static] da eseguire: s1s2=805, s3=481, s4=542, s5=659, s6=353
+[23:19:25] [static] GROUP s1s2: PENDING=805 | template ripristinati=9 | classi nella td=14
+ 
+############ AVVIO DA avvia_blocco_a.bat 18/09/2026 23:30:03.16 - campagne 1 2 3 4 ############ 
+[2026-09-18 23:30:03] PREFLIGHT: tutto a posto
+[2026-09-18 23:30:03] BLOCCO A — campagne da eseguire: [1, 2, 3, 4]
+[2026-09-18 23:30:03] PC e schermo tenuti svegli fino a fine run
+[2026-09-18 23:30:03] ===== CAMPAGNA 1/4 — CineLib linguistica — avvio =====
+[23:30:03] GROUP catalog: CHECK OK — 1876 righe (attese ~1876)
+[23:30:03] GROUP moviedetail: CHECK OK — 1211 righe (attese ~1211)
+[23:30:03] GROUP movieform: CHECK OK — 924 righe (attese ~924)
+[23:30:03] GROUP reviews: CHECK OK — 826 righe (attese ~826)
+[23:30:03] GROUP stats: CHECK OK — 812 righe (attese ~812)
+[23:30:03] RIPRESA: salto gruppi gia' completi: ['catalog', 'moviedetail', 'movieform', 'reviews', 'stats']
+[23:30:03] da eseguire:  | fuori campagna (angular-spotify e altro)=456
+[23:30:03] niente da fare: tutti i gruppi hanno un CSV valido.
+[2026-09-18 23:30:03] ===== CAMPAGNA 1/4 — CineLib linguistica — COMPLETATA in 0h00m =====
+[2026-09-18 23:30:03] ===== CAMPAGNA 2/4 — CineLib statica — avvio =====
+[23:30:04] GROUP catalog: CHECK OK — 2884 righe (attese ~2884)
+[23:30:04] GROUP moviedetail: CHECK OK — 1708 righe (attese ~1708)
+[23:30:04] GROUP movieform: CHECK OK — 1162 righe (attese ~1162)
+[23:30:04] GROUP reviews: CHECK OK — 1295 righe (attese ~1295)
+[23:30:04] GROUP stats: CHECK OK — 945 righe (attese ~945)
+[23:30:04] RIPRESA: salto gruppi gia' completi: ['catalog', 'moviedetail', 'movieform', 'reviews', 'stats']
+[23:30:04] da eseguire: 
+[23:30:04] niente da fare: tutti i gruppi hanno un CSV valido.
+[2026-09-18 23:30:04] ===== CAMPAGNA 2/4 — CineLib statica — COMPLETATA in 0h00m =====
+[2026-09-18 23:30:04] ===== CAMPAGNA 3/4 — FlowBoard linguistica — avvio =====
+[23:30:04] [llm] da eseguire: s1s2=318, s3=208, s4=256, s5=279, s6=164
+[23:30:04] [llm] GROUP s1s2: riesamino il CSV esistente (318 mutanti) invece di rifarlo
+[23:30:04] [llm] GROUP s1s2: 318 mutanti | classi nella td=14
+[23:30:04] [llm] GROUP s1s2 giro 1 (CSV esistente): 318 eseguiti, 318 accettati, nessun inceppamento
+[23:30:04] [llm] GROUP s1s2: done in 0s -> batches-s1s2.csv | giri 1, inneschi 0, abbandonati 0
+[23:30:04] [llm] GROUP s3: riesamino il CSV esistente (208 mutanti) invece di rifarlo
+[23:30:04] [llm] GROUP s3: 208 mutanti | classi nella td=7
+[23:30:04] [llm] GROUP s3 giro 1 (CSV esistente): 208 eseguiti, 30 accettati, inceppato dopo il mutante 30: 178 sospetti da rifare
+[00:13:36] [llm] GROUP s3 giro 2: 178 eseguiti, 178 accettati, nessun inceppamento
+[00:13:36] [llm] GROUP s3: done in 2612s -> batches-s3.csv | giri 2, inneschi 1, abbandonati 0
+[00:13:36] [llm] GROUP s4: riesamino il CSV esistente (256 mutanti) invece di rifarlo
+[00:13:36] [llm] GROUP s4: 256 mutanti | classi nella td=7
+[00:13:37] [llm] GROUP s4 giro 1 (CSV esistente): 256 eseguiti, 256 accettati, nessun inceppamento
+[00:13:37] [llm] GROUP s4: done in 0s -> batches-s4.csv | giri 1, inneschi 0, abbandonati 0
+[00:13:37] [llm] GROUP s5: riesamino il CSV esistente (279 mutanti) invece di rifarlo
+[00:13:37] [llm] GROUP s5: 279 mutanti | classi nella td=7
+[00:13:37] [llm] GROUP s5 giro 1 (CSV esistente): 279 eseguiti, 279 accettati, nessun inceppamento
+[00:13:37] [llm] GROUP s5: done in 0s -> batches-s5.csv | giri 1, inneschi 0, abbandonati 0
+[00:14:08] [llm] pre-riscaldamento dev server: pronto in 26 s
+[00:14:08] [llm] GROUP s6: 164 mutanti | classi nella td=7
+[00:41:55] [llm] GROUP s6 giro 1: 164 eseguiti, 164 accettati, nessun inceppamento
+[00:41:55] [llm] GROUP s6: done in 1697s -> batches-s6.csv | giri 1, inneschi 0, abbandonati 0
+[00:41:55] [llm] TUTTI I GRUPPI DONE in 4310s | template ripristinati a fine run
+[2026-09-19 00:41:55] ===== CAMPAGNA 3/4 — FlowBoard linguistica — COMPLETATA in 1h11m =====
+[2026-09-19 00:41:55] ===== CAMPAGNA 4/4 — FlowBoard statica — avvio =====
+[00:41:55] [static] da eseguire: s1s2=805, s3=481, s4=542, s5=659, s6=353
+[00:42:19] [static] pre-riscaldamento dev server: pronto in 20 s
+[00:42:19] [static] GROUP s1s2: 805 mutanti | classi nella td=14
+[02:18:12] [static] GROUP s1s2 giro 1: 805 eseguiti, 143 accettati, inceppato dopo il mutante 143: 662 sospetti da rifare
+[06:42:25] [static] GROUP s1s2 giro 2: 662 eseguiti, 625 accettati, inceppato dopo il mutante 625: 37 sospetti da rifare
+[07:02:05] [static] GROUP s1s2 giro 3: 37 eseguiti, 35 accettati, inceppato dopo il mutante 35: 2 sospetti da rifare
+[07:03:47] [static] GROUP s1s2 giro 4: 2 eseguiti, 1 accettati, inceppato dopo il mutante 1: 1 sospetti da rifare
+[07:04:47] [static] GROUP s1s2 giro 5: 1 eseguiti, 1 accettati, nessun inceppamento
+[07:04:48] [static] GROUP s1s2: done in 22972s -> batches-s1s2.csv | giri 5, inneschi 4, abbandonati 0
+[07:04:48] [static] GROUP s3: 481 mutanti | classi nella td=7
+[09:44:09] [static] GROUP s3 giro 1: 481 eseguiti, 481 accettati, nessun inceppamento
+[09:44:09] [static] GROUP s3: done in 9561s -> batches-s3.csv | giri 1, inneschi 0, abbandonati 0
+[09:44:09] [static] GROUP s4: 542 mutanti | classi nella td=7
+ 
+############ AVVIO DA avvia_blocco_a.bat 19/09/2026 11:10:25.34 - campagne 1 2 3 4 ############ 
+[2026-09-19 11:10:26] PREFLIGHT: tutto a posto
+[2026-09-19 11:10:26] BLOCCO A — campagne da eseguire: [1, 2, 3, 4]
+[2026-09-19 11:10:26] PC e schermo tenuti svegli fino a fine run
+[2026-09-19 11:10:26] ===== CAMPAGNA 1/4 — CineLib linguistica — avvio =====
+[11:10:26] GROUP catalog: CHECK OK — 1876 righe (attese ~1876)
+[11:10:26] GROUP moviedetail: CHECK OK — 1211 righe (attese ~1211)
+[11:10:26] GROUP movieform: CHECK OK — 924 righe (attese ~924)
+[11:10:26] GROUP reviews: CHECK OK — 826 righe (attese ~826)
+[11:10:26] GROUP stats: CHECK OK — 812 righe (attese ~812)
+[11:10:26] RIPRESA: salto gruppi gia' completi: ['catalog', 'moviedetail', 'movieform', 'reviews', 'stats']
+[11:10:26] da eseguire:  | fuori campagna (angular-spotify e altro)=456
+[11:10:26] niente da fare: tutti i gruppi hanno un CSV valido.
+[2026-09-19 11:10:26] ===== CAMPAGNA 1/4 — CineLib linguistica — COMPLETATA in 0h00m =====
+[2026-09-19 11:10:26] ===== CAMPAGNA 2/4 — CineLib statica — avvio =====
+[11:10:26] GROUP catalog: CHECK OK — 2884 righe (attese ~2884)
+[11:10:26] GROUP moviedetail: CHECK OK — 1708 righe (attese ~1708)
+[11:10:26] GROUP movieform: CHECK OK — 1162 righe (attese ~1162)
+[11:10:26] GROUP reviews: CHECK OK — 1295 righe (attese ~1295)
+[11:10:26] GROUP stats: CHECK OK — 945 righe (attese ~945)
+[11:10:26] RIPRESA: salto gruppi gia' completi: ['catalog', 'moviedetail', 'movieform', 'reviews', 'stats']
+[11:10:26] da eseguire: 
+[11:10:26] niente da fare: tutti i gruppi hanno un CSV valido.
+[2026-09-19 11:10:26] ===== CAMPAGNA 2/4 — CineLib statica — COMPLETATA in 0h00m =====
+[2026-09-19 11:10:26] ===== CAMPAGNA 3/4 — FlowBoard linguistica — avvio =====
+[11:10:27] [llm] RIPRESA: gruppi gia' completi e verificati: ['s1s2', 's3', 's4', 's5', 's6']
+[11:10:27] [llm] da eseguire: 
+[11:10:27] [llm] niente da fare: tutti i gruppi sono completi e verificati.
+[2026-09-19 11:10:27] ===== CAMPAGNA 3/4 — FlowBoard linguistica — COMPLETATA in 0h00m =====
+[2026-09-19 11:10:27] ===== CAMPAGNA 4/4 — FlowBoard statica — avvio =====
+[11:10:27] [static] RIPRESA: gruppi gia' completi e verificati: ['s1s2', 's3']
+[11:10:27] [static] da eseguire: s4=542, s5=659, s6=353
+[11:11:05] [static] pre-riscaldamento dev server: pronto in 32 s
+[11:11:05] [static] GROUP s4: 542 mutanti | classi nella td=7
+[14:32:32] [static] GROUP s4 giro 1: 542 eseguiti, 542 accettati, nessun inceppamento
+[14:32:32] [static] GROUP s4: done in 12125s -> batches-s4.csv | giri 1, inneschi 0, abbandonati 0
+[14:32:32] [static] GROUP s5: 659 mutanti | classi nella td=7
+[15:29:11] [static] GROUP s5 giro 1: 659 eseguiti, 200 accettati, inceppato dopo il mutante 200: 459 sospetti da rifare
+[16:28:02] [static] GROUP s5 giro 2: 459 eseguiti, 244 accettati, inceppato dopo il mutante 244: 215 sospetti da rifare
+[17:21:11] [static] GROUP s5 giro 3: 215 eseguiti, 215 accettati, nessun inceppamento
+[17:21:11] [static] GROUP s5: done in 10118s -> batches-s5.csv | giri 3, inneschi 2, abbandonati 0
+[17:21:11] [static] GROUP s6: 353 mutanti | classi nella td=7
+[19:53:36] [static] GROUP s6 giro 1: 353 eseguiti, 353 accettati, nessun inceppamento
+[19:53:36] [static] GROUP s6: done in 9145s -> batches-s6.csv | giri 1, inneschi 0, abbandonati 0
+[19:53:36] [static] TUTTI I GRUPPI DONE in 31389s | template ripristinati a fine run
+[2026-09-19 19:53:37] ===== CAMPAGNA 4/4 — FlowBoard statica — COMPLETATA in 8h43m =====
+[2026-09-19 19:53:37] BLOCCO A finito in 8h43m
+[2026-09-19 19:53:37] tutte le campagne complete.

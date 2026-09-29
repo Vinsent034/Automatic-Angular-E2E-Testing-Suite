@@ -1,0 +1,93 @@
+######### START 1 - a #########
+<ul class="card-column" [attr.data-column]="colId()" x-test-card-list>
+  @for (card of store.cardsByColumn()(colId()); track card.id) {
+    <li class="card-slot">
+      <app-card [card]="card" />
+    </li>
+  } @empty {
+    <li class="empty-slot">
+      <p class="empty-message" x-test-empty-message>No cards here</p>
+    </li>
+  }
+</ul>
+######### END 1 - a #########
+######### START 1 - b #########
+<ul [attr.data-column]="colId()" x-test-card-list>
+  @for (card of store.cardsByColumn()(colId()); track card.id) {
+    <li class="card-slot">
+      <app-card [card]="card" />
+    </li>
+  } @empty {
+    <li class="empty-slot">
+      <p class="empty-message" x-test-empty-message>No cards here</p>
+    </li>
+  }
+</ul>
+######### END 1 - b #########
+######### START 1 - c #########
+<ul data-class="card-list" [attr.data-column]="colId()" x-test-card-list>
+  @for (card of store.cardsByColumn()(colId()); track card.id) {
+    <li class="card-slot">
+      <app-card [card]="card" />
+    </li>
+  } @empty {
+    <li class="empty-slot">
+      <p class="empty-message" x-test-empty-message>No cards here</p>
+    </li>
+  }
+</ul>
+######### END 1 - c #########
+######### START 1 - d #########
+<ul class="card-list" [attr.data-column]="colId()" x-test-card-list>
+  @for (card of store.cardsByColumn()(colId()); track card.id) {
+    <li class="card-slot">
+      <app-card [card]="card" />
+    </li>
+  } @empty {
+    <li class="empty-slot">
+      <p class="empty-message" x-test-empty-message>Empty column</p>
+    </li>
+  }
+</ul>
+######### END 1 - d #########
+######### START 1 - e #########
+<ul class="card-list" [attr.data-column]="colId()" x-test-card-list>
+  @for (card of store.cardsByColumn()(colId()); track card.id) {
+    <li class="card-slot">
+      <app-card [card]="card" />
+    </li>
+  } @empty {
+    <li class="empty-slot">
+      <p class="empty-message" x-test-empty-message> </p>
+    </li>
+  }
+</ul>
+######### END 1 - e #########
+######### START 1 - j #########
+<ol class="card-list" [attr.data-column]="colId()" x-test-card-list>
+  @for (card of store.cardsByColumn()(colId()); track card.id) {
+    <li class="card-slot">
+      <app-card [card]="card" />
+    </li>
+  } @empty {
+    <li class="empty-slot">
+      <p class="empty-message" x-test-empty-message>No cards here</p>
+    </li>
+  }
+</ol>
+######### END 1 - j #########
+######### START 1 - k #########
+<div class="card-list-wrapper">
+<ul class="card-list" [attr.data-column]="colId()" x-test-card-list>
+  @for (card of store.cardsByColumn()(colId()); track card.id) {
+    <li class="card-slot">
+      <app-card [card]="card" />
+    </li>
+  } @empty {
+    <li class="empty-slot">
+      <p class="empty-message" x-test-empty-message>No cards here</p>
+    </li>
+  }
+</ul>
+</div>
+######### END 1 - k #########

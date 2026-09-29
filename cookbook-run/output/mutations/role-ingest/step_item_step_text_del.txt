@@ -1,0 +1,26 @@
+######### START 1 - a #########
+<p class="step-time-alt"><span class="step-minutes">{{ step().minutes }}</span> min</p>
+######### END 1 - a #########
+######### START 2 - b #########
+<p><span class="step-minutes">{{ step().minutes }}</span> min</p>
+######### END 2 - b #########
+######### START 3 - c #########
+<p data-time="step-time"><span class="step-minutes">{{ step().minutes }}</span> min</p>
+######### END 3 - c #########
+######### START 4 - d #########
+<p class="step-time"><span class="step-minutes">{{ step().minutes }}</span> minutes</p>
+######### END 4 - d #########
+######### START 5 - e #########
+<p class="step-time"> </p>
+######### END 5 - e #########
+######### START 6 - i #########
+<span class="step-minutes">{{ step().minutes }}</span> min
+######### END 6 - i #########
+######### START 7 - j #########
+<div class="step-time"><span class="step-minutes">{{ step().minutes }}</span> min</div>
+######### END 7 - j #########
+######### START 8 - k #########
+<div>
+  <p class="step-time"><span class="step-minutes">{{ step().minutes }}</span> min</p>
+</div>
+######### END 8 - k #########

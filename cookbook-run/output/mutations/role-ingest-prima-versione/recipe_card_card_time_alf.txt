@@ -1,0 +1,26 @@
+######### START 1 - a #########
+<span class="card-duration" [attr.x-test-card-time]="recipe().id">{{ recipe().prepMinutes + recipe().cookMinutes }} min</span>
+######### END 1 - a #########
+######### START 2 - b #########
+<span [attr.x-test-card-time]="recipe().id">{{ recipe().prepMinutes + recipe().cookMinutes }} min</span>
+######### END 2 - b #########
+######### START 3 - c #########
+<span data-time="card-time" [attr.x-test-card-time]="recipe().id">{{ recipe().prepMinutes + recipe().cookMinutes }} min</span>
+######### END 3 - c #########
+######### START 4 - d #########
+<span class="card-time" [attr.x-test-card-time]="recipe().id">{{ recipe().prepMinutes + recipe().cookMinutes }} minutes</span>
+######### END 4 - d #########
+######### START 5 - e #########
+<span class="card-time" [attr.x-test-card-time]="recipe().id"> </span>
+######### END 5 - e #########
+######### START 6 - i #########
+{{ recipe().prepMinutes + recipe().cookMinutes }} min
+######### END 6 - i #########
+######### START 7 - j #########
+<div class="card-time" [attr.x-test-card-time]="recipe().id">{{ recipe().prepMinutes + recipe().cookMinutes }} min</div>
+######### END 7 - j #########
+######### START 8 - k #########
+<span class="card-time-wrap">
+  <span class="card-time" [attr.x-test-card-time]="recipe().id">{{ recipe().prepMinutes + recipe().cookMinutes }} min</span>
+</span>
+######### END 8 - k #########

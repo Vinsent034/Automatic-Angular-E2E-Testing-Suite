@@ -1,0 +1,26 @@
+######### START 1 - a #########
+<a class="btn-alt" [routerLink]="['/recipe', recipe.id, 'edit']">Edit</a>
+######### END 1 - a #########
+######### START 2 - b #########
+<a [routerLink]="['/recipe', recipe.id, 'edit']">Edit</a>
+######### END 2 - b #########
+######### START 3 - c #########
+<a data-btn="btn" [routerLink]="['/recipe', recipe.id, 'edit']">Edit</a>
+######### END 3 - c #########
+######### START 4 - d #########
+<a class="btn" [routerLink]="['/recipe', recipe.id, 'edit']">Modify</a>
+######### END 4 - d #########
+######### START 5 - e #########
+<a class="btn" [routerLink]="['/recipe', recipe.id, 'edit']"> </a>
+######### END 5 - e #########
+######### START 6 - i #########
+Edit
+######### END 6 - i #########
+######### START 7 - j #########
+<button class="btn" [routerLink]="['/recipe', recipe.id, 'edit']">Edit</button>
+######### END 7 - j #########
+######### START 8 - k #########
+<span>
+  <a class="btn" [routerLink]="['/recipe', recipe.id, 'edit']">Edit</a>
+</span>
+######### END 8 - k #########

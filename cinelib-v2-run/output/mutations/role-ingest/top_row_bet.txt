@@ -1,0 +1,60 @@
+######### START 1 - d #########
+<tbody>
+          @for (movie of topRated(); track movie.id; let i = $index) {
+            <tr x-test-top-row>
+              <td>{{ i + 1 }}</td>
+              <td><a [routerLink]="['/movie', movie.id]" class="stats-link" x-test-top-title>{{ movie.title }}</a></td>
+              <td>{{ movie.year }}</td>
+              <td class="stats-rating">{{ movie.rating }} ★</td>
+            </tr>
+          }
+        </tbody>
+######### END 1 - d #########
+######### START 1 - e #########
+<tbody>
+          @for (movie of topRated(); track movie.id; let i = $index) {
+            <tr x-test-top-row>
+              <td>{{ i + 1 }}</td>
+              <td><a [routerLink]="['/movie', movie.id]" class="stats-link" x-test-top-title>{{ movie.title }}</a></td>
+              <td>{{ movie.year }}</td>
+              <td class="stats-rating"> </td>
+            </tr>
+          }
+        </tbody>
+######### END 1 - e #########
+######### START 1 - i #########
+@for (movie of topRated(); track movie.id; let i = $index) {
+            <tr x-test-top-row>
+              <td>{{ i + 1 }}</td>
+              <td><a [routerLink]="['/movie', movie.id]" class="stats-link" x-test-top-title>{{ movie.title }}</a></td>
+              <td>{{ movie.year }}</td>
+              <td class="stats-rating">★ {{ movie.rating }}</td>
+            </tr>
+          }
+######### END 1 - i #########
+######### START 1 - j #########
+<div>
+          @for (movie of topRated(); track movie.id; let i = $index) {
+            <tr x-test-top-row>
+              <td>{{ i + 1 }}</td>
+              <td><a [routerLink]="['/movie', movie.id]" class="stats-link" x-test-top-title>{{ movie.title }}</a></td>
+              <td>{{ movie.year }}</td>
+              <td class="stats-rating">★ {{ movie.rating }}</td>
+            </tr>
+          }
+        </div>
+######### END 1 - j #########
+######### START 1 - k #########
+<table>
+<tbody>
+          @for (movie of topRated(); track movie.id; let i = $index) {
+            <tr x-test-top-row>
+              <td>{{ i + 1 }}</td>
+              <td><a [routerLink]="['/movie', movie.id]" class="stats-link" x-test-top-title>{{ movie.title }}</a></td>
+              <td>{{ movie.year }}</td>
+              <td class="stats-rating">★ {{ movie.rating }}</td>
+            </tr>
+          }
+        </tbody>
+</table>
+######### END 1 - k #########

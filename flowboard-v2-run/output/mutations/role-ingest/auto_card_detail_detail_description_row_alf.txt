@@ -1,0 +1,32 @@
+######### START 1 - a #########
+<div class="detail-field" x-test-detail-description-row>
+            <span class="detail-label" x-test-detail-description-label>Description</span>
+            <p class="detail-description" x-test-detail-description>{{ store.selectedCard()?.description }}</p>
+          </div>
+######### END 1 - a #########
+######### START 1 - b #########
+<div x-test-detail-description-row>
+            <span class="detail-label" x-test-detail-description-label>Description</span>
+            <p class="detail-description" x-test-detail-description>{{ store.selectedCard()?.description }}</p>
+          </div>
+######### END 1 - b #########
+######### START 1 - c #########
+<div data-class="detail-row" x-test-detail-description-row>
+            <span class="detail-label" x-test-detail-description-label>Description</span>
+            <p class="detail-description" x-test-detail-description>{{ store.selectedCard()?.description }}</p>
+          </div>
+######### END 1 - c #########
+######### START 1 - j #########
+<section class="detail-row" x-test-detail-description-row>
+            <span class="detail-label" x-test-detail-description-label>Description</span>
+            <p class="detail-description" x-test-detail-description>{{ store.selectedCard()?.description }}</p>
+          </section>
+######### END 1 - j #########
+######### START 1 - k #########
+<div class="detail-row-wrapper">
+  <div class="detail-row" x-test-detail-description-row>
+            <span class="detail-label" x-test-detail-description-label>Description</span>
+            <p class="detail-description" x-test-detail-description>{{ store.selectedCard()?.description }}</p>
+          </div>
+</div>
+######### END 1 - k #########

@@ -1,0 +1,17 @@
+######### START 1 - a #########
+<input id="movie-year" type="number" formControlName="year" class="field-input" x-test-field-year>
+######### END 1 - a #########
+######### START 1 - b #########
+<input id="year" type="number" formControlName="year" x-test-field-year>
+######### END 1 - b #########
+######### START 1 - c #########
+<input data-id="year" type="number" formControlName="year" class="field-input" x-test-field-year>
+######### END 1 - c #########
+######### START 1 - j #########
+<textarea id="year" type="number" formControlName="year" class="field-input" x-test-field-year></textarea>
+######### END 1 - j #########
+######### START 1 - k #########
+<div>
+<input id="year" type="number" formControlName="year" class="field-input" x-test-field-year>
+</div>
+######### END 1 - k #########

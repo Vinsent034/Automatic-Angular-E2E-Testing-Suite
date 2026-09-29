@@ -1,0 +1,34 @@
+#mutation-id: h
+#element: beta
+#name: auto-app-footer
+#type: tag_mov_temp_mut
+#status: COMPLETE
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\Kanban board\src\app\app.component.html #########
+<div class="app-shell" x-test-app>
+  <app-header>
+
+  <main class="app-main" role="main" x-test-main>
+    <router-outlet>
+  </router-outlet></main>
+
+  </app-header></div>
+######### END FILE #########
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\Kanban board\src\app\panel\panel.component.html #########
+<section class="panel">
+ <header class="panel-head">
+  <h4 class="panel-heading">{{ heading() }}</h4>
+  <span class="panel-note">
+   <app-toast>
+    <footer class="app-footer" role="contentinfo" x-test-footer>
+     <div class="footer-inner">
+      <span class="footer-brand" x-test-footer-brand>FlowBoard</span> <span class="footer-sep">·</span> <span class="footer-note" x-test-footer-note>Deterministic demo board — data resets from a fixed seed</span> <span class="footer-sep">·</span> <span class="footer-version" x-test-footer-version>v1.0</span>
+     </div>
+    </footer>
+   </app-toast>{{ note() }}
+  </span>
+ </header>
+ <div class="panel-body">
+  <ng-content></ng-content>
+ </div>
+</section>
+######### END FILE #########

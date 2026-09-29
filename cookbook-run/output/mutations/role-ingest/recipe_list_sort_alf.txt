@@ -1,0 +1,37 @@
+######### START 1 - a #########
+<select id="sort-select" class="input sort-select-lg" [value]="store.sortKey()" (change)="onSort($event)" x-test-sort>
+          <option value="title">Title</option>
+          <option value="time">Total time</option>
+          <option value="rating">Rating</option>
+        </select>
+######### END 1 - a #########
+######### START 2 - b #########
+<select class="input sort-select" [value]="store.sortKey()" (change)="onSort($event)" x-test-sort>
+          <option value="title">Title</option>
+          <option value="time">Total time</option>
+          <option value="rating">Rating</option>
+        </select>
+######### END 2 - b #########
+######### START 3 - c #########
+<select id="sort-select" data-sort="input sort-select" [value]="store.sortKey()" (change)="onSort($event)" x-test-sort>
+          <option value="title">Title</option>
+          <option value="time">Total time</option>
+          <option value="rating">Rating</option>
+        </select>
+######### END 3 - c #########
+######### START 4 - j #########
+<textarea id="sort-select" class="input sort-select" [value]="store.sortKey()" (change)="onSort($event)" x-test-sort>
+          <option value="title">Title</option>
+          <option value="time">Total time</option>
+          <option value="rating">Rating</option>
+        </textarea>
+######### END 4 - j #########
+######### START 5 - k #########
+<div>
+  <select id="sort-select" class="input sort-select" [value]="store.sortKey()" (change)="onSort($event)" x-test-sort>
+          <option value="title">Title</option>
+          <option value="time">Total time</option>
+          <option value="rating">Rating</option>
+        </select>
+</div>
+######### END 5 - k #########

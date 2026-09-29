@@ -1,0 +1,15 @@
+Name,Id,Locator,Tag,Status,Error
+i,mutation_LLMR_stats_component_html_stats_top_title_alf_i_LLM_ROLE_stats_component_html,AbsoluteXPathTest,stats_component_html,NOT_APPLICABLE,Application did not recompile.
+i,mutation_LLMR_stats_component_html_stats_top_title_alf_i_LLM_ROLE_stats_component_html,HookXPathTest,stats_component_html,NOT_APPLICABLE,Application did not recompile.
+i,mutation_LLMR_stats_component_html_stats_top_title_alf_i_LLM_ROLE_stats_component_html,KatalonXPathTest,stats_component_html,NOT_APPLICABLE,Application did not recompile.
+i,mutation_LLMR_stats_component_html_stats_top_title_alf_i_LLM_ROLE_stats_component_html,RelativeXPathTest,stats_component_html,NOT_APPLICABLE,Application did not recompile.
+i,mutation_LLMR_stats_component_html_stats_top_title_alf_i_LLM_ROLE_stats_component_html,RobulaPlusXPathTest,stats_component_html,NOT_APPLICABLE,Application did not recompile.
+i,mutation_LLMR_stats_component_html_stats_top_title_alf_i_LLM_ROLE_stats_component_html,RobulaXPathTest,stats_component_html,NOT_APPLICABLE,Application did not recompile.
+i,mutation_LLMR_stats_component_html_stats_top_title_alf_i_LLM_ROLE_stats_component_html,SeleniumXPathTest,stats_component_html,NOT_APPLICABLE,Application did not recompile.
+i,mutation_LLMR_stats_component_html_stats_course_count_alf_i_LLM_ROLE_stats_component_html,AbsoluteXPathTest,stats_component_html,FAILED,expected:<3[]> but was:<3[8%]>
+i,mutation_LLMR_stats_component_html_stats_course_count_alf_i_LLM_ROLE_stats_component_html,HookXPathTest,stats_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@x-test-course-count='main']"}
+i,mutation_LLMR_stats_component_html_stats_course_count_alf_i_LLM_ROLE_stats_component_html,KatalonXPathTest,stats_component_html,FAILED,expected:<3[]> but was:<3[8%]>
+i,mutation_LLMR_stats_component_html_stats_course_count_alf_i_LLM_ROLE_stats_component_html,RelativeXPathTest,stats_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//span[@role='cell'][normalize-space()='3']"}
+i,mutation_LLMR_stats_component_html_stats_course_count_alf_i_LLM_ROLE_stats_component_html,RobulaPlusXPathTest,stats_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//*[@data-course='main']/*[@class='course-count']"}
+i,mutation_LLMR_stats_component_html_stats_course_count_alf_i_LLM_ROLE_stats_component_html,RobulaXPathTest,stats_component_html,FAILED,no such element: Unable to locate element: {"method":"xpath" "selector":"//div[@data-course='main']/span[@class='course-count']"}
+i,mutation_LLMR_stats_component_html_stats_course_count_alf_i_LLM_ROLE_stats_component_html,SeleniumXPathTest,stats_component_html,FAILED,no such element: Unable to locate element: {"method":"css selector" "selector":".course-row:nth-child(2) > .course-count"}

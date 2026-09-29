@@ -1,0 +1,32 @@
+######### START 1 - a #########
+<div class="toolbar-group toolbar-search-box" role="search" x-test-toolbar-search>
+      <label class="field-label" for="search-input" x-test-search-label>Search</label>
+      <input id="search-input" class="input search-input" type="text" placeholder="Filter by title…" [value]="store.searchText()" (input)="onSearch($event)" x-test-search>
+    </div>
+######### END 1 - a #########
+######### START 1 - b #########
+<div class="toolbar-group toolbar-search" x-test-toolbar-search>
+      <label class="field-label" for="search-input" x-test-search-label>Search</label>
+      <input id="search-input" class="input search-input" type="text" placeholder="Filter by title…" [value]="store.searchText()" (input)="onSearch($event)" x-test-search>
+    </div>
+######### END 1 - b #########
+######### START 1 - c #########
+<div data-class="toolbar-group toolbar-search" role="search" x-test-toolbar-search>
+      <label class="field-label" for="search-input" x-test-search-label>Search</label>
+      <input id="search-input" class="input search-input" type="text" placeholder="Filter by title…" [value]="store.searchText()" (input)="onSearch($event)" x-test-search>
+    </div>
+######### END 1 - c #########
+######### START 1 - j #########
+<section class="toolbar-group toolbar-search" role="search" x-test-toolbar-search>
+      <label class="field-label" for="search-input" x-test-search-label>Search</label>
+      <input id="search-input" class="input search-input" type="text" placeholder="Filter by title…" [value]="store.searchText()" (input)="onSearch($event)" x-test-search>
+    </section>
+######### END 1 - j #########
+######### START 1 - k #########
+<div class="toolbar-group-wrap">
+  <div class="toolbar-group toolbar-search" role="search" x-test-toolbar-search>
+      <label class="field-label" for="search-input" x-test-search-label>Search</label>
+      <input id="search-input" class="input search-input" type="text" placeholder="Filter by title…" [value]="store.searchText()" (input)="onSearch($event)" x-test-search>
+    </div>
+</div>
+######### END 1 - k #########

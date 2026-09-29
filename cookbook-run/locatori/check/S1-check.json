@@ -1,0 +1,56 @@
+{
+ "S1_Search": {
+  "Absolute": {
+   "count": 1,
+   "same": true
+  },
+  "Robula": {
+   "count": 1,
+   "same": true
+  },
+  "RobulaPlus": {
+   "count": 1,
+   "same": true
+  },
+  "HookBased": {
+   "count": 1,
+   "same": true
+  }
+ },
+ "S1_Card": {
+  "Absolute": {
+   "count": 1,
+   "same": true
+  },
+  "Robula": {
+   "count": 1,
+   "same": true
+  },
+  "RobulaPlus": {
+   "count": 1,
+   "same": true
+  },
+  "HookBased": {
+   "count": 1,
+   "same": true
+  }
+ },
+ "S1_CardTitle": {
+  "Absolute": {
+   "count": 1,
+   "same": true
+  },
+  "Robula": {
+   "count": 1,
+   "same": true
+  },
+  "RobulaPlus": {
+   "count": 1,
+   "same": true
+  },
+  "HookBased": {
+   "count": 1,
+   "same": true
+  }
+ }
+}

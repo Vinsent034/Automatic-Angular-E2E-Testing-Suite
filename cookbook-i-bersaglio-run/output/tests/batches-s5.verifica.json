@@ -1,0 +1,14 @@
+{
+  "gruppo": "s5",
+  "campagna": "ibersaglio",
+  "completo": true,
+  "mutanti": 0,
+  "accettati": 0,
+  "in_sospeso": 0,
+  "classi_per_mutante": 7,
+  "giri": 0,
+  "inneschi": [],
+  "abbandonati": [],
+  "data": "2026-09-27 09:06:42",
+  "regola": "coda finale di >=2 non compilati = dev server incastrato; primo della coda valido, gli altri rieseguiti con dev server nuovo"
+}

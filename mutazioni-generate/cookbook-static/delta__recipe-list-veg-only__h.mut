@@ -1,0 +1,157 @@
+#mutation-id: h
+#element: delta
+#name: recipe-list-veg-only
+#type: tag_mov_temp_mut
+#status: COMPLETE
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\cookbook\src\app\recipe-list\recipe-list.component.html #########
+<section class="recipes-page">
+  <div class="page-head">
+    <div class="title-block">
+      <h1 class="page-title" x-test-list-title>Recipes</h1>
+      <p class="page-sub">A fixed collection of demo recipes</p>
+    </div>
+  </div>
+
+  <div class="toolbar" role="toolbar" aria-label="Recipe filters">
+    <div class="tool tool-search">
+      <label class="field" for="search-input">
+        <span class="field-label">Search</span>
+        <input id="search-input" class="input search-input" type="text" placeholder="Search a recipe…" [value]="store.search()" (input)="onSearch($event)" x-test-search>
+        <small class="field-hint">title or tag</small>
+      </label>
+    </div>
+    <div class="tool tool-course">
+      <label class="field" for="course-filter">
+        <span class="field-label">Course</span>
+        <select id="course-filter" class="input course-select" [value]="store.courseFilter()" (change)="onCourse($event)" x-test-course-filter>
+          <option value="all">All courses</option>
+          <option value="starter">Starter</option>
+          <option value="main">Main</option>
+          <option value="side">Side</option>
+          <option value="dessert">Dessert</option>
+        </select>
+        <small class="field-hint">one course at a time</small>
+      </label>
+    </div>
+    <div class="tool tool-veg">
+      <label class="check" for="veg-only">
+        <input id="veg-only" class="veg-check" type="checkbox" [checked]="store.vegetarianOnly()" (change)="onVegetarian($event)" x-test-veg-only>
+        
+      </label>
+    </div>
+    <div class="tool tool-sort">
+      <label class="field" for="sort-select">
+        <span class="field-label">Sort by</span>
+        <select id="sort-select" class="input sort-select" [value]="store.sortKey()" (change)="onSort($event)" x-test-sort>
+          <option value="title">Title</option>
+          <option value="time">Total time</option>
+          <option value="rating">Rating</option>
+        </select>
+        <small class="field-hint">ascending time, descending rating</small>
+      </label>
+    </div>
+  </div>
+
+  <div class="list-meta">
+    <p class="result-line">
+      <span class="result-count" data-kind="filtered" x-test-result-count>{{ store.filteredCount() }}</span>
+      <span class="result-label">recipes shown</span>
+    </p>
+    <div class="list-actions">
+      <a class="btn btn-primary" routerLink="/recipe/new" role="button" x-test-add-recipe>New recipe</a>
+      <button type="button" class="btn btn-ghost" (click)="store.reset()">Reset</button>
+    </div>
+  </div>
+
+  <div class="list-body">
+    @if (store.filteredCount() === 0) {
+      <div class="empty-box">
+        <p class="empty-text" x-test-empty>No recipes match your filters.</p>
+        <p class="empty-hint">Try another search or course</p>
+      </div>
+    }
+    <ul class="recipe-grid" aria-label="Recipes">
+      @for (recipe of store.filtered(); track recipe.id) {
+        <li class="recipe-slot">
+          <app-recipe-card [recipe]="recipe"></app-recipe-card>
+        </li>
+      }
+    </ul>
+  </div>
+</section>
+######### END FILE #########
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\cookbook\src\app\recipe-detail\recipe-detail.component.html #########
+@if (store.selected(); as recipe) {
+<article class="detail-page" [attr.data-recipe-id]="recipe.id" [attr.data-course]="recipe.course">
+ <header class="detail-head">
+  <div class="detail-title-row">
+   <h1 class="detail-title" x-test-detail-title>{{ recipe.title }}</h1>
+   <span class="detail-course">{{ recipe.course }}</span>
+  </div>
+  <p class="detail-byline"><span class="detail-author" x-test-detail-author>{{ recipe.author }}</span> <span class="detail-rating">★ {{ recipe.rating }}</span></p>
+ </header>
+ <div class="detail-grid">
+  <app-panel heading="Ingredients" note="quantities follow the servings">
+   <div class="servings-box">
+    <label class="servings-field" for="servings-input"> <span class="field-label">Servings</span> <input id="servings-input" class="input servings-input" type="number" min="1" max="24" [value]="store.servingsShown()" (change)="onServings($event)" x-test-servings> <small class="servings-hint">recipe default: {{ recipe.servings }}</small> </label>
+   </div>
+   <ul class="ingredient-list" aria-label="Ingredients">
+    @for (ingredient of recipe.ingredients; track ingredient.id) {
+    <li class="ingredient-slot"><app-ingredient-row [ingredient]="ingredient"></app-ingredient-row></li>
+    }
+   </ul>
+  </app-panel>
+  <app-panel heading="Method" note="step by step">
+   <ol class="step-list" aria-label="Method">
+    @for (step of recipe.steps; track step.n) {
+    <li class="step-slot"><app-step-item [step]="step"></app-step-item></li>
+    }
+   </ol>
+  </app-panel>
+  <app-panel heading="Nutrition" note="per serving">
+   <dl class="nutrition-grid">
+    <div class="nutri-row" data-nutrient="kcal">
+     <dt class="nutri-key">Energy</dt>
+     <dd class="nutri-val" x-test-kcal>{{ recipe.nutrition.kcal }}</dd>
+     <dd class="nutri-unit">kcal</dd>
+    </div>
+    <div class="nutri-row" data-nutrient="protein">
+     <dt class="nutri-key">
+      <span class="check-label">Vegetarian only</span>Protein
+     </dt>
+     <dd class="nutri-val" x-test-protein>{{ recipe.nutrition.protein }}</dd>
+     <dd class="nutri-unit">g</dd>
+    </div>
+    <div class="nutri-row" data-nutrient="carbs">
+     <dt class="nutri-key">Carbohydrates</dt>
+     <dd class="nutri-val">{{ recipe.nutrition.carbs }}</dd>
+     <dd class="nutri-unit">g</dd>
+    </div>
+    <div class="nutri-row" data-nutrient="fat">
+     <dt class="nutri-key">Fat</dt>
+     <dd class="nutri-val">{{ recipe.nutrition.fat }}</dd>
+     <dd class="nutri-unit">g</dd>
+    </div>
+   </dl>
+  </app-panel>
+ </div>
+ <footer class="detail-actions">
+  <div class="action-group">
+   <button type="button" class="btn btn-primary" (click)="store.addToShopping(recipe.id)" x-test-add-shopping>Add to shopping list</button>
+   <span class="action-note">{{ store.servingsShown() }} servings</span>
+  </div>
+  <div class="action-group">
+   <a class="btn" [routerLink]="['/recipe', recipe.id, 'edit']">Edit</a>
+   <button type="button" class="btn btn-danger" (click)="deleteAndGoBack(recipe.id)" x-test-delete>Delete recipe</button>
+  </div>
+ </footer>
+</article>
+} @else {
+<div class="not-found-page">
+ <div class="not-found-box">
+  <p class="nf-text" x-test-not-found>Recipe not found</p>
+  <a class="btn btn-primary nf-back" routerLink="/">Back to recipes</a>
+ </div>
+</div>
+}
+######### END FILE #########

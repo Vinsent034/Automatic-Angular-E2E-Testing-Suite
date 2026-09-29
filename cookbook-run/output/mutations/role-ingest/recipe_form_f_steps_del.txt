@@ -1,0 +1,26 @@
+######### START 1 - a #########
+<small class="help-alt">they are numbered automatically</small>
+######### END 1 - a #########
+######### START 2 - b #########
+<small>they are numbered automatically</small>
+######### END 2 - b #########
+######### START 3 - c #########
+<small data-help="help">they are numbered automatically</small>
+######### END 3 - c #########
+######### START 4 - d #########
+<small class="help">numbered for you</small>
+######### END 4 - d #########
+######### START 5 - e #########
+<small class="help"> </small>
+######### END 5 - e #########
+######### START 6 - i #########
+they are numbered automatically
+######### END 6 - i #########
+######### START 7 - j #########
+<span class="help">they are numbered automatically</span>
+######### END 7 - j #########
+######### START 8 - k #########
+<span>
+  <small class="help">they are numbered automatically</small>
+</span>
+######### END 8 - k #########

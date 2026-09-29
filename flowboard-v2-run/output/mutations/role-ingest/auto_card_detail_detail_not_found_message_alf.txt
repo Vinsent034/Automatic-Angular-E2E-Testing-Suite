@@ -1,0 +1,23 @@
+######### START 1 - a #########
+<p class="not-found-text" x-test-detail-not-found-message>Card not found</p>
+######### END 1 - a #########
+######### START 1 - b #########
+<p x-test-detail-not-found-message>Card not found</p>
+######### END 1 - b #########
+######### START 1 - c #########
+<p data-class="not-found-message" x-test-detail-not-found-message>Card not found</p>
+######### END 1 - c #########
+######### START 1 - d #########
+<p class="not-found-message" x-test-detail-not-found-message>No card here</p>
+######### END 1 - d #########
+######### START 1 - e #########
+<p class="not-found-message" x-test-detail-not-found-message> </p>
+######### END 1 - e #########
+######### START 1 - j #########
+<div class="not-found-message" x-test-detail-not-found-message>Card not found</div>
+######### END 1 - j #########
+######### START 1 - k #########
+<div class="not-found-message-wrapper">
+  <p class="not-found-message" x-test-detail-not-found-message>Card not found</p>
+</div>
+######### END 1 - k #########

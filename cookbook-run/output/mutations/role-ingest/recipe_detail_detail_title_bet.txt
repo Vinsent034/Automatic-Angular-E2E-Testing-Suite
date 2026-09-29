@@ -1,0 +1,36 @@
+######### START 1 - a #########
+<div class="detail-title-row-alt">
+        <h1 class="detail-title" x-test-detail-title>{{ recipe.title }}</h1>
+        <span class="detail-course">{{ recipe.course }}</span>
+      </div>
+######### END 1 - a #########
+######### START 2 - b #########
+<div>
+        <h1 class="detail-title" x-test-detail-title>{{ recipe.title }}</h1>
+        <span class="detail-course">{{ recipe.course }}</span>
+      </div>
+######### END 2 - b #########
+######### START 3 - c #########
+<div data-row="detail-title-row">
+        <h1 class="detail-title" x-test-detail-title>{{ recipe.title }}</h1>
+        <span class="detail-course">{{ recipe.course }}</span>
+      </div>
+######### END 3 - c #########
+######### START 4 - i #########
+<h1 class="detail-title" x-test-detail-title>{{ recipe.title }}</h1>
+        <span class="detail-course">{{ recipe.course }}</span>
+######### END 4 - i #########
+######### START 5 - j #########
+<header class="detail-title-row">
+        <h1 class="detail-title" x-test-detail-title>{{ recipe.title }}</h1>
+        <span class="detail-course">{{ recipe.course }}</span>
+      </header>
+######### END 5 - j #########
+######### START 6 - k #########
+<div>
+  <div class="detail-title-row">
+        <h1 class="detail-title" x-test-detail-title>{{ recipe.title }}</h1>
+        <span class="detail-course">{{ recipe.course }}</span>
+      </div>
+</div>
+######### END 6 - k #########

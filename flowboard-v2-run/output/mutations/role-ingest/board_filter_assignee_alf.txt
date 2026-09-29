@@ -1,0 +1,58 @@
+######### START 1 - a #########
+<select id="assignee-filter" class="input select assignee-filter-box" [value]="store.assigneeFilter()" (change)="onAssigneeFilter($event)" x-test-filter-assignee>
+        <option value="all">All</option>
+        @for (person of store.assignees(); track person) {
+          <option [value]="person">{{ person }}</option>
+        }
+      </select>
+######### END 1 - a #########
+######### START 1 - b #########
+<select id="assignee-filter" [value]="store.assigneeFilter()" (change)="onAssigneeFilter($event)" x-test-filter-assignee>
+        <option value="all">All</option>
+        @for (person of store.assignees(); track person) {
+          <option [value]="person">{{ person }}</option>
+        }
+      </select>
+######### END 1 - b #########
+######### START 1 - c #########
+<select id="assignee-filter" data-class="input select assignee-filter" [value]="store.assigneeFilter()" (change)="onAssigneeFilter($event)" x-test-filter-assignee>
+        <option value="all">All</option>
+        @for (person of store.assignees(); track person) {
+          <option [value]="person">{{ person }}</option>
+        }
+      </select>
+######### END 1 - c #########
+######### START 1 - d #########
+<select id="assignee-filter" class="input select assignee-filter" [value]="store.assigneeFilter()" (change)="onAssigneeFilter($event)" x-test-filter-assignee>
+        <option value="all">Any</option>
+        @for (person of store.assignees(); track person) {
+          <option [value]="person">{{ person }}</option>
+        }
+      </select>
+######### END 1 - d #########
+######### START 1 - e #########
+<select id="assignee-filter" class="input select assignee-filter" [value]="store.assigneeFilter()" (change)="onAssigneeFilter($event)" x-test-filter-assignee>
+        <option value="all"> </option>
+        @for (person of store.assignees(); track person) {
+          <option [value]="person">{{ person }}</option>
+        }
+      </select>
+######### END 1 - e #########
+######### START 1 - j #########
+<textarea id="assignee-filter" class="input select assignee-filter" [value]="store.assigneeFilter()" (change)="onAssigneeFilter($event)" x-test-filter-assignee>
+        <option value="all">All</option>
+        @for (person of store.assignees(); track person) {
+          <option [value]="person">{{ person }}</option>
+        }
+      </textarea>
+######### END 1 - j #########
+######### START 1 - k #########
+<div class="select-wrap">
+  <select id="assignee-filter" class="input select assignee-filter" [value]="store.assigneeFilter()" (change)="onAssigneeFilter($event)" x-test-filter-assignee>
+        <option value="all">All</option>
+        @for (person of store.assignees(); track person) {
+          <option [value]="person">{{ person }}</option>
+        }
+      </select>
+</div>
+######### END 1 - k #########

@@ -1,0 +1,58 @@
+ 
+############ AVVIO DA avvia_cinelib_v2.bat 27/09/2026 10:43:06.06 - campagne 1 2 ############ 
+[2026-09-27 10:43:06] PREFLIGHT: tutto a posto
+[2026-09-27 10:43:06] CINELIB v2 — campagne da eseguire: [1, 2]
+[2026-09-27 10:43:06] PC e schermo tenuti svegli fino a fine run
+[2026-09-27 10:43:06] ===== CAMPAGNA 1/2 — CineLib v2 linguistica — avvio =====
+[10:43:06] [llm] da eseguire: catalogsearch=246, moviedetail=171, movieform=186, reviews=181, stats=160
+[10:43:41] [llm] pre-riscaldamento dev server: pronto in 28 s
+[10:43:41] [llm] GROUP catalogsearch: 246 mutanti | classi nella td=7
+[2026-09-27 11:07:08] RUN INTERROTTO A MANO (~10:50): mutanti con &gt; nei blocchi @if. Corretti i DB (backup *.bak-prima-fix-gt.db), si rilancia da zero.
+ 
+############ AVVIO DA avvia_cinelib_v2.bat 27/09/2026 11:11:02.48 - campagne 1 2 ############ 
+[2026-09-27 11:11:02] PREFLIGHT: tutto a posto
+[2026-09-27 11:11:02] CINELIB v2 — campagne da eseguire: [1, 2]
+[2026-09-27 11:11:02] PC e schermo tenuti svegli fino a fine run
+[2026-09-27 11:11:02] ===== CAMPAGNA 1/2 — CineLib v2 linguistica — avvio =====
+[11:11:03] [llm] da eseguire: catalogsearch=246, moviedetail=171, movieform=186, reviews=181, stats=160
+[11:11:27] [llm] pre-riscaldamento dev server: pronto in 20 s
+[11:11:27] [llm] GROUP catalogsearch: 246 mutanti | classi nella td=7
+[12:03:37] [llm] GROUP catalogsearch giro 1: 246 eseguiti, 246 accettati, nessun inceppamento
+[12:03:37] [llm] GROUP catalogsearch: done in 3154s -> batches-catalogsearch.csv | giri 1, inneschi 0, abbandonati 0
+[12:03:37] [llm] GROUP moviedetail: 171 mutanti | classi nella td=7
+[12:42:16] [llm] GROUP moviedetail giro 1: 171 eseguiti, 171 accettati, nessun inceppamento
+[12:42:16] [llm] GROUP moviedetail: done in 2318s -> batches-moviedetail.csv | giri 1, inneschi 0, abbandonati 0
+[12:42:16] [llm] GROUP movieform: 186 mutanti | classi nella td=7
+[13:23:40] [llm] GROUP movieform giro 1: 186 eseguiti, 186 accettati, nessun inceppamento
+[13:23:40] [llm] GROUP movieform: done in 2484s -> batches-movieform.csv | giri 1, inneschi 0, abbandonati 0
+[13:23:40] [llm] GROUP reviews: 181 mutanti | classi nella td=7
+[14:04:27] [llm] GROUP reviews giro 1: 181 eseguiti, 181 accettati, nessun inceppamento
+[14:04:27] [llm] GROUP reviews: done in 2447s -> batches-reviews.csv | giri 1, inneschi 0, abbandonati 0
+[14:04:27] [llm] GROUP stats: 160 mutanti | classi nella td=7
+[14:38:17] [llm] GROUP stats giro 1: 160 eseguiti, 160 accettati, nessun inceppamento
+[14:38:18] [llm] GROUP stats: done in 2030s -> batches-stats.csv | giri 1, inneschi 0, abbandonati 0
+[14:38:18] [llm] TUTTI I GRUPPI DONE in 12435s | template ripristinati a fine run
+[2026-09-27 14:38:18] ===== CAMPAGNA 1/2 — CineLib v2 linguistica — COMPLETATA in 3h27m =====
+[2026-09-27 14:38:18] ===== CAMPAGNA 2/2 — CineLib v2 statica — avvio =====
+[14:38:18] [static] da eseguire: catalogsearch=279, moviedetail=181, movieform=168, reviews=160, stats=156
+[14:39:34] [static] pre-riscaldamento dev server: pronto in 72 s
+[14:39:34] [static] GROUP catalogsearch: 279 mutanti | classi nella td=7
+[16:21:22] [static] GROUP catalogsearch giro 1: 279 eseguiti, 279 accettati, nessun inceppamento
+[16:21:22] [static] GROUP catalogsearch: done in 6183s -> batches-catalogsearch.csv | giri 1, inneschi 0, abbandonati 0
+[16:21:22] [static] GROUP moviedetail: 181 mutanti | classi nella td=7
+[17:11:22] [static] GROUP moviedetail giro 1: 181 eseguiti, 181 accettati, nessun inceppamento
+[17:11:22] [static] GROUP moviedetail: done in 2999s -> batches-moviedetail.csv | giri 1, inneschi 0, abbandonati 0
+[17:11:22] [static] GROUP movieform: 168 mutanti | classi nella td=7
+[17:47:46] [static] GROUP movieform giro 1: 168 eseguiti, 168 accettati, nessun inceppamento
+[17:47:46] [static] GROUP movieform: done in 2184s -> batches-movieform.csv | giri 1, inneschi 0, abbandonati 0
+[17:47:46] [static] GROUP reviews: 160 mutanti | classi nella td=7
+[17:53:08] [static] GROUP reviews giro 1: 160 eseguiti, 16 accettati, inceppato dopo il mutante 16: 144 sospetti da rifare
+[18:29:15] [static] GROUP reviews giro 2: 144 eseguiti, 144 accettati, nessun inceppamento
+[18:29:15] [static] GROUP reviews: done in 2489s -> batches-reviews.csv | giri 2, inneschi 1, abbandonati 0
+[18:29:15] [static] GROUP stats: 156 mutanti | classi nella td=7
+[19:08:25] [static] GROUP stats giro 1: 156 eseguiti, 156 accettati, nessun inceppamento
+[19:08:25] [static] GROUP stats: done in 2349s -> batches-stats.csv | giri 1, inneschi 0, abbandonati 0
+[19:08:25] [static] TUTTI I GRUPPI DONE in 16206s | template ripristinati a fine run
+[2026-09-27 19:08:25] ===== CAMPAGNA 2/2 — CineLib v2 statica — COMPLETATA in 4h30m =====
+[2026-09-27 19:08:25] CINELIB v2 finito in 7h57m
+[2026-09-27 19:08:25] tutte le campagne complete.

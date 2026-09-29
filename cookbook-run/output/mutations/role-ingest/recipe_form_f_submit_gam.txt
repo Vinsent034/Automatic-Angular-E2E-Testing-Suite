@@ -1,0 +1,66 @@
+######### START 1 - a #########
+<div class="form-actions-alt">
+      <div class="action-group">
+        <button type="submit" class="btn btn-primary" x-test-f-submit>{{ editing() ? 'Save changes' : 'Create recipe' }}</button>
+        <span class="action-note form-error">{{ error() }}</span>
+      </div>
+      <div class="action-group">
+        <a class="btn btn-ghost" routerLink="/">Cancel</a>
+      </div>
+    </div>
+######### END 1 - a #########
+######### START 2 - b #########
+<div>
+      <div class="action-group">
+        <button type="submit" class="btn btn-primary" x-test-f-submit>{{ editing() ? 'Save changes' : 'Create recipe' }}</button>
+        <span class="action-note form-error">{{ error() }}</span>
+      </div>
+      <div class="action-group">
+        <a class="btn btn-ghost" routerLink="/">Cancel</a>
+      </div>
+    </div>
+######### END 2 - b #########
+######### START 3 - c #########
+<div data-actions="form-actions">
+      <div class="action-group">
+        <button type="submit" class="btn btn-primary" x-test-f-submit>{{ editing() ? 'Save changes' : 'Create recipe' }}</button>
+        <span class="action-note form-error">{{ error() }}</span>
+      </div>
+      <div class="action-group">
+        <a class="btn btn-ghost" routerLink="/">Cancel</a>
+      </div>
+    </div>
+######### END 3 - c #########
+######### START 4 - i #########
+<div class="action-group">
+        <button type="submit" class="btn btn-primary" x-test-f-submit>{{ editing() ? 'Save changes' : 'Create recipe' }}</button>
+        <span class="action-note form-error">{{ error() }}</span>
+      </div>
+      <div class="action-group">
+        <a class="btn btn-ghost" routerLink="/">Cancel</a>
+      </div>
+######### END 4 - i #########
+######### START 5 - j #########
+<section class="form-actions">
+      <div class="action-group">
+        <button type="submit" class="btn btn-primary" x-test-f-submit>{{ editing() ? 'Save changes' : 'Create recipe' }}</button>
+        <span class="action-note form-error">{{ error() }}</span>
+      </div>
+      <div class="action-group">
+        <a class="btn btn-ghost" routerLink="/">Cancel</a>
+      </div>
+    </section>
+######### END 5 - j #########
+######### START 6 - k #########
+<div>
+  <div class="form-actions">
+      <div class="action-group">
+        <button type="submit" class="btn btn-primary" x-test-f-submit>{{ editing() ? 'Save changes' : 'Create recipe' }}</button>
+        <span class="action-note form-error">{{ error() }}</span>
+      </div>
+      <div class="action-group">
+        <a class="btn btn-ghost" routerLink="/">Cancel</a>
+      </div>
+    </div>
+</div>
+######### END 6 - k #########

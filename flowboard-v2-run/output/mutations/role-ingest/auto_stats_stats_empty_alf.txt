@@ -1,0 +1,23 @@
+######### START 1 - a #########
+<td colspan="5" class="cell-blank" x-test-stats-empty>No cards on the board</td>
+######### END 1 - a #########
+######### START 1 - b #########
+<td colspan="5" x-test-stats-empty>No cards on the board</td>
+######### END 1 - b #########
+######### START 1 - c #########
+<td colspan="5" data-class="cell-empty" x-test-stats-empty>No cards on the board</td>
+######### END 1 - c #########
+######### START 1 - d #########
+<td colspan="5" class="cell-empty" x-test-stats-empty>Nothing here yet</td>
+######### END 1 - d #########
+######### START 1 - e #########
+<td colspan="5" class="cell-empty" x-test-stats-empty> </td>
+######### END 1 - e #########
+######### START 1 - j #########
+<th colspan="5" class="cell-empty" x-test-stats-empty>No cards on the board</th>
+######### END 1 - j #########
+######### START 1 - k #########
+<div class="td-wrap">
+  <td colspan="5" class="cell-empty" x-test-stats-empty>No cards on the board</td>
+</div>
+######### END 1 - k #########

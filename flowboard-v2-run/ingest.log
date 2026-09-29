@@ -1,0 +1,319 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.sqlite.SQLiteJDBCLoader in an unnamed module (file:/C:/Users/vince/OneDrive/Desktop/Universit%c3%a0/Tirocinio/progetto/Automatic-Angular-E2E-Testing-Suite/mutation-generator/llm-generator/target/llm-generator-1.0.0-jar-with-dependencies-eps.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+LLM generator | ROLE 11x5 mode (INGEST snippets) | 152 targets x 8 operators x 5 roles | model=claude-opus-4-8
+
+============= board-title (x-test-board-title in board.component.html) =============
+
+============= board-demo-badge (x-test-demo-badge in board.component.html) =============
+
+============= board-hint-banner (x-test-hint-banner in board.component.html) =============
+
+============= board-search (x-test-search in board.component.html) =============
+
+============= board-search-label (x-test-search-label in board.component.html) =============
+
+============= board-filter-priority (x-test-filter-priority in board.component.html) =============
+
+============= board-priority-label (x-test-priority-label in board.component.html) =============
+
+============= board-filter-assignee (x-test-filter-assignee in board.component.html) =============
+
+============= board-assignee-label (x-test-assignee-label in board.component.html) =============
+
+============= board-filtered-count (x-test-filtered-count in board.component.html) =============
+
+============= board-matching-label (x-test-matching-label in board.component.html) =============
+
+============= board-add-card (x-test-add-card in board.component.html) =============
+
+============= board-reset (x-test-reset in board.component.html) =============
+
+============= board-columns (x-test-columns in board.component.html) =============
+
+============= board-column-title (x-test-column-title in board.component.html) =============
+
+============= board-column-count (x-test-column-count in board.component.html) =============
+
+============= header-total-badge (x-test-total-badge in header.component.html) =============
+
+============= header-app-title (x-test-app-title in header.component.html) =============
+
+============= header-app-tagline (x-test-app-tagline in header.component.html) =============
+
+============= header-brand-icon (x-test-brand-icon in header.component.html) =============
+
+============= header-nav-board (x-test-nav-board in header.component.html) =============
+
+============= header-nav-stats (x-test-nav-stats in header.component.html) =============
+
+============= header-new-card (x-test-new-card in header.component.html) =============
+
+============= card-root ([attr.x-test-card] in card.component.html) =============
+
+============= card-id ([attr.x-test-card-id] in card.component.html) =============
+
+============= card-title ([attr.x-test-card-title] in card.component.html) =============
+
+============= card-priority ([attr.x-test-card-priority] in card.component.html) =============
+
+============= card-assignee ([attr.x-test-card-assignee] in card.component.html) =============
+
+============= card-tags ([attr.x-test-card-tags] in card.component.html) =============
+
+============= card-move ([attr.x-test-card-move] in card.component.html) =============
+
+============= card-open ([attr.x-test-card-open] in card.component.html) =============
+
+============= card-edit ([attr.x-test-card-edit] in card.component.html) =============
+
+============= card-delete ([attr.x-test-card-delete] in card.component.html) =============
+
+============= column-card-list (x-test-card-list in column.component.html) =============
+
+============= column-empty-message (x-test-empty-message in column.component.html) =============
+
+============= form-root (x-test-form in card-form.component.html) =============
+
+============= form-title (x-test-form-title in card-form.component.html) =============
+
+============= form-title-label (x-test-form-title-label in card-form.component.html) =============
+
+============= form-description (x-test-form-description in card-form.component.html) =============
+
+============= form-priority (x-test-form-priority in card-form.component.html) =============
+
+============= form-assignee (x-test-form-assignee in card-form.component.html) =============
+
+============= form-column (x-test-form-column in card-form.component.html) =============
+
+============= form-tags (x-test-form-tags in card-form.component.html) =============
+
+============= form-submit (x-test-form-submit in card-form.component.html) =============
+
+============= form-cancel (x-test-form-cancel in card-form.component.html) =============
+
+============= form-back (x-test-form-back in card-form.component.html) =============
+
+============= form-actions (x-test-form-actions in card-form.component.html) =============
+
+============= detail-title (x-test-detail-title in card-detail.component.html) =============
+
+============= detail-id (x-test-detail-id in card-detail.component.html) =============
+
+============= detail-priority (x-test-detail-priority in card-detail.component.html) =============
+
+============= detail-description (x-test-detail-description in card-detail.component.html) =============
+
+============= detail-assignee (x-test-detail-assignee in card-detail.component.html) =============
+
+============= detail-column (x-test-detail-column in card-detail.component.html) =============
+
+============= detail-tags (x-test-detail-tags in card-detail.component.html) =============
+
+============= detail-edit (x-test-detail-edit in card-detail.component.html) =============
+
+============= detail-delete (x-test-detail-delete in card-detail.component.html) =============
+
+============= detail-back (x-test-detail-back in card-detail.component.html) =============
+
+============= detail-page-title (x-test-detail-page-title in card-detail.component.html) =============
+
+============= stat-total (x-test-stat-total in stats.component.html) =============
+
+============= stat-backlog (x-test-stat-backlog in stats.component.html) =============
+
+============= stat-inprogress (x-test-stat-inprogress in stats.component.html) =============
+
+============= stat-review (x-test-stat-review in stats.component.html) =============
+
+============= stat-done (x-test-stat-done in stats.component.html) =============
+
+============= stat-high (x-test-stat-high in stats.component.html) =============
+
+============= stat-medium (x-test-stat-medium in stats.component.html) =============
+
+============= stat-low (x-test-stat-low in stats.component.html) =============
+
+============= stats-title (x-test-stats-title in stats.component.html) =============
+
+============= stats-table (x-test-stats-table in stats.component.html) =============
+
+============= stats-th-title (x-test-stats-th-title in stats.component.html) =============
+
+============= stat-row ([attr.x-test-stat-row] in stats.component.html) =============
+
+============= footer-brand (x-test-footer-brand in app.component.html) =============
+
+============= footer-note (x-test-footer-note in app.component.html) =============
+
+============= footer-version (x-test-footer-version in app.component.html) =============
+
+============= app-main (x-test-main in app.component.html) =============
+
+============= toast-message (x-test-toast in toast.component.html) =============
+
+============= toast-label (x-test-toast-label in toast.component.html) =============
+
+============= auto-board-board (x-test-board in board.component.html) =============
+
+============= auto-board-board-intro (x-test-board-intro in board.component.html) =============
+
+============= auto-board-toolbar (x-test-toolbar in board.component.html) =============
+
+============= auto-board-toolbar-search (x-test-toolbar-search in board.component.html) =============
+
+============= auto-board-toolbar-priority (x-test-toolbar-priority in board.component.html) =============
+
+============= auto-board-toolbar-assignee (x-test-toolbar-assignee in board.component.html) =============
+
+============= auto-board-toolbar-info (x-test-toolbar-info in board.component.html) =============
+
+============= auto-board-toolbar-actions (x-test-toolbar-actions in board.component.html) =============
+
+============= auto-board-column (x-test-column in board.component.html) =============
+
+============= auto-header-header (x-test-header in header.component.html) =============
+
+============= auto-header-brand (x-test-brand in header.component.html) =============
+
+============= auto-header-header-stats (x-test-header-stats in header.component.html) =============
+
+============= auto-header-total-label (x-test-total-label in header.component.html) =============
+
+============= auto-header-nav (x-test-nav in header.component.html) =============
+
+============= auto-card-form-card-form (x-test-card-form in card-form.component.html) =============
+
+============= auto-card-form-form-heading (x-test-form-heading in card-form.component.html) =============
+
+============= auto-card-form-form-title-edit (x-test-form-title-edit in card-form.component.html) =============
+
+============= auto-card-form-form-title-new (x-test-form-title-new in card-form.component.html) =============
+
+============= auto-card-form-form-field-title (x-test-form-field-title in card-form.component.html) =============
+
+============= auto-card-form-form-field-description (x-test-form-field-description in card-form.component.html) =============
+
+============= auto-card-form-form-description-label (x-test-form-description-label in card-form.component.html) =============
+
+============= auto-card-form-form-field-priority (x-test-form-field-priority in card-form.component.html) =============
+
+============= auto-card-form-form-priority-label (x-test-form-priority-label in card-form.component.html) =============
+
+============= auto-card-form-form-field-assignee (x-test-form-field-assignee in card-form.component.html) =============
+
+============= auto-card-form-form-assignee-label (x-test-form-assignee-label in card-form.component.html) =============
+
+============= auto-card-form-form-field-column (x-test-form-field-column in card-form.component.html) =============
+
+============= auto-card-form-form-column-label (x-test-form-column-label in card-form.component.html) =============
+
+============= auto-card-form-form-field-tags (x-test-form-field-tags in card-form.component.html) =============
+
+============= auto-card-form-form-tags-label (x-test-form-tags-label in card-form.component.html) =============
+
+============= auto-card-detail-card-detail (x-test-card-detail in card-detail.component.html) =============
+
+============= auto-card-detail-detail-heading (x-test-detail-heading in card-detail.component.html) =============
+
+============= auto-card-detail-detail-card (x-test-detail-card in card-detail.component.html) =============
+
+============= auto-card-detail-detail-description-row (x-test-detail-description-row in card-detail.component.html) =============
+
+============= auto-card-detail-detail-description-label (x-test-detail-description-label in card-detail.component.html) =============
+
+============= auto-card-detail-detail-assignee-row (x-test-detail-assignee-row in card-detail.component.html) =============
+
+============= auto-card-detail-detail-assignee-label (x-test-detail-assignee-label in card-detail.component.html) =============
+
+============= auto-card-detail-detail-column-row (x-test-detail-column-row in card-detail.component.html) =============
+
+============= auto-card-detail-detail-column-label (x-test-detail-column-label in card-detail.component.html) =============
+
+============= auto-card-detail-detail-tags-row (x-test-detail-tags-row in card-detail.component.html) =============
+
+============= auto-card-detail-detail-tags-label (x-test-detail-tags-label in card-detail.component.html) =============
+
+============= auto-card-detail-detail-no-tags (x-test-detail-no-tags in card-detail.component.html) =============
+
+============= auto-card-detail-detail-actions (x-test-detail-actions in card-detail.component.html) =============
+
+============= auto-card-detail-detail-not-found (x-test-detail-not-found in card-detail.component.html) =============
+
+============= auto-card-detail-detail-not-found-message (x-test-detail-not-found-message in card-detail.component.html) =============
+
+============= auto-card-detail-detail-not-found-back (x-test-detail-not-found-back in card-detail.component.html) =============
+
+============= auto-stats-stats (x-test-stats in stats.component.html) =============
+
+============= auto-stats-stats-heading (x-test-stats-heading in stats.component.html) =============
+
+============= auto-stats-stats-back (x-test-stats-back in stats.component.html) =============
+
+============= auto-stats-stats-cards (x-test-stats-cards in stats.component.html) =============
+
+============= auto-stats-stat-total-card (x-test-stat-total-card in stats.component.html) =============
+
+============= auto-stats-stat-total-label (x-test-stat-total-label in stats.component.html) =============
+
+============= auto-stats-stat-backlog-card (x-test-stat-backlog-card in stats.component.html) =============
+
+============= auto-stats-stat-backlog-label (x-test-stat-backlog-label in stats.component.html) =============
+
+============= auto-stats-stat-inprogress-card (x-test-stat-inprogress-card in stats.component.html) =============
+
+============= auto-stats-stat-inprogress-label (x-test-stat-inprogress-label in stats.component.html) =============
+
+============= auto-stats-stat-review-card (x-test-stat-review-card in stats.component.html) =============
+
+============= auto-stats-stat-review-label (x-test-stat-review-label in stats.component.html) =============
+
+============= auto-stats-stat-done-card (x-test-stat-done-card in stats.component.html) =============
+
+============= auto-stats-stat-done-label (x-test-stat-done-label in stats.component.html) =============
+
+============= auto-stats-stat-high-card (x-test-stat-high-card in stats.component.html) =============
+
+============= auto-stats-stat-high-label (x-test-stat-high-label in stats.component.html) =============
+
+============= auto-stats-stat-medium-card (x-test-stat-medium-card in stats.component.html) =============
+
+============= auto-stats-stat-medium-label (x-test-stat-medium-label in stats.component.html) =============
+
+============= auto-stats-stat-low-card (x-test-stat-low-card in stats.component.html) =============
+
+============= auto-stats-stat-low-label (x-test-stat-low-label in stats.component.html) =============
+
+============= auto-stats-stats-table-section (x-test-stats-table-section in stats.component.html) =============
+
+============= auto-stats-stats-table-title (x-test-stats-table-title in stats.component.html) =============
+
+============= auto-stats-stats-th-id (x-test-stats-th-id in stats.component.html) =============
+
+============= auto-stats-stats-th-priority (x-test-stats-th-priority in stats.component.html) =============
+
+============= auto-stats-stats-th-assignee (x-test-stats-th-assignee in stats.component.html) =============
+
+============= auto-stats-stats-th-column (x-test-stats-th-column in stats.component.html) =============
+
+============= auto-stats-stats-empty (x-test-stats-empty in stats.component.html) =============
+
+============= auto-app-app (x-test-app in app.component.html) =============
+
+============= auto-app-footer (x-test-footer in app.component.html) =============
+
+============= auto-toast-toast-bar (x-test-toast-bar in toast.component.html) =============
+
+============= auto-toast-toast-icon (x-test-toast-icon in toast.component.html) =============
+
+==============================================
+DONE (role 11x5). Saved: 1081 | Rejected: 2344 | NA: 2655 | Applicable: 3425
+Matrix: output/mutations/role-mutations-matrix.csv
+Per-test report: output/mutations/role-per-test-report.csv
+Checkpoint: NOT running the mutation-tester. Stop for review.

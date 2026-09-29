@@ -1,6 +1,6 @@
 {
   "seed": "1234",
-  "repositoryRootPath": "C:/Users/vince/OneDrive/Desktop/App tirocinio/cinelib",
+  "repositoryRootPath": "C:/Users/vince/OneDrive/Desktop/Università/App tirocinio/cinelib",
   "npmRunCommand": "npm start -- --port 4300",
   "mutations": []
 }

@@ -1,0 +1,36 @@
+######### START 1 - a #########
+<div class="empty-box-alt">
+        <p class="empty-text" x-test-empty>No recipes match your filters.</p>
+        <p class="empty-hint">Try another search or course</p>
+      </div>
+######### END 1 - a #########
+######### START 2 - b #########
+<div>
+        <p class="empty-text" x-test-empty>No recipes match your filters.</p>
+        <p class="empty-hint">Try another search or course</p>
+      </div>
+######### END 2 - b #########
+######### START 3 - c #########
+<div data-box="empty-box">
+        <p class="empty-text" x-test-empty>No recipes match your filters.</p>
+        <p class="empty-hint">Try another search or course</p>
+      </div>
+######### END 3 - c #########
+######### START 4 - i #########
+<p class="empty-text" x-test-empty>No recipes match your filters.</p>
+        <p class="empty-hint">Try another search or course</p>
+######### END 4 - i #########
+######### START 5 - j #########
+<section class="empty-box">
+        <p class="empty-text" x-test-empty>No recipes match your filters.</p>
+        <p class="empty-hint">Try another search or course</p>
+      </section>
+######### END 5 - j #########
+######### START 6 - k #########
+<div>
+  <div class="empty-box">
+        <p class="empty-text" x-test-empty>No recipes match your filters.</p>
+        <p class="empty-hint">Try another search or course</p>
+      </div>
+</div>
+######### END 6 - k #########

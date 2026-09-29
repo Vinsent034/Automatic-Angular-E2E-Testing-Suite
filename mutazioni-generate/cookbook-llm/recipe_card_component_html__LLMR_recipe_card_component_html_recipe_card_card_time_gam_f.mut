@@ -1,0 +1,35 @@
+#mutation-id: LLMR_recipe_card_component_html_recipe_card_card_time_gam_f
+#element: recipe_card_component_html
+#name: f
+#type: LLM_ROLE
+#status: HELD
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\cookbook\src\app\recipe-card\recipe-card.component.html #########
+<article class="recipe-card" [attr.data-course]="recipe().course" [class.is-favorite]="recipe().favorite" [attr.aria-label]="'Recipe ' + recipe().title">
+  <div class="card-frame">
+    <div class="card-inner" [attr.data-recipe-id]="recipe().id" [attr.x-test-card]="recipe().id">
+      <div class="card-body">
+        <p class="card-facts">
+          <span class="card-time" [attr.x-test-card-time]="recipe().id">{{ recipe().prepMinutes + recipe().cookMinutes }} min</span>
+          <span class="card-dot">·</span>
+          <span class="card-difficulty">{{ recipe().difficulty }}</span>
+        </p>
+        <ul class="card-tags">
+          @for (tag of recipe().tags; track tag) {
+            <li class="tag">{{ tag }}</li>
+          }
+        </ul>
+      </div><header class="card-head">
+        <div class="card-title-row">
+          <a class="card-link" [routerLink]="['/recipe', recipe().id]">
+            <h2 class="card-title" [attr.x-test-card-title]="recipe().id">{{ recipe().title }}</h2>
+            <span class="card-course">{{ recipe().course }}</span>
+          </a>
+          <button type="button" class="fav-toggle" [attr.aria-pressed]="recipe().favorite" [attr.aria-label]="'Favorite ' + recipe().title" (click)="store.toggleFavorite(recipe().id)" [attr.x-test-card-fav]="recipe().id">♥</button>
+        </div>
+      </header>
+      
+    </div>
+    <div class="card-ribbon">{{ recipe().vegetarian ? 'vegetarian' : 'meat or fish' }}</div>
+  </div>
+</article>
+######### END FILE #########

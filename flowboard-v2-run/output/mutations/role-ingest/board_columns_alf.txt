@@ -1,0 +1,177 @@
+######### START 1 - a #########
+<div class="board-columns-grid" role="list" aria-label="Board columns" x-test-columns>
+    <section class="column" data-column="backlog" role="listitem" aria-label="Backlog column" x-test-column="backlog">
+      <header class="column-header">
+        <h3 class="column-title" x-test-column-title="backlog">Backlog</h3>
+        <span class="badge column-count" data-column="backlog" x-test-column-count="backlog">{{ store.backlogCount() }}</span>
+      </header>
+      <app-column colId="backlog" />
+    </section>
+
+    <section class="column" data-column="inprogress" role="listitem" aria-label="In Progress column" x-test-column="inprogress">
+      <header class="column-header">
+        <h3 class="column-title" x-test-column-title="inprogress">In Progress</h3>
+        <span class="badge column-count" data-column="inprogress" x-test-column-count="inprogress">{{ store.inProgressCount() }}</span>
+      </header>
+      <app-column colId="inprogress" />
+    </section>
+
+    <section class="column" data-column="review" role="listitem" aria-label="Review column" x-test-column="review">
+      <header class="column-header">
+        <h3 class="column-title" x-test-column-title="review">Review</h3>
+        <span class="badge column-count" data-column="review" x-test-column-count="review">{{ store.reviewCount() }}</span>
+      </header>
+      <app-column colId="review" />
+    </section>
+
+    <section class="column" data-column="done" role="listitem" aria-label="Done column" x-test-column="done">
+      <header class="column-header">
+        <h3 class="column-title" x-test-column-title="done">Done</h3>
+        <span class="badge column-count" data-column="done" x-test-column-count="done">{{ store.doneCount() }}</span>
+      </header>
+      <app-column colId="done" />
+    </section>
+  </div>
+######### END 1 - a #########
+######### START 1 - b #########
+<div role="list" aria-label="Board columns" x-test-columns>
+    <section class="column" data-column="backlog" role="listitem" aria-label="Backlog column" x-test-column="backlog">
+      <header class="column-header">
+        <h3 class="column-title" x-test-column-title="backlog">Backlog</h3>
+        <span class="badge column-count" data-column="backlog" x-test-column-count="backlog">{{ store.backlogCount() }}</span>
+      </header>
+      <app-column colId="backlog" />
+    </section>
+
+    <section class="column" data-column="inprogress" role="listitem" aria-label="In Progress column" x-test-column="inprogress">
+      <header class="column-header">
+        <h3 class="column-title" x-test-column-title="inprogress">In Progress</h3>
+        <span class="badge column-count" data-column="inprogress" x-test-column-count="inprogress">{{ store.inProgressCount() }}</span>
+      </header>
+      <app-column colId="inprogress" />
+    </section>
+
+    <section class="column" data-column="review" role="listitem" aria-label="Review column" x-test-column="review">
+      <header class="column-header">
+        <h3 class="column-title" x-test-column-title="review">Review</h3>
+        <span class="badge column-count" data-column="review" x-test-column-count="review">{{ store.reviewCount() }}</span>
+      </header>
+      <app-column colId="review" />
+    </section>
+
+    <section class="column" data-column="done" role="listitem" aria-label="Done column" x-test-column="done">
+      <header class="column-header">
+        <h3 class="column-title" x-test-column-title="done">Done</h3>
+        <span class="badge column-count" data-column="done" x-test-column-count="done">{{ store.doneCount() }}</span>
+      </header>
+      <app-column colId="done" />
+    </section>
+  </div>
+######### END 1 - b #########
+######### START 1 - c #########
+<div data-class="board-grid" role="list" aria-label="Board columns" x-test-columns>
+    <section class="column" data-column="backlog" role="listitem" aria-label="Backlog column" x-test-column="backlog">
+      <header class="column-header">
+        <h3 class="column-title" x-test-column-title="backlog">Backlog</h3>
+        <span class="badge column-count" data-column="backlog" x-test-column-count="backlog">{{ store.backlogCount() }}</span>
+      </header>
+      <app-column colId="backlog" />
+    </section>
+
+    <section class="column" data-column="inprogress" role="listitem" aria-label="In Progress column" x-test-column="inprogress">
+      <header class="column-header">
+        <h3 class="column-title" x-test-column-title="inprogress">In Progress</h3>
+        <span class="badge column-count" data-column="inprogress" x-test-column-count="inprogress">{{ store.inProgressCount() }}</span>
+      </header>
+      <app-column colId="inprogress" />
+    </section>
+
+    <section class="column" data-column="review" role="listitem" aria-label="Review column" x-test-column="review">
+      <header class="column-header">
+        <h3 class="column-title" x-test-column-title="review">Review</h3>
+        <span class="badge column-count" data-column="review" x-test-column-count="review">{{ store.reviewCount() }}</span>
+      </header>
+      <app-column colId="review" />
+    </section>
+
+    <section class="column" data-column="done" role="listitem" aria-label="Done column" x-test-column="done">
+      <header class="column-header">
+        <h3 class="column-title" x-test-column-title="done">Done</h3>
+        <span class="badge column-count" data-column="done" x-test-column-count="done">{{ store.doneCount() }}</span>
+      </header>
+      <app-column colId="done" />
+    </section>
+  </div>
+######### END 1 - c #########
+######### START 1 - j #########
+<section class="board-grid" role="list" aria-label="Board columns" x-test-columns>
+    <section class="column" data-column="backlog" role="listitem" aria-label="Backlog column" x-test-column="backlog">
+      <header class="column-header">
+        <h3 class="column-title" x-test-column-title="backlog">Backlog</h3>
+        <span class="badge column-count" data-column="backlog" x-test-column-count="backlog">{{ store.backlogCount() }}</span>
+      </header>
+      <app-column colId="backlog" />
+    </section>
+
+    <section class="column" data-column="inprogress" role="listitem" aria-label="In Progress column" x-test-column="inprogress">
+      <header class="column-header">
+        <h3 class="column-title" x-test-column-title="inprogress">In Progress</h3>
+        <span class="badge column-count" data-column="inprogress" x-test-column-count="inprogress">{{ store.inProgressCount() }}</span>
+      </header>
+      <app-column colId="inprogress" />
+    </section>
+
+    <section class="column" data-column="review" role="listitem" aria-label="Review column" x-test-column="review">
+      <header class="column-header">
+        <h3 class="column-title" x-test-column-title="review">Review</h3>
+        <span class="badge column-count" data-column="review" x-test-column-count="review">{{ store.reviewCount() }}</span>
+      </header>
+      <app-column colId="review" />
+    </section>
+
+    <section class="column" data-column="done" role="listitem" aria-label="Done column" x-test-column="done">
+      <header class="column-header">
+        <h3 class="column-title" x-test-column-title="done">Done</h3>
+        <span class="badge column-count" data-column="done" x-test-column-count="done">{{ store.doneCount() }}</span>
+      </header>
+      <app-column colId="done" />
+    </section>
+  </section>
+######### END 1 - j #########
+######### START 1 - k #########
+<div class="board-grid-wrap">
+  <div class="board-grid" role="list" aria-label="Board columns" x-test-columns>
+    <section class="column" data-column="backlog" role="listitem" aria-label="Backlog column" x-test-column="backlog">
+      <header class="column-header">
+        <h3 class="column-title" x-test-column-title="backlog">Backlog</h3>
+        <span class="badge column-count" data-column="backlog" x-test-column-count="backlog">{{ store.backlogCount() }}</span>
+      </header>
+      <app-column colId="backlog" />
+    </section>
+
+    <section class="column" data-column="inprogress" role="listitem" aria-label="In Progress column" x-test-column="inprogress">
+      <header class="column-header">
+        <h3 class="column-title" x-test-column-title="inprogress">In Progress</h3>
+        <span class="badge column-count" data-column="inprogress" x-test-column-count="inprogress">{{ store.inProgressCount() }}</span>
+      </header>
+      <app-column colId="inprogress" />
+    </section>
+
+    <section class="column" data-column="review" role="listitem" aria-label="Review column" x-test-column="review">
+      <header class="column-header">
+        <h3 class="column-title" x-test-column-title="review">Review</h3>
+        <span class="badge column-count" data-column="review" x-test-column-count="review">{{ store.reviewCount() }}</span>
+      </header>
+      <app-column colId="review" />
+    </section>
+
+    <section class="column" data-column="done" role="listitem" aria-label="Done column" x-test-column="done">
+      <header class="column-header">
+        <h3 class="column-title" x-test-column-title="done">Done</h3>
+        <span class="badge column-count" data-column="done" x-test-column-count="done">{{ store.doneCount() }}</span>
+      </header>
+      <app-column colId="done" />
+    </section>
+  </div>
+</div>
+######### END 1 - k #########

@@ -3,7 +3,7 @@
 #name: c
 #type: LLM_ROLE
 #status: HELD
-######### FILE C:\Users\vince\OneDrive\Desktop\App tirocinio\Kanban board\src\app\board\board.component.html #########
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\Kanban board\src\app\board\board.component.html #########
 <section class="board-page" x-test-board>
   <div class="board-intro" x-test-board-intro>
     <h2 class="page-title" x-test-board-title>Project board</h2>
@@ -12,7 +12,10 @@
   </div>
 
   <div class="toolbar" role="toolbar" aria-label="Board toolbar" x-test-toolbar>
-    <div class="toolbar-group toolbar-search" data-role="search" x-test-toolbar-search><label class="field-label" for="search-input" x-test-search-label>Search</label><input id="search-input" class="input search-input" type="text" placeholder="Filter by title…" [value]="store.searchText()" (input)="onSearch($event)" x-test-search></div>
+    <div class="toolbar-group toolbar-search" data-role="search" x-test-toolbar-search>
+      <label class="field-label" for="search-input" x-test-search-label>Search</label>
+      <input id="search-input" class="input search-input" type="text" placeholder="Filter by title…" [value]="store.searchText()" (input)="onSearch($event)" x-test-search>
+    </div>
 
     <div class="toolbar-group toolbar-priority" x-test-toolbar-priority>
       <label class="field-label" for="priority-filter" x-test-priority-label>Priority</label>

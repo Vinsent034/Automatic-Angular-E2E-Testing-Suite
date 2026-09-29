@@ -1,0 +1,23 @@
+######### START 1 - a #########
+<span class="badge column-count-lg" data-column="backlog" x-test-column-count="backlog">{{ store.backlogCount() }}</span>
+######### END 1 - a #########
+######### START 1 - b #########
+<span data-column="backlog" x-test-column-count="backlog">{{ store.backlogCount() }}</span>
+######### END 1 - b #########
+######### START 1 - c #########
+<span data-class="badge column-count" data-column="backlog" x-test-column-count="backlog">{{ store.backlogCount() }}</span>
+######### END 1 - c #########
+######### START 1 - d #########
+<span class="badge column-count" data-column="backlog" x-test-column-count="backlog">0</span>
+######### END 1 - d #########
+######### START 1 - e #########
+<span class="badge column-count" data-column="backlog" x-test-column-count="backlog"> </span>
+######### END 1 - e #########
+######### START 1 - j #########
+<div class="badge column-count" data-column="backlog" x-test-column-count="backlog">{{ store.backlogCount() }}</div>
+######### END 1 - j #########
+######### START 1 - k #########
+<span class="column-count-wrap">
+  <span class="badge column-count" data-column="backlog" x-test-column-count="backlog">{{ store.backlogCount() }}</span>
+</span>
+######### END 1 - k #########

@@ -1,0 +1,23 @@
+######### START 1 - a #########
+<h2 class="page-title-lg" x-test-board-title>Project board</h2>
+######### END 1 - a #########
+######### START 1 - b #########
+<h2 x-test-board-title>Project board</h2>
+######### END 1 - b #########
+######### START 1 - c #########
+<h2 data-class="page-title" x-test-board-title>Project board</h2>
+######### END 1 - c #########
+######### START 1 - d #########
+<h2 class="page-title" x-test-board-title>Team board</h2>
+######### END 1 - d #########
+######### START 1 - e #########
+<h2 class="page-title" x-test-board-title> </h2>
+######### END 1 - e #########
+######### START 1 - j #########
+<h3 class="page-title" x-test-board-title>Project board</h3>
+######### END 1 - j #########
+######### START 1 - k #########
+<div class="page-title-wrap">
+  <h2 class="page-title" x-test-board-title>Project board</h2>
+</div>
+######### END 1 - k #########

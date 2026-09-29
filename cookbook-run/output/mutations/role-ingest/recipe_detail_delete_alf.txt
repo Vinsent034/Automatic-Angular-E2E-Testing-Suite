@@ -1,0 +1,23 @@
+######### START 1 - a #########
+<button type="button" class="btn btn-warning" (click)="deleteAndGoBack(recipe.id)" x-test-delete>Delete recipe</button>
+######### END 1 - a #########
+######### START 2 - b #########
+<button class="btn btn-danger" (click)="deleteAndGoBack(recipe.id)" x-test-delete>Delete recipe</button>
+######### END 2 - b #########
+######### START 3 - c #########
+<button type="button" data-btn="btn btn-danger" (click)="deleteAndGoBack(recipe.id)" x-test-delete>Delete recipe</button>
+######### END 3 - c #########
+######### START 4 - d #########
+<button type="button" class="btn btn-danger" (click)="deleteAndGoBack(recipe.id)" x-test-delete>Remove recipe</button>
+######### END 4 - d #########
+######### START 5 - e #########
+<button type="button" class="btn btn-danger" (click)="deleteAndGoBack(recipe.id)" x-test-delete> </button>
+######### END 5 - e #########
+######### START 6 - j #########
+<div type="button" class="btn btn-danger" (click)="deleteAndGoBack(recipe.id)" x-test-delete>Delete recipe</div>
+######### END 6 - j #########
+######### START 7 - k #########
+<div>
+  <button type="button" class="btn btn-danger" (click)="deleteAndGoBack(recipe.id)" x-test-delete>Delete recipe</button>
+</div>
+######### END 7 - k #########

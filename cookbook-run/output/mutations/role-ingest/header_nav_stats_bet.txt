@@ -1,0 +1,36 @@
+######### START 1 - a #########
+<li class="nav-item-alt">
+          <a class="nav-link" routerLink="/stats" routerLinkActive="active" x-test-nav-stats>Stats</a>
+          <span class="nav-hint">numbers</span>
+        </li>
+######### END 1 - a #########
+######### START 2 - b #########
+<li>
+          <a class="nav-link" routerLink="/stats" routerLinkActive="active" x-test-nav-stats>Stats</a>
+          <span class="nav-hint">numbers</span>
+        </li>
+######### END 2 - b #########
+######### START 3 - c #########
+<li data-item="nav-item">
+          <a class="nav-link" routerLink="/stats" routerLinkActive="active" x-test-nav-stats>Stats</a>
+          <span class="nav-hint">numbers</span>
+        </li>
+######### END 3 - c #########
+######### START 4 - i #########
+<a class="nav-link" routerLink="/stats" routerLinkActive="active" x-test-nav-stats>Stats</a>
+          <span class="nav-hint">numbers</span>
+######### END 4 - i #########
+######### START 5 - j #########
+<div class="nav-item">
+          <a class="nav-link" routerLink="/stats" routerLinkActive="active" x-test-nav-stats>Stats</a>
+          <span class="nav-hint">numbers</span>
+        </div>
+######### END 5 - j #########
+######### START 6 - k #########
+<ul>
+  <li class="nav-item">
+          <a class="nav-link" routerLink="/stats" routerLinkActive="active" x-test-nav-stats>Stats</a>
+          <span class="nav-hint">numbers</span>
+        </li>
+</ul>
+######### END 6 - k #########

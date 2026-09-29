@@ -1,0 +1,57 @@
+######### START 1 - a #########
+<footer class="site-footer" role="contentinfo" x-test-footer>
+    <div class="footer-inner">
+      <span class="footer-brand" x-test-footer-brand>FlowBoard</span>
+      <span class="footer-sep">·</span>
+      <span class="footer-note" x-test-footer-note>Deterministic demo board — data resets from a fixed seed</span>
+      <span class="footer-sep">·</span>
+      <span class="footer-version" x-test-footer-version>v1.0</span>
+    </div>
+  </footer>
+######### END 1 - a #########
+######### START 1 - b #########
+<footer class="app-footer" x-test-footer>
+    <div class="footer-inner">
+      <span class="footer-brand" x-test-footer-brand>FlowBoard</span>
+      <span class="footer-sep">·</span>
+      <span class="footer-note" x-test-footer-note>Deterministic demo board — data resets from a fixed seed</span>
+      <span class="footer-sep">·</span>
+      <span class="footer-version" x-test-footer-version>v1.0</span>
+    </div>
+  </footer>
+######### END 1 - b #########
+######### START 1 - c #########
+<footer class="app-footer" data-role="contentinfo" x-test-footer>
+    <div class="footer-inner">
+      <span class="footer-brand" x-test-footer-brand>FlowBoard</span>
+      <span class="footer-sep">·</span>
+      <span class="footer-note" x-test-footer-note>Deterministic demo board — data resets from a fixed seed</span>
+      <span class="footer-sep">·</span>
+      <span class="footer-version" x-test-footer-version>v1.0</span>
+    </div>
+  </footer>
+######### END 1 - c #########
+######### START 1 - j #########
+<div class="app-footer" role="contentinfo" x-test-footer>
+    <div class="footer-inner">
+      <span class="footer-brand" x-test-footer-brand>FlowBoard</span>
+      <span class="footer-sep">·</span>
+      <span class="footer-note" x-test-footer-note>Deterministic demo board — data resets from a fixed seed</span>
+      <span class="footer-sep">·</span>
+      <span class="footer-version" x-test-footer-version>v1.0</span>
+    </div>
+  </div>
+######### END 1 - j #########
+######### START 1 - k #########
+<div class="app-footer-wrapper">
+  <footer class="app-footer" role="contentinfo" x-test-footer>
+    <div class="footer-inner">
+      <span class="footer-brand" x-test-footer-brand>FlowBoard</span>
+      <span class="footer-sep">·</span>
+      <span class="footer-note" x-test-footer-note>Deterministic demo board — data resets from a fixed seed</span>
+      <span class="footer-sep">·</span>
+      <span class="footer-version" x-test-footer-version>v1.0</span>
+    </div>
+  </footer>
+</div>
+######### END 1 - k #########

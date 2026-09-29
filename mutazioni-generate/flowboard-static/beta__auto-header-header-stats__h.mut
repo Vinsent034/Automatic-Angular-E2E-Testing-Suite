@@ -1,0 +1,34 @@
+#mutation-id: h
+#element: beta
+#name: auto-header-header-stats
+#type: tag_mov_temp_mut
+#status: COMPLETE
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\Kanban board\src\app\header\header.component.html #########
+<header class="app-header" role="banner" x-test-header>
+  
+</header>
+######### END FILE #########
+######### FILE C:\Users\vince\OneDrive\Desktop\Università\App tirocinio\Kanban board\src\app\column\column.component.html #########
+<div class="header-inner">
+ <div class="brand" x-test-brand>
+  <span class="brand-icon" aria-hidden="true" x-test-brand-icon>▤</span>
+  <h1 class="brand-name" x-test-app-title>FlowBoard</h1>
+  <span class="brand-tagline" x-test-app-tagline>Kanban demo board</span>
+ </div>
+ <div class="header-stats" x-test-header-stats>
+  <span class="total-label" x-test-total-label>Total cards</span> <span class="badge badge-total" data-kind="total" x-test-total-badge>{{ store.totalCards() }}</span>
+ </div>
+ <nav class="main-nav" role="navigation" aria-label="Main navigation" x-test-nav>
+  <a class="nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" x-test-nav-board>Board</a> <a class="nav-link" routerLink="/stats" routerLinkActive="active" x-test-nav-stats>Stats</a> <a class="btn btn-primary nav-new-card" routerLink="/card/new" role="button" x-test-new-card>New card</a>
+ </nav>
+</div>
+<ul class="card-list" [attr.data-column]="colId()" x-test-card-list>
+ @for (card of store.cardsByColumn()(colId()); track card.id) {
+ <li class="card-slot"><app-card [card]="card"> </app-card></li>
+ } @empty {
+ <li class="empty-slot">
+  <p class="empty-message" x-test-empty-message>No cards here</p>
+ </li>
+ }
+</ul>
+######### END FILE #########

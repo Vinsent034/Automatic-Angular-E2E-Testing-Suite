@@ -1,0 +1,98 @@
+{
+ "S1_Search": {
+  "Relative": "//input[@id='search-input']",
+  "Katalon": "id=search-input",
+  "Selenium": "id=search-input"
+ },
+ "S1_Card": {
+  "Relative": "//article[@aria-label='Card Design login']",
+  "Katalon": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='In Progress'])[1]/following::article[1]",
+  "Selenium": "css=.card"
+ },
+ "S1_CardTitle": {
+  "Relative": "//h4[normalize-space()='Design login']",
+  "Katalon": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='high'])[1]/following::h4[1]",
+  "Selenium": "css=.card-title"
+ },
+ "S2_ColumnCount": {
+  "Relative": "//span[normalize-space()='4']",
+  "Katalon": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Backlog'])[1]/following::span[1]",
+  "Selenium": "css=.column:nth-child(1) > .column-header > .badge"
+ },
+ "S2_CardMove": {
+  "Relative": "//article[@aria-label='Card Setup repository']//select[@class='input select move-select']",
+  "Katalon": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Move'])[1]/following::select[1]",
+  "Selenium": "css=.column:nth-child(1) .card-slot:nth-child(1) .input"
+ },
+ "S2_ColumnInprogress": {
+  "Relative": "//section[@aria-label='In Progress column']",
+  "Katalon": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[4]/following::section[1]",
+  "Selenium": "css=.column:nth-child(2)"
+ },
+ "S3_FormTitle": {
+  "Relative": "//input[@id='field-title']",
+  "Katalon": "id=field-title",
+  "Selenium": "id=field-title"
+ },
+ "S3_FormPriority": {
+  "Relative": "//select[@id='field-priority']",
+  "Katalon": "id=field-priority",
+  "Selenium": "id=field-priority"
+ },
+ "S3_FormSubmit": {
+  "Relative": "//button[normalize-space()='Save card']",
+  "Katalon": "xpath=//button[@type='submit']",
+  "Selenium": "css=.submit-btn"
+ },
+ "S4_DetailTitle": {
+  "Relative": "//h3[normalize-space()='Design login']",
+  "Katalon": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='#3'])[1]/following::h3[1]",
+  "Selenium": "css=.detail-title"
+ },
+ "S4_DetailAssignee": {
+  "Relative": "//span[@class='detail-assignee']",
+  "Katalon": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Assignee'])[1]/following::span[1]",
+  "Selenium": "css=.detail-assignee"
+ },
+ "S4_DetailDelete": {
+  "Relative": "//button[normalize-space()='Delete card']",
+  "Katalon": "xpath=//button[@type='button']",
+  "Selenium": "css=.btn-danger"
+ },
+ "S5_StatTotal": {
+  "Relative": "//span[@class='stat-value'][normalize-space()='10']",
+  "Katalon": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Total cards'])[2]/following::span[1]",
+  "Selenium": "css=.stat-card:nth-child(1) > .stat-value"
+ },
+ "S5_StatBacklog": {
+  "Relative": "//div[@data-stat='backlog']//span[@class='stat-value'][normalize-space()='4']",
+  "Katalon": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Backlog'])[1]/following::span[1]",
+  "Selenium": "css=.stat-card:nth-child(2) > .stat-value"
+ },
+ "S5_StatRow3": {
+  "Relative": "css=.stats-row[data-card-id='3']",
+  "Katalon": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='backlog'])[2]/following::td[1]/ancestor::tr[1]",
+  "Selenium": "css=.stats-row:nth-child(3)"
+ },
+ "_note": {
+  "S5_StatRow3.Relative": "SelectorsHub proponeva //tbody/tr[2] (sbagliata: e' la terza riga, tr[3] nella Abs XPath): stesso difetto gia' visto a luglio sulle <tr>. Usato il Rel cssSelector dello stesso strumento, come nella cattura di luglio.",
+  "S5_StatRow3.Katalon": "Katalon registra la CELLA (following::td[1]); come a luglio si sale alla riga con ancestor::tr[1], mantenendo l ancora prodotta dal registratore.",
+  "S5_StatRow3.Selenium": "Selenium IDE registra la CELLA (css=.stats-row:nth-child(3) > .cell-id); tolta la parte finale per avere la RIGA, come per Katalon.",
+  "S6_TotalBadge.Selenium": "css=.badge corrisponde a 17 elementi sulla bacheca; il primo, quello usato da Selenium findElement, e' il badge del totale. Registrato come prodotto dallo strumento."
+ },
+ "S6_NavStats": {
+  "Relative": "//a[normalize-space()='Stats']",
+  "Katalon": "link=Stats",
+  "Selenium": "linkText=Stats"
+ },
+ "S6_TotalBadge": {
+  "Relative": "//span[@class='badge badge-total']",
+  "Katalon": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Total cards'])[1]/following::span[1]",
+  "Selenium": "css=.badge"
+ },
+ "S6_FooterVersion": {
+  "Relative": "//span[@class='footer-version']",
+  "Katalon": "xpath=(.//*[normalize-space(text()) and normalize-space(.)='·'])[2]/following::span[1]",
+  "Selenium": "css=.footer-version"
+ }
+}

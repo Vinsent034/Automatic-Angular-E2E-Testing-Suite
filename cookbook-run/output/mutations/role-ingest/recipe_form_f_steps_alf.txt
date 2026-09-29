@@ -1,0 +1,17 @@
+######### START 1 - a #########
+<textarea id="f-steps" name="steps" rows="5" class="input input-area" [(ngModel)]="stepsText" x-test-f-steps></textarea>
+######### END 1 - a #########
+######### START 2 - b #########
+<textarea id="f-steps" name="steps" class="input" [(ngModel)]="stepsText" x-test-f-steps></textarea>
+######### END 2 - b #########
+######### START 3 - c #########
+<textarea id="f-steps" name="steps" rows="5" data-input="input" [(ngModel)]="stepsText" x-test-f-steps></textarea>
+######### END 3 - c #########
+######### START 4 - j #########
+<input id="f-steps" name="steps" rows="5" class="input" [(ngModel)]="stepsText" x-test-f-steps>
+######### END 4 - j #########
+######### START 5 - k #########
+<div>
+  <textarea id="f-steps" name="steps" rows="5" class="input" [(ngModel)]="stepsText" x-test-f-steps></textarea>
+</div>
+######### END 5 - k #########

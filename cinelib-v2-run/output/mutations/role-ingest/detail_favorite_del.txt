@@ -1,0 +1,23 @@
+######### START 1 - a #########
+<a [routerLink]="['/movie', m.id, 'edit']" class="btn btn-secondary" x-test-edit-button>Edit</a>
+######### END 1 - a #########
+######### START 1 - b #########
+<a [routerLink]="['/movie', m.id, 'edit']" x-test-edit-button>Edit</a>
+######### END 1 - b #########
+######### START 1 - c #########
+<a [routerLink]="['/movie', m.id, 'edit']" data-btn="btn" x-test-edit-button>Edit</a>
+######### END 1 - c #########
+######### START 1 - d #########
+<a [routerLink]="['/movie', m.id, 'edit']" class="btn" x-test-edit-button>Modify</a>
+######### END 1 - d #########
+######### START 1 - e #########
+<a [routerLink]="['/movie', m.id, 'edit']" class="btn" x-test-edit-button> </a>
+######### END 1 - e #########
+######### START 1 - j #########
+<button [routerLink]="['/movie', m.id, 'edit']" class="btn" x-test-edit-button>Edit</button>
+######### END 1 - j #########
+######### START 1 - k #########
+<span>
+<a [routerLink]="['/movie', m.id, 'edit']" class="btn" x-test-edit-button>Edit</a>
+</span>
+######### END 1 - k #########

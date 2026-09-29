@@ -1,0 +1,26 @@
+######### START 1 - a #########
+<span class="brand-icon" aria-hidden="true">◆</span>
+######### END 1 - a #########
+######### START 2 - b #########
+<span class="brand-mark">◆</span>
+######### END 2 - b #########
+######### START 3 - c #########
+<span data-mark="brand-mark" aria-hidden="true">◆</span>
+######### END 3 - c #########
+######### START 4 - d #########
+<span class="brand-mark" aria-hidden="true">◇</span>
+######### END 4 - d #########
+######### START 5 - e #########
+<span class="brand-mark" aria-hidden="true"> </span>
+######### END 5 - e #########
+######### START 6 - i #########
+◆
+######### END 6 - i #########
+######### START 7 - j #########
+<i class="brand-mark" aria-hidden="true">◆</i>
+######### END 7 - j #########
+######### START 8 - k #########
+<span class="brand-mark-wrap">
+  <span class="brand-mark" aria-hidden="true">◆</span>
+</span>
+######### END 8 - k #########

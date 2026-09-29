@@ -37,13 +37,27 @@ public class ElementExtension {
         return null;
     }
 
+    /**
+     * Nearest ancestor whose tag is a custom component tag (a dashed name such as app-panel).
+     * Fixed on 21/09/2026: the pattern used to start with '<' and was matched against
+     * tagName(), which never contains '<', so the role epsilon could never be found in any
+     * application. Mutants generated before the fix are unaffected (they have no epsilon).
+     * Angular's own dashed elements (ng-container, ng-template, ng-content, router-outlet)
+     * are not components that host content, so they are skipped.
+     */
     public static Element getContainingComponent(Element element){
-        Pattern componentTagPattern = Pattern.compile("<([a-z][a-z0-9]*(?:-[a-z0-9]+)+)");
+        Pattern componentTagPattern = Pattern.compile("^[a-z][a-z0-9]*(?:-[a-z0-9]+)+$");
         Element temp = element.parent();
-        while (temp != null && !componentTagPattern.matcher(temp.tagName()).find()) {
+        while (temp != null && !isComponentTag(componentTagPattern, temp.tagName())) {
             temp = temp.parent();
         }
         return temp;
+    }
+
+    private static boolean isComponentTag(Pattern componentTagPattern, String name) {
+        return componentTagPattern.matcher(name).find()
+                && !name.startsWith("ng-")
+                && !name.equals("router-outlet");
     }
 
     public static Component getComponent(Element element) throws IOException {

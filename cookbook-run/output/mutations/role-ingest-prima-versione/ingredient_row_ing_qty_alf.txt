@@ -1,0 +1,26 @@
+######### START 1 - a #########
+<span class="ing-quantity" [attr.x-test-ing-qty]="ingredient().id">{{ store.formatQty(ingredient().quantity * store.scaleFactor()) }}</span>
+######### END 1 - a #########
+######### START 2 - b #########
+<span [attr.x-test-ing-qty]="ingredient().id">{{ store.formatQty(ingredient().quantity * store.scaleFactor()) }}</span>
+######### END 2 - b #########
+######### START 3 - c #########
+<span data-qty="ing-qty" [attr.x-test-ing-qty]="ingredient().id">{{ store.formatQty(ingredient().quantity * store.scaleFactor()) }}</span>
+######### END 3 - c #########
+######### START 4 - d #########
+<span class="ing-qty" [attr.x-test-ing-qty]="ingredient().id">{{ store.formatQty(ingredient().quantity) }}</span>
+######### END 4 - d #########
+######### START 5 - e #########
+<span class="ing-qty" [attr.x-test-ing-qty]="ingredient().id"> </span>
+######### END 5 - e #########
+######### START 6 - i #########
+{{ store.formatQty(ingredient().quantity * store.scaleFactor()) }}
+######### END 6 - i #########
+######### START 7 - j #########
+<div class="ing-qty" [attr.x-test-ing-qty]="ingredient().id">{{ store.formatQty(ingredient().quantity * store.scaleFactor()) }}</div>
+######### END 7 - j #########
+######### START 8 - k #########
+<span class="ing-qty-wrap">
+  <span class="ing-qty" [attr.x-test-ing-qty]="ingredient().id">{{ store.formatQty(ingredient().quantity * store.scaleFactor()) }}</span>
+</span>
+######### END 8 - k #########
