@@ -1,157 +1,163 @@
 # Automatic Angular E2E Testing Suite
-A comprehensive automation tool designed to create and test mutations for HTML files within Angular repositories. This project streamlines the process of End-to-End (E2E) testing by generating targeted mutations and validating them against your application.
+Uno strumento di automazione per creare e collaudare mutazioni dei file HTML di progetti Angular. Semplifica il testing End-to-End (E2E): genera mutazioni mirate e le verifica eseguendo i test dell'applicazione.
 
 ---
 
-## About this fork
+## Questa versione del progetto
 
-This repository extends the original suite developed by S. Liberti with a **second mutant
-generator based on Large Language Models**, and with the experimental campaigns that assess it.
-It is the software companion of the thesis *Generazione di mutanti per applicazioni web
-template-based mediante modelli linguistici di grandi dimensioni* (V. Di Carluccio,
-Università degli Studi di Napoli Federico II, A.A. 2025–2026).
+Questo repository estende lo strumento originale sviluppato da S. Liberti con un **secondo
+generatore di mutanti basato su modelli linguistici di grandi dimensioni (LLM)** e con le
+campagne sperimentali che lo valutano. È il materiale software della tesi *Generazione di
+mutanti per applicazioni web template-based mediante modelli linguistici di grandi dimensioni*
+(V. Di Carluccio, Università degli Studi di Napoli Federico II, A.A. 2025–2026).
 
-**What was added**
+**Che cosa è stato aggiunto**
 
-- **`llm-generator`** — mutant generation delegated to a language model, anchored to the
-  taxonomy of 11 mutation operators × 5 structural roles, so that every mutant produced maps
-  to a known category. Operating modes: direct API, prompt dump, response ingest, dry run;
-  operators f, g, h (pure moves) are generated mechanically. Duplicates are discarded at ingest.
-- **`MutationPorter`** (in `common`) — export and re-import of mutant sets as readable text
-  files, so they can be inspected and edited outside the database.
-- **[`applicazioni-soggetto/`](applicazioni-soggetto)** — the three purpose-built Angular subject
-  applications (CineLib, FlowBoard, CookBook), designed so that all eleven operators and all five
-  roles can be exercised.
-- **[`mutazioni-generate/`](mutazioni-generate)** — the **8,978 mutants** used in the six
-  campaigns, exported in readable form and browsable directly here.
-- **[`RIPRODURRE-LE-CAMPAGNE.md`](RIPRODURRE-LE-CAMPAGNE.md)** — step-by-step guide (in Italian)
-  to regenerate the mutants, rerun the tests with the seven locator strategies and recompute the
-  measures. The prompts and the model responses used in the thesis are kept in each campaign
-  folder, so the LLM mutants can be rebuilt without querying the model again.
+- **`llm-generator`** — generazione dei mutanti affidata a un modello linguistico e legata allo
+  schema di 11 operatori di mutazione × 5 ruoli strutturali, così che ogni mutante appartenga a
+  una categoria precisa. Modalità: API diretta, scrittura dei prompt (dump), acquisizione delle
+  risposte (ingest) e simulazione (dry run). Gli operatori f, g e h, che sono semplici
+  spostamenti, sono generati da programma. I duplicati vengono scartati durante l'acquisizione.
+- **`MutationPorter`** (in `common`) — esportazione e reimportazione dei mutanti come file di
+  testo leggibili, per consultarli e modificarli fuori dal database.
+- **[`applicazioni-soggetto/`](applicazioni-soggetto)** — le tre applicazioni Angular create per
+  l'esperimento (CineLib, FlowBoard, CookBook), progettate perché si possano usare tutti gli
+  undici operatori e tutti e cinque i ruoli.
+- **[`mutazioni-generate/`](mutazioni-generate)** — gli **8 978 mutanti** delle sei campagne,
+  esportati in forma leggibile e consultabili direttamente qui.
+- **[`RIPRODURRE-LE-CAMPAGNE.md`](RIPRODURRE-LE-CAMPAGNE.md)** — guida passo passo per rigenerare
+  i mutanti, rieseguire i test con le sette strategie di localizzazione e ricalcolare le misure.
+  I prompt e le risposte del modello usati nella tesi sono conservati nelle cartelle delle
+  campagne, quindi i mutanti linguistici si possono ricostruire senza interrogare di nuovo il
+  modello.
 
-**Headline result** — on all three subjects the language-based generator produced a higher
-share of valid mutants than the static one (88.0–95.6% against 72.9–82.3%, an advantage of
-11.7 to 18.1 percentage points), and far fewer uninformative test runs (1.3–2.8% against
-10.2–24.1%). The robustness ranking is stable at its extremes: absolute locators are always the
-most fragile, ROBULA+ the most robust among the strategies that do not use test attributes.
+**Risultato principale** — su tutte e tre le applicazioni il generatore linguistico ha prodotto
+una quota di mutanti validi più alta di quello statico (88,0–95,6% contro 72,9–82,3%, cioè da
+11,7 a 18,1 punti percentuali in più) e molte meno esecuzioni che non danno informazioni
+(1,3–2,8% contro 10,2–24,1%). La classifica di robustezza è stabile agli estremi: i locatori
+assoluti sono sempre i più fragili, ROBULA+ il più robusto fra le strategie che non usano gli
+attributi di test.
 
-| Campaign | Subject | Technique | Mutants | Valid | Campaign folder |
+| Campagna | Applicazione | Tecnica | Mutanti | Validi | Cartella della campagna |
 |---|---|---|---|---|---|
-| [`cinelib-llm`](mutazioni-generate/cinelib-llm) | CineLib | LLM | 944 | 831 | `cinelib-v2-run/` |
-| [`cinelib-static`](mutazioni-generate/cinelib-static) | CineLib | static | 944 | 688 | `cinelib-v2-static-run/` |
-| [`flowboard-llm`](mutazioni-generate/flowboard-llm) | FlowBoard | LLM | 1,559 | 1,491 | `flowboard-v2-run/` |
-| [`flowboard-static`](mutazioni-generate/flowboard-static) | FlowBoard | static | 2,148 | 1,664 | `flowboard-v2-static-run/` |
-| [`cookbook-llm`](mutazioni-generate/cookbook-llm) | CookBook | LLM | 1,929 | 1,813 | `cookbook-run/` |
-| [`cookbook-static`](mutazioni-generate/cookbook-static) | CookBook | static | 1,454 | 1,197 | `cookbook-static-run/` |
+| [`cinelib-llm`](mutazioni-generate/cinelib-llm) | CineLib | linguistica | 944 | 831 | `cinelib-v2-run/` |
+| [`cinelib-static`](mutazioni-generate/cinelib-static) | CineLib | statica | 944 | 688 | `cinelib-v2-static-run/` |
+| [`flowboard-llm`](mutazioni-generate/flowboard-llm) | FlowBoard | linguistica | 1 559 | 1 491 | `flowboard-v2-run/` |
+| [`flowboard-static`](mutazioni-generate/flowboard-static) | FlowBoard | statica | 2 148 | 1 664 | `flowboard-v2-static-run/` |
+| [`cookbook-llm`](mutazioni-generate/cookbook-llm) | CookBook | linguistica | 1 929 | 1 813 | `cookbook-run/` |
+| [`cookbook-static`](mutazioni-generate/cookbook-static) | CookBook | statica | 1 454 | 1 197 | `cookbook-static-run/` |
 
-Static counts exclude duplicate mutants (see `mutazioni-generate/README.md`). Folders such as
-`cinelib-static-run/`, `flowboard-run/`, `flowboard-static-run/` and `output/` hold earlier
-campaigns (July 2026, previous version of the subjects) and are kept for history only; they are
-not used in the thesis results.
+Per la tecnica statica sono contati solo i mutanti distinti (vedi
+`mutazioni-generate/README.md`). Le cartelle `cinelib-static-run/`, `flowboard-run/`,
+`flowboard-static-run/` e `output/` contengono campagne precedenti (luglio 2026, versione
+precedente delle applicazioni): sono conservate solo come storico e non sono usate nei
+risultati della tesi.
 
-The original documentation below still applies to the shared parts of the tool.
+La documentazione originale che segue vale ancora per le parti comuni dello strumento.
 
 ---
 
-## Project Structure
-The project relies on a modular architecture:
+## Struttura del progetto
+Il progetto è diviso in moduli:
 ```txt
-(root)
-├── 📁 custom-locators      // Module for creating locators not present in Katalon/Selenium
-├── 📁 hook-injector        // Module to inject custom hooks into the application under test
+(radice)
+├── 📁 custom-locators       // Modulo per creare i locatori che Katalon/Selenium non forniscono
+├── 📁 hook-injector         // Modulo per aggiungere attributi (hook) all'applicazione sotto test
 ├── 📁 mutation-generator
-|   ├── 📁 common           // Shared logic and utilities
-|   ├── 📁 llm-generator    // Mutation generator via LLM prompts
-|   └── 📁 static-generator // Mutation generator using static analysis
-├── 📁 mutation-tester      // Module to execute automatic tests on generated mutations
-├── 📁 applicazioni-soggetto // The three subject applications (CineLib, FlowBoard, CookBook)
-├── 📁 mutazioni-generate   // The 8,978 mutants of the six campaigns, in readable form
-├── generator-config.json   // Main configuration file for the suite
-└── pom.xml                 // Main Maven module file
+|   ├── 📁 common            // Logica e servizi comuni
+|   ├── 📁 llm-generator     // Generatore di mutazioni tramite prompt a un LLM
+|   └── 📁 static-generator  // Generatore di mutazioni con regole statiche
+├── 📁 mutation-tester       // Modulo che esegue i test automatici sulle mutazioni generate
+├── 📁 applicazioni-soggetto // Le tre applicazioni soggetto (CineLib, FlowBoard, CookBook)
+├── 📁 mutazioni-generate    // Gli 8 978 mutanti delle sei campagne, in forma leggibile
+├── generator-config.json    // File di configurazione principale
+└── pom.xml                  // Modulo Maven principale
 ```
 
-## Getting started
-### Prerequisites
+## Per iniziare
+### Prerequisiti
 - [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/downloads/)
 - [Maven](https://maven.apache.org/download.cgi)
-- Target project: a front-end project based on [AngularJS](https://angularjs.org/).
+- Progetto da testare: un progetto front-end basato su [Angular](https://angular.dev/).
 
-### Releases
-You can run this tool by either building it from source or by using the pre-compiled binaries.
-If you want to skip the build process, you can download the ready-to-use .jar files directly from the Releases section of this repository. Once downloaded, place the `.jar` files in the project root and proceed directly to configuration and execution.
+### Release
+Lo strumento si può usare compilandolo dai sorgenti oppure con i file già compilati.
+Per saltare la compilazione si possono scaricare i file .jar pronti dalla sezione Releases di questo repository. Dopo averli scaricati, si mettono i file `.jar` nella radice del progetto e si passa direttamente a configurazione ed esecuzione.
 
-### Configuration
-To start using the tool, configure the `generator-config.json` file.
+### Configurazione
+Per cominciare si configura il file `generator-config.json`.
 
-**Configuration parameters**
-- `seed`: (Optional) A seed used to initialize the [RandomSelector](https://github.com/sim-liberti/Automatic-Angular-E2E-Testing-Suite/blob/master/mutation-generator/common/src/main/java/org/unina/util/RandomSelector.java) to ensure reproducible results. Leave blank for random execution.
-- `repositoryRootPath`: The absolute path to the Angular project you wish to mutate.
-- `npmRunCommand`: The command you use to run the Angular application (eg: `npm run dev`)
-- `mutations`: An array of objects defining the mutation rules.
-  - `name`: The name of the mutation.
-  - `file_path`: The absolute path of the file where the tag to mutate is located.
-  - `target_matcher`: Object used to locate the tag to mutate inside the file specified above
-    - `type`: The type of matcher to be used. You can choose between `class`,`text`,`id`,`attribute`.
-    - `key`: The key of the attribute of the target element. Only necessary if you choose the `attribute` type.
-    - `value`: The value of the class, text, id or attribute of the target element.
+**Parametri di configurazione**
+- `seed`: (facoltativo) seme usato per inizializzare il [RandomSelector](https://github.com/sim-liberti/Automatic-Angular-E2E-Testing-Suite/blob/master/mutation-generator/common/src/main/java/org/unina/util/RandomSelector.java), così che i risultati siano riproducibili. Lasciarlo vuoto per un'esecuzione casuale.
+- `repositoryRootPath`: percorso assoluto del progetto Angular da mutare.
+- `npmRunCommand`: comando con cui si avvia l'applicazione Angular (per esempio `npm run dev`).
+- `mutations`: elenco di oggetti che definiscono le regole di mutazione.
+  - `name`: nome della mutazione.
+  - `file_path`: percorso assoluto del file che contiene il tag da mutare.
+  - `target_matcher`: oggetto che serve a trovare il tag da mutare nel file indicato sopra.
+    - `type`: tipo di ricerca da usare: `class`, `text`, `id` oppure `attribute`.
+    - `key`: nome dell'attributo dell'elemento bersaglio. Serve solo con il tipo `attribute`.
+    - `value`: valore della classe, del testo, dell'id o dell'attributo dell'elemento bersaglio.
 
-> **NOTE:** All the shell commands in the following guide are written to be executed from the project root, referred to as (root).
+> **NOTA:** tutti i comandi di questa guida vanno eseguiti dalla radice del progetto, indicata come (radice).
 
-### Generate Mutations
-With the configuration in place, you need to compile the generator module and then execute it. If you downloaded the pre-compiled .jar file, skip to step 2.
+### Generare le mutazioni
+Con la configurazione pronta, si compila il modulo generatore e poi lo si esegue. Chi ha scaricato il file .jar già compilato passa direttamente al passo 2.
 
-**Step 1: Build the Module**
+**Passo 1: compilare il modulo**
 
-Run the following Maven command to build specifically the static-generator module and its dependencies:
+Il comando Maven seguente compila solo il modulo static-generator e le sue dipendenze:
 ```bash
 mvn clean install -pl :static-generator -am
 ```
-After a successful build, the compiled .jar file will be created at `(root)/mutation-generator/static-generator/target/static-generator-1.0.0-jar-with-dependencies.jar`. Copy the created file to the project root.
+Al termine, il file compilato si trova in `(radice)/mutation-generator/static-generator/target/static-generator-1.0.0-jar-with-dependencies.jar`. Copiarlo nella radice del progetto.
 
-**Step 2: Run the Generator**
+**Passo 2: eseguire il generatore**
 
-After downloading or compiling the .jar file, execute it with:
+Dopo averlo scaricato o compilato, si esegue il file .jar con:
 ```bash
 java -jar static-generator.jar
 ```
-_Note: if you compiled the binary, use `static-generator-1.0.0-jar-with-dependencies.jar`_
+_Nota: se il file è stato compilato, usare `static-generator-1.0.0-jar-with-dependencies.jar`._
 
-A `mutations.db` file will be generated at the project root. This database stores every mutation, including its name, type, ID, and the associated file path.
+Nella radice del progetto viene creato un file `mutations.db`. È il database che conserva tutte le mutazioni, con nome, tipo, identificativo e percorso del file coinvolto.
 
-### Test the application
-With the configuration and the generated mutations in place, you need to compile the tester module. If you downloaded the pre-compiled .jar, skip to step 2.
+Per il generatore linguistico (dump, risposte del modello, operatori f/g/h e acquisizione) vedi [`RIPRODURRE-LE-CAMPAGNE.md`](RIPRODURRE-LE-CAMPAGNE.md).
 
-**Prerequisites:**
-- **Compilation:** all test classes, including base classes and dependencies, must be compiled
-- **Framework:** tests must be written using **JUnit**
-- **Dependencies:** ensure all required classes are present in the build path
+### Collaudare l'applicazione
+Con la configurazione e le mutazioni pronte, si compila il modulo che esegue i test. Chi ha scaricato il file .jar già compilato passa direttamente al passo 2.
 
-**Step 1: Build the Module**
+**Requisiti:**
+- **Compilazione:** tutte le classi di test, comprese le classi base e le dipendenze, devono essere compilate;
+- **Framework:** i test devono essere scritti con **JUnit**;
+- **Dipendenze:** tutte le classi necessarie devono essere presenti nel classpath.
 
-Run the following Maven command to build specifically the static-generator module and its dependencies:
+**Passo 1: compilare il modulo**
+
+Il comando Maven seguente compila solo il modulo mutation-tester e le sue dipendenze:
 ```bash
 mvn clean install -pl :mutation-tester -am
 ```
-After a successful build, the compiled .jar file will be created at `(root)/mutation-tester/target/mutation-tester-1.0.0-jar-with-dependencies.jar`. Copy the created file to the project root.
+Al termine, il file compilato si trova in `(radice)/mutation-tester/target/mutation-tester-1.0.0-jar-with-dependencies.jar`. Copiarlo nella radice del progetto.
 
-**Step 2: Run the Tester**
+**Passo 2: eseguire il tester**
 
-After downloading or compiling the .jar file, execute it with:
+Dopo averlo scaricato o compilato, si esegue il file .jar con:
 ```bash
-java -jar mutation-tester.jar -td "path/to/your/compiled/test/classes"
+java -jar mutation-tester.jar -td "percorso/delle/classi/di/test/compilate"
 ```
-_Note: if you compiled the binary, use `mutation-tester-1.0.0-jar-with-dependencies.jar`_
+_Nota: se il file è stato compilato, usare `mutation-tester-1.0.0-jar-with-dependencies.jar`._
 
-**Test Results:** 
+**Risultati dei test**
 
-Upon completion, two files are generated in the output folder:
-- `stats.csv`: Results grouped by test class name (fragility, obsolescence, and skipped tests). 
-- `batches.csv`: A detailed log of every test execution, including results and error messages.
+Al termine, nella cartella di output vengono creati due file:
+- `stats.csv`: risultati raggruppati per classe di test (fragilità, obsolescenza e test saltati);
+- `batches.csv`: registro dettagliato di ogni esecuzione, con esiti e messaggi di errore.
 
-### Secondary modules
-For advanced usage regarding custom locators or hook injection, please refer to the specific module documentation:
-- [Custom Locators Documentation](custom-locators/README.md)
-- [Hook Injector Documentation](hook-injector/README.md)
+### Moduli secondari
+Per l'uso avanzato dei locatori personalizzati o dell'aggiunta degli hook, vedi la documentazione dei singoli moduli:
+- [Documentazione di Custom Locators](custom-locators/README.md)
+- [Documentazione di Hook Injector](hook-injector/README.md)
 
-## Tests on the Angular-Spotify application
-To learn how to set up the [Angular-Spotify](https://github.com/trungvose/angular-spotify) application and simulate my results in the test-suite folder, refer to the appropriate [readme file](test-suite/AnuglarSpotifyTests.md).
+## Test sull'applicazione Angular-Spotify (lavoro precedente)
+Per configurare l'applicazione [Angular-Spotify](https://github.com/trungvose/angular-spotify) e ripetere i risultati del lavoro precedente contenuti nella cartella test-suite, vedi il relativo [file readme](test-suite/AnuglarSpotifyTests.md).
