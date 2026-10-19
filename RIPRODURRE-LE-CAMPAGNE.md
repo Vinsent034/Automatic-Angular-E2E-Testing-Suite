@@ -12,16 +12,24 @@ progetto salvo dove indicato.
 - Google Chrome, **chiuso** durante le campagne di test;
 - Python 3, per i programmi di controllo e di analisi.
 
-Compilare lo strumento:
+**Modo rapido:** doppio clic su `installa.bat`. Scarica Java 25, Maven, Node.js e Python
+portatili nella cartella `strumenti/` (senza installare nulla nel sistema), aggiorna i percorsi,
+compila lo strumento e installa le dipendenze delle tre applicazioni. Poi si lavora nel
+terminale aperto da `terminale.bat`, dove `$JAVA` e `$LLMJAR` sono già definite.
+
+**Modo manuale.** Compilare lo strumento dalla radice del progetto, con Java 25 (se Maven usa
+un'altra versione di Java, impostare prima `$env:JAVA_HOME` sul JDK 25):
 
 ```powershell
-mvn -f mutation-generator/pom.xml package
-mvn -f mutation-tester/pom.xml package
+mvn package -DskipTests
 ```
 
+Il comando compila tutti i moduli, compreso il generatore linguistico (`mutation-generator/llm-generator`,
+che è un modulo del `pom.xml` principale e non di `mutation-generator/pom.xml`).
+
 Preparare le applicazioni ([`applicazioni-soggetto/`](applicazioni-soggetto)): `npm install`
-in ciascuna, e correggere i percorsi assoluti nei file `generator-config-*.json` e
-`role-targets*.json` se il progetto è in un'altra posizione.
+in ciascuna. I percorsi assoluti nei file `generator-config-*.json` e `role-targets*.json` si
+aggiornano alla posizione del progetto con `powershell -ExecutionPolicy Bypass -File configura_percorsi.ps1`.
 
 Nel terminale si definiscono una volta due variabili (negli esperimenti il jar era una copia di
 nome `…-eps.jar`, con lo stesso contenuto):
@@ -103,6 +111,13 @@ nulla e i duplicati, e scrive il motivo nella matrice.
 $env:LLM_ROLE_INGEST_DIR="output/mutations/role-ingest"
 $env:LLM_MODEL="claude-opus-4-8"
 & $JAVA -jar $LLMJAR ..\generator-config-cinelib.json
+```
+
+Su CookBook, nella tesi, 10 mutanti dell'operatore i applicato al bersaglio sono stati tolti dalla
+campagna principale (§ 4.1). Per ottenere lo stesso insieme, solo per CookBook:
+
+```powershell
+python ..\escludi_i_su_bersaglio.py
 ```
 
 Controllo: il numero di mutanti nel database deve coincidere con la Tabella 4.1 della tesi

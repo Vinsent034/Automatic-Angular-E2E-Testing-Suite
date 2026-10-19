@@ -1,3 +1,5 @@
 hook-injector/test-hooks/** linguist-vendored=true
 *.html -linguist-detectable
 *.js -linguist-detectable
+# le applicazioni restano byte per byte come nel repository (fine riga LF anche su Windows)
+applicazioni-soggetto/** -text

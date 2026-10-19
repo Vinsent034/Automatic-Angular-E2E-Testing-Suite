@@ -111,7 +111,7 @@ public class MutationDatabase {
                 for (Document doc : mutatedDocuments) {
                     try (PreparedStatement stmtFile = conn.prepareStatement(insertFile)) {
                         String filePath = doc.baseUri();
-                        String code = doc.body().html();
+                        String code = fixAngularControlFlowEntities(doc.body().html());
 
                         stmtFile.setString(1, java.util.UUID.randomUUID().toString());
                         stmtFile.setString(2, filePath);
@@ -128,6 +128,27 @@ public class MutationDatabase {
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
+    }
+
+    // I blocchi di controllo di Angular 17+ (@if (...), @for (...; track ...)) non sono HTML: jsoup ne
+    // tratta la condizione come testo e, scrivendo il documento, trasforma "@if (x > 0)" in
+    // "@if (x &gt; 0)", che il compilatore di Angular rifiuta. Qui si ripristinano i caratteri SOLO
+    // nella condizione (fino alla '{' che apre il blocco); il resto del documento resta com'e'.
+    // E' la stessa correzione applicata ai database di CineLib prima delle campagne di settembre 2026.
+    private static final java.util.regex.Pattern CONTROL_FLOW_HEAD =
+            java.util.regex.Pattern.compile("@(?:if|for)\\s*\\([^{]*?\\{");
+
+    static String fixAngularControlFlowEntities(String html) {
+        java.util.regex.Matcher m = CONTROL_FLOW_HEAD.matcher(html);
+        StringBuilder out = new StringBuilder();
+        int last = 0;
+        while (m.find()) {
+            out.append(html, last, m.start());
+            out.append(m.group().replace("&gt;", ">").replace("&lt;", "<").replace("&amp;", "&"));
+            last = m.end();
+        }
+        out.append(html.substring(last));
+        return out.toString();
     }
 
     public void updateMutation(String mutation_id, String status) throws SQLException {

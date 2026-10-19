@@ -61,6 +61,9 @@ run-interrotto-prima-del-fix/
 classi-v1-backup/
 
 ### Appunti delle sessioni di lavoro (restano solo in locale) ###
-CLAUDE.md
 HANDOFF-prossima-chat.md*
 RUNBOOK-static-baseline-ricerca.md
+
+# strumenti portatili scaricati da installa.ps1 e appunti di lavoro locali
+strumenti/
+_archivio-appunti/
