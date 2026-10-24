@@ -67,3 +67,6 @@ RUNBOOK-static-baseline-ricerca.md
 # strumenti portatili scaricati da installa.ps1 e appunti di lavoro locali
 strumenti/
 _archivio-appunti/
+
+# cartelle di lavoro create da mutanti.ps1 (prompt, risposte e database di una generazione)
+generazione-*/

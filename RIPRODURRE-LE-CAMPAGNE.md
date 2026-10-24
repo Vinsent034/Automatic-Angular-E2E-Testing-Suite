@@ -17,6 +17,10 @@ portatili nella cartella `strumenti/` (senza installare nulla nel sistema), aggi
 compila lo strumento e installa le dipendenze delle tre applicazioni. Poi si lavora nel
 terminale aperto da `terminale.bat`, dove `$JAVA` e `$LLMJAR` sono già definite.
 
+Per **generare nuovi mutanti** con comandi già pronti (senza lavorare nelle cartelle delle campagne della tesi) vedi
+[`GUIDA-RIPRODUZIONE.md`](GUIDA-RIPRODUZIONE.md): usa lo script `mutanti.ps1` e crea una cartella `generazione-<applicazione>`.
+Questa guida, invece, descrive come rifare le campagne della tesi nelle loro cartelle.
+
 **Modo manuale.** Compilare lo strumento dalla radice del progetto, con Java 25 (se Maven usa
 un'altra versione di Java, impostare prima `$env:JAVA_HOME` sul JDK 25):
 

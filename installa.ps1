@@ -138,4 +138,4 @@ else { Avviso "Google Chrome non trovato: serve solo per eseguire i test sui mut
 Write-Host ""
 Write-Host "Tutto pronto." -ForegroundColor Green
 Write-Host "Per lavorare con gli strumenti portatili apri sempre il terminale con terminale.bat"
-Write-Host "(imposta Java 25, Maven, Node e Python di questa cartella). Poi segui RIPRODURRE-LE-CAMPAGNE.md."
+Write-Host "(imposta Java 25, Maven, Node e Python di questa cartella). Poi segui GUIDA-RIPRODUZIONE.md."
