@@ -2,18 +2,20 @@
 # terminale.bat, dalla cartella principale del progetto:
 #
 #   .\mutanti.ps1 <applicazione> prompt      1. prepara i prompt per il modello (nessun mutante ancora)
-#   (passo 2: il modello scrive le risposte, vedi GUIDA-RIPRODUZIONE.md)
+#   (il modello scrive le risposte ai prompt: vedi il passo 6 di GUIDA-RIPRODUZIONE.md)
 #   .\mutanti.ps1 <applicazione> completa    3. operatori f/g/h e acquisizione delle risposte
 #   .\mutanti.ps1 <applicazione> esporta     4. (facoltativo) copia leggibile dei mutanti, per guardarli
 #   .\mutanti.ps1 cookbook escludi-i         5. (solo CookBook, facoltativo) toglie i 10 mutanti i sul bersaglio, come nella tesi
+#   .\mutanti.ps1 <applicazione> esegui 20   6. fa girare i test su 20 mutanti (campione) e mostra i risultati
 #
 # Applicazioni: cinelib, flowboard, cookbook. Ogni fase parte da impostazioni pulite, quindi
 # non dipende da cio' che e' rimasto nella finestra dalle volte prima.
 # Per rifare una campagna da zero basta cancellare la cartella generazione-<applicazione>.
 
 param(
-    [Parameter(Mandatory = $true)][string]$App,
-    [Parameter(Mandatory = $true)][ValidateSet("prompt", "completa", "esporta", "escludi-i")][string]$Fase
+    [Parameter(Mandatory = $true, Position = 0)][string]$App,
+    [Parameter(Mandatory = $true, Position = 1)][ValidateSet("prompt", "completa", "esporta", "escludi-i", "esegui")][string]$Fase,
+    [Parameter(Position = 2)][int]$Quanti = 20
 )
 
 $Radice = $PSScriptRoot
@@ -66,7 +68,7 @@ try {
         Write-Host ""
         Write-Host "Fatto: $n prompt in $campagna\output\mutations\role-prompts" -ForegroundColor Green
         if ($attesi) { Write-Host "  Attesi per questa applicazione: $($attesi[0]) prompt e $($attesi[1]) blocchi (riga 'Applicable')." }
-        Write-Host "Prossimo passo: far scrivere le risposte al modello (GUIDA-RIPRODUZIONE.md, passo 4)."
+        Write-Host "Prossimo passo: far scrivere le risposte al modello (GUIDA-RIPRODUZIONE.md, passo 6)."
     }
     elseif ($Fase -eq "completa") {
         $ingest = Join-Path $campagna "output\mutations\role-ingest"
@@ -100,6 +102,12 @@ try {
         & python (Join-Path $Radice "escludi_i_su_bersaglio.py")
         Pop-Location
         Write-Host "Mutanti nel database: $(ContaMutanti)"
+    }
+    elseif ($Fase -eq "esegui") {
+        if (-not (Test-Path $db) -or (ContaMutanti) -eq 0) { Write-Host "Non ci sono mutanti in ${campagna}: fai prima 'prompt', il modello e 'completa'." -ForegroundColor Red; return }
+        $chrome = @("$env:ProgramFiles\Google\Chrome\Application\chrome.exe", "${env:ProgramFiles(x86)}\Google\Chrome\Application\chrome.exe", "$env:LOCALAPPDATA\Google\Chrome\Application\chrome.exe") | Where-Object { Test-Path $_ }
+        if (-not $chrome) { Write-Host "Google Chrome non trovato: serve per eseguire i test. Si scarica da https://www.google.com/chrome/" -ForegroundColor Red; return }
+        & python (Join-Path $Radice "esegui_mutanti.py") $app --quanti $Quanti
     }
     else {
         if (-not (Test-Path $db)) { Write-Host "Non c'e' ancora un database in ${campagna}: fai prima 'prompt' e 'completa'." -ForegroundColor Red; return }

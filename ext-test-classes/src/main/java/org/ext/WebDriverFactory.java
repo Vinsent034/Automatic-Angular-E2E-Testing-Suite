@@ -32,9 +32,10 @@ public class WebDriverFactory {
                     // inglesi ('Search', 'Songs', ...) restano validi.
                     "--lang=en-US",
                     "--disable-features=Translate,TranslateUI",
-                    // Profilo persistente: la sessione Spotify viene salvata su disco,
-                    // cosi' il login va fatto una sola volta e i run successivi lo riusano.
-                    "--user-data-dir=C:\\Users\\vince\\selenium-spotify-profile");
+                    // Profilo di Chrome: se e' indicato con -Dselenium.profile=<cartella> (o con la variabile
+                    // d'ambiente SELENIUM_PROFILE) si usa quello, altrimenti una cartella temporanea nuova.
+                    // Prima il percorso era scritto qui dentro, ed era valido solo sul PC dello sviluppatore.
+                    "--user-data-dir=" + profileDir());
 
             Map<String, Object> prefs = new HashMap<>();
             prefs.put("translate.enabled", false);
@@ -59,6 +60,17 @@ public class WebDriverFactory {
             } catch (Exception e) {
                 System.out.println("[WebDriverFactory] DevTools/sentry-block saltato: " + e.getMessage());
             }
+        }
+    }
+
+    private static String profileDir() {
+        String dir = System.getProperty("selenium.profile");
+        if (dir == null || dir.isBlank()) dir = System.getenv("SELENIUM_PROFILE");
+        if (dir != null && !dir.isBlank()) return dir;
+        try {
+            return java.nio.file.Files.createTempDirectory("selenium-profile-").toString();
+        } catch (java.io.IOException e) {
+            return System.getProperty("java.io.tmpdir") + java.io.File.separator + "selenium-profile";
         }
     }
 

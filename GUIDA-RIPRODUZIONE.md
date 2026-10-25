@@ -1,151 +1,308 @@
-# Guida: generare i mutanti partendo da questo repository
+# Guida passo passo: generare i mutanti e provarli con i test
 
-Questa guida porta da zero (repository appena scaricato) ai mutanti nel database. È stata provata
-passo per passo su Windows. Vale per le tre applicazioni della tesi; negli esempi c'è CineLib,
-per le altre basta cambiare il nome dell'applicazione nei comandi.
+Questa guida porta **da zero** (nessun programma installato, repository non ancora scaricato) fino ai mutanti generati,
+alla loro esecuzione con i test e alla lettura dei risultati. Ogni passo dice **dove** si trova ciò che serve,
+**cosa fare**, **cosa si deve vedere** e **cosa fare se non si vede**. È stata provata passo per passo su Windows.
 
-## Chi fa che cosa
+Si può fare con una delle tre applicazioni della tesi: **CineLib**, **FlowBoard** o **CookBook**. Negli esempi c'è
+FlowBoard: per un'altra applicazione basta scrivere il suo nome nei comandi (`cinelib`, `flowboard`, `cookbook`).
+
+---
+
+## Prima di cominciare
+
+**Che cosa serve**
+
+| Cosa | Perché | Come controllare |
+|---|---|---|
+| Un PC con **Windows 10 o 11** | gli script sono per Windows | — |
+| **Internet** | si scaricano gli strumenti (circa 1,5 GB in tutto) e il driver di Chrome | — |
+| Circa **2 GB liberi** sul disco | strumenti, dipendenze e risultati | — |
+| **Google Chrome** installato | i test aprono Chrome da soli (solo per il passo 9) | apri il menu Start e cerca "Chrome" |
+| **Claude Code** con accesso a **Claude Opus 4.8** | scrive le risposte ai prompt (solo per il passo 6) | apri Claude Code e guarda l'elenco dei modelli |
+
+Non servono permessi di amministratore e **non si deve installare nient'altro**: Java, Maven, Node e Python li scarica da solo
+il passo 3, dentro la cartella del progetto, senza toccare il resto del computer.
+
+**Chi fa che cosa**
 
 | Chi | Che cosa |
 |---|---|
-| **Tu** (la persona) | scarichi il repository, lanci l'installazione e i comandi di questa guida, scegli l'applicazione |
-| **Lo strumento** (programma Java) | prepara i prompt, trova gli elementi da mutare, controlla le risposte, produce gli operatori f, g, h e salva i mutanti |
-| **Il modello linguistico** (Claude Code, Claude Opus 4.8) | **una sola cosa**: scrive la risposta a ciascun prompt, cioè la modifica dell'elemento per gli operatori a, b, c, d, e, i, j, k |
+| **Tu** (la persona) | scarichi il progetto, apri i file `.bat` e scrivi i comandi di questa guida |
+| **Lo strumento** | prepara i prompt, controlla le risposte, salva i mutanti, esegue i test e mostra i risultati |
+| **Il modello** (Claude Opus 4.8) | **una cosa sola**, al passo 6: legge un prompt e scrive la modifica dell'elemento |
 
-Il modello non installa niente, non lancia comandi dello strumento e non tocca i file
-dell'applicazione. Tutto il resto lo fanno la persona e lo strumento.
+> **Il modello non fa altro.** Non installa, non lancia comandi, non sceglie quali elementi o operatori mutare
+> (lo ha già deciso lo strumento e sta scritto nel prompt) e non scrive nel database. Tutto il resto lo fai tu con i comandi.
 
-## Che cosa serve
+**Come si scrive un comando.** Si scrive (o si incolla) nella finestra nera, **su una sola riga**, poi si preme **Invio**.
+Non si premono altri tasti e non si cambia il testo. Si incolla anche con il clic destro del mouse.
 
-- Windows con connessione a internet (circa 1,5 GB di spazio: strumenti e dipendenze).
-- Per il passo 4: Claude Code, con accesso a **Claude Opus 4.8**.
-- Google Chrome serve solo per eseguire i test sui mutanti (non per generarli).
+---
 
-Java, Maven, Node e Python **non vanno installati a mano**: li scarica il passo 2.
+## Passo 1 — Scaricare il progetto
 
-## Le tre applicazioni
+1. Apri il browser (Chrome, Edge o Firefox).
+2. Nella barra degli indirizzi scrivi **`https://github.com/Vinsent034/Automatic-Angular-E2E-Testing-Suite`** e premi Invio.
+   È la pagina del repository del progetto.
+3. In alto a destra, sopra l'elenco dei file, clicca il pulsante verde **`<> Code`**.
+4. Nel menu che si apre clicca **`Download ZIP`**.
+5. Si scarica un file `Automatic-Angular-E2E-Testing-Suite-master.zip`, di solito nella cartella **Download**
+   (la trovi anche in Esplora file, nella colonna a sinistra).
 
-Si sceglie con il nome nei comandi (`cinelib`, `flowboard`, `cookbook`). Valori attesi, quando il modello ha
-risposto a tutti i prompt:
+**Devi vedere:** il file `.zip` nella cartella Download.
 
-| Applicazione | Nome nel comando | Prompt | Blocchi da scrivere (`Applicable`) | Mutanti nel database |
-|---|---|---|---|---|
-| CineLib | `cinelib` | 171 | 1.057 | 944 |
-| FlowBoard | `flowboard` | 590 | 3.425 | 1.559 |
-| CookBook | `cookbook` | 215 | 1.426 | 1.939 (1.929 dopo il passo 6) |
+## Passo 2 — Estrarre lo ZIP
 
-## Passo 1 — Scaricare il repository
+> **Non avviare mai nulla da dentro lo ZIP.** Se fai doppio clic su un file mentre lo ZIP è aperto, Windows lo estrae in una cartella
+> temporanea che poi cancella. Va prima estratto.
 
-Con `git clone https://github.com/Vinsent034/Automatic-Angular-E2E-Testing-Suite.git`
-oppure come ZIP da GitHub (poi estrarlo). Da qui in poi la "cartella principale" è quella che
-contiene `installa.bat` e `README.md`.
+1. Apri **Esplora file** e vai nella cartella **Download**.
+2. Clic **destro** sul file `Automatic-Angular-E2E-Testing-Suite-master.zip`.
+3. Clicca **`Estrai tutto…`**.
+4. Si apre una finestra con un percorso di destinazione. Clicca **`Sfoglia…`**, scegli il **Desktop** e conferma con `Seleziona cartella`.
+   Poi clicca **`Estrai`**.
+5. Quando ha finito si apre la cartella estratta. **Chiudi la finestra dello ZIP, se è ancora aperta.**
+6. Entra nella cartella finché non vedi **insieme** questi file: `installa.bat`, `terminale.bat`, `mutanti.ps1`, `README.md`,
+   `GUIDA-RIPRODUZIONE.md`. Quella è la **cartella principale del progetto**.
+   (Windows può creare due cartelle con lo stesso nome una dentro l'altra: quella giusta è la più interna, quella con questi file.)
 
-## Passo 2 — Installare gli strumenti (una volta sola)
+**Devi vedere:** nella cartella principale i file `installa.bat`, `terminale.bat`, `mutanti.ps1` e alcune cartelle
+(`applicazioni-soggetto`, `mutation-generator`, …).
 
-Doppio clic su **`installa.bat`**. Si apre una finestra nera che scarica gli strumenti nella
-cartella `strumenti/` (non installa nulla nel sistema), compila lo strumento e prepara le tre
-applicazioni. Ci vogliono alcune decine di minuti; non chiudere la finestra.
+> **Dopo il passo 3 non spostare più la cartella.** I percorsi vengono scritti al momento dell'installazione.
+> Se la sposti, rilancia `installa.bat`.
 
-**Controllo:** alla fine compare `Tutto pronto.` Premi un tasto per chiuderla.
+## Passo 3 — Installare gli strumenti (una volta sola)
 
-## Passo 3 — Preparare i prompt
+1. Nella cartella principale fai **doppio clic** su **`installa.bat`**.
+2. Se Windows mostra un avviso ("Windows ha protetto il PC" o simile), clicca **`Ulteriori informazioni`** e poi **`Esegui comunque`**.
+3. Si apre una **finestra nera**. **Non chiuderla** e non spegnere il PC. Scrive da sola cinque fasi, una dopo l'altra:
 
-Doppio clic su **`terminale.bat`** (apre una finestra con gli strumenti pronti). Poi scrivi, con
-l'applicazione scelta:
+   ```
+   === 1/5  Scarico gli strumenti portatili ...
+   === 2/5  ...
+   ... fino a  === 5/5
+   ```
+
+   Nella fase 1 compare una barra con la percentuale mentre scarica Java, Maven, Node e Python. L'ultima fase installa le dipendenze
+   delle tre applicazioni e può restare ferma **diversi minuti**: è normale.
+4. Tutta l'installazione dura **da 20 a 60 minuti**, a seconda della connessione.
+5. Alla fine compare in verde **`Tutto pronto.`** e sotto "Premere un tasto per continuare…". Premi **un tasto qualsiasi**: la finestra si chiude.
+
+**Devi vedere:** la scritta verde `Tutto pronto.` e, nella cartella principale, una nuova cartella **`strumenti`**.
+
+**Se compare un errore rosso** o la finestra si chiude da sola prima del messaggio verde: rilancia `installa.bat` (riparte da dove era arrivato)
+e, se riappare, fotografa lo schermo.
+
+Se compare invece "stai avviando installa.bat da dentro un file ZIP", torna al passo 2: lo ZIP non è stato estratto.
+
+## Passo 4 — Aprire il terminale giusto
+
+Tutti i comandi dei passi seguenti si scrivono in **questa** finestra, non in un altro PowerShell: è l'unica che ha già gli strumenti pronti.
+
+1. Nella cartella principale fai **doppio clic** su **`terminale.bat`**.
+2. Si apre una finestra nera (nel titolo c'è scritto "cmd.exe": è normale, dentro c'è PowerShell).
+
+**Devi vedere**, in alto, in verde: `Strumenti portatili attivi (Java 25, Maven, Node, Python).`
+e sotto una riga che inizia con **`PS C:\Users\...`** e finisce con il nome della cartella del progetto, seguita da `>` e dal cursore.
+
+**Non chiudere questa finestra** finché non hai finito. Se la chiudi per sbaglio, riaprila con `terminale.bat`: non si perde niente.
+
+## Passo 5 — Scegliere l'applicazione e preparare i prompt
+
+Nella finestra del passo 4 scrivi **uno** di questi comandi, a seconda dell'applicazione scelta, e premi Invio:
 
 ```powershell
-.\mutanti.ps1 cinelib prompt
+.\mutanti.ps1 flowboard prompt
 ```
 
-Lo strumento scrive un prompt per ogni elemento da mutare e per ogni ruolo. **Non crea ancora
-nessun mutante.** Crea la cartella `generazione-cinelib/` (è nuova: non tocca le cartelle delle campagne della
-tesi) e copia al suo interno il file di istruzioni per il modello.
+(oppure `.\mutanti.ps1 cinelib prompt`, oppure `.\mutanti.ps1 cookbook prompt`)
 
-**Controllo:** `Fatto: 171 prompt …` e, sopra, `Applicable: 1057` (sono i blocchi che il
-modello dovrà scrivere). I numeri attesi per ogni applicazione sono nella tabella qui sopra e lo script li ricorda.
+Lo strumento prepara, per ogni elemento da mutare, un **prompt**: un testo che dice al modello quale elemento modificare e con
+quali operatori. **Non crea ancora nessun mutante.** Dura da pochi secondi a un minuto.
 
-## Passo 4 — Le risposte del modello
+**Devi vedere**, alla fine, una riga verde e le righe sotto:
 
-Questo è l'unico passo del modello.
+| Applicazione | `Fatto: … prompt` | `Applicable` (in alto) |
+|---|---|---|
+| CineLib | 171 | 1057 |
+| FlowBoard | 590 | 3425 |
+| CookBook | 215 | 1426 |
 
-1. Apri **Claude Code** con `generazione-cinelib` come cartella di lavoro (quella creata al passo 3).
-2. Imposta il modello su **Claude Opus 4.8**.
-3. Scrivi:
+Lo script indica anche il numero atteso (`Attesi per questa applicazione: …`). **Se i numeri sono uguali, il passo è riuscito.**
+
+**Dove sono finiti i file.** Nella cartella principale è comparsa una nuova cartella **`generazione-flowboard`** (il nome dipende
+dall'applicazione). Dentro ci sono i prompt, il file di istruzioni per il modello (`ISTRUZIONI-OPUS-4.8.md`) e il database dei mutanti,
+ancora vuoto. Nome e posizione sono sempre questi: li decide lo script, tu non scegli niente.
+
+**Se compare "Manca il file …"** hai scritto male il nome dell'applicazione: i nomi validi sono `cinelib`, `flowboard`, `cookbook`.
+
+## Passo 6 — Far scrivere le risposte al modello
+
+Questa è l'**unica parte che fa il modello**. Si fa in **Claude Code**, non nella finestra nera.
+
+1. Apri **Claude Code** e inizia una **nuova sessione**.
+2. Come **cartella di lavoro** scegli la cartella creata al passo 5:
+   `…\Automatic-Angular-E2E-Testing-Suite-master\generazione-flowboard`
+   (nell'app Claude Code: seleziona questa cartella come cartella di lavoro della nuova sessione; da riga di comando: `cd` in quella cartella e poi `claude`).
+3. Imposta il modello **Claude Opus 4.8** dal selettore dei modelli.
+4. Scrivi questo messaggio e invialo:
 
    ```
    Leggi il file ISTRUZIONI-OPUS-4.8.md in questa cartella ed eseguilo.
    ```
 
-Il modello scrive un file di risposta per ogni prompt in `generazione-cinelib/output/mutations/role-ingest/`
-e un registro `_registro.txt` con il nome del modello. Completo richiede molto tempo (un prompt alla volta). Per una
-prova veloce si può chiedere al modello di fare solo i primi 10 prompt: i mutanti saranno meno e lo strumento segnerà
-gli altri come "blocco mancante".
+   **Per una prova breve**, aggiungi alla fine del messaggio: `Fai solo i primi 20 blocchi.`
+   (La generazione completa dura molto tempo e consuma molti crediti: 590 prompt per FlowBoard. Per vedere che tutto funziona bastano pochi.)
+5. Il modello legge i prompt uno alla volta e scrive le risposte in
+   `generazione-flowboard\output\mutations\role-ingest\`, un file per prompt, più il file `_registro.txt`.
+   Può chiedere il permesso di scrivere i file: concedilo. **Aspetta che dica di aver finito.**
 
-**Controllo:** apri `_registro.txt`: deve riportare `Claude Opus 4.8` e il totale dei blocchi.
+**Devi vedere**, al termine, nella cartella `role-ingest` dei file di testo (uno per prompt) e il file **`_registro.txt`**.
+Aprilo (doppio clic): la prima riga deve riportare **`Claude Opus 4.8`**. Se il modello è un altro, i mutanti non saranno quelli della tesi.
 
-## Passo 5 — Completare e salvare i mutanti
+Il modello non deve lanciare comandi né toccare altri file. Se lo fa, interrompilo e ripeti il passo dall'inizio.
 
-Torna al terminale del passo 3 (o riaprilo con `terminale.bat`) e scrivi:
+## Passo 7 — Salvare i mutanti
+
+Torna alla **finestra nera del passo 4** e scrivi:
 
 ```powershell
-.\mutanti.ps1 cinelib completa
+.\mutanti.ps1 flowboard completa
 ```
 
-Lo strumento, in ordine: produce gli operatori h (spostamenti fra file) e f, g (spostamenti
-nello stesso file); poi legge le risposte del modello, rimette ogni modifica nel suo file e
-scarta i blocchi mancanti, quelli che toccano un attributo `x-test`, quelli che non cambiano
-nulla e i duplicati.
+Lo strumento, in ordine: produce gli operatori **h** (spostamenti fra file) ed **f, g** (spostamenti nello stesso file) da programma;
+legge le risposte del modello e rimette ogni modifica nel suo file; scarta le risposte mancanti, quelle che toccano un attributo
+`x-test`, quelle che non cambiano nulla e i duplicati; salva tutto nel database. Dura circa uno o due minuti.
 
-**Controllo con tutte le risposte (CineLib, 171 file):**
+**Devi vedere** tre righe `DONE` e, alla fine, in verde:
+**`Fatto. Mutanti nel database: N`**.
 
-| Riga | Valore atteso |
+| Applicazione | h | f + g | Con **tutte** le risposte del modello |
+|---|---|---|---|
+| CineLib | 107 | 171 | N = **944** |
+| FlowBoard | 176 | 302 | N = **1.559** |
+| CookBook | 202 | 349 | N = **1.939** |
+
+I valori di h e di f + g sono **sempre quelli della tabella**, anche con una prova breve. Quello che cambia con le risposte del
+modello è solo il totale: con una prova breve N è più basso e lo script scrive "è una prova parziale". È normale.
+
+**Per CookBook** (facoltativo): `.\mutanti.ps1 cookbook escludi-i` toglie i 10 mutanti dell'operatore i sul bersaglio, per ottenere i
+**1.929** mutanti della tesi.
+
+**Non lanciare `completa` due volte** sulla stessa applicazione: aggiungerebbe mutanti doppi, e lo script rifiuta di farlo.
+Per rifare da zero: vedi il passo 11.
+
+## Passo 8 — Guardare i mutanti (facoltativo)
+
+```powershell
+.\mutanti.ps1 flowboard esporta
+```
+
+**Devi vedere** `Esportate N mutazioni in …\generazione-flowboard\esporta`. Apri la cartella **`esporta`**: c'è un file `.mut` per
+ogni mutante, apribile con il Blocco note. Dentro c'è il template HTML intero con **una sola modifica**: confrontandolo con
+l'originale in `applicazioni-soggetto\<applicazione>\src\app\...` si trova la riga cambiata.
+
+## Passo 9 — Far girare i mutanti con i test
+
+Qui si inserisce un mutante alla volta nell'applicazione e si eseguono i test con le **sette strategie di localizzazione**
+(Absolute, Relative, ROBULA, ROBULA+, Selenium, Katalon, Hook-Based). Serve **Google Chrome**.
+
+1. **Chiudi** gli altri programmi pesanti e **non usare mouse e tastiera** mentre gira: si aprono finestre di Chrome da sole.
+   Non serve installare estensioni: le strategie Selenium e Katalon sono già incluse nei test compilati.
+2. Nella finestra nera scrivi:
+
+```powershell
+.\mutanti.ps1 flowboard esegui 20
+```
+
+Il numero (20) è quanti mutanti provare. Se lo ometti sono 20. Sono scelti a caso con un **seme fisso**, quindi sono sempre gli
+stessi. Più mutanti vuol dire più tempo (circa **13–20 secondi a mutante**, misurati nelle campagne della tesi).
+
+3. Cosa succede, da solo, per ogni gruppo di test:
+   - lo script scrive `applicazione X: N mutanti nel database; ne provo 20 …`;
+   - avvia l'applicazione una prima volta per "scaldarla" (`avvio di prova … pronto in … s`: **può durare un paio di minuti**);
+   - per ogni mutante: inserisce la modifica, aspetta la ricompilazione, esegue i test con le sette strategie e **rimette il template
+     originale**;
+   - ogni 20 secondi circa scrive `in corso, mancano N mutanti su 20`.
+4. Alla fine scrive `template dell'applicazione rimessi come all'inizio` e `finito in … secondi`.
+
+**Tempo totale per 20 mutanti: circa 5–10 minuti.**
+
+**Se si chiude Chrome o appare un errore** a metà: aspetta, poi **rilancia lo stesso comando**; riparte da capo sul gruppo.
+In ogni caso i template dell'applicazione vengono rimessi a posto.
+
+## Passo 10 — Leggere i risultati
+
+Alla fine del passo 9 compare in finestra una tabella come questa:
+
+```
+RISULTATI - flowboard - 20 mutanti provati (campione casuale, seme 1234)
+  Mutanti che compilano (validi): 14   |   non compilati: 6
+  Prove sprecate (falliscono con tutte le strategie): 1 su 14 provate (7.1%)
+
+  Strategia     Successi  Fragilita   Stabilita (successi/valutabili)
+  Absolute            12          1                          92.3%
+  Relative            12          1                          92.3%
+  ...
+```
+
+**Come si legge**
+
+| Voce | Significato |
 |---|---|
-| `DONE (h auto)` | `Saved (+resumed): 107` |
-| `DONE (f/g auto)` | `Saved (+resumed): 171` |
-| `DONE (role 11x5)` | `Saved: 666 \| Rejected: 391` |
+| **Mutanti che compilano** | la modifica ha lasciato l'applicazione funzionante: il mutante è **valido** |
+| **Non compilati** | dopo la modifica l'applicazione non si ricompila: il mutante non viene provato e non conta come fragilità |
+| **Prove sprecate** | prove in cui falliscono **tutte e sette** le strategie: la modifica ha rotto la funzione, e non dice niente sui locatori |
+| **Successi** | il test passa con quella strategia: il locatore ha resistito alla modifica |
+| **Fragilità** | il test fallisce con quella strategia mentre con altre passa: la colpa è del locatore |
+| **Stabilità** | successi diviso (successi + fragilità), in percentuale: più è alta, più la strategia è robusta |
 
-Totale nel database: 107 + 171 + 666 = **944 mutanti** (come nella tesi, Tabella 4.1). Lo script lo scrive alla fine
-(`Mutanti nel database: 944`). I mutanti sono in `generazione-cinelib/mutations.db`.
+**Dove sono i file** (cartella `generazione-flowboard\output\tests\`, apribili con il Blocco note o con Excel):
 
-**Non rilanciare `completa`** sulla stessa generazione: aggiungerebbe mutanti doppi, e lo script lo rifiuta. Per rifare
-da zero si cancella la cartella `generazione-cinelib` e si riparte dal passo 3.
+| File | Contenuto |
+|---|---|
+| `riepilogo.txt` | la tabella qui sopra |
+| `mutanti-provati.csv` | per ogni mutante provato: nome, identificativo e se **compila** o **non compila** (è la **verifica della compilazione**) |
+| `batches-<gruppo>.csv` | il dettaglio di ogni prova: mutante, strategia, esito (`PASSED` passa, `FAILED` fallisce, `NOT_APPLICABLE` non compilato) |
+| `stats.csv` | il conteggio per strategia fatto dallo strumento |
 
-## Passo 6 — Solo per CookBook: gli stessi mutanti della tesi (facoltativo)
+**Con pochi mutanti i numeri sono solo indicativi.** Nella tesi si usano tutti i mutanti di ogni applicazione: 944, 1.559 e
+1.929. Il risultato che si ripete è che **Absolute** è la strategia più fragile e **ROBULA+** la più robusta fra quelle che non
+usano gli attributi di test.
 
-Nella tesi 10 mutanti dell'operatore i applicato al bersaglio sono stati tolti dalla campagna principale di CookBook
-(§ 4.1). Per avere lo stesso insieme (1.929):
+## Passo 11 — Rifare da zero o cambiare applicazione
 
-```powershell
-.\mutanti.ps1 cookbook escludi-i
-```
+- **Cambiare applicazione:** ripeti dal passo 5 con il nome di un'altra applicazione (creerà un'altra cartella `generazione-…`).
+- **Rifare la stessa applicazione:** chiudi tutto, **cancella la cartella** `generazione-flowboard` (clic destro → Elimina) e ricomincia
+  dal passo 5. Lo strumento non riparte sopra una generazione già fatta, per non creare mutanti doppi.
 
-## Passo 7 — Guardare i mutanti (facoltativo)
-
-```powershell
-.\mutanti.ps1 cinelib esporta
-```
-
-Crea la cartella `generazione-cinelib/esporta/` con un file `.mut` per mutante, leggibile con qualsiasi
-editor: il template HTML intero con una sola modifica. Per vederla, confrontalo con l'originale
-in `applicazioni-soggetto/`.
+---
 
 ## Se qualcosa non va
 
-| Sintomo | Causa e rimedio |
+| Cosa vedi | Cosa fare |
 |---|---|
-| `Manca la cartella strumenti` o `Manca lo strumento compilato` | non hai fatto il passo 2 |
-| `Non ci sono risposte del modello` | non hai fatto il passo 4 (o `role-ingest` è vuota) |
-| `Nel database ci sono già N mutanti` | hai già fatto `completa`: cancella `generazione-<app>` per rifare da zero |
-| `Saved: 0` all'acquisizione | le risposte non sono nella cartella giusta: devono stare in `generazione-<app>/output/mutations/role-ingest/` |
-| Numeri diversi dalla tabella | normale se il modello è un altro o se hai fatto solo una parte dei prompt |
+| "stai avviando installa.bat da dentro un file ZIP" | estrai lo ZIP (passo 2) e riapri `installa.bat` dalla cartella estratta |
+| Errore rosso durante `installa.bat` | rilancia `installa.bat`; se ricompare, fotografa lo schermo |
+| "Manca la cartella strumenti" / "Manca lo strumento compilato" | non hai finito il passo 3: rilancia `installa.bat` |
+| Nella finestra non c'è la scritta verde "Strumenti portatili attivi" | chiudi la finestra e riaprila con `terminale.bat` (passo 4) |
+| "non può essere eseguito" / "non è firmato digitalmente" | stai usando un PowerShell aperto da te: usa **solo** la finestra di `terminale.bat` |
+| "Manca il file role-targets-…" | nome dell'applicazione sbagliato (valgono `cinelib`, `flowboard`, `cookbook`) |
+| "Non ci sono risposte del modello" | il passo 6 non è stato fatto, oppure `role-ingest` è vuota |
+| "Nel database ci sono già N mutanti" | hai già fatto `completa`: per rifare, passo 11 |
+| "Non ci sono mutanti … fai prima 'prompt', il modello e 'completa'" | il passo 7 non è stato fatto per questa applicazione |
+| "Google Chrome non trovato" | installa Chrome da `https://www.google.com/chrome/` |
+| "la classe del driver di Chrome non è aggiornata" | rilancia `installa.bat` (ricompila lo strumento) |
+| "non trovo l'applicazione" / "mancano le dipendenze" | hai spostato la cartella dopo l'installazione: rilancia `installa.bat` |
+| Numeri diversi da quelli delle tabelle | normale se hai fatto una prova breve (passo 6) o se il modello non è Opus 4.8 |
 
-Ogni fase di `mutanti.ps1` parte da impostazioni pulite: non dipende da ciò che è rimasto nella finestra.
+## Un'applicazione tua (facoltativo)
 
-## Un'applicazione tua
+Servono gli attributi `x-test`, il file dei bersagli e la configurazione: vedi `CLAUDE.md`, sezione "Preparare un'applicazione nuova".
+Per i test servono anche le classi di test scritte per quella applicazione, quindi il passo 9 oggi vale solo per CineLib, FlowBoard e CookBook.
 
-Servono gli attributi `x-test`, il file dei bersagli e la configurazione; vedi `CLAUDE.md`, passo 3.
-Poi si usa lo stesso script con il nome della tua applicazione (`.\mutanti.ps1 miaapp prompt`), a patto di avere
-`role-targets-miaapp.json` e `generator-config-miaapp.json` nella cartella principale.
-
-Per rifare anche i test sui mutanti e le misure della tesi vedi `RIPRODURRE-LE-CAMPAGNE.md`
-(i programmi di test contengono ancora percorsi del PC su cui sono stati usati).
+Per rifare le campagne **complete** della tesi (tutti i mutanti) vedi `RIPRODURRE-LE-CAMPAGNE.md`: i suoi programmi contengono ancora
+percorsi del PC su cui sono stati usati. Il passo 9 di questa guida usa invece uno script nuovo (`esegui_mutanti.py`), che funziona su
+qualsiasi PC.
