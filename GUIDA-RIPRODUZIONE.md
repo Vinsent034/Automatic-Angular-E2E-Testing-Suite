@@ -4,8 +4,8 @@ Questa guida porta **da zero** (nessun programma installato, repository non anco
 alla loro esecuzione con i test e alla lettura dei risultati. Ogni passo dice **dove** si trova ciò che serve,
 **cosa fare**, **cosa si deve vedere** e **cosa fare se non si vede**. È stata provata passo per passo su Windows.
 
-Si può fare con una delle tre applicazioni della tesi: **CineLib**, **FlowBoard** o **CookBook**. Negli esempi c'è
-FlowBoard: per un'altra applicazione basta scrivere il suo nome nei comandi (`cinelib`, `flowboard`, `cookbook`).
+Si può fare con una delle tre applicazioni della tesi: **CineLib**, **FlowBoard** o **CookBook**. Nei comandi
+`<nome-applicazione>` si sostituisce con il nome dell'applicazione: `cinelib`, `flowboard` o `cookbook`.
 
 ---
 
@@ -132,7 +132,7 @@ e sotto una riga che inizia con **`PS C:\Users\...`** e finisce con il nome dell
 Nella finestra del passo 4 scrivi **uno** di questi comandi, a seconda dell'applicazione scelta, e premi Invio:
 
 ```powershell
-.\mutanti.ps1 flowboard prompt
+.\mutanti.ps1 <nome-applicazione> prompt
 ```
 
 (oppure `.\mutanti.ps1 cinelib prompt`, oppure `.\mutanti.ps1 cookbook prompt`)
@@ -150,7 +150,7 @@ quali operatori. **Non crea ancora nessun mutante.** Dura da pochi secondi a un 
 
 Lo script indica anche il numero atteso (`Attesi per questa applicazione: …`). **Se i numeri sono uguali, il passo è riuscito.**
 
-**Dove sono finiti i file.** Nella cartella principale è comparsa una nuova cartella **`generazione-flowboard`** (il nome dipende
+**Dove sono finiti i file.** Nella cartella principale è comparsa una nuova cartella **`generazione-<nome-applicazione>`** (il nome dipende
 dall'applicazione). Dentro ci sono i prompt, il file di istruzioni per il modello (`ISTRUZIONI-OPUS-4.8.md`) e il database dei mutanti,
 ancora vuoto. Nome e posizione sono sempre questi: li decide lo script, tu non scegli niente.
 
@@ -162,7 +162,7 @@ Questa è l'**unica parte che fa il modello**. Si fa in **Claude Code**, non nel
 
 1. **(utente)** Apri **Claude Code** e inizia una **nuova sessione**.
 2. **(utente)** Come **cartella di lavoro** scegli la cartella creata al passo 5:
-   `…\Automatic-Angular-E2E-Testing-Suite-master\generazione-flowboard`
+   `…\Automatic-Angular-E2E-Testing-Suite-master\generazione-<nome-applicazione>`
    (nell'app Claude Code: seleziona questa cartella come cartella di lavoro della nuova sessione; da riga di comando: `cd` in quella cartella e poi `claude`).
 3. **(utente)** Imposta il modello **Claude Opus 4.8** dal selettore dei modelli.
 4. **(utente)** Scrivi questo messaggio e invialo:
@@ -174,7 +174,7 @@ Questa è l'**unica parte che fa il modello**. Si fa in **Claude Code**, non nel
    **Per una prova breve**, aggiungi alla fine del messaggio: `Fai solo i primi 20 blocchi.`
    (La generazione completa dura molto tempo e consuma molti crediti: 590 prompt per FlowBoard. Per vedere che tutto funziona bastano pochi.)
 5. **(modello)** Il modello legge i prompt uno alla volta e scrive le risposte in
-   `generazione-flowboard\output\mutations\role-ingest\`, un file per prompt, più il file `_registro.txt`.
+   `generazione-<nome-applicazione>\output\mutations\role-ingest\`, un file per prompt, più il file `_registro.txt`.
    Può chiedere il permesso di scrivere i file: **(utente)** concedilo e aspetta che il modello dica di aver finito.
 
 **(utente)** **Devi vedere**, al termine, nella cartella `role-ingest` dei file di testo (uno per prompt) e il file **`_registro.txt`**.
@@ -187,7 +187,7 @@ Il modello non deve lanciare comandi né toccare altri file. Se lo fa, interromp
 Torna alla **finestra nera del passo 4** e scrivi:
 
 ```powershell
-.\mutanti.ps1 flowboard completa
+.\mutanti.ps1 <nome-applicazione> completa
 ```
 
 Lo strumento, in ordine: produce gli operatori **h** (spostamenti fra file) ed **f, g** (spostamenti nello stesso file) da programma;
@@ -215,12 +215,12 @@ Per rifare da zero: vedi il passo 12.
 ## Passo 8 — Guardare i mutanti, facoltativo (utente)
 
 ```powershell
-.\mutanti.ps1 flowboard esporta
+.\mutanti.ps1 <nome-applicazione> esporta
 ```
 
-**Devi vedere** `Esportate N mutazioni in …\generazione-flowboard\esporta`. Apri la cartella **`esporta`**: c'è un file `.mut` per
+**Devi vedere** `Esportate N mutazioni in …\generazione-<nome-applicazione>\esporta`. Apri la cartella **`esporta`**: c'è un file `.mut` per
 ogni mutante, apribile con il Blocco note. Dentro c'è il template HTML intero con **una sola modifica**: confrontandolo con
-l'originale in `applicazioni-soggetto\<applicazione>\src\app\...` si trova la riga cambiata.
+l'originale in `applicazioni-soggetto\<nome-applicazione>\src\app\...` si trova la riga cambiata.
 
 ## Passo 9 — Far girare i mutanti con i test (utente)
 
@@ -232,7 +232,7 @@ Qui si inserisce un mutante alla volta nell'applicazione e si eseguono i test co
 2. Nella finestra nera scrivi:
 
 ```powershell
-.\mutanti.ps1 flowboard esegui 20
+.\mutanti.ps1 <nome-applicazione> esegui 20
 ```
 
 Il numero (20) è quanti mutanti provare. Se lo ometti sono 20. Sono scelti a caso con un **seme fisso**, quindi sono sempre gli
@@ -277,7 +277,7 @@ RISULTATI - flowboard - 20 mutanti provati (campione casuale, seme 1234)
 | **Fragilità** | il test fallisce con quella strategia mentre con altre passa: la colpa è del locatore |
 | **Stabilità** | successi diviso (successi + fragilità), in percentuale: più è alta, più la strategia è robusta |
 
-**Dove sono i file** (cartella `generazione-flowboard\output\tests\`, apribili con il Blocco note o con Excel):
+**Dove sono i file** (cartella `generazione-<nome-applicazione>\output\tests\`, apribili con il Blocco note o con Excel):
 
 | File | Contenuto |
 |---|---|
@@ -299,10 +299,10 @@ i passi 5–10 (la parte statica è indipendente da quella del modello).
 **11a. Generare i mutanti statici** (nella finestra di `terminale.bat`):
 
 ```powershell
-.\mutanti.ps1 flowboard statico
+.\mutanti.ps1 <nome-applicazione> statico
 ```
 
-Dura qualche minuto. Crea la cartella `generazione-flowboard-statico` (separata da quella del modello, così non si mescolano).
+Dura qualche minuto. Crea la cartella `generazione-<nome-applicazione>-statico` (separata da quella del modello, così non si mescolano).
 Il generatore produce anche mutanti **identici fra loro**: per CineLib e FlowBoard lo strumento li toglie, come nella tesi, e
 tiene una copia completa in `mutations-completo-con-duplicati.db`.
 
@@ -321,26 +321,26 @@ file di destinazione). L'insieme esatto della tesi è nel file `cookbook-static-
 mouse e tastiera):
 
 ```powershell
-.\mutanti.ps1 flowboard esegui 20 statico
+.\mutanti.ps1 <nome-applicazione> esegui 20 statico
 ```
 
-I risultati sono in `generazione-flowboard-statico\output\tests\` (stessi file e stessa tabella del passo 10).
+I risultati sono in `generazione-<nome-applicazione>-statico\output\tests\` (stessi file e stessa tabella del passo 10).
 
 **11c. Confrontare le due tecniche**:
 
 ```powershell
-.\mutanti.ps1 flowboard confronta
+.\mutanti.ps1 <nome-applicazione> confronta
 ```
 
 Mostra, affiancati: quanti mutanti ha prodotto ciascuna tecnica, quante delle 55 combinazioni operatore × ruolo sono coperte,
 quanti mutanti per operatore e, se hai fatto il passo 9 e il 11b, quanti compilano, le prove sprecate e la stabilità di ogni
-strategia. Il testo è salvato in `generazione-flowboard\confronto.txt` (o nella cartella statica, se manca quella del modello).
+strategia. Il testo è salvato in `generazione-<nome-applicazione>\confronto.txt` (o nella cartella statica, se manca quella del modello).
 Con pochi mutanti i numeri sono solo indicativi.
 
 ## Passo 12 — Rifare da zero o cambiare applicazione (utente)
 
 - **Cambiare applicazione:** ripeti dal passo 5 con il nome di un'altra applicazione (creerà un'altra cartella `generazione-…`).
-- **Rifare la stessa applicazione:** chiudi tutto, **cancella la cartella** `generazione-flowboard` (clic destro → Elimina) e ricomincia
+- **Rifare la stessa applicazione:** chiudi tutto, **cancella la cartella** `generazione-<nome-applicazione>` (clic destro → Elimina) e ricomincia
   dal passo 5. Lo strumento non riparte sopra una generazione già fatta, per non creare mutanti doppi.
 
 ---
@@ -358,7 +358,7 @@ Con pochi mutanti i numeri sono solo indicativi.
 | "Non ci sono risposte del modello" | il passo 6 non è stato fatto, oppure `role-ingest` è vuota |
 | "Nel database ci sono già N mutanti" | hai già fatto `completa` (o `statico`): per rifare, passo 12 |
 | "Non ci sono mutanti … fai prima 'prompt', il modello e 'completa'" | il passo 7 non è stato fatto per questa applicazione |
-| "Non ci sono mutanti statici … fai prima … statico" | prima di `esegui … statico` serve `.\mutanti.ps1 <applicazione> statico` (passo 11a) |
+| "Non ci sono mutanti statici … fai prima … statico" | prima di `esegui … statico` serve `.\mutanti.ps1 <nome-applicazione> statico` (passo 11a) |
 | "Non c'è nessuna generazione per …" (confronta) | non è stata fatta né la generazione del modello né quella statica |
 | "Google Chrome non trovato" | installa Chrome da `https://www.google.com/chrome/` |
 | "la classe del driver di Chrome non è aggiornata" | rilancia `installa.bat` (ricompila lo strumento) |

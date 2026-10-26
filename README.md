@@ -46,7 +46,7 @@ nel database. Tutto il resto lo fa l'utente con i comandi.
 ## I passi
 
 > I comandi si scrivono nella finestra nera aperta con `terminale.bat`, **su una sola riga**, seguiti da Invio.
-> Negli esempi c'è FlowBoard: per un'altra applicazione si scrive `cinelib` o `cookbook`.
+> Nei comandi `<nome-applicazione>` si sostituisce con `cinelib`, `flowboard` o `cookbook` (le tre applicazioni di questo lavoro).
 
 ### 1. Scaricare il progetto — *utente*
 1. Apri **`https://github.com/Vinsent034/Automatic-Angular-E2E-Testing-Suite`** nel browser.
@@ -70,11 +70,12 @@ Doppio clic su **`terminale.bat`**. Deve comparire in verde `Strumenti portatili
 `PS C:\...`. Tutti i comandi seguenti si scrivono **in questa finestra**.
 
 ### 5. Scegliere l'applicazione e preparare i prompt — *utente scrive, lo strumento prepara*
-In questo lavoro sono state implementate solo 3 applicazioni -> cinelib, flowboard, cookbook
+In questo lavoro sono state implementate solo 3 applicazioni: `cinelib`, `flowboard`, `cookbook`.
+
 ```powershell
-.\mutanti.ps1 nome_applicazione prompt
+.\mutanti.ps1 <nome-applicazione> prompt
 ```
-Crea la cartella `generazione-nome_dlla_cartella_inserita` con un prompt per ogni elemento da mutare e il file di istruzioni per il modello. **Non crea
+Crea la cartella `generazione-<nome-applicazione>` con un prompt per ogni elemento da mutare e il file di istruzioni per il modello. **Non crea
 ancora nessun mutante.**
 
 | Applicazione | Prompt | `Applicable` (blocchi) |
@@ -84,17 +85,17 @@ ancora nessun mutante.**
 | CookBook (`cookbook`) | 215 | 1426 |
 
 ### 6. Far scrivere le risposte al modello — *utente avvia, modello scrive*
-1. *(utente)* Apri **Claude Code**, nuova sessione, con cartella di lavoro `generazione-flowboard` (quella creata al passo 5, se si mette flowboard come aplicazione).
+1. *(utente)* Apri **Claude Code**, nuova sessione, con cartella di lavoro `generazione-<nome-applicazione>` (quella creata al passo 5).
 2. *(utente)* Imposta il modello **Claude Opus 4.8**.
 3. *(utente)* Scrivi e invia: `Leggi il file ISTRUZIONI-OPUS-4.8.md in questa cartella ed eseguilo.`
    Per una **prova breve** aggiungi: `Fai solo i primi 20 blocchi.` (la generazione completa dura molto e consuma molti crediti).
-4. *(modello)* Legge i prompt uno alla volta e scrive le risposte in `generazione-flowboard\output\mutations\role-ingest\`, più il
+4. *(modello)* Legge i prompt uno alla volta e scrive le risposte in `generazione-<nome-applicazione>\output\mutations\role-ingest\`, più il
    file `_registro.txt`. *(utente)* Concedi i permessi di scrittura e aspetta che finisca.
 5. *(utente)* Apri `_registro.txt`: la prima riga deve riportare `Claude Opus 4.8`.
 
 ### 7. Salvare i mutanti — *utente scrive, lo strumento salva*
 ```powershell
-.\mutanti.ps1 flowboard completa
+.\mutanti.ps1 <nome-applicazione> completa
 ```
 Produce gli operatori h, f e g da programma, legge le risposte del modello e salva tutto nel database. **Fine:** `Mutanti nel database: N`.
 
@@ -108,13 +109,13 @@ h e f + g non cambiano con una prova breve; cambia solo il totale. Non rilanciar
 
 ### 8. Guardare i mutanti (facoltativo) — *utente*
 ```powershell
-.\mutanti.ps1 flowboard esporta
+.\mutanti.ps1 <nome-applicazione> esporta
 ```
-Crea `generazione-flowboard\esporta` con un file `.mut` per mutante, apribile con il Blocco note: il template HTML con **una sola modifica**.
+Crea `generazione-<nome-applicazione>\esporta` con un file `.mut` per mutante, apribile con il Blocco note: il template HTML con **una sola modifica**.
 
 ### 9. Eseguire i mutanti con i test — *utente scrive, lo strumento esegue*
 ```powershell
-.\mutanti.ps1 flowboard esegui 20
+.\mutanti.ps1 <nome-applicazione> esegui 20
 ```
 Prova 20 mutanti (campione casuale con seme fisso, quindi sempre gli stessi) con i test delle **sette strategie** di localizzazione
 (Absolute, Relative, ROBULA, ROBULA+, Selenium, Katalon, Hook-Based). Si aprono finestre di Chrome da sole: **non toccare mouse e
@@ -123,7 +124,7 @@ template originale**. Servono circa **5–10 minuti** per 20 mutanti.
 
 ### 10. Leggere i risultati — *utente*
 Alla fine compare una tabella: mutanti che **compilano** (validi) e **non compilati**, **prove sprecate** (falliscono con tutte le
-strategie) e, per ogni strategia, **successi**, **fragilità** e **stabilità**. I file sono in `generazione-flowboard\output\tests\`:
+strategie) e, per ogni strategia, **successi**, **fragilità** e **stabilità**. I file sono in `generazione-<nome-applicazione>\output\tests\`:
 
 | File | Contenuto |
 |---|---|
@@ -138,9 +139,9 @@ robusta fra quelle che non usano gli attributi di test.
 Il generatore statico non usa il modello: niente prompt e niente risposte da scrivere. Si può fare anche senza i passi 5-10.
 
 ```powershell
-.\mutanti.ps1 flowboard statico             # genera i mutanti statici (cartella generazione-flowboard-statico)
-.\mutanti.ps1 flowboard esegui 20 statico   # li prova con i test (Chrome: non toccare mouse e tastiera)
-.\mutanti.ps1 flowboard confronta           # mette a confronto le due tecniche
+.\mutanti.ps1 <nome-applicazione> statico             # genera i mutanti statici (cartella generazione-<nome-applicazione>-statico)
+.\mutanti.ps1 <nome-applicazione> esegui 20 statico   # li prova con i test (Chrome: non toccare mouse e tastiera)
+.\mutanti.ps1 <nome-applicazione> confronta           # mette a confronto le due tecniche
 ```
 
 Dopo `statico` si devono vedere 1.254 mutanti generati e 944 distinti per CineLib, 4.263 e 2.148 per FlowBoard; per CookBook la tesi
@@ -148,7 +149,7 @@ ne ha 1.503 e li ha provati tutti (rigenerandoli ne escono 1.504). I dettagli so
 
 ### 12. Rifare da zero o cambiare applicazione — *utente*
 Per un'altra applicazione si ripete dal passo 5 con un altro nome. Per rifare la stessa si **cancella la cartella**
-`generazione-flowboard` (e `generazione-flowboard-statico`) e si riparte dal passo 5.
+`generazione-<nome-applicazione>` (e `generazione-<nome-applicazione>-statico`) e si riparte dal passo 5.
 
 ---
 
@@ -189,7 +190,7 @@ parte e dove finisce lo strumento, è in [`STRUMENTO.md`](STRUMENTO.md).
 
 | Cartella | Contenuto |
 |---|---|
-| `generazione-<applicazione>/`, `generazione-<applicazione>-statico/` | prompt, risposte, database `mutations.db` ed esiti di **una** generazione (la crea `mutanti.ps1`; non è versionata) |
+| `generazione-<nome-applicazione>/`, `generazione-<nome-applicazione>-statico/` | prompt, risposte, database `mutations.db` ed esiti di **una** generazione (la crea `mutanti.ps1`; non è versionata) |
 
 ### DATI E RISULTATI DELLA TESI (non sono lo strumento)
 
