@@ -3,3 +3,6 @@ hook-injector/test-hooks/** linguist-vendored=true
 *.js -linguist-detectable
 # le applicazioni restano byte per byte come nel repository (fine riga LF anche su Windows)
 applicazioni-soggetto/** -text
+# le risposte del modello (ingresso dell'acquisizione dei mutanti) restano byte per byte come nel repository:
+# con fine riga CRLF (clone su Windows con core.autocrlf=true) i mutanti ottenuti sarebbero diversi (948 invece di 944 per CineLib)
+*-run/output/mutations/role-ingest/** -text
