@@ -24,7 +24,7 @@
 #      python analizza_blocco_a.py --md rapporto.md     -> scrive anche il rapporto su file
 import csv, glob, os, sys, collections, json, sqlite3, hashlib
 
-SUITE = os.path.dirname(os.path.abspath(__file__))
+SUITE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # cartella principale del progetto
 RUOLI = {"alf": "α bersaglio", "bet": "β padre", "gam": "γ antenato", "del": "δ fratello", "eps": "ε componente"}
 ALIAS = {"alpha": "alf", "beta": "bet", "gamma": "gam", "delta": "del", "epsilon": "eps"}
 ORDINE_RUOLI = ["alf", "bet", "gam", "del", "eps"]
@@ -35,10 +35,10 @@ ETICHETTA = {"AbsoluteXPathTest": "Absolute", "RelativeXPathTest": "Relative", "
              "HookXPathTest": "Hook-Based"}
 
 CAMPAGNE = {
- "cinelib-llm":      (SUITE,                           "CineLib linguistica"),
- "cinelib-static":   (SUITE + "/cinelib-static-run",   "CineLib statica"),
- "flowboard-llm":    (SUITE + "/flowboard-run",        "FlowBoard linguistica"),
- "flowboard-static": (SUITE + "/flowboard-static-run", "FlowBoard statica"),
+ "cinelib-llm":      (SUITE + "/archivio/campagne-luglio-2026", "CineLib linguistica"),
+ "cinelib-static":   (SUITE + "/archivio/campagne-luglio-2026/cinelib-static-run",   "CineLib statica"),
+ "flowboard-llm":    (SUITE + "/archivio/campagne-luglio-2026/flowboard-run",        "FlowBoard linguistica"),
+ "flowboard-static": (SUITE + "/archivio/campagne-luglio-2026/flowboard-static-run", "FlowBoard statica"),
  "cookbook-llm":     (SUITE + "/cookbook-run",         "CookBook linguistica"),
  "cookbook-static":  (SUITE + "/cookbook-static-run",  "CookBook statica"),
  # revisione di settembre 2026: tutte e tre le app su 11 x 5 (FlowBoard e CineLib ricostruite)

@@ -21,10 +21,10 @@ JAVA  = "C:/Program Files/Eclipse Adoptium/jdk-25.0.2.10-hotspot/bin/java.exe"
 JAR   = SUITE + "/mutation-tester/target/mutation-tester-1.0.0-jar-with-dependencies.jar"
 
 CAMPAGNE = [
- ("CineLib linguistica",   [sys.executable, "-u", SUITE + "/run_cinelib_llm_resume.py"],                SUITE),
- ("CineLib statica",       [sys.executable, "-u", SUITE + "/cinelib-static-run/run_cinelib_static_resume.py"], SUITE + "/cinelib-static-run"),
- ("FlowBoard linguistica", [sys.executable, "-u", SUITE + "/run_flowboard_resume.py", "llm"],            SUITE),
- ("FlowBoard statica",     [sys.executable, "-u", SUITE + "/run_flowboard_resume.py", "static"],         SUITE),
+ ("CineLib linguistica",   [sys.executable, "-u", SUITE + "/archivio/campagne-luglio-2026/programmi-di-controllo/run_cinelib_llm_resume.py"],                SUITE),
+ ("CineLib statica",       [sys.executable, "-u", SUITE + "/archivio/campagne-luglio-2026/cinelib-static-run/run_cinelib_static_resume.py"], SUITE + "/archivio/campagne-luglio-2026/cinelib-static-run"),
+ ("FlowBoard linguistica", [sys.executable, "-u", SUITE + "/archivio/campagne-luglio-2026/programmi-di-controllo/run_flowboard_resume.py", "llm"],            SUITE),
+ ("FlowBoard statica",     [sys.executable, "-u", SUITE + "/archivio/campagne-luglio-2026/programmi-di-controllo/run_flowboard_resume.py", "static"],         SUITE),
 ]
 
 def log(m): print(f"[{time.strftime('%Y-%m-%d %H:%M:%S')}] {m}", flush=True)
@@ -46,15 +46,15 @@ def preflight():
     ok = True
     if not os.path.isfile(JAVA): log("PREFLIGHT: manca Java 25 -> " + JAVA); ok = False
     if not os.path.isfile(JAR):  log("PREFLIGHT: manca il jar del mutation-tester"); ok = False
-    for td in glob.glob(SUITE + "/ext-test-classes/target/cinelib-only*") + glob.glob(SUITE + "/flowboard-run/td-*"):
+    for td in glob.glob(SUITE + "/ext-test-classes/target/cinelib-only*") + glob.glob(SUITE + "/archivio/campagne-luglio-2026/flowboard-run/td-*"):
         k = len(glob.glob(td + "/**/*XPathTest.class", recursive=True))
         atteso = 14 if td.endswith("td-s1s2") else 7
         if k != atteso:
             log(f"PREFLIGHT: {os.path.basename(td)} ha {k} classi di test, attese {atteso}"); ok = False
     for db, atteso in [(SUITE + "/mutations.db", 1263),
-                       (SUITE + "/cinelib-static-run/mutations.db", 1142),
-                       (SUITE + "/flowboard-run/mutations.db", 1225),
-                       (SUITE + "/flowboard-static-run/mutations.db", 2840)]:
+                       (SUITE + "/archivio/campagne-luglio-2026/cinelib-static-run/mutations.db", 1142),
+                       (SUITE + "/archivio/campagne-luglio-2026/flowboard-run/mutations.db", 1225),
+                       (SUITE + "/archivio/campagne-luglio-2026/flowboard-static-run/mutations.db", 2840)]:
         con = sqlite3.connect(db)
         n = con.execute("select count(*) from mutations").fetchone()[0]
         mancanti = sum(1 for (p,) in con.execute("select distinct target_file_path from mutated_files")

@@ -30,7 +30,7 @@ import sqlite3, subprocess, os, sys, time, shutil, glob, hashlib, ntpath, csv, j
 from collections import defaultdict
 
 SUITE  = "C:/Users/vince/OneDrive/Desktop/Università/Tirocinio/progetto/Automatic-Angular-E2E-Testing-Suite"
-TDBASE = SUITE + "/flowboard-run"        # le test-dir sono condivise fra le due campagne
+TDBASE = SUITE + "/archivio/campagne-luglio-2026/flowboard-run"        # le test-dir sono condivise fra le due campagne
 JAVA   = "C:/Program Files/Eclipse Adoptium/jdk-25.0.2.10-hotspot/bin/java.exe"
 CP     = SUITE + "/mutation-tester/target/mutation-tester-1.0.0-jar-with-dependencies.jar;" + SUITE + "/vintage-fix"
 CFG    = SUITE + "/generator-config-flowboard.json"
@@ -42,8 +42,8 @@ MAX_AVVII   = 3    # tentativi per esecuzione se il dev server non parte entro i
 MAX_MANCATI = 3    # quante volte un mutante puo' mancare dall'output prima di essere abbandonato
 
 MODES = {
- "llm":    SUITE + "/flowboard-run",
- "static": SUITE + "/flowboard-static-run",
+ "llm":    SUITE + "/archivio/campagne-luglio-2026/flowboard-run",
+ "static": SUITE + "/archivio/campagne-luglio-2026/flowboard-static-run",
 }
 COMP2GROUP = {
  "board": "s1s2", "card": "s1s2", "column": "s1s2",

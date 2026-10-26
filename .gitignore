@@ -70,3 +70,7 @@ _archivio-appunti/
 
 # cartelle di lavoro create da mutanti.ps1 (prompt, risposte e database di una generazione)
 generazione-*/
+.idea/
+
+# registri scritti dai programmi di controllo delle campagne
+programmi-di-controllo/*.log

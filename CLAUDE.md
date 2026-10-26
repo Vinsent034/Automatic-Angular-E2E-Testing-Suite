@@ -159,5 +159,5 @@ Il generatore statico usa il seme fisso e produce sempre gli stessi mutanti, dup
 - `GUIDA-RIPRODUZIONE.md`: la procedura completa per l'utente.
 - `RIPRODURRE-LE-CAMPAGNE.md`: come rifare le campagne della tesi, test compresi.
 - `README.md` e `applicazioni-soggetto/README.md`: struttura del repository e applicazioni.
-- I programmi di controllo dei test (`run_*_resume.py`) contengono ancora i percorsi del PC su cui sono state fatte le
+- I programmi di controllo dei test (`programmi-di-controllo/run_*_resume.py`) contengono ancora i percorsi del PC su cui sono state fatte le
   campagne: su un altro PC vanno adattati prima dell'uso.

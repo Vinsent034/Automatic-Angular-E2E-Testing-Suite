@@ -142,13 +142,13 @@ dei test (la mappa è in `mappa-duplicati.json`); su CookBook sono stati provati
 
 ## 4. Test sui mutanti
 
-Chiudere Chrome, poi fare doppio clic su (o lanciare dalla radice):
+Chiudere Chrome, poi fare doppio clic su uno di questi file, che stanno nella cartella `programmi-di-controllo/`:
 
 | Applicazione | File da avviare | Registro |
 |---|---|---|
-| CineLib | `avvia_cinelib_v2.bat` | `cinelib-v2.log` |
-| FlowBoard | `avvia_flowboard_v2.bat` | `flowboard-v2.log` |
-| CookBook | `avvia_cookbook.bat` | `cookbook.log` |
+| CineLib | `programmi-di-controllo/avvia_cinelib_v2.bat` | `programmi-di-controllo/cinelib-v2.log` |
+| FlowBoard | `programmi-di-controllo/avvia_flowboard_v2.bat` | `programmi-di-controllo/flowboard-v2.log` |
+| CookBook | `programmi-di-controllo/avvia_cookbook.bat` | `programmi-di-controllo/cookbook.log` |
 
 Ogni file lancia le due campagne (linguistica e statica). Per ogni mutante il programma inserisce
 il template mutato nell'applicazione, aspetta la ricompilazione, esegue i test dello scenario
@@ -158,10 +158,10 @@ riprende dal gruppo non finito. Gli esiti vanno in `output/tests/batches-*.csv`.
 ## 5. Misure
 
 ```powershell
-python numeri_capitolo4.py
-python analizza_blocco_a.py --revisione
+python analisi-risultati/numeri_capitolo4.py
+python analisi-risultati/analizza_blocco_a.py --revisione
 ```
 
-Il primo scrive `numeri-capitolo4.json` con tutte le misure del Capitolo 4 (validità per
+Il primo scrive `analisi-risultati/numeri-capitolo4.json` con tutte le misure del Capitolo 4 (validità per
 operatore e ruolo, tassi di stabilità e di obsolescenza); il secondo produce il report di
 confronto fra le tre applicazioni.

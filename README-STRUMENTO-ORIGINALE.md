@@ -55,9 +55,9 @@ attributi di test.
 | [`cookbook-static`](mutazioni-generate/cookbook-static) | CookBook | statica | 1 454 | 1 197 | `cookbook-static-run/` |
 
 Per la tecnica statica sono contati solo i mutanti distinti (vedi
-`mutazioni-generate/README.md`). Le cartelle `cinelib-static-run/`, `flowboard-run/`,
-`flowboard-static-run/` e `output/` contengono campagne precedenti (luglio 2026, versione
-precedente delle applicazioni): sono conservate solo come storico e non sono usate nei
+`mutazioni-generate/README.md`). Le campagne precedenti (luglio 2026, versione
+precedente delle applicazioni: `cinelib-static-run/`, `flowboard-run/`, `flowboard-static-run/` e `output/`) sono
+in `archivio/campagne-luglio-2026/`: sono conservate solo come storico e non sono usate nei
 risultati della tesi.
 
 La documentazione originale che segue vale ancora per le parti comuni dello strumento.

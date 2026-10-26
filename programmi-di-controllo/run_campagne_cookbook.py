@@ -14,8 +14,8 @@ JAVA  = "C:/Program Files/Eclipse Adoptium/jdk-25.0.2.10-hotspot/bin/java.exe"
 JAR   = SUITE + "/mutation-tester/target/mutation-tester-1.0.0-jar-with-dependencies.jar"
 
 CAMPAGNE = [
- ("CookBook linguistica", [sys.executable, "-u", SUITE + "/run_cookbook_resume.py", "llm"],    SUITE),
- ("CookBook statica",     [sys.executable, "-u", SUITE + "/run_cookbook_resume.py", "static"], SUITE),
+ ("CookBook linguistica", [sys.executable, "-u", SUITE + "/programmi-di-controllo/run_cookbook_resume.py", "llm"],    SUITE),
+ ("CookBook statica",     [sys.executable, "-u", SUITE + "/programmi-di-controllo/run_cookbook_resume.py", "static"], SUITE),
 ]
 
 def log(m): print(f"[{time.strftime('%Y-%m-%d %H:%M:%S')}] {m}", flush=True)

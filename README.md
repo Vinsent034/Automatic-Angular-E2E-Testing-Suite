@@ -145,12 +145,37 @@ Su tutte e tre le applicazioni il generatore con LLM ha prodotto una quota di mu
 
 ## Contenuto del repository
 
-| Cartella o file | Contenuto |
+**Per usare lo strumento** (nella cartella principale)
+
+| File | A cosa serve |
+|---|---|
+| `installa.bat`, `installa.ps1` | installazione degli strumenti (passo 3) |
+| `terminale.bat`, `ambiente.ps1` | aprono il terminale con gli strumenti pronti (passo 4) |
+| `mutanti.ps1`, `esegui_mutanti.py`, `conta_mutanti.py` | i comandi `prompt`, `completa`, `esporta`, `esegui` (passi 5-9) |
+| `configura_percorsi.ps1`, `escludi_i_su_bersaglio.py` | usati da `installa.bat` e dal passo 7 (CookBook) |
+| `generator-config-*.json`, `role-targets*.json`, `mutation-types*.json`, `generator-config.json` | configurazioni di ogni applicazione e definizione degli 11 operatori |
+| `ISTRUZIONI-MODELLO.template.md`, `CLAUDE.md` | istruzioni per il modello e per preparare un'applicazione nuova |
+| `GUIDA-RIPRODUZIONE.md`, `RIPRODURRE-LE-CAMPAGNE.md`, `README-STRUMENTO-ORIGINALE.md` | guide: passi dettagliati, campagne complete della tesi, strumento originale |
+
+**Codice e applicazioni**
+
+| Cartella | Contenuto |
 |---|---|
 | [`applicazioni-soggetto/`](applicazioni-soggetto) | le tre applicazioni Angular (CineLib, FlowBoard, CookBook) |
 | [`mutation-generator/`](mutation-generator) | i due generatori: `llm-generator` (con LLM) e `static-generator` (regole fisse), più il codice comune |
-| [`mutation-tester/`](mutation-tester), [`ext-test-classes/`](ext-test-classes) | l'esecuzione dei test sui mutanti |
-| [`mutazioni-generate/`](mutazioni-generate) | gli 8.978 mutanti delle campagne, in forma leggibile |
-| [`RIPRODURRE-LE-CAMPAGNE.md`](RIPRODURRE-LE-CAMPAGNE.md) | come rifare le campagne complete della tesi (tutti i mutanti) |
-| [`README-STRUMENTO-ORIGINALE.md`](README-STRUMENTO-ORIGINALE.md) | la documentazione dello strumento originale (flusso con il generatore statico) |
-| [`CLAUDE.md`](CLAUDE.md) | istruzioni per il modello e preparazione di un'applicazione nuova |
+| [`mutation-tester/`](mutation-tester), [`ext-test-classes/`](ext-test-classes), [`vintage-fix/`](vintage-fix) | l'esecuzione dei test sui mutanti |
+| [`custom-locators/`](custom-locators), [`hook-injector/`](hook-injector) | moduli dello strumento originale (locatori personalizzati, attributi per i test) |
+| [`cinelib-v2/`](cinelib-v2), [`flowboard-v2/`](flowboard-v2) | i locatori delle sette strategie e lo script che genera le classi di test |
+
+**Dati e risultati della tesi**
+
+| Cartella | Contenuto |
+|---|---|
+| [`mutazioni-generate/`](mutazioni-generate) | gli 8.978 mutanti delle sei campagne, in forma leggibile |
+| `cinelib-v2-run/`, `flowboard-v2-run/`, `cookbook-run/` | campagne con il modello: prompt, risposte, test compilati ed esiti |
+| `cinelib-v2-static-run/`, `flowboard-v2-static-run/`, `cookbook-static-run/` | campagne con il generatore statico |
+| `cookbook-i-bersaglio-run/` | i 10 mutanti dell'operatore i sul bersaglio di CookBook |
+| [`analisi-risultati/`](analisi-risultati) | script che calcolano le misure del Capitolo 4 |
+| [`programmi-di-controllo/`](programmi-di-controllo) | i programmi con cui sono state eseguite le campagne complete della tesi |
+| [`test-suite/`](test-suite) | test del lavoro precedente su Angular-Spotify |
+| [`archivio/`](archivio) | materiale di lavoro e campagne di luglio 2026, conservati solo come storico |

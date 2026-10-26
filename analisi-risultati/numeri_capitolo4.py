@@ -4,8 +4,9 @@ TS = E_succ / E_val con E_val = E - E_nc - E_obs (3.5). Legge i CSV delle campag
 analizza_blocco_a.py (stessa classificazione dello strumento). Scrive numeri-capitolo4.json."""
 import sys, io, json, contextlib, collections, importlib.util, os
 
-SUITE = os.path.dirname(os.path.abspath(__file__))
-spec = importlib.util.spec_from_file_location("ab", os.path.join(SUITE, "analizza_blocco_a.py"))
+HERE = os.path.dirname(os.path.abspath(__file__))   # cartella analisi-risultati
+SUITE = os.path.dirname(HERE)                      # cartella principale del progetto
+spec = importlib.util.spec_from_file_location("ab", os.path.join(HERE, "analizza_blocco_a.py"))
 ab = importlib.util.module_from_spec(spec)
 sys.argv = ["x", "cookbook-ibersaglio"]
 with contextlib.redirect_stdout(io.StringIO()):
@@ -73,7 +74,7 @@ for (app, gen), (cart, dup) in RUNS.items():
     r["ruoli_coperti"] = sorted({ru for _, ru in celle})
     out[f"{app}|{gen}"] = r
 
-json.dump(out, open(os.path.join(SUITE, "numeri-capitolo4.json"), "w", encoding="utf-8"), indent=1, ensure_ascii=False)
+json.dump(out, open(os.path.join(HERE, "numeri-capitolo4.json"), "w", encoding="utf-8"), indent=1, ensure_ascii=False)
 for k, r in out.items():
     v = r["validita"]
     print(f"{k:24s} M={v['M']:5d} Mv={v['Mv']:5d} TV={100*v['Mv']/v['M']:5.1f}%  TO={r['TO']['perc']}%  celle={r['celle_coperte']}"
