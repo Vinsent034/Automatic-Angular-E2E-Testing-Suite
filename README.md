@@ -11,6 +11,10 @@ applicazioni (CineLib, FlowBoard, CookBook) ed **eseguirli** con i test. Per ogn
 o il **modello**. La versione più dettagliata, con "cosa devi vedere" e gli errori comuni, è in
 **[`GUIDA-RIPRODUZIONE.md`](GUIDA-RIPRODUZIONE.md)**.
 
+**Dov'è lo strumento?** Lo strumento è il progetto Maven (`mutation-generator`, `mutation-tester`, `ext-test-classes`, ...) più il
+programma di controllo (`mutanti.ps1`, `esegui_mutanti.py`); le altre cartelle sono applicazioni, dati o risultati. Dove parte, dove
+finisce e quali cartelle ne fanno parte è spiegato, con uno schema, in **[`STRUMENTO.md`](STRUMENTO.md)**.
+
 ---
 
 ## Requisiti
@@ -145,37 +149,49 @@ Su tutte e tre le applicazioni il generatore con LLM ha prodotto una quota di mu
 
 ## Contenuto del repository
 
-**Per usare lo strumento** (nella cartella principale)
+Ogni cartella dice nel proprio `README.md` se **fa parte dello strumento** o se contiene **dati**. Lo schema completo, con dove
+parte e dove finisce lo strumento, è in [`STRUMENTO.md`](STRUMENTO.md).
 
-| File | A cosa serve |
+### LO STRUMENTO (codice)
+
+| Cartella o file | Ruolo |
 |---|---|
-| `installa.bat`, `installa.ps1` | installazione degli strumenti (passo 3) |
-| `terminale.bat`, `ambiente.ps1` | aprono il terminale con gli strumenti pronti (passo 4) |
-| `mutanti.ps1`, `esegui_mutanti.py`, `conta_mutanti.py` | i comandi `prompt`, `completa`, `esporta`, `esegui` (passi 5-9) |
-| `configura_percorsi.ps1`, `escludi_i_su_bersaglio.py` | usati da `installa.bat` e dal passo 7 (CookBook) |
-| `generator-config-*.json`, `role-targets*.json`, `mutation-types*.json`, `generator-config.json` | configurazioni di ogni applicazione e definizione degli 11 operatori |
-| `ISTRUZIONI-MODELLO.template.md`, `CLAUDE.md` | istruzioni per il modello e per preparare un'applicazione nuova |
-| `GUIDA-RIPRODUZIONE.md`, `RIPRODURRE-LE-CAMPAGNE.md`, `README-STRUMENTO-ORIGINALE.md` | guide: passi dettagliati, campagne complete della tesi, strumento originale |
+| [`mutation-generator/`](mutation-generator) | **generazione dei mutanti**: `llm-generator` (con modello linguistico), `static-generator` (regole fisse), `common` (servizi comuni) |
+| [`mutation-tester/`](mutation-tester) | **esecuzione dei test** sui mutanti: inserisce il mutante, controlla la ricompilazione, lancia i test, ripristina |
+| [`ext-test-classes/`](ext-test-classes), [`vintage-fix/`](vintage-fix) | classi di base dei test (con la preparazione di Chrome) e impostazione di JUnit |
+| [`custom-locators/`](custom-locators), [`hook-injector/`](hook-injector) | moduli ereditati dallo strumento originale (locatori ROBULA e ROBULA+; attributi di test, non usato) |
+| `pom.xml` | il progetto Maven che compila tutti i moduli |
+| `mutanti.ps1`, `esegui_mutanti.py`, `conta_mutanti.py`, `escludi_i_su_bersaglio.py` | **programma di controllo**: lancia generazione ed esecuzione e mostra i risultati (passi 5-9) |
+| `installa.bat`, `installa.ps1`, `terminale.bat`, `ambiente.ps1`, `configura_percorsi.ps1` | installazione e terminale (passi 3-4) |
 
-**Codice e applicazioni**
+### INGRESSO (descrive un'applicazione allo strumento)
+
+| Cartella o file | Contenuto |
+|---|---|
+| [`applicazioni-soggetto/`](applicazioni-soggetto) | le tre applicazioni Angular (CineLib, FlowBoard, CookBook) |
+| `generator-config-*.json`, `role-targets*.json`, `mutation-types*.json`, `generator-config.json` | configurazione di ogni applicazione e definizione degli 11 operatori |
+| `ISTRUZIONI-MODELLO.template.md`, `CLAUDE.md` | istruzioni per il modello e preparazione di un'applicazione nuova |
+
+### USCITA (creata quando si usa lo strumento)
 
 | Cartella | Contenuto |
 |---|---|
-| [`applicazioni-soggetto/`](applicazioni-soggetto) | le tre applicazioni Angular (CineLib, FlowBoard, CookBook) |
-| [`mutation-generator/`](mutation-generator) | i due generatori: `llm-generator` (con LLM) e `static-generator` (regole fisse), più il codice comune |
-| [`mutation-tester/`](mutation-tester), [`ext-test-classes/`](ext-test-classes), [`vintage-fix/`](vintage-fix) | l'esecuzione dei test sui mutanti |
-| [`custom-locators/`](custom-locators), [`hook-injector/`](hook-injector) | moduli dello strumento originale (locatori personalizzati, attributi per i test) |
-| [`cinelib-v2/`](cinelib-v2), [`flowboard-v2/`](flowboard-v2) | i locatori delle sette strategie e lo script che genera le classi di test |
+| `generazione-<applicazione>/` | prompt, risposte, database `mutations.db` ed esiti di **una** generazione (la crea `mutanti.ps1`; non è versionata) |
 
-**Dati e risultati della tesi**
+### DATI E RISULTATI DELLA TESI (non sono lo strumento)
 
 | Cartella | Contenuto |
 |---|---|
 | [`mutazioni-generate/`](mutazioni-generate) | gli 8.978 mutanti delle sei campagne, in forma leggibile |
 | `cinelib-v2-run/`, `flowboard-v2-run/`, `cookbook-run/` | campagne con il modello: prompt, risposte, test compilati ed esiti |
-| `cinelib-v2-static-run/`, `flowboard-v2-static-run/`, `cookbook-static-run/` | campagne con il generatore statico |
-| `cookbook-i-bersaglio-run/` | i 10 mutanti dell'operatore i sul bersaglio di CookBook |
+| `cinelib-v2-static-run/`, `flowboard-v2-static-run/`, `cookbook-static-run/`, `cookbook-i-bersaglio-run/` | campagne con il generatore statico e i 10 mutanti dell'operatore i sul bersaglio di CookBook |
+| `cinelib-v2/`, `flowboard-v2/` | i locatori delle sette strategie e lo script che genera le classi di test |
 | [`analisi-risultati/`](analisi-risultati) | script che calcolano le misure del Capitolo 4 |
-| [`programmi-di-controllo/`](programmi-di-controllo) | i programmi con cui sono state eseguite le campagne complete della tesi |
+| [`programmi-di-controllo/`](programmi-di-controllo) | i programmi con cui sono state eseguite le campagne complete della tesi (percorsi del PC originale) |
 | [`test-suite/`](test-suite) | test del lavoro precedente su Angular-Spotify |
-| [`archivio/`](archivio) | materiale di lavoro e campagne di luglio 2026, conservati solo come storico |
+
+### GUIDE
+
+[`GUIDA-RIPRODUZIONE.md`](GUIDA-RIPRODUZIONE.md) (passi dettagliati), [`STRUMENTO.md`](STRUMENTO.md) (che cos'è lo strumento),
+[`RIPRODURRE-LE-CAMPAGNE.md`](RIPRODURRE-LE-CAMPAGNE.md) (campagne complete della tesi),
+[`README-STRUMENTO-ORIGINALE.md`](README-STRUMENTO-ORIGINALE.md) (strumento originale), [`archivio/`](archivio) (materiale di lavoro, solo storico).
