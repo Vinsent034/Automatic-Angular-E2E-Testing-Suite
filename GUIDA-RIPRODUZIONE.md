@@ -9,7 +9,7 @@ FlowBoard: per un'altra applicazione basta scrivere il suo nome nei comandi (`ci
 
 ---
 
-## Prima di cominciare
+## Requisiti (da controllare prima di cominciare)
 
 **Che cosa serve**
 
@@ -19,10 +19,11 @@ FlowBoard: per un'altra applicazione basta scrivere il suo nome nei comandi (`ci
 | **Internet** | si scaricano gli strumenti (circa 1,5 GB in tutto) e il driver di Chrome | — |
 | Circa **2 GB liberi** sul disco | strumenti, dipendenze e risultati | — |
 | **Google Chrome** installato | i test aprono Chrome da soli (solo per il passo 9) | apri il menu Start e cerca "Chrome" |
-| **Claude Code** con accesso a **Claude Opus 4.8** | scrive le risposte ai prompt (solo per il passo 6) | apri Claude Code e guarda l'elenco dei modelli |
+| **Claude Code** con accesso a **Claude Opus 4.8** | scrive le risposte ai prompt (solo per il passo 6); consuma i crediti del tuo account | apri Claude Code e guarda l'elenco dei modelli |
+| Un **browser** (Chrome, Edge o Firefox) | per scaricare il progetto da GitHub (passo 1) | — |
 
-Non servono permessi di amministratore e **non si deve installare nient'altro**: Java, Maven, Node e Python li scarica da solo
-il passo 3, dentro la cartella del progetto, senza toccare il resto del computer.
+**Cosa NON serve:** permessi di amministratore, Git, Java, Maven, Node, Python, estensioni di Chrome (Selenium e Katalon sono già nei test).
+Java, Maven, Node e Python li scarica da solo il passo 3, dentro la cartella del progetto, senza toccare il resto del computer.
 
 **Chi fa che cosa**
 
@@ -35,12 +36,28 @@ il passo 3, dentro la cartella del progetto, senza toccare il resto del computer
 > **Il modello non fa altro.** Non installa, non lancia comandi, non sceglie quali elementi o operatori mutare
 > (lo ha già deciso lo strumento e sta scritto nel prompt) e non scrive nel database. Tutto il resto lo fai tu con i comandi.
 
+**Panoramica dei passi, e chi fa che cosa in ognuno**
+
+| Passo | Cosa si fa | Chi |
+|---|---|---|
+| 1 | Scaricare il progetto da GitHub | **utente** |
+| 2 | Estrarre lo ZIP | **utente** |
+| 3 | Installare gli strumenti (`installa.bat`) | **utente** avvia; lo strumento scarica e compila |
+| 4 | Aprire il terminale (`terminale.bat`) | **utente** |
+| 5 | Scegliere l'applicazione e preparare i prompt | **utente** scrive il comando; lo strumento prepara i prompt |
+| 6 | Scrivere le risposte ai prompt | **utente** apre Claude Code e dà l'incarico; il **modello** scrive le risposte |
+| 7 | Salvare i mutanti | **utente** scrive il comando; lo strumento salva |
+| 8 | Guardare i mutanti (facoltativo) | **utente** |
+| 9 | Far girare i mutanti con i test | **utente** scrive il comando; lo strumento esegue |
+| 10 | Leggere i risultati | **utente** |
+| 11 | Rifare da zero o cambiare applicazione | **utente** |
+
 **Come si scrive un comando.** Si scrive (o si incolla) nella finestra nera, **su una sola riga**, poi si preme **Invio**.
 Non si premono altri tasti e non si cambia il testo. Si incolla anche con il clic destro del mouse.
 
 ---
 
-## Passo 1 — Scaricare il progetto
+## Passo 1 — Scaricare il progetto (utente)
 
 1. Apri il browser (Chrome, Edge o Firefox).
 2. Nella barra degli indirizzi scrivi **`https://github.com/Vinsent034/Automatic-Angular-E2E-Testing-Suite`** e premi Invio.
@@ -52,7 +69,7 @@ Non si premono altri tasti e non si cambia il testo. Si incolla anche con il cli
 
 **Devi vedere:** il file `.zip` nella cartella Download.
 
-## Passo 2 — Estrarre lo ZIP
+## Passo 2 — Estrarre lo ZIP (utente)
 
 > **Non avviare mai nulla da dentro lo ZIP.** Se fai doppio clic su un file mentre lo ZIP è aperto, Windows lo estrae in una cartella
 > temporanea che poi cancella. Va prima estratto.
@@ -73,7 +90,7 @@ Non si premono altri tasti e non si cambia il testo. Si incolla anche con il cli
 > **Dopo il passo 3 non spostare più la cartella.** I percorsi vengono scritti al momento dell'installazione.
 > Se la sposti, rilancia `installa.bat`.
 
-## Passo 3 — Installare gli strumenti (una volta sola)
+## Passo 3 — Installare gli strumenti, una volta sola (utente)
 
 1. Nella cartella principale fai **doppio clic** su **`installa.bat`**.
 2. Se Windows mostra un avviso ("Windows ha protetto il PC" o simile), clicca **`Ulteriori informazioni`** e poi **`Esegui comunque`**.
@@ -97,7 +114,7 @@ e, se riappare, fotografa lo schermo.
 
 Se compare invece "stai avviando installa.bat da dentro un file ZIP", torna al passo 2: lo ZIP non è stato estratto.
 
-## Passo 4 — Aprire il terminale giusto
+## Passo 4 — Aprire il terminale giusto (utente)
 
 Tutti i comandi dei passi seguenti si scrivono in **questa** finestra, non in un altro PowerShell: è l'unica che ha già gli strumenti pronti.
 
@@ -109,7 +126,7 @@ e sotto una riga che inizia con **`PS C:\Users\...`** e finisce con il nome dell
 
 **Non chiudere questa finestra** finché non hai finito. Se la chiudi per sbaglio, riaprila con `terminale.bat`: non si perde niente.
 
-## Passo 5 — Scegliere l'applicazione e preparare i prompt
+## Passo 5 — Scegliere l'applicazione e preparare i prompt (utente)
 
 Nella finestra del passo 4 scrivi **uno** di questi comandi, a seconda dell'applicazione scelta, e premi Invio:
 
@@ -138,16 +155,16 @@ ancora vuoto. Nome e posizione sono sempre questi: li decide lo script, tu non s
 
 **Se compare "Manca il file …"** hai scritto male il nome dell'applicazione: i nomi validi sono `cinelib`, `flowboard`, `cookbook`.
 
-## Passo 6 — Far scrivere le risposte al modello
+## Passo 6 — Far scrivere le risposte al modello (utente avvia, modello scrive)
 
 Questa è l'**unica parte che fa il modello**. Si fa in **Claude Code**, non nella finestra nera.
 
-1. Apri **Claude Code** e inizia una **nuova sessione**.
-2. Come **cartella di lavoro** scegli la cartella creata al passo 5:
+1. **(utente)** Apri **Claude Code** e inizia una **nuova sessione**.
+2. **(utente)** Come **cartella di lavoro** scegli la cartella creata al passo 5:
    `…\Automatic-Angular-E2E-Testing-Suite-master\generazione-flowboard`
    (nell'app Claude Code: seleziona questa cartella come cartella di lavoro della nuova sessione; da riga di comando: `cd` in quella cartella e poi `claude`).
-3. Imposta il modello **Claude Opus 4.8** dal selettore dei modelli.
-4. Scrivi questo messaggio e invialo:
+3. **(utente)** Imposta il modello **Claude Opus 4.8** dal selettore dei modelli.
+4. **(utente)** Scrivi questo messaggio e invialo:
 
    ```
    Leggi il file ISTRUZIONI-OPUS-4.8.md in questa cartella ed eseguilo.
@@ -155,16 +172,16 @@ Questa è l'**unica parte che fa il modello**. Si fa in **Claude Code**, non nel
 
    **Per una prova breve**, aggiungi alla fine del messaggio: `Fai solo i primi 20 blocchi.`
    (La generazione completa dura molto tempo e consuma molti crediti: 590 prompt per FlowBoard. Per vedere che tutto funziona bastano pochi.)
-5. Il modello legge i prompt uno alla volta e scrive le risposte in
+5. **(modello)** Il modello legge i prompt uno alla volta e scrive le risposte in
    `generazione-flowboard\output\mutations\role-ingest\`, un file per prompt, più il file `_registro.txt`.
-   Può chiedere il permesso di scrivere i file: concedilo. **Aspetta che dica di aver finito.**
+   Può chiedere il permesso di scrivere i file: **(utente)** concedilo e aspetta che il modello dica di aver finito.
 
-**Devi vedere**, al termine, nella cartella `role-ingest` dei file di testo (uno per prompt) e il file **`_registro.txt`**.
+**(utente)** **Devi vedere**, al termine, nella cartella `role-ingest` dei file di testo (uno per prompt) e il file **`_registro.txt`**.
 Aprilo (doppio clic): la prima riga deve riportare **`Claude Opus 4.8`**. Se il modello è un altro, i mutanti non saranno quelli della tesi.
 
 Il modello non deve lanciare comandi né toccare altri file. Se lo fa, interrompilo e ripeti il passo dall'inizio.
 
-## Passo 7 — Salvare i mutanti
+## Passo 7 — Salvare i mutanti (utente)
 
 Torna alla **finestra nera del passo 4** e scrivi:
 
@@ -194,7 +211,7 @@ modello è solo il totale: con una prova breve N è più basso e lo script scriv
 **Non lanciare `completa` due volte** sulla stessa applicazione: aggiungerebbe mutanti doppi, e lo script rifiuta di farlo.
 Per rifare da zero: vedi il passo 11.
 
-## Passo 8 — Guardare i mutanti (facoltativo)
+## Passo 8 — Guardare i mutanti, facoltativo (utente)
 
 ```powershell
 .\mutanti.ps1 flowboard esporta
@@ -204,7 +221,7 @@ Per rifare da zero: vedi il passo 11.
 ogni mutante, apribile con il Blocco note. Dentro c'è il template HTML intero con **una sola modifica**: confrontandolo con
 l'originale in `applicazioni-soggetto\<applicazione>\src\app\...` si trova la riga cambiata.
 
-## Passo 9 — Far girare i mutanti con i test
+## Passo 9 — Far girare i mutanti con i test (utente)
 
 Qui si inserisce un mutante alla volta nell'applicazione e si eseguono i test con le **sette strategie di localizzazione**
 (Absolute, Relative, ROBULA, ROBULA+, Selenium, Katalon, Hook-Based). Serve **Google Chrome**.
@@ -233,7 +250,7 @@ stessi. Più mutanti vuol dire più tempo (circa **13–20 secondi a mutante**, 
 **Se si chiude Chrome o appare un errore** a metà: aspetta, poi **rilancia lo stesso comando**; riparte da capo sul gruppo.
 In ogni caso i template dell'applicazione vengono rimessi a posto.
 
-## Passo 10 — Leggere i risultati
+## Passo 10 — Leggere i risultati (utente)
 
 Alla fine del passo 9 compare in finestra una tabella come questa:
 
@@ -272,7 +289,7 @@ RISULTATI - flowboard - 20 mutanti provati (campione casuale, seme 1234)
 1.929. Il risultato che si ripete è che **Absolute** è la strategia più fragile e **ROBULA+** la più robusta fra quelle che non
 usano gli attributi di test.
 
-## Passo 11 — Rifare da zero o cambiare applicazione
+## Passo 11 — Rifare da zero o cambiare applicazione (utente)
 
 - **Cambiare applicazione:** ripeti dal passo 5 con il nome di un'altra applicazione (creerà un'altra cartella `generazione-…`).
 - **Rifare la stessa applicazione:** chiudi tutto, **cancella la cartella** `generazione-flowboard` (clic destro → Elimina) e ricomincia

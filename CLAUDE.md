@@ -19,22 +19,22 @@ Lo schema di mutazione ha **11 operatori** (a–k, definiti in `mutation-types-m
 
 | Chi | Compito |
 |---|---|
-| **La persona** | scarica il repository, lancia `installa.bat`, apre `terminale.bat` e lancia i comandi `mutanti.ps1` |
+| **L'utente** | scarica il repository, lancia `installa.bat`, apre `terminale.bat` e lancia i comandi `mutanti.ps1` |
 | **Lo strumento** | prepara i prompt, controlla le risposte, produce f/g/h, salva i mutanti |
 | **Tu (il modello)** | **solo scrivere le risposte ai prompt**, uno per uno |
 
 La procedura completa, passo per passo, è in **[`GUIDA-RIPRODUZIONE.md`](GUIDA-RIPRODUZIONE.md)**.
 
 ### Se la tua cartella di lavoro contiene `ISTRUZIONI-OPUS-4.8.md`
-(di solito `generazione-<applicazione>/`, e la persona ti scrive «Leggi il file ISTRUZIONI-OPUS-4.8.md in questa
+(di solito `generazione-<applicazione>/`, e l'utente ti scrive «Leggi il file ISTRUZIONI-OPUS-4.8.md in questa
 cartella ed eseguilo»)
 
 Il tuo compito è **solo quello**: leggi il file e scrivi le risposte come descrive. Non installare niente, non lanciare
 `mutanti.ps1`, non compilare, non modificare altri file del progetto. Il file stesso dice di fermarti e avvisare se il modello
 della sessione non è Claude Opus 4.8: rispettalo.
 
-### Se la persona ti chiede aiuto per preparare o capire la procedura
-Spiega i passi di `GUIDA-RIPRODUZIONE.md` e lascia che sia la persona a lanciare i comandi. Li lanci tu solo se te lo
+### Se l'utente ti chiede aiuto per preparare o capire la procedura
+Spiega i passi di `GUIDA-RIPRODUZIONE.md` e lascia che sia l'utente a lanciare i comandi. Li lanci tu solo se te lo
 chiede esplicitamente, e riferisci l'esito di ogni passo (i numeri attesi sono nella guida).
 
 ---
@@ -46,7 +46,7 @@ chiede esplicitamente, e riferisci l'esito di ogni passo (i numeri attesi sono n
    loro database. Ogni nuova generazione sta in una cartella nuova: `mutanti.ps1` usa `generazione-<applicazione>`.
 2. **Chiedi prima di modificare** i template di un'applicazione (aggiunta degli attributi `x-test`) e il codice dello
    strumento (mappa degli spostamenti h). Spiega cosa cambi e perché.
-3. **Non fare commit né push** su Git, se la persona non lo chiede esplicitamente.
+3. **Non fare commit né push** su Git, se l'utente non lo chiede esplicitamente.
 4. **Non usare sotto-agenti** per scrivere le risposte ai prompt: girerebbero con un modello diverso da quello dichiarato.
 5. I comandi sono per **Windows PowerShell**, dal terminale aperto con `terminale.bat` (Java 25 portatile): il `java`
    di sistema potrebbe essere di un'altra versione e non funzionare.
@@ -56,7 +56,7 @@ chiede esplicitamente, e riferisci l'esito di ogni passo (i numeri attesi sono n
 ## Preparare un'applicazione nuova (solo su richiesta)
 
 Per le tre applicazioni della tesi (CineLib, FlowBoard, CookBook) non serve niente di questo: sono già pronte.
-Per un'applicazione tua, **chiedi alla persona il percorso della cartella** (quella che contiene `src/app`): deve essere
+Per un'applicazione tua, **chiedi all'utente il percorso della cartella** (quella che contiene `src/app`): deve essere
 un'applicazione Angular con i template in file `*.component.html`. Nei file JSON i percorsi sono **assoluti** con le
 barre `/` (es. `C:/Users/nome/progetti/miaapp`).
 
@@ -66,7 +66,7 @@ Lo strumento riconosce ogni bersaglio da un **attributo di test** presente nel t
 `<button class="btn" x-test-search>Cerca</button>`. Cerca nei template gli attributi che iniziano con `x-test`:
 
 - se ci sono, usa quelli;
-- se mancano, **proponi alla persona** quali elementi marcare (quelli su cui agirebbe o controllerebbe un test:
+- se mancano, **proponi all'utente** quali elementi marcare (quelli su cui agirebbe o controllerebbe un test:
   campi, bottoni, titoli, conteggi) e, **solo dopo il suo consenso**, aggiungi l'attributo nel template (un nome diverso
   per ogni elemento). Se il valore è un binding dinamico, nel file dei bersagli si scrive nella forma `[attr.x-test-nome]`.
 
@@ -127,7 +127,7 @@ L'operatore h sposta un nodo **da un template a un altro**. Le coppie sorgente �
 2. ricompila dalla cartella principale: `mvn package -DskipTests` (terminale aperto con `terminale.bat`).
 
 Senza questo ramo l'app nuova userebbe la mappa di CineLib: gli h vengono saltati oppure il generatore si ferma perché non
-trova i template di destinazione. In alternativa, con il consenso della persona, si può saltare l'operatore h e dichiarare
+trova i template di destinazione. In alternativa, con il consenso dell'utente, si può saltare l'operatore h e dichiarare
 che non è stato generato.
 
 ### Il file di istruzioni per il modello
@@ -156,7 +156,7 @@ Il generatore statico usa il seme fisso e produce sempre gli stessi mutanti, dup
 
 ## Per approfondire
 
-- `GUIDA-RIPRODUZIONE.md`: la procedura completa per la persona.
+- `GUIDA-RIPRODUZIONE.md`: la procedura completa per l'utente.
 - `RIPRODURRE-LE-CAMPAGNE.md`: come rifare le campagne della tesi, test compresi.
 - `README.md` e `applicazioni-soggetto/README.md`: struttura del repository e applicazioni.
 - I programmi di controllo dei test (`run_*_resume.py`) contengono ancora i percorsi del PC su cui sono state fatte le

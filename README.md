@@ -26,9 +26,10 @@ mutanti per applicazioni web template-based mediante modelli linguistici di gran
 - **[`mutazioni-generate/`](mutazioni-generate)** — gli **8 978 mutanti** delle sei campagne,
   esportati in forma leggibile e consultabili direttamente qui.
 - **[`GUIDA-RIPRODUZIONE.md`](GUIDA-RIPRODUZIONE.md)** — **da dove cominciare**: installazione con un doppio clic
-  (`installa.bat`) e generazione dei mutanti di CineLib, FlowBoard o CookBook con tre comandi (`mutanti.ps1`), passo per
-  passo. Dice chi fa che cosa: la persona lancia i comandi, lo strumento fa il lavoro meccanico, il modello linguistico
-  scrive solo le risposte ai prompt.
+  (`installa.bat`), generazione dei mutanti di CineLib, FlowBoard o CookBook (`mutanti.ps1`) ed esecuzione dei test con le
+  sette strategie, passo per passo. Dice chi fa che cosa: l'utente lancia i comandi, lo strumento fa il lavoro meccanico, il
+  modello linguistico scrive solo le risposte ai prompt. **Requisiti:** Windows 10 o 11, internet, circa 2 GB liberi,
+  Google Chrome e Claude Code con accesso a Claude Opus 4.8; non serve installare altro.
 - **[`RIPRODURRE-LE-CAMPAGNE.md`](RIPRODURRE-LE-CAMPAGNE.md)** — guida passo passo per rigenerare
   i mutanti, rieseguire i test con le sette strategie di localizzazione e ricalcolare le misure.
   I prompt e le risposte del modello usati nella tesi sono conservati nelle cartelle delle
