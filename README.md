@@ -70,10 +70,11 @@ Doppio clic su **`terminale.bat`**. Deve comparire in verde `Strumenti portatili
 `PS C:\...`. Tutti i comandi seguenti si scrivono **in questa finestra**.
 
 ### 5. Scegliere l'applicazione e preparare i prompt — *utente scrive, lo strumento prepara*
+In questo lavoro sono state implementate solo 3 applicazioni -> cinelib, flowboard, cookbook
 ```powershell
-.\mutanti.ps1 flowboard prompt
+.\mutanti.ps1 nome_applicazione prompt
 ```
-Crea la cartella `generazione-flowboard` con un prompt per ogni elemento da mutare e il file di istruzioni per il modello. **Non crea
+Crea la cartella `generazione-nome_dlla_cartella_inserita` con un prompt per ogni elemento da mutare e il file di istruzioni per il modello. **Non crea
 ancora nessun mutante.**
 
 | Applicazione | Prompt | `Applicable` (blocchi) |
@@ -83,7 +84,7 @@ ancora nessun mutante.**
 | CookBook (`cookbook`) | 215 | 1426 |
 
 ### 6. Far scrivere le risposte al modello — *utente avvia, modello scrive*
-1. *(utente)* Apri **Claude Code**, nuova sessione, con cartella di lavoro `generazione-flowboard` (quella creata al passo 5).
+1. *(utente)* Apri **Claude Code**, nuova sessione, con cartella di lavoro `generazione-flowboard` (quella creata al passo 5, se si mette flowboard come aplicazione).
 2. *(utente)* Imposta il modello **Claude Opus 4.8**.
 3. *(utente)* Scrivi e invia: `Leggi il file ISTRUZIONI-OPUS-4.8.md in questa cartella ed eseguilo.`
    Per una **prova breve** aggiungi: `Fai solo i primi 20 blocchi.` (la generazione completa dura molto e consuma molti crediti).
