@@ -40,7 +40,7 @@ flowchart LR
 
 | Fase | Che cosa succede | Dove |
 |---|---|---|
-| **Parte** | si lancia un generatore con il file di configurazione dell'applicazione (`.\mutanti.ps1 <app> prompt`, che avvia `llm-generator`) | `mutation-generator/` |
+| **Parte** | si lancia un generatore con il file di configurazione dell'applicazione (`.\mutanti.ps1 <app> prompt`, che avvia `llm-generator`; oppure `.\mutanti.ps1 <app> statico`, che avvia `static-generator`) | `mutation-generator/` |
 | 1. Generazione | il generatore trova gli elementi da mutare nei template, produce le modifiche (il modello linguistico scrive quelle degli operatori a–e, i–k; f, g, h le produce il programma) e le salva | `mutation-generator/` → `mutations.db` |
 | 2. Esecuzione | per ogni mutante: scrive il template mutato nell'applicazione, aspetta che il server di sviluppo la **ricompili** (è qui che si verifica se il mutante compila), esegue i test con le sette strategie e ripristina il template | `mutation-tester/`, `ext-test-classes/` |
 | **Finisce** | gli esiti di ogni prova e il conteggio per strategia sono scritti in file di tabella | `output/tests/batches.csv`, `stats.csv` (e `riepilogo.txt` con `esegui`) |
@@ -61,7 +61,7 @@ e `mutazioni-generate/` raccoglie i mutanti esportati in forma leggibile.
 | `custom-locators` | calcola i locatori ROBULA e ROBULA+ | ereditato |
 | `hook-injector` | aggiunge attributi di test al codice sorgente | ereditato, **non usato** |
 | `pom.xml` | il progetto Maven che compila tutti i moduli | ereditato |
-| `mutanti.ps1`, `esegui_mutanti.py`, `conta_mutanti.py`, `escludi_i_su_bersaglio.py` | **programma di controllo**: lancia generazione ed esecuzione, sceglie il campione di mutanti, mostra i risultati | **questo lavoro** |
+| `mutanti.ps1`, `esegui_mutanti.py`, `conta_mutanti.py`, `escludi_i_su_bersaglio.py`, `deduplica_statici.py`, `confronta_tecniche.py` | **programma di controllo**: lancia generazione ed esecuzione (con il modello o statica), sceglie il campione di mutanti, mostra i risultati e confronta le due tecniche | **questo lavoro** |
 | `installa.bat`, `installa.ps1`, `terminale.bat`, `ambiente.ps1`, `configura_percorsi.ps1` | installazione e terminale: preparano il PC, non sono la logica dello strumento | questo lavoro |
 | `programmi-di-controllo/` | gli stessi compiti, nella versione delle campagne complete della tesi (percorsi del PC originale) | questo lavoro |
 
@@ -74,7 +74,7 @@ e `mutazioni-generate/` raccoglie i mutanti esportati in forma leggibile.
 | `cinelib-v2-run/`, `flowboard-v2-run/`, `cookbook-run/` | dati delle campagne con il modello: prompt, risposte, test compilati, esiti |
 | `cinelib-v2-static-run/`, `flowboard-v2-static-run/`, `cookbook-static-run/`, `cookbook-i-bersaglio-run/` | dati delle campagne con il generatore statico e dei mutanti «i» sul bersaglio |
 | `cinelib-v2/`, `flowboard-v2/` | i locatori delle sette strategie e lo script che genera le classi di test |
-| `generazione-<app>/` | creata da `mutanti.ps1` quando si usa lo strumento: prompt, risposte, database e risultati di **una** generazione (non è versionata) |
+| `generazione-<app>/`, `generazione-<app>-statico/` | create da `mutanti.ps1` quando si usa lo strumento: prompt, risposte, database e risultati di **una** generazione (con il modello o statica; non sono versionate) |
 | `mutazioni-generate/` | gli 8.978 mutanti delle campagne, esportati in forma leggibile |
 | `analisi-risultati/` | calcolo delle misure della tesi dagli esiti |
 | `test-suite/` | test del lavoro precedente su Angular-Spotify |
@@ -84,6 +84,6 @@ e `mutazioni-generate/` raccoglie i mutanti esportati in forma leggibile.
 
 - **Il codice dello strumento** si compila una volta (`installa.bat` lo fa) e produce tre jar: `mutation-generator/llm-generator/target/...`,
   `mutation-generator/static-generator/target/...`, `mutation-tester/target/...`.
-- **Ogni generazione** vive in una propria cartella `generazione-<app>/`: lì dentro nascono `mutations.db` e `output/`.
+- **Ogni generazione** vive in una propria cartella (`generazione-<app>/` con il modello, `generazione-<app>-statico/` con il generatore statico): lì dentro nascono `mutations.db` e `output/`.
   Si può cancellare e rifare senza toccare lo strumento.
 - **Le applicazioni** non vengono mai modificate in modo permanente: ogni mutante è inserito, provato e subito rimesso a posto.

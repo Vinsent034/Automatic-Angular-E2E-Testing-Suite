@@ -18,7 +18,7 @@ FlowBoard: per un'altra applicazione basta scrivere il suo nome nei comandi (`ci
 | Un PC con **Windows 10 o 11** | gli script sono per Windows | — |
 | **Internet** | si scaricano gli strumenti (circa 1,5 GB in tutto) e il driver di Chrome | — |
 | Circa **2 GB liberi** sul disco | strumenti, dipendenze e risultati | — |
-| **Google Chrome** installato | i test aprono Chrome da soli (solo per il passo 9) | apri il menu Start e cerca "Chrome" |
+| **Google Chrome** installato | i test aprono Chrome da soli (solo per i passi 9 e 11b) | apri il menu Start e cerca "Chrome" |
 | **Claude Code** con accesso a **Claude Opus 4.8** | scrive le risposte ai prompt (solo per il passo 6); consuma i crediti del tuo account | apri Claude Code e guarda l'elenco dei modelli |
 | Un **browser** (Chrome, Edge o Firefox) | per scaricare il progetto da GitHub (passo 1) | — |
 
@@ -50,7 +50,8 @@ Java, Maven, Node e Python li scarica da solo il passo 3, dentro la cartella del
 | 8 | Guardare i mutanti (facoltativo) | **utente** |
 | 9 | Far girare i mutanti con i test | **utente** scrive il comando; lo strumento esegue |
 | 10 | Leggere i risultati | **utente** |
-| 11 | Rifare da zero o cambiare applicazione | **utente** |
+| 11 | Generatore statico e confronto (facoltativo) | **utente** scrive i comandi; lo strumento genera, esegue e confronta; nessun modello |
+| 12 | Rifare da zero o cambiare applicazione | **utente** |
 
 **Come si scrive un comando.** Si scrive (o si incolla) nella finestra nera, **su una sola riga**, poi si preme **Invio**.
 Non si premono altri tasti e non si cambia il testo. Si incolla anche con il clic destro del mouse.
@@ -209,7 +210,7 @@ modello è solo il totale: con una prova breve N è più basso e lo script scriv
 **1.929** mutanti della tesi.
 
 **Non lanciare `completa` due volte** sulla stessa applicazione: aggiungerebbe mutanti doppi, e lo script rifiuta di farlo.
-Per rifare da zero: vedi il passo 11.
+Per rifare da zero: vedi il passo 12.
 
 ## Passo 8 — Guardare i mutanti, facoltativo (utente)
 
@@ -289,7 +290,54 @@ RISULTATI - flowboard - 20 mutanti provati (campione casuale, seme 1234)
 1.929. Il risultato che si ripete è che **Absolute** è la strategia più fragile e **ROBULA+** la più robusta fra quelle che non
 usano gli attributi di test.
 
-## Passo 11 — Rifare da zero o cambiare applicazione (utente)
+## Passo 11 — Il generatore statico e il confronto, facoltativo (utente)
+
+Nella tesi i mutanti del modello sono confrontati con quelli del **generatore statico**, che modifica i template con regole fisse
+e **non usa nessun modello**: niente prompt e niente risposte da scrivere. Questo passo lo rifà. Si può fare anche **senza** aver fatto
+i passi 5–10 (la parte statica è indipendente da quella del modello).
+
+**11a. Generare i mutanti statici** (nella finestra di `terminale.bat`):
+
+```powershell
+.\mutanti.ps1 flowboard statico
+```
+
+Dura qualche minuto. Crea la cartella `generazione-flowboard-statico` (separata da quella del modello, così non si mescolano).
+Il generatore produce anche mutanti **identici fra loro**: per CineLib e FlowBoard lo strumento li toglie, come nella tesi, e
+tiene una copia completa in `mutations-completo-con-duplicati.db`.
+
+Cosa si deve vedere:
+
+| Applicazione | Generati | Dopo aver tolto i duplicati |
+|---|---|---|
+| CineLib | 1.254 | **944** |
+| FlowBoard | 4.263 | **2.148** |
+| CookBook | 1.503 nella tesi (1.504 rigenerandoli) | non si tolgono: nella tesi su CookBook sono stati provati tutti |
+
+Su CookBook la rigenerazione differisce di poco dalla tesi (un mutante in più e 152 mutanti dal codice diverso, per lo più spostamenti verso un altro
+file di destinazione). L'insieme esatto della tesi è nel file `cookbook-static-run\mutations.db`.
+
+**11b. Provare i mutanti statici con i test** (come il passo 9, con una parola in più in fondo; stessa avvertenza su Chrome,
+mouse e tastiera):
+
+```powershell
+.\mutanti.ps1 flowboard esegui 20 statico
+```
+
+I risultati sono in `generazione-flowboard-statico\output\tests\` (stessi file e stessa tabella del passo 10).
+
+**11c. Confrontare le due tecniche**:
+
+```powershell
+.\mutanti.ps1 flowboard confronta
+```
+
+Mostra, affiancati: quanti mutanti ha prodotto ciascuna tecnica, quante delle 55 combinazioni operatore × ruolo sono coperte,
+quanti mutanti per operatore e, se hai fatto il passo 9 e il 11b, quanti compilano, le prove sprecate e la stabilità di ogni
+strategia. Il testo è salvato in `generazione-flowboard\confronto.txt` (o nella cartella statica, se manca quella del modello).
+Con pochi mutanti i numeri sono solo indicativi.
+
+## Passo 12 — Rifare da zero o cambiare applicazione (utente)
 
 - **Cambiare applicazione:** ripeti dal passo 5 con il nome di un'altra applicazione (creerà un'altra cartella `generazione-…`).
 - **Rifare la stessa applicazione:** chiudi tutto, **cancella la cartella** `generazione-flowboard` (clic destro → Elimina) e ricomincia
@@ -308,8 +356,10 @@ usano gli attributi di test.
 | "non può essere eseguito" / "non è firmato digitalmente" | stai usando un PowerShell aperto da te: usa **solo** la finestra di `terminale.bat` |
 | "Manca il file role-targets-…" | nome dell'applicazione sbagliato (valgono `cinelib`, `flowboard`, `cookbook`) |
 | "Non ci sono risposte del modello" | il passo 6 non è stato fatto, oppure `role-ingest` è vuota |
-| "Nel database ci sono già N mutanti" | hai già fatto `completa`: per rifare, passo 11 |
+| "Nel database ci sono già N mutanti" | hai già fatto `completa` (o `statico`): per rifare, passo 12 |
 | "Non ci sono mutanti … fai prima 'prompt', il modello e 'completa'" | il passo 7 non è stato fatto per questa applicazione |
+| "Non ci sono mutanti statici … fai prima … statico" | prima di `esegui … statico` serve `.\mutanti.ps1 <applicazione> statico` (passo 11a) |
+| "Non c'è nessuna generazione per …" (confronta) | non è stata fatta né la generazione del modello né quella statica |
 | "Google Chrome non trovato" | installa Chrome da `https://www.google.com/chrome/` |
 | "la classe del driver di Chrome non è aggiornata" | rilancia `installa.bat` (ricompila lo strumento) |
 | "non trovo l'applicazione" / "mancano le dipendenze" | hai spostato la cartella dopo l'installazione: rilancia `installa.bat` |

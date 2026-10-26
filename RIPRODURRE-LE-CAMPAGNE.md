@@ -136,7 +136,7 @@ cd cinelib-v2-static-run
 & $JAVA -jar ..\mutation-generator\static-generator\target\static-generator-1.0.0-jar-with-dependencies.jar ..\generator-config-cinelib-static.json
 ```
 
-Il generatore statico usa il seme fisso `1234`, quindi produce sempre gli stessi mutanti,
+Il generatore statico usa il seme fisso `1234`, quindi produce gli stessi mutanti (su CineLib e FlowBoard con certezza; su CookBook la rigenerazione ne dà 1 504 invece di 1 503, con 152 mutanti dal codice diverso, per lo più spostamenti verso un altro file),
 duplicati compresi. Negli esperimenti su CineLib e FlowBoard i duplicati sono stati tolti prima
 dei test (la mappa è in `mappa-duplicati.json`); su CookBook sono stati provati tutti.
 

@@ -23,7 +23,7 @@ finisce e quali cartelle ne fanno parte è spiegato, con uno schema, in **[`STRU
 |---|---|
 | **Windows 10 o 11** | gli script sono per Windows |
 | **Internet** e circa **2 GB liberi** | si scaricano gli strumenti (circa 1,5 GB) e il driver di Chrome |
-| **Google Chrome** | i test aprono Chrome da soli (passo 9) |
+| **Google Chrome** | i test aprono Chrome da soli (passi 9 e 11) |
 | **Claude Code** con accesso a **Claude Opus 4.8** | scrive le risposte ai prompt (passo 6); consuma i crediti dell'account |
 | Un browser qualsiasi | per scaricare il progetto da GitHub |
 
@@ -134,9 +134,21 @@ strategie) e, per ogni strategia, **successi**, **fragilità** e **stabilità**.
 Con pochi mutanti i numeri sono indicativi. Nella tesi, con tutti i mutanti, Absolute è la strategia più fragile e ROBULA+ la più
 robusta fra quelle che non usano gli attributi di test.
 
-### 11. Rifare da zero o cambiare applicazione — *utente*
+### 11. Generatore statico e confronto (facoltativo) — *utente*
+Il generatore statico non usa il modello: niente prompt e niente risposte da scrivere. Si può fare anche senza i passi 5-10.
+
+```powershell
+.\mutanti.ps1 flowboard statico             # genera i mutanti statici (cartella generazione-flowboard-statico)
+.\mutanti.ps1 flowboard esegui 20 statico   # li prova con i test (Chrome: non toccare mouse e tastiera)
+.\mutanti.ps1 flowboard confronta           # mette a confronto le due tecniche
+```
+
+Dopo `statico` si devono vedere 1.254 mutanti generati e 944 distinti per CineLib, 4.263 e 2.148 per FlowBoard; per CookBook la tesi
+ne ha 1.503 e li ha provati tutti (rigenerandoli ne escono 1.504). I dettagli sono al passo 11 di [`GUIDA-RIPRODUZIONE.md`](GUIDA-RIPRODUZIONE.md).
+
+### 12. Rifare da zero o cambiare applicazione — *utente*
 Per un'altra applicazione si ripete dal passo 5 con un altro nome. Per rifare la stessa si **cancella la cartella**
-`generazione-flowboard` e si riparte dal passo 5.
+`generazione-flowboard` (e `generazione-flowboard-statico`) e si riparte dal passo 5.
 
 ---
 
@@ -162,7 +174,7 @@ parte e dove finisce lo strumento, è in [`STRUMENTO.md`](STRUMENTO.md).
 | [`ext-test-classes/`](ext-test-classes), [`vintage-fix/`](vintage-fix) | classi di base dei test (con la preparazione di Chrome) e impostazione di JUnit |
 | [`custom-locators/`](custom-locators), [`hook-injector/`](hook-injector) | moduli ereditati dallo strumento originale (locatori ROBULA e ROBULA+; attributi di test, non usato) |
 | `pom.xml` | il progetto Maven che compila tutti i moduli |
-| `mutanti.ps1`, `esegui_mutanti.py`, `conta_mutanti.py`, `escludi_i_su_bersaglio.py` | **programma di controllo**: lancia generazione ed esecuzione e mostra i risultati (passi 5-9) |
+| `mutanti.ps1`, `esegui_mutanti.py`, `conta_mutanti.py`, `escludi_i_su_bersaglio.py`, `deduplica_statici.py`, `confronta_tecniche.py` | **programma di controllo**: lancia generazione ed esecuzione e mostra i risultati (passi 5-11) |
 | `installa.bat`, `installa.ps1`, `terminale.bat`, `ambiente.ps1`, `configura_percorsi.ps1` | installazione e terminale (passi 3-4) |
 
 ### INGRESSO (descrive un'applicazione allo strumento)
@@ -177,7 +189,7 @@ parte e dove finisce lo strumento, è in [`STRUMENTO.md`](STRUMENTO.md).
 
 | Cartella | Contenuto |
 |---|---|
-| `generazione-<applicazione>/` | prompt, risposte, database `mutations.db` ed esiti di **una** generazione (la crea `mutanti.ps1`; non è versionata) |
+| `generazione-<applicazione>/`, `generazione-<applicazione>-statico/` | prompt, risposte, database `mutations.db` ed esiti di **una** generazione (la crea `mutanti.ps1`; non è versionata) |
 
 ### DATI E RISULTATI DELLA TESI (non sono lo strumento)
 

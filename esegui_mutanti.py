@@ -63,12 +63,13 @@ def esci(msg):
 ap = argparse.ArgumentParser(description="Esegue i test su un campione di mutanti di una generazione.")
 ap.add_argument("app", choices=sorted(APPS))
 ap.add_argument("--quanti", type=int, default=20, help="numero di mutanti da provare (default 20)")
+ap.add_argument("--tecnica", choices=["llm", "statico"], default="llm", help="quale generazione provare: con il modello (default) o con il generatore statico")
 ap.add_argument("--gruppo", help="un solo gruppo di test (default: quello con piu' mutanti)")
 ap.add_argument("--tutti-i-gruppi", action="store_true", help="campione su tutti i gruppi (piu' lento: un avvio del server per gruppo)")
 args = ap.parse_args()
 A = APPS[args.app]
 
-CAMP = os.path.join(SUITE, f"generazione-{args.app}")
+CAMP = os.path.join(SUITE, f"generazione-{args.app}" + ("-statico" if args.tecnica == "statico" else ""))
 DB = os.path.join(CAMP, "mutations.db")
 OUT = os.path.join(CAMP, "output", "tests")
 CFG = os.path.join(SUITE, A["config"])
@@ -76,12 +77,12 @@ TDBASE = os.path.join(SUITE, A["tesi"])
 GROUP_TD = {g: os.path.join(TDBASE, f"td-{g}") for g in A["ordine"]}
 
 if not os.path.exists(DB):
-    esci(f"non trovo {DB}. Prima si prepara e si completa la generazione (prompt, modello, completa).")
+    esci(f"non trovo {DB}. Prima si prepara la generazione: " + (".\\mutanti.ps1 " + args.app + " statico" if args.tecnica == "statico" else "prompt, modello e completa") + ".")
 con = sqlite3.connect(DB)
 n_mut = con.execute("select count(*) from mutations").fetchone()[0]
 con.close()
 if n_mut == 0:
-    esci("il database e' vuoto: fai prima  .\\mutanti.ps1 " + args.app + " completa")
+    esci("il database e' vuoto: fai prima  .\\mutanti.ps1 " + args.app + (" statico" if args.tecnica == "statico" else " completa"))
 if not os.path.exists(CFG):
     esci(f"manca {CFG}")
 cfg = json.load(open(CFG, encoding="utf-8"))
@@ -404,7 +405,7 @@ for blocchi, k in tutti_i_blocchi:
         dettaglio.append((b[0]["Name"], b[0]["Id"], "non compila" if non_compila(b) else "compila"))
 
 righe = []
-righe.append(f"RISULTATI - {args.app} - {mutanti_provati} mutanti provati (campione casuale, seme {SEME})")
+righe.append(f"RISULTATI - {args.app} ({'generatore statico' if args.tecnica == 'statico' else 'generatore con LLM'}) - {mutanti_provati} mutanti provati (campione casuale, seme {SEME})")
 righe.append(f"  Mutanti che compilano (validi): {mutanti_provati - mutanti_nc}   |   non compilati: {mutanti_nc}")
 testabili = unita_totali - sum(1 for blocchi, k in tutti_i_blocchi for b in blocchi if non_compila(b) for _ in unita_di(b, k))
 righe.append(f"  Prove sprecate (falliscono con tutte le strategie): {unita_obs} su {testabili} provate"
@@ -421,6 +422,10 @@ righe.append("  Con pochi mutanti i numeri sono solo indicativi: la tesi usa tut
 righe.append(f"  File: {OUT}")
 testo = "\n".join(righe)
 print("\n" + testo, flush=True)
+with open(os.path.join(OUT, "riepilogo.json"), "w", encoding="utf-8") as fh:
+    json.dump({"app": args.app, "tecnica": args.tecnica, "provati": mutanti_provati, "validi": mutanti_provati - mutanti_nc,
+               "non_compilati": mutanti_nc, "prove_valutabili": testabili, "prove_sprecate": unita_obs, "strategie": tot},
+              fh, ensure_ascii=False, indent=1)
 with open(os.path.join(OUT, "riepilogo.txt"), "w", encoding="utf-8") as fh:
     fh.write(testo + "\n")
 with open(os.path.join(OUT, "mutanti-provati.csv"), "w", encoding="utf-8", newline="") as fh:
