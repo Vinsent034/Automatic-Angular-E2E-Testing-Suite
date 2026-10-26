@@ -1,171 +1,156 @@
 # Automatic Angular E2E Testing Suite
-Uno strumento di automazione per creare e collaudare mutazioni dei file HTML di progetti Angular. Semplifica il testing End-to-End (E2E): genera mutazioni mirate e le verifica eseguendo i test dell'applicazione.
+
+Strumento che genera **mutanti** dell'interfaccia di applicazioni Angular (copie dei template con una sola modifica) e li usa
+per misurare quanto sono fragili i locatori dei test End-to-End. Questa versione estende lo strumento di S. Liberti con un
+**generatore di mutanti basato su un modello linguistico (LLM)** ed è il materiale software della tesi *Generazione di mutanti
+per applicazioni web template-based mediante modelli linguistici di grandi dimensioni* (V. Di Carluccio, Università degli Studi
+di Napoli Federico II, A.A. 2025–2026).
+
+Qui sotto ci sono, **passo per passo**, le operazioni per **scaricare** il progetto, **creare i mutanti** di una delle tre
+applicazioni (CineLib, FlowBoard, CookBook) ed **eseguirli** con i test. Per ogni passo si indica **chi lo fa**: l'**utente**
+o il **modello**. La versione più dettagliata, con "cosa devi vedere" e gli errori comuni, è in
+**[`GUIDA-RIPRODUZIONE.md`](GUIDA-RIPRODUZIONE.md)**.
 
 ---
 
-## Questa versione del progetto
+## Requisiti
 
-Questo repository estende lo strumento originale sviluppato da S. Liberti con un **secondo
-generatore di mutanti basato su modelli linguistici di grandi dimensioni (LLM)** e con le
-campagne sperimentali che lo valutano. È il materiale software della tesi *Generazione di
-mutanti per applicazioni web template-based mediante modelli linguistici di grandi dimensioni*
-(V. Di Carluccio, Università degli Studi di Napoli Federico II, A.A. 2025–2026).
+| Cosa | Perché |
+|---|---|
+| **Windows 10 o 11** | gli script sono per Windows |
+| **Internet** e circa **2 GB liberi** | si scaricano gli strumenti (circa 1,5 GB) e il driver di Chrome |
+| **Google Chrome** | i test aprono Chrome da soli (passo 9) |
+| **Claude Code** con accesso a **Claude Opus 4.8** | scrive le risposte ai prompt (passo 6); consuma i crediti dell'account |
+| Un browser qualsiasi | per scaricare il progetto da GitHub |
 
-**Che cosa è stato aggiunto**
+**Non servono:** permessi di amministratore, Git, Java, Maven, Node, Python, né estensioni di Chrome. Java, Maven, Node e Python
+li scarica da solo il passo 3, dentro la cartella del progetto, senza toccare il resto del computer.
 
-- **`llm-generator`** — generazione dei mutanti affidata a un modello linguistico e legata allo
-  schema di 11 operatori di mutazione × 5 ruoli strutturali, così che ogni mutante appartenga a
-  una categoria precisa. Modalità: API diretta, scrittura dei prompt (dump), acquisizione delle
-  risposte (ingest) e simulazione (dry run). Gli operatori f, g e h, che sono semplici
-  spostamenti, sono generati da programma. I duplicati vengono scartati durante l'acquisizione.
-- **`MutationPorter`** (in `common`) — esportazione e reimportazione dei mutanti come file di
-  testo leggibili, per consultarli e modificarli fuori dal database.
-- **[`applicazioni-soggetto/`](applicazioni-soggetto)** — le tre applicazioni Angular create per
-  l'esperimento (CineLib, FlowBoard, CookBook), progettate perché si possano usare tutti gli
-  undici operatori e tutti e cinque i ruoli.
-- **[`mutazioni-generate/`](mutazioni-generate)** — gli **8 978 mutanti** delle sei campagne,
-  esportati in forma leggibile e consultabili direttamente qui.
-- **[`GUIDA-RIPRODUZIONE.md`](GUIDA-RIPRODUZIONE.md)** — **da dove cominciare**: installazione con un doppio clic
-  (`installa.bat`), generazione dei mutanti di CineLib, FlowBoard o CookBook (`mutanti.ps1`) ed esecuzione dei test con le
-  sette strategie, passo per passo. Dice chi fa che cosa: l'utente lancia i comandi, lo strumento fa il lavoro meccanico, il
-  modello linguistico scrive solo le risposte ai prompt. **Requisiti:** Windows 10 o 11, internet, circa 2 GB liberi,
-  Google Chrome e Claude Code con accesso a Claude Opus 4.8; non serve installare altro.
-- **[`RIPRODURRE-LE-CAMPAGNE.md`](RIPRODURRE-LE-CAMPAGNE.md)** — guida passo passo per rigenerare
-  i mutanti, rieseguire i test con le sette strategie di localizzazione e ricalcolare le misure.
-  I prompt e le risposte del modello usati nella tesi sono conservati nelle cartelle delle
-  campagne, quindi i mutanti linguistici si possono ricostruire senza interrogare di nuovo il
-  modello.
+## Chi fa che cosa
 
-**Risultato principale** — su tutte e tre le applicazioni il generatore linguistico ha prodotto
-una quota di mutanti validi più alta di quello statico (88,0–95,6% contro 72,9–82,3%, cioè da
-11,7 a 18,1 punti percentuali in più) e molte meno esecuzioni che non danno informazioni
-(1,3–2,8% contro 10,2–24,1%). La classifica di robustezza è stabile agli estremi: i locatori
-assoluti sono sempre i più fragili, ROBULA+ il più robusto fra le strategie che non usano gli
-attributi di test.
+| Chi | Che cosa |
+|---|---|
+| **Utente** | scarica il progetto, apre `installa.bat` e `terminale.bat`, scrive i comandi |
+| **Lo strumento** | prepara i prompt, controlla le risposte, salva i mutanti, esegue i test, mostra i risultati |
+| **Modello** (Claude Opus 4.8) | **una cosa sola** (passo 6): legge un prompt e scrive la modifica dell'elemento |
 
-| Campagna | Applicazione | Tecnica | Mutanti | Validi | Cartella della campagna |
-|---|---|---|---|---|---|
-| [`cinelib-llm`](mutazioni-generate/cinelib-llm) | CineLib | linguistica | 944 | 831 | `cinelib-v2-run/` |
-| [`cinelib-static`](mutazioni-generate/cinelib-static) | CineLib | statica | 944 | 688 | `cinelib-v2-static-run/` |
-| [`flowboard-llm`](mutazioni-generate/flowboard-llm) | FlowBoard | linguistica | 1 559 | 1 491 | `flowboard-v2-run/` |
-| [`flowboard-static`](mutazioni-generate/flowboard-static) | FlowBoard | statica | 2 148 | 1 664 | `flowboard-v2-static-run/` |
-| [`cookbook-llm`](mutazioni-generate/cookbook-llm) | CookBook | linguistica | 1 929 | 1 813 | `cookbook-run/` |
-| [`cookbook-static`](mutazioni-generate/cookbook-static) | CookBook | statica | 1 454 | 1 197 | `cookbook-static-run/` |
-
-Per la tecnica statica sono contati solo i mutanti distinti (vedi
-`mutazioni-generate/README.md`). Le cartelle `cinelib-static-run/`, `flowboard-run/`,
-`flowboard-static-run/` e `output/` contengono campagne precedenti (luglio 2026, versione
-precedente delle applicazioni): sono conservate solo come storico e non sono usate nei
-risultati della tesi.
-
-La documentazione originale che segue vale ancora per le parti comuni dello strumento.
+Il modello non installa, non lancia comandi, non sceglie quali elementi o operatori mutare (è già scritto nel prompt) e non scrive
+nel database. Tutto il resto lo fa l'utente con i comandi.
 
 ---
 
-## Struttura del progetto
-Il progetto è diviso in moduli:
-```txt
-(radice)
-├── 📁 custom-locators       // Modulo per creare i locatori che Katalon/Selenium non forniscono
-├── 📁 hook-injector         // Modulo per aggiungere attributi (hook) all'applicazione sotto test
-├── 📁 mutation-generator
-|   ├── 📁 common            // Logica e servizi comuni
-|   ├── 📁 llm-generator     // Generatore di mutazioni tramite prompt a un LLM
-|   └── 📁 static-generator  // Generatore di mutazioni con regole statiche
-├── 📁 mutation-tester       // Modulo che esegue i test automatici sulle mutazioni generate
-├── 📁 applicazioni-soggetto // Le tre applicazioni soggetto (CineLib, FlowBoard, CookBook)
-├── 📁 mutazioni-generate    // Gli 8 978 mutanti delle sei campagne, in forma leggibile
-├── generator-config.json    // File di configurazione principale
-└── pom.xml                  // Modulo Maven principale
+## I passi
+
+> I comandi si scrivono nella finestra nera aperta con `terminale.bat`, **su una sola riga**, seguiti da Invio.
+> Negli esempi c'è FlowBoard: per un'altra applicazione si scrive `cinelib` o `cookbook`.
+
+### 1. Scaricare il progetto — *utente*
+1. Apri **`https://github.com/Vinsent034/Automatic-Angular-E2E-Testing-Suite`** nel browser.
+2. Clicca il pulsante verde **`<> Code`** e poi **`Download ZIP`**. Il file `Automatic-Angular-E2E-Testing-Suite-master.zip`
+   finisce di solito nella cartella **Download**.
+
+### 2. Estrarre lo ZIP — *utente*
+1. In Esplora file: clic destro sullo ZIP → **`Estrai tutto…`** → **`Sfoglia…`** → scegli il **Desktop** → **`Estrai`**.
+2. Entra nella cartella finché non vedi insieme `installa.bat`, `terminale.bat`, `mutanti.ps1` e `README.md`: è la **cartella principale**.
+
+**Non avviare nulla da dentro lo ZIP** (Windows lo estrarrebbe in una cartella temporanea): `installa.bat` si ferma con un avviso.
+Dopo il passo 3 **non spostare** più la cartella.
+
+### 3. Installare gli strumenti, una volta sola — *utente avvia, lo strumento installa*
+Doppio clic su **`installa.bat`**. Si apre una finestra nera: non chiuderla. Scarica Java, Maven, Node e Python portatili in una
+cartella `strumenti`, compila lo strumento e prepara le tre applicazioni (fasi da `1/5` a `5/5`, **20–60 minuti**; l'ultima può
+restare ferma diversi minuti). **Fine:** compare in verde `Tutto pronto.` Premi un tasto.
+
+### 4. Aprire il terminale giusto — *utente*
+Doppio clic su **`terminale.bat`**. Deve comparire in verde `Strumenti portatili attivi (Java 25, Maven, Node, Python).` e un prompt
+`PS C:\...`. Tutti i comandi seguenti si scrivono **in questa finestra**.
+
+### 5. Scegliere l'applicazione e preparare i prompt — *utente scrive, lo strumento prepara*
+```powershell
+.\mutanti.ps1 flowboard prompt
 ```
+Crea la cartella `generazione-flowboard` con un prompt per ogni elemento da mutare e il file di istruzioni per il modello. **Non crea
+ancora nessun mutante.**
 
-## Per iniziare
-> **Per generare i mutanti delle tre applicazioni della tesi si parte da [`GUIDA-RIPRODUZIONE.md`](GUIDA-RIPRODUZIONE.md).**
-> Questa sezione descrive invece il flusso originale dello strumento, con il generatore statico.
+| Applicazione | Prompt | `Applicable` (blocchi) |
+|---|---|---|
+| CineLib (`cinelib`) | 171 | 1057 |
+| FlowBoard (`flowboard`) | 590 | 3425 |
+| CookBook (`cookbook`) | 215 | 1426 |
 
-### Prerequisiti
-- [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/downloads/)
-- [Maven](https://maven.apache.org/download.cgi)
-- Progetto da testare: un progetto front-end basato su [Angular](https://angular.dev/).
+### 6. Far scrivere le risposte al modello — *utente avvia, modello scrive*
+1. *(utente)* Apri **Claude Code**, nuova sessione, con cartella di lavoro `generazione-flowboard` (quella creata al passo 5).
+2. *(utente)* Imposta il modello **Claude Opus 4.8**.
+3. *(utente)* Scrivi e invia: `Leggi il file ISTRUZIONI-OPUS-4.8.md in questa cartella ed eseguilo.`
+   Per una **prova breve** aggiungi: `Fai solo i primi 20 blocchi.` (la generazione completa dura molto e consuma molti crediti).
+4. *(modello)* Legge i prompt uno alla volta e scrive le risposte in `generazione-flowboard\output\mutations\role-ingest\`, più il
+   file `_registro.txt`. *(utente)* Concedi i permessi di scrittura e aspetta che finisca.
+5. *(utente)* Apri `_registro.txt`: la prima riga deve riportare `Claude Opus 4.8`.
 
-### Release
-Lo strumento si può usare compilandolo dai sorgenti oppure con i file già compilati.
-Per saltare la compilazione si possono scaricare i file .jar pronti dalla sezione Releases di questo repository. Dopo averli scaricati, si mettono i file `.jar` nella radice del progetto e si passa direttamente a configurazione ed esecuzione.
-
-### Configurazione
-Per cominciare si configura il file `generator-config.json`.
-
-**Parametri di configurazione**
-- `seed`: (facoltativo) seme usato per inizializzare il [RandomSelector](https://github.com/sim-liberti/Automatic-Angular-E2E-Testing-Suite/blob/master/mutation-generator/common/src/main/java/org/unina/util/RandomSelector.java), così che i risultati siano riproducibili. Lasciarlo vuoto per un'esecuzione casuale.
-- `repositoryRootPath`: percorso assoluto del progetto Angular da mutare.
-- `npmRunCommand`: comando con cui si avvia l'applicazione Angular (per esempio `npm run dev`).
-- `mutations`: elenco di oggetti che definiscono le regole di mutazione.
-  - `name`: nome della mutazione.
-  - `file_path`: percorso assoluto del file che contiene il tag da mutare.
-  - `target_matcher`: oggetto che serve a trovare il tag da mutare nel file indicato sopra.
-    - `type`: tipo di ricerca da usare: `class`, `text`, `id` oppure `attribute`.
-    - `key`: nome dell'attributo dell'elemento bersaglio. Serve solo con il tipo `attribute`.
-    - `value`: valore della classe, del testo, dell'id o dell'attributo dell'elemento bersaglio.
-
-> **NOTA:** tutti i comandi di questa guida vanno eseguiti dalla radice del progetto, indicata come (radice).
-
-### Generare le mutazioni
-Con la configurazione pronta, si compila il modulo generatore e poi lo si esegue. Chi ha scaricato il file .jar già compilato passa direttamente al passo 2.
-
-**Passo 1: compilare il modulo**
-
-Il comando Maven seguente compila solo il modulo static-generator e le sue dipendenze:
-```bash
-mvn clean install -pl :static-generator -am
+### 7. Salvare i mutanti — *utente scrive, lo strumento salva*
+```powershell
+.\mutanti.ps1 flowboard completa
 ```
-Al termine, il file compilato si trova in `(radice)/mutation-generator/static-generator/target/static-generator-1.0.0-jar-with-dependencies.jar`. Copiarlo nella radice del progetto.
+Produce gli operatori h, f e g da programma, legge le risposte del modello e salva tutto nel database. **Fine:** `Mutanti nel database: N`.
 
-**Passo 2: eseguire il generatore**
+| Applicazione | h | f + g | N con **tutte** le risposte del modello |
+|---|---|---|---|
+| CineLib | 107 | 171 | 944 |
+| FlowBoard | 176 | 302 | 1.559 |
+| CookBook | 202 | 349 | 1.939 (1.929 con `.\mutanti.ps1 cookbook escludi-i`) |
 
-Dopo averlo scaricato o compilato, si esegue il file .jar con:
-```bash
-java -jar static-generator.jar
+h e f + g non cambiano con una prova breve; cambia solo il totale. Non rilanciare `completa` sulla stessa applicazione: lo script rifiuta.
+
+### 8. Guardare i mutanti (facoltativo) — *utente*
+```powershell
+.\mutanti.ps1 flowboard esporta
 ```
-_Nota: se il file è stato compilato, usare `static-generator-1.0.0-jar-with-dependencies.jar`._
+Crea `generazione-flowboard\esporta` con un file `.mut` per mutante, apribile con il Blocco note: il template HTML con **una sola modifica**.
 
-Nella radice del progetto viene creato un file `mutations.db`. È il database che conserva tutte le mutazioni, con nome, tipo, identificativo e percorso del file coinvolto.
-
-Per il generatore linguistico (dump, risposte del modello, operatori f/g/h e acquisizione) vedi [`RIPRODURRE-LE-CAMPAGNE.md`](RIPRODURRE-LE-CAMPAGNE.md).
-
-### Collaudare l'applicazione
-Con la configurazione e le mutazioni pronte, si compila il modulo che esegue i test. Chi ha scaricato il file .jar già compilato passa direttamente al passo 2.
-
-**Requisiti:**
-- **Compilazione:** tutte le classi di test, comprese le classi base e le dipendenze, devono essere compilate;
-- **Framework:** i test devono essere scritti con **JUnit**;
-- **Dipendenze:** tutte le classi necessarie devono essere presenti nel classpath.
-
-**Passo 1: compilare il modulo**
-
-Il comando Maven seguente compila solo il modulo mutation-tester e le sue dipendenze:
-```bash
-mvn clean install -pl :mutation-tester -am
+### 9. Eseguire i mutanti con i test — *utente scrive, lo strumento esegue*
+```powershell
+.\mutanti.ps1 flowboard esegui 20
 ```
-Al termine, il file compilato si trova in `(radice)/mutation-tester/target/mutation-tester-1.0.0-jar-with-dependencies.jar`. Copiarlo nella radice del progetto.
+Prova 20 mutanti (campione casuale con seme fisso, quindi sempre gli stessi) con i test delle **sette strategie** di localizzazione
+(Absolute, Relative, ROBULA, ROBULA+, Selenium, Katalon, Hook-Based). Si aprono finestre di Chrome da sole: **non toccare mouse e
+tastiera**. Per ogni mutante lo strumento lo inserisce nell'applicazione, aspetta la ricompilazione, esegue i test e **rimette il
+template originale**. Servono circa **5–10 minuti** per 20 mutanti.
 
-**Passo 2: eseguire il tester**
+### 10. Leggere i risultati — *utente*
+Alla fine compare una tabella: mutanti che **compilano** (validi) e **non compilati**, **prove sprecate** (falliscono con tutte le
+strategie) e, per ogni strategia, **successi**, **fragilità** e **stabilità**. I file sono in `generazione-flowboard\output\tests\`:
 
-Dopo averlo scaricato o compilato, si esegue il file .jar con:
-```bash
-java -jar mutation-tester.jar -td "percorso/delle/classi/di/test/compilate"
-```
-_Nota: se il file è stato compilato, usare `mutation-tester-1.0.0-jar-with-dependencies.jar`._
+| File | Contenuto |
+|---|---|
+| `riepilogo.txt` | la tabella finale |
+| `mutanti-provati.csv` | per ogni mutante, se compila o no |
+| `batches-<gruppo>.csv` | il dettaglio di ogni prova (`PASSED`, `FAILED`, `NOT_APPLICABLE`) |
 
-**Risultati dei test**
+Con pochi mutanti i numeri sono indicativi. Nella tesi, con tutti i mutanti, Absolute è la strategia più fragile e ROBULA+ la più
+robusta fra quelle che non usano gli attributi di test.
 
-Al termine, nella cartella di output vengono creati due file:
-- `stats.csv`: risultati raggruppati per classe di test (fragilità, obsolescenza e test saltati);
-- `batches.csv`: registro dettagliato di ogni esecuzione, con esiti e messaggi di errore.
+### 11. Rifare da zero o cambiare applicazione — *utente*
+Per un'altra applicazione si ripete dal passo 5 con un altro nome. Per rifare la stessa si **cancella la cartella**
+`generazione-flowboard` e si riparte dal passo 5.
 
-### Moduli secondari
-Per l'uso avanzato dei locatori personalizzati o dell'aggiunta degli hook, vedi la documentazione dei singoli moduli:
-- [Documentazione di Custom Locators](custom-locators/README.md)
-- [Documentazione di Hook Injector](hook-injector/README.md)
+---
 
-## Test sull'applicazione Angular-Spotify (lavoro precedente)
-Per configurare l'applicazione [Angular-Spotify](https://github.com/trungvose/angular-spotify) e ripetere i risultati del lavoro precedente contenuti nella cartella test-suite, vedi il relativo [file readme](test-suite/AnuglarSpotifyTests.md).
+## Se qualcosa non va
+La tabella degli errori con i messaggi esatti e i rimedi è in fondo a [`GUIDA-RIPRODUZIONE.md`](GUIDA-RIPRODUZIONE.md).
+
+## Risultati della tesi
+Su tutte e tre le applicazioni il generatore con LLM ha prodotto una quota di mutanti validi più alta di quello statico
+(88,0–95,6% contro 72,9–82,3%, cioè da 11,7 a 18,1 punti percentuali in più) e molte meno prove sprecate (1,3–2,8% contro
+10,2–24,1%). Gli **8.978 mutanti** delle sei campagne sono consultabili in [`mutazioni-generate/`](mutazioni-generate).
+
+## Contenuto del repository
+
+| Cartella o file | Contenuto |
+|---|---|
+| [`applicazioni-soggetto/`](applicazioni-soggetto) | le tre applicazioni Angular (CineLib, FlowBoard, CookBook) |
+| [`mutation-generator/`](mutation-generator) | i due generatori: `llm-generator` (con LLM) e `static-generator` (regole fisse), più il codice comune |
+| [`mutation-tester/`](mutation-tester), [`ext-test-classes/`](ext-test-classes) | l'esecuzione dei test sui mutanti |
+| [`mutazioni-generate/`](mutazioni-generate) | gli 8.978 mutanti delle campagne, in forma leggibile |
+| [`RIPRODURRE-LE-CAMPAGNE.md`](RIPRODURRE-LE-CAMPAGNE.md) | come rifare le campagne complete della tesi (tutti i mutanti) |
+| [`README-STRUMENTO-ORIGINALE.md`](README-STRUMENTO-ORIGINALE.md) | la documentazione dello strumento originale (flusso con il generatore statico) |
+| [`CLAUDE.md`](CLAUDE.md) | istruzioni per il modello e preparazione di un'applicazione nuova |
