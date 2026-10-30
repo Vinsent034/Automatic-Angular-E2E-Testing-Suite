@@ -129,6 +129,8 @@ e sotto una riga che inizia con **`PS C:\Users\...`** e finisce con il nome dell
 
 ## Passo 5 — Scegliere l'applicazione e preparare i prompt (utente)
 
+In questo lavoro sono state implementate solo 3 applicazioni: `cinelib`, `flowboard`, `cookbook`.
+
 Nella finestra del passo 4 scrivi **uno** di questi comandi, a seconda dell'applicazione scelta, e premi Invio:
 
 ```powershell
@@ -238,6 +240,11 @@ Qui si inserisce un mutante alla volta nell'applicazione e si eseguono i test co
 Il numero (20) è quanti mutanti provare. Se lo ometti sono 20. Sono scelti a caso con un **seme fisso**, quindi sono sempre gli
 stessi. Più mutanti vuol dire più tempo (circa **13–20 secondi a mutante**, misurati nelle campagne della tesi).
 
+**Quali mutanti prova.** Di base il campione è scelto dentro **un solo gruppo di test**, quello con più mutanti (un solo avvio
+del server, quindi più veloce). Per sceglierlo fra **tutti** i gruppi si aggiunge la parola `tutti` dopo la tecnica:
+`.\mutanti.ps1 <nome-applicazione> esegui 20 llm tutti`. Per provare **tutti** i mutanti: un numero grande più `tutti`
+(per esempio `esegui 99999 llm tutti`; richiede ore). I gruppi e i test sono descritti in [`TEST.md`](TEST.md).
+
 3. Cosa succede, da solo, per ogni gruppo di test:
    - lo script scrive `applicazione X: N mutanti nel database; ne provo 20 …`;
    - avvia l'applicazione una prima volta per "scaldarla" (`avvio di prova … pronto in … s`: **può durare un paio di minuti**);
@@ -346,6 +353,8 @@ Con pochi mutanti i numeri sono solo indicativi.
 ---
 
 ## Se qualcosa non va
+
+**Se i file `.bat` non partono** (bloccati da Windows, dall'antivirus o da una regola del PC), usa la versione senza `.bat`: [`GUIDA-SENZA-BAT.md`](GUIDA-SENZA-BAT.md).
 
 | Cosa vedi | Cosa fare |
 |---|---|
