@@ -4,7 +4,7 @@
 
 $strumenti = Join-Path $PSScriptRoot "strumenti"
 if (-not (Test-Path $strumenti)) {
-    Write-Host "Manca la cartella strumenti: lancia prima installa.bat" -ForegroundColor Yellow
+    Write-Host "Manca la cartella strumenti: lancia prima installa.bat (oppure installa.ps1)" -ForegroundColor Yellow
     return
 }
 $env:JAVA_HOME = Join-Path $strumenti "jdk"

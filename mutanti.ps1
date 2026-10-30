@@ -13,6 +13,11 @@
 #   .\mutanti.ps1 <applicazione> esegui 20 statico  8. fa girare i test su 20 mutanti statici
 #   .\mutanti.ps1 <applicazione> confronta          9. mette a confronto le due tecniche (serve almeno una delle due generate)
 #
+# esegui prova di base i mutanti di UN gruppo di test (quello con piu' mutanti: un solo avvio del server).
+# Per scegliere il campione fra TUTTI i gruppi si aggiunge la parola tutti, dopo la tecnica:
+#   .\mutanti.ps1 <applicazione> esegui 20 llm tutti      oppure   ... esegui 20 statico tutti
+# Per provare tutti i mutanti: un numero grande (es. 99999) piu' tutti.
+#
 # Applicazioni: cinelib, flowboard, cookbook. Ogni fase parte da impostazioni pulite, quindi
 # non dipende da cio' che e' rimasto nella finestra dalle volte prima.
 # Per rifare una campagna da zero basta cancellare la cartella generazione-<applicazione> (o generazione-<applicazione>-statico).
@@ -21,7 +26,8 @@ param(
     [Parameter(Mandatory = $true, Position = 0)][string]$App,
     [Parameter(Mandatory = $true, Position = 1)][ValidateSet("prompt", "completa", "esporta", "escludi-i", "esegui", "statico", "confronta")][string]$Fase,
     [Parameter(Position = 2)][int]$Quanti = 20,
-    [Parameter(Position = 3)][ValidateSet("llm", "statico")][string]$Tecnica = "llm"
+    [Parameter(Position = 3)][ValidateSet("llm", "statico")][string]$Tecnica = "llm",
+    [Parameter(Position = 4)][ValidateSet("un-gruppo", "tutti")][string]$Gruppi = "un-gruppo"
 )
 
 $Radice = $PSScriptRoot
@@ -41,7 +47,7 @@ switch ($app) {
 foreach ($f in @($bersagli, $config)) {
     if (-not (Test-Path (Join-Path $Radice $f))) { Write-Host "Manca il file $f nella cartella principale." -ForegroundColor Red; return }
 }
-if (-not (Test-Path $global:LLMJAR)) { Write-Host "Manca lo strumento compilato: lancia prima installa.bat" -ForegroundColor Red; return }
+if (-not (Test-Path $global:LLMJAR)) { Write-Host "Manca lo strumento compilato: lancia prima installa.bat (oppure installa.ps1)" -ForegroundColor Red; return }
 
 $STATJAR = Join-Path $Radice "mutation-generator\static-generator\target\static-generator-1.0.0-jar-with-dependencies.jar"
 $statico = ($Fase -eq "statico") -or ($Fase -eq "esegui" -and $Tecnica -eq "statico")
@@ -115,7 +121,7 @@ try {
     elseif ($Fase -eq "statico") {
         $cfgStatico = "generator-config-$app-static.json"
         if (-not (Test-Path (Join-Path $Radice $cfgStatico))) { Write-Host "Per $app non c'e' il file $cfgStatico." -ForegroundColor Red; return }
-        if (-not (Test-Path $STATJAR)) { Write-Host "Manca il generatore statico compilato: lancia prima installa.bat" -ForegroundColor Red; return }
+        if (-not (Test-Path $STATJAR)) { Write-Host "Manca il generatore statico compilato: lancia prima installa.bat (oppure installa.ps1)" -ForegroundColor Red; return }
         $gia = ContaMutanti
         if ($gia -gt 0) {
             Write-Host "Nel database ci sono gia' $gia mutanti statici: rilanciare il generatore ne aggiungerebbe di doppi." -ForegroundColor Red
@@ -157,7 +163,9 @@ try {
         }
         $chrome = @("$env:ProgramFiles\Google\Chrome\Application\chrome.exe", "${env:ProgramFiles(x86)}\Google\Chrome\Application\chrome.exe", "$env:LOCALAPPDATA\Google\Chrome\Application\chrome.exe") | Where-Object { Test-Path $_ }
         if (-not $chrome) { Write-Host "Google Chrome non trovato: serve per eseguire i test. Si scarica da https://www.google.com/chrome/" -ForegroundColor Red; return }
-        & python (Join-Path $Radice "esegui_mutanti.py") $app --quanti $Quanti --tecnica $Tecnica
+        $argomenti = @($app, "--quanti", $Quanti, "--tecnica", $Tecnica)
+        if ($Gruppi -eq "tutti") { $argomenti += "--tutti-i-gruppi" }
+        & python (Join-Path $Radice "esegui_mutanti.py") @argomenti
     }
     else {
         if (-not (Test-Path $db)) { Write-Host "Non c'e' ancora un database in ${campagna}: fai prima 'prompt' e 'completa'." -ForegroundColor Red; return }

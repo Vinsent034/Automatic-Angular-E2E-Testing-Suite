@@ -92,9 +92,9 @@ m = re.search(r"--port\s+(\d+)", NPM)
 PORT = int(m.group(1)) if m else 4200
 APPSRC = os.path.join(APPROOT, "src", "app")
 if not os.path.isdir(APPSRC):
-    esci(f"non trovo l'applicazione in {APPROOT}. Hai spostato la cartella dopo installa.bat? Rilancia installa.bat.")
+    esci(f"non trovo l'applicazione in {APPROOT}. Hai spostato la cartella dopo installa.bat (oppure installa.ps1)? Rilancia installa.bat (oppure installa.ps1).")
 if not os.path.isdir(os.path.join(APPROOT, "node_modules")):
-    esci("mancano le dipendenze dell'applicazione (node_modules): rilancia installa.bat.")
+    esci("mancano le dipendenze dell'applicazione (node_modules): rilancia installa.bat (oppure installa.ps1).")
 
 JAVA = None
 for cand in (os.path.join(os.environ.get("JAVA_HOME", ""), "bin", "java.exe"),
@@ -103,14 +103,14 @@ for cand in (os.path.join(os.environ.get("JAVA_HOME", ""), "bin", "java.exe"),
         JAVA = cand
         break
 if JAVA is None:
-    esci("non trovo Java: apri il terminale con terminale.bat (o lancia installa.bat).")
+    esci("non trovo Java: apri il terminale con terminale.bat (o lancia installa.bat (oppure installa.ps1)).")
 JAR = os.path.join(SUITE, "mutation-tester", "target", "mutation-tester-1.0.0-jar-with-dependencies.jar")
 if not os.path.exists(JAR):
-    esci("manca lo strumento compilato (mutation-tester): lancia installa.bat.")
+    esci("manca lo strumento compilato (mutation-tester): lancia installa.bat (oppure installa.ps1).")
 VINTAGE = os.path.join(SUITE, "vintage-fix")
 DRIVER_SRC = os.path.join(SUITE, "ext-test-classes", "target", "classes", "org", "ext", "WebDriverFactory.class")
 if not os.path.exists(DRIVER_SRC) or b"selenium.profile" not in open(DRIVER_SRC, "rb").read():
-    esci("la classe del driver di Chrome non e' aggiornata: rilancia installa.bat (ricompila lo strumento).")
+    esci("la classe del driver di Chrome non e' aggiornata: rilancia installa.bat (oppure installa.ps1) (ricompila lo strumento).")
 for g, td in GROUP_TD.items():
     if not os.path.isdir(td):
         esci(f"mancano i test compilati {td}")
